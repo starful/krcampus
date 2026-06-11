@@ -1,0 +1,211 @@
+{% extends "base.html" %}
+
+{# [수정] 헤더 숨김 처리 #}
+{% block header %}{% endblock %}
+
+{% block head_extra %}
+{% if faq_json_ld %}
+<script type="application/ld+json">{{ faq_json_ld|safe }}</script>
+{% endif %}
+{% endblock %}
+
+{% block content %}
+{# [수정] 상단 여백 축소 (40px) #}
+<main class="detail-container" style="margin-top: 40px;">
+
+    {# 뒤로가기 버튼 #}
+    <a href="{{ '/guide' if item_type == 'guide' else ('/universities' if item_type == 'university' else '/schools') }}?lang={{ current_lang }}" class="back-to-list-btn">
+        <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/></svg>
+        <span>{{ ui.back_to_list }}</span>
+    </a>
+
+    <div class="detail-header">
+        {% if item_type == 'guide' %}
+            <span class="detail-category">{{ item.get('category', 'Guide') }}</span>
+            <h1 class="detail-title">{{ item.get('title', 'Guide Detail') }}</h1>
+        {% else %}
+            <span class="detail-category">{{ ui.university if item_type == 'university' else ui.language_school }}</span>
+            <h1 class="detail-title">{{ item.get('title') or item.get('basic_info', {}).get('name_ja') or item.get('basic_info', {}).get('name_en') or item.get('basic_info', {}).get('name_ko') }}</h1>
+            <p style="color: var(--text-gray); display: flex; align-items: center; gap: 8px;">
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
+                {{ item.get('basic_info', {}).get('address', 'Address not available') }}
+            </p>
+        {% endif %}
+    </div>
+
+    {% if item_type == 'guide' and item.get('thumbnail') %}
+    <figure class="detail-guide-hero">
+        <img
+            src="{{ item.get('thumbnail') }}"
+            alt="{{ item.get('title', 'Guide thumbnail') }}"
+            loading="eager"
+            decoding="async"
+        >
+    </figure>
+    {% endif %}
+
+    {# 학교/대학 정보 그리드 #}
+    {% if item_type != 'guide' %}
+    <div class="info-grid">
+        <div class="info-item">
+            <div class="info-label">{{ ui.capacity }}</div>
+            <div class="info-value">{{ item.get('basic_info', {}).get('capacity') or 'N/A' }}</div>
+        </div>
+        <div class="info-item">
+            <div class="info-label">{{ ui.students }}</div>
+            <div class="info-value">{{ item.get('stats', {}).get('international_students') or 'N/A' }}</div>
+        </div>
+        <div class="info-item">
+            <div class="info-label">{{ ui.yearly_tuition }}</div>
+            <div class="info-value">
+                {% if item.get('tuition') and item.get('tuition').get('yearly_tuition') %}
+                    ¥{{ "{:,}".format(item.get('tuition').get('yearly_tuition')) }}
+                {% else %}
+                    TBD
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    {% endif %}
+
+    {# 본문 내용 #}
+    <div class="detail-content">{{ content_body | safe }}</div>
+
+    <div class="detail-cta-panel">
+        <a href="/guide?lang={{ current_lang }}" class="detail-cta-btn" data-track="detail_cta" data-track-label="related_guides">
+            <i class="fa-solid fa-compass"></i>
+            <span>{{ ui.see_related_guides }}</span>
+        </a>
+        <a href="/contact?lang={{ current_lang }}" class="detail-cta-btn" data-track="detail_cta" data-track-label="contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>{{ ui.contact_us }}</span>
+        </a>
+    </div>
+
+    {% if related_schools %}
+    <div class="section-header" style="margin-top: 56px;">
+        <h2 class="section-title">{{ ui.related_schools }}</h2>
+    </div>
+    <div class="card-grid">
+        {% for school in related_schools %}
+        <a href="{{ school.link }}" class="card" data-track="related_school" data-track-label="{{ school.id }}">
+            <div class="card-img">
+                <img src="{{ school.thumbnail }}" alt="{{ school.basic_info.name_display or school.basic_info.name_en or school.basic_info.name_ko }}" loading="lazy" decoding="async" class="card-thumb">
+                <span class="card-badge" style="color: var(--primary);">
+                    {{ ui.university if school.category == 'university' else ui.language_school }}
+                </span>
+            </div>
+            <div class="card-body">
+                <h4>{{ school.basic_info.name_display or school.basic_info.name_en or school.basic_info.name_ko }}</h4>
+                <div class="card-meta">
+                    <span>{{ school.basic_info.address or ui.country_fallback }}</span>
+                </div>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if related_guides %}
+    <div class="section-header" style="margin-top: 56px;">
+        <h2 class="section-title">{{ ui.related_guides }}</h2>
+    </div>
+    <div class="card-grid">
+        {% for guide in related_guides %}
+        <a href="{{ guide.link }}" class="card" data-track="related_guide" data-track-label="{{ guide.link }}">
+            <div class="card-img" style="height: 180px;">
+                <img src="{{ guide.thumbnail }}" alt="{{ guide.title }}" loading="lazy" decoding="async" class="card-thumb">
+                <span class="card-badge" style="color: var(--accent);">{{ guide.category }}</span>
+            </div>
+            <div class="card-body">
+                <h4>{{ guide.title }}</h4>
+                <div class="card-meta">
+                    <span>{{ guide.description | truncate(110) }}</span>
+                </div>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    {# [신규] 좋아요/싫어요 컨테이너 #}
+    <div class="reaction-container">
+        <button id="btn-like" class="reaction-btn" onclick="toggleReaction('like')">
+            <i class="fa-solid fa-thumbs-up"></i>
+            <span id="count-like">0</span>
+        </button>
+        <button id="btn-dislike" class="reaction-btn" onclick="toggleReaction('dislike')">
+            <i class="fa-solid fa-thumbs-down"></i>
+            <span id="count-dislike">0</span>
+        </button>
+    </div>
+
+</main>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    const itemSlug = "{{ item.get('id') }}"; // 현재 페이지의 slug
+
+    // 페이지 로드 시 초기 데이터 가져오기
+    document.addEventListener("DOMContentLoaded", async () => {
+        try {
+            const res = await fetch(`/api/reactions/${itemSlug}`);
+            const data = await res.json();
+            
+            document.getElementById("count-like").innerText = data.likes || 0;
+            document.getElementById("count-dislike").innerText = data.dislikes || 0;
+
+            // 로컬 스토리지를 확인하여 이전에 내가 누른 버튼 상태 복원 (UX 개선)
+            const myReaction = localStorage.getItem(`reaction_${itemSlug}`);
+            if (myReaction === 'like') {
+                document.getElementById("btn-like").classList.add("active-like");
+            } else if (myReaction === 'dislike') {
+                document.getElementById("btn-dislike").classList.add("active-dislike");
+            }
+        } catch (error) {
+            console.error("Failed to load reactions:", error);
+        }
+    });
+
+    // 버튼 클릭 시 처리
+    async function toggleReaction(type) {
+        // 더블 클릭 방지 시각적 피드백
+        const btnLike = document.getElementById("btn-like");
+        const btnDislike = document.getElementById("btn-dislike");
+        btnLike.style.pointerEvents = 'none';
+        btnDislike.style.pointerEvents = 'none';
+
+        try {
+            const res = await fetch(`/api/${type}/${itemSlug}`, { method: 'POST' });
+            const data = await res.json();
+
+            if (data.status === "success") {
+                // 숫자 업데이트
+                document.getElementById("count-like").innerText = data.likes;
+                document.getElementById("count-dislike").innerText = data.dislikes;
+
+                // UI 클래스 및 로컬 스토리지 초기화
+                btnLike.classList.remove("active-like");
+                btnDislike.classList.remove("active-dislike");
+                localStorage.removeItem(`reaction_${itemSlug}`);
+
+                // Action이 추가(또는 변경)된 경우 클래스와 로컬스토리지 재설정
+                if (data.current_type === "like") {
+                    btnLike.classList.add("active-like");
+                    localStorage.setItem(`reaction_${itemSlug}`, "like");
+                } else if (data.current_type === "dislike") {
+                    btnDislike.classList.add("active-dislike");
+                    localStorage.setItem(`reaction_${itemSlug}`, "dislike");
+                }
+            }
+        } catch (error) {
+            console.error("Failed to post reaction:", error);
+        } finally {
+            // 클릭 잠금 해제
+            btnLike.style.pointerEvents = 'auto';
+            btnDislike.style.pointerEvents = 'auto';
+        }
+    }
+</script>
+{% endblock %}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="{{ 'ja' if current_lang == 'ja' else 'en' }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ meta_title or 'Privacy Policy - KR Campus' }}</title>
+    <meta name="description" content="{{ meta_description or 'Read the Privacy Policy of KR Campus regarding data collection, usage, cookies, and user rights.' }}">
+    <meta name="robots" content="index,follow">
+    <link rel="canonical" href="{{ canonical_url }}">
+    {% if hreflang_urls %}
+    <link rel="alternate" hreflang="en" href="{{ hreflang_urls['en'] }}">
+    <link rel="alternate" hreflang="ja" href="{{ hreflang_urls['ko'] }}">
+    <link rel="alternate" hreflang="x-default" href="{{ hreflang_urls['x-default'] }}">
+    {% endif %}
+    <link rel="stylesheet" href="/static/css/style.css">
+    <style>
+        .policy-container { max-width: 900px; margin: 60px auto; padding: 0 20px; }
+        .policy-content { background: #fff; padding: 50px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); }
+        h1 { color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 20px; margin-bottom: 30px; font-size: 2.2rem; }
+        h3 { color: #34495e; margin-top: 40px; margin-bottom: 15px; font-size: 1.4rem; border-left: 4px solid #3498db; padding-left: 12px; }
+        p, li { line-height: 1.8; color: #555; margin-bottom: 10px; font-size: 1.05rem; }
+        ul { padding-left: 20px; margin-bottom: 20px; list-style-type: disc; }
+        .back-btn { display: inline-block; margin-top: 40px; color: #3498db; text-decoration: none; font-weight: bold; border: 1px solid #3498db; padding: 10px 25px; border-radius: 25px; transition: all 0.3s; }
+        .back-btn:hover { background: #3498db; color: #fff; }
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+    {% if ga_measurement_id %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ ga_measurement_id }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '{{ ga_measurement_id }}');
+    </script>
+    {% endif %}
+</head>
+<body style="background-color: #f9f9f9;">
+
+    <header class="main-header" style="padding: 20px 0;">
+        <div class="logo-container">
+            <a href="/" class="logo" style="font-size: 1.5rem; font-weight: bold; color: #333; text-decoration: none;">KR Campus</a>
+        </div>
+    </header>
+
+    <div class="policy-container">
+        <div class="policy-content">
+            <h1>Privacy Policy</h1>
+            <p>Last Updated: {{ updated_at }}</p>
+            <p>
+                KR Campus ("we," "our," or "the Site") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website. Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site.
+            </p>
+
+            <h3>1. Collection of Your Information</h3>
+            <p>We may collect information about you in a variety of ways. The information we may collect on the Site includes:</p>
+            <ul>
+                <li><strong>Voluntarily Provided Data:</strong> Personally identifiable information, such as your name, email address, and specific inquiry details, that you voluntarily give to us when you choose to participate in various activities related to the Site, such as the "Contact Us" form.</li>
+                <li><strong>Derivative Data:</strong> Information our servers automatically collect when you access the Site, such as your IP address, your browser type, your operating system, your access times, and the pages you have viewed directly before and after accessing the Site.</li>
+            </ul>
+
+            <h3>2. Use of Your Information</h3>
+            <p>Having accurate information about you permits us to provide you with a smooth, efficient, and customized experience. Specifically, we use information collected via the Site to:</p>
+            <ul>
+                <li>Respond to user inquiries, feedback, and support requests.</li>
+                <li>Compile anonymous statistical data and analysis for use internally to improve the website layout and content.</li>
+                <li>Monitor and analyze usage and trends to improve your experience with the Site.</li>
+                <li>Prevent fraudulent activities, monitor against theft, and protect against criminal activity.</li>
+            </ul>
+
+            <h3>3. Cookies and Web Beacons</h3>
+            <p>We may use cookies, web beacons, tracking pixels, and other tracking technologies on the Site to help customize the Site and improve your experience. When you access the Site, your personal information is not collected through the use of tracking technology.</p>
+            <ul>
+                <li><strong>Google AdSense:</strong> We may use third-party vendors, such as Google, which use cookies to serve ads based on a user's prior visits to this website or other websites. Google's use of advertising cookies enables it and its partners to serve ads to users based on their visit to your sites and/or other sites on the Internet.</li>
+                <li>You may opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" target="_blank" style="color:#3498db;">Google Ad Settings</a>.</li>
+                <li><strong>Google Analytics:</strong> We may also use Google Analytics to analyze user traffic. This data is anonymized and does not contain Personally Identifiable Information (PII).</li>
+            </ul>
+
+            <h3>4. Data Retention and Security</h3>
+            <p>
+                We retain your personal information only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use your information to the extent necessary to comply with our legal obligations, resolve disputes, and enforce our policies. 
+            </p>
+            <p>
+                We use administrative, technical, and physical security measures to help protect your personal information. While we have taken reasonable steps to secure the personal information you provide to us, please be aware that despite our efforts, no security measures are perfect or impenetrable, and no method of data transmission can be guaranteed against any interception or other type of misuse.
+            </p>
+
+            <h3>5. Third-Party Websites</h3>
+            <p>
+                The Site may contain links to third-party websites and applications of interest, including advertisements and external services (e.g., University websites), that are not affiliated with us. Once you have used these links to leave the Site, any information you provide to these third parties is not covered by this Privacy Policy, and we cannot guarantee the safety and privacy of your information.
+            </p>
+
+            <h3>6. Contact Us</h3>
+            <p>
+                If you have questions or comments about this Privacy Policy, or if you wish to exercise your rights regarding your personal data, please contact us using our dedicated form.
+            </p>
+            <p>👉 <a href="/contact?lang={{ current_lang }}" style="color: #3498db; font-weight: bold; font-size: 1.1rem;">[Go to Contact Page]</a></p>
+
+            <div style="text-align: center;">
+                <a href="/?lang={{ current_lang }}" class="back-btn">← Back to Main</a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <!-- 로고 이미지로 교체 -->
+            <a href="/" class="footer-logo-link">
+                <img src="/static/img/logo.png" alt="KR Campus" class="footer-logo">
+            </a>
+            
+            <div class="footer-links">
+                <a href="/guide?lang={{ current_lang }}">Guide</a>
+                <a href="/about?lang={{ current_lang }}">About</a>
+                <a href="/policy?lang={{ current_lang }}">Privacy</a>
+                <a href="/contact?lang={{ current_lang }}">Contact</a>
+            </div>
+            <p class="copyright">© 2024 KR Campus. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

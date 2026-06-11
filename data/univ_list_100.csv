@@ -1,0 +1,400 @@
+name_ja,name_en,region
+東京大学,The University of Tokyo,Tokyo
+京都大学,Kyoto University,Kyoto
+大阪大学,Osaka University,Osaka
+東北大学,Tohoku University,Miyagi
+名古屋大学,Nagoya University,Aichi
+九州大学,Kyushu University,Fukuoka
+北海道大学,Hokkaido University,Hokkaido
+早稲田大学,Waseda University,Tokyo
+慶應義塾大学,Keio University,Tokyo
+上智大学,Sophia University,Tokyo
+明治大学,Meiji University,Tokyo
+青山学院大学,Aoyama Gakuin University,Tokyo
+立教大学,Rikkyo University,Tokyo
+中央大学,Chuo University,Tokyo
+法政大学,Hosei University,Tokyo
+東京理科大学,Tokyo University of Science,Tokyo
+国際基督教大学,International Christian University,Tokyo
+学習院大学,Gakushuin University,Tokyo
+日本大学,Nihon University,Tokyo
+東洋大学,Toyo University,Tokyo
+駒澤大学,Komazawa University,Tokyo
+専修大学,Senshu University,Tokyo
+東海大学,Tokai University,Tokyo
+帝京大学,Teikyo University,Tokyo
+国士舘大学,Kokushikan University,Tokyo
+大東文化大学,Daito Bunka University,Tokyo
+亜細亜大学,Asia University,Tokyo
+関西大学,Kansai University,Osaka
+関西学院大学,Kwansei Gakuin University,Hyogo
+同志社大学,Doshisha University,Kyoto
+立命館大学,Ritsumeikan University,Kyoto
+京都産業大学,Kyoto Sangyo University,Kyoto
+近畿大学,Kindai University,Osaka
+甲南大学,Konan University,Hyogo
+龍谷大学,Ryukoku University,Kyoto
+一橋大学,Hitotsubashi University,Tokyo
+東京工業大学,Tokyo Institute of Technology,Tokyo
+筑波大学,University of Tsukuba,Ibaraki
+神戸大学,Kobe University,Hyogo
+千葉大学,Chiba University,Chiba
+広島大学,Hiroshima University,Hiroshima
+横浜国立大学,Yokohama National University,Kanagawa
+埼玉大学,Saitama University,Saitama
+金沢大学,Kanazawa University,Ishikawa
+岡山大学,Okayama University,Okayama
+新潟大学,Niigata University,Niigata
+熊本大学,Kumamoto University,Kumamoto
+長崎大学,Nagasaki University,Nagasaki
+信州大学,Shinshu University,Nagano
+静岡大学,Shizuoka University,Shizuoka
+東京藝術大学,Tokyo University of the Arts,Tokyo
+多摩美術大学,Tama Art University,Tokyo
+武蔵野美術大学,Musashino Art University,Tokyo
+京都精華大学,Kyoto Seika University,Kyoto
+大阪芸術大学,Osaka University of Arts,Osaka
+立命館アジア太平洋大学,Ritsumeikan Asia Pacific University,Oita
+福岡大学,Fukuoka University,Fukuoka
+南山大学,Nanzan University,Aichi
+愛知大学,Aichi University,Aichi
+名城大学,Meijo University,Aichi
+中京大学,Chukyo University,Aichi
+西南学院大学,Seinan Gakuin University,Fukuoka
+九州産業大学,Kyushu Sangyo University,Fukuoka
+沖縄国際大学,Okinawa International University,Okinawa
+琉球大学,University of the Ryukyus,Okinawa
+桜美林大学,J.F. Oberlin University,Tokyo
+拓殖大学,Takushoku University,Tokyo
+東京福祉大学,Tokyo University of Social Welfare,Tokyo
+日本経済大学,Japan University of Economics,Fukuoka/Tokyo
+明海大学,Meikai University,Chiba
+城西国際大学,Josai International University,Chiba
+京都外国語大学,Kyoto University of Foreign Studies,Kyoto
+関西外国語大学,Kansai Gaidai University,Osaka
+名古屋商科大学,Nagoya University of Commerce & Business,Aichi
+横浜市立大学,Yokohama City University,Kanagawa
+東京都立大学,Tokyo Metropolitan University,Tokyo
+大阪公立大学,Osaka Metropolitan University,Osaka
+京都工芸繊維大学,Kyoto Institute of Technology,Kyoto
+電気通信大学,The University of Electro-Communications,Tokyo
+東京農工大学,Tokyo University of Agriculture and Technology,Tokyo
+東京外国語大学,Tokyo University of Foreign Studies,Tokyo
+お茶の水女子大学,Ochanomizu University,Tokyo
+奈良女子大学,Nara Women's University,Nara
+津田塾大学,Tsuda University,Tokyo
+日本女子大学,Japan Women's University,Tokyo
+東京女子大学,Tokyo Woman's Christian University,Tokyo
+学習院女子大学,Gakushuin Women's College,Tokyo
+昭和女子大学,Showa Women's University,Tokyo
+神奈川大学,Kanagawa University,Kanagawa
+関東学院大学,Kanto Gakuin University,Kanagawa
+東京都市大学,Tokyo City University,Tokyo
+東京電機大学,Tokyo Denki University,Tokyo
+工学院大学,Kogakuin University,Tokyo
+芝浦工業大学,Shibaura Institute of Technology,Tokyo
+成蹊大学,Seikei University,Tokyo
+成城大学,Seijo University,Tokyo
+明治学院大学,Meiji Gakuin University,Tokyo
+獨協大学,Dokkyo University,Saitama
+武蔵大学,Musashi University,Tokyo
+国学院大学,Kokugakuin University,Tokyo
+北海道教育大学,Hokkaido University of Education,Hokkaido
+室蘭工業大学,Muroran Institute of Technology,Hokkaido
+小樽商科大学,Otaru University of Commerce,Hokkaido
+帯広畜産大学,Obihiro University of Agriculture and Veterinary Medicine,Hokkaido
+旭川医科大学,Asahikawa Medical University,Hokkaido
+北見工業大学,Kitami Institute of Technology,Hokkaido
+弘前大学,Hirosaki University,Aomori
+岩手大学,Iwate University,Iwate
+秋田大学,Akita University,Akita
+山形大学,Yamagata University,Yamagata
+福島大学,Fukushima University,Fukushima
+茨城大学,Ibaraki University,Ibaraki
+宇都宮大学,Utsunomiya University,Tochigi
+群馬大学,Gumma University,Gumma
+山梨大学,University of Yamanashi,Yamanashi
+富山大学,University of Toyama,Toyama
+福井大学,University of Fukui,Fukui
+岐阜大学,Gifu University,Gifu
+三重大学,Mie University,Mie
+滋賀大学,Shiga University,Shiga
+滋賀医科大学,Shiga University of Medical Science,Shiga
+和歌山大学,Wakayama University,Wakayama
+鳥取大学,Tottori University,Tottori
+島根大学,Shimane University,Shimane
+山口大学,Yamaguchi University,Yamaguchi
+徳島大学,The University of Tokushima,Tokushima
+香川大学,Kagawa University,Kagawa
+愛媛大学,Ehime University,Ehime
+高知大学,Kochi University,Kochi
+佐賀大学,Saga University,Saga
+大分大学,Oita University,Oita
+宮崎大学,University of Miyazaki,Miyazaki
+鹿児島大学,Kagoshima University,Kagoshima
+鹿屋体育大学,National Institute of Fitness and Sports in Kanoya,Kagoshima
+札幌医科大学,Sapporo Medical University,Hokkaido
+札幌市立大学,Sapporo City University,Hokkaido
+公立はこだて未来大学,Future University Hakodate,Hokkaido
+青森県立保健大学,Aomori University of Health and Welfare,Aomori
+岩手県立大学,Iwate Prefectural University,Iwate
+宮城大学,Miyagi University,Miyagi
+秋田県立大学,Akita Prefectural University,Akita
+国際教養大学,Akita International University,Akita
+山形県立保健医療大学,Yamagata Prefectural University of Health Sciences,Yamagata
+会津大学,The University of Aizu,Fukushima
+群馬県立女子大学,Gunma Prefectural Women's University,Gumma
+高崎経済大学,Takasaki City University of Economics,Gumma
+埼玉県立大学,Saitama Prefectural University,Saitama
+千葉県立保健医療大学,Chiba Prefectural University of Health Sciences,Chiba
+神奈川県立保健福祉大学,Kanagawa University of Human Services,Kanagawa
+新潟県立大学,University of Niigata Prefecture,Niigata
+富山県立大学,Toyama Prefectural University,Toyama
+石川県立大学,Ishikawa Prefectural University,Ishikawa
+福井県立大学,Fukui Prefectural University,Fukui
+山梨県立大学,Yamanashi Prefectural University,Yamanashi
+長野大学,Nagano University,Nagano
+岐阜薬科大学,Gifu Pharmaceutical University,Gifu
+静岡県立大学,University of Shizuoka,Shizuoka
+愛知県立大学,Aichi Prefectural University,Aichi
+名古屋市立大学,Nagoya City University,Aichi
+三重県立看護大学,Mie Prefectural College of Nursing,Mie
+滋賀県立大学,The University of Shiga Prefecture,Shiga
+京都市立芸術大学,Kyoto City University of Arts,Kyoto
+京都府立大学,Kyoto Prefectural University,Kyoto
+京都府立医科大学,Kyoto Prefectural University of Medicine,Kyoto
+神戸市外国語大学,Kobe City University of Foreign Studies,Hyogo
+兵庫県立大学,University of Hyogo,Hyogo
+奈良県立医科大学,Nara Medical University,Nara
+和歌山県立医科大学,Wakayama Medical University,Wakayama
+岡山県立大学,Okayama Prefectural University,Okayama
+広島市立大学,Hiroshima City University,Hiroshima
+県立広島大学,Prefectural University of Hiroshima,Hiroshima
+山口県立大学,Yamaguchi Prefectural University,Yamaguchi
+香川県立保健医療大学,Kagawa Prefectural University of Health Sciences,Kagawa
+愛媛県立医療技術大学,Ehime Prefectural University of Health Sciences,Ehime
+高知工科大学,Kochi University of Technology,Kochi
+北九州市立大学,The University of Kitakyushu,Fukuoka
+九州歯科大学,Kyushu Dental University,Fukuoka
+福岡県立大学,Fukuoka Prefectural University,Fukuoka
+福岡女子大学,Fukuoka Women's University,Fukuoka
+長崎県立大学,University of Nagasaki,Nagasaki
+熊本県立大学,Prefectural University of Kumamoto,Kumamoto
+宮崎公立大学,Miyazaki Municipal University,Miyazaki
+沖縄県立芸術大学,Okinawa Prefectural University of Arts,Okinawa
+名桜大学,Meio University,Okinawa
+北海学園大学,Hokkai Gakuen University,Hokkaido
+北星学園大学,Hokusei Gakuen University,Hokkaido
+藤女子大学,Fuji Women's University,Hokkaido
+酪農学園大学,Rakuno Gakuen University,Hokkaido
+東北学院大学,Tohoku Gakuin University,Miyagi
+宮城学院女子大学,Miyagi Gakuin Women's University,Miyagi
+東北福祉大学,Tohoku Fukushi University,Miyagi
+東北工業大学,Tohoku Institute of Technology,Miyagi
+石巻専修大学,Ishinomaki Senshu University,Miyagi
+国際医療福祉大学,International University of Health and Welfare,Tochigi
+白鴎大学,Hakuoh University,Tochigi
+獨協医科大学,Dokkyo Medical University,Tochigi
+群馬医療福祉大学,Gunma University of Health and Welfare,Gumma
+上武大学,Jobu University,Gumma
+文教大学,Bunkyo University,Saitama
+城西大学,Josai University,Saitama
+駿河台大学,Surugadai University,Saitama
+聖学院大学,Seigakuin University,Saitama
+埼玉工業大学,Saitama Institute of Technology,Saitama
+千葉工業大学,Chiba Institute of Technology,Chiba
+千葉商科大学,Chiba University of Commerce,Chiba
+麗澤大学,Reitaku University,Chiba
+神田外語大学,Kanda University of International Studies,Chiba
+和洋女子大学,Wayo Women's University,Chiba
+フェリス女学院大学,Ferris University,Kanagawa
+鎌倉女子大学,Kamakura Women's University,Kanagawa
+産業能率大学,Sanno University,Kanagawa
+鶴見大学,Tsurumi University,Kanagawa
+新潟国際情報大学,Niigata University of International and Information Studies,Niigata
+新潟経営大学,Niigata University of Management,Niigata
+山梨学院大学,Yamanashi Gakuin University,Yamanashi
+金沢工業大学,Kanazawa Institute of Technology,Ishikawa
+金沢星稜大学,Kanazawa Seiryo University,Ishikawa
+北陸大学,Hokuriku University,Ishikawa
+朝日大学,Asahi University,Gifu
+中部大学,Chubu University,Aichi
+愛知工業大学,Aichi Institute of Technology,Aichi
+愛知淑徳大学,Aichi Shukutoku University,Aichi
+椙山女学園大学,Sugiyama Jogakuen University,Aichi
+金城学院大学,Kinjo Gakuin University,Aichi
+名古屋学院大学,Nagoya Gakuin University,Aichi
+名古屋外国語大学,Nagoya University of Foreign Studies,Aichi
+皇學館大学,Kogakkan University,Mie
+京都橘大学,Kyoto Tachibana University,Kyoto
+京都女子大学,Kyoto Women's University,Kyoto
+同志社女子大学,Doshisha Women's College of Liberal Arts,Kyoto
+佛教大学,Bukkyo University,Kyoto
+大谷大学,Ohtani University,Kyoto
+大阪経済大学,Osaka University of Economics,Osaka
+大阪工業大学,Osaka Institute of Technology,Osaka
+大阪産業大学,Osaka Sangyo University,Osaka
+大阪商業大学,Osaka University of Commerce,Osaka
+摂南大学,Setsunan University,Osaka
+桃山学院大学,Momoyama Gakuin University,Osaka
+神戸女学院大学,Kobe College,Hyogo
+神戸女子大学,Kobe Women's University,Hyogo
+甲南女子大学,Konan Women's University,Hyogo
+武庫川女子大学,Mukogawa Women's University,Hyogo
+天理大学,Tenri University,Nara
+帝塚山大学,Tezukayama University,Nara
+岡山理科大学,Okayama University of Science,Okayama
+就実大学,Shujitsu University,Okayama
+広島修道大学,Hiroshima Shudo University,Hiroshima
+広島工業大学,Hiroshima Institute of Technology,Hiroshima
+広島経済大学,Hiroshima University of Economics,Hiroshima
+安田女子大学,Yasuda Women's University,Hiroshima
+松山大学,Matsuyama University,Ehime
+四国学院大学,Shikoku Gakuin University,Kagawa
+九州国際大学,Kyushu International University,Fukuoka
+久留米大学,Kurume University,Fukuoka
+福岡工業大学,Fukuoka Institute of Technology,Fukuoka
+熊本学園大学,Kumamoto Gakuen University,Kumamoto
+崇城大学,Sojo University,Kumamoto
+日本文理大学,Nippon Bunri University,Oita
+別府大学,Beppu University,Oita
+宮崎産業経営大学,Miyazaki Sangyo-keiei University,Miyazaki
+鹿児島国際大学,The International University of Kagoshima,Kagoshima
+創価大学,Soka University,Tokyo
+武蔵野大学,Musashino University,Tokyo
+玉川大学,Tamagawa University,Tokyo
+東京経済大学,Tokyo Keizai University,Tokyo
+東京工科大学,Tokyo University of Technology,Tokyo
+東京農業大学,Tokyo University of Agriculture,Tokyo
+文化学園大学,Bunka Gakuen University,Tokyo
+二松學舍大学,Nishogakusha University,Tokyo
+立正大学,Rissho University,Tokyo
+実践女子大学,Jissen Women's University,Tokyo
+共立女子大学,Kyoritsu Women's University,Tokyo
+大妻女子大学,Otsuma Women's University,Tokyo
+清泉女子大学,Seisen University,Tokyo
+白百合女子大学,Shirayuri University,Tokyo
+聖心女子大学,University of the Sacred Heart,Tokyo
+恵泉女学園大学,Keisen University,Tokyo
+和光大学,Wako University,Tokyo
+杏林大学,Kyorin University,Tokyo
+工学院大学,Kogakuin University,Tokyo
+順天堂大学,Juntendo University,Tokyo
+昭和大学,Showa University,Tokyo
+大正大学,Taisho University,Tokyo
+高千穂大学,Takachiho University,Tokyo
+東京家政大学,Tokyo Kasei University,Tokyo
+東京工芸大学,Tokyo Polytechnic University,Tokyo
+東京聖栄大学,Tokyo Seiei College,Tokyo
+東邦大学,Toho University,Tokyo
+武蔵野音楽大学,Musashino Academia Musicae,Tokyo
+桐朋学園大学,Toho Gakuen School of Music,Tokyo
+国立音楽大学,Kunitachi College of Music,Tokyo
+東京音楽大学,Tokyo College of Music,Tokyo
+女子美術大学,Joshibi University of Art and Design,Tokyo
+日本体育大学,Nippon Sport Science University,Tokyo
+国士舘大学,Kokushikan University,Tokyo
+東京女子体育大学,Tokyo Women's College of Physical Education,Tokyo
+日本女子体育大学,Japan Women's College of Physical Education,Tokyo
+了徳寺大学,Ryotokuji University,Chiba
+江戸川大学,Edogawa University,Chiba
+川村学園女子大学,Kawamura Gakuen Woman's University,Chiba
+敬愛大学,Keiai University,Chiba
+秀明大学,Shumei University,Chiba
+淑徳大学,Shukutoku University,Chiba
+聖徳大学,Seitoku University,Chiba
+清和大学,Seiwa University,Chiba
+中央学院大学,Chuo Gakuin University,Chiba
+東京基督教大学,Tokyo Christian University,Chiba
+東京情報大学,Tokyo University of Information Sciences,Chiba
+和洋女子大学,Wayo Women's University,Chiba
+麻布大学,Azabu University,Kanagawa
+相模女子大学,Sagami Women's University,Kanagawa
+松蔭大学,Shoin University,Kanagawa
+桐蔭横浜大学,Toin University of Yokohama,Kanagawa
+東洋英和女学院大学,Toyo Eiwa University,Kanagawa
+横浜商科大学,Yokohama College of Commerce,Kanagawa
+茨城キリスト教大学,Ibaraki Christian University,Ibaraki
+つくば国際大学,Tsukuba International University,Ibaraki
+常磐大学,Tokiwa University,Ibaraki
+足利大学,Ashikaga University,Tochigi
+作新学院大学,Sakushin Gakuin University,Tochigi
+関東学園大学,Kanto Gakuen University,Gumma
+共愛学園前橋国際大学,Kyoai Gakuen University,Gumma
+桐生大学,Kiryu University,Gumma
+新潟産業大学,Niigata Sangyo University,Niigata
+長岡大学,Nagaoka University,Niigata
+敬和学園大学,Keiwa College,Niigata
+富山国際大学,Toyama University of International Studies,Toyama
+高岡法科大学,Takaoka University of Law,Toyama
+金沢学院大学,Kanazawa Gakuin University,Ishikawa
+金城大学,Kinjo University,Ishikawa
+仁愛大学,Jin-ai University,Fukui
+福井工業大学,Fukui University of Technology,Fukui
+岐阜聖徳学園大学,Gifu Shotoku Gakuen University,Gifu
+中部学院大学,Chubu Gakuin University,Gifu
+常葉大学,Tokoha University,Shizuoka
+静岡産業大学,Shizuoka Sangyo University,Shizuoka
+静岡福祉大学,Shizuoka University of Welfare,Shizuoka
+聖隷クリストファー大学,Seirei Christopher University,Shizuoka
+浜松学院大学,Hamamatsu Gakuin University,Shizuoka
+愛知学院大学,Aichi Gakuin University,Aichi
+愛知東邦大学,Aichi Toho University,Aichi
+桜花学園大学,Ohka Gakuen University,Aichi
+岡崎女子大学,Okazaki Women's Junior College,Aichi
+日本福祉大学,Nihon Fukushi University,Aichi
+名古屋文理大学,Nagoya Bunri University,Aichi
+名古屋柳城女子大学,Nagoya Ryujo Women's University,Aichi
+鈴鹿医療科学大学,Suzuka University of Medical Science,Mie
+四日市大学,Yokkaichi University,Mie
+京都光華女子大学,Kyoto Koka Women's University,Kyoto
+京都先端科学大学,Kyoto University of Advanced Science,Kyoto
+京都美術工芸大学,Kyoto University of Art and Design,Kyoto
+花園大学,Hanazono University,Kyoto
+藍野大学,Aino University,Osaka
+追手門学院大学,Otemon Gakuin University,Osaka
+大阪学院大学,Osaka Gakuin University,Osaka
+大阪国際大学,Osaka International University,Osaka
+大阪成蹊大学,Osaka Seikei University,Osaka
+大阪電気通信大学,Osaka Electro-Communication University,Osaka
+関西医療大学,Kansai University of Health Sciences,Osaka
+四天王寺大学,Shitennoji University,Osaka
+帝塚山学院大学,Tezukayama Gakuin University,Osaka
+阪南大学,Hannan University,Osaka
+芦屋大学,Ashiya University,Hyogo
+大手前大学,Otemae University,Hyogo
+神戸学院大学,Kobe Gakuin University,Hyogo
+神戸国際大学,Kobe International University,Hyogo
+神戸親和女子大学,Kobe Shinwa Women's University,Hyogo
+園田学園女子大学,Sonoda Gakuen Women's University,Hyogo
+姫路獨協大学,Himeji Dokkyo University,Hyogo
+流通科学大学,University of Marketing and Distribution Sciences,Hyogo
+岡山商科大学,Okayama Shoka University,Okayama
+川崎医療福祉大学,Kawasaki University of Medical Welfare,Okayama
+くらしき作陽大学,Kurashiki Sakuyo University,Okayama
+山陽学園大学,Sanyo Gakuen University,Okayama
+中国学園大学,Chugoku Gakuen University,Okayama
+広島国際大学,Hiroshima International University,Hiroshima
+広島国際学院大学,Hiroshima Kokusai Gakuin University,Hiroshima
+広島女学院大学,Hiroshima Jogakuin University,Hiroshima
+広島文教大学,Hiroshima Bunkyo University,Hiroshima
+福山大学,Fukuyama University,Hiroshima
+福山平成大学,Fukuyama Heisei University,Hiroshima
+梅光学院大学,Baiko Gakuin University,Yamaguchi
+東亜大学,University of East Asia,Yamaguchi
+徳山大学,Tokuyama University,Yamaguchi
+山口学芸大学,Yamaguchi Gakugei University,Yamaguchi
+四国大学,Shikoku University,Tokushima
+徳島文理大学,Tokushima Bunri University,Tokushima
+高松大学,Takamatsu University,Kagawa
+聖カタリナ大学,St. Catherine University,Ehime
+九州情報大学,Kyushu Institute of Information Sciences,Fukuoka
+中村学園大学,Nakamura Gakuen University,Fukuoka
+福岡女学院大学,Fukuoka Jo Gakuin University,Fukuoka
+長崎国際大学,Nagasaki International University,Nagasaki
+長崎純心大学,Nagasaki Junshin Catholic University,Nagasaki
+活水女子大学,Kwassui Women's University,Nagasaki
+九州ルーテル学院大学,Kyushu Lutheran College,Kumamoto
+平成音楽大学,Heisei College of Music,Kumamoto
+日本赤十字九州国際看護大学,The Japanese Red Cross Kyushu International College of Nursing,Fukuoka
+立命館アジア太平洋大学,Ritsumeikan Asia Pacific University,Oita

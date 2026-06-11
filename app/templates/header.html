@@ -1,0 +1,30 @@
+<header>
+    <div class="container">
+        <div class="header-top">
+            <div class="header-left">
+                <a href="/guide" style="font-weight:bold; color:var(--accent-color); font-size: 0.95rem;">📖 Guides</a>
+            </div>
+            <h1>
+                <a href="/">
+                    <span style="font-size:1.4rem;font-weight:800;color:var(--accent-color);">{{ site.emoji }} {{ site.site_name }}</span>
+                </a>
+            </h1>
+            <div class="lang-selector">
+                {% if post and post.id %}
+                    {% set base_id = post.id.rsplit('_', 1)[0] %}
+                    {% set prefix = '/guide/' if 'guide' in request.path else '/item/' %}
+                    <a href="{{ prefix }}{{ base_id }}_en"
+                       class="lang-btn {% if post.lang == 'en' %}active{% endif %}">English</a>
+                    <a href="{{ prefix }}{{ base_id }}_ja"
+                       class="lang-btn {% if post.lang == 'ja' %}active{% endif %}">日本語</a>
+                {% elif request.path == '/guide' %}
+                    <a href="/guide?lang=en" class="lang-btn {% if lang == 'en' %}active{% endif %}">English</a>
+                    <a href="/guide?lang=ja" class="lang-btn {% if lang == 'ja' %}active{% endif %}">日本語</a>
+                {% else %}
+                    <button class="lang-btn active" data-lang="en">English</button>
+                    <button class="lang-btn" data-lang="ja">日本語</button>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</header>

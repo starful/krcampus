@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+jinja2
+python-dotenv
+python-frontmatter
+markdown
+firebase-admin
+google-cloud-firestore
+requests
+Pillow

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="{{ 'ja' if current_lang == 'ja' else 'en' }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ meta_title or 'Contact Us - KR Campus' }}</title>
+    <meta name="description" content="{{ meta_description or 'Get in touch with the KR Campus team for inquiries, feedback, or partnership opportunities regarding studying in Japan.' }}">
+    <meta name="robots" content="index,follow">
+    <link rel="canonical" href="{{ canonical_url }}">
+    {% if hreflang_urls %}
+    <link rel="alternate" hreflang="en" href="{{ hreflang_urls['en'] }}">
+    <link rel="alternate" hreflang="ja" href="{{ hreflang_urls['ko'] }}">
+    <link rel="alternate" hreflang="x-default" href="{{ hreflang_urls['x-default'] }}">
+    {% endif %}
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .contact-container { max-width: 700px; margin: 60px auto; padding: 0 20px; }
+        .contact-box { background: #fff; padding: 50px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); }
+        h1 { text-align: center; color: #2c3e50; margin-bottom: 10px; font-size: 2rem; }
+        .subtitle { text-align: center; color: #666; margin-bottom: 40px; font-size: 1rem; line-height: 1.6; }
+        .form-group { margin-bottom: 25px; }
+        label { display: block; margin-bottom: 8px; font-weight: 600; color: #34495e; }
+        input, textarea { width: 100%; padding: 14px; border: 1px solid #ddd; border-radius: 8px; box-sizing: border-box; font-size: 1rem; background-color: #fcfcfc; transition: border-color 0.3s; }
+        input:focus, textarea:focus { border-color: #3498db; outline: none; background-color: #fff; }
+        textarea { height: 180px; resize: vertical; }
+        button[type="submit"] {
+            width: 100%; background: #3498db; color: white; padding: 16px; border-radius: 8px; font-size: 1.1rem; font-weight: bold; transition: background 0.3s; cursor: pointer; border: none;
+        }
+        button[type="submit"]:hover { background: #2980b9; }
+        button[type="submit"]:disabled { background: #95a5a6; cursor: not-allowed; }
+        .loading { display: none; text-align: center; margin-top: 15px; color: #666; font-size: 0.95rem; }
+        .success-message { display: none; text-align: center; margin-top: 20px; color: #27ae60; font-weight: bold; background: #eafaf1; padding: 15px; border-radius: 8px; }
+        .error-message { display: none; text-align: center; margin-top: 20px; color: #c0392b; font-weight: bold; background: #fdedec; padding: 15px; border-radius: 8px; }
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+    {% if ga_measurement_id %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ ga_measurement_id }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '{{ ga_measurement_id }}');
+    </script>
+    {% endif %}
+</head>
+<body style="background-color: #f9f9f9;">
+    <header class="main-header" style="padding: 20px 0;">
+        <div class="logo-container">
+            <a href="/" class="logo" style="font-size: 1.5rem; font-weight: bold; color: #333; text-decoration: none;">KR Campus</a>
+        </div>
+    </header>
+
+    <div class="contact-container">
+        <div class="contact-box">
+            <h1>Contact Us</h1>
+            <p class="subtitle">
+                Have questions about a school? Found incorrect data? Or just want to say hello? <br>
+                Fill out the form below, and our team will get back to you as soon as possible.
+            </p>
+            
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="you@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required placeholder="Please describe your inquiry in detail..."></textarea>
+                </div>
+                <button type="submit" id="submitBtn">Send Message</button>
+                
+                <div id="loadingMsg" class="loading">
+                    <i class="fas fa-circle-notch fa-spin"></i> Sending your message...
+                </div>
+                <div id="successMsg" class="success-message">
+                    <i class="fas fa-check-circle"></i> Message sent successfully! We will contact you shortly.
+                </div>
+                <div id="errorMsg" class="error-message">
+                    <i class="fas fa-exclamation-triangle"></i> Something went wrong. Please try again later.
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <!-- 로고 이미지로 교체 -->
+            <a href="/" class="footer-logo-link">
+                <img src="/static/img/logo.png" alt="KR Campus" class="footer-logo">
+            </a>
+            
+            <div class="footer-links">
+                <a href="/guide?lang={{ current_lang }}">Guide</a>
+                <a href="/about?lang={{ current_lang }}">About</a>
+                <a href="/policy?lang={{ current_lang }}">Privacy</a>
+                <a href="/contact?lang={{ current_lang }}">Contact</a>
+            </div>
+            <p class="copyright">© 2024 KR Campus. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Updated Script URL
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxQ18TWQ4WwSkbO02ZddtcmCVh2RZTWR8xeUZ8nVX3IiRQZA9Tb6FCzPPyKK9Qx6jcqkQ/exec';
+        const form = document.forms['contactForm'];
+        const btn = document.getElementById('submitBtn');
+        const loading = document.getElementById('loadingMsg');
+        const successMsg = document.getElementById('successMsg');
+        const errorMsg = document.getElementById('errorMsg');
+
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            
+            // UI Update: Disable button, show loading
+            btn.disabled = true;
+            btn.innerHTML = "Sending...";
+            loading.style.display = "block";
+            successMsg.style.display = "none";
+            errorMsg.style.display = "none";
+
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    // Success handling
+                    loading.style.display = "none";
+                    successMsg.style.display = "block";
+                    btn.innerHTML = "Sent";
+                    form.reset();
+                    
+                    // Reset button after 3 seconds
+                    setTimeout(() => {
+                        btn.disabled = false;
+                        btn.innerHTML = "Send Message";
+                        successMsg.style.display = "none";
+                    }, 5000);
+                })
+                .catch(error => {
+                    // Error handling
+                    console.error('Error!', error.message);
+                    loading.style.display = "none";
+                    errorMsg.style.display = "block";
+                    btn.disabled = false;
+                    btn.innerHTML = "Send Message";
+                });
+        });
+    </script>
+</body>
+</html>

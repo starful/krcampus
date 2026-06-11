@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="{{ 'ja' if current_lang == 'ja' else 'en' }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow">
+    {% if canonical_url %}
+    <link rel="canonical" href="{{ canonical_url }}">
+    {% endif %}
+    {% if hreflang_urls %}
+    <link rel="alternate" hreflang="en" href="{{ hreflang_urls['en'] }}">
+    <link rel="alternate" hreflang="ja" href="{{ hreflang_urls['ja'] }}">
+    <link rel="alternate" hreflang="x-default" href="{{ hreflang_urls['x-default'] }}">
+    {% endif %}
+    
+    <title>{% block title %}{{ meta_title or ('KR Campus - ' ~ ui.essential_guides) }}{% endblock %}</title>
+    <meta name="description" content="{{ meta_description or 'KR Campus helps international students choose language institutes and universities in Korea.' }}">
+    
+    {% if ga_measurement_id %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ ga_measurement_id }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '{{ ga_measurement_id }}');
+    </script>
+    {% endif %}
+    
+    <link rel="stylesheet" href="/static/css/style.css?v=14.5">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    {% if adsense_client_id %}
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ adsense_client_id }}" crossorigin="anonymous"></script>
+    {% endif %}
+    {% block head_extra %}{% endblock %}
+</head>
+<body>
+
+{% block header %}
+<header class="site-header">
+    <div class="header-container">
+        <div class="header-left">
+            <a href="/guide?lang={{ current_lang }}" class="nav-guide-link">
+                📖 {{ ui.essential_guides }}
+            </a>
+        </div>
+
+        <div class="logo-wrapper">
+            <a href="/?lang={{ current_lang }}">
+                <img src="/static/img/logo.png" alt="KR Campus" class="logo-img">
+            </a>
+        </div>
+
+        <div class="header-right">
+            <div class="lang-selector">
+                <a href="?lang=en" class="lang-btn{% if current_lang != 'ja' %} active{% endif %}">EN</a>
+                <a href="?lang=ja" class="lang-btn{% if current_lang == 'ja' %} active{% endif %}">JA</a>
+            </div>
+        </div>
+    </div>
+
+    {% block map_filters %}{% endblock %}
+</header>
+{% endblock %}
+
+<main>
+    {% block content %}{% endblock %}
+</main>
+
+<footer class="main-footer">
+    {% set stats = site_stats(current_lang|default('en')) %}
+    <div class="footer-stats stats-banner">
+        <div class="stat-pill">
+            <i class="fa-solid fa-building-columns"></i>
+            <span>
+                <strong class="stat-highlight">{{ stats.total_schools }}</strong>
+                {{ ui.schools_listed }}
+            </span>
+        </div>
+        <div class="stat-pill">
+            <i class="fa-regular fa-calendar-check"></i>
+            <span>
+                {{ ui.last_updated }}
+                <strong class="stat-highlight" style="margin-left:4px;">{{ stats.updated_at }}</strong>
+            </span>
+        </div>
+        <div class="stat-pill highlight-pill">
+            <i class="fa-solid fa-arrows-rotate"></i>
+            <span>
+                <strong class="stat-highlight">{{ ui.updating_weekly }}</strong>
+            </span>
+        </div>
+    </div>
+    <div class="footer-links">
+        <a href="/guide?lang={{ current_lang }}">{{ ui.essential_guides }}</a> 
+        <a href="/about?lang={{ current_lang }}">About</a> 
+        <a href="/policy?lang={{ current_lang }}">Privacy</a> 
+        <a href="/contact?lang={{ current_lang }}">Contact</a>
+    </div>
+    <p class="copyright">© 2026 KR Campus</p>
+</footer>
+
+{% block scripts %}{% endblock %}
+
+<script>
+document.addEventListener("click", function(event) {
+    const target = event.target.closest("[data-track]");
+    if (!target) return;
+    if (typeof window.gtag !== "function") return;
+    const action = target.getAttribute("data-track");
+    const label = target.getAttribute("data-track-label") || target.getAttribute("href") || "";
+    window.gtag("event", action, {
+        event_category: "engagement",
+        event_label: label
+    });
+});
+</script>
+
+</body>
+</html>

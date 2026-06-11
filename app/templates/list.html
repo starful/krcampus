@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{# [수정] 부모(base.html)의 헤더 블록을 빈 내용으로 덮어써서 숨김 처리 #}
+{% block header %}{% endblock %}
+
+{% block content %}
+{# [수정] 헤더가 사라졌으므로 상단 여백을 120px -> 40px로 축소 #}
+<main class="content-wrapper" style="margin-top: 40px;"> 
+    
+    <div style="margin-bottom: 40px;">
+        {# [중요] 헤더(로고)가 없으므로 'Back to Map' 버튼이 유일한 네비게이션입니다 #}
+        <a href="/?lang={{ current_lang }}" class="back-to-list-btn" style="margin-bottom: 20px;">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"></path></svg>
+            <span>{{ ui.back_to_map }}</span>
+        </a>
+
+        <h1 style="font-size: 2.5rem; font-weight: 800; margin-bottom: 10px;">{{ title }}</h1>
+        <p style="color: var(--text-gray); font-size: 1.1rem;">{{ description }}</p>
+    </div>
+
+    <div class="card-grid">
+        {% for item in items %}
+        <a href="{{ item.link }}" class="card">
+            <div class="card-img">
+                <img src="{{ item.thumbnail }}" alt="{{ item.title or item.basic_info.name_display or item.basic_info.name_en or item.basic_info.name_ko }}" loading="lazy" decoding="async" class="card-thumb">
+                <span class="card-badge" style="color: var(--primary);">{{ ui.guide_badge if item.item_type == 'guide' else (ui.university if item.category == 'university' else ui.language_school) }}</span>
+            </div>
+            <div class="card-body">
+                <h4>{{ item.title or item.basic_info.name_display or item.basic_info.name_en or item.basic_info.name_ko }}</h4>
+                <div class="card-meta">
+                    {% if item.item_type != 'guide' %}
+                        <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"></path></svg>
+                        <span>{{ item.basic_info.address }}</span>
+                    {% else %}
+                        <span>{{ item.description | truncate(100) }}</span>
+                    {% endif %}
+                </div>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+</main>
+{% endblock %}

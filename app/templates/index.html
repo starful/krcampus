@@ -1,0 +1,164 @@
+{% extends "base.html" %}
+
+{% block map_filters %}
+<div class="top-filter-bar" aria-label="Map filters">
+    <div class="theme-filter-buttons">
+        {% for f in quick_filters %}
+        <button type="button"
+            class="theme-button{% if loop.first %} active{% endif %}"
+            data-filter-key="{{ f.key }}"
+            data-track="quick_filter"
+            data-track-label="{{ f.key }}"
+            title="{{ f.label }}">
+            <span class="filter-emoji" aria-hidden="true">{{ f.icon }}</span>
+            <span class="filter-label">{{ f.label }}</span>
+            <span class="count-badge" id="count-{{ f.key }}">0</span>
+        </button>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+
+<section class="map-section">
+    <div id="map"></div>
+</section>
+
+<div class="content-wrapper">
+
+    <div class="quick-actions" aria-label="Quick actions">
+        <a href="/schools?lang={{ current_lang }}" class="quick-action-btn" data-track="quick_action" data-track-label="schools">
+            <i class="fa-solid fa-school"></i>
+            <span>{{ ui.find_schools }}</span>
+        </a>
+        <a href="/universities?lang={{ current_lang }}" class="quick-action-btn" data-track="quick_action" data-track-label="universities">
+            <i class="fa-solid fa-building-columns"></i>
+            <span>{{ ui.find_universities }}</span>
+        </a>
+        <a href="/guide?lang={{ current_lang }}" class="quick-action-btn" data-track="quick_action" data-track-label="guides">
+            <i class="fa-solid fa-book-open"></i>
+            <span>{{ ui.read_guides }}</span>
+        </a>
+    </div>
+
+    <div class="section-header" style="margin-bottom: 20px;">
+        <h2 class="section-title" style="color: var(--accent); display: flex; align-items: center; gap: 10px;">
+            <i class="fa-solid fa-star"></i> {{ ui.featured_title }}
+        </h2>
+    </div>
+    <div class="card-grid" style="margin-bottom: 80px;">
+        {% for guide in featured_guides %}
+        <a href="{{ guide.link }}" class="card" style="border: 2px solid var(--accent);">
+            <div class="card-img" style="height: 200px;">
+                <img src="{{ guide.thumbnail }}" alt="{{ guide.title }}" loading="lazy" decoding="async" class="card-thumb">
+                <span class="card-badge" style="background: var(--accent); color: white;">{{ ui.best_selection }}</span>
+            </div>
+            <div class="card-body">
+                <h4 style="font-size: 1.2rem; margin-bottom: 10px;">{{ guide.title }}</h4>
+                <p style="font-size: 0.9rem; color: var(--text-gray);">{{ guide.description }}</p>
+            </div>
+            <div class="card-footer" style="background: #fff7ed;">
+                <span style="color: var(--accent); font-weight: 700; font-size: 0.9rem;">{{ ui.view_ranking }}</span>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+
+    <!-- [수정] Language Schools -->
+    <div class="section-header">
+        <h2 class="section-title">{{ ui.language_schools }}</h2>
+        <a href="/schools?lang={{ current_lang }}" class="view-all">{{ ui.view_all_schools }}</a>
+    </div>
+    <div class="card-grid">
+        {% set school_imgs = [ '...', '...' ] %}
+        {% for item in latest_schools %}
+        <a href="{{ item.link }}" class="card school-card" data-school-id="{{ item.id }}" data-track="school_card" data-track-label="{{ item.id }}">
+            <!-- 파이썬에서 만들어준 고유 썸네일 사용 -->
+            <div class="card-img">
+                <img src="{{ item.thumbnail }}" alt="{{ item.basic_info.name_display or item.basic_info.name_en or item.basic_info.name_ko }}" loading="lazy" decoding="async" class="card-thumb">
+                <span class="card-badge" style="color: var(--primary);">{{ ui.school_badge }}</span>
+            </div>
+            <div class="card-body">
+                {# [중요] name_display(한국어이름)가 있으면 우선 출력 #}
+                <h4>{{ item.basic_info.name_display or item.basic_info.name_en or item.basic_info.name_ko }}</h4>
+                <div class="card-meta">
+                    <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
+                    <span>{{ item.basic_info.address.split(' ')[0] if item.basic_info.address else 'Korea' }}</span>
+                </div>
+            </div>
+            <div class="card-footer">
+                <span class="card-price">
+                    {% if item.get('tuition') and item.get('tuition').get('yearly_tuition') %}
+                        ¥{{ "{:,}".format(item.get('tuition').get('yearly_tuition')) }}
+                    {% else %}
+                        {{ ui.contact_fee }}
+                    {% endif %}
+                </span>
+                <span style="font-size: 0.75rem; color: var(--text-gray); font-weight: 600;">{{ ui.yearly }}</span>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+
+    <!-- [수정] Universities -->
+    <div class="section-header" style="margin-top: 80px;">
+        <h2 class="section-title">{{ ui.top_universities }}</h2>
+        <a href="/universities?lang={{ current_lang }}" class="view-all">{{ ui.view_all_univs }}</a>
+    </div>
+    <div class="card-grid">
+        {% set univ_imgs = [ '...', '...' ] %}
+        {% for item in latest_universities %}
+        <a href="{{ item.link }}" class="card school-card" data-school-id="{{ item.id }}" data-track="university_card" data-track-label="{{ item.id }}">
+            <!-- 파이썬에서 만들어준 고유 썸네일 사용 -->
+            <div class="card-img">
+                <img src="{{ item.thumbnail }}" alt="{{ item.basic_info.name_display or item.basic_info.name_en or item.basic_info.name_ko }}" loading="lazy" decoding="async" class="card-thumb">
+                <span class="card-badge" style="color: var(--accent);">{{ ui.univ_badge }}</span>
+            </div>
+            <div class="card-body">
+                <h4>{{ item.basic_info.name_display or item.basic_info.name_en or item.basic_info.name_ko }}</h4>
+                <p style="color: var(--text-gray); font-size: 0.9rem; margin-bottom: 15px;">{{ ui.national_private }}</p>
+            </div>
+            <div class="card-footer">
+                <span class="card-price" style="color: var(--accent);">{{ ui.global_programs }}</span>
+                <span style="font-size: 0.75rem; background: #fff7ed; color: #c2410c; padding: 4px 10px; border-radius: 6px; font-weight: 700;">TOP TIER</span>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+
+    <!-- [수정] Essential Guides -->
+    <div class="section-header" style="margin-top: 80px;">
+        <h2 class="section-title">{{ ui.essential_guides }}</h2>
+        <a href="/guide?lang={{ current_lang }}" class="view-all">{{ ui.view_all }}</a>
+    </div>
+    <div class="card-grid">
+        {% for guide in latest_guides %}
+        <a href="{{ guide.link }}" class="card">
+            <div class="card-img" style="height: 180px;">
+                <img src="{{ guide.thumbnail }}" alt="{{ guide.title }}" loading="lazy" decoding="async" class="card-thumb">
+            </div>
+            <div class="card-body">
+                <span style="font-size: 0.75rem; color: var(--primary); font-weight: 800; text-transform: uppercase;">{{ guide.category }}</span>
+                <h4 style="margin: 8px 0; font-size: 1.1rem;">{{ guide.title }}</h4>
+                <p style="font-size: 0.85rem; color: var(--text-gray); line-height: 1.6;">{{ guide.description | truncate(80) }}</p>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock %}
+{# --- 메인 콘텐츠 끝 --- #}
+
+
+{# --- 스크립트 시작 --- #}
+{% block scripts %}
+<script>
+    const SCHOOLS_DATA = {{ schools_json | safe }};
+</script>
+<script src="/static/js/filters.js?v=3"></script>
+<script src="/static/js/map.js?v=10"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key={{ maps_api_key }}&callback=initMap&libraries=marker,geometry&v=weekly" async defer></script>
+{% endblock %}
+{# --- 스크립트 끝 --- #}

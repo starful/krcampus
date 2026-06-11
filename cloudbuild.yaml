@@ -1,0 +1,54 @@
+steps:
+  # 1. SEO Guard (배포 전 필수 검사)
+  - name: 'python:3.11-slim'
+    id: 'seo-guard'
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - 'pip install --no-cache-dir -r requirements.txt && python scripts/seo_guard.py'
+    waitFor: ['-']
+
+  # 2. Docker Pull (캐시 활용)
+  - name: 'gcr.io/cloud-builders/docker'
+    id: 'docker-pull'
+    entrypoint: 'bash'
+    args: ['-c', 'docker pull us-central1-docker.pkg.dev/$PROJECT_ID/krcampus/krcampus:latest || exit 0']
+    waitFor: ['seo-guard'] 
+
+  # 3. Docker Build
+  - name: 'gcr.io/cloud-builders/docker'
+    id: 'docker-build'
+    args: [
+      'build',
+      '-t', 'us-central1-docker.pkg.dev/$PROJECT_ID/krcampus/krcampus:latest',
+      '--cache-from', 'us-central1-docker.pkg.dev/$PROJECT_ID/krcampus/krcampus:latest',
+      '.'
+    ]
+    waitFor: ['docker-pull'] 
+
+  # 4. Docker Push
+  - name: 'gcr.io/cloud-builders/docker'
+    id: 'docker-push'
+    args: ['push', 'us-central1-docker.pkg.dev/$PROJECT_ID/krcampus/krcampus:latest']
+    waitFor: ['docker-build'] 
+
+  # 5. Deploy to Cloud Run (여기가 수정됨!)
+  # [중요] 이미지를 'gcr.io/cloud-builders/gcloud'로 변경해야 합니다.
+  - name: 'gcr.io/cloud-builders/gcloud'
+    id: 'deploy'
+    entrypoint: gcloud
+    args:
+      - 'run'
+      - 'deploy'
+      - 'krcampus-service'
+      - '--image=us-central1-docker.pkg.dev/$PROJECT_ID/krcampus/krcampus:latest'
+      - '--region=us-central1'
+      - '--platform=managed'
+      - '--allow-unauthenticated'
+      - '--port=8080'
+      - '--set-env-vars=GCS_BUCKET_NAME=krcampus,GA_MEASUREMENT_ID=G-ZTC8BNMCRR'
+      - '--set-secrets=KRCAMPUS_GOOGLE_MAPS_API_KEY=KRCAMPUS_GOOGLE_MAPS_API_KEY:latest'
+    waitFor: ['docker-push'] 
+
+images:
+  - 'us-central1-docker.pkg.dev/$PROJECT_ID/krcampus/krcampus:latest'
