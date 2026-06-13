@@ -7,7 +7,7 @@ from starlette.concurrency import run_in_threadpool
 from app.utils import get_client_ip
 
 router = APIRouter()
-COLLECTION_NAME = "jpcampus"
+COLLECTION_NAME = os.getenv("REACTIONS_COLLECTION", "krcampus")
 
 # ==========================================
 # Firebase 초기화 세팅

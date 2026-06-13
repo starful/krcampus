@@ -33,6 +33,13 @@ class RouteSmokeTests(unittest.TestCase):
         self.assertEqual(response.status_code, 301)
         self.assertEqual(response.headers.get("location"), "/policy")
 
+    def test_reactions_api_returns_counts(self):
+        response = self.client.get("/api/reactions/smoke-test-slug")
+        self.assertEqual(response.status_code, 200)
+        payload = response.json()
+        self.assertIn("likes", payload)
+        self.assertIn("dislikes", payload)
+
     def test_sample_detail_pages_render(self):
         schools, _ = load_school_data("en")
         school_id = next((s.get("id") for s in schools if s.get("id")), None)
@@ -45,6 +52,8 @@ class RouteSmokeTests(unittest.TestCase):
         self.assertIsNotNone(guide_slug)
         guide_response = self.client.get(f"/guide/{guide_slug}")
         self.assertEqual(guide_response.status_code, 200)
+        self.assertIn("reaction-panel", guide_response.text)
+        self.assertIn("count-like", school_response.text)
 
 
 if __name__ == "__main__":
