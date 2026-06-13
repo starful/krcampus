@@ -20,6 +20,15 @@ from app.utils import (
     STATIC_DIR, CONTENT_DIR, TEMPLATES_DIR
 )
 from app.reactions import router as reactions_router
+from app.social_share import (
+    card_page_path,
+    detail_page_path,
+    fetch_social_jpeg,
+    load_guide_item,
+    load_school_item,
+    resolve_thumbnail_url,
+    share_context,
+)
 
 load_dotenv()
 app = FastAPI()
@@ -520,6 +529,14 @@ async def read_school_detail(request: Request, school_id: str, lang: str = Query
     content_html = markdown.markdown(post.content, extensions=['tables', 'fenced_code', 'nl2br'])
     item = post.metadata
     item_type = 'university' if item.get('category') == 'university' else 'school'
+    share_title = (
+        item.get("title")
+        or item.get("basic_info", {}).get("name_en")
+        or item.get("basic_info", {}).get("name_ko")
+        or item.get("basic_info", {}).get("name_ja")
+        or "School Guide"
+    )
+    ctx = share_context(DOMAIN, "school", school_id, share_title, lang)
 
     # [수정] 최신 문법 적용
     return templates.TemplateResponse(request, "detail.html", { 
@@ -529,18 +546,13 @@ async def read_school_detail(request: Request, school_id: str, lang: str = Query
         "hreflang_urls": build_hreflang_urls(f"/school/{school_id}"),
         "updated_at": default_updated_at(),
         "related_guides": pick_related_guides(item, item_type, lang),
-        "meta_title": build_meta_title(
-            item.get("title")
-            or item.get("basic_info", {}).get("name_en")
-            or item.get("basic_info", {}).get("name_ko")
-            or "School Guide",
-            lang,
-        ),
+        "meta_title": build_meta_title(share_title, lang),
         "meta_description": build_meta_description(
             item.get("description", ""),
             "Compare school details, tuition clues, and student-ready preparation tips."
         ),
         "faq_json_ld": None,
+        **ctx,
     })
 
 @app.get("/guide/{slug}", response_class=HTMLResponse)
@@ -560,6 +572,9 @@ async def guide_detail(request: Request, slug: str, lang: str = Query("en")):
 
     title_raw, desc_raw = _apply_guide_serp_overrides(slug, lang, item)
 
+    share_title = title_raw or item.get("title", "Study in Korea Guide")
+    ctx = share_context(DOMAIN, "guide", slug, share_title, lang)
+
     # [수정] 최신 문법 적용
     return templates.TemplateResponse(request, "detail.html", { 
         "item": item, "item_type": "guide", 
@@ -569,12 +584,13 @@ async def guide_detail(request: Request, slug: str, lang: str = Query("en")):
         "updated_at": default_updated_at(),
         "related_schools": pick_related_schools(item, lang),
         "related_guides": pick_related_guides(item, "guide", lang),
-        "meta_title": build_meta_title(title_raw or item.get("title", "Study in Korea Guide"), lang),
+        "meta_title": build_meta_title(share_title, lang),
         "meta_description": build_meta_description(
             desc_raw,
-            "Actionable study-in-Japan guide with practical decisions and student checklists."
+            "Actionable study-in-Korea guide with practical decisions and student checklists."
         ),
         "faq_json_ld": _guide_faq_json_ld(slug, lang),
+        **ctx,
     })
 
 @app.get("/schools", response_class=HTMLResponse)
@@ -712,3 +728,84 @@ async def android_chrome_512():
 @app.get("/site.webmanifest", include_in_schema=False)
 async def site_webmanifest():
     return FileResponse(os.path.join(STATIC_DIR, "site.webmanifest"), media_type="application/manifest+json")
+
+
+def _static_social_path(image_key: str) -> str | None:
+    path = os.path.join(STATIC_DIR, "social", f"{image_key}.jpg")
+    return path if os.path.isfile(path) else None
+
+
+def _social_image_headers() -> dict[str, str]:
+    return {"Cache-Control": "public, max-age=604800"}
+
+
+def _render_social_image(kind: str, identifier: str, lang: str) -> Response:
+    if kind == "school":
+        item, item_type = load_school_item(identifier, lang)
+        source = resolve_thumbnail_url(DOMAIN, item, item_type, gcs_base=GCS_IMAGE_BASE)
+    else:
+        item = load_guide_item(identifier, lang)
+        source = resolve_thumbnail_url(
+            DOMAIN, item, "guide", guide_slug=identifier, gcs_base=GCS_IMAGE_BASE
+        )
+    data = fetch_social_jpeg(source)
+    return Response(content=data, media_type="image/jpeg", headers=_social_image_headers())
+
+
+@app.api_route("/social/{image_key}.jpg", methods=["GET", "HEAD"])
+async def social_image(image_key: str, lang: str = Query("en")):
+    static_path = _static_social_path(image_key)
+    if static_path:
+        return FileResponse(static_path, media_type="image/jpeg", headers=_social_image_headers())
+    if image_key.startswith("guide-"):
+        return _render_social_image("guide", image_key[6:], lang)
+    return _render_social_image("school", image_key, lang)
+
+
+@app.api_route("/card/school/{school_id}", methods=["GET", "HEAD"], response_class=HTMLResponse)
+async def school_social_card(request: Request, school_id: str, lang: str = Query("en")):
+    item, item_type = load_school_item(school_id, lang)
+    title = (
+        item.get("title")
+        or item.get("basic_info", {}).get("name_en")
+        or item.get("basic_info", {}).get("name_ko")
+        or item.get("basic_info", {}).get("name_ja")
+        or "KR Campus"
+    )
+    ctx = share_context(DOMAIN, "school", school_id, title, lang)
+    page = f"{DOMAIN}{detail_page_path('school', school_id, lang)}"
+    card = f"{DOMAIN}{card_page_path('school', school_id, lang)}"
+    return templates.TemplateResponse(request, "social_card.html", {
+        "lang": lang,
+        "title": title,
+        "seo_title": build_meta_title(title, lang),
+        "seo_desc": build_meta_description(
+            item.get("description", ""),
+            "Compare school details, tuition clues, and student-ready preparation tips.",
+        ),
+        "page_url": page,
+        "card_url": card,
+        **ctx,
+    })
+
+
+@app.api_route("/card/guide/{slug}", methods=["GET", "HEAD"], response_class=HTMLResponse)
+async def guide_social_card(request: Request, slug: str, lang: str = Query("en")):
+    item = load_guide_item(slug, lang)
+    title_raw, desc_raw = _apply_guide_serp_overrides(slug, lang, item)
+    title = title_raw or item.get("title", "Study in Korea Guide")
+    ctx = share_context(DOMAIN, "guide", slug, title, lang)
+    page = f"{DOMAIN}{detail_page_path('guide', slug, lang)}"
+    card = f"{DOMAIN}{card_page_path('guide', slug, lang)}"
+    return templates.TemplateResponse(request, "social_card.html", {
+        "lang": lang,
+        "title": title,
+        "seo_title": build_meta_title(title, lang),
+        "seo_desc": build_meta_description(
+            desc_raw,
+            "Actionable study-in-Korea guide with practical decisions and student checklists.",
+        ),
+        "page_url": page,
+        "card_url": card,
+        **ctx,
+    })

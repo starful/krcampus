@@ -257,6 +257,12 @@ def get_ui_text(lang):
             "meta_guides_title": "韓国留学ガイド | KR Campus",
             "meta_guides_desc": "費用・住居・ビザ・学生生活の実用ガイド。",
             "guide_badge": "ガイド",
+            "share_label": "このページを共有",
+            "share_copy": "リンクをコピー",
+            "share_copied": "コピーしました",
+            "share_hint": "X共有は /card/ プレビューURLを使います。画像が表示されない場合は ",
+            "share_hint_link": "カードページ",
+            "share_hint_tail": "を開いてからXボタンで共有してください。",
         }
     return {
         "featured_title": "Featured Collections", "best_selection": "Best Selection", "view_ranking": "View Ranking →",
@@ -296,6 +302,12 @@ def get_ui_text(lang):
         "meta_guides_title": "Essential Korea Study Guides | KR Campus",
         "meta_guides_desc": "Read practical guides on costs, housing, visas, and student life in Korea.",
         "guide_badge": "Guide",
+        "share_label": "Share this page",
+        "share_copy": "Copy link",
+        "share_copied": "Copied!",
+        "share_hint": "X shares use the /card/ preview URL. If the image is missing, ",
+        "share_hint_link": "open the card page",
+        "share_hint_tail": ", then share again via the X button.",
     }
 
 def _read_schools_json(file_path):

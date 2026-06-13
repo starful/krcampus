@@ -629,6 +629,85 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     background-color: #e11d48; 
 }
 
+.share-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+    margin: 48px 0 12px;
+    padding: 18px 22px;
+    background: linear-gradient(180deg, var(--primary-light) 0%, var(--white) 100%);
+    border: 1px solid rgba(0, 71, 160, 0.18);
+    border-radius: 16px;
+    box-shadow: var(--shadow-md);
+}
+
+.share-bar-label {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.share-bar-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.share-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40px;
+    padding: 0 16px;
+    border: 2px solid var(--border);
+    border-radius: 999px;
+    background: var(--white);
+    color: var(--text-gray);
+    font-size: 0.9rem;
+    font-weight: 700;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+.share-btn:hover {
+    transform: translateY(-1px);
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.share-btn:disabled {
+    opacity: 0.85;
+    cursor: default;
+}
+
+.share-btn-icon {
+    width: 42px;
+    min-width: 42px;
+    height: 42px;
+    padding: 0;
+}
+
+.share-icon {
+    display: block;
+    width: 18px;
+    height: 18px;
+}
+
+.share-btn-x:hover { color: #000; border-color: #cbd5e1; }
+
+.share-btn-linkedin:hover { color: #0a66c2; border-color: #0a66c2; }
+
+.share-bar-hint {
+    flex: 1 1 100%;
+    margin: 0;
+    font-size: 0.78rem;
+    line-height: 1.45;
+    color: var(--text-gray);
+}
+
 /* --- [14] 통계 배지 (Stats Banner) 스타일 --- */
 .stats-banner {
     display: flex;
