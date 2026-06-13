@@ -29,6 +29,9 @@ from app.social_share import (
     resolve_thumbnail_url,
     share_context,
 )
+from app.family_sites import cross_links_for, inject_family_context
+
+FAMILY_SITE_ID = "krcampus"
 
 load_dotenv()
 app = FastAPI()
@@ -53,6 +56,23 @@ async def serve_gcs_images(filename: str):
 
 app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
 templates = Jinja2Templates(directory=TEMPLATES_DIR)
+templates.env.globals["inject_family_context"] = inject_family_context
+templates.env.globals["FAMILY_SITE_ID"] = FAMILY_SITE_ID
+
+
+def _campus_address(item: dict) -> str | None:
+    basic = item.get("basic_info") or {}
+    return basic.get("address") or item.get("address")
+
+
+def _detail_cross_links(lang: str, item: dict | None = None, categories: list | None = None):
+    address = _campus_address(item) if item else None
+    return cross_links_for(
+        FAMILY_SITE_ID,
+        lang,
+        address=address,
+        categories=categories,
+    )
 
 DOMAIN = os.getenv("SITE_DOMAIN", "https://krcampus.net").rstrip("/")
 GCS_IMAGE_BASE = os.getenv(
@@ -553,6 +573,8 @@ async def read_school_detail(request: Request, school_id: str, lang: str = Query
             "Compare school details, tuition clues, and student-ready preparation tips."
         ),
         "faq_json_ld": None,
+        "cross_site_links": _detail_cross_links(lang, item),
+        **inject_family_context(FAMILY_SITE_ID, lang),
         **ctx,
     })
 
@@ -591,6 +613,8 @@ async def guide_detail(request: Request, slug: str, lang: str = Query("en")):
             "Actionable study-in-Korea guide with practical decisions and student checklists."
         ),
         "faq_json_ld": _guide_faq_json_ld(slug, lang),
+        "cross_site_links": _detail_cross_links(lang, item),
+        **inject_family_context(FAMILY_SITE_ID, lang),
         **ctx,
     })
 

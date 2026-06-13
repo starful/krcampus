@@ -82,6 +82,12 @@
 </main>
 
 <footer class="main-footer">
+    {% set fc = inject_family_context(FAMILY_SITE_ID, current_lang|default('en')) %}
+    {% set family_sites = fc.family_sites %}
+    {% set family_section_title = fc.family_section_title %}
+    {% set family_lang = fc.family_lang %}
+    {% include 'partials/family_sites.html' %}
+
     {% set stats = site_stats(current_lang|default('en')) %}
     <div class="footer-stats stats-banner">
         <div class="stat-pill">
