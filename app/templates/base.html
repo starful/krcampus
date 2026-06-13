@@ -30,8 +30,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="/favicon-48x48.png" type="image/png" sizes="48x48">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#c8102e">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "KR Campus",
+      "url": "{{ site_url }}",
+      "logo": "{{ site_url }}/static/img/logo.png"
+    }
+    </script>
     {% if adsense_client_id %}
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ adsense_client_id }}" crossorigin="anonymous"></script>
     {% endif %}

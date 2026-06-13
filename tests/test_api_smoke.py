@@ -32,12 +32,16 @@ class ApiSmokeTest(unittest.TestCase):
         self.assertIn("xhtml:link", body)
 
     def test_favicon_and_manifest_routes_exist(self):
-        favicon = self.client.get("/favicon.ico")
-        self.assertIn(favicon.status_code, (200, 302))
-
-        manifest = self.client.get("/site.webmanifest")
-        self.assertEqual(manifest.status_code, 200)
-        self.assertIn("icons", manifest.get_data(as_text=True))
+        for path in [
+            "/favicon.ico",
+            "/favicon-32x32.png",
+            "/favicon-48x48.png",
+            "/apple-touch-icon.png",
+            "/site.webmanifest",
+        ]:
+            with self.subTest(path=path):
+                response = self.client.get(path)
+                self.assertEqual(response.status_code, 200)
 
 
 if __name__ == "__main__":

@@ -84,6 +84,7 @@ def load_redirect_map() -> dict[str, str]:
 REDIRECT_MAP = load_redirect_map()
 templates.env.globals["ga_measurement_id"] = GA_MEASUREMENT_ID
 templates.env.globals["adsense_client_id"] = ADSENSE_CLIENT_ID
+templates.env.globals["site_url"] = DOMAIN
 
 
 def build_canonical_url(path: str, lang: str | None = None) -> str:
@@ -700,32 +701,37 @@ async def policy(request: Request, lang: str = Query("en")):
         ),
     })
 
-@app.get("/favicon.ico", include_in_schema=False)
+@app.api_route("/favicon.ico", methods=["GET", "HEAD"], include_in_schema=False)
 async def favicon():
     return FileResponse(os.path.join(STATIC_DIR, "img", "favicon.ico"))
 
 
-@app.get("/favicon-32x32.png", include_in_schema=False)
+@app.api_route("/favicon-32x32.png", methods=["GET", "HEAD"], include_in_schema=False)
 async def favicon_32():
     return FileResponse(os.path.join(STATIC_DIR, "img", "favicon-32x32.png"))
 
 
-@app.get("/apple-touch-icon.png", include_in_schema=False)
+@app.api_route("/favicon-48x48.png", methods=["GET", "HEAD"], include_in_schema=False)
+async def favicon_48():
+    return FileResponse(os.path.join(STATIC_DIR, "img", "favicon-48x48.png"))
+
+
+@app.api_route("/apple-touch-icon.png", methods=["GET", "HEAD"], include_in_schema=False)
 async def apple_touch_icon():
     return FileResponse(os.path.join(STATIC_DIR, "img", "apple-touch-icon.png"))
 
 
-@app.get("/android-chrome-192x192.png", include_in_schema=False)
+@app.api_route("/android-chrome-192x192.png", methods=["GET", "HEAD"], include_in_schema=False)
 async def android_chrome_192():
     return FileResponse(os.path.join(STATIC_DIR, "img", "android-chrome-192x192.png"))
 
 
-@app.get("/android-chrome-512x512.png", include_in_schema=False)
+@app.api_route("/android-chrome-512x512.png", methods=["GET", "HEAD"], include_in_schema=False)
 async def android_chrome_512():
     return FileResponse(os.path.join(STATIC_DIR, "img", "android-chrome-512x512.png"))
 
 
-@app.get("/site.webmanifest", include_in_schema=False)
+@app.api_route("/site.webmanifest", methods=["GET", "HEAD"], include_in_schema=False)
 async def site_webmanifest():
     return FileResponse(os.path.join(STATIC_DIR, "site.webmanifest"), media_type="application/manifest+json")
 

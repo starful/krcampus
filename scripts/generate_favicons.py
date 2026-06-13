@@ -76,8 +76,9 @@ def main(src: Path = DEFAULT_SRC) -> None:
     # Favicon sizes from icon mark only
     base = icon.resize((512, 512), Image.Resampling.LANCZOS)
     save_ico(base, IMG_DIR / "favicon.ico")
-    base.resize((32, 32), Image.Resampling.LANCZOS).save(IMG_DIR / "favicon-32x32.png", optimize=True)
     base.resize((16, 16), Image.Resampling.LANCZOS).save(IMG_DIR / "favicon-16x16.png", optimize=True)
+    base.resize((32, 32), Image.Resampling.LANCZOS).save(IMG_DIR / "favicon-32x32.png", optimize=True)
+    base.resize((48, 48), Image.Resampling.LANCZOS).save(IMG_DIR / "favicon-48x48.png", optimize=True)
     base.resize((180, 180), Image.Resampling.LANCZOS).save(IMG_DIR / "apple-touch-icon.png", optimize=True)
     base.resize((192, 192), Image.Resampling.LANCZOS).save(IMG_DIR / "android-chrome-192x192.png", optimize=True)
     base.resize((512, 512), Image.Resampling.LANCZOS).save(IMG_DIR / "android-chrome-512x512.png", optimize=True)

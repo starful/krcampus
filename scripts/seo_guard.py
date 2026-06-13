@@ -187,6 +187,26 @@ def run_checks() -> tuple[list[CheckResult], list[CheckResult]]:
     else:
         passed.append(CheckResult(True, "/privacy: legacy redirect checks passed"))
 
+    for icon_path in ["/favicon.ico", "/favicon-32x32.png", "/favicon-48x48.png", "/site.webmanifest"]:
+        icon_res = client.get(icon_path)
+        if icon_res.status_code != 200:
+            failed.append(CheckResult(False, f"{icon_path}: expected 200, got {icon_res.status_code}"))
+        else:
+            passed.append(CheckResult(True, f"{icon_path}: checks passed"))
+
+    home = client.get("/")
+    if home.status_code == 200:
+        for needle in [
+            'rel="icon" href="/favicon.ico"',
+            'href="/favicon-48x48.png"',
+            'href="/site.webmanifest"',
+            '"@type": "Organization"',
+        ]:
+            if needle not in home.text:
+                failed.append(CheckResult(False, f"/: missing {needle}"))
+            else:
+                passed.append(CheckResult(True, f"/: contains {needle}"))
+
     return passed, failed
 
 
