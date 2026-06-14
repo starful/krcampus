@@ -52,6 +52,7 @@ def build_json(lang_suffix, output_filename):
                     {
                         "id": school_id,
                         "category": meta.get("category", "school"),
+                        "published": datetime.fromtimestamp(os.path.getmtime(filepath)).strftime("%Y-%m-%d"),
                         "thumbnail": resolve_thumbnail(meta, school_id),
                         "basic_info": {
                             "name_ko": basic.get("name_ko") or basic.get("name_ja"),

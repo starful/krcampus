@@ -318,6 +318,15 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .card-img { width: 100%; height: 220px; background-size: cover; background-position: center; position: relative; }
 .card-thumb { width: 100%; height: 100%; object-fit: cover; display: block; }
 .card-badge { position: absolute; top: 15px; left: 15px; padding: 5px 12px; border-radius: 8px; font-size: 0.7rem; font-weight: 800; text-transform: uppercase; background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(5px); }
+.badge-new {
+    position: absolute; top: 15px; right: 15px; z-index: 2;
+    padding: 3px 8px; border-radius: 999px;
+    background: var(--accent, #c8102e); color: #fff;
+    font-size: 0.68rem; font-weight: 700; letter-spacing: 0.03em;
+    text-transform: uppercase; box-shadow: 0 2px 8px rgba(200, 16, 46, 0.35);
+}
+.card.is-new-content { border-color: rgba(200, 16, 46, 0.35); }
+.published-date { font-size: 0.72rem; color: var(--text-gray); display: block; margin-top: 6px; }
 .card-body { padding: 24px; flex-grow: 1; }
 .card-body h4 { margin: 0 0 10px; font-size: 1.15rem; font-weight: 700; line-height: 1.4; }
 .school-card.is-highlighted {

@@ -6,6 +6,11 @@ import hashlib
 import frontmatter
 from fastapi import Request
 
+try:
+    from .content_new import enrich_item
+except ImportError:
+    from content_new import enrich_item
+
 # --- 디렉토리 경로 설정 ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 STATIC_DIR = os.path.join(BASE_DIR, "static")
@@ -353,7 +358,7 @@ def _load_guide_files(lang):
             guide_id = str(meta.get("id", "")).replace("_ja", "").replace("guide_", "")
             safe_thumbnail = resolve_guide_list_thumbnail(meta)
 
-            guides.append({
+            guides.append(enrich_item({
                 "title": meta.get("title", "Untitled"),
                 "description": meta.get("description", ""),
                 "category": meta.get("category", "Guide"),
@@ -361,7 +366,8 @@ def _load_guide_files(lang):
                 "thumbnail": safe_thumbnail,
                 "item_type": "guide",
                 "is_featured": meta.get("is_featured", False),
-            })
+                "published": str(meta.get("date", "")),
+            }))
         except Exception:
             pass
     return guides

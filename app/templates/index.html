@@ -49,14 +49,16 @@
     </div>
     <div class="card-grid" style="margin-bottom: 80px;">
         {% for guide in featured_guides %}
-        <a href="{{ guide.link }}" class="card" style="border: 2px solid var(--accent);">
+        <a href="{{ guide.link }}" class="card{% if guide.is_new %} is-new-content{% endif %}" style="border: 2px solid var(--accent);">
             <div class="card-img" style="height: 200px;">
                 <img src="{{ guide.thumbnail }}" alt="{{ guide.title }}" loading="lazy" decoding="async" class="card-thumb">
                 <span class="card-badge" style="background: var(--accent); color: white;">{{ ui.best_selection }}</span>
+                {% if guide.is_new %}<span class="badge-new">New</span>{% endif %}
             </div>
             <div class="card-body">
                 <h4 style="font-size: 1.2rem; margin-bottom: 10px;">{{ guide.title }}</h4>
                 <p style="font-size: 0.9rem; color: var(--text-gray);">{{ guide.description }}</p>
+                {% if guide.published %}<span class="published-date">{{ guide.published }}</span>{% endif %}
             </div>
             <div class="card-footer" style="background: #fff7ed;">
                 <span style="color: var(--accent); font-weight: 700; font-size: 0.9rem;">{{ ui.view_ranking }}</span>
@@ -73,11 +75,11 @@
     <div class="card-grid">
         {% set school_imgs = [ '...', '...' ] %}
         {% for item in latest_schools %}
-        <a href="{{ item.link }}" class="card school-card" data-school-id="{{ item.id }}" data-track="school_card" data-track-label="{{ item.id }}">
-            <!-- 파이썬에서 만들어준 고유 썸네일 사용 -->
+        <a href="{{ item.link }}" class="card school-card{% if item.is_new %} is-new-content{% endif %}" data-school-id="{{ item.id }}" data-track="school_card" data-track-label="{{ item.id }}">
             <div class="card-img">
                 <img src="{{ item.thumbnail }}" alt="{{ item.basic_info.name_display or item.basic_info.name_en or item.basic_info.name_ko }}" loading="lazy" decoding="async" class="card-thumb">
                 <span class="card-badge" style="color: var(--primary);">{{ ui.school_badge }}</span>
+                {% if item.is_new %}<span class="badge-new">New</span>{% endif %}
             </div>
             <div class="card-body">
                 {# [중요] name_display(한국어이름)가 있으면 우선 출력 #}
@@ -109,11 +111,11 @@
     <div class="card-grid">
         {% set univ_imgs = [ '...', '...' ] %}
         {% for item in latest_universities %}
-        <a href="{{ item.link }}" class="card school-card" data-school-id="{{ item.id }}" data-track="university_card" data-track-label="{{ item.id }}">
-            <!-- 파이썬에서 만들어준 고유 썸네일 사용 -->
+        <a href="{{ item.link }}" class="card school-card{% if item.is_new %} is-new-content{% endif %}" data-school-id="{{ item.id }}" data-track="university_card" data-track-label="{{ item.id }}">
             <div class="card-img">
                 <img src="{{ item.thumbnail }}" alt="{{ item.basic_info.name_display or item.basic_info.name_en or item.basic_info.name_ko }}" loading="lazy" decoding="async" class="card-thumb">
                 <span class="card-badge" style="color: var(--accent);">{{ ui.univ_badge }}</span>
+                {% if item.is_new %}<span class="badge-new">New</span>{% endif %}
             </div>
             <div class="card-body">
                 <h4>{{ item.basic_info.name_display or item.basic_info.name_en or item.basic_info.name_ko }}</h4>
@@ -134,14 +136,16 @@
     </div>
     <div class="card-grid">
         {% for guide in latest_guides %}
-        <a href="{{ guide.link }}" class="card">
+        <a href="{{ guide.link }}" class="card{% if guide.is_new %} is-new-content{% endif %}">
             <div class="card-img" style="height: 180px;">
                 <img src="{{ guide.thumbnail }}" alt="{{ guide.title }}" loading="lazy" decoding="async" class="card-thumb">
+                {% if guide.is_new %}<span class="badge-new">New</span>{% endif %}
             </div>
             <div class="card-body">
                 <span style="font-size: 0.75rem; color: var(--primary); font-weight: 800; text-transform: uppercase;">{{ guide.category }}</span>
                 <h4 style="margin: 8px 0; font-size: 1.1rem;">{{ guide.title }}</h4>
                 <p style="font-size: 0.85rem; color: var(--text-gray); line-height: 1.6;">{{ guide.description | truncate(80) }}</p>
+                {% if guide.published %}<span class="published-date">{{ guide.published }}</span>{% endif %}
             </div>
         </a>
         {% endfor %}
