@@ -14,6 +14,31 @@ GCS_IMAGE_BASE = os.environ.get(
 )
 
 
+def dedupe_key(entry):
+    loc = entry.get("location") or {}
+    lat, lng = loc.get("lat"), loc.get("lng")
+    if lat is not None and lng is not None:
+        return ("loc", entry.get("category"), round(float(lat), 4), round(float(lng), 4))
+
+    basic = entry.get("basic_info") or {}
+    name = (basic.get("name_en") or basic.get("name_ko") or "").lower()
+    for token in (" (unist)", "unist", " national institute of science and technology"):
+        name = name.replace(token, "")
+    name = "".join(ch for ch in name if ch.isalnum())
+    return ("name", entry.get("category"), name)
+
+
+def dedupe_schools(schools_list):
+    seen = {}
+    for entry in schools_list:
+        key = dedupe_key(entry)
+        if key in seen:
+            print(f"Skipping duplicate: {entry['id']} (same as {seen[key]['id']})")
+            continue
+        seen[key] = entry
+    return list(seen.values())
+
+
 def resolve_thumbnail(meta, slug):
     raw = meta.get("thumbnail") or ""
     if raw.startswith("http"):
@@ -71,6 +96,8 @@ def build_json(lang_suffix, output_filename):
                 )
         except Exception as e:
             print(f"Error ({filename}): {e}")
+
+    schools_list = dedupe_schools(schools_list)
 
     final_data = {
         "last_updated": datetime.now().strftime("%Y-%m-%d"),

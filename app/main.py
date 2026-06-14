@@ -21,6 +21,11 @@ from app.utils import (
 )
 from app.content_new import enrich_items
 from app.reactions import router as reactions_router
+
+SCHOOL_ID_ALIASES = {
+    "univ_ulsan-national-institute-of-science-and-technology": "univ_unist-ulsan-national-institute-of-science-and-technology",
+    "univ_ulsan-national-institute-of-science-and-technology-unist": "univ_unist-ulsan-national-institute-of-science-and-technology",
+}
 from app.social_share import (
     card_page_path,
     detail_page_path,
@@ -539,6 +544,13 @@ async def read_root(request: Request, lang: str = Query("en")):
 
 @app.get("/school/{school_id}", response_class=HTMLResponse)
 async def read_school_detail(request: Request, school_id: str, lang: str = Query("en")):
+    canonical_id = SCHOOL_ID_ALIASES.get(school_id, school_id)
+    if canonical_id != school_id:
+        return RedirectResponse(
+            url=f"/school/{canonical_id}?lang={lang}",
+            status_code=301,
+        )
+
     filename = f"{school_id}_ja.md" if lang == "ja" else f"{school_id}.md"
     md_path = os.path.join(CONTENT_DIR, filename)
     if not os.path.exists(md_path) and lang == "ja":
