@@ -52,6 +52,12 @@
                 <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
                 {{ item.get('basic_info', {}).get('address', 'Address not available') }}
             </p>
+            <button type="button" class="compare-toggle-btn detail-compare-btn"
+                data-compare-id="{{ item.id }}"
+                data-label-default="{{ ui.compare_add }}"
+                data-label-selected="{{ ui.compare_added }}"
+                data-track="compare_toggle"
+                data-track-label="{{ item.id }}">{{ ui.compare_add }}</button>
         {% endif %}
     </div>
 
@@ -81,7 +87,7 @@
             <div class="info-label">{{ ui.yearly_tuition }}</div>
             <div class="info-value">
                 {% if item.get('tuition') and item.get('tuition').get('yearly_tuition') %}
-                    ¥{{ "{:,}".format(item.get('tuition').get('yearly_tuition')) }}
+                    ₩{{ "{:,}".format(item.get('tuition').get('yearly_tuition')) }}
                 {% else %}
                     TBD
                 {% endif %}

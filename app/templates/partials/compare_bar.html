@@ -1,0 +1,13 @@
+<div class="compare-bar" id="compare-bar" aria-live="polite">
+    <div class="compare-bar-text">
+        <span data-compare-count>0</span> / 3 {{ ui.compare_selected }}
+    </div>
+    <div class="compare-bar-actions">
+        <button type="button" class="compare-clear-btn" data-compare-clear data-track="compare_clear" data-track-label="clear">
+            {{ ui.compare_clear }}
+        </button>
+        <a href="/compare?lang={{ current_lang }}" class="compare-open-btn" data-compare-open data-track="compare_open" data-track-label="bar">
+            {{ ui.compare_now }}
+        </a>
+    </div>
+</div>

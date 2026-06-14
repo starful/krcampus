@@ -88,15 +88,23 @@
                     <span>{{ item.basic_info.address.split(' ')[0] if item.basic_info.address else 'Korea' }}</span>
                 </div>
             </div>
-            <div class="card-footer">
-                <span class="card-price">
-                    {% if item.get('tuition') and item.get('tuition').get('yearly_tuition') %}
-                        ¥{{ "{:,}".format(item.get('tuition').get('yearly_tuition')) }}
-                    {% else %}
-                        {{ ui.contact_fee }}
-                    {% endif %}
-                </span>
-                <span style="font-size: 0.75rem; color: var(--text-gray); font-weight: 600;">{{ ui.yearly }}</span>
+            <div class="card-footer" style="display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap;">
+                <div>
+                    <span class="card-price">
+                        {% if item.get('tuition') and item.get('tuition').get('yearly_tuition') %}
+                            ₩{{ "{:,}".format(item.get('tuition').get('yearly_tuition')) }}
+                        {% else %}
+                            {{ ui.contact_fee }}
+                        {% endif %}
+                    </span>
+                    <span style="font-size: 0.75rem; color: var(--text-gray); font-weight: 600;">{{ ui.yearly }}</span>
+                </div>
+                <button type="button" class="compare-toggle-btn"
+                    data-compare-id="{{ item.id }}"
+                    data-label-default="{{ ui.compare_add }}"
+                    data-label-selected="{{ ui.compare_added }}"
+                    data-track="compare_toggle"
+                    data-track-label="{{ item.id }}">{{ ui.compare_add }}</button>
             </div>
         </a>
         {% endfor %}
@@ -120,9 +128,14 @@
                 <h4>{{ item.basic_info.name_display or item.basic_info.name_en or item.basic_info.name_ko }}</h4>
                 <p style="color: var(--text-gray); font-size: 0.9rem; margin-bottom: 15px;">{{ ui.national_private }}</p>
             </div>
-            <div class="card-footer">
+            <div class="card-footer" style="display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap;">
                 <span class="card-price" style="color: var(--accent);">{{ ui.global_programs }}</span>
-                <span style="font-size: 0.75rem; background: #fff7ed; color: #c2410c; padding: 4px 10px; border-radius: 6px; font-weight: 700;">TOP TIER</span>
+                <button type="button" class="compare-toggle-btn"
+                    data-compare-id="{{ item.id }}"
+                    data-label-default="{{ ui.compare_add }}"
+                    data-label-selected="{{ ui.compare_added }}"
+                    data-track="compare_toggle"
+                    data-track-label="{{ item.id }}">{{ ui.compare_add }}</button>
             </div>
         </a>
         {% endfor %}

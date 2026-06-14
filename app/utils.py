@@ -268,6 +268,30 @@ def get_ui_text(lang):
             "share_hint": "X共有は /card/ プレビューURLを使います。画像が表示されない場合は ",
             "share_hint_link": "カードページ",
             "share_hint_tail": "を開いてからXボタンで共有してください。",
+            "compare_header": "比較",
+            "compare_add": "+ 比較",
+            "compare_added": "✓ 比較中",
+            "compare_selected": "件選択",
+            "compare_clear": "クリア",
+            "compare_now": "比較する",
+            "compare_title": "学校比較",
+            "compare_desc": "最大3校を選び、学費・地域・特徴を並べて比較できます。",
+            "compare_table_title": "並べて比較",
+            "compare_schools_compared": "校を比較中",
+            "compare_need_more": "あと1校追加してください",
+            "compare_pick_schools": "リストから2〜3校を選んでください",
+            "compare_empty_html": "比較するにはリストから<strong>2校以上</strong>を選んでください。",
+            "compare_remove": "削除",
+            "compare_row_type": "区分",
+            "compare_row_city": "都市",
+            "compare_row_fees": "学費",
+            "compare_row_features": "特徴",
+            "compare_toast_added": "比較リストに追加しました ✓",
+            "compare_toast_removed": "比較リストから削除しました",
+            "compare_toast_max": "最大3校まで — 1校削除してください",
+            "compare_toast_cleared": "比較リストをクリアしました",
+            "meta_compare_title": "学校比較 | KR Campus",
+            "meta_compare_desc": "韓国語学堂・大学を最大3校まで並べて比較。学費・定員・留学生数・特徴を一覧で確認。",
         }
     return {
         "featured_title": "Featured Collections", "best_selection": "Best Selection", "view_ranking": "View Ranking →",
@@ -313,7 +337,59 @@ def get_ui_text(lang):
         "share_hint": "X shares use the /card/ preview URL. If the image is missing, ",
         "share_hint_link": "open the card page",
         "share_hint_tail": ", then share again via the X button.",
+        "compare_header": "Compare",
+        "compare_add": "+ Compare",
+        "compare_added": "✓ Comparing",
+        "compare_selected": "selected",
+        "compare_clear": "Clear",
+        "compare_now": "Compare now",
+        "compare_title": "School Compare",
+        "compare_desc": "Select up to 3 institutes or universities to compare fees, location, and features side by side.",
+        "compare_table_title": "Side-by-side comparison",
+        "compare_schools_compared": "schools compared",
+        "compare_need_more": "add one more",
+        "compare_pick_schools": "Pick 2–3 schools from the list for a meaningful comparison",
+        "compare_empty_html": "Select at least <strong>2 schools</strong> from the list to see a comparison.",
+        "compare_remove": "Remove",
+        "compare_row_type": "Type",
+        "compare_row_city": "City",
+        "compare_row_fees": "Tuition / fees",
+        "compare_row_features": "Features",
+        "compare_toast_added": "Added to compare ✓",
+        "compare_toast_removed": "Removed from compare",
+        "compare_toast_max": "Max 3 schools — remove one first",
+        "compare_toast_cleared": "Compare list cleared",
+        "meta_compare_title": "Compare Schools | KR Campus",
+        "meta_compare_desc": "Compare up to 3 Korean language institutes or universities side by side — fees, capacity, international students, and features.",
     }
+
+def compare_city(item: dict) -> str:
+    address = item.get("basic_info", {}).get("address", "")
+    if not address:
+        return "—"
+    return address.split(",")[0].strip()
+
+def compare_fee_value(item: dict) -> int | None:
+    tuition = item.get("tuition") or {}
+    value = tuition.get("yearly_tuition")
+    return value if isinstance(value, (int, float)) else None
+
+def compare_fee_label(item: dict, lang: str) -> str | None:
+    value = compare_fee_value(item)
+    if value is None:
+        return None
+    suffix = " <small>(yearly)</small>" if item.get("category") == "university" else " <small>(yearly tuition)</small>"
+    return f"₩{int(value):,}{suffix}"
+
+def prepare_compare_items(items: list[dict], lang: str) -> list[dict]:
+    prepared = []
+    for item in items:
+        row = dict(item)
+        row["compare_city"] = compare_city(item)
+        row["compare_fee_value"] = compare_fee_value(item)
+        row["compare_fee_label"] = compare_fee_label(item, lang)
+        prepared.append(row)
+    return prepared
 
 def _read_schools_json(file_path):
     with open(file_path, "r", encoding="utf-8") as f:

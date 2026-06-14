@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+
+{% block header %}{% endblock %}
+
+{% block title %}{{ meta_title }}{% endblock %}
+
+{% block content %}
+<main class="content-wrapper compare-page" style="margin-top: 40px;">
+    <a href="/?lang={{ current_lang }}" class="back-to-list-btn" style="margin-bottom: 20px;">
+        <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"></path></svg>
+        <span>{{ ui.back_to_map }}</span>
+    </a>
+
+    <div class="compare-page-head">
+        <h1>{{ ui.compare_title }}</h1>
+        <p>{{ ui.compare_desc }}</p>
+    </div>
+
+    <section class="compare-panel">
+        <div class="compare-panel-head">
+            <h2>{{ ui.compare_table_title }}</h2>
+            <p>
+                {% if selected|length >= 2 %}
+                    {{ selected|length }} {{ ui.compare_schools_compared }}
+                {% elif selected|length == 1 %}
+                    1 {{ ui.compare_selected }} — {{ ui.compare_need_more }}
+                {% else %}
+                    {{ ui.compare_pick_schools }}
+                {% endif %}
+            </p>
+        </div>
+
+        {% if selected|length < 2 %}
+        <div class="compare-empty">
+            {{ ui.compare_empty_html|safe }}
+        </div>
+        {% else %}
+        <div class="compare-table-wrap">
+            <table class="compare-table">
+                <thead>
+                    <tr>
+                        <th></th>
+                        {% for item in selected %}
+                        <th class="col-head">
+                            {{ item.basic_info.name_display or item.basic_info.name_en or item.basic_info.name_ko }}
+                            <button type="button" class="compare-remove-col" data-compare-remove="{{ item.id }}">{{ ui.compare_remove }}</button>
+                        </th>
+                        {% endfor %}
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>{{ ui.compare_row_type }}</th>
+                        {% for item in selected %}
+                        <td>
+                            <strong>{{ ui.university if item.category == 'university' else ui.language_school }}</strong>
+                        </td>
+                        {% endfor %}
+                    </tr>
+                    <tr>
+                        <th>{{ ui.compare_row_city }}</th>
+                        {% for item in selected %}
+                        <td>{{ item.compare_city }}</td>
+                        {% endfor %}
+                    </tr>
+                    <tr>
+                        <th>{{ ui.capacity }}</th>
+                        {% for item in selected %}
+                        <td>{{ item.basic_info.capacity or '—' }}</td>
+                        {% endfor %}
+                    </tr>
+                    <tr>
+                        <th>{{ ui.students }}</th>
+                        {% for item in selected %}
+                        <td>{{ item.stats.international_students if item.stats and item.stats.international_students else '—' }}</td>
+                        {% endfor %}
+                    </tr>
+                    <tr>
+                        <th>{{ ui.compare_row_fees }}</th>
+                        {% for item in selected %}
+                        <td{% if item.compare_fee_value is not none and min_fee is not none and item.compare_fee_value == min_fee %} class="best-cell"{% endif %}>
+                            {% if item.compare_fee_label %}
+                                {{ item.compare_fee_label|safe }}
+                            {% else %}
+                                {{ ui.contact_fee }}
+                            {% endif %}
+                        </td>
+                        {% endfor %}
+                    </tr>
+                    <tr>
+                        <th>{{ ui.compare_row_features }}</th>
+                        {% for item in selected %}
+                        <td>
+                            {% if item.features %}
+                            <div class="compare-tag-list">
+                                {% for feature in item.features[:6] %}
+                                <span class="compare-tag{% if loop.first %} highlight{% endif %}">{{ feature }}</span>
+                                {% endfor %}
+                            </div>
+                            {% else %}
+                            —
+                            {% endif %}
+                        </td>
+                        {% endfor %}
+                    </tr>
+                    <tr>
+                        <th>{{ ui.view_details }}</th>
+                        {% for item in selected %}
+                        <td><a href="{{ item.link }}" class="compare-detail-link">{{ ui.view_details }} →</a></td>
+                        {% endfor %}
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="compare-footer">
+            <a href="/schools?lang={{ current_lang }}" class="compare-back-list-btn">{{ ui.back_to_list }}</a>
+        </div>
+        {% endif %}
+    </section>
+</main>
+{% endblock %}

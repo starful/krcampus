@@ -20,15 +20,15 @@
 
     <div class="card-grid">
         {% for item in items %}
-        <a href="{{ item.link }}" class="card">
+        <a href="{{ item.link }}" class="card{% if item_type != 'guide' %} school-card{% endif %}"{% if item_type != 'guide' %} data-school-id="{{ item.id }}"{% endif %}>
             <div class="card-img">
                 <img src="{{ item.thumbnail }}" alt="{{ item.title or item.basic_info.name_display or item.basic_info.name_en or item.basic_info.name_ko }}" loading="lazy" decoding="async" class="card-thumb">
-                <span class="card-badge" style="color: var(--primary);">{{ ui.guide_badge if item.item_type == 'guide' else (ui.university if item.category == 'university' else ui.language_school) }}</span>
+                <span class="card-badge" style="color: var(--primary);">{{ ui.guide_badge if item_type == 'guide' else (ui.university if item.category == 'university' else ui.language_school) }}</span>
             </div>
             <div class="card-body">
                 <h4>{{ item.title or item.basic_info.name_display or item.basic_info.name_en or item.basic_info.name_ko }}</h4>
                 <div class="card-meta">
-                    {% if item.item_type != 'guide' %}
+                    {% if item_type != 'guide' %}
                         <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"></path></svg>
                         <span>{{ item.basic_info.address }}</span>
                     {% else %}
@@ -36,6 +36,16 @@
                     {% endif %}
                 </div>
             </div>
+            {% if item.item_type != 'guide' %}
+            <div class="card-footer" style="display: flex; justify-content: flex-end;">
+                <button type="button" class="compare-toggle-btn"
+                    data-compare-id="{{ item.id }}"
+                    data-label-default="{{ ui.compare_add }}"
+                    data-label-selected="{{ ui.compare_added }}"
+                    data-track="compare_toggle"
+                    data-track-label="{{ item.id }}">{{ ui.compare_add }}</button>
+            </div>
+            {% endif %}
         </a>
         {% endfor %}
     </div>

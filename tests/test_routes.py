@@ -12,7 +12,7 @@ class RouteSmokeTests(unittest.TestCase):
         cls.client = TestClient(app)
 
     def test_core_routes_return_200(self):
-        for path in ["/", "/schools", "/universities", "/guide", "/about", "/policy", "/contact"]:
+        for path in ["/", "/schools", "/universities", "/guide", "/about", "/policy", "/contact", "/compare"]:
             with self.subTest(path=path):
                 response = self.client.get(path)
                 self.assertEqual(response.status_code, 200)

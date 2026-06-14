@@ -81,6 +81,7 @@ def run_checks() -> tuple[list[CheckResult], list[CheckResult]]:
         ("/about", f"{DOMAIN}/about"),
         ("/policy", f"{DOMAIN}/policy"),
         ("/contact", f"{DOMAIN}/contact"),
+        ("/compare", f"{DOMAIN}/compare"),
     ]
 
     for path, expected_canonical in html_targets:
