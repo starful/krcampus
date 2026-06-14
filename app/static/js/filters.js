@@ -43,21 +43,34 @@
         });
     }
 
+    function updateGridEmptyState(grid, cardSelector) {
+        const cards = grid.querySelectorAll(cardSelector);
+        if (!cards.length) return;
+        const visibleCount = [...cards].filter(c => !c.classList.contains('is-filter-hidden')).length;
+        grid.classList.toggle('is-filter-empty', visibleCount === 0);
+        const sectionHeader = grid.previousElementSibling;
+        if (sectionHeader && sectionHeader.classList.contains('section-header')) {
+            sectionHeader.classList.toggle('is-filter-empty', visibleCount === 0);
+        }
+    }
+
     function filterVisibleCards(filteredSchools) {
         const ids = new Set(filteredSchools.map(s => s.id));
-        document.querySelectorAll('.school-card[data-school-id]').forEach(card => {
-            card.classList.toggle('is-filter-hidden', !ids.has(card.dataset.schoolId));
+        const isUniversityFilter = currentFilterKey === 'university';
+
+        document.querySelectorAll('[data-filter-grid="schools"] .school-card[data-school-id]').forEach(card => {
+            card.classList.toggle('is-filter-hidden', isUniversityFilter || !ids.has(card.dataset.schoolId));
         });
 
-        document.querySelectorAll('.card-grid').forEach(grid => {
-            const cards = grid.querySelectorAll('.school-card[data-school-id]');
-            if (!cards.length) return;
-            const visibleCount = [...cards].filter(c => !c.classList.contains('is-filter-hidden')).length;
-            grid.classList.toggle('is-filter-empty', visibleCount === 0);
-            const sectionHeader = grid.previousElementSibling;
-            if (sectionHeader && sectionHeader.classList.contains('section-header')) {
-                sectionHeader.classList.toggle('is-filter-empty', visibleCount === 0);
-            }
+        document.querySelectorAll('[data-filter-grid="universities"] .university-card[data-school-id]').forEach(card => {
+            card.classList.toggle('is-filter-hidden', !isUniversityFilter && currentFilterKey !== 'all');
+        });
+
+        document.querySelectorAll('[data-filter-grid]').forEach(grid => {
+            const cardSelector = grid.dataset.filterGrid === 'universities'
+                ? '.university-card[data-school-id]'
+                : '.school-card[data-school-id]';
+            updateGridEmptyState(grid, cardSelector);
         });
     }
 
@@ -91,9 +104,11 @@
         requestAnimationFrame(() => {
             const header = document.querySelector('.site-header');
             const headerOffset = header ? header.offsetHeight + 12 : 12;
-            const firstVisible = document.querySelector('.school-card[data-school-id]:not(.is-filter-hidden)');
+            const firstVisible = document.querySelector(
+                '.school-card[data-school-id]:not(.is-filter-hidden), .university-card[data-school-id]:not(.is-filter-hidden)'
+            );
             const target = firstVisible
-                || document.querySelector('.card-grid:not(.is-filter-empty) .school-card[data-school-id]')
+                || document.querySelector('[data-filter-grid]:not(.is-filter-empty) .school-card[data-school-id], [data-filter-grid]:not(.is-filter-empty) .university-card[data-school-id]')
                 || document.querySelector('.content-wrapper');
 
             if (!target) return;

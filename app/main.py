@@ -496,9 +496,9 @@ async def read_root(request: Request, lang: str = Query("en")):
 
     featured_candidates = [g for g in all_guides if g.get('is_featured')]
     if not featured_candidates:
-        featured_candidates = all_guides[:6]
+        featured_candidates = all_guides[:3]
     else:
-        featured_candidates = featured_candidates[:6]
+        featured_candidates = featured_candidates[:3]
     featured_guides = enrich_items(diversify_guide_thumbnails(featured_candidates))
     featured_links = {g["link"] for g in featured_guides}
 

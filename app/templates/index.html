@@ -72,8 +72,7 @@
         <h2 class="section-title">{{ ui.language_schools }}</h2>
         <a href="/schools?lang={{ current_lang }}" class="view-all">{{ ui.view_all_schools }}</a>
     </div>
-    <div class="card-grid">
-        {% set school_imgs = [ '...', '...' ] %}
+    <div class="card-grid" data-filter-grid="schools">
         {% for item in latest_schools %}
         <a href="{{ item.link }}" class="card school-card{% if item.is_new %} is-new-content{% endif %}" data-school-id="{{ item.id }}" data-track="school_card" data-track-label="{{ item.id }}">
             <div class="card-img">
@@ -108,10 +107,10 @@
         <h2 class="section-title">{{ ui.top_universities }}</h2>
         <a href="/universities?lang={{ current_lang }}" class="view-all">{{ ui.view_all_univs }}</a>
     </div>
-    <div class="card-grid">
+    <div class="card-grid" data-filter-grid="universities">
         {% set univ_imgs = [ '...', '...' ] %}
         {% for item in latest_universities %}
-        <a href="{{ item.link }}" class="card school-card{% if item.is_new %} is-new-content{% endif %}" data-school-id="{{ item.id }}" data-track="university_card" data-track-label="{{ item.id }}">
+        <a href="{{ item.link }}" class="card university-card{% if item.is_new %} is-new-content{% endif %}" data-school-id="{{ item.id }}" data-track="university_card" data-track-label="{{ item.id }}">
             <div class="card-img">
                 <img src="{{ item.thumbnail }}" alt="{{ item.basic_info.name_display or item.basic_info.name_en or item.basic_info.name_ko }}" loading="lazy" decoding="async" class="card-thumb">
                 <span class="card-badge" style="color: var(--accent);">{{ ui.univ_badge }}</span>
@@ -161,7 +160,7 @@
 <script>
     const SCHOOLS_DATA = {{ schools_json | safe }};
 </script>
-<script src="/static/js/filters.js?v=3"></script>
+<script src="/static/js/filters.js?v=4"></script>
 <script src="/static/js/map.js?v=10"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key={{ maps_api_key }}&callback=initMap&libraries=marker,geometry&v=weekly" async defer></script>
 {% endblock %}

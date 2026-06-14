@@ -252,6 +252,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 
 /* --- [5] 이후 레이아웃 스타일 --- */
 .school-card.is-filter-hidden,
+.university-card.is-filter-hidden,
 .card-grid.is-filter-empty,
 .section-header.is-filter-empty {
     display: none !important;
