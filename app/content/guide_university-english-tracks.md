@@ -2,16 +2,19 @@
 {
   "layout": "guide",
   "id": "university-english-tracks",
-  "title": "English-Taught Programs in Korean Universities",
+  "title": "English-Taught Programs in Korean Universities: The Complete Guide",
   "category": "Selection",
   "tags": [
     "Selection"
   ],
-  "description": "Degrees without Korean fluency.",
+  "description": "Your ultimate resource for studying in South Korea 100% in English. Explore top-ranked universities, available English tracks, and admission requirements without needing TOPIK.",
   "thumbnail": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=500",
-  "date": "2026-06-09"
+  "date": "2026-06-09",
+  "seo_title": "Study in Korea in English: 2026 University Guide | KR Campus",
+  "seo_description": "Want to study in Korea without speaking Korean? Discover top English-taught programs, university rankings, and 2026 admission requirements."
 }
 ---
+
 
 # English-Taught Programs in Korean Universities: Your Ultimate Guide to Studying in South Korea
 
