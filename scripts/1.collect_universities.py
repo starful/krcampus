@@ -140,7 +140,7 @@ def main():
 
     processed_list = load_history()
     univ_list = []
-    with open(INPUT_CSV, "r", encoding="utf-8") as f:
+    with open(INPUT_CSV, "r", encoding="utf-8-sig") as f:
         reader = csv.DictReader(f)
         for row in reader:
             if row["name_ko"] not in processed_list:

@@ -137,7 +137,7 @@ def main():
 
     processed = load_history()
     rows = []
-    with open(INPUT_CSV, "r", encoding="utf-8") as f:
+    with open(INPUT_CSV, "r", encoding="utf-8-sig") as f:
         for row in csv.DictReader(f):
             if row["name_ko"] not in processed:
                 rows.append(row)
