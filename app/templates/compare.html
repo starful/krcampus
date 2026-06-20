@@ -112,10 +112,38 @@
                 </tbody>
             </table>
         </div>
-        <div class="compare-footer">
-            <a href="/schools?lang={{ current_lang }}" class="compare-back-list-btn">{{ ui.back_to_list }}</a>
+        <div class="compare-footer compare-footer-actions">
+            <button type="button" class="compare-action-btn compare-action-primary" data-compare-copy-url>
+                <i class="fa-solid fa-link" aria-hidden="true"></i>
+                <span>{{ ui.compare_copy_url }}</span>
+            </button>
+            <button type="button" class="compare-action-btn compare-action-secondary" data-compare-copy-text>
+                <i class="fa-solid fa-copy" aria-hidden="true"></i>
+                <span>{{ ui.compare_copy_text }}</span>
+            </button>
+            <a href="/schools?lang={{ current_lang }}" class="compare-action-btn compare-action-outline">
+                <i class="fa-solid fa-list" aria-hidden="true"></i>
+                <span>{{ ui.back_to_list }}</span>
+            </a>
         </div>
         {% endif %}
     </section>
+
+    {% if related_guides %}
+    <section class="compare-related-guides">
+        <h2 class="section-title">{{ ui.compare_related_guides }}</h2>
+        <div class="compare-guide-links">
+            {% for guide in related_guides %}
+            <a href="{{ guide.link }}" class="compare-guide-link">{{ guide.title }}</a>
+            {% endfor %}
+        </div>
+    </section>
+    {% endif %}
 </main>
+{% endblock %}
+
+{% block scripts %}
+<script>
+window.COMPARE_PAGE_DATA = {{ compare_export | tojson }};
+</script>
 {% endblock %}

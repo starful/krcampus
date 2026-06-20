@@ -401,6 +401,10 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .iw-header .iw-address { font-size: 0.85rem; color: var(--text-gray); margin: 0 0 16px; }
 .iw-details-btn { display: block; width: 100%; padding: 12px; text-align: center; background-color: var(--primary); color: white; border-radius: 10px; font-weight: 600; transition: background-color 0.2s; }
 .iw-details-btn:hover { background-color: #1d4ed8; }
+.iw-actions { display: flex; flex-direction: column; gap: 8px; margin-top: 12px; }
+.iw-compare-btn { width: 100%; padding: 10px 12px; border: 1px solid var(--border); border-radius: 10px; background: #fff; color: var(--text-dark); font-weight: 600; font-size: 0.88rem; cursor: pointer; transition: background-color 0.2s, border-color 0.2s; }
+.iw-compare-btn:hover { background: #f8fafc; }
+.iw-compare-btn.is-selected { border-color: var(--primary); background: #eff6ff; color: var(--primary); }
 .main-footer { background: #0f172a; color: #94a3b8; padding: 48px 24px 40px; text-align: center; font-size: 0.9rem; }
 .footer-stats {
     display: flex;
@@ -1106,8 +1110,104 @@ body.compare-bar-active {
 }
 
 .compare-footer {
-    padding: 16px 24px;
+    padding: 20px 24px;
     border-top: 1px solid var(--border);
+    background: linear-gradient(180deg, var(--primary-light) 0%, #fff 100%);
+}
+
+.compare-footer-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.compare-action-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 13px 22px;
+    border-radius: 999px;
+    font-weight: 800;
+    font-size: 0.92rem;
+    line-height: 1;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+}
+
+.compare-action-btn i {
+    font-size: 0.95rem;
+}
+
+.compare-action-btn:hover {
+    transform: translateY(-2px);
+}
+
+.compare-action-btn:active {
+    transform: translateY(0);
+}
+
+.compare-action-primary {
+    background: linear-gradient(135deg, var(--accent) 0%, #9b0c24 100%);
+    color: #fff;
+    box-shadow: 0 6px 18px rgba(200, 16, 46, 0.35);
+}
+
+.compare-action-primary:hover {
+    box-shadow: 0 8px 22px rgba(200, 16, 46, 0.45);
+}
+
+.compare-action-secondary {
+    background: linear-gradient(135deg, var(--primary) 0%, #1d4ed8 100%);
+    color: #fff;
+    box-shadow: 0 6px 18px rgba(37, 99, 235, 0.3);
+}
+
+.compare-action-secondary:hover {
+    box-shadow: 0 8px 22px rgba(37, 99, 235, 0.4);
+}
+
+.compare-action-outline {
+    background: #fff;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.12);
+}
+
+.compare-action-outline:hover {
+    background: var(--primary-light);
+    box-shadow: 0 6px 16px rgba(37, 99, 235, 0.18);
+}
+
+.compare-related-guides {
+    margin-top: 32px;
+    padding: 0 4px;
+}
+
+.compare-guide-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.compare-guide-link {
+    display: inline-block;
+    padding: 10px 14px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 0.88rem;
+    transition: background-color 0.2s;
+}
+
+.compare-guide-link:hover {
+    background: #f0f9ff;
 }
 
 .compare-back-list-btn,
@@ -1124,5 +1224,12 @@ body.compare-bar-active {
     .compare-bar {
         flex-direction: column;
         text-align: center;
+    }
+    .compare-footer-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .compare-action-btn {
+        width: 100%;
     }
 }

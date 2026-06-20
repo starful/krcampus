@@ -100,24 +100,6 @@
         }));
     }
 
-    function scrollToFilteredResults() {
-        requestAnimationFrame(() => {
-            const header = document.querySelector('.site-header');
-            const headerOffset = header ? header.offsetHeight + 12 : 12;
-            const firstVisible = document.querySelector(
-                '.school-card[data-school-id]:not(.is-filter-hidden), .university-card[data-school-id]:not(.is-filter-hidden)'
-            );
-            const target = firstVisible
-                || document.querySelector('[data-filter-grid]:not(.is-filter-empty) .school-card[data-school-id], [data-filter-grid]:not(.is-filter-empty) .university-card[data-school-id]')
-                || document.querySelector('.content-wrapper');
-
-            if (!target) return;
-
-            const y = target.getBoundingClientRect().top + window.scrollY - headerOffset;
-            window.scrollTo({ top: Math.max(0, y), behavior: 'smooth' });
-        });
-    }
-
     function bootstrap() {
         if (typeof SCHOOLS_DATA !== 'undefined') {
             allSchoolData = SCHOOLS_DATA.schools || [];
@@ -131,7 +113,6 @@
         if (!btn) return;
         event.preventDefault();
         applyFilterKey(btn.dataset.filterKey || 'all');
-        scrollToFilteredResults();
     });
 
     window.KRCampusFilters = {

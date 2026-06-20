@@ -292,6 +292,10 @@ def get_ui_text(lang):
             "compare_toast_cleared": "比較リストをクリアしました",
             "meta_compare_title": "学校比較 | KR Campus",
             "meta_compare_desc": "韓国語学堂・大学を最大3校まで並べて比較。学費・定員・留学生数・特徴を一覧で確認。",
+            "compare_copy_url": "比較リンクをコピー",
+            "compare_copy_text": "比較をテキストでコピー",
+            "compare_copied": "コピーしました",
+            "compare_related_guides": "関連ガイド",
         }
     return {
         "featured_title": "Featured Collections", "best_selection": "Best Selection", "view_ranking": "View Ranking →",
@@ -361,6 +365,10 @@ def get_ui_text(lang):
         "compare_toast_cleared": "Compare list cleared",
         "meta_compare_title": "Compare Schools | KR Campus",
         "meta_compare_desc": "Compare up to 3 Korean language institutes or universities side by side — fees, capacity, international students, and features.",
+        "compare_copy_url": "Copy comparison link",
+        "compare_copy_text": "Copy as text",
+        "compare_copied": "Copied!",
+        "compare_related_guides": "Related guides",
     }
 
 def compare_city(item: dict) -> str:
@@ -388,8 +396,27 @@ def prepare_compare_items(items: list[dict], lang: str) -> list[dict]:
         row["compare_city"] = compare_city(item)
         row["compare_fee_value"] = compare_fee_value(item)
         row["compare_fee_label"] = compare_fee_label(item, lang)
+        fee_value = compare_fee_value(item)
+        row["compare_fee_plain"] = f"₩{int(fee_value):,}" if fee_value is not None else None
         prepared.append(row)
     return prepared
+
+def build_compare_export(selected: list[dict], lang: str, site_name: str) -> dict:
+    items = []
+    for item in selected:
+        bi = item.get("basic_info", {}) or {}
+        name = bi.get("name_display") or bi.get("name_en") or bi.get("name_ko") or bi.get("name_ja") or item.get("id", "")
+        fee = item.get("compare_fee_plain") or item.get("compare_fee_label", "")
+        if fee and "<" in str(fee):
+            fee = str(fee).split("<")[0].strip()
+        features = item.get("features") or []
+        items.append({
+            "name": name,
+            "city": item.get("compare_city", "—"),
+            "fee": fee or "—",
+            "features": features[:3],
+        })
+    return {"siteName": site_name, "lang": lang, "items": items}
 
 def _read_schools_json(file_path):
     with open(file_path, "r", encoding="utf-8") as f:
