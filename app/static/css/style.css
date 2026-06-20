@@ -95,8 +95,19 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .top-filter-bar {
     width: 100%;
     background: #fff;
-    padding: 10px 0 14px;
+    padding: 10px 12px 12px;
     border-top: 1px solid #f2f2f2;
+}
+
+.filter-row {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.filter-row + .filter-row {
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px dashed #eef2f7;
 }
 
 .theme-filter-buttons {
@@ -104,8 +115,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     justify-content: center;
     flex-wrap: nowrap;
     gap: 8px;
-    max-width: 1200px;
-    margin: 0 auto;
+    width: 100%;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     padding: 0 12px;
@@ -141,6 +151,18 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     color: #fff;
     border-color: var(--text-dark);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.12);
+}
+
+.theme-button-region.active {
+    background: var(--primary);
+    border-color: var(--primary);
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(37, 99, 235, 0.2);
+}
+
+.theme-button-region {
+    border-color: #dbeafe;
+    background: #f8fbff;
 }
 .count-badge {
     background: #eee;
@@ -492,8 +514,8 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     .logo-img { height: 52px; }
     .nav-guide-link { font-size: 0.85rem; }
     .map-section { min-height: 340px; height: 45vh; }
-    .top-filter-bar { padding: 6px 0 8px; }
-    .theme-filter-buttons { justify-content: flex-start; gap: 6px; padding: 0 8px; }
+    .top-filter-bar { padding: 6px 8px 8px; }
+    .theme-filter-buttons { justify-content: center; gap: 6px; padding: 0 8px; }
     .theme-button { padding: 5px 9px; font-size: 0.72rem; gap: 3px; }
     .filter-emoji { font-size: 0.85rem; }
     .count-badge { font-size: 0.58rem; padding: 1px 5px; min-width: 1.1em; }

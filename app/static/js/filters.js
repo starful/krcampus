@@ -1,130 +1,180 @@
-/* app/static/js/filters.js — map-independent category filters */
+/* app/static/js/filters.js — two-axis combo filters (type + region) */
 
 (function () {
     let allSchoolData = [];
-    let currentFilterKey = 'all';
+    let currentTypeFilter = "all";
+    let currentRegionFilter = "all";
     let currentFilteredData = [];
 
     const ACADEMIC_KEYWORDS = ["topik", "university prep", "university preparation", "academic", "degree", "진학", "大学進学"];
-    const BIZ_KEYWORDS = ["business", "job", "취업", "ビジネス"];
-    const CULTURE_KEYWORDS = ["conversation", "culture", "short-term", "회화", "短期", "문화"];
-    const DORM_KEYWORDS = ['dormitory', 'dorm', '기숙사', '寮', 'student housing'];
-    const MAJOR_CITIES = ['대구', '인천', '광주', '대전', '수원', 'Daegu', 'Incheon', 'Gwangju', 'Daejeon'];
+    const DORM_KEYWORDS = ["dormitory", "dorm", "기숙사", "寮", "student housing"];
+    const MAJOR_CITIES = ["인천", "대전", "수원", "창원", "Incheon", "Daejeon", "Suwon"];
 
-    function filterSchoolsByKey(key) {
-        if (key === 'university') return allSchoolData.filter(s => s.category === 'university');
-        if (key === 'all') return allSchoolData.filter(s => s.category !== 'university');
+    function getFeatures(school) {
+        const rawFeatures = school.features;
+        return Array.isArray(rawFeatures)
+            ? rawFeatures.join(" ").toLowerCase()
+            : String(rawFeatures || "").toLowerCase();
+    }
 
-        return allSchoolData.filter(school => {
-            if (school.category === 'university') return false;
+    function getAddress(school) {
+        return school.basic_info?.address || "";
+    }
 
-            const rawFeatures = school.features;
-            const features = Array.isArray(rawFeatures)
-                ? rawFeatures.join(" ").toLowerCase()
-                : String(rawFeatures || "").toLowerCase();
-            const address = school.basic_info?.address || '';
-            const capacity = school.basic_info?.capacity;
+    function matchesType(school, typeKey) {
+        if (typeKey === "university") return school.category === "university";
+        if (school.category === "university") return false;
+        if (typeKey === "all") return true;
 
-            switch (key) {
-                case 'academic': return ACADEMIC_KEYWORDS.some(kw => features.includes(kw));
-                case 'business': return BIZ_KEYWORDS.some(kw => features.includes(kw));
-                case 'culture': return CULTURE_KEYWORDS.some(kw => features.includes(kw));
-                case 'seoul': return address.includes('서울') || address.includes('Seoul');
-                case 'busan': return address.includes('부산') || address.includes('Busan');
-                case 'major_city':
-                    return !address.includes('서울') && !address.includes('Seoul')
-                        && !address.includes('부산') && !address.includes('Busan')
-                        && MAJOR_CITIES.some(city => address.includes(city));
-                case 'size_small': return typeof capacity === 'number' && capacity <= 150;
-                case 'size_medium': return typeof capacity === 'number' && capacity > 150 && capacity <= 500;
-                case 'dormitory': return DORM_KEYWORDS.some(kw => features.includes(kw));
-                default: return true;
-            }
-        });
+        const features = getFeatures(school);
+        const capacity = school.basic_info?.capacity;
+
+        switch (typeKey) {
+            case "academic":
+                return ACADEMIC_KEYWORDS.some((kw) => features.includes(kw));
+            case "dormitory":
+                return DORM_KEYWORDS.some((kw) => features.includes(kw));
+            case "size_medium":
+                return typeof capacity === "number" && capacity > 150 && capacity <= 500;
+            default:
+                return true;
+        }
+    }
+
+    function matchesRegion(school, regionKey) {
+        if (regionKey === "all") return true;
+        const address = getAddress(school);
+
+        switch (regionKey) {
+            case "seoul":
+                return address.includes("서울") || address.includes("Seoul");
+            case "busan":
+                return address.includes("부산") || address.includes("Busan");
+            case "daegu":
+                return address.includes("대구") || address.includes("Daegu");
+            case "gwangju":
+                return address.includes("광주") || address.includes("Gwangju");
+            case "major_city":
+                return !address.includes("서울") && !address.includes("Seoul")
+                    && !address.includes("부산") && !address.includes("Busan")
+                    && !address.includes("대구") && !address.includes("Daegu")
+                    && !address.includes("광주") && !address.includes("Gwangju")
+                    && MAJOR_CITIES.some((city) => address.includes(city));
+            default:
+                return true;
+        }
+    }
+
+    function computeFilteredData(typeKey = currentTypeFilter, regionKey = currentRegionFilter) {
+        return allSchoolData.filter((school) => (
+            matchesType(school, typeKey) && matchesRegion(school, regionKey)
+        ));
+    }
+
+    function countForAxis(axis, key) {
+        const typeKey = axis === "type" ? key : currentTypeFilter;
+        const regionKey = axis === "region" ? key : currentRegionFilter;
+        return computeFilteredData(typeKey, regionKey).length;
     }
 
     function updateGridEmptyState(grid, cardSelector) {
         const cards = grid.querySelectorAll(cardSelector);
         if (!cards.length) return;
-        const visibleCount = [...cards].filter(c => !c.classList.contains('is-filter-hidden')).length;
-        grid.classList.toggle('is-filter-empty', visibleCount === 0);
+        const visibleCount = [...cards].filter((c) => !c.classList.contains("is-filter-hidden")).length;
+        grid.classList.toggle("is-filter-empty", visibleCount === 0);
         const sectionHeader = grid.previousElementSibling;
-        if (sectionHeader && sectionHeader.classList.contains('section-header')) {
-            sectionHeader.classList.toggle('is-filter-empty', visibleCount === 0);
+        if (sectionHeader && sectionHeader.classList.contains("section-header")) {
+            sectionHeader.classList.toggle("is-filter-empty", visibleCount === 0);
         }
     }
 
     function filterVisibleCards(filteredSchools) {
-        const ids = new Set(filteredSchools.map(s => s.id));
-        const isUniversityFilter = currentFilterKey === 'university';
+        const ids = new Set(filteredSchools.map((s) => s.id));
+        const isUniversityFilter = currentTypeFilter === "university";
 
-        document.querySelectorAll('[data-filter-grid="schools"] .school-card[data-school-id]').forEach(card => {
-            card.classList.toggle('is-filter-hidden', isUniversityFilter || !ids.has(card.dataset.schoolId));
+        document.querySelectorAll('[data-filter-grid="schools"] .school-card[data-school-id]').forEach((card) => {
+            card.classList.toggle("is-filter-hidden", isUniversityFilter || !ids.has(card.dataset.schoolId));
         });
 
-        document.querySelectorAll('[data-filter-grid="universities"] .university-card[data-school-id]').forEach(card => {
-            card.classList.toggle('is-filter-hidden', !isUniversityFilter && currentFilterKey !== 'all');
+        document.querySelectorAll('[data-filter-grid="universities"] .university-card[data-school-id]').forEach((card) => {
+            card.classList.toggle("is-filter-hidden", !isUniversityFilter || !ids.has(card.dataset.schoolId));
         });
 
-        document.querySelectorAll('[data-filter-grid]').forEach(grid => {
-            const cardSelector = grid.dataset.filterGrid === 'universities'
-                ? '.university-card[data-school-id]'
-                : '.school-card[data-school-id]';
+        document.querySelectorAll("[data-filter-grid]").forEach((grid) => {
+            const cardSelector = grid.dataset.filterGrid === "universities"
+                ? ".university-card[data-school-id]"
+                : ".school-card[data-school-id]";
             updateGridEmptyState(grid, cardSelector);
         });
     }
 
     function updateFilterCounts() {
-        document.querySelectorAll('.theme-button[data-filter-key]').forEach(btn => {
+        document.querySelectorAll(".theme-button[data-filter-axis][data-filter-key]").forEach((btn) => {
+            const axis = btn.dataset.filterAxis;
             const key = btn.dataset.filterKey;
-            const el = document.getElementById(`count-${key}`);
-            if (el) el.textContent = String(filterSchoolsByKey(key).length);
+            const el = document.getElementById(`count-${axis}-${key}`);
+            if (el) el.textContent = String(countForAxis(axis, key));
         });
     }
 
-    function applyFilterKey(filterKey) {
-        currentFilterKey = filterKey || 'all';
-        currentFilteredData = filterSchoolsByKey(currentFilterKey);
-
-        document.querySelectorAll('.theme-button[data-filter-key]').forEach(btn => {
-            btn.classList.toggle('active', btn.dataset.filterKey === currentFilterKey);
+    function syncActiveButtons() {
+        document.querySelectorAll('.theme-button[data-filter-axis="type"], .quick-filter-chip[data-filter-axis="type"]').forEach((btn) => {
+            btn.classList.toggle("active", btn.dataset.filterKey === currentTypeFilter);
+            btn.classList.toggle("is-active", btn.dataset.filterKey === currentTypeFilter);
         });
-        document.querySelectorAll('.quick-filter-chip[data-filter-key]').forEach(chip => {
-            chip.classList.toggle('is-active', chip.dataset.filterKey === currentFilterKey);
+        document.querySelectorAll('.theme-button[data-filter-axis="region"], .quick-filter-chip[data-filter-axis="region"]').forEach((btn) => {
+            btn.classList.toggle("active", btn.dataset.filterKey === currentRegionFilter);
+            btn.classList.toggle("is-active", btn.dataset.filterKey === currentRegionFilter);
         });
+    }
 
+    function applyFilters() {
+        currentFilteredData = computeFilteredData();
+        syncActiveButtons();
         filterVisibleCards(currentFilteredData);
 
-        document.dispatchEvent(new CustomEvent('krcampus:filter', {
-            detail: { key: currentFilterKey, schools: currentFilteredData.slice() }
+        document.dispatchEvent(new CustomEvent("krcampus:filter", {
+            detail: {
+                type: currentTypeFilter,
+                region: currentRegionFilter,
+                schools: currentFilteredData.slice(),
+            },
         }));
     }
 
     function bootstrap() {
-        if (typeof SCHOOLS_DATA !== 'undefined') {
+        if (typeof SCHOOLS_DATA !== "undefined") {
             allSchoolData = SCHOOLS_DATA.schools || [];
         }
         updateFilterCounts();
-        applyFilterKey(currentFilterKey);
+        applyFilters();
     }
 
-    document.addEventListener('click', (event) => {
-        const btn = event.target.closest('.theme-button[data-filter-key], .quick-filter-chip[data-filter-key]');
+    document.addEventListener("click", (event) => {
+        const btn = event.target.closest('.theme-button[data-filter-axis][data-filter-key], .quick-filter-chip[data-filter-axis][data-filter-key]');
         if (!btn) return;
         event.preventDefault();
-        applyFilterKey(btn.dataset.filterKey || 'all');
+
+        const axis = btn.dataset.filterAxis;
+        const key = btn.dataset.filterKey || "all";
+        if (axis === "type") currentTypeFilter = key;
+        if (axis === "region") currentRegionFilter = key;
+
+        updateFilterCounts();
+        applyFilters();
     });
 
     window.KRCampusFilters = {
-        applyFilterKey,
-        filterSchoolsByKey,
+        applyFilters,
         getCurrentFilteredData: () => currentFilteredData.slice(),
         getAllSchoolData: () => allSchoolData.slice(),
+        getTypeFilter: () => currentTypeFilter,
+        getRegionFilter: () => currentRegionFilter,
         refresh: bootstrap,
     };
 
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', bootstrap);
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", bootstrap);
     } else {
         bootstrap();
     }

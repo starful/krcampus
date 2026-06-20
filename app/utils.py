@@ -24,7 +24,9 @@ TAG_DEFINITIONS = {
     'culture': {'name': 'Conversation', 'icon': '🗣️', 'description': 'Schools emphasizing conversational skills and cultural activities.', 'keywords':["conversation", "culture", "short-term", "회화", "短期", "문화"]},
     'seoul': {'name': 'Seoul', 'icon': '🏙️', 'description': 'Institutes in the Seoul area.'},
     'busan': {'name': 'Busan', 'icon': '🌊', 'description': 'Institutes in the Busan area.'},
-    'major_city': {'name': 'Other Cities', 'icon': '🏘️', 'description': 'Institutes in Daegu, Incheon, Gwangju, Daejeon, and other major cities.'},
+    'daegu': {'name': 'Daegu', 'icon': '🏔️', 'description': 'Institutes in the Daegu area.'},
+    'gwangju': {'name': 'Gwangju', 'icon': '🌿', 'description': 'Institutes in the Gwangju area.'},
+    'major_city': {'name': 'Other Cities', 'icon': '🏘️', 'description': 'Institutes in Incheon, Daejeon, and other major cities.'},
     'university': {'name': 'Universities', 'icon': '🏛️', 'description': 'Universities across Korea.'},
     'size_small': {'name': 'Small', 'icon': '🧑‍🏫', 'description': 'Small-sized schools (Capacity: ~150 students).'},
     'size_medium': {'name': 'Medium', 'icon': '👨‍👩‍👧‍👦', 'description': 'Medium-sized schools (Capacity: 151-500 students).'},
@@ -33,7 +35,7 @@ TAG_DEFINITIONS = {
 
 def calculate_tag_counts(schools):
     counts = {key: 0 for key in TAG_DEFINITIONS}
-    MAJOR_CITIES =['부산', '대구', '인천', '광주', '대전', '수원', '창원']
+    MAJOR_CITIES =['인천', '대전', '수원', '창원', 'Incheon', 'Daejeon']
     DORM_KEYWORDS =['dormitory', '기숙사', '寮']
 
     for school in schools:
@@ -55,8 +57,14 @@ def calculate_tag_counts(schools):
 
         b_info = school.get('basic_info') or {}
         address = b_info.get('address') or ''
-        if '서울' in address or 'Seoul' in address: counts['seoul'] += 1
-        elif '부산' in address or 'Busan' in address: counts['busan'] += 1
+        if '서울' in address or 'Seoul' in address:
+            counts['seoul'] += 1
+        elif '부산' in address or 'Busan' in address:
+            counts['busan'] += 1
+        elif '대구' in address or 'Daegu' in address:
+            counts['daegu'] += 1
+        elif '광주' in address or 'Gwangju' in address:
+            counts['gwangju'] += 1
         elif any(city in address for city in MAJOR_CITIES): counts['major_city'] += 1
         
         capacity = b_info.get('capacity')
@@ -72,18 +80,31 @@ def calculate_tag_counts(schools):
     ]
     return [tag for tag in results if tag['count'] >= 5]
 
-def get_quick_filters(lang="en"):
+def get_type_filters(lang="en"):
     ui = get_ui_text(lang)
     return [
         {"key": "all", "icon": "📍", "label": ui["filter_all"]},
-        {"key": "seoul", "icon": "🏙️", "label": ui["filter_seoul"]},
-        {"key": "busan", "icon": "🌊", "label": ui["filter_busan"]},
         {"key": "dormitory", "icon": "🏠", "label": ui["filter_dormitory"]},
         {"key": "academic", "icon": "🎓", "label": ui["filter_academic"]},
         {"key": "university", "icon": "🏛️", "label": ui["filter_universities"]},
-        {"key": "major_city", "icon": "🏘️", "label": ui["filter_other_cities"]},
         {"key": "size_medium", "icon": "📊", "label": ui["filter_medium"]},
     ]
+
+
+def get_region_filters(lang="en"):
+    ui = get_ui_text(lang)
+    return [
+        {"key": "all", "icon": "🌏", "label": ui["filter_all_regions"]},
+        {"key": "seoul", "icon": "🏙️", "label": ui["filter_seoul"]},
+        {"key": "busan", "icon": "🌊", "label": ui["filter_busan"]},
+        {"key": "daegu", "icon": "🏔️", "label": ui["filter_daegu"]},
+        {"key": "gwangju", "icon": "🌿", "label": ui["filter_gwangju"]},
+        {"key": "major_city", "icon": "🏘️", "label": ui["filter_other_cities"]},
+    ]
+
+
+def get_quick_filters(lang="en"):
+    return get_type_filters(lang) + get_region_filters(lang)[1:]
 
 def get_client_ip(request: Request):
     try:
@@ -239,9 +260,11 @@ def get_ui_text(lang):
             "global_programs": "グローバルプログラム", "national_private": "公式機関",
             "view_all_schools": "語学堂一覧 →", "view_all_univs": "大学一覧 →",
             "find_schools": "語学堂を探す", "find_universities": "大学を探す", "read_guides": "ガイドを見る",
-            "filter_all": "すべて", "filter_seoul": "ソウル", "filter_busan": "釜山", "filter_dormitory": "寮",
+            "filter_all": "すべて", "filter_seoul": "ソウル", "filter_busan": "釜山", "filter_daegu": "大邱", "filter_gwangju": "光州",
+            "filter_dormitory": "寮",
             "filter_academic": "進学", "filter_universities": "大学",
             "filter_other_cities": "その他", "filter_medium": "中型",
+            "filter_all_regions": "全地域", "filter_row_type": "種類", "filter_row_region": "地域",
             "schools_listed": "件登録", "last_updated": "最終更新:", "updating_weekly": "毎週更新",
             "see_related_guides": "関連ガイド", "contact_us": "お問い合わせ",
             "related_schools": "関連語学堂", "related_guides": "関連ガイド",
@@ -306,9 +329,11 @@ def get_ui_text(lang):
         "global_programs": "Global Programs", "national_private": "Official National/Private Institute",
         "view_all_schools": "View all institutes →", "view_all_univs": "View all universities →",
         "find_schools": "Find Schools", "find_universities": "Find Universities", "read_guides": "Read Guides",
-        "filter_all": "All", "filter_seoul": "Seoul", "filter_busan": "Busan", "filter_dormitory": "Dorm",
+        "filter_all": "All", "filter_seoul": "Seoul", "filter_busan": "Busan", "filter_daegu": "Daegu", "filter_gwangju": "Gwangju",
+        "filter_dormitory": "Dorm",
         "filter_academic": "Prep", "filter_universities": "Univ",
         "filter_other_cities": "Other", "filter_medium": "Mid",
+        "filter_all_regions": "All areas", "filter_row_type": "Type", "filter_row_region": "Region",
         "schools_listed": "Schools Listed", "last_updated": "Last Updated:", "updating_weekly": "Updating Weekly",
         "see_related_guides": "See Related Guides", "contact_us": "Contact Us",
         "related_schools": "Related Schools", "related_guides": "Related Guides",

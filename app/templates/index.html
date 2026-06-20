@@ -2,19 +2,39 @@
 
 {% block map_filters %}
 <div class="top-filter-bar" aria-label="Map filters">
-    <div class="theme-filter-buttons">
-        {% for f in quick_filters %}
-        <button type="button"
-            class="theme-button{% if loop.first %} active{% endif %}"
-            data-filter-key="{{ f.key }}"
-            data-track="quick_filter"
-            data-track-label="{{ f.key }}"
-            title="{{ f.label }}">
-            <span class="filter-emoji" aria-hidden="true">{{ f.icon }}</span>
-            <span class="filter-label">{{ f.label }}</span>
-            <span class="count-badge" id="count-{{ f.key }}">0</span>
-        </button>
-        {% endfor %}
+    <div class="filter-row filter-row-type">
+        <div class="theme-filter-buttons">
+            {% for f in type_filters %}
+            <button type="button"
+                class="theme-button{% if loop.first %} active{% endif %}"
+                data-filter-axis="type"
+                data-filter-key="{{ f.key }}"
+                data-track="quick_filter"
+                data-track-label="type-{{ f.key }}"
+                title="{{ f.label }}">
+                <span class="filter-emoji" aria-hidden="true">{{ f.icon }}</span>
+                <span class="filter-label">{{ f.label }}</span>
+                <span class="count-badge" id="count-type-{{ f.key }}">0</span>
+            </button>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="filter-row filter-row-region">
+        <div class="theme-filter-buttons">
+            {% for f in region_filters %}
+            <button type="button"
+                class="theme-button theme-button-region{% if loop.first %} active{% endif %}"
+                data-filter-axis="region"
+                data-filter-key="{{ f.key }}"
+                data-track="quick_filter"
+                data-track-label="region-{{ f.key }}"
+                title="{{ f.label }}">
+                <span class="filter-emoji" aria-hidden="true">{{ f.icon }}</span>
+                <span class="filter-label">{{ f.label }}</span>
+                <span class="count-badge" id="count-region-{{ f.key }}">0</span>
+            </button>
+            {% endfor %}
+        </div>
     </div>
 </div>
 {% endblock %}
@@ -173,7 +193,7 @@
 <script>
     const SCHOOLS_DATA = {{ schools_json | safe }};
 </script>
-<script src="/static/js/filters.js?v=5"></script>
+<script src="/static/js/filters.js?v=6"></script>
 <script src="/static/js/map.js?v=11"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key={{ maps_api_key }}&callback=initMap&libraries=marker,geometry&v=weekly" async defer></script>
 {% endblock %}
