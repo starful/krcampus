@@ -6,6 +6,7 @@ basic_info:
   name_ja: ヨンサン大学校
   name_ko: 영산대학교
 category: university
+date: '2026-06-10'
 faculties:
 - ホテル観光大学
 - 創造芸術大学（ウェブトゥーン、ゲーム、デザイン）

@@ -16,6 +16,7 @@ courses:
 - admission_month: 3, 8
   course_name: 3-Week Intensive Program
   total_fees: 950000
+date: '2026-06-10'
 faculties: []
 features:
 - Top-ranked National University

@@ -18,6 +18,7 @@ courses:
 - admission_month: '12'
   course_name: Regular Korean Program (Winter Semester)
   total_fees: 1400000
+date: '2026-06-10'
 faculties: []
 features:
 - State-of-the-Art Campus

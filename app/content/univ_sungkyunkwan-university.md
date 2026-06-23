@@ -5,6 +5,7 @@ basic_info:
   name_en: Sungkyunkwan University
   name_ko: 성균관대학교
 category: university
+date: '2026-06-10'
 faculties:
 - College of Liberal Arts
 - College of Social Sciences

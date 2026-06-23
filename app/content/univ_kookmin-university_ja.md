@@ -6,6 +6,7 @@ basic_info:
   name_ja: 国民大学校
   name_ko: 국민대학교
 category: university
+date: '2026-06-10'
 faculties:
 - 創造工学大学
 - デザイン大学

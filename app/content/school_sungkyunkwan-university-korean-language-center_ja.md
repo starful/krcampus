@@ -13,6 +13,7 @@ courses:
 - admission_month: August
   course_name: Short-Term Program
   total_fees: 1000000
+date: '2026-06-10'
 faculties: []
 features:
 - 集中的な6学期制

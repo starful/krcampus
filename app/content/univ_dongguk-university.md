@@ -5,6 +5,7 @@ basic_info:
   name_en: Dongguk University
   name_ko: 동국대학교
 category: university
+date: '2026-06-10'
 faculties:
 - Buddhist Studies
 - Liberal Arts

@@ -7,6 +7,7 @@ basic_info:
   name_ja: 韓国技術教育大学校
   name_ko: 한국기술교육대학교
 category: university
+date: '2026-06-10'
 faculties:
 - 機械工学部
 - メカトロニクス工学部

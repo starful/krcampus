@@ -5,6 +5,7 @@ basic_info:
   name_en: Soongsil University
   name_ko: 숭실대학교
 category: university
+date: '2026-06-10'
 faculties:
 - College of Humanities
 - College of Natural Sciences

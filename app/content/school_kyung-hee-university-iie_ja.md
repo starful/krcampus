@@ -13,6 +13,7 @@ courses:
 - admission_month: '8'
   course_name: Short-term Program (3-Week Intensive Course)
   total_fees: 1020000
+date: '2026-06-10'
 faculties: []
 features:
 - 名門で歴史のあるキャンパス

@@ -13,6 +13,7 @@ courses:
 - admission_month: '8'
   course_name: Short-Term Program
   total_fees: 850000
+date: '2026-06-10'
 faculties: []
 features:
 - 手頃な授業料

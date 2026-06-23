@@ -5,6 +5,7 @@ basic_info:
   name_en: Ulsan National Institute of Science and Technology
   name_ko: 울산과학기술원 (UNIST)
 category: university
+date: '2026-06-10'
 faculties:
 - College of Engineering
 - College of Information and Biotechnology

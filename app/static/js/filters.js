@@ -65,10 +65,19 @@
         }
     }
 
+    function sortByPublishedDesc(items) {
+        return items.slice().sort((a, b) => {
+            const da = String(a.published || "").slice(0, 10);
+            const db = String(b.published || "").slice(0, 10);
+            if (da !== db) return db.localeCompare(da);
+            return String(a.id || "").localeCompare(String(b.id || ""));
+        });
+    }
+
     function computeFilteredData(typeKey = currentTypeFilter, regionKey = currentRegionFilter) {
-        return allSchoolData.filter((school) => (
+        return sortByPublishedDesc(allSchoolData.filter((school) => (
             matchesType(school, typeKey) && matchesRegion(school, regionKey)
-        ));
+        )));
     }
 
     function countForAxis(axis, key) {
@@ -88,6 +97,19 @@
         }
     }
 
+    function reorderGridCards(gridSelector, cardSelector, orderedIds) {
+        const grid = document.querySelector(gridSelector);
+        if (!grid) return;
+        const byId = {};
+        grid.querySelectorAll(cardSelector).forEach((card) => {
+            byId[card.dataset.schoolId] = card;
+        });
+        orderedIds.forEach((id) => {
+            const card = byId[id];
+            if (card) grid.appendChild(card);
+        });
+    }
+
     function filterVisibleCards(filteredSchools) {
         const ids = new Set(filteredSchools.map((s) => s.id));
         const isUniversityFilter = currentTypeFilter === "university";
@@ -99,6 +121,11 @@
         document.querySelectorAll('[data-filter-grid="universities"] .university-card[data-school-id]').forEach((card) => {
             card.classList.toggle("is-filter-hidden", !isUniversityFilter || !ids.has(card.dataset.schoolId));
         });
+
+        const schools = filteredSchools.filter((s) => s.category !== "university");
+        const universities = filteredSchools.filter((s) => s.category === "university");
+        reorderGridCards('[data-filter-grid="schools"]', ".school-card[data-school-id]", schools.map((s) => s.id));
+        reorderGridCards('[data-filter-grid="universities"]', ".university-card[data-school-id]", universities.map((s) => s.id));
 
         document.querySelectorAll("[data-filter-grid]").forEach((grid) => {
             const cardSelector = grid.dataset.filterGrid === "universities"
@@ -144,7 +171,7 @@
 
     function bootstrap() {
         if (typeof SCHOOLS_DATA !== "undefined") {
-            allSchoolData = SCHOOLS_DATA.schools || [];
+            allSchoolData = sortByPublishedDesc(SCHOOLS_DATA.schools || []);
         }
         updateFilterCounts();
         applyFilters();

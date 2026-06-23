@@ -5,6 +5,7 @@ basic_info:
   name_en: Dong-A University
   name_ko: 동아대학교
 category: university
+date: '2026-06-10'
 faculties:
 - College of Humanities
 - College of Social Sciences

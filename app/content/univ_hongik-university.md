@@ -5,6 +5,7 @@ basic_info:
   name_en: Hongik University
   name_ko: 홍익대학교
 category: university
+date: '2026-06-10'
 faculties:
 - College of Fine Arts
 - School of Architecture

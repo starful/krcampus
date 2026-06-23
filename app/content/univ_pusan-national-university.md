@@ -5,6 +5,7 @@ basic_info:
   name_en: Pusan National University
   name_ko: 부산대학교
 category: university
+date: '2026-06-10'
 faculties:
 - Humanities
 - Social Sciences

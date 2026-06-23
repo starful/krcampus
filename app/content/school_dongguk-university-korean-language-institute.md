@@ -13,6 +13,7 @@ courses:
 - admission_month: 1, 8
   course_name: Short-Term Program (3-Week Intensive)
   total_fees: 1050000
+date: '2026-06-10'
 faculties: []
 features:
 - Central Seoul Location (near Namsan & Myeongdong)

@@ -6,6 +6,7 @@ basic_info:
   name_ja: 韓国体育大学校
   name_ko: 한국체육대학교
 category: university
+date: '2026-06-10'
 faculties:
 - 体育学科
 - 生活体育学科

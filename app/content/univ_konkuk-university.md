@@ -5,6 +5,7 @@ basic_info:
   name_en: Konkuk University
   name_ko: 건국대학교
 category: university
+date: '2026-06-10'
 faculties:
 - College of Liberal Arts
 - College of Sciences

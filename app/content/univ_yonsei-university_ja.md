@@ -6,6 +6,7 @@ basic_info:
   name_ja: 延世大学
   name_ko: 연세대학교
 category: university
+date: '2026-06-10'
 description: ソウル・延世大学の留学生向け学部・UICプログラム概要。
 faculties:
 - Underwood International College

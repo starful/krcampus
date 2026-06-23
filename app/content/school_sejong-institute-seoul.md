@@ -16,6 +16,7 @@ courses:
 - admission_month: 1, 5, 8
   course_name: TOPIK Preparation Course
   total_fees: 150000
+date: '2026-06-10'
 faculties: []
 features:
 - Government-supported

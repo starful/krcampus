@@ -6,6 +6,7 @@ basic_info:
   name_ja: 祥明大学校
   name_ko: 상명대학교
 category: university
+date: '2026-06-10'
 faculties:
 - 人文社会科学大学
 - 理工大学

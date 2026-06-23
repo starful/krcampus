@@ -5,6 +5,7 @@ basic_info:
   name_en: Korea Advanced Institute of Science and Technology
   name_ko: 한국과학기술원
 category: university
+date: '2026-06-10'
 faculties:
 - College of Natural Sciences
 - College of Life Science and Bioengineering

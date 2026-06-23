@@ -6,6 +6,7 @@ basic_info:
   name_ja: 弘益大学校
   name_ko: 홍익대학교
 category: university
+date: '2026-06-10'
 faculties:
 - 美術大学
 - 建築都市大学

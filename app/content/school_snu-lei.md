@@ -1,34 +1,35 @@
 ---
-layout: school
-id: school_snu-lei
-title: Seoul National University Language Education Institute
+basic_info:
+  address: Seoul, Gwanak-gu, Gwanak-ro, South Korea
+  capacity: 600
+  name_en: Seoul National University Language Education Institute
+  name_ko: 서울대학교 언어교육원
 category: school
+courses:
+- admission_month: '3'
+  course_name: Korean Language Program
+  total_fees: 1650000
+date: '2026-06-22'
+description: Learn Korean at Korea's top national university campus in Gwanak, Seoul.
+features:
+- Academic Korean
+- SNU campus access
+- TOPIK prep
+id: school_snu-lei
 lang: en
+layout: school
+location:
+  lat: 37.4596
+  lng: 126.9516
+stats:
+  capacity: 600
 tags:
 - TOPIK
 - Academic Korean
 - Seoul
 thumbnail: /static/img/pin-school.png
-location:
-  lat: 37.4596
-  lng: 126.9516
-basic_info:
-  name_ko: 서울대학교 언어교육원
-  name_en: Seoul National University Language Education Institute
-  address: Seoul, Gwanak-gu, Gwanak-ro, South Korea
-  capacity: 600
-courses:
-- course_name: Korean Language Program
-  admission_month: '3'
-  total_fees: 1650000
-features:
-- Academic Korean
-- SNU campus access
-- TOPIK prep
-stats:
-  capacity: 600
+title: Seoul National University Language Education Institute
 tuition: {}
-description: Learn Korean at Korea's top national university campus in Gwanak, Seoul.
 ---
 
 ## School Overview

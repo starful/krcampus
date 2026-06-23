@@ -6,6 +6,7 @@ basic_info:
   name_en: Korea University of Technology and Education
   name_ko: 한국기술교육대학교
 category: university
+date: '2026-06-10'
 faculties:
 - School of Mechanical Engineering
 - School of Mechatronics Engineering

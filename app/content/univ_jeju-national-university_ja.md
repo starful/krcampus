@@ -6,6 +6,7 @@ basic_info:
   name_ja: 済州大学校
   name_ko: 제주대학교
 category: university
+date: '2026-06-10'
 faculties:
 - 人文学部
 - 社会科学部

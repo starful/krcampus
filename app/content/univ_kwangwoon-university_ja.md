@@ -6,6 +6,7 @@ basic_info:
   name_ja: 光云大学校
   name_ko: 광운대학교
 category: university
+date: '2026-06-10'
 faculties:
 - 電子情報工学部
 - ソフトウェア・融合学部

@@ -5,6 +5,7 @@ basic_info:
   name_en: Seoul National University
   name_ko: 서울대학교
 category: university
+date: '2026-06-22'
 faculties:
 - College of Humanities
 - College of Social Sciences

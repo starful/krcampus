@@ -6,6 +6,7 @@ basic_info:
   name_ja: 成均館大学校
   name_ko: 성균관대학교
 category: university
+date: '2026-06-10'
 faculties:
 - 人文科学大学
 - 社会科学大学

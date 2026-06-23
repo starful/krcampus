@@ -6,6 +6,7 @@ basic_info:
   name_ja: 高麗大学校
   name_ko: 고려대학교
 category: university
+date: '2026-06-10'
 faculties:
 - 経営大学
 - 文科大学

@@ -5,6 +5,7 @@ basic_info:
   name_en: Sejong University
   name_ko: 세종대학교
 category: university
+date: '2026-06-10'
 faculties:
 - College of Liberal Arts
 - College of Social Sciences

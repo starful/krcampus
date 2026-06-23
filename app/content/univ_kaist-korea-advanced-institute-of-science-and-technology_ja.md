@@ -6,6 +6,7 @@ basic_info:
   name_ja: 韓国科学技術院（KAIST）
   name_ko: 한국과학기술원
 category: university
+date: '2026-06-10'
 faculties:
 - 自然科学部
 - 生命科学・バイオ工学部

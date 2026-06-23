@@ -10,6 +10,7 @@ courses:
 - admission_month: 3, 6, 9, 12
   course_name: Regular Korean Program (Intensive)
   total_fees: 1200000
+date: '2026-06-10'
 faculties: []
 features:
 - 手頃な授業料と生活費

@@ -12,6 +12,7 @@ courses:
 - admission_month: 7, 8
   course_name: Short-Term Program
   total_fees: 1050000
+date: '2026-06-10'
 faculties: []
 features:
 - TOPIK Preparation

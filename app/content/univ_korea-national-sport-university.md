@@ -5,6 +5,7 @@ basic_info:
   name_en: Korea National Sport University
   name_ko: 한국체육대학교
 category: university
+date: '2026-06-10'
 faculties:
 - Department of Physical Education
 - Department of Community Sports

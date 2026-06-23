@@ -6,6 +6,7 @@ basic_info:
   name_ja: 建国大学校
   name_ko: 건국대학교
 category: university
+date: '2026-06-10'
 faculties:
 - 文科学部
 - 理科学部

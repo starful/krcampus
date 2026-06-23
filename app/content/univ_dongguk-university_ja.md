@@ -6,6 +6,7 @@ basic_info:
   name_ja: 東国大学校
   name_ko: 동국대학교
 category: university
+date: '2026-06-10'
 faculties:
 - 仏教学
 - 人文科学部

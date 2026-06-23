@@ -5,6 +5,7 @@ basic_info:
   name_en: Kookmin University
   name_ko: 국민대학교
 category: university
+date: '2026-06-10'
 faculties:
 - College of Creative Engineering
 - College of Design

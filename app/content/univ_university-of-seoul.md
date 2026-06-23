@@ -5,6 +5,7 @@ basic_info:
   name_en: University of Seoul
   name_ko: 서울시립대학교
 category: university
+date: '2026-06-10'
 faculties:
 - College of Urban Sciences
 - College of Public Affairs

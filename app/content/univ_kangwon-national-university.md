@@ -5,6 +5,7 @@ basic_info:
   name_en: Kangwon National University
   name_ko: 강원대학교
 category: university
+date: '2026-06-10'
 faculties:
 - College of Business Administration
 - College of Engineering

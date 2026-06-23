@@ -14,6 +14,7 @@ courses:
 - admission_month: 1, 8
   course_name: Short-Term Program (3-Week Intensive)
   total_fees: 1050000
+date: '2026-06-10'
 faculties: []
 features:
 - ソウル中心部の好立地（南山・明洞近く）

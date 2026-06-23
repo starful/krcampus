@@ -2,10 +2,15 @@
 
 import os
 import json
+import sys
 import frontmatter
 from datetime import datetime
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, SCRIPT_DIR)
+from md_dates import ensure_post_date, save_post  # noqa: E402
+
 CONTENT_DIR = os.path.join(BASE_DIR, "app", "content")
 OUTPUT_DIR = os.path.join(BASE_DIR, "app", "static", "json")
 GCS_IMAGE_BASE = os.environ.get(
@@ -51,6 +56,7 @@ def resolve_thumbnail(meta, slug):
 def build_json(lang_suffix, output_filename):
     print(f"Building {output_filename} ...")
     schools_list = []
+    backfilled = 0
     all_files = os.listdir(CONTENT_DIR)
     all_files.sort(key=lambda x: os.path.getmtime(os.path.join(CONTENT_DIR, x)), reverse=True)
 
@@ -70,6 +76,11 @@ def build_json(lang_suffix, output_filename):
                 post = frontmatter.load(f)
                 meta = post.metadata
 
+                published_date, changed = ensure_post_date(post, filepath)
+                if changed:
+                    save_post(filepath, post)
+                    backfilled += 1
+
                 school_id = meta.get("id", "").replace("_ja", "") if meta.get("id") else ""
                 basic = meta.get("basic_info", {}) or {}
 
@@ -77,7 +88,7 @@ def build_json(lang_suffix, output_filename):
                     {
                         "id": school_id,
                         "category": meta.get("category", "school"),
-                        "published": datetime.fromtimestamp(os.path.getmtime(filepath)).strftime("%Y-%m-%d"),
+                        "published": published_date,
                         "thumbnail": resolve_thumbnail(meta, school_id),
                         "basic_info": {
                             "name_ko": basic.get("name_ko") or basic.get("name_ja"),
@@ -98,6 +109,7 @@ def build_json(lang_suffix, output_filename):
             print(f"Error ({filename}): {e}")
 
     schools_list = dedupe_schools(schools_list)
+    schools_list.sort(key=lambda x: (x.get('published', ''), x.get('id', '')), reverse=True)
 
     final_data = {
         "last_updated": datetime.now().strftime("%Y-%m-%d"),
@@ -110,6 +122,8 @@ def build_json(lang_suffix, output_filename):
         json.dump(final_data, f, ensure_ascii=False)
 
     print(f"Saved {len(schools_list)} items to {output_filename}")
+    if backfilled:
+        print(f"date backfill: {backfilled} MD")
 
 
 def main():

@@ -6,6 +6,7 @@ basic_info:
   name_ja: 仁荷大学校
   name_ko: 인하대학교
 category: university
+date: '2026-06-10'
 faculties:
 - 工科大学
 - 自然科学大学

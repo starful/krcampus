@@ -6,6 +6,7 @@ basic_info:
   name_ja: 梨花女子大学校
   name_ko: 이화여자대학교
 category: university
+date: '2026-06-10'
 faculties:
 - 人文学部
 - 社会科学部

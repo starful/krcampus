@@ -6,6 +6,7 @@ basic_info:
   name_ja: 漢陽大学校
   name_ko: 한양대학교
 category: university
+date: '2026-06-10'
 faculties:
 - College of Engineering
 - School of Business

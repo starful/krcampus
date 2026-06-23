@@ -5,6 +5,7 @@ basic_info:
   name_en: Ajou University
   name_ko: 아주대학교
 category: university
+date: '2026-06-10'
 faculties:
 - College of Engineering
 - College of Information Technology

@@ -5,6 +5,7 @@ basic_info:
   name_en: Sookmyung Women's University
   name_ko: 숙명여자대학교
 category: university
+date: '2026-06-10'
 faculties:
 - College of Liberal Arts
 - College of Science

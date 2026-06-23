@@ -5,6 +5,7 @@ basic_info:
   name_en: Youngsan University
   name_ko: 영산대학교
 category: university
+date: '2026-06-10'
 faculties:
 - College of Hotel & Tourism Management
 - College of Creative Arts & Tech (Webtoon, Game, Design)

@@ -6,6 +6,7 @@ basic_info:
   name_ja: ソウル市立大学校
   name_ko: 서울시립대학교
 category: university
+date: '2026-06-10'
 faculties:
 - 都市科学大学
 - 政経大学

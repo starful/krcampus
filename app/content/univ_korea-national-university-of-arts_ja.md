@@ -6,6 +6,7 @@ basic_info:
   name_ja: 韓国芸術総合学校
   name_ko: 한국예술종합학교
 category: university
+date: '2026-06-10'
 faculties:
 - 演劇院
 - 舞踊院

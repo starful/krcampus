@@ -6,6 +6,7 @@ basic_info:
   name_ja: 韓国外国語大学校
   name_ko: 한국외국어대학교
 category: university
+date: '2026-06-10'
 faculties:
 - 英語学部
 - 西洋語学部

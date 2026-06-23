@@ -5,6 +5,7 @@ basic_info:
   name_en: Korea National University of Transportation
   name_ko: 한국교통대학교
 category: university
+date: '2026-06-10'
 faculties:
 - College of Engineering
 - College of Humanities & Social Sciences

@@ -5,6 +5,7 @@ basic_info:
   name_en: Kyungpook National University
   name_ko: 경북대학교
 category: university
+date: '2026-06-10'
 faculties:
 - Humanities
 - Social Sciences

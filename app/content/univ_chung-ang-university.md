@@ -5,6 +5,7 @@ basic_info:
   name_en: Chung-Ang University
   name_ko: 중앙대학교
 category: university
+date: '2026-06-10'
 faculties:
 - Business and Economics
 - Engineering

@@ -10,6 +10,7 @@ courses:
 - admission_month: '3'
   course_name: Korean Language Program
   total_fees: 1650000
+date: '2026-06-09'
 description: 韓国最高学府の冠岳キャンパスで学ぶ、学術韓国語プログラム。
 features:
 - 学術韓国語

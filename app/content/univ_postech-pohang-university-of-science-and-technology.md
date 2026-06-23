@@ -5,6 +5,7 @@ basic_info:
   name_en: Pohang University of Science and Technology (POSTECH)
   name_ko: 포항공과대학교
 category: university
+date: '2026-06-10'
 faculties:
 - Mathematics
 - Physics

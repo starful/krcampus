@@ -10,6 +10,7 @@ courses:
 - admission_month: 3, 6, 9, 12
   course_name: Regular Korean Language Program
   total_fees: 1300000
+date: '2026-06-10'
 faculties: []
 features:
 - Flagship National University

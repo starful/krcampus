@@ -6,6 +6,7 @@ basic_info:
   name_en: Korea Aerospace University
   name_ko: 한국항공대학교
 category: university
+date: '2026-06-10'
 faculties:
 - Aeronautical and Mechanical Engineering
 - Electronics and Information Engineering

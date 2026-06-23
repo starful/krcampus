@@ -5,6 +5,7 @@ basic_info:
   name_en: Korea National University of Arts
   name_ko: 한국예술종합학교
 category: university
+date: '2026-06-10'
 faculties:
 - School of Drama
 - School of Dance

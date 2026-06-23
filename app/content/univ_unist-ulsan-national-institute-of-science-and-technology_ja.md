@@ -6,6 +6,7 @@ basic_info:
   name_ja: 蔚山科学技術院 (UNIST)
   name_ko: 울산과학기술원 (UNIST)
 category: university
+date: '2026-06-10'
 faculties:
 - 工学部
 - 情報・バイオテクノロジー学部

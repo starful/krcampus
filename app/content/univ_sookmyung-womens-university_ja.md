@@ -6,6 +6,7 @@ basic_info:
   name_ja: 淑明女子大学校
   name_ko: 숙명여자대학교
 category: university
+date: '2026-06-10'
 faculties:
 - 人文学部
 - 理学部

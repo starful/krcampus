@@ -6,6 +6,7 @@ basic_info:
   name_ja: 中央大学校
   name_ko: 중앙대학교
 category: university
+date: '2026-06-10'
 faculties:
 - 経営経済
 - 工学

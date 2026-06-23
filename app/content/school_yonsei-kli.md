@@ -1,34 +1,36 @@
 ---
-layout: school
-id: school_yonsei-kli
-title: Yonsei Korean Language Institute
+basic_info:
+  address: Seoul, Seodaemun-gu, Yonsei-ro, South Korea
+  capacity: 800
+  name_en: Yonsei Korean Language Institute
+  name_ko: 연세대학교 한국어학당
 category: school
+courses:
+- admission_month: '3'
+  course_name: Regular Program (10 weeks)
+  total_fees: 1730000
+date: '2026-06-22'
+description: Study Korean at one of Korea's most recognized language institutes on
+  Yonsei University's Sinchon campus.
+features:
+- TOPIK preparation
+- University prep
+- Dormitory
+id: school_yonsei-kli
 lang: en
+layout: school
+location:
+  lat: 37.5665
+  lng: 126.9382
+stats:
+  capacity: 800
 tags:
 - TOPIK
 - University prep
 - Seoul
 thumbnail: /static/img/pin-school.png
-location:
-  lat: 37.5665
-  lng: 126.9382
-basic_info:
-  name_ko: 연세대학교 한국어학당
-  name_en: Yonsei Korean Language Institute
-  address: Seoul, Seodaemun-gu, Yonsei-ro, South Korea
-  capacity: 800
-courses:
-- course_name: Regular Program (10 weeks)
-  admission_month: '3'
-  total_fees: 1730000
-features:
-- TOPIK preparation
-- University prep
-- Dormitory
-stats:
-  capacity: 800
+title: Yonsei Korean Language Institute
 tuition: {}
-description: Study Korean at one of Korea's most recognized language institutes on Yonsei University's Sinchon campus.
 ---
 
 ## School Overview

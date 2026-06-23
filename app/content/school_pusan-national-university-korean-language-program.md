@@ -19,6 +19,7 @@ courses:
 - admission_month: '12'
   course_name: Regular Program (Winter Semester)
   total_fees: 1400000
+date: '2026-06-10'
 faculties: []
 features:
 - National University Prestige

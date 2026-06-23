@@ -5,6 +5,7 @@ basic_info:
   name_en: Kwangwoon University
   name_ko: 광운대학교
 category: university
+date: '2026-06-10'
 faculties:
 - College of Electronics & Information Engineering
 - College of Software & Convergence

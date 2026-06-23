@@ -6,6 +6,7 @@ basic_info:
   name_ja: 浦項工科大学校 (POSTECH)
   name_ko: 포항공과대학교
 category: university
+date: '2026-06-10'
 faculties:
 - 数学
 - 物理学

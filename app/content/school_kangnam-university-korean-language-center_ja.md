@@ -10,6 +10,7 @@ courses:
 - admission_month: March, June, September, December
   course_name: Regular Program
   total_fees: 1250000
+date: '2026-06-10'
 faculties: []
 features:
 - TOPIK対策

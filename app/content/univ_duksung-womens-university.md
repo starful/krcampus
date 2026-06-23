@@ -5,6 +5,7 @@ basic_info:
   name_en: Duksung Women's University
   name_ko: 덕성여자대학교
 category: university
+date: '2026-06-10'
 faculties:
 - College of Global Convergence (Humanities, Social Sciences, Business)
 - College of Science & Technology (Natural Sciences, Engineering, Software)

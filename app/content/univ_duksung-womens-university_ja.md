@@ -6,6 +6,7 @@ basic_info:
   name_ja: 徳成女子大学
   name_ko: 덕성여자대학교
 category: university
+date: '2026-06-10'
 faculties:
 - グローバル融合大学（人文学、社会科学、経営学）
 - 科学技術大学（自然科学、工学、ソフトウェア）

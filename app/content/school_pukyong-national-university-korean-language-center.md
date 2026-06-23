@@ -12,6 +12,7 @@ courses:
 - admission_month: July, August
   course_name: Short-term Intensive Program
   total_fees: 800000
+date: '2026-06-10'
 faculties: []
 features:
 - TOPIK Preparation Courses

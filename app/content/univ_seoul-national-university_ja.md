@@ -6,6 +6,7 @@ basic_info:
   name_ja: ソウル大学校
   name_ko: 서울대학교
 category: university
+date: '2026-06-10'
 description: 韓国国立大学の最高峰、ソウル大学の留学生向け入学情報。
 faculties:
 - College of Humanities

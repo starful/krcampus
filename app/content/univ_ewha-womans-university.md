@@ -5,6 +5,7 @@ basic_info:
   name_en: Ewha Womans University
   name_ko: 이화여자대학교
 category: university
+date: '2026-06-10'
 faculties:
 - College of Liberal Arts
 - College of Social Sciences

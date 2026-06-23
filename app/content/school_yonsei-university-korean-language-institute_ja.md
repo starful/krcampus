@@ -19,6 +19,7 @@ courses:
 - admission_month: March, September
   course_name: University Pathway Program
   total_fees: 1850000
+date: '2026-06-10'
 faculties: []
 features:
 - TOPIK対策

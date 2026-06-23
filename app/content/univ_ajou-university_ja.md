@@ -6,6 +6,7 @@ basic_info:
   name_ja: 亜洲大学校
   name_ko: 아주대학교
 category: university
+date: '2026-06-10'
 faculties:
 - 工科大学
 - 情報通信大学

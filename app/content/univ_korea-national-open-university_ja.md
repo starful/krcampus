@@ -6,6 +6,7 @@ basic_info:
   name_ja: 韓国放送通信大学校
   name_ko: 한국방송통신대학교
 category: university
+date: '2026-06-10'
 faculties:
 - 人文学部
 - 社会科学部

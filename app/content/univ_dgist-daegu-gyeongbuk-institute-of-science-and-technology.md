@@ -6,6 +6,7 @@ basic_info:
   name_en: Daegu Gyeongbuk Institute of Science and Technology
   name_ko: 대구경북과학기술원 (DGIST)
 category: university
+date: '2026-06-10'
 faculties:
 - School of Undergraduate Studies (Basic Science & Convergence Engineering)
 - Department of Physics and Chemistry

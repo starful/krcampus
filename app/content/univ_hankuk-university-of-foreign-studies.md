@@ -5,6 +5,7 @@ basic_info:
   name_en: Hankuk University of Foreign Studies
   name_ko: 한국외국어대학교
 category: university
+date: '2026-06-10'
 faculties:
 - College of English
 - College of Occidental Languages

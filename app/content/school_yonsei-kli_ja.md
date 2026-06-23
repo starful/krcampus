@@ -10,6 +10,7 @@ courses:
 - admission_month: '3'
   course_name: Regular Program (10 weeks)
   total_fees: 1730000
+date: '2026-06-09'
 description: ソウル新村キャンパスで韓国語を学ぶ、延世大学韓国語学堂の概要。
 features:
 - TOPIK対策

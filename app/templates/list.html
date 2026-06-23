@@ -20,9 +20,10 @@
 
     <div class="card-grid">
         {% for item in items %}
-        <a href="{{ item.link }}" class="card{% if item_type != 'guide' %} school-card{% endif %}"{% if item_type != 'guide' %} data-school-id="{{ item.id }}"{% endif %}>
+        <a href="{{ item.link }}" class="card{% if item_type != 'guide' %} school-card{% endif %}{% if item.is_new %} is-new-content{% endif %}"{% if item_type != 'guide' %} data-school-id="{{ item.id }}"{% endif %}>
             <div class="card-img">
                 <img src="{{ item.thumbnail }}" alt="{{ item.title or item.basic_info.name_display or item.basic_info.name_en or item.basic_info.name_ko }}" loading="lazy" decoding="async" class="card-thumb">
+                {% if item.is_new %}<span class="badge-new">New</span>{% endif %}
                 <span class="card-badge" style="color: var(--primary);">{{ ui.guide_badge if item_type == 'guide' else (ui.university if item.category == 'university' else ui.language_school) }}</span>
             </div>
             <div class="card-body">

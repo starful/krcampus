@@ -13,6 +13,7 @@ courses:
 - admission_month: 1, 8
   course_name: Short-Term Intensive Program (3 Weeks)
   total_fees: 1050000
+date: '2026-06-10'
 faculties: []
 features:
 - TOPIK Prep

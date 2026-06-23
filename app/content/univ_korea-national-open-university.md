@@ -5,6 +5,7 @@ basic_info:
   name_en: Korea National Open University
   name_ko: 한국방송통신대학교
 category: university
+date: '2026-06-10'
 faculties:
 - Humanities
 - Social Sciences

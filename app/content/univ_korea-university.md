@@ -5,6 +5,7 @@ basic_info:
   name_en: Korea University
   name_ko: 고려대학교
 category: university
+date: '2026-06-10'
 faculties:
 - Business School
 - College of Liberal Arts

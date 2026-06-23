@@ -16,6 +16,7 @@ courses:
 - admission_month: January, April, July, October
   course_name: TOPIK Preparation Course
   total_fees: 480000
+date: '2026-06-10'
 faculties: []
 features:
 - TOPIK対策

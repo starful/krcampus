@@ -6,6 +6,7 @@ basic_info:
   name_ja: 朝鮮大学校
   name_ko: 조선대학교
 category: university
+date: '2026-06-10'
 faculties:
 - グローバルビジネス・融合科学
 - 人文社会科学

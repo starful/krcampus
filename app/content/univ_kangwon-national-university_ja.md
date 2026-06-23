@@ -6,6 +6,7 @@ basic_info:
   name_ja: 江原大学校
   name_ko: 강원대학교
 category: university
+date: '2026-06-10'
 faculties:
 - 経営大学
 - 工科大学

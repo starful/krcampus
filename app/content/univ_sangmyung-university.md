@@ -5,6 +5,7 @@ basic_info:
   name_en: Sangmyung University
   name_ko: 상명대학교
 category: university
+date: '2026-06-10'
 faculties:
 - College of Humanities and Social Sciences
 - College of Science and Technology

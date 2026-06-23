@@ -14,6 +14,7 @@ courses:
 - admission_month: July, January
   course_name: Short-term Intensive Program
   total_fees: 800000
+date: '2026-06-10'
 faculties: []
 features:
 - 地方拠点国立大学

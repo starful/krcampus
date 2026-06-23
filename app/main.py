@@ -660,7 +660,7 @@ async def guide_detail(request: Request, slug: str, lang: str = Query("en")):
 @app.get("/schools", response_class=HTMLResponse)
 async def school_list(request: Request, lang: str = Query("en")):
     schools_data, _ = load_school_data(lang)
-    schools = assign_thumbnails([s for s in schools_data if s.get('category') != 'university'], "school")
+    schools = enrich_items(assign_thumbnails([s for s in schools_data if s.get('category') != 'university'], "school"))
     
     # [수정] 최신 문법 적용
     ui = get_ui_text(lang)
@@ -682,7 +682,7 @@ async def school_list(request: Request, lang: str = Query("en")):
 @app.get("/universities", response_class=HTMLResponse)
 async def university_list(request: Request, lang: str = Query("en")):
     schools_data, _ = load_school_data(lang)
-    universities = assign_thumbnails([s for s in schools_data if s.get('category') == 'university'], "university")
+    universities = enrich_items(assign_thumbnails([s for s in schools_data if s.get('category') == 'university'], "university"))
     
     # [수정] 최신 문법 적용
     ui = get_ui_text(lang)

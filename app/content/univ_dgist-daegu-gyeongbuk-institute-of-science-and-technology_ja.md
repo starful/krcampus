@@ -7,6 +7,7 @@ basic_info:
   name_ja: 大邱慶北科学技術院 (DGIST)
   name_ko: 대구경북과학기술원 (DGIST)
 category: university
+date: '2026-06-10'
 faculties:
 - 学部課程（基礎科学・融合工学）
 - 物理化学専攻

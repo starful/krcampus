@@ -9,6 +9,7 @@ courses:
 - admission_month: 3, 6, 9, 12
   course_name: Regular Program
   total_fees: 1700000
+date: '2026-06-10'
 faculties: []
 features:
 - TOPIK Prep

@@ -13,6 +13,7 @@ courses:
 - admission_month: 7, 8
   course_name: Short-Term Intensive Program
   total_fees: 1000000
+date: '2026-06-10'
 faculties: []
 features:
 - TOPIK（韓国語能力試験）対策講座

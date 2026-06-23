@@ -12,6 +12,7 @@ courses:
 - admission_month: 1, 2, 8
   course_name: Short-Term Program (3-Week)
   total_fees: 930000
+date: '2026-06-10'
 faculties: []
 features:
 - Speaking-focused Curriculum
