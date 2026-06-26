@@ -2,16 +2,19 @@
 {
   "layout": "guide",
   "id": "remittance-korea",
-  "title": "Sending Money to Korea: Wise and Banks",
+  "title": "How to Send Money to Korea: Wise vs. Traditional Banks",
   "category": "Budget",
   "tags": [
     "Budget"
   ],
-  "description": "International transfers guide.",
+  "description": "Want to send money to South Korea? Compare Wise vs. bank transfers. Find the cheapest, fastest way with the best exchange rates in our 2026 guide.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
-  "date": "2026-06-09"
+  "date": "2026-06-09",
+  "seo_title": "How to Send Money to Korea: Wise vs. Banks (2026) | KR Campus",
+  "seo_description": "Want to send money to South Korea? Compare Wise vs. bank transfers. Find the cheapest, fastest way with the best exchange rates in our 2026 guide."
 }
 ---
+
 
 Congratulations on taking the leap to study in South Korea! Whether you are preparing to walk through the gates of Seoul National University, Yonsei, Korea University, or any of the country's other world-class institutions, you are embarking on an incredible journey. 
 

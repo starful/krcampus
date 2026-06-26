@@ -7,7 +7,7 @@ basic_info:
   name_ko: 동아대학교
 category: university
 date: '2026-06-19'
-description: 韓国・釜山にある「東亜大学」の2026年度留学情報を徹底解説！外国人留学生向けの学費、奨学金、学部、出願方法など最新情報を掲載。
+description: 韓国・釜山の名門私立「東亜大学」の2026年度最新留学情報を徹底解説！外国人留学生向けの豊富な奨学金制度、学部一覧、学費、出願方法や日程まで役立つ情報を満載。釜山留学を検討中の方は必見です！
 faculties:
 - 人文学部
 - 社会科学部
@@ -29,8 +29,8 @@ layout: school
 location:
   lat: 35.1132117
   lng: 128.9651024
-seo_description: 韓国・釜山にある「東亜大学」の2026年度留学・入試情報を徹底解説！外国人留学生向けの学費、充実した奨学金制度、学部、出願資格から準備方法まで、韓国留学に必要な最新情報をまとめてお届けします。
-seo_title: 東亜大学（韓国 釜山）の2026年度留学・入試・学費情報 | KR Campus
+seo_description: 韓国・釜山の名門私立「東亜大学」の2026年度最新留学情報を徹底解説！外国人留学生向けの豊富な奨学金制度、学部一覧、学費、出願方法や日程まで役立つ情報を満載。釜山留学を検討中の方は必見です！
+seo_title: 【2026年】東亜大学留学ガイド：学費・奨学金・学部・出願方法を徹底解説 | KR Campus
 stats:
   acceptance_rate: Estimated 65%
   international_students: 1450
@@ -40,11 +40,12 @@ tags:
 - 優れた韓国語プログラムと、TOPIK取得レベルに基づく豊富な奨学金制度
 - 首都圏（ソウル）と比較して、釜山での手頃な生活費
 thumbnail: /static/img/pin-univ.png
-title: 東亜大学
+title: 東亜大学（韓国・釜山）
 tuition:
   admission_fee: 150000
   yearly_tuition: 7400000
 ---
+
 
 ## 大学概要
 
