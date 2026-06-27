@@ -2,7 +2,7 @@
 
 (function () {
     let allSchoolData = [];
-    let currentCategory = "school";
+    let currentCategory = "all";
     let currentSchoolFeature = null;
     let currentRegionFilter = "all";
     let currentFilteredData = [];
@@ -64,6 +64,9 @@
 
     function computeFilteredData(category = currentCategory, schoolFeature = currentSchoolFeature, regionKey = currentRegionFilter) {
         return sortByPublishedDesc(allSchoolData.filter((school) => {
+            if (category === "all") {
+                return matchesRegion(school, regionKey);
+            }
             if (category === "university") {
                 return school.category === "university" && matchesRegion(school, regionKey);
             }
@@ -120,8 +123,8 @@
 
     function filterVisibleCards(filteredSchools) {
         const ids = new Set(filteredSchools.map((s) => s.id));
-        const showSchools = currentCategory === "school";
-        const showUniversities = currentCategory === "university";
+        const showSchools = currentCategory === "school" || currentCategory === "all";
+        const showUniversities = currentCategory === "university" || currentCategory === "all";
 
         document.querySelectorAll('[data-filter-grid="schools"] .school-card[data-school-id]').forEach((card) => {
             card.classList.toggle("is-filter-hidden", !showSchools || !ids.has(card.dataset.schoolId));
@@ -218,11 +221,11 @@
 
     function resolveInitialCategory() {
         const fromWindow = window.KRCAMPUS_INITIAL_VIEW;
-        if (fromWindow === "school" || fromWindow === "university") return fromWindow;
+        if (fromWindow === "all" || fromWindow === "school" || fromWindow === "university") return fromWindow;
         const params = new URLSearchParams(window.location.search);
         const fromQuery = params.get("view");
-        if (fromQuery === "school" || fromQuery === "university") return fromQuery;
-        return "school";
+        if (fromQuery === "all" || fromQuery === "school" || fromQuery === "university") return fromQuery;
+        return "all";
     }
 
     function bootstrap() {
@@ -242,7 +245,7 @@
         const axis = btn.dataset.filterAxis;
         const key = btn.dataset.filterKey;
         if (axis === "category") {
-            if (key !== "school" && key !== "university") return;
+            if (key !== "all" && key !== "school" && key !== "university") return;
             currentCategory = key;
             currentSchoolFeature = null;
         } else if (axis === "school-feature") {

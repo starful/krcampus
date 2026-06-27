@@ -526,9 +526,9 @@ async def robots():
     return f"User-agent: *\nAllow: /\nSitemap: {DOMAIN}/sitemap.xml"
 
 @app.get("/", response_class=HTMLResponse)
-async def read_root(request: Request, lang: str = Query("en"), view: str = Query("school")):
-    if view not in ("school", "university"):
-        view = "school"
+async def read_root(request: Request, lang: str = Query("en"), view: str = Query("all")):
+    if view not in ("all", "school", "university"):
+        view = "all"
     schools_data, updated_at = load_school_data(lang)
     all_guides = load_guides(lang)
     ui = get_ui_text(lang)

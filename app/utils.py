@@ -83,6 +83,7 @@ def calculate_tag_counts(schools):
 def get_category_filters(lang="en"):
     ui = get_ui_text(lang)
     return [
+        {"key": "all", "icon": "🌏", "label": ui["filter_all_types"]},
         {"key": "school", "icon": "🏫", "label": ui["filter_language_schools"]},
         {"key": "university", "icon": "🏛️", "label": ui["filter_universities"]},
     ]
@@ -274,6 +275,7 @@ def get_ui_text(lang):
             "filter_language_schools": "語学堂", "filter_seoul": "ソウル", "filter_busan": "釜山", "filter_daegu": "大邱", "filter_gwangju": "光州",
             "filter_dormitory": "寮",
             "filter_academic": "進学", "filter_universities": "大学",
+            "filter_all_types": "すべて",
             "filter_other_cities": "その他", "filter_medium": "中型",
             "filter_all_regions": "全地域", "filter_row_type": "種類", "filter_row_region": "地域",
             "schools_listed": "件登録", "language_schools_count_label": "語学堂", "universities_count_label": "大学",
@@ -345,6 +347,7 @@ def get_ui_text(lang):
         "filter_language_schools": "Institutes", "filter_seoul": "Seoul", "filter_busan": "Busan", "filter_daegu": "Daegu", "filter_gwangju": "Gwangju",
         "filter_dormitory": "Dorm",
         "filter_academic": "Prep", "filter_universities": "Univ",
+        "filter_all_types": "All",
         "filter_other_cities": "Other", "filter_medium": "Mid",
         "filter_all_regions": "All areas", "filter_row_type": "Type", "filter_row_region": "Region",
         "schools_listed": "Schools Listed", "language_schools_count_label": "Institutes", "universities_count_label": "Universities",
