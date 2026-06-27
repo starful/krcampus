@@ -1,4 +1,4 @@
-/* app/static/js/filters.js — category (school/university) + optional school features + region */
+/* app/static/js/filters.js — category (all/school/university) + optional school features + region */
 
 (function () {
     let allSchoolData = [];
