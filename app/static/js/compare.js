@@ -1,4 +1,4 @@
-/* app/static/js/compare.js — school compare (max 3, localStorage) */
+/* app/static/js/compare.js — school compare (max 3, localStorage, same category only) */
 
 (function () {
     const MAX = 3;
@@ -9,19 +9,42 @@
         return cfg.lang || "en";
     }
 
+    function inferCategory(id) {
+        if (id && id.startsWith("univ_")) return "university";
+        return "school";
+    }
+
+    function normalizeCompareItems(raw) {
+        if (!Array.isArray(raw)) return [];
+        return raw.map((entry) => {
+            if (entry && typeof entry === "object" && entry.id) {
+                return {
+                    id: String(entry.id),
+                    category: entry.category === "university" ? "university" : "school",
+                };
+            }
+            const id = String(entry || "");
+            if (!id) return null;
+            return { id, category: inferCategory(id) };
+        }).filter(Boolean);
+    }
+
     function getCompareItems() {
         try {
             const raw = localStorage.getItem(STORAGE_KEY);
             if (!raw) return [];
-            const parsed = JSON.parse(raw);
-            return Array.isArray(parsed) ? parsed : [];
+            return normalizeCompareItems(JSON.parse(raw));
         } catch (_) {
             return [];
         }
     }
 
-    function setCompareItems(ids) {
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(ids));
+    function getCompareIds() {
+        return getCompareItems().map((item) => item.id);
+    }
+
+    function setCompareItems(items) {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(items.slice(0, MAX)));
     }
 
     function compareUrl(ids) {
@@ -94,7 +117,8 @@
     }
 
     function syncCompareUI() {
-        const ids = getCompareItems();
+        const items = getCompareItems();
+        const ids = items.map((item) => item.id);
         const count = ids.length;
         const canCompare = count >= 2;
 
@@ -137,20 +161,24 @@
         });
     }
 
-    function toggleCompareItem(id) {
+    function toggleCompareItem(id, category) {
         if (!id) return;
+        const nextCategory = category || inferCategory(id);
         const items = getCompareItems();
-        const exists = items.includes(id);
+        const exists = items.some((item) => item.id === id);
         let next;
 
         if (exists) {
-            next = items.filter((v) => v !== id);
+            next = items.filter((item) => item.id !== id);
             showToast(cfg.toastRemoved || "Removed from compare");
         } else if (items.length >= MAX) {
             showToast(cfg.toastMax || "Max 3 schools — remove one first");
             return;
+        } else if (items.length > 0 && items[0].category !== nextCategory) {
+            showToast(cfg.toastMixed || "Compare language institutes and universities separately");
+            return;
         } else {
-            next = [...items, id];
+            next = [...items, { id, category: nextCategory }];
             showToast(cfg.toastAdded || "Added to compare ✓");
         }
 
@@ -176,19 +204,26 @@
                     .map((value) => value.trim())
                     .filter(Boolean)
                     .slice(0, MAX);
-                setCompareItems(ids);
+                const normalized = normalizeCompareItems(ids);
+                const firstCategory = normalized[0]?.category;
+                setCompareItems(normalized.filter((item) => item.category === firstCategory));
             }
         }
 
         const addId = params.get("add_compare");
         if (!addId) return;
 
+        const category = inferCategory(addId);
         const items = getCompareItems();
-        if (!items.includes(addId)) {
-            const next = items.length >= MAX
-                ? [...items.slice(1), addId]
-                : [...items, addId];
-            setCompareItems(next);
+        if (!items.some((item) => item.id === addId)) {
+            if (items.length > 0 && items[0].category !== category) {
+                setCompareItems([{ id: addId, category }]);
+            } else {
+                const next = items.length >= MAX
+                    ? [...items.slice(1), { id: addId, category }]
+                    : [...items, { id: addId, category }];
+                setCompareItems(next);
+            }
             trackEvent("compare_add_from_detail", addId);
         }
 
@@ -203,7 +238,7 @@
         if (toggleBtn) {
             event.preventDefault();
             event.stopPropagation();
-            toggleCompareItem(toggleBtn.dataset.compareId);
+            toggleCompareItem(toggleBtn.dataset.compareId, toggleBtn.dataset.compareCategory);
             return;
         }
 
@@ -218,9 +253,9 @@
         if (removeBtn) {
             event.preventDefault();
             const id = removeBtn.dataset.compareRemove;
-            const next = getCompareItems().filter((value) => value !== id);
+            const next = getCompareItems().filter((item) => item.id !== id);
             setCompareItems(next);
-            window.location.href = compareUrl(next);
+            window.location.href = compareUrl(next.map((item) => item.id));
             return;
         }
 
@@ -256,7 +291,8 @@
     });
 
     window.KRCampusCompare = {
-        getCompareItems,
+        getCompareItems: getCompareIds,
+        getCompareEntries: getCompareItems,
         toggleCompareItem,
         clearCompare,
         syncCompareUI,

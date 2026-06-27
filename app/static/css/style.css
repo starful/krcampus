@@ -110,6 +110,10 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     border-top: 1px dashed #eef2f7;
 }
 
+.filter-row-school-features.is-hidden {
+    display: none;
+}
+
 .theme-filter-buttons {
     display: flex;
     justify-content: center;
@@ -285,6 +289,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 /* --- [5] 이후 레이아웃 스타일 --- */
 .school-card.is-filter-hidden,
 .university-card.is-filter-hidden,
+.section-header.is-filter-hidden,
 .card-grid.is-filter-empty,
 .section-header.is-filter-empty {
     display: none !important;

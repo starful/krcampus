@@ -121,7 +121,7 @@
                 <i class="fa-solid fa-copy" aria-hidden="true"></i>
                 <span>{{ ui.compare_copy_text }}</span>
             </button>
-            <a href="/schools?lang={{ current_lang }}" class="compare-action-btn compare-action-outline">
+            <a href="/{{ 'universities' if selected and selected[0].category == 'university' else 'schools' }}?lang={{ current_lang }}" class="compare-action-btn compare-action-outline">
                 <i class="fa-solid fa-list" aria-hidden="true"></i>
                 <span>{{ ui.back_to_list }}</span>
             </a>

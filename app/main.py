@@ -15,7 +15,8 @@ from xml.sax.saxutils import escape as xml_escape
 # 분리된 유틸 및 API 라우터 임포트
 from app.settings import KRCAMPUS_GOOGLE_MAPS_API_KEY
 from app.utils import (
-    calculate_tag_counts, assign_thumbnails, get_ui_text, get_type_filters, get_region_filters,
+    calculate_tag_counts, assign_thumbnails, get_ui_text, get_type_filters, get_category_filters,
+    get_school_feature_filters, get_region_filters,
     load_school_data, load_guides, resolve_guide_detail_thumbnail, diversify_guide_thumbnails,
     prepare_compare_items, compare_fee_value, build_compare_export,
     STATIC_DIR, CONTENT_DIR, TEMPLATES_DIR
@@ -26,6 +27,8 @@ from app.reactions import router as reactions_router
 SCHOOL_ID_ALIASES = {
     "univ_ulsan-national-institute-of-science-and-technology": "univ_unist-ulsan-national-institute-of-science-and-technology",
     "univ_ulsan-national-institute-of-science-and-technology-unist": "univ_unist-ulsan-national-institute-of-science-and-technology",
+    "school_yonsei-kli": "school_yonsei-university-korean-language-institute",
+    "school_snu-lei": "school_seoul-national-university-language-education-institute",
 }
 from app.social_share import (
     card_page_path,
@@ -136,7 +139,11 @@ def default_updated_at() -> str:
 
 def site_stats(lang: str = "en") -> dict[str, int | str]:
     schools, updated_at = load_school_data(lang)
+    language_schools = [s for s in schools if s.get("category") == "school"]
+    universities = [s for s in schools if s.get("category") == "university"]
     return {
+        "total_language_schools": len(language_schools),
+        "total_universities": len(universities),
         "total_schools": len(schools),
         "updated_at": updated_at or default_updated_at(),
     }
@@ -519,7 +526,9 @@ async def robots():
     return f"User-agent: *\nAllow: /\nSitemap: {DOMAIN}/sitemap.xml"
 
 @app.get("/", response_class=HTMLResponse)
-async def read_root(request: Request, lang: str = Query("en")):
+async def read_root(request: Request, lang: str = Query("en"), view: str = Query("school")):
+    if view not in ("school", "university"):
+        view = "school"
     schools_data, updated_at = load_school_data(lang)
     all_guides = load_guides(lang)
     ui = get_ui_text(lang)
@@ -552,7 +561,10 @@ async def read_root(request: Request, lang: str = Query("en")):
         "maps_api_key": KRCAMPUS_GOOGLE_MAPS_API_KEY, 
         "updated_at": updated_at,
         "total_schools": len(schools_data),
-        "featured_guides": featured_guides, 
+        "total_language_schools": len([s for s in schools_data if s.get("category") == "school"]),
+        "total_universities": len([s for s in schools_data if s.get("category") == "university"]),
+        "initial_view": view,
+        "featured_guides": featured_guides,
         "latest_schools": latest_schools, 
         "latest_universities": latest_universities, 
         "latest_guides": enrich_items(diversify_guide_thumbnails([g for g in all_guides if g["link"] not in featured_links][:6])),
@@ -560,7 +572,8 @@ async def read_root(request: Request, lang: str = Query("en")):
         "university_list_json": university_list,
         "current_lang": lang,
         "ui": ui,
-        "type_filters": get_type_filters(lang),
+        "type_filters": get_category_filters(lang),
+        "school_feature_filters": get_school_feature_filters(lang),
         "region_filters": get_region_filters(lang),
         "canonical_url": build_canonical_url("/", lang),
         "hreflang_urls": build_hreflang_urls("/"),
@@ -732,6 +745,8 @@ async def compare_page(request: Request, ids: str = "", lang: str = Query("en"))
     for school_id in id_list:
         item = school_by_id.get(school_id)
         if not item:
+            continue
+        if selected and selected[0].get("category") != item.get("category"):
             continue
         item_type = "university" if item.get("category") == "university" else "school"
         assign_thumbnails([item], item_type)

@@ -20,12 +20,16 @@ GCS_IMAGE_BASE = os.environ.get(
 
 
 def dedupe_key(entry):
+    basic = entry.get("basic_info") or {}
+    name_ko = (basic.get("name_ko") or "").strip()
+    if name_ko:
+        return ("name_ko", entry.get("category"), name_ko)
+
     loc = entry.get("location") or {}
     lat, lng = loc.get("lat"), loc.get("lng")
     if lat is not None and lng is not None:
         return ("loc", entry.get("category"), round(float(lat), 4), round(float(lng), 4))
 
-    basic = entry.get("basic_info") or {}
     name = (basic.get("name_en") or basic.get("name_ko") or "").lower()
     for token in (" (unist)", "unist", " national institute of science and technology"):
         name = name.replace(token, "")

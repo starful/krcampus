@@ -80,15 +80,26 @@ def calculate_tag_counts(schools):
     ]
     return [tag for tag in results if tag['count'] >= 5]
 
-def get_type_filters(lang="en"):
+def get_category_filters(lang="en"):
     ui = get_ui_text(lang)
     return [
-        {"key": "all", "icon": "📍", "label": ui["filter_all"]},
+        {"key": "school", "icon": "🏫", "label": ui["filter_language_schools"]},
+        {"key": "university", "icon": "🏛️", "label": ui["filter_universities"]},
+    ]
+
+
+def get_school_feature_filters(lang="en"):
+    ui = get_ui_text(lang)
+    return [
         {"key": "dormitory", "icon": "🏠", "label": ui["filter_dormitory"]},
         {"key": "academic", "icon": "🎓", "label": ui["filter_academic"]},
-        {"key": "university", "icon": "🏛️", "label": ui["filter_universities"]},
         {"key": "size_medium", "icon": "📊", "label": ui["filter_medium"]},
     ]
+
+
+def get_type_filters(lang="en"):
+    """Legacy alias — category tabs only (school / university)."""
+    return get_category_filters(lang)
 
 
 def get_region_filters(lang="en"):
@@ -260,12 +271,13 @@ def get_ui_text(lang):
             "global_programs": "グローバルプログラム", "national_private": "公式機関",
             "view_all_schools": "語学堂一覧 →", "view_all_univs": "大学一覧 →",
             "find_schools": "語学堂を探す", "find_universities": "大学を探す", "read_guides": "ガイドを見る",
-            "filter_all": "すべて", "filter_seoul": "ソウル", "filter_busan": "釜山", "filter_daegu": "大邱", "filter_gwangju": "光州",
+            "filter_language_schools": "語学堂", "filter_seoul": "ソウル", "filter_busan": "釜山", "filter_daegu": "大邱", "filter_gwangju": "光州",
             "filter_dormitory": "寮",
             "filter_academic": "進学", "filter_universities": "大学",
             "filter_other_cities": "その他", "filter_medium": "中型",
             "filter_all_regions": "全地域", "filter_row_type": "種類", "filter_row_region": "地域",
-            "schools_listed": "件登録", "last_updated": "最終更新:", "updating_weekly": "毎週更新",
+            "schools_listed": "件登録", "language_schools_count_label": "語学堂", "universities_count_label": "大学",
+            "stats_separator": "·", "last_updated": "最終更新:", "updating_weekly": "毎週更新",
             "see_related_guides": "関連ガイド", "contact_us": "お問い合わせ",
             "related_schools": "関連語学堂", "related_guides": "関連ガイド",
             "reaction_title": "この記事は役に立ちましたか？",
@@ -312,6 +324,7 @@ def get_ui_text(lang):
             "compare_toast_added": "比較リストに追加しました ✓",
             "compare_toast_removed": "比較リストから削除しました",
             "compare_toast_max": "最大3校まで — 1校削除してください",
+            "compare_toast_mixed": "語学堂と大学は別々に比較してください",
             "compare_toast_cleared": "比較リストをクリアしました",
             "meta_compare_title": "学校比較 | KR Campus",
             "meta_compare_desc": "韓国語学堂・大学を最大3校まで並べて比較。学費・定員・留学生数・特徴を一覧で確認。",
@@ -329,12 +342,13 @@ def get_ui_text(lang):
         "global_programs": "Global Programs", "national_private": "Official National/Private Institute",
         "view_all_schools": "View all institutes →", "view_all_univs": "View all universities →",
         "find_schools": "Find Schools", "find_universities": "Find Universities", "read_guides": "Read Guides",
-        "filter_all": "All", "filter_seoul": "Seoul", "filter_busan": "Busan", "filter_daegu": "Daegu", "filter_gwangju": "Gwangju",
+        "filter_language_schools": "Institutes", "filter_seoul": "Seoul", "filter_busan": "Busan", "filter_daegu": "Daegu", "filter_gwangju": "Gwangju",
         "filter_dormitory": "Dorm",
         "filter_academic": "Prep", "filter_universities": "Univ",
         "filter_other_cities": "Other", "filter_medium": "Mid",
         "filter_all_regions": "All areas", "filter_row_type": "Type", "filter_row_region": "Region",
-        "schools_listed": "Schools Listed", "last_updated": "Last Updated:", "updating_weekly": "Updating Weekly",
+        "schools_listed": "Schools Listed", "language_schools_count_label": "Institutes", "universities_count_label": "Universities",
+        "stats_separator": "·", "last_updated": "Last Updated:", "updating_weekly": "Updating Weekly",
         "see_related_guides": "See Related Guides", "contact_us": "Contact Us",
         "related_schools": "Related Schools", "related_guides": "Related Guides",
         "reaction_title": "Was this page helpful?",
@@ -387,6 +401,7 @@ def get_ui_text(lang):
         "compare_toast_added": "Added to compare ✓",
         "compare_toast_removed": "Removed from compare",
         "compare_toast_max": "Max 3 schools — remove one first",
+        "compare_toast_mixed": "Compare language institutes and universities separately",
         "compare_toast_cleared": "Compare list cleared",
         "meta_compare_title": "Compare Schools | KR Campus",
         "meta_compare_desc": "Compare up to 3 Korean language institutes or universities side by side — fees, capacity, international students, and features.",

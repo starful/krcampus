@@ -41,6 +41,7 @@
             <div class="card-footer" style="display: flex; justify-content: flex-end;">
                 <button type="button" class="compare-toggle-btn"
                     data-compare-id="{{ item.id }}"
+                    data-compare-category="{{ 'university' if item.category == 'university' else 'school' }}"
                     data-label-default="{{ ui.compare_add }}"
                     data-label-selected="{{ ui.compare_added }}"
                     data-track="compare_toggle"

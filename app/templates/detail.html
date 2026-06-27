@@ -54,6 +54,7 @@
             </p>
             <button type="button" class="compare-toggle-btn detail-compare-btn"
                 data-compare-id="{{ item.id }}"
+                data-compare-category="{{ 'university' if item_type == 'university' else 'school' }}"
                 data-label-default="{{ ui.compare_add }}"
                 data-label-selected="{{ ui.compare_added }}"
                 data-track="compare_toggle"

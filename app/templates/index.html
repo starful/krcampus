@@ -2,19 +2,36 @@
 
 {% block map_filters %}
 <div class="top-filter-bar" aria-label="Map filters">
-    <div class="filter-row filter-row-type">
+    <div class="filter-row filter-row-category">
         <div class="theme-filter-buttons">
             {% for f in type_filters %}
             <button type="button"
-                class="theme-button{% if loop.first %} active{% endif %}"
-                data-filter-axis="type"
+                class="theme-button{% if f.key == initial_view %} active{% endif %}"
+                data-filter-axis="category"
                 data-filter-key="{{ f.key }}"
                 data-track="quick_filter"
-                data-track-label="type-{{ f.key }}"
+                data-track-label="category-{{ f.key }}"
                 title="{{ f.label }}">
                 <span class="filter-emoji" aria-hidden="true">{{ f.icon }}</span>
                 <span class="filter-label">{{ f.label }}</span>
-                <span class="count-badge" id="count-type-{{ f.key }}">0</span>
+                <span class="count-badge" id="count-category-{{ f.key }}">0</span>
+            </button>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="filter-row filter-row-school-features{% if initial_view != 'school' %} is-hidden{% endif %}">
+        <div class="theme-filter-buttons">
+            {% for f in school_feature_filters %}
+            <button type="button"
+                class="theme-button theme-button-feature"
+                data-filter-axis="school-feature"
+                data-filter-key="{{ f.key }}"
+                data-track="quick_filter"
+                data-track-label="feature-{{ f.key }}"
+                title="{{ f.label }}">
+                <span class="filter-emoji" aria-hidden="true">{{ f.icon }}</span>
+                <span class="filter-label">{{ f.label }}</span>
+                <span class="count-badge" id="count-feature-{{ f.key }}">0</span>
             </button>
             {% endfor %}
         </div>
@@ -87,8 +104,8 @@
         {% endfor %}
     </div>
 
-    <!-- [수정] Language Schools -->
-    <div class="section-header">
+    <!-- Language Schools -->
+    <div class="section-header" data-section-for="schools">
         <h2 class="section-title">{{ ui.language_schools }}</h2>
         <a href="/schools?lang={{ current_lang }}" class="view-all">{{ ui.view_all_schools }}</a>
     </div>
@@ -101,7 +118,6 @@
                 {% if item.is_new %}<span class="badge-new">New</span>{% endif %}
             </div>
             <div class="card-body">
-                {# [중요] name_display(한국어이름)가 있으면 우선 출력 #}
                 <h4>{{ item.basic_info.name_display or item.basic_info.name_en or item.basic_info.name_ko }}</h4>
                 <div class="card-meta">
                     <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
@@ -121,6 +137,7 @@
                 </div>
                 <button type="button" class="compare-toggle-btn"
                     data-compare-id="{{ item.id }}"
+                    data-compare-category="school"
                     data-label-default="{{ ui.compare_add }}"
                     data-label-selected="{{ ui.compare_added }}"
                     data-track="compare_toggle"
@@ -130,13 +147,12 @@
         {% endfor %}
     </div>
 
-    <!-- [수정] Universities -->
-    <div class="section-header" style="margin-top: 80px;">
+    <!-- Universities -->
+    <div class="section-header" style="margin-top: 80px;" data-section-for="universities">
         <h2 class="section-title">{{ ui.top_universities }}</h2>
         <a href="/universities?lang={{ current_lang }}" class="view-all">{{ ui.view_all_univs }}</a>
     </div>
     <div class="card-grid" data-filter-grid="universities">
-        {% set univ_imgs = [ '...', '...' ] %}
         {% for item in latest_universities %}
         <a href="{{ item.link }}" class="card university-card{% if item.is_new %} is-new-content{% endif %}" data-school-id="{{ item.id }}" data-track="university_card" data-track-label="{{ item.id }}">
             <div class="card-img">
@@ -152,6 +168,7 @@
                 <span class="card-price" style="color: var(--accent);">{{ ui.global_programs }}</span>
                 <button type="button" class="compare-toggle-btn"
                     data-compare-id="{{ item.id }}"
+                    data-compare-category="university"
                     data-label-default="{{ ui.compare_add }}"
                     data-label-selected="{{ ui.compare_added }}"
                     data-track="compare_toggle"
@@ -161,7 +178,7 @@
         {% endfor %}
     </div>
 
-    <!-- [수정] Essential Guides -->
+    <!-- Essential Guides -->
     <div class="section-header" style="margin-top: 80px;">
         <h2 class="section-title">{{ ui.essential_guides }}</h2>
         <a href="/guide?lang={{ current_lang }}" class="view-all">{{ ui.view_all }}</a>
@@ -185,16 +202,13 @@
 </div>
 
 {% endblock %}
-{# --- 메인 콘텐츠 끝 --- #}
 
-
-{# --- 스크립트 시작 --- #}
 {% block scripts %}
 <script>
     const SCHOOLS_DATA = {{ schools_json | safe }};
+    window.KRCAMPUS_INITIAL_VIEW = {{ initial_view | tojson }};
 </script>
-<script src="/static/js/filters.js?v=7"></script>
-<script src="/static/js/map.js?v=11"></script>
+<script src="/static/js/filters.js?v=8"></script>
+<script src="/static/js/map.js?v=12"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key={{ maps_api_key }}&callback=initMap&libraries=marker,geometry&v=weekly" async defer></script>
 {% endblock %}
-{# --- 스크립트 끝 --- #}

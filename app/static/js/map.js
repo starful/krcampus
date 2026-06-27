@@ -28,7 +28,7 @@ async function initMap() {
     bindSearchEvents();
 
     const filtered = window.KRCampusFilters?.getCurrentFilteredData?.() || [];
-    renderMarkers(filtered.length ? filtered : getAllSchools());
+    renderMarkers(filtered);
 }
 
 window.initMap = initMap;
@@ -50,14 +50,13 @@ function bindSearchEvents() {
         if (!mapReady || !map) return;
         const keyword = (univSearchInput.value || "").trim().toLowerCase();
         const currentFilteredData = window.KRCampusFilters?.getCurrentFilteredData?.() || [];
-        const allSchoolData = getAllSchools();
 
         if (!keyword) {
-            renderMarkers(currentFilteredData.length ? currentFilteredData : allSchoolData);
+            renderMarkers(currentFilteredData);
             return;
         }
 
-        const pool = currentFilteredData.length ? currentFilteredData : allSchoolData;
+        const pool = currentFilteredData;
         const found = pool.find(s => {
             const b = s.basic_info || {};
             const candidates = [b.name_en, b.name_ja, b.name_display, s.id]
@@ -188,7 +187,7 @@ function openInfoWindow(school, marker) {
                 <p class="iw-address">${school.basic_info.address || 'Address not available'}</p>
             </div>
             <div class="iw-actions">
-                <button type="button" class="compare-toggle-btn iw-compare-btn" data-compare-id="${school.id}" data-label-default="${compareLabels.default}" data-label-selected="${compareLabels.selected}" aria-pressed="false">${compareLabel}</button>
+                <button type="button" class="compare-toggle-btn iw-compare-btn" data-compare-id="${school.id}" data-compare-category="${isUniv ? 'university' : 'school'}" data-label-default="${compareLabels.default}" data-label-selected="${compareLabels.selected}" aria-pressed="false">${compareLabel}</button>
                 <a href="${school.link}" class="iw-details-btn">View Details →</a>
             </div>
         </div>`);
@@ -202,8 +201,8 @@ function openInfoWindow(school, marker) {
 
 function highlightCardBySchoolId(schoolId) {
     if (!schoolId) return;
-    const card = document.querySelector(`.school-card[data-school-id="${schoolId}"]`);
-    if (!card) return;
+    const card = document.querySelector(`.school-card[data-school-id="${schoolId}"], .university-card[data-school-id="${schoolId}"]`);
+    if (!card || card.classList.contains("is-filter-hidden")) return;
     card.classList.add("is-highlighted");
     card.scrollIntoView({ behavior: "smooth", block: "center" });
     setTimeout(() => card.classList.remove("is-highlighted"), 1600);

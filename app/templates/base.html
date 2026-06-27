@@ -94,10 +94,17 @@
     {% set stats = site_stats(current_lang|default('en')) %}
     <div class="footer-stats stats-banner">
         <div class="stat-pill">
+            <i class="fa-solid fa-school"></i>
+            <span>
+                <strong class="stat-highlight">{{ stats.total_language_schools }}</strong>
+                {{ ui.language_schools_count_label }}
+            </span>
+        </div>
+        <div class="stat-pill">
             <i class="fa-solid fa-building-columns"></i>
             <span>
-                <strong class="stat-highlight">{{ stats.total_schools }}</strong>
-                {{ ui.schools_listed }}
+                <strong class="stat-highlight">{{ stats.total_universities }}</strong>
+                {{ ui.universities_count_label }}
             </span>
         </div>
         <div class="stat-pill">
@@ -136,6 +143,7 @@ window.KRCAMPUS_COMPARE = {
     toastAdded: {{ ui.compare_toast_added|tojson }},
     toastRemoved: {{ ui.compare_toast_removed|tojson }},
     toastMax: {{ ui.compare_toast_max|tojson }},
+    toastMixed: {{ ui.compare_toast_mixed|tojson }},
     toastCleared: {{ ui.compare_toast_cleared|tojson }},
     toastCopied: {{ ui.compare_copied|tojson }}
     {% endif %}

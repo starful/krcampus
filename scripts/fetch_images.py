@@ -224,11 +224,16 @@ def fetch_item(slug, name, lat, lng, *, force=False):
 
 
 def fetch_all_images(*, only_missing=False):
-    if not API_KEY:
-        print("KRCAMPUS_GOOGLE_MAPS_API_KEY missing in .env")
-        return
+    from ensure_item_images import collect_content_slugs, ensure_item_images
 
     os.makedirs(IMAGES_DIR, exist_ok=True)
+    all_slugs = collect_content_slugs()
+
+    if not API_KEY:
+        print("⚠️ KRCAMPUS_GOOGLE_MAPS_API_KEY 없음 — Places 수집 생략, placeholder만 실행")
+        ensure_item_images(slugs=all_slugs)
+        return
+
     items = list(iter_content_items())
     if only_missing:
         items = [
@@ -252,7 +257,10 @@ def fetch_all_images(*, only_missing=False):
         time.sleep(0.3)
 
     print("\n" + "─" * 50)
-    print(f"done — ok:{success} skip:{skipped} fail:{failed}")
+    print(f"Places done — ok:{success} skip:{skipped} fail:{failed}")
+    print("─" * 50)
+
+    ensure_item_images(slugs=all_slugs)
 
 
 if __name__ == "__main__":

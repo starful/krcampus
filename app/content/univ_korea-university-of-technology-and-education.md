@@ -6,7 +6,7 @@ basic_info:
   name_en: Korea University of Technology and Education
   name_ko: 한국기술교육대학교
 category: university
-date: '2026-06-10'
+date: '2026-06-27'
 faculties:
 - School of Mechanical Engineering
 - School of Mechatronics Engineering
@@ -41,6 +41,7 @@ tuition:
   admission_fee: 0
   yearly_tuition: 4100000
 ---
+
 
 ## University Overview
 
