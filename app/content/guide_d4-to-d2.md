@@ -13,127 +13,70 @@
 }
 ---
 
-## Introduction
+# Switching from D-4 to D-2 Visa in Korea
 
-Congratulations! You have spent months—perhaps even a year or more—navigating the intensive rhythms of a Korean language institute. You’ve mastered the nuances of Hangul, survived countless vocabulary quizzes, and successfully secured an admission letter to a regular undergraduate or graduate program at a Korean university. This is a monumental milestone in your study-abroad journey.
+Congratulations on completing your language courses on the D-4 (General Student) visa! Transitioning to a D-2 (Degree Student) visa is the crucial next step to officially enroll in an Associate, Bachelor's, Master's, or Doctoral program in South Korea.
 
-However, before you can sit in your first university lecture, there is one crucial administrative hurdle you must clear: transitioning your legal status from a **D-4 (General Trainee)** visa to a **D-2 (Student/Degree-seeking)** visa. 
+While this transition is a common path for international students, navigating the Korean Immigration Service (HiKorea) requires careful attention to detail. This KR Campus guide explains the timeline, required documents, financial criteria, and common pitfalls to ensure a smooth transition without having to leave the country.
 
-While this process is common, Korean immigration regulations are notoriously precise. A single missing document or a missed deadline can disrupt your academic plans and, in worst-case scenarios, force you to return to your home country to re-apply. This guide is designed to walk you through the entire process step-by-step, helping you navigate the transition smoothly and confidently.
+## 1. Understanding the D-4 and D-2 Visas
 
----
+The D-4-1 visa is designed strictly for language trainees. It is a short-term status requiring frequent renewals based on your term enrollment. In contrast, the D-2 visa is an academic, degree-seeking visa (D-2-1 for Associate Degrees, D-2-2 for Bachelor’s, D-2-3 for Master’s, and D-2-4 for Doctoral programs).
 
-## 1. Understanding the Basics: D-4 vs. D-2 Visas
+Upgrading to a D-2 visa unlocks more benefits, including extended residency periods per extension and increased legal part-time working hours.
 
-Before diving into the paperwork, it is essential to understand why this visa change is necessary and how your status will change. 
-
-The **D-4 visa** is a short-term trainee visa designed primarily for those studying Korean at university-affiliated language academies. The **D-2 visa** is an academic degree-seeking visa for students enrolled in associate, bachelor’s, master’s, or doctoral programs. 
-
-| Feature | D-4-1 (Korean Language Trainee) | D-2 (Degree-Seeking Student) |
-| :--- | :--- | :--- |
-| **Primary Purpose** | Language training at an approved academy | Academic degree program (B.A., M.A., Ph.D.) |
-| **Visa Validity Period** | Usually granted in 3 to 6-month increments | Usually granted in 1 to 2-year increments |
-| **Part-Time Work (Time)** | Allowed after 6 months (typically 10-15 hours/week) | Allowed immediately (typically 10-30 hours/week) |
-| **TOPIK Requirement** | None required for entry | Required (usually TOPIK Level 3 or 4 depending on major) |
-| **Health Insurance** | Mandatory NHIS enrollment | Mandatory NHIS enrollment |
-
-Switching to a D-2 visa not only aligns your legal status with your new academic goals but also grants you more flexibility, including longer visa extension periods and expanded options for legal part-time work (known as *Part-time Work Permission for International Students*).
-
----
-
-## 2. Timing and the Step-by-Step Transition Process
-
-Timing is everything when it comes to visa changes in South Korea. The golden rule is to start preparing your documents **at least two months before your current D-4 visa expires** or your university semester begins.
-
-### The Timing Window
-You cannot apply for a D-2 visa change whenever you want. You must wait until you have officially paid your university tuition fees and received your **Standard Admission Letter (Certificate of Admission)** from your new university. This typically happens in January/February for the Spring semester, or July/August for the Fall semester. 
-
-If your D-4 visa is set to expire *before* your university semester starts, you must visit the immigration office to bridge this gap. If the gap is too large (more than a few weeks), you may be required to leave Korea and apply for a D-2 visa at a Korean consulate in your home country.
-
-### Step-by-Step Roadmap
-
-
-Step 1: Get Admitted & Pay Tuition 
-       │
-       ▼
-Step 2: Receive Certificate of Admission (CoA) from University
-       │
-       ▼
-Step 3: Book Reservation on HiKorea (hikorea.go.kr)
-       │
-       ▼
-Step 4: Prepare Documents (Bank Balance, Language School Certificates)
-       │
-       ▼
-Step 5: Attend Immigration Appointment & Apply for D-2 Status
-       │
-       ▼
-Step 6: Collect New Alien Registration Card (ARC)
-
-
-1. **Secure University Admission & Pay Tuition:** Your university will issue a tuition invoice. Once paid, the school will process and send you your Certificate of Admission (CoA).
-2. **Book your HiKorea Reservation:** During peak months (February and August), immigration offices are incredibly crowded. Reserve your visit slot on [HiKorea](https://www.hikorea.go.kr) at least 4 to 6 weeks in advance.
-3. **Gather Documents:** Collect paperwork from both your current language school and your future university.
-4. **Submit and Pay Fees:** Visit the immigration office covering your residential district to submit your application.
-5. **Receive your New ARC:** It takes about 3 to 5 weeks for immigration to process your D-2 status and print your new physical card.
-
----
-
-## 3. Comprehensive Checklist of Required Documents
-
-The success of your visa application depends entirely on the completeness of your paperwork. If any document is missing or formatted incorrectly, the immigration officer may reject your application or request a supplement, which can delay the process by weeks.
-
-Here is the essential document checklist for a domestic change of status from D-4 to D-2:
-
-*   **Passport:** Must have at least 6 months of validity remaining.
-*   **Alien Registration Card (ARC):** Your current physical D-4 card.
-*   **Integrated Application Form (Form No. 34):** Available on HiKorea or at the immigration office. Tick "Change of Status of Sojourn."
-*   **Standard Admission Letter (Certificate of Admission):** Issued by your new university.
-*   **Business Registration Certificate of the University:** A copy of the university’s official business license (supplied by the school).
-*   **Receipt of Tuition Payment:** Proof that you have paid your first semester's tuition.
-*   **Language School Certificates:**
-    *   *Certificate of Graduation/Completion* from your language institute.
-    *   *Official Transcript and Attendance Certificate* (Immigration scrutinizes your D-4 attendance rate).
-*   **Proof of Financial Sufficiency:** You must prove you have enough funds to support yourself in Korea. 
-*   **Proof of Residency:** Your current housing contract, a confirmation of residence provider document, or a dormitory residence certificate.
-*   **Application Fee:** 100,000 KRW for the change of status fee + 30,000 KRW for the new ARC issuance.
-
-### Financial Proof Requirements by Region
-The amount of money required in your bank account varies based on the location of your university. Korean Immigration sets these standards to ensure international students can afford living expenses without relying solely on unauthorized part-time work.
-
-| University Location | Required Bank Balance (Approximate) | Validity of Bank Statement | Note |
+| Visa Type | Primary Purpose | Maximum Stay per Extension | Allowed Part-Time Work Hours (Undergraduate) |
 | :--- | :--- | :--- | :--- |
-| **Metropolitan Area (Seoul/Incheon/Gyeonggi)** | Approx. 20,000,000 KRW | Issued within the last 30 days | Must be under the applicant's or parents' name |
-| **Provincial Areas (Outside Seoul Metro)** | Approx. 16,000,000 - 18,000,000 KRW | Issued within the last 30 days | Varies slightly by local immigration branch |
+| **D-4 (Language)** | Korean Language Training | 6 months | Up to 20 hours/week (after 6 months of stay) |
+| **D-2 (Degree)** | Higher Academic Degree | 1 to 2 years | Up to 20–30 hours/week (instantly allowed) |
 
-*Note: If you use a parent's bank statement, you must also provide an English-translated and notarized Family Relationship Certificate to prove your relationship.*
+## 2. Timeline and Transition Options
 
----
+Timing is the most critical element of this process. You must apply for the change of status *before* your current D-4 visa expires and *before* your university semester officially begins.
 
-## 4. Common Pitfalls and How to Avoid Them
+*   **Application Window:** Typically, you should submit your application 1 to 2 months prior to your D-4 visa expiration date or the start of the new university term (usually January–February for the Spring semester, and July–August for the Fall semester).
+*   **Method of Application:** You can apply in person at the local Immigration Office holding jurisdiction over your registered place of residence. You must book an appointment on the **HiKorea** website (hikorea.go.kr) weeks in advance, as slots fill up quickly during peak seasons. Alternatively, some universities offer collective visa agency services where they submit the documents on behalf of all incoming students. Check with your university's International Student Office first to see if they offer this service.
 
-Even outstanding students can make minor mistakes that lead to visa delays or rejections. Keep these major pitfalls in mind to ensure a painless application process.
+## 3. Required Documents for the Status Change
 
-### Pitfall 1: Low Attendance on the D-4 Visa
-This is the single most common cause of visa denial for students trying to switch status domestically. Korean Immigration expects D-4 students to take their language studies seriously. If your cumulative attendance rate at your language institute falls **below 80% or 90%** (depending on the specific immigration office's strictness), you may be denied a domestic change of status. In this case, you will have to leave Korea, return to your home country, and apply for a D-2 entry visa from scratch.
+Preparing your documents with absolute accuracy is the key to avoiding processing delays. The immigration officer will review every detail. Here is the comprehensive list of documents you must gather:
 
-### Pitfall 2: The "Sudden Deposit" (Money Laundering Check)
-When you submit a bank statement from a Korean bank account, immigration officers look closely at your recent transaction history. If there is a sudden, large deposit of millions of Won right before the statement is printed (without a clear, logical source), officers may suspect "borrowed funds" used to manipulate the balance. 
-*   **The Fix:** Keep the funds in your account for at least a few weeks, or ensure that any large transfers are accompanied by clear proof of source (e.g., an international wire transfer receipt from your parents).
+| Document Name | Source / Issuing Authority | Special Notes |
+| :--- | :--- | :--- |
+| **Application Form (No. 34)** | HiKorea website or Immigration Office | Fill out completely; attach standard passport photo |
+| **Passport & Alien Registration Card** | Original and Photocopy | Must have at least 6 months of validity remaining |
+| **Certificate of Admission (CoA)** | Your New University | Issued after tuition payment is confirmed |
+| **Language Course Graduation Certificate** | Current Language Academy | Must state your final attendance rate clearly |
+| **Official Academic Transcript** | Current Language Academy | Proof of academic progress during language study |
+| **Proof of Final Education** | Home Country Institution | Must be Apostilled or Consular Confirmed |
+| **Proof of Financial Sufficiency** | Bank in Korea or Home Country | Bank balance certificate under your legal name |
+| **Proof of Residency (Lease Contract)** | Landlord / Housing Provider | Lease contract or Confirmation of Residence form |
+| **Application Fee** | Immigration Office | 100,000 KRW (revenue stamp) + 30,000 KRW for ARC |
 
-### Pitfall 3: Failing to Update Your Address
-If you move out of your language school's dormitory and into a private studio or a new university dorm, you must report your change of address to immigration within **14 days of moving**. If you fail to do this, you will face hefty fines (starting at 100,000 KRW and escalating), and your visa change application will be put on hold until the fine is paid.
+*Note:* If your language school attendance was under 80%, immigration may request an explanatory letter, or they may reject your application outright, requiring you to leave the country.
 
-### Pitfall 4: Booking Your Appointment Too Late
-As mentioned, February and August are incredibly busy. If you wait until you receive your physical Admission Letter to book an appointment, you might find that there are no open reservation slots left before your D-4 visa expires. 
-*   **The Fix:** Book an approximate reservation date on HiKorea in advance based on when your university says they will issue certificates. You can always reschedule or cancel it later if your paperwork is delayed.
+## 4. Financial and Language Requirements
 
----
+To successfully obtain your D-2 visa, South Korean immigration requires you to prove you can support yourself financially and communicate effectively in your program's language of instruction.
 
-## Conclusion
+### Financial Requirements
+You must provide a bank balance certificate (잔고증명서) showing sufficient funds to cover tuition and living expenses for one academic year.
+*   **Metropolitan Area Universities (Seoul/Incheon/Gyeonggi):** Typically requires around $20,000 USD.
+*   **Regional Universities (Outside Capital Area):** Typically requires around $16,000 to $18,000 USD.
+*   **Important:** The funds must have been held in the account for a reasonable period. Sudden, large deposits right before issuing the certificate may trigger audit requests to prevent illegal financial brokering. Ensure the account is in your own name or your parents' names (additional family relationship certificates are required for parental accounts).
 
-Transitioning from a D-4 language student to a D-2 degree student is an exciting milestone. It marks the end of your basic adaptation phase and the beginning of your deep academic integration into Korean society. 
+### Language Requirements
+Your admission guidelines will dictate the language requirements, which you must present to the immigration officer:
+*   **For Korean-taught programs:** Minimum TOPIK (Test of Proficiency in Korean) Level 3 or 4.
+*   **For English-taught programs:** TOEFL iBT 71, IELTS 5.5, CEFR B2, or TEPS equivalents.
 
-While the administrative process can feel overwhelming, it is entirely manageable if you stay organized, pay close attention to detail, and respect the deadlines. Gather your documents early, double-check your attendance records, and ensure your finances are transparently documented. 
+## 5. Common Pitfalls and Expert Tips
 
-Once your new D-2 ARC is in your hands, you will be fully set up for success in your university life. Study hard, make the most of your time, and enjoy this incredible new chapter of your academic journey in South Korea!
+Many international students experience avoidable delays, fines, or visa rejections. Keep these tips in mind to ensure a hassle-free transition:
+
+*   **The Attendance Trap:** Immigration heavily scrutinizes your D-4 attendance. If your attendance fell below 80% in any given semester, prepare for intense questioning and potential rejection. Maintain excellent attendance until your final day of language class.
+*   **The Gap Period Dilemma:** If your D-4 visa expires before the new university semester begins, you may not be allowed to stay in Korea. If the gap is longer than normal vacation periods, you might have to return to your home country to apply for the D-2 visa at a Korean Embassy. Always consult your university's international office early.
+*   **Updating Your Address:** If you move out of your language school dormitory into new housing for university, you must report your change of address to immigration within 14 days. Failure to do so results in heavy fines (up to 1,000,000 KRW) and can stall your visa application.
+*   **Do Not Work Illicitly:** Working part-time without an official permit (Time-limited Work Permit) while on a D-4 visa is illegal. If caught, you will face heavy fines, deportation, or a ban on changing your visa status to D-2.
+
+By planning ahead, securing your appointment on HiKorea early, and double-checking your financial and academic documents, you can smoothly transition to your D-2 visa and focus entirely on your exciting new degree program in Korea!

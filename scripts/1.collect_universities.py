@@ -54,6 +54,7 @@ def get_university_info(name_ko, name_en, region):
     prompt = f"""
     You are an expert consultant for international students planning to study in South Korea.
     Analyze the university "{name_ko}" ({name_en}) in {region} and write an in-depth guide in **ENGLISH**.
+    The Markdown body in "description" must be **between 6000 and 7000 characters**, with at least 5 ## sections and 2 tables.
 
     Required JSON Structure:
     {{

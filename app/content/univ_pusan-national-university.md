@@ -1,94 +1,138 @@
 ---
-basic_info:
-  address: 2 Busandaehak-ro 63beon-gil, Geumjeong-gu, Busan, Republic of Korea
-  capacity: null
-  name_en: Pusan National University
-  name_ko: 부산대학교
-category: university
-date: '2026-06-10'
-faculties:
-- Humanities
-- Social Sciences
-- Natural Sciences
-- Engineering
-- Business
-- Nanoscience and Nanotechnology
-- Natural Resources and Life Science
-- Human Ecology
-- Arts
-- Medicine
-- Korean Medicine
-- Nursing
-- Information and Biomedical Engineering
-features:
-- 'Ranked as the #1 national university in South Korea (excluding Seoul National University).'
-- Highly affordable tuition rates subsidized by the South Korean government.
-- Strong industry-academic partnerships with major corporations in southeastern South
-  Korea (Hyundai, Samsung, Doosan).
-- Vibrant student-friendly campus town located in Busan, South Korea's second-largest
-  city.
-id: univ_pusan-national-university
-lang: en
-layout: school
-location:
-  lat: 35.230434
-  lng: 129.0839729
-stats:
-  acceptance_rate: 35% - 45% (Estimated)
-  international_students: 2100
-tags:
-- 'Ranked as the #1 national university in South Korea (excluding Seoul National University).'
-- Highly affordable tuition rates subsidized by the South Korean government.
-- Strong industry-academic partnerships with major corporations in southeastern South
-  Korea (Hyundai, Samsung, Doosan).
-- Vibrant student-friendly campus town located in Busan, South Korea's second-largest
-  city.
-thumbnail: /static/img/pin-univ.png
-title: Pusan National University
-tuition:
-  admission_fee: 181000
-  yearly_tuition: 4500000
+{
+  "basic_info": {
+    "address": "2 Busandaehak-ro 63beon-gil, Geumjeong-gu, Busan, Republic of Korea",
+    "capacity": null,
+    "name_en": "Pusan National University",
+    "name_ko": "부산대학교"
+  },
+  "category": "university",
+  "date": "2026-06-10",
+  "faculties": [
+    "Humanities",
+    "Social Sciences",
+    "Natural Sciences",
+    "Engineering",
+    "Business",
+    "Nanoscience and Nanotechnology",
+    "Natural Resources and Life Science",
+    "Human Ecology",
+    "Arts",
+    "Medicine",
+    "Korean Medicine",
+    "Nursing",
+    "Information and Biomedical Engineering"
+  ],
+  "features": [
+    "Ranked as the #1 national university in South Korea (excluding Seoul National University).",
+    "Highly affordable tuition rates subsidized by the South Korean government.",
+    "Strong industry-academic partnerships with major corporations in southeastern South Korea (Hyundai, Samsung, Doosan).",
+    "Vibrant student-friendly campus town located in Busan, South Korea's second-largest city."
+  ],
+  "id": "univ_pusan-national-university",
+  "lang": "en",
+  "layout": "school",
+  "location": {
+    "lat": 35.230434,
+    "lng": 129.0839729
+  },
+  "stats": {
+    "acceptance_rate": "35% - 45% (Estimated)",
+    "international_students": 2100
+  },
+  "tags": [
+    "Ranked as the #1 national university in South Korea (excluding Seoul National University).",
+    "Highly affordable tuition rates subsidized by the South Korean government.",
+    "Strong industry-academic partnerships with major corporations in southeastern South Korea (Hyundai, Samsung, Doosan).",
+    "Vibrant student-friendly campus town located in Busan, South Korea's second-largest city."
+  ],
+  "thumbnail": "/static/img/pin-univ.png",
+  "title": "Pusan National University",
+  "tuition": {
+    "admission_fee": 181000,
+    "yearly_tuition": 4500000
+  }
+}
 ---
 
-## University Overview
-Established in 1946, **Pusan National University (PNU)** is the premier flagship national university of South Korea. Situated in Busan, the country's second-largest metropolis and its largest port city, PNU has consistently ranked as the top regional national university in Korea. It stands alongside Seoul-based universities in terms of academic prestige, research output, and alumni success, making it an exceptional option for international students seeking a world-class education without the high cost of living of the capital city.
+# Ultimate Study Abroad Guide: Pusan National University (PNU)
 
-PNU boasts four distinct campuses: the main **Geumjeong Campus** in Busan, the **Ami Campus** (Medicine & Healthcare) in Busan, the **Miryang Campus** (Agricultural and Life Sciences), and the **Yangsan Campus** (Medicine, Dentistry, and Nursing).
+Choosing where to study abroad is a life-changing decision. For students seeking top-tier academics, deep industry connections, and an affordable, coastal lifestyle, Pusan National University (PNU) in South Korea is a premier choice.
 
---- 
+## 1. University Overview
+Established in 1946, Pusan National University is the academic anchor of southern South Korea. Located at 2 Busandaehak-ro 63beon-gil, Geumjeong-gu, Busan, Republic of Korea, PNU is widely ranked as the #1 national university in South Korea (excluding Seoul National University). 
 
-## Why Choose Pusan National University?
+The university has an estimated acceptance rate of 35% - 45% for international applicants, making it highly competitive yet accessible. It hosts over 2,100 international students from across the globe. A defining feature of PNU is its strong industry-academic partnerships with major global corporations in southeastern South Korea, including Hyundai, Samsung, and Doosan. This geographical and corporate advantage provides students with unparalleled internship, collaborative R&D, and post-graduation career opportunities in key industrial sectors.
 
-### 1. Exceptional Academic Prestige & Rankings
-PNU is globally recognized for its research capabilities, particularly in engineering, business, and natural sciences. It regularly ranks among the top 10 universities in South Korea and is ranked in the top 100-150 in Asia by major global ranking institutions.
+## 2. English-Taught & International Programs
+While the primary language of instruction is Korean, PNU has progressively increased its English-taught offerings to attract global talent. 
 
-### 2. High Return on Investment (ROI)
-As a national university, PNU is heavily funded by the South Korean government. This allows the institution to offer **exceptionally low tuition fees**—roughly half the cost of private universities in Seoul—while maintaining state-of-the-art facilities and high-caliber research laboratories.
+The School of Business and the College of Engineering offer selective English-taught courses for undergraduates. At the graduate level, the Graduate School of International Studies (GSIS) offers full degree programs entirely in English, covering international trade, development, and cooperation.
 
-### 3. Industry-Academic Ties and Employability
-The southeastern region of Korea is the industrial heartland of the country, home to global leaders in automotive, shipbuilding, steel, and heavy chemicals. PNU maintains deep partnerships with industry giants like **Hyundai Motor, Renault Korea, Samsung Heavy Industries, and POSCO**. This translates to robust internship opportunities, joint research ventures, and excellent job placement rates for graduates.
+For students who need to build their language skills, PNU's Korean Language Education Center provides high-quality, intensive immersion programs. These courses span levels 1 to 6 and successfully transition international students into their chosen academic faculties.
 
-### 4. Dynamic Student Life in Busan
-Busan is a global tourist hub famous for its beaches (Haeundae and Gwangalli), cultural festivals (Busan International Film Festival), and delicious seafood. PNU's main campus is located in a dedicated, bustling university town packed with affordable restaurants, trendy cafes, karaoke rooms, and shopping centers, offering an unmatched youth culture experience.
+## 3. Faculties & Academic Strengths
+PNU offers an extensive range of programs across comprehensive faculties:
+* Humanities, Social Sciences, Natural Sciences, Engineering, and Business.
+* Nanoscience and Nanotechnology, Natural Resources and Life Science, Human Ecology, and Arts.
+* Medicine, Korean Medicine, Nursing, and Information and Biomedical Engineering.
 
---- 
+Of these, the Engineering and Nanoscience programs are particularly prestigious, heavily supported by regional industrial R&D centers.
 
-## Major Areas of Study for International Students
+| Faculty | Focus Areas | Key Career Sectors |
+| :--- | :--- | :--- |
+| **Engineering** | Mechanical, Chemical, Aerospace | Hyundai, Samsung, Doosan |
+| **Nanoscience & Nanotech** | Semiconductors, Nano-devices | R&D Laboratories, Tech Firms |
+| **Business** | Global Trade, Finance, Management | Corporate Management, Logistics |
+| **Information & Biomedical** | Bioinformatics, Medical Software | Biotech Companies, Hospitals |
 
-*   **College of Engineering:** PNU's absolute crown jewel. Strongest departments include Mechanical Engineering, Chemical Engineering, and Naval Architecture & Ocean Engineering (which ranks among the best globally due to Busan's shipbuilding legacy).
-*   **College of Nanoscience & Nanotechnology:** Located on the Miryang and Busan campuses, this highly specialized college offers cutting-edge education in semiconductor physics and advanced materials.
-*   **Global Studies Program (GSP) & Business Administration:** PNU's Business School holds prestigious **AACSB accreditation**. The university also offers various English-mediated lectures catering to international students who are still mastering the Korean language.
+## 4. Tuition, Fees & Scholarships
+PNU stands out globally for its highly affordable tuition rates subsidized by the South Korean government. This allows international students to obtain a world-class education at a fraction of the cost of private institutions in Seoul.
 
---- 
+| Fee Category | Cost in KRW | Notes / Frequency |
+| :--- | :--- | :--- |
+| **Admission Fee** | 181,000 | One-time payment upon enrollment |
+| **Yearly Tuition** | 4,500,000 | Estimated average (varies by major) |
+| **On-Campus Housing** | 2,400,000 | Estimated annual cost (double occupancy) |
+| **Living Expenses** | 5,500,000 | Estimated annual personal expenses |
 
-## Admissions and Scholarships for International Students
+To ease financial burdens, PNU offers generous international scholarships:
+* **TOPIK Scholarships:** Tuition waivers from 30% to 100% based on your TOPIK level upon admission.
+* **Academic Excellence:** Semester-based awards for enrolled students maintaining top GPAs.
 
-### Language Requirements
-*   **Korean Track:** TOPIK Level 3 or higher is typically required for admission, though Level 4+ is recommended for comfortable academic progress.
-*   **English Track:** TOEFL iBT 80, IELTS 5.5, or CEFR B2 equivalent for selected programs taught in English.
+## 5. Admissions for International Students
+Admissions occur twice a year: for the Spring semester (commencing in March) and the Fall semester (commencing in September).
 
-### Tuition & Scholarship System
-PNU provides generous scholarship packages for international freshmen and transfer students:
-*   **Admission Scholarship (TOPIK-based):** Students with TOPIK Level 5 or 6 can receive a **100% tuition waiver** for their first semester. Students with TOPIK Level 4 can receive a **50% waiver**.
-*   **Academic Excellence Scholarship:** Based on GPA during their study at PNU, students can receive partial to full tuition waivers for subsequent semesters.
-*   **Affordable Dormitories:** On-campus housing is widely available to international students at highly competitive rates (approx. USD 250 - 400 per month, often including meal plans).
+**General Admission Requirements:**
+1. **Academic Qualifications:** Applicants and parents must be non-Korean citizens. Undergraduates must hold a high school diploma.
+2. **Language Proficiency:** 
+   * **Korean Tracks:** Minimum TOPIK Level 3 or 4.
+   * **English Tracks:** Minimum TOEFL iBT 80, IELTS 5.5, or equivalent.
+3. **Application Documents:**
+   * High school or university transcripts (consular-authenticated or apostilled).
+   * Proof of financial capacity (bank statement of $18,000 USD or more).
+   * Copy of passport and family relationship certificates.
+
+## 6. Campus Life & Location
+PNU is situated in Busan, South Korea's second-largest city. Unlike the dense metropolitan feel of Seoul, Busan offers a dynamic blend of high-tech city living, mountains, and beautiful coastal areas. 
+
+The campus in Geumjeong-gu is surrounded by a vibrant, student-friendly campus town. "Busandaehak-ro" (PNU Street) is packed with budget-friendly international restaurants, stylish cafes, karaoke rooms, clothing stores, and indie music venues. 
+
+On campus, students enjoy state-of-the-art facilities, extensive libraries, and cheap dining halls. The university's modern dormitories (such as Woongbi Hall) provide safe, convenient housing with integrated gyms and study rooms, helping international students adjust easily to Korean culture.
+
+## 7. FAQ
+
+### Is Korean language proficiency mandatory to apply to PNU?
+No. While most programs require TOPIK Level 3 or higher, English-medium tracks and select graduate programs are open to students who present official English test scores like IELTS or TOEFL.
+
+### How expensive is living in Busan compared to Seoul?
+Busan is highly affordable. Rent, food, and transport costs are roughly 20% to 30% lower than in Seoul, allowing students to maintain a high quality of life on a reasonable budget.
+
+### Are international students allowed to work part-time?
+Yes. Under a D-2 student visa, you can work up to 20 hours per week during the semester (and unlimited hours during vacations) after obtaining permission from the university and immigration office.
+
+### What is the estimated acceptance rate for international students?
+The international acceptance rate is estimated at 35% - 45%. Admissions depend on your academic background, statement of purpose, and proof of language proficiency.
+
+### Does PNU provide support for post-graduation employment?
+Yes. PNU's Career Development Center offers specialized counseling, resume workshops, and job fairs connecting students directly with major regional partners like Hyundai and Samsung.

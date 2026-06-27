@@ -1,104 +1,135 @@
 ---
-basic_info:
-  address: 206 World Cup-ro, Yeongtong-gu, Suwon-si, Gyeonggi-do, 16499, South Korea
-  capacity: null
-  name_en: Ajou University
-  name_ko: 아주대학교
-category: university
-date: '2026-06-10'
-faculties:
-- College of Engineering
-- College of Information Technology
-- College of Natural Sciences
-- School of Business
-- College of Humanities
-- College of Social Sciences
-- College of Medicine
-- College of Nursing
-- College of Pharmacy
-- Division of International Studies
-features:
-- Ranked among the top engineering and IT universities in South Korea
-- Strong industry-academic partnerships with global companies like Samsung, LG, and
-  Hyundai
-- Beautiful, modern campus located in Suwon, the tech and cultural hub of Gyeonggi
-  Province
-- Extensive international exchange programs with over 300 partner universities globally
-id: univ_ajou-university
-lang: en
-layout: school
-location:
-  lat: 37.2821923
-  lng: 127.0478133
-stats:
-  acceptance_rate: 35%
-  international_students: 1500
-tags:
-- Ranked among the top engineering and IT universities in South Korea
-- Strong industry-academic partnerships with global companies like Samsung, LG, and
-  Hyundai
-- Beautiful, modern campus located in Suwon, the tech and cultural hub of Gyeonggi
-  Province
-- Extensive international exchange programs with over 300 partner universities globally
-thumbnail: /static/img/pin-univ.png
-title: Ajou University
-tuition:
-  admission_fee: 800000
-  yearly_tuition: 8200000
+{
+  "basic_info": {
+    "address": "206 World Cup-ro, Yeongtong-gu, Suwon-si, Gyeonggi-do, 16499, South Korea",
+    "capacity": null,
+    "name_en": "Ajou University",
+    "name_ko": "아주대학교"
+  },
+  "category": "university",
+  "date": "2026-06-10",
+  "faculties": [
+    "College of Engineering",
+    "College of Information Technology",
+    "College of Natural Sciences",
+    "School of Business",
+    "College of Humanities",
+    "College of Social Sciences",
+    "College of Medicine",
+    "College of Nursing",
+    "College of Pharmacy",
+    "Division of International Studies"
+  ],
+  "features": [
+    "Ranked among the top engineering and IT universities in South Korea",
+    "Strong industry-academic partnerships with global companies like Samsung, LG, and Hyundai",
+    "Beautiful, modern campus located in Suwon, the tech and cultural hub of Gyeonggi Province",
+    "Extensive international exchange programs with over 300 partner universities globally"
+  ],
+  "id": "univ_ajou-university",
+  "lang": "en",
+  "layout": "school",
+  "location": {
+    "lat": 37.2821923,
+    "lng": 127.0478133
+  },
+  "stats": {
+    "acceptance_rate": "35%",
+    "international_students": 1500
+  },
+  "tags": [
+    "Ranked among the top engineering and IT universities in South Korea",
+    "Strong industry-academic partnerships with global companies like Samsung, LG, and Hyundai",
+    "Beautiful, modern campus located in Suwon, the tech and cultural hub of Gyeonggi Province",
+    "Extensive international exchange programs with over 300 partner universities globally"
+  ],
+  "thumbnail": "/static/img/pin-univ.png",
+  "title": "Ajou University",
+  "tuition": {
+    "admission_fee": 800000,
+    "yearly_tuition": 8200000
+  }
+}
 ---
 
-## University Overview
+# Complete Study-Abroad Guide: Ajou University
 
-Established in 1973 through a bilateral agreement between the governments of South Korea and France, **Ajou University** (the name "Ajou" literally meaning "Asia") has rapidly grown into one of South Korea's premier private research universities. Situated in Suwon, Gyeonggi Province—just 30 kilometers south of Seoul—Ajou has earned an exceptional reputation, particularly in the fields of engineering, information technology, biotechnology, and medical sciences.
+Ajou University (아주대학교) is one of South Korea's premier private research universities, acting as a major hub for global education and industrial innovation. Known for its elite engineering heritage and deep industry links, it is an ideal destination for international students seeking a world-class education.
 
-With a student body of over 14,000 students, including a vibrant international community of more than 1,500 scholars from over 70 countries, Ajou is dedicated to preparing global leaders through highly specialized curricula, state-of-the-art facilities, and a deeply supportive campus ecosystem.
+## 1. University Overview
+Located in Suwon, Gyeonggi Province, Ajou University was established in 1973 through a bilateral agreement between South Korea and France. This partnership laid the groundwork for its transformation from an elite engineering junior college into a top-tier comprehensive research university.
 
----
+With a selective acceptance rate of approximately **35%**, the university maintains high academic standards while cultivating an inclusive environment. Today, it proudly hosts over **1,500 international students** from more than 70 countries. A defining feature of Ajou is its unparalleled industry-academic synergy. Positioned close to global giants like Samsung, LG, and Hyundai, the university provides students with direct internship pathways, collaborative research initiatives, and outstanding post-graduation employment opportunities.
 
-## Key Academic Strengths
+## 2. English-Taught & International Programs
+Ajou offers robust pathways for students who do not speak Korean. To attract global talent, the undergraduate **Division of International Studies (DIS)** provides fully English-taught Bachelor's degrees focusing on International Business and Trade.
 
-### 1. Powerhouse in Engineering and IT
-Ajou University originated as a technical college, and its legacy of excellence in **Engineering** and **Information Technology** remains a core pillar. The university's research output and practical training in fields like Artificial Intelligence, Software Engineering, Automotive Engineering, and Chemical Engineering consistently rank among the top in nationwide evaluations.
+At the postgraduate level, the **Graduate School of International Studies (GSIS)** offers Master's and Ph.D. programs taught entirely in English, specializing in International Trade, International Development, and NGO Studies. To further enhance global citizenship, Ajou maintains **bilateral exchange agreements with over 300 partner universities in 65 countries**, allowing students to engage in globally integrated learning.
 
-### 2. Strong Ties with Industry Giants
-Suwon is the undisputed technology capital of South Korea, home to the global headquarters of **Samsung Electronics**. Ajou capitalizes on this unique geographic advantage by maintaining tight-knit partnerships with Samsung, LG, Hyundai, and various high-tech SMEs in the nearby Gwanggyo Techno Valley. These relationships translate into robust internship opportunities, co-op programs, and exceptionally high post-graduation employment rates.
+## 3. Faculties & Academic Strengths
+Ajou University comprises 10 distinct colleges balancing traditional fields with scientific inquiries. The university's core strengths lie in its **College of Engineering** and **College of Information Technology**, which consistently rank among the nation's best. The School of Business is also highly regarded for integrating modern IT modules, like FinTech, into its curriculum.
 
-### 3. Comprehensive Medical and Health Sciences
-Ajou boasts a highly-rated **College of Medicine**, **College of Pharmacy**, and **College of Nursing**. The **Ajou University Hospital** is one of the largest and most advanced tertiary medical centers in the Gyeonggi region, providing students in health sciences with hands-on clinical training of the highest caliber.
+| Faculty / College | Key Specializations | Primary Language |
+| :--- | :--- | :--- |
+| **College of Engineering** | Chemical, Mechanical | Korean / English |
+| **College of IT** | Software, Cybersecurity | Korean / English |
+| **School of Business** | Business Administration, FinTech | Korean & English |
+| **Int'l Studies (DIS)** | International Trade, Global Business | 100% English |
+| **Medicine / Pharmacy** | Clinical Medicine, Pharmacology | Korean |
 
----
+*(Other faculties include the College of Natural Sciences, College of Humanities, College of Social Sciences, and College of Nursing.)*
 
-## Support Systems for International Students
+## 4. Tuition, Fees & Scholarships
+Tuition fees vary by program, reflecting the resource demands of technical and medical laboratory equipment.
 
-To ensure a smooth transition and a fulfilling academic journey, Ajou University provides extensive, tailored services for international students:
+| Field of Study | Admission Fee (KRW) | Semester Tuition (KRW) | Est. Annual Tuition (KRW) |
+| :--- | :--- | :--- | :--- |
+| **Humanities & Social Sci.** | 800,000 | 3,600,000 | 7,200,000 |
+| **Business Administration** | 800,000 | 3,800,000 | 7,600,000 |
+| **Natural Sciences** | 800,000 | 4,200,000 | 8,400,000 |
+| **Engineering & IT** | 800,000 | 4,600,000 | 9,200,000 |
+| **Medicine & Pharmacy** | 800,000 | 6,000,000 | 12,000,000 |
+| **Average Overall Rate** | **800,000** | **4,100,000** | **8,200,000** |
+*(Note: Figures are realistic estimates based on recent academic year parameters and are subject to change.)*
 
-* **Global Education Center**: Offers intensive Korean Language Programs (KLI) ranging from beginner to advanced levels, designed to help students transition into regular degree programs.
-* **The Ajou Buddy Program**: Pairs incoming international students with local Korean students to assist with cultural adjustment, campus navigation, and language practice.
-* **Dedicated Dormitory Facilities**: Housing is guaranteed for most incoming freshman international students. The international dormitories (including Hwahyeongwan and Ilsungwan) feature fully-equipped amenities, security, and English-speaking staff.
-* **Comprehensive Career Services**: Ajou offers specialized career counseling, resume writing workshops, and job fairs focused on helping foreign graduates secure employment in South Korea.
+### Scholarship Schemes
+To offset educational expenses, Ajou offers robust scholarships:
+* **Ajou Global Scholarship (Freshmen):** Grants 30% to 100% first-semester tuition waivers based on TOPIK (Level 3–6) or English (TOEFL iBT 80 / IELTS 5.5+) scores.
+* **Academic Excellence Scholarship:** Provides up to 100% tuition coverage for subsequent semesters based on semester GPA.
 
----
+## 5. Admissions for International Students
+Ajou holds two major intake cycles annually:
+* **Spring Intake (Starts March):** Application window opens September to November.
+* **Fall Intake (Starts September):** Application window opens March to May.
 
-## Tuition Fees and Scholarships
+### Application Checklist
+1. **Academic Credentials:** Consular-authenticated or apostilled graduation certificates and transcripts.
+2. **Language Scores:** TOPIK Level 3+ (Korean tracks) or TOEFL iBT 80 / IELTS 5.5+ (English tracks).
+3. **Financial Statement:** Bank certificate showing at least USD 20,000.
+4. **Citizenship Proof:** Passport copies and family relationship certificates verifying non-Korean nationality.
 
-### Estimated Tuition
-* **Admission Fee**: Approximately 800,000 KRW (paid once upon entry).
-* **Undergraduate Tuition**: Ranges from 3,500,000 KRW to 4,800,000 KRW per semester depending on the major (Humanities/Social Sciences are lower, while Engineering/Natural Sciences are higher).
-* **Graduate Tuition**: Ranging from 4,500,000 KRW to 6,000,000 KRW per semester.
+## 6. Campus Life & Location
+Ajou's modern, unified campus is located at **206 World Cup-ro, Yeongtong-gu, Suwon-si, Gyeonggi-do, 16499, South Korea**. Suwon is the dynamic capital of Gyeonggi Province and a major high-tech hub. It beautifully balances rich cultural sites like the UNESCO World Heritage Hwaseong Fortress with modern high-tech zones.
 
-### Scholarship Opportunities
-Ajou offers some of the most generous scholarship programs for international applicants in the Seoul metropolitan area:
+### Housing and Facilities
+International students are prioritized for on-campus housing in **Hwa-hong Hall** and the **International Dormitory**. Rooms are fully furnished with access to high-speed internet, fitness centers, and study halls. Cafeterias offer various cuisines, including halal options.
 
-1. **Admissions Scholarship**: Based on academic merit and language proficiency (TOPIK score or English proficiency test scores such as TOEFL or IELTS). Recipients can receive a **30% to 100% tuition waiver** for their first semester.
-2. **Academic Excellence Scholarship**: Registered international students who maintain a competitive GPA (typically 3.5 or above) can qualify for continued tuition discounts ranging from **30% to 80%** in subsequent semesters.
-3. **TOPIK Achievement Scholarship**: Financial incentives or tuition discounts are awarded to students who achieve high TOPIK levels (Level 4, 5, or 6) during their studies.
+### Integration and Student Clubs
+The **Office of International Affairs (OIA)** runs the **Ajou Global Ambassador (AGA)** buddy program, pairing foreign students with local buddies. With over 80 active clubs covering everything from robotics to K-Pop, campus integration is smooth and natural.
 
----
+## 7. FAQ
 
-## Campus Life and Location
+### Is Korean language proficiency mandatory to apply?
+No. Students applying to the Division of International Studies (DIS) or specific graduate programs can study 100% in English. However, learning basic Korean will improve your daily life.
 
-Ajou University’s campus is located in **Suwon**, a historic yet highly modernized city. Suwon is famous for its UNESCO World Heritage site, the Hwaseong Fortress, which offers a beautiful contrast to the surrounding high-tech skyscrapers.
+### Can international students work part-time in South Korea?
+Yes. Under a D-2 student visa, you can work up to 20 hours per week during semesters (and unlimited hours during vacations) after obtaining approval from the university and the local immigration office.
 
-* **Proximity to Seoul**: The campus is highly accessible. By utilizing the Shinbundang subway line (via nearby Gwanggyo Jungang Station) or the express buses, students can reach Gangnam in central Seoul in less than 40 minutes.
-* **Youthful Energy**: The neighborhood surrounding the campus is a bustling student district packed with affordable restaurants, trendy cafes, karaoke rooms, and shopping spots.
-* **Annual Festivals**: The "Daedongje" (Ajou Spring Festival) is a major campus highlight, featuring live K-pop performances, food booths hosted by various student clubs, and international food stalls run by the global student community.
+### What is the current acceptance rate for international students?
+The international student acceptance rate is approximately **35%**. Applicants with strong academic transcripts and solid language scores have high success rates.
+
+### Does Ajou University have its own hospital?
+Yes. The Ajou University Hospital is one of the largest medical centers in Gyeonggi Province, providing students with immediate healthcare access directly adjacent to campus.
+
+### How do I commute from Ajou to central Seoul?
+The Shinbundang Line at Gwanggyo Jungang Station allows students to reach Gangnam in southern Seoul in just 35 minutes. Direct express buses are also readily available outside the campus gate.

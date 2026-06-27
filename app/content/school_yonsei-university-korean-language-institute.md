@@ -1,76 +1,136 @@
 ---
-basic_info:
-  address: 50 Yonsei-ro, Seodaemun-gu, Seoul, 03722, Republic of Korea
-  capacity: 2000
-  name_en: Yonsei University Korean Language Institute
-  name_ko: 연세대학교 한국어학당
-category: school
-courses:
-- admission_month: March, June, September, December
-  course_name: Regular Program (10-Week)
-  total_fees: 1850000
-- admission_month: March, June, September, December
-  course_name: Evening Program (10-Week)
-  total_fees: 970000
-- admission_month: February, August
-  course_name: 3-Week Short-Term Program
-  total_fees: 1100000
-- admission_month: March, September
-  course_name: University Pathway Program
-  total_fees: 1850000
-date: '2026-06-10'
-faculties: []
-features:
-- TOPIK Prep
-- On-campus Dormitory
-- University Pathway
-- Cultural Activities
-- Prestigious Alumni Network
-- Sinchon Campus Location
-id: school_yonsei-university-korean-language-institute
-lang: en
-layout: school
-location:
-  lat: 37.567836
-  lng: 126.9393747
-stats:
-  capacity: 2000
-tags:
-- TOPIK Prep
-- On-campus Dormitory
-- University Pathway
-- Cultural Activities
-- Prestigious Alumni Network
-- Sinchon Campus Location
-thumbnail: /static/img/pin-school.png
-title: Yonsei University Korean Language Institute
-tuition: {}
+{
+  "basic_info": {
+    "address": "50 Yonsei-ro, Seodaemun-gu, Seoul, 03722, Republic of Korea",
+    "capacity": 2000,
+    "name_en": "Yonsei University Korean Language Institute",
+    "name_ko": "연세대학교 한국어학당"
+  },
+  "category": "school",
+  "courses": [
+    {
+      "course_name": "Regular Program (Korean Language Program)",
+      "admission_month": "March, June, September, December",
+      "total_fees": 1850000
+    },
+    {
+      "course_name": "Evening Program",
+      "admission_month": "March, September",
+      "total_fees": 910000
+    },
+    {
+      "course_name": "3-Week Short-Term Program",
+      "admission_month": "February, August",
+      "total_fees": 1080000
+    },
+    {
+      "course_name": "Summer Special Program",
+      "admission_month": "July",
+      "total_fees": 1350000
+    }
+  ],
+  "date": "2026-06-10",
+  "faculties": [],
+  "features": [
+    "TOPIK Prep",
+    "On-campus Dormitory",
+    "University Pathway",
+    "Cultural Activities",
+    "Prestigious Alumni Network",
+    "Sinchon Campus Location"
+  ],
+  "id": "school_yonsei-university-korean-language-institute",
+  "lang": "en",
+  "layout": "school",
+  "location": {
+    "lat": 37.567836,
+    "lng": 126.9393747
+  },
+  "stats": {
+    "capacity": 2000
+  },
+  "tags": [
+    "TOPIK Prep",
+    "On-campus Dormitory",
+    "University Pathway",
+    "Cultural Activities",
+    "Prestigious Alumni Network",
+    "Sinchon Campus Location"
+  ],
+  "thumbnail": "/static/img/pin-school.png",
+  "title": "Yonsei University Korean Language Institute",
+  "tuition": {
+    "registration_fee": 80000,
+    "quarterly_tuition": 1770000,
+    "textbook_fee": 80000
+  }
+}
 ---
 
-## School Overview
-Established in 1959, the **Yonsei University Korean Language Institute (KLI)** is widely recognized as the oldest, most prestigious, and largest Korean language specialized institute in South Korea. Located at Yonsei University's main campus in the vibrant student neighborhood of Sinchon, Seoul, the KLI has welcomed over 140,000 students from more than 150 countries. 
+## 1. School Overview
+Established in 1959, the Yonsei University Korean Language Institute (KLI) is the oldest and most prestigious language academy in South Korea. Located at 50 Yonsei-ro, Seodaemun-gu, Seoul, 03722, Republic of Korea, the institute is integrated directly into Yonsei’s iconic main Sinchon Campus. This Sinchon Campus Location provides students with an academic environment inside one of Seoul's most vibrant university districts.
 
-## Why Choose Yonsei KLI?
-- **A Legacy of Academic Excellence:** Yonsei's curriculum is the global standard for Korean language education, with its in-house textbooks adopted by universities worldwide.
-- **Vibrant Campus Life:** KLI students enjoy full access to Yonsei University's facilities, including libraries, student cafeterias, sports centers, and international clubs.
-- **Unbeatable Location:** Sinchon is Seoul's ultimate university district, packed with cafes, affordable dining options, and cultural events, and is situated right next to Hongdae and Ewha Womans University.
-- **Comprehensive Support:** Excellent student services, academic advising, and dedicated counseling are available to help international students adapt to life in Korea.
+With a student capacity of over 2,000 per term, KLI boasts a large and diverse international community. Having trained over 150,000 students from 150 countries, its Prestigious Alumni Network includes diplomats, business executives, and scholars worldwide, offering valuable lifelong global connections to its graduates.
 
-## Curriculum & Programs
-### 1. Regular Program (10 Weeks)
-Designed for students seeking systematic academic or professional Korean proficiency. 
-- **Hours:** 200 hours per term (4 hours a day, 5 days a week).
-- **Levels:** Level 1 (Beginner) to Level 6 (Advanced).
-- **Schedule:** Divided into Morning (9:00 AM - 1:00 PM) and Afternoon (2:00 PM - 6:00 PM) classes.
+## 2. Programs & Schedule
+Yonsei KLI offers multiple programs catering to academic, professional, and travel goals.
 
-### 2. Evening Program (10 Weeks)
-Perfect for working professionals, diplomats, or university students who cannot attend daytime classes.
-- **Hours:** 90 hours per term (3 days a week, 6:30 PM - 9:05 PM).
+*   **Regular Program (Korean Language Program):** A comprehensive 10-week academic program running 4 terms a year. Classes meet Monday through Friday for 4 hours daily (20 hours/week, 200 hours total), covering levels 1 to 6.
+*   **Evening Program:** Tailored for working professionals. It meets 3 evenings a week for 10 weeks (9 hours/week, 90 hours total).
+*   **3-Week Short-Term Program:** Intensive language study running 20 hours per week for 3 weeks during winter and summer breaks.
+*   **Summer Special Program:** A 5-week course combining language modules with extensive Cultural Activities.
 
-### 3. 3-Week Short-Term Program
-An intensive, fast-paced course combining essential language studies with Korean cultural experiences, ideal for vacationers and exchange students.
+| Program Course Name | Admission Month | Weekly Hours | Total Duration |
+| :--- | :--- | :--- | :--- |
+| **Regular Program** | March, June, September, December | 20 hours | 10 weeks |
+| **Evening Program** | March, September | 9 hours | 10 weeks |
+| **3-Week Short-Term** | February, August | 20 hours | 3 weeks |
+| **Summer Special** | July | 20 hours | 5 weeks |
 
-## Accommodation & Facilities
-International students enrolled in the KLI can apply for Yonsei's premium on-campus dormitories:
-- **SK Global House & International House:** Modern, fully furnished single and double rooms with central air conditioning, high-speed internet, fitness centers, laundromats, and study lounges.
-- **Off-Campus Options:** The surrounding Seodaemun and Mapo districts offer abundant *goshiwons*, *one-rooms*, and share houses catering to student budgets.
+## 3. Tuition & Fees
+Tuition is billed in South Korean Won (KRW) per term. Fees exclude textbooks, housing, and health insurance.
+
+| Course Name | Application Fee | Total Tuition (per term) | Textbooks |
+| :--- | :--- | :--- | :--- |
+| **Regular Program** | KRW 80,000 | KRW 1,850,000 | KRW 60,000 |
+| **Evening Program** | KRW 80,000 | KRW 910,000 | KRW 40,000 |
+| **3-Week Short-Term** | KRW 80,000 | KRW 1,080,000 | Included |
+| **Summer Special** | KRW 80,000 | KRW 1,350,000 | Included |
+
+*Note: The application fee is non-refundable. Tuition must be paid in full by the designated deadline to secure your enrollment.*
+
+## 4. Admissions & D-4 Visa Steps
+Students registering for 2 or more terms of the Regular Program must obtain a D-4 (General Student) visa:
+
+1.  **Online Application:** Apply via the Yonsei KLI site and upload your passport plus your high school graduation certificate (Apostilled or Consular-confirmed).
+2.  **Financial Verification:** Provide a bank statement proving a balance of USD 10,000 or more held for at least one month.
+3.  **Payment:** After application review (2–3 weeks), pay the invoice (2 terms are usually required for D-4 visa sponsorship).
+4.  **Certificate of Admission (CoA):** KLI sends your physical CoA after confirming your bank wire transfer.
+5.  **Visa Application:** Take the CoA, passport, and financial documents to the nearest South Korean Embassy to obtain your D-4 visa.
+
+## 5. TOPIK & University Pathway
+Yonsei KLI's academic rigor prepares students for success in local universities and professional careers.
+
+*   **TOPIK Prep:** Systematic preparation for the Test of Proficiency in Korean (TOPIK) is woven into the regular levels. KLI offers focused practice for TOPIK II (Levels 3–6) via specialized writing and reading modules.
+*   **University Pathway:** Completing Level 4 or higher satisfies the language requirement for undergraduate and graduate programs at top universities, including Yonsei University, bypassing the separate TOPIK exam in many cases.
+
+## 6. Dormitory & Living in the City
+*   **On-campus Dormitory:** Students can apply for double or single rooms in the **SK Global House** or **International House** on campus. Rooms feature central air conditioning, study lounges, laundry facilities, and a gym. Due to high demand, these rooms are allocated first-come, first-served.
+*   **Sinchon Living:** Off-campus living in Sinchon offers easy access to student restaurants and Seoul Subway Line 2. A private *one-room* studio costs KRW 500,000 to 800,000 per month with a deposit of KRW 5,000,000+, while a *goshiwon* (compact room) ranges from KRW 350,000 to 500,000 with no deposit.
+
+## 7. FAQ
+
+### Can I get a D-4 visa with the Evening Program?
+No. The D-4 visa requires 20 class hours per week. Only the Regular Program qualifies. Evening students must already hold a valid long-term residency visa.
+
+### What is the class attendance policy?
+You must maintain at least 80% attendance (missing under 40 hours of the 200-hour term) to pass and keep your D-4 visa active.
+
+### How are students placed into levels?
+Students with prior Korean knowledge take a written and oral placement test. Complete beginners skip the test and enter Level 1 automatically.
+
+### Can I apply for a scholarship?
+Yes. Yonsei KLI offers merit-based tuition discounts (usually 50% off the next term) to top-performing students in each level with perfect attendance.
+
+### Does the tuition include health insurance?
+No. International students on a D-4 visa must register for the mandatory National Health Insurance (NHI) program and pay monthly premiums separately.

@@ -149,9 +149,10 @@ def generate_article_content(topic, selected_schools):
     4. Conclusion: Final advice on how to apply.
 
     Constraints:
-    - Use professional, encouraging English.
-    - Standard Markdown (## for schools).
-    - Length: Detailed and substantial (aim for 1000+ words).
+    - Use professional, encouraging English for **Study in Korea** (not Japan).
+    - Standard Markdown (## for sections).
+    - **Total length must be between 6000 and 7000 characters.**
+    - Include at least 2 Markdown tables.
     
     Schools to include:
     {schools_context}

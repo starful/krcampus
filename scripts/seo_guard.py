@@ -26,6 +26,10 @@ if str(ROOT_DIR) not in sys.path:
 from app.main import app, DOMAIN
 from app.utils import load_school_data, load_guides
 
+import frontmatter
+
+CONTENT_DIR = ROOT_DIR / "app" / "content"
+
 
 @dataclass
 class CheckResult:
@@ -62,6 +66,35 @@ def _has_meta_description(html: str) -> bool:
             flags=re.IGNORECASE,
         )
     )
+
+
+def _check_content_lengths() -> tuple[list[CheckResult], list[CheckResult]]:
+    passed: list[CheckResult] = []
+    failed: list[CheckResult] = []
+
+    try:
+        sys.path.insert(0, str(ROOT_DIR / "scripts"))
+        from content_specs import kind_from_filename, validate_body
+    except ImportError:
+        failed.append(CheckResult(False, "content_specs import failed"))
+        return passed, failed
+
+    for fp in sorted(CONTENT_DIR.glob("*.md")):
+        if fp.name.endswith("_ja.md"):
+            continue
+        post = frontmatter.load(fp)
+        kind = kind_from_filename(fp.name, post.metadata)
+        if not kind:
+            continue
+        body = post.content or ""
+        ok, reason = validate_body(kind, body)
+        label = f"{fp.name} ({len(body.strip())} chars)"
+        if ok:
+            passed.append(CheckResult(True, f"content length: {label}"))
+        else:
+            failed.append(CheckResult(False, f"content length: {label} — {reason}"))
+
+    return passed, failed
 
 
 def run_checks() -> tuple[list[CheckResult], list[CheckResult]]:
@@ -213,6 +246,9 @@ def run_checks() -> tuple[list[CheckResult], list[CheckResult]]:
 
 def main() -> int:
     passed, failed = run_checks()
+    len_passed, len_failed = _check_content_lengths()
+    passed.extend(len_passed)
+    failed.extend(len_failed)
 
     print("== SEO Guard Results ==")
     for item in passed:

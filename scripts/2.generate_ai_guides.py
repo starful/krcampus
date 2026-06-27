@@ -7,6 +7,8 @@ import glob
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from common import setup_logging, setup_gemini, clean_json_response, DATA_DIR, CONTENT_DIR, LOG_DIR
+from content_generator import generate_english_body
+from content_specs import validate_body
 
 # --- 설정 ---
 setup_logging("guide_gen.log")
@@ -57,38 +59,13 @@ def get_thumbnail(category):
     return THUMBNAILS["default"]
 
 def generate_content(row):
-    # 긴 문장 생성이므로 타임아웃 및 재시도 로직 강화
-    prompt = f"""
-    You are an expert author who writes comprehensive guides for international students preparing to study in Korea.
-    Write a long-form, detailed blog post in **ENGLISH** based on the topic below.
-    The article must be well-structured, informative, and easy to read.
-    
-    **Total length must be between 7000 and 8000 characters.**
-    
-    ---
-    Topic Title: {row['title']}
-    Core Prompt: {row['prompt']}
-    ---
-    
-    Guidelines: 
-    - Use standard Markdown format.
-    - Create 3-5 main sections with clear headings (##).
-    - Use bullet points and lists where appropriate.
-    - Include at least two Markdown tables for comparisons or data.
-    - Maintain a friendly, encouraging, and professional tone in English.
-    - Generate ONLY the Markdown body content (do not include frontmatter).
-    """
-    for i in range(3):
-        try:
-            response = model.generate_content(prompt)
-            return clean_json_response(response.text)
-        except Exception as e:
-            print(f"⚠️ Error details: {e}") # 에러 내용을 직접 출력해서 확인
-            if "429" in str(e): 
-                time.sleep(30 * (i + 1)) # 대기 시간을 더 늘림 (30초, 60초...)
-            else:
-                time.sleep(5)
-    return None
+    meta = {
+        "title": row["title"],
+        "description": row.get("description", ""),
+        "category": row.get("category", "Guide"),
+    }
+    extra = f"Core prompt: {row.get('prompt', '')}"
+    return generate_english_body("guide", meta, guide_extra=extra)
 
 def process_topic(row):
     """한 개의 주제를 생성하고 파일로 저장하는 단위 작업"""
@@ -99,6 +76,9 @@ def process_topic(row):
     content_body = generate_content(row)
     
     if content_body:
+        ok, reason = validate_body("guide", content_body)
+        if not ok:
+            logging.warning(f"guide {slug}: {reason}")
         thumbnail_url = get_thumbnail(row['category'])
         frontmatter_data = {
             "layout": "guide", 

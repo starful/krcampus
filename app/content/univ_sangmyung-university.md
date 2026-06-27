@@ -1,91 +1,143 @@
 ---
-basic_info:
-  address: 20 Hongjimun 2-gil, Jongno-gu, Seoul, South Korea
-  capacity: null
-  name_en: Sangmyung University
-  name_ko: 상명대학교
-category: university
-date: '2026-06-10'
-faculties:
-- College of Humanities and Social Sciences
-- College of Science and Technology
-- College of Engineering
-- College of Business and Economics
-- College of Education
-- College of Arts and Physical Education
-- College of Convergence Military Science
-features:
-- Renowned for top-tier Art, Design, and Performing Arts programs
-- Scenic campus located in the historic and peaceful Jongno-gu district of Seoul
-- Excellent support systems and dedicated scholarships for international students
-- Strong focus on industry-coupled education, including AI and software integration
-id: univ_sangmyung-university
-lang: en
-layout: school
-location:
-  lat: 37.6029659
-  lng: 126.9550092
-stats:
-  acceptance_rate: Estimated 45%
-  international_students: 1150
-tags:
-- Renowned for top-tier Art, Design, and Performing Arts programs
-- Scenic campus located in the historic and peaceful Jongno-gu district of Seoul
-- Excellent support systems and dedicated scholarships for international students
-- Strong focus on industry-coupled education, including AI and software integration
-thumbnail: /static/img/pin-univ.png
-title: Sangmyung University
-tuition:
-  admission_fee: 180000
-  yearly_tuition: 8200000
+{
+  "basic_info": {
+    "address": "20 Hongjimun 2-gil, Jongno-gu, Seoul, South Korea",
+    "capacity": null,
+    "name_en": "Sangmyung University",
+    "name_ko": "상명대학교"
+  },
+  "category": "university",
+  "date": "2026-06-10",
+  "faculties": [
+    "College of Humanities and Social Sciences",
+    "College of Science and Technology",
+    "College of Engineering",
+    "College of Business and Economics",
+    "College of Education",
+    "College of Arts and Physical Education",
+    "College of Convergence Military Science"
+  ],
+  "features": [
+    "Renowned for top-tier Art, Design, and Performing Arts programs",
+    "Scenic campus located in the historic and peaceful Jongno-gu district of Seoul",
+    "Excellent support systems and dedicated scholarships for international students",
+    "Strong focus on industry-coupled education, including AI and software integration"
+  ],
+  "id": "univ_sangmyung-university",
+  "lang": "en",
+  "layout": "school",
+  "location": {
+    "lat": 37.6029659,
+    "lng": 126.9550092
+  },
+  "stats": {
+    "acceptance_rate": "Estimated 45%",
+    "international_students": 1150
+  },
+  "tags": [
+    "Renowned for top-tier Art, Design, and Performing Arts programs",
+    "Scenic campus located in the historic and peaceful Jongno-gu district of Seoul",
+    "Excellent support systems and dedicated scholarships for international students",
+    "Strong focus on industry-coupled education, including AI and software integration"
+  ],
+  "thumbnail": "/static/img/pin-univ.png",
+  "title": "Sangmyung University",
+  "tuition": {
+    "admission_fee": 180000,
+    "yearly_tuition": 8200000
+  }
+}
 ---
 
-## University Overview
-Established in 1937, Sangmyung University originally began as an academy for training female leaders before evolving into a co-educational, prestigious private institution. Located in the heart of Seoul (Jongno-gu), the university is famous for its picturesque hillside campus that offers beautiful views of the Bukhansan mountain range. Sangmyung is highly regarded in South Korea for its contributions to education, fine arts, design, and practical industry-academic cooperation.
+# Sangmyung University: International Student Guide
 
-Over the years, the university has adapted to global educational trends by establishing modern research facilities, nurturing partnerships with overseas universities, and implementing a highly supportive administrative system for international students.
+## 1. University Overview
+Established in 1937, Sangmyung University (SMU) is a prestigious private institution located at 20 Hongjimun 2-gil, Jongno-gu, Seoul, South Korea. Situated in a historic, scenic, and peaceful district, the campus offers an inspiring learning environment that uniquely blends natural beauty with modern Seoul city convenience.
 
-## Why Choose Sangmyung University?
-* **A Hub for Art and Design:** Sangmyung is widely recognized for having some of the most competitive art, design, and content-related majors in Korea. 
-* **Strategic Location:** Situated in Jongno-gu, students reside in the historic center of Seoul. It is close to cultural heritage sites like Gyeongbokgung Palace, traditional neighborhoods, and thriving commercial hubs, offering a rich cultural experience.
-* **Robust International Support:** The Institute of International Education at Sangmyung provides excellent Korean language programs, cultural excursion events, and dedicated counseling services to help foreign students integrate smoothly into campus life.
-* **Global Standard Curriculum:** The university consistently updates its programs to match the demands of the modern job market, emphasizing practical training, software proficiency, and interdisciplinary convergence.
+With an estimated acceptance rate of 45% and a global community of over 1,150 international students, Sangmyung provides an accessible, welcoming academic environment. SMU is internationally recognized for its top-tier Art, Design, and Performing Arts programs, alongside an industry-coupled curriculum that infuses Artificial Intelligence (AI) and software systems across all traditional academic faculties.
 
-## Key Academic Programs
-Sangmyung University operates two campuses: the main campus in Seoul and a second campus in Cheonan. The Seoul campus houses the following outstanding faculties:
+---
 
-### 1. Arts and Design
-This is Sangmyung's signature field. The college offers highly sought-after programs in Fine Arts, Industrial Design, Visual Communication Design, Fashion Design, and Performing Arts. The faculty consists of active industry professionals, and students frequently win major national and international design awards.
+## 2. English-Taught & International Programs
+While Korean is the primary medium of instruction, Sangmyung University has actively expanded its English-friendly tracks. Select programs within Global Business, Software Engineering, and Humanities offer English-friendly lectures, blended coursework, and bilingual academic materials to assist international students.
 
-### 2. Business and Economics
-Provides comprehensive courses designed to train global business leaders. Majors such as Global Business and Economics emphasize practical case studies, internship opportunities, and international trade dynamics.
+To aid with social and academic integration, the Sangmyung Korean Language Education Center provides intensive, multi-level language programs. The university also operates robust support initiatives, including the "Global Buddy" mentoring program, dedicated visa services, and specialized career development workshops managed by the Office of International Affairs. In addition, the university's Global Lounge serves as a central hub where international and domestic students can interact and practice language skills daily.
 
-### 3. Convergence Engineering & IT
-With Korea being a global leader in technology, Sangmyung has heavily invested in its Engineering colleges, featuring modern programs in Computer Science, Game Design, and Intellectual Property, focusing on hands-on software development and AI application.
+---
 
-## Campus Life & Student Housing
-Campus life at Sangmyung University combines a peaceful natural environment with vibrant student activities. 
+## 3. Faculties & Academic Strengths
+Sangmyung University's academic structure comprises seven specialized colleges designed to foster cross-disciplinary innovation:
 
-* **On-Campus Dormitories:** Sangmyung offers comfortable housing options equipped with high-speed internet, study rooms, gym facilities, and laundry rooms. Due to limited spots, early application is highly recommended.
-* **Global Lounge:** A dedicated social area where international and domestic students gather to exchange languages, participate in cultural workshops, and build global networks.
-* **Student Clubs (Dongari):** International students are encouraged to join various clubs ranging from K-pop dance, sports, photography, to traditional Korean music, ensuring an active social life outside the classroom.
+*   **College of Humanities and Social Sciences:** Focused on global cultures, media, and sociological trends.
+*   **College of Science and Technology:** Exploring natural sciences and practical tech applications.
+*   **College of Engineering:** Specialized in computer science, software, and systems engineering.
+*   **College of Business and Economics:** Training global leaders in finance, trade, and management.
+*   **College of Education:** Respected nationally for cultivating highly qualified future teachers.
+*   **College of Arts and Physical Education:** The university’s flagship division, renowned for award-winning programs in design, music, and performance.
+*   **College of Convergence Military Science:** A unique major offering strategic leadership training.
 
-## Admission Guidelines for International Students
-### Language Requirements
-* **Korean-Track Programs:** Typically require TOPIK Level 3 or higher (or completion of the intermediate level at Sangmyung's Korean Language Center). Some humanities and design majors may require TOPIK Level 4.
-* **English-Track Programs:** English proficiency scores (TOEFL iBT 80, IELTS 5.5, or equivalent) are required for programs taught entirely in English.
+### Table 1: Key Faculties & Flagship Majors
+| College | Flagship Majors | Core Strength |
+| :--- | :--- | :--- |
+| **Arts & Physical Ed.** | Animation, Fashion Design, Acting | Industry-leading creative design studios |
+| **Engineering** | Computer Science, Smart Tech | AI integration across technical curricula |
+| **Business & Econ.** | Global Business, Economics | Focus on international markets and trade |
+| **Humanities** | Korean Language, Digital Content | Blending traditional studies with media |
 
-### Required Documents
-* Completed Application Form
-* High School Diploma/Graduation Certificate (Apostille or Consular verified)
-* Academic Transcripts
-* Proof of Financial Capability (usually a bank statement showing USD 16,000–20,000)
-* Copy of Passport and Alien Registration Card (if residing in Korea)
-* Personal Statement and Study Plan
+---
 
-## Scholarships for International Students
-Sangmyung University offers generous scholarship opportunities to reduce the financial burden on global talents:
+## 4. Tuition, Fees & Scholarships
+Sangmyung offers highly competitive tuition rates compared to other major private universities in Seoul. The admission fee is 180,000 KRW, with an average yearly tuition of approximately 8,200,000 KRW.
 
-* **Admission Scholarships:** Based on the student's initial TOPIK score. For example, achieving TOPIK Level 5 or 6 can result in a 50% to 100% tuition waiver for the first semester.
-* **Academic Excellence Scholarships:** Awarded from the second semester onward based on the student's GPA in the preceding semester. Students who maintain a top GPA can receive tuition discounts ranging from 30% to 70%.
-* **Korean Language Center Scholarship:** Students who complete a certain number of terms at Sangmyung’s own Language Education Center are eligible for application fee waivers and tuition benefits upon entering the undergraduate program.
+### Table 2: Estimated Annual Tuition by Field (KRW)
+| Academic Field | Admission Fee (One-Time) | Estimated Yearly Tuition | Total First Year (Est.) |
+| :--- | :--- | :--- | :--- |
+| **Humanities & Social Sci.** | 180,000 | 7,100,000 | 7,280,000 |
+| **Business & Economics** | 180,000 | 7,200,000 | 7,380,000 |
+| **Engineering & Science** | 180,000 | 8,800,000 | 8,980,000 |
+| **Arts & Physical Ed.** | 180,000 | 9,300,000 | 9,480,000 |
+| **SMU Average (Estimated)** | 180,000 | 8,200,000 | 8,380,000 |
+
+### Dedicated Scholarships
+*   **Global Admission Scholarship:** Offers a 30% to 50% tuition waiver for the first semester, determined by the applicant's incoming TOPIK level or English test scores.
+*   **Academic Excellence Scholarship:** From the second semester onward, international students maintaining a GPA of 3.0 or above can receive 30% to 100% tuition coverage.
+*   **SMU Pathway Award:** Students transitioning from the SMU Korean Language Center with TOPIK level 4 or higher receive a 50% waiver on tuition.
+
+---
+
+## 5. Admissions for International Students
+International admissions run twice a year for the Spring (March) and Fall (September) terms. The university evaluates academic background, language skills, and creative potential.
+
+### Basic Admission Criteria
+1.  **Academic Documents:** High school diploma and transcripts, validated via Apostille or consular seal.
+2.  **Language Proficiency:**
+    *   *Korean Track:* TOPIK level 3 or higher.
+    *   *English Track:* TOEFL iBT 80, IELTS 5.5, or equivalent.
+3.  **Financial Capability:** Proof of funds indicating at least $20,000 USD in a personal or sponsor bank account.
+4.  **Portfolio:** Mandatory for applicants applying to Fine Arts, Design, or Performing Arts.
+
+---
+
+## 6. Campus Life & Location
+The Seoul campus is uniquely located in Jongno-gu, the historical and cultural center of South Korea. Set against Bukhansan Mountain, the campus is famous for its scenic, steep pathways, modern architecture, and beautiful views overlooking central Seoul.
+
+International students enjoy access to comfortable on-campus dormitories, student lounges, and state-of-the-art dining and athletic facilities. Beyond the gates, students are minutes away from historic attractions like Gyeongbokgung Palace, Bukchon Hanok Village, and trendy arts neighborhoods, making SMU an ideal hub for exploring both ancient Korean heritage and modern youth culture.
+
+---
+
+## 7. FAQ
+
+### Is Sangmyung University fully English-friendly?
+While most core courses are taught in Korean, SMU offers select English-taught classes in Global Business and Computer Science. Robust administrative support in English is provided by the Office of International Affairs.
+
+### What is the estimated cost of living in Jongno-gu?
+Students typically spend 900,000 to 1,200,000 KRW monthly. This includes off-campus rent (around 500,000 KRW), food, local transport, and utilities. On-campus dorms are more affordable but subject to availability.
+
+### Are international students allowed to work part-time?
+Yes, with a valid D-2 visa, students can legally work up to 20 hours per week during the semester, provided they have a clean academic record and meet basic TOPIK requirements.
+
+### Does the university offer guaranteed housing for freshmen?
+Priority is given to incoming freshmen and international students. However, due to limited space in the on-campus dormitories, early application is highly recommended.
+
+### How competitive is the admission for Art and Design programs?
+Because SMU’s Art and Design programs are top-tier in Korea, they are highly competitive. Portfolios, practical tests, and artistic potential are heavily weighted during the evaluation.

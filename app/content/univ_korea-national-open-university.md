@@ -1,85 +1,125 @@
 ---
-basic_info:
-  address: 86 Daehak-ro, Jongno-gu, Seoul, 03087, South Korea
-  capacity: null
-  name_en: Korea National Open University
-  name_ko: 한국방송통신대학교
-category: university
-date: '2026-06-10'
-faculties:
-- Humanities
-- Social Sciences
-- Natural Sciences
-- Education
-features:
-- Korea's first and largest distance-learning national university
-- Highly affordable tuition fees (around 10% of private university rates)
-- Flexible hybrid learning format with physical regional campuses nationwide
-- Ideal for working professionals and self-paced learners
-id: univ_korea-national-open-university
-lang: en
-layout: school
-location:
-  lat: 37.5792034
-  lng: 127.0032743
-stats:
-  acceptance_rate: 95% (Open Admission)
-  international_students: 320
-tags:
-- Korea's first and largest distance-learning national university
-- Highly affordable tuition fees (around 10% of private university rates)
-- Flexible hybrid learning format with physical regional campuses nationwide
-- Ideal for working professionals and self-paced learners
-thumbnail: /static/img/pin-univ.png
-title: Korea National Open University
-tuition:
-  admission_fee: 8000
-  yearly_tuition: 760000
+{
+  "basic_info": {
+    "address": "86 Daehak-ro, Jongno-gu, Seoul, 03087, South Korea",
+    "capacity": null,
+    "name_en": "Korea National Open University",
+    "name_ko": "한국방송통신대학교"
+  },
+  "category": "university",
+  "date": "2026-06-10",
+  "faculties": [
+    "Humanities",
+    "Social Sciences",
+    "Natural Sciences",
+    "Education"
+  ],
+  "features": [
+    "Korea's first and largest distance-learning national university",
+    "Highly affordable tuition fees (around 10% of private university rates)",
+    "Flexible hybrid learning format with physical regional campuses nationwide",
+    "Ideal for working professionals and self-paced learners"
+  ],
+  "id": "univ_korea-national-open-university",
+  "lang": "en",
+  "layout": "school",
+  "location": {
+    "lat": 37.5792034,
+    "lng": 127.0032743
+  },
+  "stats": {
+    "acceptance_rate": "95% (Open Admission)",
+    "international_students": 320
+  },
+  "tags": [
+    "Korea's first and largest distance-learning national university",
+    "Highly affordable tuition fees (around 10% of private university rates)",
+    "Flexible hybrid learning format with physical regional campuses nationwide",
+    "Ideal for working professionals and self-paced learners"
+  ],
+  "thumbnail": "/static/img/pin-univ.png",
+  "title": "Korea National Open University",
+  "tuition": {
+    "admission_fee": 8000,
+    "yearly_tuition": 760000
+  }
+}
 ---
 
-## University Overview
+# Korea National Open University (KNOU): International Student Guide
 
-Korea National Open University (KNOU), established in 1972, is Korea's first national distance-learning institution and the country's largest university by enrollment. Headquartered in the vibrant cultural district of Daehak-ro, Seoul, KNOU operates a network of 13 regional campuses and 31 study centers across South Korea. 
+## 1. University Overview
+Established in 1972 as Korea’s first national distance-learning institution, Korea National Open University (KNOU) has pioneered lifelong education for five decades. Boasting a massive alumni network exceeding 700,000, KNOU is the country's largest public higher education institution. Headquartered at 86 Daehak-ro, Jongno-gu, Seoul, 03087, the university integrates online learning with a vast network of 13 regional campuses and 31 study centers nationwide. This hybrid structure allows students to access physical library resources, study spaces, and local peer networks throughout South Korea.
 
-KNOU was founded to democratize higher education by making university degrees accessible to everyone, regardless of age, social status, or location. With its robust online platform, satellite TV broadcasts, and mobile applications, KNOU offers a highly flexible, self-paced learning environment that caters to hundreds of thousands of learners, including working professionals, lifelong learners, and international students residing in Korea and abroad.
+Designed for working professionals and self-paced learners, KNOU uses digital media, mobile applications, and TV broadcasting to deliver accredited degree programs. It offers an exceptionally flexible and affordable pathway to earning a respected national university degree.
 
-## Important Visa Notice for International Students
+## 2. English-Taught & International Programs
+KNOU’s primary mission is to serve public education needs in South Korea, meaning the official medium of instruction is Korean. The university does not offer degrees fully taught in English. Consequently, international applicants need intermediate to advanced Korean language skills (TOPIK Level 3 or higher is highly recommended) to understand course content, complete assignments, and pass examinations.
 
-As an expert consultant, the most critical piece of advice for international applicants is regarding **immigration and student visas**. Because KNOU is primarily a distance-learning (online) university, **it does not issue D-2 Student Visas** for international students to reside in Korea. 
+Currently hosting around 320 international students, the university provides administrative support, including online counseling and digital orientation guides, to help non-native speakers navigate academic platforms. For students fluent in Korean or eager to master professional-level academic Korean, KNOU offers an unparalleled environment for complete linguistic and cultural immersion.
 
-Therefore, KNOU is best suited for:
-1. **Foreign residents already in Korea** holding valid long-term visas (such as F-2, F-4, F-5, F-6, E-7, or H-1).
-2. **Overseas students** who wish to earn a degree from a top Korean national university without relocating to South Korea.
+## 3. Faculties & Academic Strengths
+KNOU offers four core faculties designed to merge theoretical frameworks with practical, career-oriented applications.
 
-## Academic Structure and Programs
+*   **Humanities:** Focuses on literature, linguistics, and history, with popular majors in Korean and English Language & Literature.
+*   **Social Sciences:** Prepares students for roles in business, media, and public sectors through departments like Business Administration, Law, and Media Studies.
+*   **Natural Sciences:** Emphasizes technical, real-world skills in Computer Science, Food & Nutrition, and Agriculture.
+*   **Education:** Cultivates educators via programs in Early Childhood Education and Lifelong Learning.
 
-Despite being a distance-learning institution, KNOU maintains a rigorous academic standard equal to traditional four-year national universities. It offers undergraduate programs across four main colleges:
+| Faculty | Key Majors for International Students | Core Competencies |
+| :--- | :--- | :--- |
+| **Humanities** | English Lit., Korean Lit. | Language proficiency, translation |
+| **Social Sciences** | Business Administration, Media | Global management, public relations |
+| **Natural Sciences**| Computer Science, Food & Nutrition | Software engineering, dietetics |
+| **Education** | Early Childhood Education | Pedagogical theory, child development |
 
-* **College of Humanities**: Korean Language & Literature, English Language & Literature, Chinese Language & Literature, French Language & Literature, Culture & Liberal Arts.
-* **College of Social Sciences**: Law, Public Administration, Management, Economics, Media & Information Studies, Tourism, Social Welfare.
-* **College of Natural Sciences**: Computer Science, Statistics & Data Science, Agriculture & Life Science, Food & Nutrition, Clothing & Textiles, Nursing (limited to licensed nurses).
-* **College of Education**: Education, Early Childhood Education, Youth Education.
+## 4. Tuition, Fees & Scholarships
+As a national institution, KNOU offers unmatched affordability. Tuition is kept at roughly 10% of standard private universities in South Korea, making higher education highly accessible.
 
-### The Hybrid Learning System
+Below is a cost comparison between KNOU and typical private South Korean universities:
 
-Courses at KNOU are delivered via a hybrid model consisting of:
-1. **Distance Lectures (Online)**: Lectures are streamed via the university's U-KNOU platform, allowing students to study at any time and place.
-2. **Attendance Classes (Offline)**: Some courses require physical attendance at a regional campus for 3 to 4 days per semester. However, international or working students who cannot attend these physical classes can often apply to replace them with online alternative lectures and assignments.
-3. **Examinations**: Midterm and final exams are typically conducted in-person at the designated regional study centers under strict supervision.
+| Expense Category | KNOU Fees (KRW) | Avg. Private University Fees (KRW - Est.) |
+| :--- | :--- | :--- |
+| **Admission Fee** | 8,000 (One-time) | 300,000 |
+| **Tuition per Semester** | 380,000 | 4,000,000 |
+| **Annual Tuition** | 760,000 | 8,000,000 |
+| **Textbooks (Annual)** | 120,000 (Est.) | 400,000 |
 
-## Admission Requirements for International Applicants
+*Note: Private university fees are realistic estimates based on nationwide averages.*
 
-Admission is highly accessible due to KNOU's open-door philosophy. However, because **all lectures and materials are entirely in Korean**, a high level of Korean language proficiency is necessary to succeed.
+To reward academic performance, KNOU offers merit-based scholarships. International students who maintain high GPAs are eligible for partial or full tuition waivers.
 
-* **Academic Eligibility**: Graduates of accredited high schools (for Freshman admission) or completed 1-2 years of university education (for Transfer admission).
-* **Language Requirement**: While there is no strict, mandatory TOPIK cut-off for initial admission, a minimum proficiency level equivalent to **TOPIK Level 3 or 4** is highly recommended to follow the curriculum, submit assignments, and pass offline examinations.
+## 5. Admissions for International Students
+KNOU maintains an open admissions policy with an acceptance rate of approximately 95%.
 
-## Tuition and Financial Feasibility
+### Key Admission Requirements
+1.  **Academic Credentials:** High school graduation certificate (for freshman entry) or official transcripts from prior college work (for transfer entry). Documents must be apostilled or consular-verified.
+2.  **Language Ability:** No official minimum TOPIK score is mandatory for admission, but intermediate Korean is vital to pass exams.
+3.  **Visa Status (Crucial):** Because KNOU is a distance-learning university, **it cannot sponsor a D-2 student visa**. International applicants must already hold a valid visa residing in Korea (e.g., F-2, F-4, F-5, F-6, E-7, or H-1).
 
-KNOU offers some of the most competitive tuition rates in the world for a national university. 
-* **Semester Tuition**: Approximately 340,000 to 380,000 KRW (roughly $250 - $300 USD) per semester depending on the major.
-* **Yearly Tuition**: Approximately 680,000 to 760,000 KRW ($500 - $600 USD) total, making it highly cost-effective compared to traditional Korean universities where tuition ranges from $6,000 to $10,000 USD per year.
+### Step-by-Step Process
+*   **Online Application:** Apply on the admissions website in December–January (Spring) or June–July (Fall).
+*   **Document Submission:** Submit certified academic transcripts and proof of visa status to the admissions office.
+*   **Fee Payment:** Pay the 8,000 KRW registration fee and tuition.
 
-## Consultant Recommendation
+## 6. Campus Life & Location
+KNOU’s headquarters is located at 86 Daehak-ro, Jongno-gu, Seoul, 03087, in the cultural heart of the capital. Daehak-ro is famous for its independent theaters, cafes, and youth culture, providing an exciting city experience.
 
-KNOU is an exceptional choice if you are seeking a highly respected, affordable, and flexible Korean bachelor's degree while managing a career or other full-time commitments. It requires high self-discipline, strong time-management skills, and advanced Korean language proficiency to navigate the self-directed learning modules and offline testing. For foreign expats already residing in Korea with stable residency statuses, KNOU serves as an unmatched portal for career advancement and localization.
+While lectures are online, student life is supported by 13 regional campuses and 31 local study centers across South Korea. These hubs feature computer labs, libraries, and quiet study rooms. International students can join regional study groups and student clubs, which are excellent for networking with local Korean peers, collaborating on assignments, and participating in seasonal campus events. Physical presence is required primarily for weekend examinations or specific blended-learning classes.
+
+## 7. FAQ
+
+### Can I study at KNOU if I do not speak Korean?
+No. All coursework, online portals, exams, and textbooks are in Korean. Intermediate to advanced Korean proficiency is required.
+
+### Does KNOU issue a D-2 student visa?
+No. Because of its distance-learning model, KNOU cannot sponsor student visas. Applicants must already hold an eligible visa to reside and study in Korea.
+
+### How are examinations conducted?
+Exams are typically conducted offline. Students must visit their designated regional campus or study center on weekends to take paper-based or computer-based mid-term and final examinations.
+
+### Can I transfer previous college credits?
+Yes. Applicants with prior university experience or associate degrees can transfer into the sophomore (2nd year) or junior (3rd year) class.
+
+### Are there offline classes I must attend?
+Certain courses feature blended learning (Chul-seok Suyeop), which requires physical attendance for weekend lectures at a regional campus, though online alternatives are sometimes available.

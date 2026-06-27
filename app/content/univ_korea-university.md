@@ -1,119 +1,137 @@
 ---
-basic_info:
-  address: 145 Anam-ro, Seongbuk-gu, Seoul, 02841, South Korea
-  capacity: null
-  name_en: Korea University
-  name_ko: 고려대학교
-category: university
-date: '2026-06-10'
-faculties:
-- Business School
-- College of Liberal Arts
-- College of Life Sciences and Biotechnology
-- College of Political Science and Economics
-- College of Science
-- College of Engineering
-- College of Medicine
-- College of Education
-- College of Nursing
-- College of Informatics
-- School of Art and Design
-- Division of International Studies
-- School of Media and Communication
-- School of Smart Security
-- School of Psychology
-features:
-- One of South Korea's elite 'SKY' universities, ranking among the top globally.
-- Home to the Korea University Business School (KUBS), the first and top-ranked business
-  school in Korea with AACSB & EQUIS accreditations.
-- Renowned for the fierce yet friendly bilateral rivalry with Yonsei University, culminating
-  in the annual 'Ko-Yeon-Jeon' sports and cultural festival.
-- Stunning, historic European Gothic-style stone campus located in the Anam neighborhood
-  of Seoul.
-id: univ_korea-university
-lang: en
-layout: school
-location:
-  lat: 37.5892568
-  lng: 127.0346783
-stats:
-  acceptance_rate: Estimated 10% - 15% for international students
-  international_students: 4800
-tags:
-- One of South Korea's elite 'SKY' universities, ranking among the top globally.
-- Home to the Korea University Business School (KUBS), the first and top-ranked business
-  school in Korea with AACSB & EQUIS accreditations.
-- Renowned for the fierce yet friendly bilateral rivalry with Yonsei University, culminating
-  in the annual 'Ko-Yeon-Jeon' sports and cultural festival.
-- Stunning, historic European Gothic-style stone campus located in the Anam neighborhood
-  of Seoul.
-thumbnail: /static/img/pin-univ.png
-title: Korea University
-tuition:
-  admission_fee: 1000000
-  yearly_tuition: 8600000
+{
+  "basic_info": {
+    "address": "145 Anam-ro, Seongbuk-gu, Seoul, 02841, South Korea",
+    "capacity": null,
+    "name_en": "Korea University",
+    "name_ko": "고려대학교"
+  },
+  "category": "university",
+  "date": "2026-06-10",
+  "faculties": [
+    "Business School",
+    "College of Liberal Arts",
+    "College of Life Sciences and Biotechnology",
+    "College of Political Science and Economics",
+    "College of Science",
+    "College of Engineering",
+    "College of Medicine",
+    "College of Education",
+    "College of Nursing",
+    "College of Informatics",
+    "School of Art and Design",
+    "Division of International Studies",
+    "School of Media and Communication",
+    "School of Smart Security",
+    "School of Psychology"
+  ],
+  "features": [
+    "One of South Korea's elite 'SKY' universities, ranking among the top globally.",
+    "Home to the Korea University Business School (KUBS), the first and top-ranked business school in Korea with AACSB & EQUIS accreditations.",
+    "Renowned for the fierce yet friendly bilateral rivalry with Yonsei University, culminating in the annual 'Ko-Yeon-Jeon' sports and cultural festival.",
+    "Stunning, historic European Gothic-style stone campus located in the Anam neighborhood of Seoul."
+  ],
+  "id": "univ_korea-university",
+  "lang": "en",
+  "layout": "school",
+  "location": {
+    "lat": 37.5892568,
+    "lng": 127.0346783
+  },
+  "stats": {
+    "acceptance_rate": "Estimated 10% - 15% for international students",
+    "international_students": 4800
+  },
+  "tags": [
+    "One of South Korea's elite 'SKY' universities, ranking among the top globally.",
+    "Home to the Korea University Business School (KUBS), the first and top-ranked business school in Korea with AACSB & EQUIS accreditations.",
+    "Renowned for the fierce yet friendly bilateral rivalry with Yonsei University, culminating in the annual 'Ko-Yeon-Jeon' sports and cultural festival.",
+    "Stunning, historic European Gothic-style stone campus located in the Anam neighborhood of Seoul."
+  ],
+  "thumbnail": "/static/img/pin-univ.png",
+  "title": "Korea University",
+  "tuition": {
+    "admission_fee": 1000000,
+    "yearly_tuition": 8600000
+  }
+}
 ---
 
-## University Overview
+# Korea University (고려대학교): International Student Guide
 
-Founded in 1905, **Korea University (고려대학교)** is one of South Korea's oldest, largest, and most prestigious institutions of higher education. Alongside Seoul National University and Yonsei University, it forms the legendary **"SKY" trio**—the three universities that dominate South Korean society, politics, and corporate leadership. Korea University is widely respected for its nationalistic history, dynamic campus culture, and rigorous academic environment.
+## 1. University Overview
+Established in 1905, Korea University (KU) is one of South Korea's oldest, most prestigious academic institutions. Alongside Seoul National University and Yonsei University, KU forms the elite "SKY" trio—the three academic giants shaping the nation. Located at 145 Anam-ro, Seongbuk-gu, Seoul, 02841, South Korea, KU consistently ranks among the top global universities.
 
-With over 35,000 students across two campuses (the main Anam Campus in Seoul and the Sejong Campus), KU has earned a reputation for nurturing global leaders. It is particularly renowned for its exceptional business, law, international relations, and engineering faculties.
+The university is a major global hub, hosting over 4,800 international students. The campus is famous for its stunning, historic European Gothic-style stone buildings, which contrast beautifully with state-of-the-art research facilities. This architectural beauty, combined with its tree-lined paths, makes KU one of the most picturesque campuses in Asia.
 
----
+## 2. English-Taught & International Programs
+While Korean is the primary medium of instruction, Korea University has made massive strides in internationalization, with approximately 30% to 40% of undergraduate courses delivered in English.
 
-## Academic Excellence & World-Class Faculties
+Two major academic pathways stand out for English-speaking international students:
+* **Division of International Studies (DIS):** A fully English-taught department focusing on international relations, global economics, law, and development.
+* **Korea University Business School (KUBS):** The top-ranked business school in Korea with extensive English-taught courses. KUBS is the first in the country to achieve prestigious dual AACSB and EQUIS accreditations.
 
-Korea University regularly ranks within the **Top 80 universities worldwide** in the QS World University Rankings. 
+## 3. Faculties & Academic Strengths
+Korea University comprises 15 distinct colleges and schools covering diverse academic fields. Among these, the Business School, College of Engineering, School of Informatics, and the School of Psychology are highly regarded for world-class research.
 
-### 1. Korea University Business School (KUBS)
-KUBS is the crown jewel of Korea University. It was the first business program established in Korea and holds both **AACSB** and **EQUIS** accreditations. Its Executive MBA and undergraduate business programs are consistently ranked #1 in the nation, making it a highly competitive choice for aspiring corporate leaders.
+### Undergraduate Academic Divisions
+| Faculty | Key Strengths & Accreditations | Instruction |
+| :--- | :--- | :--- |
+| **Business School (KUBS)** | AACSB & EQUIS; top-ranked in Korea | English & Korean |
+| **Div. of International Studies** | Diplomacy, global trade, and law | 100% English |
+| **College of Engineering** | Advanced chemical & mechanical engineering | English & Korean |
+| **School of Informatics** | Artificial intelligence & computer science | English & Korean |
+| **School of Psychology** | Cognitive and social behavioral sciences | English & Korean |
 
-### 2. Division of International Studies (DIS)
-For international students who do not speak fluent Korean, the **Division of International Studies** is an exceptional option. Offering curriculum taught entirely in English, DIS covers international commerce, international peace & security, development cooperation, and East Asian studies.
+The remaining faculties include the College of Liberal Arts, College of Life Sciences and Biotechnology, College of Political Science and Economics, College of Science, College of Medicine, College of Education, College of Nursing, School of Art and Design, School of Media and Communication, and the School of Smart Security.
 
-### 3. STEM and cutting-edge IT
-KU's **College of Engineering** and **College of Informatics** are heavily integrated with major Korean conglomerates (such as Samsung and Hyundai). The university has recently established cutting-edge divisions, including the **School of Smart Security** and specialized tracks in Artificial Intelligence.
+## 4. Tuition, Fees & Scholarships
+Tuition fees at KU are structured by college, with humanities being the most affordable, while science, engineering, and medical programs occupy higher brackets.
 
----
+### Estimated International Tuition & Fee Structure (in KRW)
+| Academic Program | Admission Fee (One-Time) | Semester Tuition (Est.) | Yearly Tuition (Est.) |
+| :--- | :--- | :--- | :--- |
+| **Humanities / DIS** | 1,000,000 KRW | 4,300,000 KRW | 8,600,000 KRW |
+| **Business (KUBS)** | 1,000,000 KRW | 4,600,000 KRW | 9,200,000 KRW |
+| **Engineering & Science** | 1,000,000 KRW | 5,400,000 KRW | 10,800,000 KRW |
+| **Medicine** | 1,000,000 KRW | 6,800,000 KRW | 13,600,000 KRW |
 
-## Dynamic Campus Culture & The Yonsei Rivalry
+*Note: Tuition figures are realistic estimates and subject to change.*
 
-While academic performance is paramount, Korea University is equally famous for its vibrant, passionate student lifestyle, driven by strong camaraderie (referred to as the "KU Spirit").
+KU offers robust scholarships for outstanding international applicants:
+* **Global Leader Scholarship (Type A):** 100% tuition waiver (including admission fee) for 8 semesters.
+* **Academic Excellence Scholarship (Type B):** 50% tuition waiver for 8 semesters, based on admission evaluation.
+* **In-School Scholarships:** Merit-based awards based on semester GPA performance.
 
-*   **Ko-Yeon-Jeon (Korea-Yonsei Games):** This annual bilateral sports festival against Yonsei University is one of the most exciting traditions in global higher education. For two days, the two universities compete in baseball, basketball, ice hockey, rugby, and football. The entire event is marked by massive, coordinated street cheerings, joint parties, and live concerts.
-*   **Ipselenti (Ji.Ya.Hyo):** KU's legendary spring festival features world-renowned K-Pop artists, student rock bands, and passionate cheering rallies that turn the stadium into a sea of crimson (KU's official color).
-*   **The Anam Campus:** Located in Seongbuk-gu, northeast Seoul, the Anam campus is famous for its breathtaking, castle-like Gothic stone architecture. It features state-of-the-art facilities like the CCL (CJ Creator Library), which provides professional-grade media creation spaces for students.
+## 5. Admissions for International Students
+Admission is highly competitive, with an estimated acceptance rate of 10% to 15% for international students. Applications are assessed on academic merit, language proficiency, and essays.
 
----
+### Eligibility & Key Requirements
+* **Nationality:** The applicant and both parents must hold non-Korean citizenship.
+* **Academic Record:** High school graduation (or equivalent) before enrollment.
+* **Language Proficiency:** For Korean tracks, a minimum of TOPIK Level 3 or 4 is required. For English tracks (like DIS), competitive TOEFL iBT or IELTS scores are necessary.
+* **Deadlines:** Spring intake (starts in March) opens applications in August. Fall intake (starts in September) opens in March.
 
-## Admissions & Language Requirements
+## 6. Campus Life & Location
+Located in the lively Anam-dong neighborhood of Seongbuk-gu, Seoul, the campus is directly connected to Seoul Subway Line 6 via Anam Station. The surrounding area is packed with affordable international dining, cozy cafes, and vibrant student housing.
 
-Getting into Korea University is highly competitive, but international admissions have a separate, holistic selection process that evaluates global talent.
+The highlight of campus life is **Ko-Yeon-Jeon**, the legendary, decades-old bilateral athletic and cultural rivalry with Yonsei University. Every autumn, the two schools compete in five sports: soccer, rugby, baseball, basketball, and ice hockey. This event is a massive, high-energy festival featuring synchronized cheering, street parties, and live concerts.
 
-### Language Proficiency Requirements
-*   **Korean Track:** Applicants must typically submit a **TOPIK (Test of Proficiency in Korean) Level 3 or 4** or higher (Level 5+ is recommended for highly competitive majors like Media or Business).
-*   **English Track (e.g., DIS, or general tracks taught in English):** Applicants must submit valid English proficiency scores. Recommended minimum scores are **TOEFL iBT 80 (or higher)** or **IELTS 6.5 (or higher)**.
+For housing, students can reside in modern on-campus dormitories like **CJ International House** or **Anam Global House**, offering fitness facilities and English-speaking staff.
 
-### Documents Checklist
-*   High school/University graduation certificate and transcript (Apostilled or Consular-verified).
-*   Proof of financial capacity (typically a bank statement showing at least USD 20,000).
-*   Personal Statement and Study Plan (crucial for evaluating applicant motivation).
-*   Recommendation letters (optional but highly recommended).
+## 7. FAQ
 
----
+### What is the acceptance rate for international students?
+The estimated acceptance rate is 10% to 15%. Successful applicants typically present top-tier academic records and strong language scores.
 
-## Tuition, Fees, and Scholarships
+### Can I study entirely in English at KU?
+Yes. The Division of International Studies (DIS) is 100% taught in English. The Business School (KUBS) also offers a vast majority of its classes in English.
 
-While elite education in Korea is an investment, KU offers excellent value compared to Western institutions, combined with generous scholarship schemes.
+### What are the accommodation options?
+KU offers modern dormitories like CJ International House and Anam Global House, providing single and double rooms with fitness centers and student lounges.
 
-### Average Tuition (Per Semester)
-*   **Humanities & Social Sciences:** ~KRW 3,800,000 - 4,300,000 ($2,800 - $3,200 USD)
-*   **Natural Sciences & Physical Education:** ~KRW 4,600,000 - 5,000,000 ($3,400 - $3,700 USD)
-*   **Engineering & Art:** ~KRW 5,200,000 - 5,600,000 ($3,900 - $4,200 USD)
-*   *Note: Admission fee is paid only during the first semester.*
+### Are Korean language courses available?
+Yes. KU’s Korean Language Center (KLC) is highly respected, offering intensive language courses ranging from beginner to advanced levels.
 
-### International Student Scholarships
-*   **Global Leader Scholarship (Type A):** 100% tuition waiver for 4 years (requires exceptional academic performance during admission evaluation).
-*   **Global Leader Scholarship (Type B):** 50% tuition waiver for 4 years.
-*   **Academic Excellence & Improvement Scholarships:** Awarded to enrolled international students who maintain a high GPA (ranging from 30% to 100% tuition waiver for the following semester).
+### What is the significance of the Ko-Yeon-Jeon festival?
+It is a major historic rivalry with Yonsei University, featuring five sports matches. The festival builds school pride through massive cheering events and concerts.

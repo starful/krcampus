@@ -57,6 +57,7 @@ def get_language_school_info(name_ko, name_en, region, city):
     prompt = f"""
     You are an expert on Korean language institutes for international students.
     Write a comprehensive English guide for "{name_ko}" ({name_en}) in {city}, {region}, South Korea.
+    The Markdown body in "description" must be **between 4500 and 6000 characters**, focused on programs, tuition, D-4 visa, TOPIK, dormitory, and FAQ (5+ ## sections, 2+ tables).
 
     Required JSON Structure:
     {{

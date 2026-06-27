@@ -1,93 +1,151 @@
 ---
-basic_info:
-  address: 100 Inha-ro, Michuhol-gu, Incheon, South Korea
-  capacity: null
-  name_en: Inha University
-  name_ko: 인하대학교
-category: university
-date: '2026-06-10'
-faculties:
-- College of Engineering
-- College of Natural Sciences
-- College of Business Administration
-- College of Social Sciences
-- College of Humanities
-- College of Medicine
-- College of Convergence Engineering
-- School of Computer Science and Engineering
-features:
-- Top-tier prestigious engineering programs in Korea
-- Strong corporate partnership with Hanjin Group (Korean Air)
-- Strategic location in Incheon, Korea's logistics and global hub
-- Abundant scholarships and support programs for international students
-id: univ_inha-university
-lang: en
-layout: school
-location:
-  lat: 37.4476141
-  lng: 126.6533711
-stats:
-  acceptance_rate: 35% - 45% (Estimated)
-  international_students: 2450
-tags:
-- Top-tier prestigious engineering programs in Korea
-- Strong corporate partnership with Hanjin Group (Korean Air)
-- Strategic location in Incheon, Korea's logistics and global hub
-- Abundant scholarships and support programs for international students
-thumbnail: /static/img/pin-univ.png
-title: Inha University
-tuition:
-  admission_fee: 342000
-  yearly_tuition: 8200000
+{
+  "basic_info": {
+    "address": "100 Inha-ro, Michuhol-gu, Incheon, South Korea",
+    "capacity": null,
+    "name_en": "Inha University",
+    "name_ko": "인하대학교"
+  },
+  "category": "university",
+  "date": "2026-06-10",
+  "faculties": [
+    "College of Engineering",
+    "College of Natural Sciences",
+    "College of Business Administration",
+    "College of Social Sciences",
+    "College of Humanities",
+    "College of Medicine",
+    "College of Convergence Engineering",
+    "School of Computer Science and Engineering"
+  ],
+  "features": [
+    "Top-tier prestigious engineering programs in Korea",
+    "Strong corporate partnership with Hanjin Group (Korean Air)",
+    "Strategic location in Incheon, Korea's logistics and global hub",
+    "Abundant scholarships and support programs for international students"
+  ],
+  "id": "univ_inha-university",
+  "lang": "en",
+  "layout": "school",
+  "location": {
+    "lat": 37.4476141,
+    "lng": 126.6533711
+  },
+  "stats": {
+    "acceptance_rate": "35% - 45% (Estimated)",
+    "international_students": 2450
+  },
+  "tags": [
+    "Top-tier prestigious engineering programs in Korea",
+    "Strong corporate partnership with Hanjin Group (Korean Air)",
+    "Strategic location in Incheon, Korea's logistics and global hub",
+    "Abundant scholarships and support programs for international students"
+  ],
+  "thumbnail": "/static/img/pin-univ.png",
+  "title": "Inha University",
+  "tuition": {
+    "admission_fee": 342000,
+    "yearly_tuition": 8200000
+  }
+}
 ---
 
-## University Overview
+## 1. University Overview
 
-Established in 1954 with the support of Korean immigrants in Hawaii, **Inha University** has grown into one of South Korea's premier private research universities. Based in Incheon, the country's transport and logistics gateway, Inha has earned an illustrious reputation, particularly in the fields of **Engineering, IT, Business, and Logistics**.
+Established in 1954, **Inha University** (인하대학교) is a premier private research institution in Incheon, South Korea. Its name is a portmanteau of "Incheon" and "Hawaii," honoring the Korean-American immigrants who helped found it as a world-class engineering institute. Located at **100 Inha-ro, Michuhol-gu, Incheon**, the campus sits at the center of the nation's key logistics and technology gateway.
 
-As a university heavily backed by the **Hanjin Group** (the conglomerate that owns Korean Air), Inha University offers unparalleled industrial connections, cutting-edge research infrastructure, and high employability. It is home to a vibrant community of over 2,000 international students from more than 80 countries.
-
----
-
-## Why International Students Choose Inha University
-
-### 1. The Powerhouse of Engineering & Technology
-Inha was originally founded as the "Inha Institute of Technology," modeled after MIT. Today, its College of Engineering remains one of the top-ranked in the nation. It consistently produces leaders who drive South Korea's tech, aerospace, and manufacturing sectors.
-
-### 2. Strategic Location in Incheon
-Incheon is a dynamic, highly globalized port city located just an hour away from Seoul. Living here grants students easy access to the capital while offering a lower cost of living. Being near **Incheon International Airport** and the **Songdo International Business District (IFEZ)** provides unique opportunities for internships and career networking in global logistics and biotechnology.
-
-### 3. Industry-Academic Collaboration & Career Success
-Because of its close affiliation with the Hanjin Group and partnerships with tech giants like Samsung, LG, and Hyundai, Inha offers students practical training, internships, and job placement opportunities. The curriculum is heavily aligned with industry demands, ensuring high graduate employment rates.
-
-### 4. Comprehensive International Support
-Inha offers extensive scholarship opportunities for global talent, ranging from 30% to 100% tuition waivers based on academic merit (TOPIK scores or English proficiency test scores like IELTS/TOEFL). The **International Student Services Center (ISSC)** provides robust support, including visa assistance, housing guidance, cultural excursions, and language exchange programs.
+Supported by the **Hanjin Group** (owner of **Korean Air**) since 1994, Inha provides students with corporate mentoring, research grants, internships, and priority hiring pathways. Today, Inha hosts over **2,450 international students**, attracted by its competitive tuition, generous scholarships, and proximity to the Songdo International Business District.
 
 ---
 
-## Key Academic Programs
+## 2. English-Taught & International Programs
 
-*   **College of Engineering:** Offers globally accredited programs in Mechanical Engineering, Aerospace Engineering, Chemical Engineering, and Electronic Engineering.
-*   **Asia Pacific School of Logistics (APSL):** Widely recognized as a top-ranked program in Korea, training global leaders in shipping, logistics, and supply chain management.
-*   **School of Computer Science and Engineering:** Offers modern curricula focusing on Artificial Intelligence, Big Data, and Software Engineering.
-*   **Inha Business School (IBS):** AACSB-accredited business school offering world-class management and international business courses.
+For international students who do not speak fluent Korean, Inha offers several English-taught pathways:
 
----
-
-## Campus Life & Student Housing
-
-*   **On-Campus Dormitories:** Inha University provides comfortable and modern housing options. All rooms are equipped with high-speed internet, heating, air conditioning, and access to study rooms, gym facilities, and cafeterias.
-*   **Student Clubs & Culture:** International students can join over 150 student clubs, spanning sports, traditional Korean arts, music, and academic circles.
-*   **Global Lounge:** A dedicated community space where local and international students interact, study, and participate in global exchange programs.
+* **School of Global Convergence Studies (SGCS):** Offers undergraduate degrees taught entirely in English, featuring interdisciplinary tracks in **Global Business**, **International Trade**, and **Integrated Technology**.
+* **English-Track Engineering Programs:** Selected graduate and undergraduate classes in Aerospace, Mechanical, and Computer Science Engineering offer major courses in English.
+* **Inha Language Center:** Offers intensive 10-week Korean language terms (Levels 1 to 6). Achieving Level 3 or higher facilitates entry into standard undergraduate programs.
 
 ---
 
-## Admissions & Requirements for International Students
+## 3. Faculties & Academic Strengths
 
-### Language Requirements
-*   **Korean Track:** TOPIK Level 3 or higher (Level 4 is highly recommended for graduation and scholarship opportunities).
-*   **English Track:** TOEFL iBT 80, IELTS 5.5, or equivalent qualifications for courses taught entirely in English.
+Inha University combines traditional STEM disciplines with strong business and humanities faculties.
 
-### Key Application Periods
-*   **Spring Semester (Starts March):** Applications typically open between September and October of the previous year.
-*   **Fall Semester (Starts September):** Applications typically open between March and April of the same year.
+### Academic Highlights:
+* **College of Engineering & College of Convergence Engineering:** Inha's flagship division, securing substantial national funding in Aerospace, Mechanical, and Chemical Engineering.
+* **School of Computer Science and Engineering:** Focuses on AI, cybersecurity, software engineering, and big data, boasting excellent employment rates.
+* **College of Business Administration:** Features the renowned Department of Asia Pacific School of Logistics (APSL), heavily backed by the Hanjin Group.
+* **College of Medicine:** Affiliated with Inha University Hospital, it is a leading medical training and research center in the Seoul Capital Area.
+
+---
+
+## 4. Tuition, Fees & Scholarships
+
+Inha University offers premium education at highly competitive rates compared to Seoul-based universities, supported by an aggressive scholarship framework.
+
+### Estimated Tuition & Fee Structure (KRW)
+
+| Academic Field | One-time Admission Fee (KRW) | Semestrial Tuition (KRW) | Estimated Annual Tuition (KRW) |
+| :--- | :--- | :--- | :--- |
+| **Humanities & Social Sciences** | 342,000 | 3,450,000 | 6,900,000 |
+| **Business Administration** | 342,000 | 3,600,000 | 7,200,000 |
+| **Natural Sciences** | 342,000 | 4,200,000 | 8,400,000 |
+| **Engineering, CS & Convergence** | 342,000 | 4,800,000 | 9,600,000 |
+| **Medicine** | 342,000 | 5,900,000 | 11,800,000 |
+| **Average Across Fields** | **342,000** | **4,100,000** | **8,200,000 (Average)** |
+
+### Scholarships for International Students
+
+| Scholarship Name | Eligibility & Criteria | Benefits |
+| :--- | :--- | :--- |
+| **Global Scholarship (Freshmen)** | Based on admission evaluation (TOPIK 4-6 or TOEFL iBT 90+ / IELTS 7.0+) | 30% to 100% Tuition Waiver for the first semester |
+| **Academic Excellence (Enrolled)** | GPA-based: Maintain 3.5 to 4.5 in the previous semester | 30% to 100% Tuition Waiver for subsequent semesters |
+| **Inha Language Center Pathway** | Completed 2+ terms at Inha Language Center and TOPIK 4+ | 50% to 100% Tuition Waiver for the first semester |
+| **Hanjin Global Leader** | Top applicants in Logistics, CS, and Engineering majors | 100% Tuition Waiver, monthly stipend, internship track |
+
+---
+
+## 5. Admissions for International Students
+
+Applying to Inha University involves a streamlined online application process held twice a year.
+
+### Admission Timeline
+* **Spring Semester (Starts March):** Applications open August to October.
+* **Fall Semester (Starts September):** Applications open February to April.
+
+### Basic Requirements
+1. **Academic Eligibility:** Applicant and parents must hold non-Korean citizenship. High school graduation is required for undergraduate entry.
+2. **Language Proficiency:** 
+   * *Korean Track:* TOPIK Level 3 or higher (Level 4 recommended for graduation).
+   * *English Track:* TOEFL iBT 80 or IELTS 5.5 (IELTS 6.5+ highly recommended).
+3. **Financial Statement:** Proof of funds of at least USD 16,000 to USD 20,000.
+
+---
+
+## 6. Campus Life & Location
+
+Situated in **Incheon**, South Korea’s third-largest city, Inha University is a major cultural and youth hub. 
+
+* **Inha Back Gate ("Humun"):** Famous across Incheon as a vibrant, budget-friendly college food district filled with restaurants, cafés, and karaoke bars.
+* **On-Campus Dormitories:** Residence halls (Biryong and Woongbi) provide high-speed Wi-Fi, gyms, and laundry facilities. Rates range from KRW 1,000,000 to KRW 1,500,000 per semester.
+* **Student Clubs:** Over 80 organizations cover sports, arts, and robotics. The Inha Global Student Association (ISAK) hosts cultural festivals and peer-mentoring programs.
+
+---
+
+## 7. FAQ
+
+### Can I apply to Inha University without knowing any Korean?
+Yes. You can apply to the School of Global Convergence Studies (SGCS) or other English-track engineering programs. However, learning basic Korean is recommended for daily life.
+
+### How does the corporate connection with Hanjin Group benefit students?
+Hanjin Group (owner of Korean Air) provides direct investment, research grants, and internship pipelines, benefiting engineering, logistics, and computer science majors.
+
+### Is on-campus housing guaranteed for international freshmen?
+Yes. Inha prioritizes first-year international students for housing in the on-campus dormitories, provided they register during the housing application period.
+
+### Are international students allowed to work part-time in Korea?
+Yes. Under a D-2 student visa, you can work part-time (up to 20-30 hours per week depending on TOPIK level) after completing one semester, with university and immigration approval.
+
+### What is the average cost of living around the campus?
+Incheon is much more affordable than Seoul. Students typically spend between KRW 600,000 and KRW 900,000 per month on food, transit, utilities, and entertainment.

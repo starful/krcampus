@@ -1,82 +1,155 @@
 ---
-basic_info:
-  address: 1600, Chungjeol-ro, Byeongcheon-myeon, Dongnam-gu, Cheonan-si, Chungcheongnam-do,
-    Republic of Korea
-  capacity: null
-  name_en: Korea University of Technology and Education
-  name_ko: 한국기술교육대학교
-category: university
-date: '2026-06-27'
-faculties:
-- School of Mechanical Engineering
-- School of Mechatronics Engineering
-- School of Electrical, Electronics & Communication Engineering
-- School of Computer Science and Engineering
-- School of Design and Architecture
-- School of Energy, Materials and Chemical Engineering
-- School of Industrial Management
-- School of Employment and Human Resources Development (HRD)
-features:
-- Public University founded by the Ministry of Employment and Labor
-- 'Consistent #1 employment rate among 4-year universities in Korea'
-- Incredibly affordable tuition and abundant scholarship options
-- 50:50 Theory-to-Practice ratio with state-of-the-art lab facilities
-id: univ_korea-university-of-technology-and-education
-lang: en
-layout: school
-location:
-  lat: 36.7635507
-  lng: 127.281751
-stats:
-  acceptance_rate: 45%
-  international_students: 180
-tags:
-- Public University founded by the Ministry of Employment and Labor
-- 'Consistent #1 employment rate among 4-year universities in Korea'
-- Incredibly affordable tuition and abundant scholarship options
-- 50:50 Theory-to-Practice ratio with state-of-the-art lab facilities
-thumbnail: /static/img/pin-univ.png
-title: Korea University of Technology and Education
-tuition:
-  admission_fee: 0
-  yearly_tuition: 4100000
+{
+  "basic_info": {
+    "address": "1600, Chungjeol-ro, Byeongcheon-myeon, Dongnam-gu, Cheonan-si, Chungcheongnam-do, Republic of Korea",
+    "capacity": null,
+    "name_en": "Korea University of Technology and Education",
+    "name_ko": "한국기술교육대학교"
+  },
+  "category": "university",
+  "date": "2026-06-27",
+  "faculties": [
+    "School of Mechanical Engineering",
+    "School of Mechatronics Engineering",
+    "School of Electrical, Electronics & Communication Engineering",
+    "School of Computer Science and Engineering",
+    "School of Design and Architecture",
+    "School of Energy, Materials and Chemical Engineering",
+    "School of Industrial Management",
+    "School of Employment and Human Resources Development (HRD)"
+  ],
+  "features": [
+    "Public University founded by the Ministry of Employment and Labor",
+    "Consistent #1 employment rate among 4-year universities in Korea",
+    "Incredibly affordable tuition and abundant scholarship options",
+    "50:50 Theory-to-Practice ratio with state-of-the-art lab facilities"
+  ],
+  "id": "univ_korea-university-of-technology-and-education",
+  "lang": "en",
+  "layout": "school",
+  "location": {
+    "lat": 36.7635507,
+    "lng": 127.281751
+  },
+  "stats": {
+    "acceptance_rate": "45%",
+    "international_students": 180
+  },
+  "tags": [
+    "Public University founded by the Ministry of Employment and Labor",
+    "Consistent #1 employment rate among 4-year universities in Korea",
+    "Incredibly affordable tuition and abundant scholarship options",
+    "50:50 Theory-to-Practice ratio with state-of-the-art lab facilities"
+  ],
+  "thumbnail": "/static/img/pin-univ.png",
+  "title": "Korea University of Technology and Education",
+  "tuition": {
+    "admission_fee": 0,
+    "yearly_tuition": 4100000
+  }
+}
 ---
 
+## 1. University Overview
 
-## University Overview
+Korea University of Technology and Education (KOREATECH) is a premier public university established in 1991 by the South Korean Ministry of Employment and Labor. Located in Cheonan, KOREATECH bridges the gap between academic theory and industry practice through its signature **50:50 theory-to-practice educational model**, where students spend half of their curriculum in state-of-the-art laboratory facilities.
 
-Korea University of Technology and Education (KOREATECH) is a unique, highly-esteemed public university located in Cheonan, Chungcheongnam-do, South Korea. Established in 1991 by the Ministry of Employment and Labor, the university was founded with a clear, specialized mission: to foster practical engineering experts and Human Resource Development (HRD) specialists who can drive industrial growth.
+The university consistently ranks **#1 in graduate employment rates** among four-year Korean universities. With an **acceptance rate of approximately 45%** and a focused community of **180 international students**, KOREATECH offers a highly supportive, cost-effective, and high-return engineering and technology education.
 
-While KOREATECH maintains a lower profile internationally compared to older Seoul-based giants, it is highly renowned within South Korea for its unparalleled post-graduation outcomes, state-of-the-art research laboratories, and exceptionally low tuition fees. It consistently ranks first or second in the country for graduate employment rates among four-year institutions.
+---
 
-## Unmatched Academic and Employment Success
+## 2. English-Taught & International Programs
 
-KOREATECH is synonymous with practical training. Unlike traditional universities that lean heavily on theoretical lectures, KOREATECH implements a strict **50:50 curriculum ratio** between class theory and hands-on laboratory practice. 
+While KOREATECH is a public institution with a Korean-medium focus, it actively supports global talent through key academic pathways:
 
-*   **State-of-the-Art Engineering Labs:** KOREATECH is equipped with extensive high-end laboratory equipment, often donated or set up in collaboration with Korean tech powerhouses like Samsung, Hyundai, and LG.
-*   **Industry-Cooperative Education (IPP):** KOREATECH was a pioneer of the IPP (Industry Professional Practice) program in Korea. Students undergo long-term internships (spanning 4 to 10 months) at prominent domestic and multinational tech firms, securing real-world experience before they graduate.
-*   **The Employment Powerhouse:** The university boasts a graduate employment rate consistently exceeding 80%, a remarkable metric in South Korea's competitive job market. Major employers of KOREATECH alumni include Samsung Electronics, SK Hynix, Korea Electric Power Corporation (KEPCO), and various government research institutes.
+*   **Undergraduate Pathways:** Most undergraduate courses are taught in Korean, requiring TOPIK Level 3 or higher. Students can take intensive prep courses at KOREATECH's Korean Language Program.
+*   **Graduate English-Track Programs:** At the master’s and doctoral levels, KOREATECH offers extensive English-taught courses and research opportunities in various engineering labs.
+*   **Global Exchange & Dual Degrees:** Partnerships with top-tier international universities facilitate reciprocal student exchanges, global internships, and technical bootcamps.
 
-## Highly Affordable Tuition & Scholarships
+---
 
-Because KOREATECH is funded and managed directly under the Ministry of Employment and Labor, its tuition rates are about **half** of what standard private universities in South Korea charge. 
+## 3. Faculties & Academic Strengths
 
-Furthermore, KOREATECH offers highly attractive scholarship programs specifically designated for international students:
-*   **Admission Scholarship:** Based on academic performance and Korean/English language proficiency test scores, incoming students can receive tuition waivers ranging from 50% to 100% for their first semester.
-*   **Academic Excellence Scholarship:** Continuing students who maintain top-tier GPAs can qualify for full or partial tuition exemptions for consecutive semesters.
-*   **Dormitory Benefits:** Highly affordable, modern on-campus housing is guaranteed for most international students, significantly lowering the cost of living compared to residing in Seoul.
+KOREATECH collaborates with industry leaders like Samsung, Hyundai, and LG to ensure its curriculum meets the demands of the Fourth Industrial Revolution.
 
-## Location and Campus Life
+| Faculty / School | Core Academic Strengths & Focus Areas |
+| :--- | :--- |
+| **School of Mechanical Engineering** | Robotics, CAD/CAM, automotive engineering, thermal fluids, aerospace systems. |
+| **School of Mechatronics Engineering** | Integration of mechanics, electronics, and control systems; automation technologies. |
+| **School of Electrical, Electronics & Communication** | Semiconductor engineering, smart grids, 5G/6G communication systems. |
+| **School of Computer Science and Engineering** | Software engineering, Artificial Intelligence, Big Data, cloud computing. |
+| **School of Design and Architecture** | Industrial product design, UX/UI, architectural engineering, urban planning. |
+| **School of Energy, Materials and Chem. Eng.** | Secondary batteries, nanomaterials, chemical processing, green energy. |
+| **School of Industrial Management** | Technology management, data-driven logistics, global operations. |
+| **School of Employment & HRD** | HR development policies, vocational training systems, labor economics. |
 
-KOREATECH is located in Cheonan, a major transportation hub in the northern region of Chungcheongnam-do (Chungnam). 
-*   **Accessibility:** The campus is roughly an hour away from Seoul via the Express Train (KTX/SRT) or metropolitan subway Line 1, allowing students to access the capital easily on weekends.
-*   **Safe and Academic Environment:** Cheonan is a rapidly expanding industrial and educational city. The suburban location of the campus offers a quiet, highly secure, and distraction-free environment ideal for intensive engineering studies.
-*   **Modern Facilities:** The campus features extensive recreational areas, high-speed campus-wide Wi-Fi, modern libraries, and 24-hour engineering lab access.
+Students enjoy 24/7 access to heavily subsidized labs equipped with industrial-grade machinery, 3D printing farms, and advanced robotic simulators.
 
-## Guide for International Applicants
+---
 
-To apply to KOREATECH, international students should look to align their profiles with the university's practical and academic ethos.
+## 4. Tuition, Fees & Scholarships
 
-1.  **Language Proficiency:** For Korean-taught programs, a TOPIK level of 3 or higher is typically required, though TOPIK 4 is recommended for full integration. For English-track engineering programs, standardized test scores such as TOEFL, IELTS, or TEPS are highly weighted.
-2.  **Required Documents:** Standard application documents include high school transcripts, proof of nationality (for both the applicant and parents), and a financial guarantee statement.
-3.  **Interview:** Depending on the school, applicants may undergo a remote video interview to assess their academic motivation and fundamental knowledge of mathematics and science.
+Backed by the Ministry of Employment and Labor, KOREATECH's tuition is significantly lower than private institutions.
+
+### Estimated Cost Comparison (2024/2025 Academic Year)
+
+| Fee Type | KOREATECH (KRW) | Avg. Private Seoul University (KRW) *Estimated* |
+| :--- | :--- | :--- |
+| **Admission Fee** | 0 KRW | 150,000 - 500,000 KRW |
+| **Yearly Tuition (Engineering)** | ~4,100,000 KRW | ~9,000,000 - 11,000,000 KRW |
+| **Yearly Tuition (Humanities/Biz)**| ~3,500,000 KRW | ~7,500,000 - 8,500,000 KRW |
+| **Dormitory (Per Semester)** | ~600,000 - 900,000 KRW | ~1,200,000 - 2,000,000 KRW |
+
+### Scholarships for International Students
+
+*   **Admission Scholarships:** 30% to 100% tuition waivers based on academic performance and language scores (TOPIK or English).
+*   **Academic Excellence Scholarships:** Up to 100% tuition coverage for maintaining a GPA above 3.0/4.5 in the previous semester.
+*   **Global Korea Scholarship (GKS):** Covers full tuition, living stipends, and airfare for selected government scholars.
+
+---
+
+## 5. Admissions for International Students
+
+KOREATECH evaluates applicants holistically based on academic records, language skills, and a passion for technology.
+
+*   **Acceptance Rate:** ~45% for qualified international applicants.
+*   **Academic Requirements:** Graduation from an accredited high school (undergraduate) or a bachelor's program (graduate).
+*   **Language Requirements:**
+    *   *Korean Track:* TOPIK Level 3 or higher.
+    *   *English Track (Graduate):* TOEFL iBT 80, IELTS 6.0, or equivalent.
+*   **Application Windows:**
+    *   **Spring Semester Intake:** Opens around September–October.
+    *   **Fall Semester Intake:** Opens around March–April.
+
+---
+
+## 6. Campus Life & Location
+
+KOREATECH is located in Cheonan, a dynamic tech hub about 80 kilometers south of Seoul.
+
+### Living in Cheonan
+The scenic campus in Byeongcheon-myeon is connected to downtown Seoul via express buses and KTX/SRT trains in under an hour. It offers a quiet, highly cost-effective environment with easy access to the capital.
+
+### Campus Amenities
+*   **Guaranteed Housing:** All newly admitted international students are guaranteed affordable on-campus housing with gym access and study lounges.
+*   **Student Support Services:** The International Affairs Office manages visa needs, insurance, cultural activities, and student buddy programs.
+*   **Industry Placement Support:** The Career Development Center offers resume tutoring and direct job matching with major partner corporations.
+
+---
+
+## 7. FAQ
+
+### Can I apply to KOREATECH without knowing any Korean?
+Yes, for graduate programs where research is conducted in English. Undergraduate students must obtain TOPIK Level 3, which can be achieved via KOREATECH's intensive language programs.
+
+### Why is the tuition so much lower than other Korean universities?
+As a public institution funded by the Ministry of Employment and Labor, KOREATECH prioritizes public resource development over profit, charging about half the tuition of private universities.
+
+### What is the 50:50 Theory-to-Practice ratio?
+For every hour of classroom lecture, you spend an equal hour on practical projects and lab work, preparing you to enter the workforce with zero training lag.
+
+### Is on-campus housing guaranteed for international students?
+Yes. KOREATECH prioritizes international students for subsidized on-campus dormitories, which cost significantly less than renting private housing off-campus.
+
+### How does the university help international students find jobs?
+The university hosts exclusive job fairs, resume workshops, mock interviews, and provides direct recruiting pathways with major domestic and international partner firms.

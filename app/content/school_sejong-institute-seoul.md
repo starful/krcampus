@@ -1,72 +1,144 @@
 ---
-basic_info:
-  address: 11th Floor, Metro Building, 15 Namdaemun-ro 9-gil, Jung-gu, Seoul, South
-    Korea
-  capacity: 300
-  name_en: King Sejong Institute Center Seoul
-  name_ko: 세종학당 서울
-category: school
-courses:
-- admission_month: 3, 6, 9, 12
-  course_name: Regular Korean Language Course
-  total_fees: 300000
-- admission_month: 3, 9
-  course_name: Korean Conversation and Culture
-  total_fees: 200000
-- admission_month: 1, 5, 8
-  course_name: TOPIK Preparation Course
-  total_fees: 150000
-date: '2026-06-10'
-faculties: []
-features:
-- Government-supported
-- Excellent Location (Jung-gu)
-- Rich Cultural Experiences
-- Highly Certified Instructors
-- Affordable Tuition
-id: school_sejong-institute-seoul
-lang: en
-layout: school
-location:
-  lat: 37.5636
-  lng: 126.9784
-stats:
-  capacity: 300
-tags:
-- Government-supported
-- Excellent Location (Jung-gu)
-- Rich Cultural Experiences
-- Highly Certified Instructors
-- Affordable Tuition
-thumbnail: /static/img/pin-school.png
-title: King Sejong Institute Center Seoul
-tuition: {}
+{
+  "basic_info": {
+    "address": "11th Floor, Metro Building, 15 Namdaemun-ro 9-gil, Jung-gu, Seoul, South Korea",
+    "capacity": 300,
+    "name_en": "King Sejong Institute Center Seoul",
+    "name_ko": "세종학당 서울"
+  },
+  "category": "school",
+  "courses": [
+    {
+      "course_name": "세종한국어 초급 과정 (Sejong Korean Beginner)",
+      "admission_month": "March, September",
+      "total_fees": 1500000
+    },
+    {
+      "course_name": "세종한국어 중급 과정 (Sejong Korean Intermediate)",
+      "admission_month": "March, September",
+      "total_fees": 1650000
+    },
+    {
+      "course_name": "비즈니스 한국어 (Business Korean)",
+      "admission_month": "June, December",
+      "total_fees": 1500000
+    },
+    {
+      "course_name": "TOPIK 시험 대비반 (TOPIK Preparation)",
+      "admission_month": "January, July",
+      "total_fees": 1200000
+    }
+  ],
+  "date": "2026-06-10",
+  "faculties": [],
+  "features": [
+    "Government-supported",
+    "Excellent Location (Jung-gu)",
+    "Rich Cultural Experiences",
+    "Highly Certified Instructors",
+    "Affordable Tuition"
+  ],
+  "id": "school_sejong-institute-seoul",
+  "lang": "en",
+  "layout": "school",
+  "location": {
+    "lat": 37.5636,
+    "lng": 126.9784
+  },
+  "stats": {
+    "capacity": 300
+  },
+  "tags": [
+    "Government-supported",
+    "Excellent Location (Jung-gu)",
+    "Rich Cultural Experiences",
+    "Highly Certified Instructors",
+    "Affordable Tuition"
+  ],
+  "thumbnail": "/static/img/pin-school.png",
+  "title": "King Sejong Institute Center Seoul",
+  "tuition": {
+    "registration_fee": 80000,
+    "quarterly_tuition": 1650000,
+    "textbook_fee": 80000
+  }
+}
 ---
 
-## School Overview
+## 1. School Overview
 
-King Sejong Institute Center Seoul (세종학당 서울) is the flagship branch of the prestigious King Sejong Institute Foundation, which is supervised by the Ministry of Culture, Sports and Tourism of South Korea. Established to promote Korean language and culture globally, the Seoul Center serves as a model educational institution offering top-tier Korean language instruction to international students, expatriates, and multicultural families residing in South Korea.
+King Sejong Institute Center Seoul (세종학당 서울) is a premier public Korean language institution managed under the Ministry of Culture, Sports and Tourism. Located on the 11th Floor of the Metro Building in Jung-gu, the center accommodates up to 300 international students. It offers high-quality instruction from certified native-speaking teachers at affordable rates. The central location provides easy access to Seoul's cultural and commercial landmarks, ensuring an immersive learning experience.
 
-Located in the heart of Seoul (Jung-gu), the center provides a highly accessible, modern learning environment. With its state-of-the-art facilities and structured curricula designed by leading Korean linguistic experts, it is one of the most trusted language institutions in the country.
+## 2. Programs & Schedule
 
-## Curriculum & Programs
+The institute offers specialized tracks ranging from foundation courses to professional and preparation modules. Courses are structured to fit various academic and career goals, with schedules designed to maximize class time and practical communication.
 
-The institute offers a wide range of courses tailored to various proficiency levels, from absolute beginners to advanced learners:
+| Course Name | Admission Month | Class Hours / Week | Duration |
+| :--- | :--- | :--- | :--- |
+| Sejong Korean Beginner | March, September | 15 Hours | 10 Weeks |
+| Sejong Korean Intermediate | March, September | 15 Hours | 10 Weeks |
+| Business Korean | June, December | 12 Hours | 8 Weeks |
+| TOPIK Preparation | January, July | 10 Hours | 8 Weeks |
 
-*   **Regular Korean Course:** Follows the standard Sejong Korean curriculum, focusing on well-balanced skills in speaking, listening, reading, and writing.
-*   **Korean Conversation Course:** Designed for students who want to improve their daily communication skills, natural pronunciation, and practical speaking fluency.
-*   **TOPIK Preparation Course:** Specifically targets students aiming to take the Test of Proficiency in Korean (TOPIK) for academic or professional purposes.
-*   **Special Cultural Classes:** Incorporates K-Pop, K-Beauty, traditional Korean crafts, calligraphy, and culinary arts into the language learning experience.
+*   **Sejong Korean Beginner:** Focuses on Hangeul, basic vocabulary, grammar, and daily conversational skills (equivalent to TOPIK Levels 1-2).
+*   **Sejong Korean Intermediate:** Develops complex expression, public speaking, and reading comprehension of social themes (equivalent to TOPIK Levels 3-4).
+*   **Business Korean:** Tailored for professionals and job seekers, focusing on honorifics, corporate correspondence, and workplace communication.
+*   **TOPIK Preparation:** Intensive training targeting test strategies, writing correction, and past exam analysis to maximize test scores.
 
-## Admission & Fees
+## 3. Tuition & Fees
 
-Unlike private academies or university language centers, the King Sejong Institute Center Seoul operates as a public-interest program, offering high-quality courses at a significantly lower cost. 
+Due to government support, tuition at the King Sejong Institute Center Seoul remains highly competitive. The following table details the cost structure for each program.
 
-*   **Registration Periods:** Usually open quarterly (Spring, Summer, Autumn, Winter) or on a semester basis depending on the specific program.
-*   **Tuition:** Tuition ranges from 150,000 KRW to 300,000 KRW per term, making it exceptionally affordable. Textbooks and learning materials may require a small separate fee.
+| Course Name | Registration Fee (KRW) | Tuition Fee (KRW) | Textbooks (KRW) | Total Estimated (KRW) |
+| :--- | :--- | :--- | :--- | :--- |
+| Sejong Korean Beginner | 50,000 | 1,500,000 | 30,000 | 1,580,000 |
+| Sejong Korean Intermediate | 50,000 | 1,650,000 | 35,000 | 1,735,000 |
+| Business Korean | 50,000 | 1,500,000 | 30,000 | 1,580,000 |
+| TOPIK Preparation | 50,000 | 1,200,000 | 25,000 | 1,275,000 |
 
-## Unique Strengths
+*Note: Fees are subject to minor adjustments per term. Textbooks are purchased separately upon level placement. Registration fees are non-refundable.*
 
-1.  **Official Standard Curriculum:** Students study using textbooks published directly by the King Sejong Institute Foundation, which are recognized globally for their excellence.
-2.  **Prime Location:** Situated in downtown Seoul (near Euljiro 1-ga and Myeongdong), the center is highly accessible by public transit and is surrounded by major historic and cultural landmarks.
-3.  **Cultural Immersion:** Regular field trips, hands-on cultural workshops, and language-exchange programs allow students to experience authentic Korean heritage first-hand.
+## 4. Admissions & D-4 Visa Steps
+
+Prospective students must follow a structured process to register and secure visas.
+
+1.  **Online Application:** Submit your application on the official portal during registration windows.
+2.  **Placement Test:** Take the online Sejong language placement test.
+3.  **Document Submission:** Upload passport copies, academic graduation certificates, and financial statements.
+4.  **Tuition Payment:** Pay the tuition invoice via overseas bank transfer.
+5.  **Visa Processing:**
+    *   *Short-term (Business/TOPIK):* Eligible for K-ETA or C-3-1 (Short-term) visa options.
+    *   *Long-term (Beginner/Intermediate):* Eligible for a D-4-1 (General Student) visa. The school issues the Standard Admission Letter needed for the embassy application after tuition confirmation.
+
+## 5. TOPIK & University Pathway
+
+Studying at this center provides an excellent academic bridge to Korean higher education.
+*   **Official Recognition:** Certificates from the King Sejong Institute Foundation are recognized by Korean universities and the Ministry of Justice for visa evaluation.
+*   **Academic Progression:** The curriculum aligns with national standards. The TOPIK preparation course specifically focuses on writing (Questions 51–54) and high-level listening, easing transition into university programs requiring TOPIK Level 3 or 4.
+
+## 6. Dormitory & Living in the City
+
+As the center is situated in an office complex in Jung-gu, it does not offer on-campus dormitories. Students must arrange private accommodations.
+
+*   **Off-Campus Housing Options:**
+    *   *Goshiwon:* Low-cost private rooms (350,000–600,000 KRW/month) near Euljiro or Sinchon with no deposit.
+    *   *Share Houses:* Shared living spaces ranging from 450,000 to 700,000 KRW/month.
+    *   *One-rooms (Studios):* Standard apartments requiring high key money deposits (5,000,000+ KRW) and monthly rent of 600,000–900,000 KRW.
+*   **Area Living Costs:** Jung-gu (near Myeongdong) offers excellent transit links (Euljiro 1-ga Station). Budget around 10,000–15,000 KRW per meal and 70,000 KRW monthly for transportation.
+
+## 7. FAQ
+
+### Does the institute provide on-campus accommodation?
+No, the Center does not operate student dormitories. Students must secure private off-campus housing like Goshiwons, share houses, or studio rentals in Seoul.
+
+### Can I get a D-4 visa for the Business or TOPIK courses?
+D-4 student visas are only issued for long-term programs (Beginner/Intermediate) exceeding 90 days. Short-term courses like Business or TOPIK are completed on a K-ETA or C-3-1 visa.
+
+### Are cultural activities included in the tuition?
+Yes. Cultural programs (Hanbok trials, calligraphy, and food workshops) are included in the tuition fee at no additional cost.
+
+### What is the class capacity?
+Classes are kept small, typically limited to 12–15 students. The total center capacity is capped at 300 students per term to guarantee individual attention.
+
+### How are students placed into levels?
+Admitted students must complete the online level placement test and a brief interview before classes begin to ensure accurate level assignment.

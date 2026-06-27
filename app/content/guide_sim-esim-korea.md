@@ -13,114 +13,79 @@
 }
 ---
 
-Welcome to South Korea! As an international student arriving in 2026, you are about to step into one of the most technologically advanced and hyper-connected countries in the world. From ordering late-night Han River deliveries via Baedal Minjok to navigating Seoul's immaculate subway system with Naver Maps, almost everything you do here will rely on a stable, high-speed mobile internet connection. 
+# SIM and eSIM Plans in Korea (2026)
 
-However, setting up your mobile plan in Korea can be surprisingly tricky due to the country's strict digital identity verification systems. To help you hit the ground running, this comprehensive guide will break down the differences between physical SIMs, modern eSIMs, major telecom carriers, and budget-friendly MVNOs. We will help you choose the absolute best plan for both your initial arrival and your long-term academic stay.
+## Introduction: Landing in Korea Connected
+Welcome to South Korea! As an international student arriving in 2026, setting up your mobile connection is a top priority. From navigating the Seoul subway on KakaoMap to ordering food on Baemin, a reliable data connection is your lifeline.
 
----
-
-## 1. Understanding Korea's Telecom Landscape (MNOs vs. MVNOs)
-
-To make an informed decision, you must first understand how the Korean telecommunications system is structured. The market is divided into two primary types of providers:
-
-### The Big Three Major Carriers (MNOs)
-Korea’s mobile infrastructure is dominated by three major Mobile Network Operators (MNOs):
-*   **SK Telecom (SKT):** The market leader, known for having the most extensive coverage and fastest speeds, particularly in rural areas.
-*   **KT (Korea Telecom):** Highly popular among international students due to its robust English-language customer support and extensive public Wi-Fi network.
-*   **LG U+:** Known for offering highly competitive promotional data packages and excellent customer service.
-
-These major carriers offer premium services, unlimited 5G data packages, and member benefit discounts (such as free cinema tickets or bakery coupons). However, they require long-term contracts (typically 1 to 2 years) and are significantly more expensive.
-
-### Budget Carriers (MVNOs / 알뜰폰)
-Mobile Virtual Network Operators (MVNOs), locally known as *Altheul-pon* (literally "frugal phones"), lease network capacity from the Big Three. They offer the exact same coverage and speed but at a fraction of the cost. 
-*   **Why they are great:** No long-term contract commitments, extremely low monthly fees, and tailored plans for expats.
-*   **Popular options for foreigners:** Chingu Mobile, Woori Mobile, KTM Mobile, and U+ 유모바일.
-*   **The catch:** Customer service in English can sometimes be limited compared to the major carriers, though expat-focused MVNOs have improved dramatically in 2026.
+For students on D-2 (degree) or D-4 (language) visas, the Korean mobile market can seem a bit overwhelming at first. You must navigate options between major carriers (SKT, KT, and LG U+), budget MVNOs, physical SIMs, and modern eSIMs. This KR Campus guide breaks down everything you need to know to get connected quickly, affordably, and legally.
 
 ---
 
-## 2. Short-Stay Options (Prepaid SIM & eSIM for Your First 90 Days)
+## Comparing Mobile Options: Prepaid, eSIM, and Postpaid
+Before choosing a plan, understand the options available to foreign students. Your choice depends on your stay duration and whether you have your Residence Card (Alien Registration Card, or ARC).
 
-When you first land in Korea, you will not have your Residence Card (formerly known as the Alien Registration Card, or ARC) yet. It usually takes between 3 to 6 weeks after university registration to receive your physical Residence Card. 
+*   **Prepaid SIM/eSIM (Short-term):** Best for your first 3 to 4 weeks before your ARC is issued. You can buy these online or at Incheon International Airport using your passport.
+*   **eSIM (Digital-only):** Highly convenient as it requires no physical swap. In 2026, almost all modern smartphones support eSIMs in Korea, allowing you to activate your plan before you land.
+*   **Postpaid Carrier Plans (Long-term):** Monthly subscription plans. These offer the best rates and high-speed data but strictly require an ARC and a Korean bank account for auto-pay.
 
-During this initial transitional period, you must use a **prepaid plan registered under your passport**. These plans are perfect for exchange students staying for a single semester or degree students waiting for their residency documents.
+Here is a quick comparison table to help you visualize your options:
 
-### Physical SIM vs. eSIM in 2026
-In 2026, **eSIMs** have become the preferred standard for incoming students. 
-*   **eSIM (Embedded SIM):** You can purchase and download it online before you even board your flight. It allows you to keep your home country's physical SIM card in your phone to receive important OTP authentication texts from back home while simultaneously using Korean high-speed data.
-*   **Physical SIM:** Best if your smartphone is an older model that does not support eSIM technology. You can easily pick these up at Incheon International Airport (ICN) or have them delivered to your university dormitory.
-
-| Provider / Plan Name | Network | Estimated Price (2026) | Data & Voice Details | Best For |
+| Option Type | Best Suited For | ARC Required? | Typical Validity | Average Cost (KRW) |
 | :--- | :--- | :--- | :--- | :--- |
-| **KT Roaming eSIM (30 Days)** | KT | ₩71,500 ($53 USD) | Unlimited Data (3GB/day at 5G, then 5Mbps) + receiving voice/text | Hassle-free arrival, keeping home SIM active |
-| **Chingu Mobile Prepaid (Passport)** | SKT/KT | ₩35,000 ($26 USD) / month | Unlimited Data (15GB high speed, then 3Mbps) + 100 mins voice | Budget-conscious students waiting for their ARC |
-| **LG U+ Tour SIM (Daily)** | LG U+ | ₩5,500 ($4 USD) / day | Unlimited 5G Data + T-Money transportation card integration | Very short-term visits or family members visiting you |
+| **Airport Prepaid SIM** | First 10–30 days | No (Passport only) | 5, 10, 30 days | 25,000 – 60,000 |
+| **Tourist eSIM** | Instant setup on arrival | No (Passport only) | 5 to 30 days | 20,000 – 55,000 |
+| **MVNO (Budget Carrier)**| Students on a budget (1+ semesters) | Yes (for identity verification) | Monthly rolling | 15,000 – 35,000 |
+| **Major Carrier Contract**| 1–2 year stays with high usage | Yes | 1 to 2 years | 45,000 – 80,000 |
 
 ---
 
-## 3. Long-Term Options (Postpaid & MVNO Plans for Degree Students)
+## The Big Three Networks: SKT, KT, and LG U+
+Korea's mobile infrastructure is dominated by three major networks. All three offer blazing-fast 5G and reliable 4G LTE coverage across the country.
 
-Once your Residence Card (ARC) is issued, your digital life in Korea truly begins. With your Residence Card, you can convert your temporary passport-bound phone number into an **officially verified phone number registered under your resident identity**. 
+*   **SK Telecom (SKT):** The largest network provider in Korea. SKT boasts the fastest average speeds and excellent rural coverage, though their plans are generally the most expensive.
+*   **KT (Korea Telecom):** Highly popular among international students due to their robust English customer service and widespread "KT WiFi" zones in subways and public spaces.
+*   **LG U+:** Known for offering competitive data-heavy packages and excellent bundled deals if you also happen to need home internet.
 
-In Korea, this process is called *Bonin Injeung* (본인인증 - Identity Verification). Without a phone number matched to your legal resident name and ARC number, you cannot sign up for online shopping (Coupang), use food delivery apps (Baemin), register for online banking, or use taxi-hailing apps (KakaoT).
-
-### Long-Term Carrier Comparison
-For stays longer than one semester, you should immediately transition to one of the following long-term structures:
-
-| Plan Type | Typical Monthly Cost | Pros | Cons |
-| :--- | :--- | :--- | :--- |
-| **Major Carrier Contract (SKT/KT/LG U+)** | ₩45,000 – ₩80,000 | • Top-tier 5G speeds<br>• Excellent English customer support<br>• Combined family/home internet discounts | • Requires 1 or 2-year contract<br>• Cancellation fees apply if you leave early<br>• Expensive |
-| **Student-Focused MVNO (Altheul-pon)** | ₩15,000 – ₩35,000 | • No contract commitments<br>• Extremely affordable<br>• Easy online English registration | • Limited physical retail stores<br>• Fewer membership perks |
-
-### Recommended Long-Term Strategy for Students
-We highly recommend signing up for an **unlocked, contract-free long-term MVNO plan** using your Residence Card. Providers like *Chingu Mobile* or *Woori Mobile* have offices located right next to major university campuses (like Yonsei, SNU, and Korea University) and specialize in converting your passport-registered prepaid number over to your permanent ARC identity without any downtime.
+### What about MVNOs (Budget Carriers)?
+As a student, saving money is key. MVNOs (Mobile Virtual Network Operators) lease network space from the Big Three and resell it at a fraction of the price. Brands like **Chingu Mobile**, **Woori Mobile**, and **Inskorea** cater specifically to foreign students. They offer English support, easy sign-ups, and do not lock you into long, restrictive contracts.
 
 ---
 
-## 4. Step-by-Step Activation Guide
+## Short-Term vs. Long-Term Setup Guide
+The biggest hurdle for foreign students is **identity verification (본인인증 - Bonin Injeung)**. In Korea, your phone number is tied directly to your legal identity. You cannot use apps like Coupang, Baemin, or book tickets online without a phone number registered under your official ARC name.
 
-Setting up your mobile network in a new country can feel daunting. Follow this simple checklist to ensure a seamless activation process:
+Because of this, we highly recommend a two-phase approach:
 
+1.  **Phase 1 (Arrival - Month 1):** Use a temporary prepaid eSIM or physical SIM card registered under your passport. This keeps you connected for maps, messaging, and calls during your arrival and orientation weeks.
+2.  **Phase 2 (Month 2 onwards):** Once you receive your physical Residence Card (ARC) from immigration, visit a mobile store (or apply online via an MVNO) to update your mobile registration or switch to a long-term postpaid plan. This unlocks full access to the Korean digital ecosystem.
 
-[Before Departure] Check Phone Compatibility & Unlock Device
-       │
-       ▼
-[At Airport / Arrival] Activate Temporary Passport SIM/eSIM
-       │
-       ▼
-[Month 1 at University] Receive Physical Residence Card (ARC)
-       │
-       ▼
-[Transition] Visit Provider to Link ARC and Activate "Identity Verification"
-
-
-### Step 1: Unlock Your Device Before Leaving Home
-Ensure your smartphone is fully carrier-unlocked. If your phone is on a payment plan in your home country, your carrier may have locked it, preventing it from reading Korean SIM cards. Contact your local provider to request an unlock before departing.
-
-### Step 2: Acquire Your Temporary SIM/eSIM
-Purchase a 30-day temporary passport SIM/eSIM online. We recommend doing this at least a week before departure so you have the QR code (for eSIM) or pickup voucher ready on your phone when you land.
-
-### Step 3: Transition to Your Long-Term Plan
-Once you receive your Residence Card from the immigration office:
-1.  **Do not cancel your temporary number yet.** If you cancel it, you will lose the phone number you have been sharing with your school and friends.
-2.  Go to your service provider's physical branch or access their online expat customer portal.
-3.  Submit your **Residence Card**, **Korean Bank Account details** (for monthly auto-pay), and your **unlocked smartphone**.
-4.  Request a **"Name/Identity Update"** (명의변경) to link your phone number officially to your Residence Card.
-
-*Note: Make absolutely sure that the spelling of your name on your phone contract matches the spelling on your Residence Card down to the exact spacing and order (e.g., LASTNAME FIRSTNAME MIDDLE). Even a minor typo will prevent your Identity Verification from working later on.*
+*Note:* If you buy a prepaid card from student-friendly agencies like Chingu Mobile, they can often transition your temporary passport number registration to your new ARC number without you having to change your actual phone number.
 
 ---
 
-## 5. Pro-Tips for Navigating Korea’s Digital Space
+## Price Plans and Data Packages (2026 Estimates)
+To help you budget your monthly living expenses in Seoul or other university cities, here is a breakdown of popular plans available in 2026.
 
-To conclude our guide, here are three essential insider tips that will save you time, money, and frustration during your studies:
+| Provider | Plan Type | Data Limit | Calling/SMS | Monthly Price (KRW) |
+| :--- | :--- | :--- | :--- | :--- |
+| **KT Roaming (Prepaid)** | Short-term eSIM | Unlimited (3Mbps after daily 3GB) | Receive only | ~38,500 (30 days) |
+| **Chingu Mobile (MVNO)** | Long-term Prepaid | Unlimited (5Mbps after 11GB+2GB/day) | Unlimited | ~33,000 |
+| **Woori Mobile (MVNO)** | Budget Student Plan | 15GB (then 3Mbps speed cap) | 100 mins / 100 SMS | ~25,000 |
+| **SKT (T Direct)** | 5G Postpaid Contract | Unlimited 5G | Unlimited | ~69,000 |
+| **LG U+ (MVNO)** | Data Only | 20GB (No speed cap) | None | ~19,800 |
 
-*   **Protect Your Identity Verification (본인인증):** When verifying your identity online, you will often be prompted to select your carrier. If you are using a budget MVNO plan, do not select "SKT", "KT", or "LGU+". Instead, select the option labeled **알뜰폰 (MVNO)** and then select your underlying hosting network.
-*   **Utilize Campus Wi-Fi:** Korean universities have incredibly fast campus-wide Wi-Fi networks (usually called "Eduroam" or a custom university network). Because of this, you may not need to pay for an expensive unlimited data plan. A plan with 10GB to 15GB of monthly data is usually more than enough for most students.
-*   **Keep Your Home Number Active:** Use a dual-SIM setup (your home country's eSIM set to "Receive Texts Only" + your Korean physical SIM for local data). This keeps you accessible to your family and allows you to receive secure login codes for your home country's bank accounts.
+*Tip:* Avoid signing 2-year contracts with the major carriers unless you are absolutely sure you will stay the entire duration. Breaking a contract early results in hefty termination fees (*wiyeakgeum*).
 
-## Summary
+---
 
-Choosing the right mobile plan is your first major step toward a successful, stress-free life in South Korea. For your first month, rely on a flexible **passport-registered eSIM** to keep you connected. As soon as your **Residence Card** arrives, transition to a budget-friendly, contract-free **MVNO plan** to unlock the full power of Korea's digital ecosystem. 
+## Step-by-Step Activation & Crucial Tips
+To ensure your mobile setup is completely seamless, follow this practical checklist:
 
-Safe travels, study hard, and enjoy your incredible adventure in Korea!
+*   **Unlock Your Device:** Before leaving your home country, call your current carrier to ensure your smartphone is fully unlocked. Korean networks will reject locked devices.
+*   **Check eSIM Compatibility:** If using an eSIM, verify your device supports it (iPhone XS or newer, Samsung Galaxy S20 or newer).
+*   **Keep Your Passport Handy:** For airport pickups or immediate eSIM activations, your passport must be scanned. Ensure the name matches your visa exactly.
+*   **Match Names Exactly:** When you eventually register your SIM with your ARC, your name on the mobile contract must match the name on your ARC *exactly* (including spaces and order). If they do not match, online identity verification will fail.
+*   **Download the PASS App:** Once your ARC is linked to your phone plan, download the "PASS" app (by your respective carrier). It simplifies online identity authentication for Korean websites.
+
+Getting connected in South Korea is highly efficient. By starting with a flexible eSIM and transitioning to a student-friendly MVNO once your ARC arrives, you will save money while enjoying some of the fastest internet speeds in the world. Welcome to your new academic adventure!

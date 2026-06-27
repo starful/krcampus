@@ -1,90 +1,127 @@
 ---
-basic_info:
-  address: 76 Hanggongdaehak-ro, Deogyang-gu, Goyang-si, Gyeonggi-do, Republic of
-    Korea
-  capacity: null
-  name_en: Korea Aerospace University
-  name_ko: 한국항공대학교
-category: university
-date: '2026-06-10'
-faculties:
-- Aeronautical and Mechanical Engineering
-- Electronics and Information Engineering
-- Software and Aviation Computer Engineering
-- Smart Air Mobility
-- Materials Science and Engineering
-- Flight Operations
-- Air Transport, Transportation and Logistics
-- Business Administration
-features:
-- South Korea's premier specialized university dedicated to aviation and aerospace
-- Affiliated with the Hanjin Group (parent company of Korean Air), providing elite
-  networking
-- Equipped with its own runway, flight training center, and simulation labs
-- Highly specialized programs in Air Traffic Control and Aviation Logistics
-id: univ_korea-aerospace-university
-lang: en
-layout: school
-location:
-  lat: 37.6003073
-  lng: 126.8653933
-stats:
-  acceptance_rate: Estimated 45-55%
-  international_students: 320
-tags:
-- South Korea's premier specialized university dedicated to aviation and aerospace
-- Affiliated with the Hanjin Group (parent company of Korean Air), providing elite
-  networking
-- Equipped with its own runway, flight training center, and simulation labs
-- Highly specialized programs in Air Traffic Control and Aviation Logistics
-thumbnail: /static/img/pin-univ.png
-title: Korea Aerospace University
-tuition:
-  admission_fee: 450000
-  yearly_tuition: 8900000
+{
+  "basic_info": {
+    "address": "76 Hanggongdaehak-ro, Deogyang-gu, Goyang-si, Gyeonggi-do, Republic of Korea",
+    "capacity": null,
+    "name_en": "Korea Aerospace University",
+    "name_ko": "한국항공대학교"
+  },
+  "category": "university",
+  "date": "2026-06-10",
+  "faculties": [
+    "Aeronautical and Mechanical Engineering",
+    "Electronics and Information Engineering",
+    "Software and Aviation Computer Engineering",
+    "Smart Air Mobility",
+    "Materials Science and Engineering",
+    "Flight Operations",
+    "Air Transport, Transportation and Logistics",
+    "Business Administration"
+  ],
+  "features": [
+    "South Korea's premier specialized university dedicated to aviation and aerospace",
+    "Affiliated with the Hanjin Group (parent company of Korean Air), providing elite networking",
+    "Equipped with its own runway, flight training center, and simulation labs",
+    "Highly specialized programs in Air Traffic Control and Aviation Logistics"
+  ],
+  "id": "univ_korea-aerospace-university",
+  "lang": "en",
+  "layout": "school",
+  "location": {
+    "lat": 37.6003073,
+    "lng": 126.8653933
+  },
+  "stats": {
+    "acceptance_rate": "Estimated 45-55%",
+    "international_students": 320
+  },
+  "tags": [
+    "South Korea's premier specialized university dedicated to aviation and aerospace",
+    "Affiliated with the Hanjin Group (parent company of Korean Air), providing elite networking",
+    "Equipped with its own runway, flight training center, and simulation labs",
+    "Highly specialized programs in Air Traffic Control and Aviation Logistics"
+  ],
+  "thumbnail": "/static/img/pin-univ.png",
+  "title": "Korea Aerospace University",
+  "tuition": {
+    "admission_fee": 450000,
+    "yearly_tuition": 8900000
+  }
+}
 ---
 
-## University Overview
+# Korea Aerospace University (KAU) International Student Guide
 
-Established in 1952, **Korea Aerospace University (KAU)** is the only university in South Korea specializing exclusively in aviation, aerospace engineering, and aviation logistics. Located in Goyang, Gyeonggi Province—just on the northwestern border of Seoul—KAU enjoys a unique reputation as the top cradle for aviation experts, commercial pilots, aerospace researchers, and global logistics managers in the country.
+## 1. University Overview
+Established in 1952, Korea Aerospace University (KAU) is South Korea’s premier specialized institution dedicated to aviation, aerospace science, and logistics. Located in Goyang-si, Gyeonggi-do (just northwest of Seoul), KAU has played a foundational role in training the elite engineers, pilots, and air traffic controllers who drove South Korea's aerospace industry.
 
-KAU was acquired by the Hanjin Group (the conglomerate that owns Korean Air) in 1979. This strong corporate backing ensures that KAU's curriculum remains perfectly aligned with industry standards, offering students unparalleled opportunities for internships, practical training, and direct recruitment pathways into Korean Air and its global affiliates.
+A key advantage is KAU's corporate affiliation with the Hanjin Group (parent company of Korean Air). This partnership provides students with elite networking opportunities and career pathways. KAU stands out globally as one of the few universities equipped with its own private runway, an advanced flight training center, and state-of-the-art flight simulation laboratories.
 
----
+| Metric | Detail & Figures |
+| :--- | :--- |
+| **Location** | 76 Hanggongdaehak-ro, Deogyang-gu, Goyang-si |
+| **Affiliation** | Hanjin Group (Korean Air) |
+| **Int'l Students** | ~320 |
+| **Acceptance Rate** | Estimated 45% - 55% |
+| **Infrastructure** | Runway, flight training center, simulation labs |
 
-## Academic Strengths & Specializations
+## 2. English-Taught & International Programs
+KAU continues to expand its English-medium academic offerings to attract global talent. At the undergraduate level, the School of Business Administration and the department of Air Transport, Transportation and Logistics offer core courses in English, focusing on global supply chain management, airport operations, and international aviation law. 
 
-KAU is famous for its hyper-focused academic programs that are difficult to find at general universities:
+For postgraduate seekers, the Graduate School provides robust Master’s and Ph.D. tracks in advanced aerospace engineering fields where the primary medium of instruction and research is English. KAU maintains active research partnerships with global entities like NASA, Boeing, and Airbus, offering international students valuable global exposure.
 
-*   **Flight Operations (Commercial Pilot Program):** The most competitive department at KAU. Students undergo rigorous flight training using KAU's own fleet and training centers, preparing them to transition smoothly into commercial airline cockpits.
-*   **Aerospace & Mechanical Engineering:** Focused on the design, production, and maintenance of aircraft, satellites, and space launch vehicles. KAU researchers participate heavily in national aerospace projects alongside KARI (Korea Aerospace Research Institute).
-*   **Air Transport, Transportation & Logistics:** Combining aviation law, air traffic control, and international shipping mechanics, this department produces logistics executives and airport operations specialists who manage global supply chains.
-*   **AI & Smart Air Mobility:** Recognizing the future of urban air mobility (UAM) and drones, KAU has invested heavily in cutting-edge curricula blending artificial intelligence with autonomous flight systems.
+## 3. Faculties & Academic Strengths
+KAU's academic structure is highly specialized, offering cutting-edge engineering and practical aviation management across several faculties:
 
----
+* **Aeronautical and Mechanical Engineering:** Focuses on aircraft design and propulsion.
+* **Electronics and Information Engineering:** Centered on avionics and satellite communications.
+* **Software and Aviation Computer Engineering:** Training software engineers for aviation systems.
+* **Smart Air Mobility:** Focuses on drones, urban air mobility, and autonomous flight.
+* **Materials Science and Engineering:** Developing ultra-light, high-strength materials.
+* **Flight Operations:** The elite pilot-training division utilizing KAU’s runway and labs.
+* **Air Transport, Transportation and Logistics:** Highly specialized program focusing on ATC and logistics.
+* **Business Administration:** General business management with airport management pathways.
 
-## Campus Life and Infrastructure
+## 4. Tuition, Fees & Scholarships
+Compared to equivalent specialized programs in Western nations, KAU offers a cost-effective education. Tuition fees vary slightly between the Humanities/Business and Engineering/Flight tracks.
 
-KAU offers a highly focused, tight-knit campus community. Because of its specialized nature, the campus features unique facilities that you will not find at other Korean universities:
+| Fee Category | Humanities & Business (KRW) | Engineering & Aviation (KRW) |
+| :--- | :--- | :--- |
+| **Admission Fee (One-time)** | 450,000 | 450,000 |
+| **Semester Tuition (Est.)** | 3,800,000 | 4,900,000 |
+| **Yearly Tuition (Average)** | 7,600,000 | 9,800,000 |
+| **Estimated Housing / Sem.** | 1,200,000 | 1,200,000 |
 
-*   **On-Campus Runway & Hangar:** KAU features its own airfield runway and maintenance hangars used for flight training, drone testing, and structural engineering research.
-*   **Susaek Station Location:** The campus sits right next to Hanggongdaehak (KAU) Station on the Gyeongui-Jungang subway line, allowing students to travel to hotspots in Seoul like Hongdae, Sinchon, and Digital Media City (DMC) within 10 to 15 minutes.
-*   **Flight Simulators & Labs:** Virtual air traffic control towers and state-of-the-art flight simulators provide hands-on experience before students ever step into a real aircraft.
+KAU offers excellent scholarship opportunities for international applicants:
+1. **Admissions TOPIK Scholarship:** New students receive a tuition waiver of 30% to 100% for their first semester based on their TOPIK score (TOPIK Level 3 to 6).
+2. **English Proficiency Scholarship:** Offered to students entering English-track programs with outstanding IELTS, TOEFL, or Duolingo scores.
+3. **Academic Merit Scholarship:** Continuing students who maintain a high GPA (above 3.0/4.5) qualify for 30% to 70% tuition waivers for subsequent semesters.
 
----
+## 5. Admissions for International Students
+KAU runs a streamlined admission process twice a year for the Spring (March) and Fall (September) semesters.
 
-## Guide for International Students
+* **Academic Requirements:** Applicants must hold a high school diploma for undergraduate admissions, or a Bachelor’s degree for graduate admissions.
+* **Language Requirements:** For the Korean Track, a minimum TOPIK Level 3 is required. For the English Track (Est.), a TOEFL iBT 80, IELTS 5.5, or Duolingo 100 is expected.
+* **Required Documents:** Graduation certificates, transcripts, proof of financial self-sufficiency (typically USD 16,000+), a personal statement, and passport copy. All educational certificates must be notarized via Apostille or Consular authentication.
 
-### Admission Requirements
-For undergraduate programs, international applicants must possess a high school diploma and meet language requirements. Since most core aviation and engineering courses are conducted in Korean, a **TOPIK (Test of Proficiency in Korean) level 3 or higher** is generally required. However, certain specialized graduate programs and business courses are offered in English, where English proficiency test scores (TOEFL, IELTS) can be used for admission.
+## 6. Campus Life & Location
+Located at **76 Hanggongdaehak-ro, Deogyang-gu, Goyang-si, Gyeonggi-do**, KAU offers a focused academic environment with rapid urban access. The campus is directly served by Hwajeon Station (Gyeongui-Jungang Line), allowing students to reach the heart of Seoul (Sinchon and Hongdae) in under 25 minutes.
 
-### Scholarships
-KAU offers attractive merit-based scholarships for international students:
-*   **Admission Scholarship:** Based on initial TOPIK scores, students can receive a 30% to 100% waiver on their tuition fees for the first semester.
-*   **Academic Excellence Scholarship:** Continuing students who maintain competitive GPAs can receive tuition waivers ranging from 30% to 70% for subsequent semesters.
+On campus, international students enjoy a vibrant community. The "International House" dormitory offers modern, affordable living spaces. Extracurricular life is dominated by aviation culture; students can join specialized rocket-launching clubs, drone-racing associations, and flight-simulation teams. Its strategic location close to Gimpo (GMP) and Incheon (ICN) airports provides unmatched opportunities for field trips, internships, and research projects.
 
-### Career Outlook
-Graduates from KAU enjoy some of the highest employment rates in South Korea. Prominent career tracks include:
-1.  **Airlines:** Pilots, cabin crew, aircraft maintenance engineers, and corporate staff at Korean Air, Jin Air, and other global airlines.
-2.  **Public Sector:** Incheon International Airport Corporation, Korea Airports Corporation, and the Korea Transportation Safety Authority.
-3.  **Global Logistics:** Domestic and international shipping giants, maritime logistics networks, and global supply chain consulting firms.
+## 7. FAQ
+
+### Is KAU's Flight Operations program open to international students?
+Yes, international students can apply. However, due to the practical nature of flight training and airspace regulations, strict physical examinations and high Korean language proficiency (TOPIK Level 4+) are mandatory.
+
+### What job opportunities exist after graduating from KAU?
+Through KAU's deep ties with the Hanjin Group, graduates are highly sought after by Korean Air, Jin Air, major airports, logistics corporations, and aerospace research institutes like KARI (Korea Aerospace Research Institute).
+
+### Can I work part-time while studying at KAU?
+Yes. International students holding a valid D-2 visa can work part-time up to 20 hours per week during semesters (and unlimited hours during vacations) once they obtain permission from the university and immigration office.
+
+### Does KAU offer Korean language courses for beginners?
+Yes. KAU's Global Education Center offers intensive Korean Language Programs designed to take complete beginners to TOPIK Level 3 or 4 within a year, preparing them for academic entry.
+
+### Are there specialized facilities for drone and UAM research?
+Absolutely. KAU is a pioneer in Smart Air Mobility. The campus features specialized drone outdoor testing areas, robotics laboratories, and simulation centers dedicated to autonomous flight and future urban transportation.
