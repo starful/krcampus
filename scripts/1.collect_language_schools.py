@@ -7,6 +7,8 @@ from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from google.generativeai.types import GenerationConfig
 from common import setup_logging, setup_gemini, clean_json_response, maps_api_key, DATA_DIR, CONTENT_DIR, LOG_DIR
+from content_generator import generate_english_body, refresh_school_meta
+from content_specs import validate_body
 
 setup_logging("school_gen.log")
 model = setup_gemini()
@@ -53,13 +55,11 @@ def get_google_coordinates(city, region):
     return {"lat": 37.5665, "lng": 126.9780}
 
 
-def get_language_school_info(name_ko, name_en, region, city):
+def get_language_school_meta(name_ko, name_en, region, city):
     prompt = f"""
-    You are an expert on Korean language institutes for international students.
-    Write a comprehensive English guide for "{name_ko}" ({name_en}) in {city}, {region}, South Korea.
-    The Markdown body in "description" must be **between 4500 and 6000 characters**, focused on programs, tuition, D-4 visa, TOPIK, dormitory, and FAQ (5+ ## sections, 2+ tables).
+    Return JSON only for Korean language institute "{name_ko}" ({name_en}) in {city}, {region}, South Korea.
+    Do NOT write a long markdown article. Provide structured metadata only.
 
-    Required JSON Structure:
     {{
         "english_slug": "url-friendly-slug",
         "basic_info": {{
@@ -71,8 +71,13 @@ def get_language_school_info(name_ko, name_en, region, city):
         "courses": [
             {{"course_name": "Regular Program", "admission_month": "3", "total_fees": 1500000}}
         ],
+        "tuition": {{
+            "registration_fee": 80000,
+            "quarterly_tuition": 1650000,
+            "textbook_fee": 80000
+        }},
         "features": ["TOPIK prep", "Dormitory", "University prep"],
-        "description": "## School Overview\\n...markdown body..."
+        "summary": "One-sentence English SEO description for international students."
     }}
     """
     for i in range(3):
@@ -95,9 +100,9 @@ def process_school(row):
     region = row.get("region", "Seoul")
     city = row.get("city", region)
 
-    data = get_language_school_info(name_ko, name_en, region, city)
+    data = get_language_school_meta(name_ko, name_en, region, city)
     if not data:
-        return f"Failed: {name_ko}"
+        return f"Failed meta: {name_ko}"
 
     coords = get_google_coordinates(city, region)
     raw_slug = data.get("english_slug", name_en.replace(" ", "-").lower())
@@ -116,16 +121,24 @@ def process_school(row):
         "features": data.get("features", []),
         "faculties": [],
         "stats": {"capacity": data["basic_info"].get("capacity")},
-        "tuition": {},
+        "tuition": data.get("tuition") or {},
         "lang": "en",
     }
+    frontmatter_data = refresh_school_meta(frontmatter_data)
+
+    body = generate_english_body("school", frontmatter_data)
+    if not body:
+        return f"Failed body: {name_ko}"
+    ok, reason = validate_body("school", body)
+    if not ok:
+        return f"Failed validation ({name_ko}): {reason}"
 
     filepath = os.path.join(OUTPUT_DIR, f"{slug}.md")
     with open(filepath, "w", encoding="utf-8") as f:
         f.write("---\n")
         f.write(json.dumps(frontmatter_data, ensure_ascii=False, indent=2))
         f.write("\n---\n\n")
-        f.write(data.get("description", "No content available."))
+        f.write(body)
 
     append_history(name_ko)
     return f"Saved: {slug}.md"

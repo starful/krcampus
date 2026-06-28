@@ -4,11 +4,12 @@ import time
 import re
 import frontmatter
 from datetime import datetime
-from common import setup_logging, setup_gemini, clean_json_response, DATA_DIR, CONTENT_DIR, LOG_DIR
+from common import setup_logging, DATA_DIR, CONTENT_DIR, LOG_DIR
+from content_generator import generate_english_body
+from content_specs import validate_body
 
 # --- 설정 ---
 setup_logging("auto_featured.log")
-model = setup_gemini()
 
 # 학교 데이터 경로
 SCHOOLS_JSON = os.path.join(os.path.dirname(DATA_DIR), "app", "static", "json", "schools_data.json")
@@ -131,40 +132,26 @@ def filter_schools(schools, criteria, limit):
 
 def generate_article_content(topic, selected_schools):
     print(f"🤖 Writing Curated List: {topic['title']}...")
-    
+
     schools_context = ""
     for s in selected_schools:
-        name = s['basic_info']['name_en'] or s['basic_info']['name_ja']
+        name = s['basic_info']['name_en'] or s['basic_info'].get('name_ko', '')
         features = ", ".join(s.get('features', []))
         schools_context += f"- {name}: {features}\n"
 
-    prompt = f"""
-    You are an expert educational editor. Write a high-quality "Curated Guide" article.
-    Title: "{topic['title']}"
-    
-    Structure:
-    1. Introduction: Explain the importance of this choice for international students (approx 120 words).
-    2. The Selection: List each school below with a catchy subheading.
-    3. Deep Dive: For each school, provide a 2-paragraph explanation of why it was selected, its unique culture, and specific benefits for foreigners.
-    4. Conclusion: Final advice on how to apply.
+    meta = {
+        "title": topic["title"],
+        "description": f"Curated recommendations for international students in South Korea: {topic['title']}",
+        "category": "Curated List",
+    }
+    guide_extra = f"""
+Write a curated ranking/guide for **Study in South Korea** (not Japan).
+Include an introduction, a section for each school below with ### subheadings, comparison tables, and a conclusion with application tips.
 
-    Constraints:
-    - Use professional, encouraging English for **Study in Korea** (not Japan).
-    - Standard Markdown (## for sections).
-    - **Total length must be between 6000 and 7000 characters.**
-    - Include at least 2 Markdown tables.
-    
-    Schools to include:
-    {schools_context}
-    """
-    
-    try:
-        # 텍스트가 길어질 수 있으므로 flash 모델의 토큰 제한 내에서 최대한 길게 요청
-        response = model.generate_content(prompt)
-        return clean_json_response(response.text)
-    except Exception as e:
-        print(f"❌ Error during AI generation: {e}")
-        return None
+Schools to feature:
+{schools_context}
+"""
+    return generate_english_body("guide", meta, guide_extra=guide_extra)
 
 def apply_auto_links(content, link_index):
     updated_content = content
@@ -185,32 +172,39 @@ def main():
         if not selected: continue
             
         raw_content = generate_article_content(topic, selected)
-        if raw_content:
-            linked_content = apply_auto_links(raw_content, link_index)
-            
-            filename = f"guide_{topic['slug']}.md"
-            filepath = os.path.join(CONTENT_DIR, filename)
-            
-            meta = {
-                "layout": "guide",
-                "id": topic['slug'],
-                "title": topic['title'],
-                "category": "Curated List",
-                "is_featured": True,
-                "tags": ["Ranking", "Recommendation", topic['slug']],
-                "description": f"Explore our top picks for {topic['title']}. Discover the best schools matching your career and lifestyle goals in Japan.",
-                "thumbnail": topic['thumbnail'],
-                "date": datetime.now().strftime("%Y-%m-%d")
-            }
-            
-            with open(filepath, 'w', encoding='utf-8') as f:
-                f.write("---\n")
-                f.write(json.dumps(meta, ensure_ascii=False, indent=2))
-                f.write("\n---\n\n")
-                f.write(linked_content)
-                
-            print(f"✅ Created: {filename}")
-            time.sleep(5) # API 속도 제한 준수
+        if not raw_content:
+            print(f"❌ Skipped (generation failed): {topic['slug']}")
+            continue
+        ok, reason = validate_body("guide", raw_content)
+        if not ok:
+            print(f"❌ Skipped ({topic['slug']}): {reason}")
+            continue
+
+        linked_content = apply_auto_links(raw_content, link_index)
+
+        filename = f"guide_{topic['slug']}.md"
+        filepath = os.path.join(CONTENT_DIR, filename)
+
+        meta = {
+            "layout": "guide",
+            "id": topic['slug'],
+            "title": topic['title'],
+            "category": "Curated List",
+            "is_featured": True,
+            "tags": ["Ranking", "Recommendation", topic['slug']],
+            "description": f"Explore our top picks for {topic['title']}. Discover the best schools matching your career and lifestyle goals in Korea.",
+            "thumbnail": topic['thumbnail'],
+            "date": datetime.now().strftime("%Y-%m-%d"),
+        }
+
+        with open(filepath, 'w', encoding='utf-8') as f:
+            f.write("---\n")
+            f.write(json.dumps(meta, ensure_ascii=False, indent=2))
+            f.write("\n---\n\n")
+            f.write(linked_content)
+
+        print(f"✅ Created: {filename}")
+        time.sleep(5)
 
 if __name__ == "__main__":
     main()

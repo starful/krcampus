@@ -6,13 +6,12 @@ import logging
 import glob
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from common import setup_logging, setup_gemini, clean_json_response, DATA_DIR, CONTENT_DIR, LOG_DIR
+from common import setup_logging, DATA_DIR, CONTENT_DIR, LOG_DIR
 from content_generator import generate_english_body
 from content_specs import validate_body
 
 # --- 설정 ---
 setup_logging("guide_gen.log")
-model = setup_gemini()
 
 INPUT_CSV = os.path.join(DATA_DIR, "guide_topics.csv")
 OUTPUT_DIR = CONTENT_DIR
@@ -74,32 +73,34 @@ def process_topic(row):
     filepath = os.path.join(OUTPUT_DIR, filename)
 
     content_body = generate_content(row)
-    
-    if content_body:
-        ok, reason = validate_body("guide", content_body)
-        if not ok:
-            logging.warning(f"guide {slug}: {reason}")
-        thumbnail_url = get_thumbnail(row['category'])
-        frontmatter_data = {
-            "layout": "guide", 
-            "id": slug, 
-            "title": row['title'],
-            "category": row['category'], 
-            "tags": [row['category']],
-            "description": row['description'], 
-            "thumbnail": thumbnail_url,
-            "date": time.strftime("%Y-%m-%d")
-        }
-        with open(filepath, 'w', encoding='utf-8') as f:
-            f.write("---\n")
-            f.write(json.dumps(frontmatter_data, ensure_ascii=False, indent=2))
-            f.write("\n---\n\n")
-            f.write(content_body)
-        
-        append_history(slug)
-        return f"✅ Success: {filename}"
-    else:
+
+    if not content_body:
         return f"❌ Failed: {slug}"
+
+    ok, reason = validate_body("guide", content_body)
+    if not ok:
+        logging.warning(f"guide {slug}: {reason}")
+        return f"❌ Failed validation: {slug} — {reason}"
+
+    thumbnail_url = get_thumbnail(row['category'])
+    frontmatter_data = {
+        "layout": "guide",
+        "id": slug,
+        "title": row['title'],
+        "category": row['category'],
+        "tags": [row['category']],
+        "description": row['description'],
+        "thumbnail": thumbnail_url,
+        "date": time.strftime("%Y-%m-%d"),
+    }
+    with open(filepath, 'w', encoding='utf-8') as f:
+        f.write("---\n")
+        f.write(json.dumps(frontmatter_data, ensure_ascii=False, indent=2))
+        f.write("\n---\n\n")
+        f.write(content_body)
+
+    append_history(slug)
+    return f"✅ Success: {filename}"
 
 def main():
     if not os.path.exists(INPUT_CSV):

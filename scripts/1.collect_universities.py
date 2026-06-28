@@ -7,6 +7,8 @@ from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from google.generativeai.types import GenerationConfig
 from common import setup_logging, setup_gemini, clean_json_response, maps_api_key, DATA_DIR, CONTENT_DIR, LOG_DIR
+from content_generator import generate_english_body
+from content_specs import validate_body
 
 setup_logging("univ_gen.log")
 model = setup_gemini()
@@ -50,13 +52,11 @@ def get_google_coordinates(address):
     return {"lat": 37.5665, "lng": 126.9780}
 
 
-def get_university_info(name_ko, name_en, region):
+def get_university_meta(name_ko, name_en, region):
     prompt = f"""
-    You are an expert consultant for international students planning to study in South Korea.
-    Analyze the university "{name_ko}" ({name_en}) in {region} and write an in-depth guide in **ENGLISH**.
-    The Markdown body in "description" must be **between 6000 and 7000 characters**, with at least 5 ## sections and 2 tables.
+    Return JSON only for university "{name_ko}" ({name_en}) in {region}, South Korea.
+    Do NOT write a long markdown article. Provide structured metadata only.
 
-    Required JSON Structure:
     {{
         "english_slug": "url-friendly-slug-in-english",
         "basic_info": {{
@@ -75,7 +75,7 @@ def get_university_info(name_ko, name_en, region):
         }},
         "faculties": ["List", "of", "faculties"],
         "features": ["Key Feature 1", "Key Feature 2"],
-        "description": "## University Overview\\n...long markdown body..."
+        "summary": "One-sentence English SEO description for international applicants."
     }}
     """
     for i in range(3):
@@ -97,9 +97,9 @@ def process_university(univ):
     name_en = univ["name_en"]
     region = univ.get("region", "Seoul")
 
-    data = get_university_info(name_ko, name_en, region)
+    data = get_university_meta(name_ko, name_en, region)
     if not data:
-        return f"Failed: {name_ko}"
+        return f"Failed meta: {name_ko}"
 
     addr = data["basic_info"].get("address")
     coords = get_google_coordinates(addr)
@@ -123,12 +123,19 @@ def process_university(univ):
         "lang": "en",
     }
 
+    body = generate_english_body("university", frontmatter_data)
+    if not body:
+        return f"Failed body: {name_ko}"
+    ok, reason = validate_body("university", body)
+    if not ok:
+        return f"Failed validation ({name_ko}): {reason}"
+
     filepath = os.path.join(OUTPUT_DIR, f"{slug}.md")
     with open(filepath, "w", encoding="utf-8") as f:
         f.write("---\n")
         f.write(json.dumps(frontmatter_data, ensure_ascii=False, indent=2))
         f.write("\n---\n\n")
-        f.write(data.get("description", "No content available."))
+        f.write(body)
 
     append_history(name_ko)
     return f"Saved: {slug}.md"

@@ -90,9 +90,21 @@ def _check_content_lengths() -> tuple[list[CheckResult], list[CheckResult]]:
         ok, reason = validate_body(kind, body)
         label = f"{fp.name} ({len(body.strip())} chars)"
         if ok:
-            passed.append(CheckResult(True, f"content length: {label}"))
+            passed.append(CheckResult(True, f"content length EN: {label}"))
         else:
-            failed.append(CheckResult(False, f"content length: {label} — {reason}"))
+            failed.append(CheckResult(False, f"content length EN: {label} — {reason}"))
+
+        ja_fp = fp.with_name(fp.stem + "_ja.md")
+        if not ja_fp.is_file():
+            continue
+        ja_post = frontmatter.load(ja_fp)
+        ja_body = ja_post.content or ""
+        ja_label = f"{ja_fp.name} ({len(ja_body.strip())} chars)"
+        ja_ok, ja_reason = validate_body(kind, ja_body)
+        if ja_ok:
+            passed.append(CheckResult(True, f"content length JA: {ja_label}"))
+        else:
+            failed.append(CheckResult(False, f"content length JA: {ja_label} — {ja_reason}"))
 
     return passed, failed
 

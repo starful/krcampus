@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-"""Generate missing *_ja.md from English sources (Gemini, parallel)."""
+"""DEPRECATED — use scripts/3.create_japanese_content.py or expand_all_content.py --ja instead."""
 from __future__ import annotations
 
 import json
 import os
+import subprocess
+import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
@@ -133,6 +135,15 @@ Input:
 
 
 def main() -> None:
+    print(
+        "DEPRECATED: bulk_generate_ja.py uses short-body stubs.\n"
+        "Use: python3 scripts/3.create_japanese_content.py\n"
+        "  or: python3 scripts/expand_all_content.py --ja --failed-only"
+    )
+    script = BASE / "scripts" / "3.create_japanese_content.py"
+    if script.is_file() and os.getenv("BULK_JA_LEGACY", "").strip() != "1":
+        raise SystemExit(subprocess.call([sys.executable, str(script)]))
+
     pending = pending_sources()
     print(f"Pending JA: {len(pending)} | workers={MAX_WORKERS} | model={MODEL}")
     if not pending:
