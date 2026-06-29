@@ -9,11 +9,16 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from common import setup_logging, DATA_DIR, CONTENT_DIR, LOG_DIR
 from content_generator import generate_english_body
 from content_specs import validate_body
+from topic_queue_csv import resolve as resolve_queue_csv
 
 # --- 설정 ---
 setup_logging("guide_gen.log")
 
 INPUT_CSV = os.path.join(DATA_DIR, "guide_topics.csv")
+
+
+def _guide_topics_csv() -> str:
+    return resolve_queue_csv("guide_topics", INPUT_CSV)
 OUTPUT_DIR = CONTENT_DIR
 HISTORY_FILE = os.path.join(LOG_DIR, "guide_processed_history.txt")
 
@@ -108,7 +113,12 @@ def main():
         return
     if not os.path.exists(OUTPUT_DIR): os.makedirs(OUTPUT_DIR)
 
-    with open(INPUT_CSV, 'r', encoding='utf-8-sig') as f:
+    csv_path = _guide_topics_csv()
+    if not os.path.exists(csv_path):
+        print(f"❌ CSV file not found: {csv_path}")
+        return
+
+    with open(csv_path, 'r', encoding='utf-8-sig') as f:
         reader = csv.DictReader(f)
         all_topics = list(reader)
 

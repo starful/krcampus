@@ -9,6 +9,7 @@ from google.generativeai.types import GenerationConfig
 from common import setup_logging, setup_gemini, clean_json_response, maps_api_key, DATA_DIR, CONTENT_DIR, LOG_DIR
 from content_generator import generate_english_body
 from content_specs import validate_body
+from topic_queue_csv import resolve as resolve_queue_csv
 
 setup_logging("univ_gen.log")
 model = setup_gemini()
@@ -16,6 +17,10 @@ model = setup_gemini()
 LIMIT = 100
 MAX_WORKERS = 5
 INPUT_CSV = os.path.join(DATA_DIR, "universities.csv")
+
+
+def _universities_csv() -> str:
+    return resolve_queue_csv("universities", INPUT_CSV)
 OUTPUT_DIR = CONTENT_DIR
 HISTORY_FILE = os.path.join(LOG_DIR, "univ_processed_history.txt")
 MAPS_API_KEY = maps_api_key()
@@ -142,13 +147,14 @@ def process_university(univ):
 
 
 def main():
-    if not os.path.exists(INPUT_CSV):
-        print(f"Missing {INPUT_CSV}")
+    csv_path = _universities_csv()
+    if not os.path.exists(csv_path):
+        print(f"Missing {csv_path}")
         return
 
     processed_list = load_history()
     univ_list = []
-    with open(INPUT_CSV, "r", encoding="utf-8-sig") as f:
+    with open(csv_path, "r", encoding="utf-8-sig") as f:
         reader = csv.DictReader(f)
         for row in reader:
             if row["name_ko"] not in processed_list:
