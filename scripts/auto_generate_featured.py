@@ -5,7 +5,7 @@ import re
 import frontmatter
 from datetime import datetime
 from common import setup_logging, DATA_DIR, CONTENT_DIR, LOG_DIR
-from content_generator import generate_english_body
+from content_generator import generate_english_body, _try_condense
 from content_specs import validate_body
 
 # --- 설정 ---
@@ -163,6 +163,20 @@ def apply_auto_links(content, link_index):
             updated_content = pattern.sub(f"[{name}]({link})", updated_content, count=1)
     return updated_content
 
+def finalize_guide_body(raw_content: str, link_index: list) -> str | None:
+    """Apply internal links then ensure body fits guide length limits."""
+    linked = apply_auto_links(raw_content, link_index)
+    ok, reason = validate_body("guide", linked)
+    if ok:
+        return linked
+    if reason.startswith("too long"):
+        condensed = _try_condense("guide", linked, reason)
+        if condensed:
+            return condensed
+    print(f"  validation failed after links: {reason} ({len(linked.strip())} chars)")
+    return None
+
+
 def main():
     schools, link_index = load_data_and_build_index()
     if not schools: return
@@ -175,12 +189,11 @@ def main():
         if not raw_content:
             print(f"❌ Skipped (generation failed): {topic['slug']}")
             continue
-        ok, reason = validate_body("guide", raw_content)
-        if not ok:
-            print(f"❌ Skipped ({topic['slug']}): {reason}")
-            continue
 
-        linked_content = apply_auto_links(raw_content, link_index)
+        linked_content = finalize_guide_body(raw_content, link_index)
+        if not linked_content:
+            print(f"❌ Skipped ({topic['slug']}): length/structure check failed after links")
+            continue
 
         filename = f"guide_{topic['slug']}.md"
         filepath = os.path.join(CONTENT_DIR, filename)
