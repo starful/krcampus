@@ -40,7 +40,7 @@ generate_content() {
     [ -f scripts/2.generate_ai_guides.py ] && python3 scripts/2.generate_ai_guides.py || print_warn "skip guides"
     [ -f scripts/1.collect_language_schools.py ] && python3 scripts/1.collect_language_schools.py || print_warn "skip language schools"
     [ -f scripts/1.collect_universities.py ] && python3 scripts/1.collect_universities.py || print_warn "skip universities"
-    [ -f scripts/3.create_japanese_content.py ] && python3 scripts/3.create_japanese_content.py || print_warn "skip JA translation"
+    [ -f scripts/3.generate_japanese_native.py ] && python3 scripts/3.generate_japanese_native.py || print_warn "skip JA native"
     [ -f scripts/auto_generate_featured.py ] && python3 scripts/auto_generate_featured.py || true
     print_ok "Content generation done"
 }

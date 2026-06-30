@@ -177,14 +177,28 @@ def finalize_guide_body(raw_content: str, link_index: list) -> str | None:
     return None
 
 
+def _regenerate_featured() -> bool:
+    return os.getenv("REGENERATE_FEATURED", "").strip().lower() in ("1", "true", "yes")
+
+
 def main():
     schools, link_index = load_data_and_build_index()
-    if not schools: return
+    if not schools:
+        return
 
+    skipped = created = 0
     for topic in TOPICS:
+        filename = f"guide_{topic['slug']}.md"
+        filepath = os.path.join(CONTENT_DIR, filename)
+        if os.path.isfile(filepath) and not _regenerate_featured():
+            print(f"⏭️ Skip (exists): {filename}")
+            skipped += 1
+            continue
+
         selected = filter_schools(schools, topic["criteria"], topic["count"])
-        if not selected: continue
-            
+        if not selected:
+            continue
+
         raw_content = generate_article_content(topic, selected)
         if not raw_content:
             print(f"❌ Skipped (generation failed): {topic['slug']}")
@@ -194,9 +208,6 @@ def main():
         if not linked_content:
             print(f"❌ Skipped ({topic['slug']}): length/structure check failed after links")
             continue
-
-        filename = f"guide_{topic['slug']}.md"
-        filepath = os.path.join(CONTENT_DIR, filename)
 
         meta = {
             "layout": "guide",
@@ -217,7 +228,10 @@ def main():
             f.write(linked_content)
 
         print(f"✅ Created: {filename}")
+        created += 1
         time.sleep(5)
+
+    print(f"Featured done — created: {created} · skipped: {skipped}")
 
 if __name__ == "__main__":
     main()

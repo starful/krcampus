@@ -1,147 +1,167 @@
 ---
-{
-  "basic_info": {
-    "address": "55 Hanyangdaehak-ro, Sangnok-gu, Ansan, Gyeonggi-do, Republic of Korea",
-    "capacity": 500,
-    "name_en": "Hanyang University ERICA International Language Institute",
-    "name_ko": "한양대학교 ERICA 국제언어교육원"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "course_name": "Regular Korean Language Program",
-      "admission_month": "March, June, September, December",
-      "total_fees": 1400000
-    },
-    {
-      "course_name": "Short-Term Intensive Korean Course",
-      "admission_month": "July, January",
-      "total_fees": 850000
-    },
-    {
-      "course_name": "TOPIK Preparation Special Class",
-      "admission_month": "April, October",
-      "total_fees": 300000
-    }
-  ],
-  "date": "2026-06-10",
-  "faculties": [],
-  "features": [
-    "State-of-the-Art Campus",
-    "High Rate of On-Campus Dormitory Placement",
-    "TOPIK Prep Courses Available",
-    "Undergraduate Pathway Support",
-    "Diverse Cultural Excursions"
-  ],
-  "id": "school_hanyang-university-erica-international-language-institute",
-  "lang": "en",
-  "layout": "school",
-  "location": {
-    "lat": 37.298356,
-    "lng": 126.8387889
-  },
-  "stats": {
-    "capacity": 500
-  },
-  "tags": [
-    "State-of-the-Art Campus",
-    "High Rate of On-Campus Dormitory Placement",
-    "TOPIK Prep Courses Available",
-    "Undergraduate Pathway Support",
-    "Diverse Cultural Excursions"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Hanyang University ERICA International Language Institute",
-  "tuition": {
-    "registration_fee": 80000,
-    "quarterly_tuition": 1400000,
-    "textbook_fee": 50000
-  }
-}
+basic_info:
+  address: 55 Hanyangdaehak-ro, Sangnok-gu, Ansan, Gyeonggi-do, 15588, South Korea
+  capacity: 500
+  name_en: Hanyang University ERICA International Language Institute
+  name_ko: 한양대학교 ERICA 국제언어교육원
+category: school
+courses:
+- admission_month: March, June, September, December
+  course_name: Regular Korean Language Program
+  total_fees: 1400000
+- admission_month: July, January
+  course_name: Short-term Intensive Program
+  total_fees: 800000
+date: '2026-07-01'
+faculties: []
+features:
+- TOPIK prep
+- Dormitory
+- University prep
+- Korean Cultural Experience Programs
+- Global Mentoring Program
+id: school_hanyang-university-erica-international-language-institute
+lang: en
+layout: school
+location:
+  lat: 37.5665
+  lng: 126.978
+stats:
+  capacity: 500
+tags:
+- TOPIK prep
+- Dormitory
+- University prep
+- Korean Cultural Experience Programs
+- Global Mentoring Program
+thumbnail: /static/images/school_hanyang-university-erica-international-language-institute.jpg
+title: Hanyang University ERICA International Language Institute
+tuition:
+  quarterly_tuition: 1400000
+  registration_fee: 100000
+  textbook_fee: 50000
 ---
 
 # Hanyang University ERICA International Language Institute: Student Guide
 
+This guide provides essential information for international students studying Korean at the Hanyang University ERICA International Language Institute.
+
+---
+
 ## 1. School Overview
-The **Hanyang University ERICA International Language Institute** (한양대학교 ERICA 국제언어교육원) in Ansan, Gyeonggi-do, is a premier Korean language center. Operating with a capacity of 500 students, the institute ensures small, interactive classes and personalized academic management. Located 45 minutes south of central Seoul, it blends high-quality education with affordable living. Key features include:
-*   **Modern Campus:** Full access to state-of-the-art university facilities, libraries, and lounges.
-*   **High Dorm Placement:** On-campus housing is highly accessible, avoiding Seoul's housing shortages.
-*   **TOPIK Prep:** Dedicated courses designed to help students secure official scores.
-*   **Pathway Support:** Streamlined transition and admission counseling for Hanyang University degree programs.
-*   **Cultural Excursions:** Outside-of-class programs to experience Korean culture and history.
+
+The **Hanyang University ERICA International Language Institute** is on the ERICA campus in Ansan, a leading hub for industry-academic cooperation.
+
+*   **Address:** 55 Hanyangdaehak-ro, Sangnok-gu, Ansan, Gyeonggi-do, 15588, South Korea
+*   **Capacity:** 500 students
+*   **Identity:** A spacious suburban campus with lower living costs than Seoul, easily accessible via Subway Line 4 and the Suin-Bundang Line. Ideal for academic study and career pathing.
 
 ---
 
 ## 2. Programs & Schedule
-The curriculum accommodates various academic tracks, from university-preparatory to intensive short-term conversational programs.
-*   **Regular Program:** 4 terms/year (Levels 1–6). Classes run 5 days a week, 4 hours daily (200 hours/semester).
-*   **Short-Term Intensive:** A 3-week course in January and July focusing on survival Korean.
-*   **TOPIK Prep:** A 4-week class in April and October for intermediate and advanced learners.
 
-### Table 1: Program Structure & Admission Schedule
+The institute offers two tracks for academic and short-term learners.
 
-| Course Name | Admission Months | Duration | Weekly Hours | Total Hours |
+### Regular Korean Language Program
+A systematic track for academic prep and professional use.
+*   **Levels:** 1 to 6 (Beginner to Advanced).
+*   **Duration:** 10 weeks per semester (4 semesters per year).
+*   **Hours:** 20 hours per week (Monday to Friday, 4 hours per day; 200 hours total).
+*   **Times:** Morning (09:00 - 13:00) or Afternoon (13:30 - 17:30) sessions.
+
+### Short-term Intensive Program
+A fast-track conversational program during university vacations.
+*   **Duration:** 3 weeks.
+*   **Focus:** Conversational practice and afternoon cultural activities.
+
+### Program Calendar Overview
+
+| Program | Admission Months | Duration | Hours/Week | Target Student Profile |
 | :--- | :--- | :--- | :--- | :--- |
-| **Regular Program** | March, June, September, December | 10 Weeks | 20 Hours | 200 Hours |
-| **Short-Term Intensive** | July, January | 3 Weeks | 20 Hours | 60 Hours |
-| **TOPIK Prep Class** | April, October | 4 Weeks | 6 Hours | 24 Hours |
+| **Regular Program** | Mar, Jun, Sep, Dec | 10 Weeks | 20 Hours | Academic pathways, D-4 visa seekers |
+| **Short-term Program** | Jul, Jan | 3 Weeks | 15–20 Hours | Vacation travelers, exchange students |
 
 ---
 
 ## 3. Tuition & Fees
-The program fees at the ERICA campus are highly competitive compared to institutions in central Seoul.
 
-### Table 2: Estimated Fee Breakdown (KRW)
+The ERICA campus offers competitive tuition rates compared to Seoul-based universities.
 
-| Fee Category | Regular Program | Short-Term Program | TOPIK Prep Class | Note |
-| :--- | :--- | :--- | :--- | :--- |
-| **Application Fee** | 80,000 | 50,000 | Included | Non-refundable, paid once |
-| **Tuition (per term)** | 1,400,000 | 850,000 | 300,000 | Includes cultural activities |
-| **Textbooks (Estimated)**| 50,000 | Included | 30,000 | Purchased per level |
-| **Total Initial Payment** | **1,530,000** | **900,000** | **330,000** | Excludes living expenses/insurance |
+### Fee Breakdown (KRW)
 
-*Note: D-4 visa applicants must pay for a minimum of two semesters (2,800,000 KRW) upfront.*
+| Fee Category | Regular Program (Per Semester) | Short-Term Program (Per Session) | Refundability / Notes |
+| :--- | :--- | :--- | :--- |
+| **Application Fee** | 100,000 KRW | 50,000 KRW | Non-refundable processing fee |
+| **Tuition Fee** | 1,400,000 KRW | 800,000 KRW | Refundable before course starts |
+| **Textbooks** | 50,000 KRW | Included / 30,000 KRW | Buy at campus bookstore |
+| **Estimated Insurance** | 60,000 KRW | Optional / Self-provided | Mandatory for D-4 visa holders |
+| **Total Initial Cost** | **1,610,000 KRW** | **880,000 KRW** | *For 1 semester/session* |
+
+*Note: D-4 visa applicants must register and pay for at least two semesters (2,900,000 KRW total including application fee).*
 
 ---
 
 ## 4. Admissions & D-4 Visa Steps
-Students registering for 2 or more terms of the Regular Program must obtain a **D-4 (General Student) Visa**.
-1.  **Online Application:** Register on the website and upload your graduation certificate, passport, and photo.
-2.  **Document Evaluation:** Academic and financial documents are verified. Certificates must be apostilled or consular-authenticated.
-3.  **Tuition Payment:** Wire tuition (minimum 2 semesters) after receiving the invoice.
-4.  **Certificate of Admission (CoA):** Once payment is confirmed, the institute physical-mails the CoA and business registration certificate.
-5.  **Visa Application:** Submit the CoA, visa application, passport, bank statement (min. $10,000 USD), and fees to your local Korean Embassy.
+
+Students studying for 6 months or longer in the Regular Program must obtain a **D-4 (General Trainee) visa**.
+
+### Step-by-Step Enrollment Process
+
+[Apply & Submit Docs] ➔ [Document Review] ➔ [Invoice & Payment] ➔ [COA Issued] ➔ [Visa Application] ➔ [Entry]
+
+### 1. Document Submission
+Submit the following to the ERICA administrative office:
+*   Completed online application and passport copy (valid for 1+ year).
+*   Parents' passport copies or official family relation certificates (translated and notarized).
+*   Apostilled or Consular-verified highest school diploma.
+*   Bank balance certificate showing at least **$10,000 USD** held for 30+ days.
+
+### 2. Screening & Payment
+Following document approval, you will receive an invoice. Wire the tuition (minimum 2 semesters for D-4 applicants) and application fee to the designated university virtual account.
+
+### 3. Certificate of Admission (COA) & Visa
+Once payment clears, the institute issues a COA. Submit this along with your visa application form, passport, and photos to your local Korean Embassy to apply for the D-4 visa.
 
 ---
 
 ## 5. TOPIK & University Pathway
-The institute serves as a direct pipeline for students seeking degrees at Hanyang University ERICA.
-*   **Pathway Qualification:** Completing Level 3 or 4 in the Regular Program qualifies students for undergraduate admission without an official TOPIK score.
-*   **TOPIK Prep:** Specialized classes focus on exam patterns, essay writing, and timed mock tests.
-*   **Admission Incentives:** Graduates enrolling in ERICA degree programs often qualify for 30% to 50% tuition waivers for their first semester.
+
+Hanyang University ERICA is designed to help students transition into academic degree programs.
+
+*   **TOPIK Prep:** Prep classes are integrated into the curriculum or offered as afternoon workshops focusing on exam strategies and writing.
+*   **University Prep:** Custom counseling for undergraduate/graduate admission. Students completing Level 3 or higher can waive language requirements for ERICA degrees.
+*   **Global Mentoring:** 1-on-1 pairing with ERICA Korean undergraduate students for language practice and cultural adaptation.
 
 ---
 
 ## 6. Dormitory & Living in the City
-*   **On-Campus Housing:** ERICA offers high placement rates for language students. Double rooms are equipped with beds, desks, AC, and internet. Shared spaces include kitchens, laundry, and gyms. Costs range from 250,000 to 350,000 KRW/month—much more affordable than Seoul.
-*   **Living in Ansan:** A safe, modern city. The area around campus ("Daehak-ro") is filled with affordable cafes, restaurants, and supermarkets.
-*   **Seoul Access:** The campus is connected to central Seoul via subway (Line 4/Suin-Bundang Line), allowing convenient weekend travel while keeping living costs low.
+
+### On-Campus Dormitory
+On-campus housing is highly affordable compared to private options in Seoul.
+*   **Room Types:** Double and quadruple rooms.
+*   **Amenities:** Wi-Fi, shared kitchens, laundry, lounges, gym, and convenience store.
+*   **Cost:** Approximately 250,000 to 400,000 KRW per month.
+
+### Living in Ansan
+*   **Cost of Living:** Dining, groceries, and leisure are roughly 15% to 25% cheaper than in Seoul.
+*   **Accessibility:** Located near Subway Line 4, connecting you to central Seoul (Gangnam, Myeongdong) in 50–60 minutes.
+*   **Activities:** The institute organizes term-based cultural programs, including historical field trips and K-Pop workshops.
 
 ---
 
 ## 7. FAQ
 
-### Q1: Is the language program at the ERICA campus different from the Seoul campus?
-The curriculum, textbooks, and teaching quality are identical, but ERICA offers lower tuition, lower living costs, and higher dormitory placement rates.
+### Can I work a part-time job while studying on a D-4 visa?
+Yes, after 6 months of study. You must maintain an attendance rate of 90%+ and obtain approval from both the language institute and the local Immigration Office.
 
-### Q2: Can language students apply for the on-campus dormitory every semester?
-Yes. ERICA prioritizes international language students. Those who apply during the designated registration window are guaranteed a space.
+### Is the dormitory guaranteed for all incoming language students?
+No. Spots are limited and assigned first-come, first-served. Apply for housing immediately after paying tuition.
 
-### Q3: Am I allowed to work part-time while on a D-4 visa?
-After 6 months of study (2 semesters) with at least 90% attendance, you can legally work part-time (up to 20 hours/week) with school and immigration approval.
+### What is the refund policy if my D-4 visa application is rejected?
+If rejected, submit a refund application with the rejection letter. Tuition is fully refunded; the 100,000 KRW application fee is non-refundable.
 
-### Q4: What happens if my visa application gets rejected?
-Submit proof of rejection to the institute to receive a full tuition refund, excluding the non-refundable application fee.
+### Are textbooks included in the regular program tuition?
+No. Textbooks must be purchased separately at the campus bookstore (approx. 40,000–60,000 KRW per level).
 
-### Q5: Are cultural excursions included in the tuition cost?
-Yes. Field trips, cultural excursions, and workshops organized by the institute are covered under the standard Regular Program tuition fee.
+### How do I get to the ERICA campus from Incheon International Airport?
+Take Airport Limousine Bus 7000 or 7000A to Ansan Bus Terminal, then take a short taxi or local bus. Alternatively, take subway Line 4 to Hanyang University ERICA Station and use the free campus shuttle.

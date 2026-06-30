@@ -8,7 +8,7 @@ import sys
 import frontmatter
 from tqdm import tqdm
 
-from batch_limits import japanese_limit
+from batch_limits import guide_limit, school_limit, university_limit
 from common import CONTENT_DIR, setup_logging
 from content_generator import generate_japanese_body, localize_meta_for_ja
 from content_specs import kind_from_filename, validate_body
@@ -68,15 +68,17 @@ def main() -> None:
     if not os.path.isdir(CONTENT_DIR):
         os.makedirs(CONTENT_DIR, exist_ok=True)
 
-    cap = japanese_limit()
-    guides = _pending_by_prefix("guide_", cap)
-    schools = _pending_by_prefix("school_", cap)
-    univs = _pending_by_prefix("univ_", cap)
+    g_cap = guide_limit()
+    s_cap = school_limit()
+    u_cap = university_limit()
+    guides = _pending_by_prefix("guide_", g_cap) if g_cap > 0 else []
+    schools = _pending_by_prefix("school_", s_cap) if s_cap > 0 else []
+    univs = _pending_by_prefix("univ_", u_cap) if u_cap > 0 else []
     targets = guides + schools + univs
 
     print(
         f"🇯🇵 Native JA (new only): guides {len(guides)} · schools {len(schools)} · "
-        f"universities {len(univs)} (limit {cap} each, JAPANESE_LIMIT={cap})"
+        f"universities {len(univs)} (limits g={g_cap} s={s_cap} u={u_cap})"
     )
     if not targets:
         print("✅ No pending Japanese native articles (all have *_ja.md).")

@@ -118,10 +118,20 @@ def main():
         all_topics = list(reader)
 
     processed_slugs = load_history()
-    topics_to_process = [row for row in all_topics if row['slug'] not in processed_slugs]
+    topics_to_process = []
+    for row in all_topics:
+        slug = (row.get("slug") or "").strip()
+        if not slug:
+            continue
+        if os.path.isfile(os.path.join(OUTPUT_DIR, f"guide_{slug}.md")):
+            continue
+        topics_to_process.append(row)
     topics_to_process = topics_to_process[: _guide_batch_limit()]
 
-    print(f"🚀 Total: {len(all_topics)} | Processed: {len(processed_slugs)} | Pending: {len(topics_to_process)}")
+    print(
+        f"🚀 Queue: {len(all_topics)} | History: {len(processed_slugs)} | "
+        f"To generate: {len(topics_to_process)} (limit {_guide_batch_limit()})"
+    )
     if not topics_to_process:
         print("✅ No pending guide topics in queue.")
         return
