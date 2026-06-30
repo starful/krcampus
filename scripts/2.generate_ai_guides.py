@@ -1,11 +1,13 @@
 import csv
 import os
 import json
+import sys
 import time
 import logging
 import glob
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from batch_limits import guide_limit
 from common import setup_logging, DATA_DIR, CONTENT_DIR, LOG_DIR
 from content_generator import generate_english_body
 from content_specs import validate_body
@@ -23,12 +25,7 @@ OUTPUT_DIR = CONTENT_DIR
 HISTORY_FILE = os.path.join(LOG_DIR, "guide_processed_history.txt")
 
 def _guide_batch_limit() -> int:
-    raw = os.getenv("GUIDE_LIMIT", "3").strip()
-    try:
-        n = int(raw)
-    except ValueError:
-        n = 3
-    return 3 if n <= 0 else n
+    return guide_limit()
 MAX_WORKERS = 3    # 동시에 작성할 가이드 수 (긴 텍스트 생성이므로 2~4 권장)
 
 THUMBNAILS = {
@@ -108,15 +105,13 @@ def process_topic(row):
     return f"✅ Success: {filename}"
 
 def main():
-    if not os.path.exists(INPUT_CSV):
-        print(f"❌ CSV file not found: {INPUT_CSV}")
-        return
-    if not os.path.exists(OUTPUT_DIR): os.makedirs(OUTPUT_DIR)
+    if not os.path.exists(OUTPUT_DIR):
+        os.makedirs(OUTPUT_DIR)
 
     csv_path = _guide_topics_csv()
     if not os.path.exists(csv_path):
         print(f"❌ CSV file not found: {csv_path}")
-        return
+        sys.exit(1)
 
     with open(csv_path, 'r', encoding='utf-8-sig') as f:
         reader = csv.DictReader(f)
@@ -125,24 +120,33 @@ def main():
     processed_slugs = load_history()
     topics_to_process = [row for row in all_topics if row['slug'] not in processed_slugs]
     topics_to_process = topics_to_process[: _guide_batch_limit()]
-    
+
     print(f"🚀 Total: {len(all_topics)} | Processed: {len(processed_slugs)} | Pending: {len(topics_to_process)}")
+    if not topics_to_process:
+        print("✅ No pending guide topics in queue.")
+        return
+
     print(f"⚡ Running with {MAX_WORKERS} workers...")
 
-    # --- 멀티스레딩 적용 ---
+    failures = 0
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         future_to_topic = {executor.submit(process_topic, row): row for row in topics_to_process}
-        
+
         for future in tqdm(as_completed(future_to_topic), total=len(topics_to_process)):
             row = future_to_topic[future]
             try:
                 result = future.result()
-                # 로깅 시스템 활용
                 logging.info(result)
+                if result and str(result).startswith("❌"):
+                    failures += 1
             except Exception as e:
+                failures += 1
                 logging.error(f"Error in {row['slug']}: {e}")
 
     print("\n🎉 Generation finished.")
+    if failures:
+        print(f"❌ {failures} guide(s) failed")
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()

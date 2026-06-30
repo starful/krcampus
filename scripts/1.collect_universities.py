@@ -1,11 +1,13 @@
 import csv
 import json
 import os
+import sys
 import time
 import requests
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from google.generativeai.types import GenerationConfig
+from batch_limits import content_limit
 from common import setup_logging, setup_gemini, clean_json_response, maps_api_key, DATA_DIR, CONTENT_DIR, LOG_DIR
 from content_generator import generate_english_body
 from content_specs import validate_body
@@ -14,7 +16,7 @@ from topic_queue_csv import resolve as resolve_queue_csv
 setup_logging("univ_gen.log")
 model = setup_gemini()
 
-LIMIT = 100
+LIMIT = content_limit()
 MAX_WORKERS = 5
 INPUT_CSV = os.path.join(DATA_DIR, "universities.csv")
 
@@ -149,27 +151,41 @@ def process_university(univ):
 def main():
     csv_path = _universities_csv()
     if not os.path.exists(csv_path):
-        print(f"Missing {csv_path}")
-        return
+        print(f"❌ CSV file not found: {csv_path}")
+        sys.exit(1)
 
     processed_list = load_history()
     univ_list = []
     with open(csv_path, "r", encoding="utf-8-sig") as f:
         reader = csv.DictReader(f)
         for row in reader:
-            if row["name_ko"] not in processed_list:
+            name_ko = (row.get("name_ko") or "").strip()
+            if name_ko and name_ko not in processed_list:
                 univ_list.append(row)
 
     univ_list = univ_list[:LIMIT]
-    print(f"Universities to process: {len(univ_list)} | Workers: {MAX_WORKERS}")
+    print(f"🚀 Total Universities to process: {len(univ_list)} | Workers: {MAX_WORKERS}")
+    if not univ_list:
+        print("✅ No pending universities in queue.")
+        return
 
+    failures = 0
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         futures = {executor.submit(process_university, u): u for u in univ_list}
         for future in tqdm(as_completed(futures), total=len(univ_list)):
+            univ = futures[future]
+            name_ko = univ.get("name_ko", "?")
             try:
-                future.result()
+                result = future.result()
+                if result and str(result).startswith("Failed"):
+                    failures += 1
             except Exception as e:
-                print(f"Error: {e}")
+                failures += 1
+                print(f"⚠️ {name_ko} generated an exception: {e}")
+
+    if failures:
+        print(f"❌ {failures} universit(y/ies) failed")
+        sys.exit(1)
 
 
 if __name__ == "__main__":

@@ -138,6 +138,98 @@ Article:
     return clean_json_response(res.text).strip()
 
 
+def _guide_prompt_ja(title: str, description: str, extra: str = "") -> str:
+    target = SPECS["guide"]["target"]
+    return f"""
+あなたは KR Campus（韓国留学）の編集者です。日本人読者向けに**日本語のみ**で長文ガイドを書いてください（です・ます調）。
+
+**本文の目安: {target}文字**（スペース含む）。6000文字未満・7000文字超は不可。
+
+タイトル（英語参考）: {title}
+概要（英語参考）: {description}
+{extra}
+
+要件:
+- Markdown本文のみ（フロントマター・JSON不可）
+- ## 見出しを5つ以上
+- 比較・データ表を2つ以上
+- 韓国留学（ビザ・費用・住居・TOPIK等）の実務情報
+- 日本への留学案内ではなく、**韓国**が主題
+
+本文を生成してください。
+"""
+
+
+def _university_prompt_ja(meta: dict) -> str:
+    basic = meta.get("basic_info") or {}
+    name_ko = basic.get("name_ko", "")
+    name_en = basic.get("name_en") or meta.get("title", "")
+    address = basic.get("address", "")
+    features = meta.get("features") or []
+    faculties = meta.get("faculties") or []
+    stats = meta.get("stats") or {}
+    tuition = meta.get("tuition") or {}
+    target = SPECS["university"]["target"]
+
+    return f"""
+あなたは韓国留学の専門家です。日本人留学生向けに**日本語のみ**で大学ガイドを書いてください（です・ます調）。
+
+大学: {name_ko} ({name_en})
+所在地: {address}
+特徴: {json.dumps(features, ensure_ascii=False)}
+学部: {json.dumps(faculties[:20], ensure_ascii=False)}
+統計: {json.dumps(stats, ensure_ascii=False)}
+学費ヒント: {json.dumps(tuition, ensure_ascii=False)}
+
+**{target}文字**（6000〜7000）。Markdown本文のみ。
+
+必須 ## セクション:
+1. 大学概要
+2. 英語・国際プログラム
+3. 学部・学問の強み
+4. 学費・奨学金（KRWの表を含む）
+5. 留学生の入学手続き
+6. キャンパスライフ・立地
+7. よくある質問（### で5問以上）
+
+表を2つ以上。推定値は「推定」と明記。
+"""
+
+
+def _school_prompt_ja(meta: dict) -> str:
+    basic = meta.get("basic_info") or {}
+    name_ko = basic.get("name_ko", "")
+    name_en = basic.get("name_en") or meta.get("title", "")
+    address = basic.get("address", "")
+    capacity = basic.get("capacity")
+    courses = meta.get("courses") or []
+    features = meta.get("features") or []
+    target = SPECS["school"]["target"]
+
+    return f"""
+あなたは韓国語学堂の専門家です。日本人留学生向けに**日本語のみ**で語学堂ガイドを書いてください（です・ます調）。
+
+機関: {name_ko} ({name_en})
+住所: {address}
+定員: {capacity}
+コース: {json.dumps(courses, ensure_ascii=False)}
+特徴: {json.dumps(features, ensure_ascii=False)}
+
+**{target}文字**（4500〜6000）。Markdown本文のみ。
+
+必須 ## セクション:
+1. 語学堂概要
+2. プログラム・スケジュール
+3. 学費（KRWの表）
+4. 入学・D-4ビザ
+5. TOPIK・大学進学
+6. 寮・生活
+7. よくある質問（### で5問以上）
+
+表を2つ以上。
+"""
+
+
 def _try_condense(kind: ContentKind, body: str, reason: str, *, attempts: int = 3) -> str | None:
     draft = body
     last_reason = reason
@@ -152,8 +244,19 @@ def _try_condense(kind: ContentKind, body: str, reason: str, *, attempts: int = 
     return None
 
 
-def generate_english_body(kind: ContentKind, meta: dict, *, guide_extra: str = "") -> str | None:
-    if kind == "guide":
+def _generate_body(kind: ContentKind, meta: dict, *, guide_extra: str = "", lang: str = "en") -> str | None:
+    if lang == "ja":
+        if kind == "guide":
+            prompt = _guide_prompt_ja(
+                meta.get("title", "韓国留学ガイド"),
+                meta.get("description", ""),
+                guide_extra,
+            )
+        elif kind == "university":
+            prompt = _university_prompt_ja(meta)
+        else:
+            prompt = _school_prompt_ja(meta)
+    elif kind == "guide":
         prompt = _guide_prompt(
             meta.get("title", "Study in Korea Guide"),
             meta.get("description", ""),
@@ -184,7 +287,6 @@ def generate_english_body(kind: ContentKind, meta: dict, *, guide_extra: str = "
             res = model.generate_content(full_prompt)
             body = clean_json_response(res.text)
             if body.startswith("{"):
-                # model returned JSON by mistake
                 try:
                     parsed = json.loads(body)
                     body = parsed.get("updated_body") or parsed.get("description") or parsed.get("body") or ""
@@ -202,8 +304,58 @@ def generate_english_body(kind: ContentKind, meta: dict, *, guide_extra: str = "
         if condensed:
             return condensed
     if last_reason and last_reason != "unknown":
-        print(f"  generate_english_body failed after {MAX_ATTEMPTS} attempts: {last_reason}", flush=True)
+        label = "generate_japanese_body" if lang == "ja" else "generate_english_body"
+        print(f"  {label} failed after {MAX_ATTEMPTS} attempts: {last_reason}", flush=True)
     return None
+
+
+def generate_english_body(kind: ContentKind, meta: dict, *, guide_extra: str = "") -> str | None:
+    return _generate_body(kind, meta, guide_extra=guide_extra, lang="en")
+
+
+def generate_japanese_body(kind: ContentKind, meta: dict, *, guide_extra: str = "") -> str | None:
+    return _generate_body(kind, meta, guide_extra=guide_extra, lang="ja")
+
+
+def localize_meta_for_ja(meta: dict) -> dict:
+    """Japanese title/description/features for frontmatter (native JA pages)."""
+    ja_meta = json.loads(json.dumps(meta, ensure_ascii=False))
+    ja_meta["lang"] = "ja"
+    basic = dict(ja_meta.get("basic_info") or {})
+    if not basic.get("name_ja"):
+        basic["name_ja"] = basic.get("name_ko") or basic.get("name_en") or ja_meta.get("title", "")
+    ja_meta["basic_info"] = basic
+
+    payload = {
+        "title": ja_meta.get("title", ""),
+        "description": ja_meta.get("description", ""),
+        "features": ja_meta.get("features") or ja_meta.get("tags") or [],
+        "category": ja_meta.get("category", ""),
+    }
+    prompt = f"""
+Return JSON only. Translate these KR Campus fields into natural Japanese for Japanese readers (です・ます調 titles OK).
+Keep Korean proper nouns (大学名・語学堂名) accurate. Output:
+{{"title": "...", "description": "...", "features": ["...", "..."]}}
+
+Input:
+{json.dumps(payload, ensure_ascii=False)}
+"""
+    for attempt in range(3):
+        try:
+            res = model.generate_content(prompt, generation_config=GenerationConfig(response_mime_type="application/json"))
+            data = json.loads(clean_json_response(res.text))
+            if data.get("title"):
+                ja_meta["title"] = data["title"]
+            if data.get("description"):
+                ja_meta["description"] = data["description"]
+            if data.get("features"):
+                ja_meta["features"] = data["features"]
+                if ja_meta.get("layout") == "guide":
+                    ja_meta["tags"] = data["features"]
+            return ja_meta
+        except Exception as exc:
+            _retry_sleep(exc, attempt)
+    return ja_meta
 
 
 def refresh_school_meta(meta: dict) -> dict:
