@@ -2,16 +2,19 @@
 {
   "layout": "guide",
   "id": "internship-korea",
-  "title": "Internships for International Students",
+  "title": "Internships in Korea for International Students: 2026 Guide",
   "category": "Part-time",
   "tags": [
     "Part-time"
   ],
-  "description": "Finding internships in Korea.",
+  "description": "Find the best internships in Korea for international students. This comprehensive guide covers visa requirements, English-friendly companies, and practical application tips to kickstart your career.",
   "thumbnail": "https://images.unsplash.com/photo-1556740758-90de374c12ad?w=500",
-  "date": "2026-06-09"
+  "date": "2026-06-09",
+  "seo_title": "Internship in Korea for International Students (2026) | KR Campus",
+  "seo_description": "Looking for an internship in Korea? Discover our ultimate guide for international students, covering visa rules, top companies, and active job boards."
 }
 ---
+
 
 # Internships for International Students in South Korea
 

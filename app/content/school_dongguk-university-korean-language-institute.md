@@ -58,14 +58,18 @@
     "Diverse Cultural Activities"
   ],
   "thumbnail": "/static/img/pin-school.png",
-  "title": "Dongguk University Korean Language Institute",
+  "title": "Dongguk University Korean Language Institute (KLI)",
   "tuition": {
     "registration_fee": 80000,
     "quarterly_tuition": 1700000,
     "textbook_fee": 60000
-  }
+  },
+  "description": "Study Korean in Seoul at Dongguk University. Find updated tuition fees, term schedules, application processes, and student reviews.",
+  "seo_title": "Dongguk University Korean Language Institute: Tuition & Apply",
+  "seo_description": "Check Dongguk University Korean Language Institute tuition, terms, requirements, and how to apply. Start learning Korean in Seoul with KR Campus!"
 }
 ---
+
 
 ## 1. School Overview
 The Dongguk University Korean Language Institute (KLI), located in Hyehwa Hall (30 Pildong-ro 1-gil, Jung-gu, Seoul, 04620), is a high-capacity educational center hosting up to 1,500 international students. Positioned in central Seoul, the campus directly borders Namsan Mountain and is near Myeongdong, offering a perfect blend of natural scenery and urban convenience. Known for academic excellence, KLI provides on-campus dormitory access, admission scholarships for Dongguk degree programs, a supportive Korean Buddy Program, and diverse cultural activities.

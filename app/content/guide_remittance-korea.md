@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "remittance-korea",
-  "title": "How to Send Money to Korea: Wise vs. Traditional Banks",
+  "title": "How to Send Money to Korea: Best & Cheapest Ways (2026)",
   "category": "Budget",
   "tags": [
     "Budget"
   ],
-  "description": "Want to send money to South Korea? Compare Wise vs. bank transfers. Find the cheapest, fastest way with the best exchange rates in our 2026 guide.",
+  "description": "Compare the cheapest and fastest ways to send money to South Korea. Save on bank fees and get the best KRW exchange rates in 2026.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
   "date": "2026-06-09",
-  "seo_title": "How to Send Money to Korea: Wise vs. Banks (2026) | KR Campus",
-  "seo_description": "Want to send money to South Korea? Compare Wise vs. bank transfers. Find the cheapest, fastest way with the best exchange rates in our 2026 guide."
+  "seo_title": "How to Send Money to Korea in 2026 (Cheapest & Fastest) | KR Campus",
+  "seo_description": "Compare the cheapest and fastest ways to send money to South Korea. Save on bank fees and get the best KRW exchange rates in 2026."
 }
 ---
+
 
 # How to Send Money to Korea: Wise vs. Traditional Banks
 

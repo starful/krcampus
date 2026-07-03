@@ -7,13 +7,14 @@
   "tags": [
     "Selection"
   ],
-  "description": "Want to study in Korea? Discover top universities offering 100% English-taught programs. Learn about requirements and how to apply in 2026.",
+  "description": "Can you study in Korea in English? Discover 100% English-taught programs, top Korean universities, requirements, and how to apply in 2026.",
   "thumbnail": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=500",
   "date": "2026-06-09",
-  "seo_title": "Study in Korea in English: 2026 Complete Guide",
-  "seo_description": "Want to study in Korea? Discover top universities offering 100% English-taught programs. Learn about requirements and how to apply in 2026."
+  "seo_title": "English-Taught Programs in Korea: 2026 Guide | krcampus",
+  "seo_description": "Can you study in Korea in English? Discover 100% English-taught programs, top Korean universities, requirements, and how to apply in 2026."
 }
 ---
+
 
 # English-Taught Programs in Korean Universities: The Complete 2026 Guide
 

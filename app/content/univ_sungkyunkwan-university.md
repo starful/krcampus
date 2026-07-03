@@ -42,13 +42,17 @@
     "Dual-campus system dividing Humanities (Seoul) and Natural Sciences (Suwon)"
   ],
   "thumbnail": "/static/img/pin-univ.png",
-  "title": "Sungkyunkwan University",
+  "title": "Sungkyunkwan University (SKKU)",
   "tuition": {
     "admission_fee": 900000,
     "yearly_tuition": 9200000
-  }
+  },
+  "description": "Study at Sungkyunkwan University (SKKU) in 2026. Get expert info on international admission requirements, tuition fees, rankings, and application tips.",
+  "seo_title": "Sungkyunkwan University (SKKU) 2026: Tuition & Admission | KR Campus",
+  "seo_description": "Study at Sungkyunkwan University (SKKU) in 2026. Get expert info on international admission requirements, tuition fees, rankings, and application tips."
 }
 ---
+
 
 # Study Abroad Guide: Sungkyunkwan University (SKKU)
 

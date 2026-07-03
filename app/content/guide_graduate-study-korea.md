@@ -2,16 +2,19 @@
 {
   "layout": "guide",
   "id": "graduate-study-korea",
-  "title": "Graduate School in Korea for Foreigners",
+  "title": "Graduate School in Korea for International Students: The Complete Guide",
   "category": "Selection",
   "tags": [
     "Selection"
   ],
-  "description": "MA/PhD overview.",
+  "description": "A comprehensive roadmap to pursuing a Master's or PhD degree in South Korea. Explore top graduate programs, admission requirements, costs, and fully-funded scholarships.",
   "thumbnail": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=500",
-  "date": "2026-06-09"
+  "date": "2026-06-09",
+  "seo_title": "Graduate School in Korea: Master's & PhD Guide (2026) | KR Campus",
+  "seo_description": "How to apply for a Master's or PhD in Korea. Discover top graduate schools, entry requirements, and scholarships for international students."
 }
 ---
+
 
 # Graduate School in Korea for Foreigners
 

@@ -48,13 +48,17 @@
     "World-class research facilities in Agriculture, Veterinary Science, and Smart Semiconductor Engineering"
   ],
   "thumbnail": "/static/img/pin-univ.png",
-  "title": "Jeonbuk National University",
+  "title": "Jeonbuk National University (JBNU)",
   "tuition": {
     "admission_fee": 0,
     "yearly_tuition": 3800000
-  }
+  },
+  "description": "Explore Jeonbuk National University (JBNU) 2026 admission guide, tuition fees, scholarships, and requirements for international students on KR Campus.",
+  "seo_title": "Jeonbuk National University (JBNU) Admission & Tuition (2026) | KR Campus",
+  "seo_description": "Explore Jeonbuk National University (JBNU) 2026 admission guide, tuition fees, scholarships, and requirements for international students on KR Campus."
 }
 ---
+
 
 # Jeonbuk National University (JBNU): Complete International Student Guide
 

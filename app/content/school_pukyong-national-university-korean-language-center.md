@@ -63,9 +63,13 @@
     "registration_fee": 60000,
     "quarterly_tuition": 1200000,
     "textbook_fee": 50000
-  }
+  },
+  "description": "Learn Korean at Pukyong National University (PKNU) in Busan. Check 2026 tuition, visa requirements, application deadlines, and reviews on KR Campus.",
+  "seo_title": "PKNU Korean Language Center (Busan) - 2026 Guide | KR Campus",
+  "seo_description": "Study Korean at Pukyong National University (PKNU). Find 2026 tuition fees, course schedules, and admission requirements on KR Campus."
 }
 ---
+
 
 ## 1. School Overview
 

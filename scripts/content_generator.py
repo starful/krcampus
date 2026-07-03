@@ -12,7 +12,8 @@ from common import clean_json_response, setup_gemini
 from content_specs import ContentKind, SPECS, validate_body
 
 model = setup_gemini()
-MAX_ATTEMPTS = 4
+MAX_ATTEMPTS = 2
+META_ATTEMPTS = 2
 
 
 def _retry_sleep(exc: Exception, attempt: int) -> None:
@@ -230,7 +231,7 @@ def _school_prompt_ja(meta: dict) -> str:
 """
 
 
-def _try_condense(kind: ContentKind, body: str, reason: str, *, attempts: int = 3) -> str | None:
+def _try_condense(kind: ContentKind, body: str, reason: str, *, attempts: int = 1) -> str | None:
     draft = body
     last_reason = reason
     for _ in range(attempts):
@@ -340,7 +341,7 @@ Keep Korean proper nouns (大学名・語学堂名) accurate. Output:
 Input:
 {json.dumps(payload, ensure_ascii=False)}
 """
-    for attempt in range(3):
+    for attempt in range(META_ATTEMPTS):
         try:
             res = model.generate_content(prompt, generation_config=GenerationConfig(response_mime_type="application/json"))
             data = json.loads(clean_json_response(res.text))
@@ -376,7 +377,7 @@ Return JSON only for Korean language institute "{name_ko}" ({name_en}):
 }}
 Use realistic KRW estimates (3-4 courses). No markdown.
 """
-    for attempt in range(3):
+    for attempt in range(META_ATTEMPTS):
         try:
             res = model.generate_content(prompt, generation_config=GenerationConfig(response_mime_type="application/json"))
             data = json.loads(clean_json_response(res.text))

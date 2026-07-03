@@ -47,9 +47,13 @@
   "tuition": {
     "admission_fee": 540000,
     "yearly_tuition": 8400000
-  }
+  },
+  "description": "Your ultimate guide to Soongsil University. Find 2026 admission requirements, tuition fees, and scholarship details for international students.",
+  "seo_title": "Soongsil University 2026: Admission, Tuition & Scholarships",
+  "seo_description": "Plan your studies at Soongsil University. Explore the 2026 admission guide, tuition fees, and application requirements for international students."
 }
 ---
+
 
 # Soongsil University: The Ultimate International Student Guide
 

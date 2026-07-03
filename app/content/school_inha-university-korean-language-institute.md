@@ -56,9 +56,13 @@
     "registration_fee": 60000,
     "quarterly_tuition": 1370000,
     "textbook_fee": 50000
-  }
+  },
+  "description": "Learn Korean at Inha University. Check 2026 program details, tuition fees, application steps, and student reviews to plan your study in Korea.",
+  "seo_title": "Inha University Korean Language Institute: 2026 | KR Campus",
+  "seo_description": "Learn Korean at Inha University. Check 2026 program details, tuition fees, application steps, and student reviews to plan your study in Korea."
 }
 ---
+
 
 # Comprehensive Guide to Inha University Korean Language Institute
 
