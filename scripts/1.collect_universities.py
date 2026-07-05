@@ -2,28 +2,21 @@ import csv
 import json
 import os
 import sys
-import time
 import requests
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from google.generativeai.types import GenerationConfig
 from batch_limits import university_limit
 from common import (
     setup_logging,
-    setup_gemini,
-    clean_json_response,
     maps_api_key,
-    remove_content_artifacts,
     DATA_DIR,
     CONTENT_DIR,
     LOG_DIR,
 )
-from content_generator import generate_english_body
-from content_specs import validate_body
+from content_generator import generate_university_en_unified
 from topic_queue_csv import resolve as resolve_queue_csv
 
 setup_logging("univ_gen.log")
-model = setup_gemini()
 
 LIMIT = university_limit()
 MAX_WORKERS = 5
@@ -32,19 +25,14 @@ INPUT_CSV = os.path.join(DATA_DIR, "universities.csv")
 
 def _universities_csv() -> str:
     return resolve_queue_csv("universities", INPUT_CSV)
+
+
 OUTPUT_DIR = CONTENT_DIR
 HISTORY_FILE = os.path.join(LOG_DIR, "univ_processed_history.txt")
 MAPS_API_KEY = maps_api_key()
 
 if not os.path.exists(OUTPUT_DIR):
     os.makedirs(OUTPUT_DIR)
-
-
-def load_history():
-    if not os.path.exists(HISTORY_FILE):
-        return set()
-    with open(HISTORY_FILE, "r", encoding="utf-8") as f:
-        return set(line.strip() for line in f)
 
 
 def append_history(name):
@@ -68,89 +56,47 @@ def get_google_coordinates(address):
     return {"lat": 37.5665, "lng": 126.9780}
 
 
-def get_university_meta(name_ko, name_en, region):
-    prompt = f"""
-    Return JSON only for university "{name_ko}" ({name_en}) in {region}, South Korea.
-    Do NOT write a long markdown article. Provide structured metadata only.
-
-    {{
-        "english_slug": "url-friendly-slug-in-english",
-        "basic_info": {{
-            "name_ko": "{name_ko}",
-            "name_en": "{name_en}",
-            "address": "Official address in English (city: {region})",
-            "capacity": null
-        }},
-        "stats": {{
-            "international_students": 123,
-            "acceptance_rate": "Estimated % string"
-        }},
-        "tuition": {{
-            "admission_fee": 123456,
-            "yearly_tuition": 123456
-        }},
-        "faculties": ["List", "of", "faculties"],
-        "features": ["Key Feature 1", "Key Feature 2"],
-        "summary": "One-sentence English SEO description for international applicants."
-    }}
-    """
-    for i in range(3):
-        try:
-            res = model.generate_content(
-                prompt, generation_config=GenerationConfig(response_mime_type="application/json")
-            )
-            return json.loads(clean_json_response(res.text))
-        except Exception as e:
-            if "429" in str(e):
-                time.sleep(10 * (i + 1))
-            else:
-                time.sleep(2)
-    return None
-
-
 def process_university(univ):
     name_ko = univ["name_ko"]
     name_en = univ["name_en"]
     region = univ.get("region", "Seoul")
 
-    data = get_university_meta(name_ko, name_en, region)
-    if not data:
-        return f"Failed meta: {name_ko}"
+    unified = generate_university_en_unified(name_ko, name_en, region)
+    if not unified:
+        return f"Failed: {name_ko}"
 
-    addr = data["basic_info"].get("address")
+    data, body = unified
+    basic = data.get("basic_info") or {}
+    addr = basic.get("address")
     coords = get_google_coordinates(addr)
 
     raw_slug = data.get("english_slug", name_en.replace(" ", "-").lower())
     slug = f"univ_{raw_slug}" if not raw_slug.startswith("univ_") else raw_slug
-
     filepath = os.path.join(OUTPUT_DIR, f"{slug}.md")
+
     if os.path.isfile(filepath):
         return f"Skip exists: {slug}.md"
+
+    if not basic.get("name_ko"):
+        basic["name_ko"] = name_ko
+    if not basic.get("name_en"):
+        basic["name_en"] = name_en
 
     frontmatter_data = {
         "layout": "school",
         "id": slug,
-        "title": data["basic_info"]["name_en"],
+        "title": basic.get("name_en") or name_en,
         "category": "university",
         "tags": data.get("features", []),
         "thumbnail": f"/static/images/{slug}.jpg",
         "location": coords,
-        "basic_info": data["basic_info"],
-        "stats": data["stats"],
-        "tuition": data["tuition"],
+        "basic_info": basic,
+        "stats": data.get("stats") or {},
+        "tuition": data.get("tuition") or {},
         "faculties": data.get("faculties", []),
         "features": data.get("features", []),
         "lang": "en",
     }
-
-    body = generate_english_body("university", frontmatter_data)
-    if not body:
-        remove_content_artifacts(filepath)
-        return f"Failed body: {name_ko}"
-    ok, reason = validate_body("university", body)
-    if not ok:
-        remove_content_artifacts(filepath)
-        return f"Failed validation ({name_ko}): {reason}"
 
     with open(filepath, "w", encoding="utf-8") as f:
         f.write("---\n")
@@ -177,7 +123,9 @@ def main():
                 univ_list.append(row)
 
     univ_list = univ_list[:LIMIT]
-    print(f"🚀 Universities in queue: {len(univ_list)} (limit {LIMIT}) | Workers: {MAX_WORKERS}")
+    print(
+        f"🚀 Universities in queue: {len(univ_list)} (limit {LIMIT}) | Workers: {MAX_WORKERS} | 1 Gemini call/item"
+    )
     if not univ_list:
         print("✅ No pending universities in queue.")
         return

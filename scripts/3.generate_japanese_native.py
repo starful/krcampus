@@ -1,19 +1,22 @@
-"""Write native Japanese MD for EN sources missing *_ja.md (no translation pass)."""
+"""Write JA MD from EN sources (1 Gemini call per item via translate_to_japanese)."""
 from __future__ import annotations
 
 import json
 import os
 import sys
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import frontmatter
 from tqdm import tqdm
 
-from batch_limits import guide_limit, school_limit, university_limit
+from batch_limits import guide_limit, japanese_limit, school_limit, university_limit
 from common import CONTENT_DIR, remove_content_artifacts, setup_logging
-from content_generator import generate_japanese_body, localize_meta_for_ja
-from content_specs import kind_from_filename, validate_body
+from content_generator import translate_to_japanese
+from content_specs import kind_from_filename
 
 setup_logging("ja_native.log")
+
+MAX_WORKERS = max(1, int(os.getenv("JA_MAX_WORKERS", "3")))
 
 
 def _pending_by_prefix(prefix: str, limit: int) -> list[str]:
@@ -38,31 +41,23 @@ def _pending_by_prefix(prefix: str, limit: int) -> list[str]:
 def _write_ja(en_path: str) -> str:
     post = frontmatter.load(en_path)
     meta = dict(post.metadata)
+    body_en = post.content or ""
     kind = kind_from_filename(os.path.basename(en_path), meta)
     if not kind:
         return f"skip: {os.path.basename(en_path)}"
 
-    guide_extra = ""
-    if kind == "guide":
-        guide_extra = f"Topic context from English page: {meta.get('description', '')}"
-
     ja_path = en_path.replace(".md", "_ja.md")
-    body = generate_japanese_body(kind, meta, guide_extra=guide_extra)
-    if not body:
+    result = translate_to_japanese(kind, meta, body_en)
+    if not result:
         remove_content_artifacts(ja_path)
-        return f"❌ Failed body: {os.path.basename(en_path)}"
+        return f"❌ Failed: {os.path.basename(en_path)}"
 
-    ok, reason = validate_body(kind, body)
-    if not ok:
-        remove_content_artifacts(ja_path)
-        return f"❌ Failed validation ({os.path.basename(en_path)}): {reason}"
-
-    ja_meta = localize_meta_for_ja(meta)
+    ja_meta, body_ja = result
     with open(ja_path, "w", encoding="utf-8") as f:
         f.write("---\n")
         f.write(json.dumps(ja_meta, ensure_ascii=False, indent=2))
         f.write("\n---\n\n")
-        f.write(body)
+        f.write(body_ja)
     return f"✅ Saved: {os.path.basename(ja_path)}"
 
 
@@ -70,37 +65,41 @@ def main() -> None:
     if not os.path.isdir(CONTENT_DIR):
         os.makedirs(CONTENT_DIR, exist_ok=True)
 
-    g_cap = guide_limit()
-    s_cap = school_limit()
-    u_cap = university_limit()
+    ja_cap = japanese_limit()
+    g_cap = min(guide_limit(), ja_cap) if ja_cap > 0 else 0
+    s_cap = min(school_limit(), ja_cap) if ja_cap > 0 else 0
+    u_cap = min(university_limit(), ja_cap) if ja_cap > 0 else 0
     guides = _pending_by_prefix("guide_", g_cap) if g_cap > 0 else []
     schools = _pending_by_prefix("school_", s_cap) if s_cap > 0 else []
     univs = _pending_by_prefix("univ_", u_cap) if u_cap > 0 else []
     targets = guides + schools + univs
 
     print(
-        f"🇯🇵 Native JA (new only): guides {len(guides)} · schools {len(schools)} · "
-        f"universities {len(univs)} (limits g={g_cap} s={s_cap} u={u_cap})"
+        f"🇯🇵 JA translate (1 call/item): guides {len(guides)} · schools {len(schools)} · "
+        f"universities {len(univs)} (limits g={g_cap} s={s_cap} u={u_cap}, workers={MAX_WORKERS})"
     )
     if not targets:
-        print("✅ No pending Japanese native articles (all have *_ja.md).")
+        print("✅ No pending Japanese articles (all have *_ja.md).")
         return
 
     failures = 0
-    for path in tqdm(targets, desc="JA native"):
-        try:
-            result = _write_ja(path)
-            if result.startswith("❌"):
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        futures = {executor.submit(_write_ja, path): path for path in targets}
+        for future in tqdm(as_completed(futures), total=len(targets), desc="JA translate"):
+            path = futures[future]
+            try:
+                result = future.result()
+                if result.startswith("❌"):
+                    failures += 1
+                    print(result)
+            except Exception as exc:
                 failures += 1
-                print(result)
-        except Exception as exc:
-            failures += 1
-            print(f"❌ {os.path.basename(path)}: {exc}")
+                print(f"❌ {os.path.basename(path)}: {exc}")
 
     if failures:
-        print(f"❌ {failures} Japanese native article(s) failed")
+        print(f"❌ {failures} Japanese article(s) failed")
         sys.exit(1)
-    print("🎉 Japanese native generation finished.")
+    print("🎉 Japanese translation finished.")
 
 
 if __name__ == "__main__":
