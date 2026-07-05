@@ -9,7 +9,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if BASE_DIR not in sys.path:
     sys.path.insert(0, BASE_DIR)
 
-from app.main import DOMAIN, GCS_IMAGE_BASE
+from app.settings import DOMAIN, GCS_IMAGE_BASE
 from app.social_share import (
     fetch_social_jpeg,
     load_guide_item,

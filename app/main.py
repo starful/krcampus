@@ -8,7 +8,7 @@ from app.middleware import legacy_redirect_middleware
 from app.paths import CONTENT_DIR, STATIC_DIR
 from app.reactions import router as reactions_router
 from app.routes import assets, pages, seo_routes
-from app.settings import DOMAIN
+from app.settings import DOMAIN, GCS_IMAGE_BASE  # re-exported for scripts/tests
 
 app = FastAPI()
 
