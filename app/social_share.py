@@ -2,14 +2,11 @@
 from __future__ import annotations
 
 import io
-import os
 import re
 import urllib.request
 from urllib.parse import quote
 
-import frontmatter
-
-from app.paths import CONTENT_DIR
+from app.content_service import load_guide_post, load_school_post
 from app.thumbnails import assign_thumbnails, resolve_guide_detail_thumbnail
 
 SOCIAL_CARD_VERSION = "1"
@@ -89,13 +86,7 @@ def resolve_thumbnail_url(
 
 
 def load_school_item(school_id: str, lang: str) -> tuple[dict, str]:
-    filename = f"{school_id}_ja.md" if lang == "ja" else f"{school_id}.md"
-    md_path = os.path.join(CONTENT_DIR, filename)
-    if not os.path.exists(md_path) and lang == "ja":
-        md_path = os.path.join(CONTENT_DIR, f"{school_id}.md")
-    if not os.path.exists(md_path):
-        raise FileNotFoundError(school_id)
-    post = frontmatter.load(md_path)
+    post, _ = load_school_post(school_id, lang)
     item = dict(post.metadata)
     item["id"] = school_id
     item_type = "university" if item.get("category") == "university" else "school"
@@ -104,13 +95,7 @@ def load_school_item(school_id: str, lang: str) -> tuple[dict, str]:
 
 
 def load_guide_item(slug: str, lang: str) -> dict:
-    filename = f"guide_{slug}_ja.md" if lang == "ja" else f"guide_{slug}.md"
-    md_path = os.path.join(CONTENT_DIR, filename)
-    if not os.path.exists(md_path) and lang == "ja":
-        md_path = os.path.join(CONTENT_DIR, f"guide_{slug}.md")
-    if not os.path.exists(md_path):
-        raise FileNotFoundError(slug)
-    post = frontmatter.load(md_path)
+    post, _ = load_guide_post(slug, lang)
     item = dict(post.metadata)
     item.setdefault("id", slug)
     item["thumbnail"] = resolve_guide_detail_thumbnail(item)

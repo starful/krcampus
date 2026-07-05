@@ -1,14 +1,12 @@
 import json
-import os
 
-import frontmatter
-import markdown
 from fastapi import APIRouter, HTTPException, Query, Request
 from fastapi.responses import HTMLResponse, RedirectResponse
 
 from app.compare import build_compare_export, compare_fee_value, prepare_compare_items
 from app.content_loader import load_guides, load_school_data
 from app.content_new import enrich_items
+from app.content_service import load_guide_post, load_school_post, render_markdown
 from app.context import (
     default_updated_at,
     detail_cross_links,
@@ -29,7 +27,6 @@ from app.seo.serp_overrides import apply_guide_serp_overrides
 from app.settings import DOMAIN, FAMILY_SITE_ID, KRCAMPUS_GOOGLE_MAPS_API_KEY, SCHOOL_ID_ALIASES, SITE_NAME
 from app.social_share import share_context
 from app.thumbnails import assign_thumbnails, diversify_guide_thumbnails, resolve_guide_detail_thumbnail
-from app.paths import CONTENT_DIR
 
 router = APIRouter()
 
@@ -95,16 +92,12 @@ async def read_school_detail(request: Request, school_id: str, lang: str = Query
     if canonical_id != school_id:
         return RedirectResponse(url=f"/school/{canonical_id}?lang={lang}", status_code=301)
 
-    filename = f"{school_id}_ja.md" if lang == "ja" else f"{school_id}.md"
-    md_path = os.path.join(CONTENT_DIR, filename)
-    if not os.path.exists(md_path) and lang == "ja":
-        md_path = os.path.join(CONTENT_DIR, f"{school_id}.md")
-
-    if not os.path.exists(md_path):
+    try:
+        post, _ = load_school_post(school_id, lang)
+    except FileNotFoundError:
         raise HTTPException(status_code=404, detail="School content file not found")
 
-    post = frontmatter.load(md_path)
-    content_html = markdown.markdown(post.content, extensions=["tables", "fenced_code", "nl2br"])
+    content_html = render_markdown(post.content)
     item = post.metadata
     item_type = "university" if item.get("category") == "university" else "school"
     share_title = (
@@ -137,16 +130,12 @@ async def read_school_detail(request: Request, school_id: str, lang: str = Query
 
 @router.get("/guide/{slug}", response_class=HTMLResponse)
 async def guide_detail(request: Request, slug: str, lang: str = Query("en")):
-    filename = f"guide_{slug}_ja.md" if lang == "ja" else f"guide_{slug}.md"
-    md_path = os.path.join(CONTENT_DIR, filename)
-    if not os.path.exists(md_path) and lang == "ja":
-        md_path = os.path.join(CONTENT_DIR, f"guide_{slug}.md")
-
-    if not os.path.exists(md_path):
+    try:
+        post, _ = load_guide_post(slug, lang)
+    except FileNotFoundError:
         raise HTTPException(status_code=404, detail="Guide content file not found")
 
-    post = frontmatter.load(md_path)
-    content_html = markdown.markdown(post.content, extensions=["tables", "fenced_code", "nl2br"])
+    content_html = render_markdown(post.content)
     item = dict(post.metadata)
     item["thumbnail"] = resolve_guide_detail_thumbnail(item)
 

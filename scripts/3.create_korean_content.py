@@ -65,7 +65,7 @@ def translate_file(filepath):
 
         # 프롬프트: 파일명 접미사 방식에 맞춘 한국어 번역 요청
         prompt = f"""
-        You are a professional editor for a 'Study in Japan' platform targeting Korean students.
+        You are a professional editor for a 'Study in Korea' platform targeting Korean students.
         Translate the provided English Markdown content into **Natural, Professional Korean**.
 
         **Instructions:**

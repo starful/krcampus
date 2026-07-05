@@ -67,6 +67,7 @@ class RouteSmokeTests(unittest.TestCase):
         for old_path, new_path in [
             ("/guide/best-national-universities-japan", "/guide/best-national-universities-korea"),
             ("/guide/top-womens-education-japan", "/guide/top-womens-universities-korea"),
+            ("/guide/women-universities-korea", "/guide/top-womens-universities-korea"),
         ]:
             with self.subTest(old_path=old_path):
                 response = self.client.get(old_path, follow_redirects=False)

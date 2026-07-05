@@ -24,7 +24,7 @@ def optimize_title(title: str) -> str:
     year = datetime.now(timezone.utc).strftime("%Y")
     clean = (title or "").strip()
     if not clean:
-        clean = "Study in Japan Guide"
+        clean = "Study in Korea Guide"
     if clean.startswith(f"[{year}]"):
         return clean
     optimized = f"[{year}] {clean}"
@@ -46,7 +46,7 @@ def process_file(path: Path, apply: bool) -> tuple[bool, str]:
     original_desc = post.get("description", "")
 
     new_title = optimize_title(original_title)
-    new_desc = optimize_description(original_desc, original_title or "studying in Japan")
+    new_desc = optimize_description(original_desc, original_title or "studying in Korea")
 
     changed = (new_title != original_title) or (new_desc != original_desc)
     if changed:

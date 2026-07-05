@@ -2,8 +2,7 @@ import glob
 import json
 import os
 
-import frontmatter
-
+from app.content_service import load_post
 from app.content_new import enrich_item
 from app.paths import CONTENT_DIR, STATIC_DIR
 from app.thumbnails import resolve_guide_list_thumbnail
@@ -50,7 +49,7 @@ def _load_guide_files(lang):
 
     for filepath in guide_files:
         try:
-            post = frontmatter.load(filepath)
+            post = load_post(filepath)
             meta = post.metadata
             guide_id = str(meta.get("id", "")).replace("_ja", "").replace("guide_", "")
             safe_thumbnail = resolve_guide_list_thumbnail(meta)

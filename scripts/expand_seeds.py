@@ -37,7 +37,7 @@ NEW_GUIDES = [
     ("k-pop-media-majors", "Selection", "K-pop and Media Programs in Korea", "Specialized study tracks.", "Survey universities and programs related to K-pop, film, and media for international students."),
     ("business-ma-korea", "Selection", "MBA and Business Programs in Korea", "Business school guide.", "Compare MBA and business programs at major Korean universities for international students."),
     ("engineering-universities-korea", "Selection", "Top Engineering Universities in Korea", "STEM study options.", "Profile top engineering schools (KAIST, POSTECH, SNU, Hanyang) for international applicants."),
-    ("women-universities-korea", "Selection", "Women's Universities in Korea", "Ewha, Sookmyung, and others.", "Guide to women's universities open to international students: programs and campus life."),
+    ("top-womens-universities-korea", "Curated List", "Empowering Women: Best Women's Universities in Korea", "Ewha, Sookmyung, and others.", "Compare top women's universities in Korea for international students."),
     ("national-vs-private-korea", "Selection", "National vs Private Universities in Korea", "Tuition and reputation tradeoffs.", "Compare national and private universities on tuition, prestige, and international support."),
     ("remittance-korea", "Budget", "Sending Money to Korea: Wise and Banks", "International transfers guide.", "Compare Wise, bank SWIFT, and other methods for tuition and living expense transfers to Korea."),
     ("monthly-budget-busan", "Budget", "Monthly Student Budget in Busan", "Busan cost breakdown.", "Provide monthly budget table for students in Busan: rent, food, transit, phone."),
