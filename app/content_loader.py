@@ -1,6 +1,7 @@
 import glob
 import json
 import os
+from functools import lru_cache
 
 from app.content_service import load_post
 from app.content_new import enrich_item
@@ -21,6 +22,7 @@ def _apply_lang_to_schools(schools, lang):
     return schools
 
 
+@lru_cache(maxsize=4)
 def load_school_data(lang="en"):
     en_path = os.path.join(STATIC_DIR, "json", "schools_data.json")
     try:
@@ -69,6 +71,7 @@ def _load_guide_files(lang):
     return guides
 
 
+@lru_cache(maxsize=4)
 def load_guides(lang="en"):
     guides = _load_guide_files(lang)
     if lang == "ja" and not guides:

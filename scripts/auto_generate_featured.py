@@ -14,42 +14,42 @@ setup_logging("auto_featured.log")
 # 학교 데이터 경로
 SCHOOLS_JSON = os.path.join(os.path.dirname(DATA_DIR), "app", "static", "json", "schools_data.json")
 
-# [새로운 전략적 TOPICS 목록]
+# [전략적 TOPICS — Study in Korea]
 TOPICS = [
     # 1. 취업 성공률이 높은 비즈니스 특화 학교
     {
         "slug": "career-success-business-schools",
-        "title": "Boost Your Career: Top 5 Japanese Schools for Job Seekers",
+        "title": "Boost Your Career: Top Korean Language Schools for Job Seekers",
         "criteria": {
             "category": "school", 
             "tag": "business" 
         },
         "count": 5,
-        "thumbnail": "https://images.unsplash.com/photo-1454165833767-027ffea9e778?w=500" # 비즈니스 미팅 이미지
+        "thumbnail": "https://images.unsplash.com/photo-1454165833767-027ffea9e778?w=500"
     },
 
-    # 2. 여학생을 위한 안전하고 전문적인 여자 대학교/교육기관
+    # 2. 여학생을 위한 안전하고 전문적인 여자 대학교
     {
         "slug": "top-womens-universities-korea",
-        "title": "Empowering Women: Best Women's Universities & Colleges in Japan",
+        "title": "Empowering Women: Best Women's Universities in Korea",
         "criteria": {
             "category": "university", 
-            "tag": "woman" # Ochanomizu, Tsuda, Japan Women's 등 타겟팅
+            "tag": "woman"
         },
         "count": 5,
-        "thumbnail": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500" # 전문직 여성 이미지
+        "thumbnail": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500"
     },
 
-    # 3. IT 및 로봇 공학 등 첨단 기술 공과 대학
+    # 3. IT 및 공학 등 첨단 기술 대학
     {
         "slug": "top-engineering-tech-universities",
-        "title": "Future Tech Leaders: Top 5 Engineering Universities in Japan",
+        "title": "Future Tech Leaders: Top Engineering Universities in Korea",
         "criteria": {
             "category": "university", 
-            "tag": "engineering" # Tokyo Tech, Shibaura, Nagoya Tech 등
+            "tag": "engineering"
         },
         "count": 5,
-        "thumbnail": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500" # 로봇/공학 이미지
+        "thumbnail": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500"
     },
 
     # 4. 학비 부담이 적은 우수 국립 대학교 (가성비 유학)
@@ -61,31 +61,31 @@ TOPICS = [
             "tag": "national" 
         },
         "count": 5,
-        "thumbnail": "https://images.unsplash.com/photo-1525921429624-479b6a29d84c?w=500" # 클래식한 캠퍼스 건물
+        "thumbnail": "https://images.unsplash.com/photo-1525921429624-479b6a29d84c?w=500"
     },
 
-    # 5. 애니메이션, 만화, 디자인 전공자를 위한 예술 학교
+    # 5. K-pop, 미디어, 디자인 전공자를 위한 학교
     {
         "slug": "creative-arts-design-schools",
-        "title": "Art & Design: Best Schools for Anime, Manga, and Creative Studies",
+        "title": "Art & Design: Best Schools for K-Pop, Media, and Creative Studies in Korea",
         "criteria": {
             "category": "school", 
-            "tag": "art" # 디자인, 미술 특화 학교
+            "tag": "art"
         },
         "count": 4,
-        "thumbnail": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=500" # 화실/드로잉 이미지
+        "thumbnail": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=500"
     },
 
-    # 6. 도쿄 중심가에서 즐기는 어반 라이프스타일 학교
+    # 6. 서울 중심가 어반 라이프스타일 어학원
     {
-        "slug": "urban-lifestyle-tokyo-schools",
-        "title": "Study in the Heart of Tokyo: Best Central Tokyo Language Schools",
+        "slug": "urban-lifestyle-seoul-schools",
+        "title": "Study in the Heart of Seoul: Best Central Seoul Language Schools",
         "criteria": {
             "category": "school", 
-            "region": "東京都" 
+            "region": "Seoul"
         },
         "count": 5,
-        "thumbnail": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=500" # 도쿄 야경/시내 이미지
+        "thumbnail": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=500"
     }
 ]
 
@@ -120,8 +120,10 @@ def filter_schools(schools, criteria, limit):
         full_text = str(s).lower()
         match = True
         
-        if 'region' in criteria and criteria['region'] not in s['basic_info']['address']:
-            match = False
+        if 'region' in criteria:
+            address = (s.get('basic_info') or {}).get('address') or ''
+            if criteria['region'] not in address:
+                match = False
         if 'tag' in criteria and criteria['tag'].lower() not in full_text:
             match = False
             

@@ -1,0 +1,95 @@
+/* --- [4] 필터 컨트롤 및 드롭다운 스타일 --- */
+.filter-controls {
+    display: flex;
+    align-items: center;
+}
+
+.tag-filter-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    height: 48px;
+    padding: 0 24px; 
+    border-radius: 999px;
+    background: white;
+    border: 1px solid var(--border);
+    font-size: 0.95rem; 
+    font-weight: 600;
+    color: var(--text-dark);
+    transition: all 0.2s;
+    box-shadow: var(--shadow-md);
+    white-space: nowrap;
+    cursor: pointer;
+    width: auto; 
+}
+
+.tag-filter-btn:hover { 
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+
+.tag-filter-btn.active { 
+    background: var(--text-dark); 
+    color: white; 
+    border-color: var(--text-dark); 
+}
+
+.filter-dropdown { position: relative; }
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: calc(100% + 12px);
+    left: 0; 
+    background: var(--white);
+    border-radius: 16px; 
+    box-shadow: 0 10px 40px rgba(0,0,0,0.12); 
+    border: 1px solid var(--border);
+    width: 260px; 
+    z-index: 1100;
+    padding: 8px;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .dropdown-menu {
+        left: auto;
+        right: 0; 
+    }
+}
+
+.filter-dropdown.is-open .dropdown-menu { display: block; }
+
+.dropdown-item {
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    border-radius: 12px;
+    color: var(--text-dark);
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+}
+
+.dropdown-item:hover { background-color: var(--bg-light); }
+
+.dropdown-item .tag-icon { 
+    margin-right: 12px; 
+    font-size: 1.1rem; 
+    width: 24px; 
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.dropdown-item .tag-name { flex-grow: 1; font-weight: 500; font-size: 0.95rem; }
+
+.dropdown-item .tag-count { 
+    font-size: 0.8rem; 
+    color: var(--text-gray); 
+    background-color: #f1f5f9; 
+    padding: 4px 10px; 
+    border-radius: 999px;
+    font-weight: 600;
+}
+

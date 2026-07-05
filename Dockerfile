@@ -12,8 +12,7 @@ COPY app ./app
 # [수정] scripts 폴더 전체 복사 (build_data.py가 여기 포함됨)
 COPY scripts ./scripts
 
-# 3. 빌드 시점에 Markdown -> JSON 변환 실행
-# [수정] 경로 변경 반영
+# 3. 빌드 시점에 Markdown -> JSON / social images (skip when outputs are up to date)
 RUN python scripts/build_data.py && python scripts/build_social_images.py
 
 # 4. 실행 설정

@@ -34,11 +34,16 @@ def guide_slugs() -> list[str]:
 
 def build_guide_images() -> None:
     os.makedirs(OUTPUT_DIR, exist_ok=True)
-    ok = 0
+    ok = skipped = 0
     failed: list[str] = []
     for slug in guide_slugs():
         image_key = static_social_image_key("guide", slug)
         output_path = os.path.join(OUTPUT_DIR, f"{image_key}.jpg")
+        guide_path = os.path.join(CONTENT_DIR, f"guide_{slug}.md")
+        if os.path.exists(output_path) and os.path.exists(guide_path):
+            if os.path.getmtime(output_path) >= os.path.getmtime(guide_path):
+                skipped += 1
+                continue
         try:
             item = load_guide_item(slug, "en")
             source = resolve_thumbnail_url(
@@ -50,7 +55,7 @@ def build_guide_images() -> None:
             ok += 1
         except Exception as exc:
             failed.append(f"{slug}: {exc}")
-    print(f"✅ Built {ok} guide social images in {OUTPUT_DIR}")
+    print(f"✅ Built {ok} guide social images in {OUTPUT_DIR} (skipped {skipped} up to date)")
     if failed:
         print(f"⚠️  Skipped {len(failed)} guides:")
         for line in failed[:10]:

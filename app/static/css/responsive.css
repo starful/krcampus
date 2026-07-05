@@ -1,0 +1,44 @@
+/* --- [10] 반응형 --- */
+@media (max-width: 768px) {
+    .header-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        gap: 8px;
+    }
+    .header-left { grid-column: 1; grid-row: 1; }
+    .header-right { grid-column: 2; grid-row: 1; justify-self: end; }
+    .logo-wrapper { grid-column: 1 / -1; grid-row: 2; justify-self: center; }
+    .logo-img { height: 52px; }
+    .nav-guide-link { font-size: 0.85rem; }
+    .map-section { min-height: 340px; height: 45vh; }
+    .top-filter-bar { padding: 6px 8px 8px; }
+    .theme-filter-buttons { justify-content: center; gap: 6px; padding: 0 8px; }
+    .theme-button { padding: 5px 9px; font-size: 0.72rem; gap: 3px; }
+    .filter-emoji { font-size: 0.85rem; }
+    .count-badge { font-size: 0.58rem; padding: 1px 5px; min-width: 1.1em; }
+    .detail-container, .list-container { padding-left: 16px; padding-right: 16px; }
+    .section-title { font-size: 1.4rem; text-align: center; } 
+    .section-header { justify-content: center; flex-direction: column; gap: 10px; } 
+    .detail-title, .list-title { font-size: 2rem; text-align: center; }
+    .card-grid, .info-grid { grid-template-columns: 1fr; }
+    .quick-actions { grid-template-columns: 1fr; }
+    .card { border-radius: 16px; }
+    .card-body, .card-footer { padding-left: 16px; padding-right: 16px; }
+    .card-img { height: 200px; }
+    .footer-links { flex-wrap: wrap; gap: 14px 20px; }
+    .stats-banner { justify-content: center; }
+    .stat-pill { width: 100%; justify-content: center; text-align: center; }
+    .detail-cta-panel { grid-template-columns: 1fr; }
+    .reaction-panel { margin-top: 36px; padding: 24px 20px 28px; }
+    .reaction-panel-title { font-size: 1.15rem; }
+    .reaction-container { gap: 12px; }
+    .reaction-btn { min-width: 0; flex: 1 1 120px; max-width: 200px; padding: 12px 20px; }
+}
+
+@media (max-width: 480px) {
+    .logo-img { height: 44px; }
+    .map-section { min-height: 300px; height: 40vh; }
+    .content-wrapper { padding: 0 12px 32px; }
+    .section-title { font-size: 1.2rem; }
+    .detail-title, .list-title { font-size: 1.6rem; }
+}

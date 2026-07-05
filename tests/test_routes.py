@@ -2,8 +2,9 @@ import unittest
 
 from fastapi.testclient import TestClient
 
-from app.main import app, DOMAIN
-from app.utils import load_school_data, load_guides
+from app.main import app
+from app.settings import DOMAIN
+from app.content_loader import load_school_data, load_guides
 
 
 class RouteSmokeTests(unittest.TestCase):

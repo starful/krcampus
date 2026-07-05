@@ -1,4 +1,4 @@
-"""Backward-compatible re-exports — prefer direct imports from submodules."""
+"""Backward-compatible re-exports — prefer `app.content_loader`, `app.i18n`, etc."""
 
 from app.compare import (
     build_compare_export,

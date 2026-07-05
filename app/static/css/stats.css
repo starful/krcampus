@@ -1,0 +1,45 @@
+/* --- [14] 통계 배지 (Stats Banner) 스타일 --- */
+.stats-banner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 30px; 
+}
+
+.stat-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #1e293b; /* 다크 네이비 배경 */
+    color: #e2e8f0;
+    padding: 10px 18px;
+    border-radius: 8px; /* 둥근 사각형 */
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: 1px solid #334155;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.stat-pill i {
+    color: #94a3b8;
+    font-size: 1rem;
+}
+
+/* 숫자/날짜 하이라이트 색상 */
+.stat-highlight {
+    color: #f59e0b; /* 오렌지/옐로우 포인트 */
+    font-weight: 800;
+    margin-right: 4px;
+}
+
+/* 마지막 배지 (Updating Weekly) 특별 스타일 */
+.stat-pill.highlight-pill {
+    border-color: #f59e0b; 
+    background-color: rgba(245, 158, 11, 0.1);
+}
+
+.stat-pill.highlight-pill i, 
+.stat-pill.highlight-pill .stat-highlight {
+    color: #f59e0b;
+    margin: 0;
+}

@@ -23,8 +23,9 @@ ROOT_DIR = Path(__file__).resolve().parents[1]
 if str(ROOT_DIR) not in sys.path:
     sys.path.insert(0, str(ROOT_DIR))
 
-from app.main import app, DOMAIN
-from app.utils import load_school_data, load_guides
+from app.main import app
+from app.settings import DOMAIN
+from app.content_loader import load_school_data, load_guides
 
 import frontmatter
 

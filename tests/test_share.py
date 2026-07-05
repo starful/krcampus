@@ -2,8 +2,9 @@ import unittest
 
 from fastapi.testclient import TestClient
 
-from app.main import DOMAIN, app
-from app.utils import load_guides, load_school_data
+from app.main import app
+from app.settings import DOMAIN
+from app.content_loader import load_guides, load_school_data
 
 
 class ShareBarTests(unittest.TestCase):

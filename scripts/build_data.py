@@ -58,6 +58,27 @@ def resolve_thumbnail(meta, slug):
 
 
 def build_json(lang_suffix, output_filename):
+    output_path = os.path.join(OUTPUT_DIR, output_filename)
+    if os.path.exists(output_path):
+        out_mtime = os.path.getmtime(output_path)
+        stale = False
+        for filename in os.listdir(CONTENT_DIR):
+            if not filename.endswith(".md"):
+                continue
+            if not (filename.startswith("univ_") or filename.startswith("school_")):
+                continue
+            is_ja = filename.endswith("_ja.md")
+            if lang_suffix == "ja" and not is_ja:
+                continue
+            if lang_suffix == "en" and is_ja:
+                continue
+            if os.path.getmtime(os.path.join(CONTENT_DIR, filename)) > out_mtime:
+                stale = True
+                break
+        if not stale:
+            print(f"Skip {output_filename} (up to date)")
+            return
+
     print(f"Building {output_filename} ...")
     schools_list = []
     backfilled = 0
@@ -99,7 +120,7 @@ def build_json(lang_suffix, output_filename):
                             "name_en": basic.get("name_en"),
                             "name_ja": basic.get("name_ja"),
                             "name_display": meta.get("title"),
-                            "address": basic.get("address"),
+                            "address": basic.get("address") or "",
                             "capacity": basic.get("capacity"),
                         },
                         "location": meta.get("location"),
@@ -121,7 +142,6 @@ def build_json(lang_suffix, output_filename):
     }
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
-    output_path = os.path.join(OUTPUT_DIR, output_filename)
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(final_data, f, ensure_ascii=False)
 

@@ -1,0 +1,168 @@
+/* --- [13] 리액션 (좋아요/싫어요) --- */
+.reaction-panel {
+    margin-top: 48px;
+    margin-bottom: 8px;
+    padding: 28px 32px 32px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 71, 160, 0.14);
+    background: linear-gradient(180deg, #f0f6ff 0%, #ffffff 100%);
+    box-shadow: 0 8px 28px rgba(0, 71, 160, 0.08);
+    text-align: center;
+}
+
+.reaction-panel-title {
+    margin: 0 0 8px;
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--text-dark, #0f172a);
+    letter-spacing: -0.02em;
+}
+
+.reaction-panel-subtitle {
+    margin: 0 0 22px;
+    font-size: 0.95rem;
+    color: var(--text-gray);
+}
+
+.reaction-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.reaction-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-width: 140px;
+    padding: 14px 32px;
+    border-radius: 999px;
+    border: 2px solid var(--border);
+    background-color: var(--white);
+    color: var(--text-gray);
+    font-size: 1.15rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.06);
+}
+
+.reaction-btn i {
+    font-size: 1.35rem;
+    transition: transform 0.2s ease;
+}
+
+/* 마우스 오버 효과 */
+.reaction-btn:hover {
+    background-color: var(--bg-light);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+.reaction-btn:hover i {
+    transform: scale(1.1) rotate(-5deg);
+}
+
+/* 활성화(클릭됨) 상태: 좋아요 */
+.reaction-btn.active-like {
+    background-color: var(--primary);
+    color: var(--white);
+    border-color: var(--primary);
+}
+
+.reaction-btn.active-like:hover {
+    background-color: #1d4ed8; 
+}
+
+/* 활성화(클릭됨) 상태: 싫어요 */
+.reaction-btn.active-dislike {
+    background-color: #f43f5e; 
+    color: var(--white);
+    border-color: #f43f5e;
+}
+
+.reaction-btn.active-dislike:hover {
+    background-color: #e11d48; 
+}
+
+.share-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+    margin: 48px 0 12px;
+    padding: 18px 22px;
+    background: linear-gradient(180deg, var(--primary-light) 0%, var(--white) 100%);
+    border: 1px solid rgba(0, 71, 160, 0.18);
+    border-radius: 16px;
+    box-shadow: var(--shadow-md);
+}
+
+.share-bar-label {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.share-bar-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.share-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40px;
+    padding: 0 16px;
+    border: 2px solid var(--border);
+    border-radius: 999px;
+    background: var(--white);
+    color: var(--text-gray);
+    font-size: 0.9rem;
+    font-weight: 700;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+.share-btn:hover {
+    transform: translateY(-1px);
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.share-btn:disabled {
+    opacity: 0.85;
+    cursor: default;
+}
+
+.share-btn-icon {
+    width: 42px;
+    min-width: 42px;
+    height: 42px;
+    padding: 0;
+}
+
+.share-icon {
+    display: block;
+    width: 18px;
+    height: 18px;
+}
+
+.share-btn-x:hover { color: #000; border-color: #cbd5e1; }
+
+.share-btn-linkedin:hover { color: #0a66c2; border-color: #0a66c2; }
+
+.share-bar-hint {
+    flex: 1 1 100%;
+    margin: 0;
+    font-size: 0.78rem;
+    line-height: 1.45;
+    color: var(--text-gray);
+}

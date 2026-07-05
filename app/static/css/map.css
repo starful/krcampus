@@ -1,0 +1,65 @@
+/* --- [12] 지도 커스텀 마커 (OKOnsen photo style) --- */
+.marker-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    background-color: var(--primary);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.marker-icon:hover {
+    transform: scale(1.15) translateY(-4px);
+    z-index: 999;
+}
+.marker-icon.map-marker-active {
+    transform: scale(1.2) translateY(-4px);
+    box-shadow: 0 0 0 3px var(--accent), 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.map-marker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+    border: 2px solid white; 
+    font-size: 1.1rem;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    position: relative;
+}
+
+.map-marker::after {
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 8px solid; 
+}
+
+.map-marker.marker-univ { background-color: var(--accent); }
+.map-marker.marker-univ::after { border-top-color: var(--accent); }
+.map-marker.marker-school { background-color: var(--primary); }
+.map-marker.marker-school::after { border-top-color: var(--primary); }
+
+.map-marker:hover {
+    transform: scale(1.1) translateY(-4px); 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+.map-marker.map-marker-active {
+    transform: scale(1.15) translateY(-6px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
+    z-index: 1200;
+}
