@@ -30,7 +30,7 @@ TOPICS = [
 
     # 2. 여학생을 위한 안전하고 전문적인 여자 대학교/교육기관
     {
-        "slug": "top-womens-education-japan",
+        "slug": "top-womens-universities-korea",
         "title": "Empowering Women: Best Women's Universities & Colleges in Japan",
         "criteria": {
             "category": "university", 
@@ -54,7 +54,7 @@ TOPICS = [
 
     # 4. 학비 부담이 적은 우수 국립 대학교 (가성비 유학)
     {
-        "slug": "best-national-universities-japan",
+        "slug": "best-national-universities-korea",
         "title": "Affordable Excellence: Top 5 National Universities for International Students",
         "criteria": {
             "category": "university", 

@@ -1,48 +1,23 @@
-<!DOCTYPE html>
-<html lang="{{ 'ja' if current_lang == 'ja' else 'en' }}">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ meta_title or 'About Us - KR Campus' }}</title>
-    <meta name="description" content="{{ meta_description or 'Learn about KR Campus, our mission to simplify studying in Korea, and how we use data to help international students find their perfect school.' }}">
-    <meta name="robots" content="index,follow">
-    <link rel="canonical" href="{{ canonical_url }}">
-    {% if hreflang_urls %}
-    <link rel="alternate" hreflang="en" href="{{ hreflang_urls['en'] }}">
-    <link rel="alternate" hreflang="ja" href="{{ hreflang_urls['ja'] }}">
-    <link rel="alternate" hreflang="x-default" href="{{ hreflang_urls['x-default'] }}">
-    {% endif %}
-    <link rel="stylesheet" href="/static/css/style.css">
-    <style>
-        .about-container { max-width: 900px; margin: 60px auto; padding: 0 20px; }
-        .about-section { background: #fff; padding: 50px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); margin-bottom: 30px; }
-        h1 { color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 20px; margin-bottom: 30px; font-size: 2.2rem; }
-        h2 { color: #34495e; margin-top: 40px; margin-bottom: 15px; font-size: 1.5rem; border-left: 5px solid #3498db; padding-left: 15px; }
-        p { line-height: 1.8; color: #555; margin-bottom: 20px; font-size: 1.05rem; }
-        ul { list-style-type: disc; padding-left: 20px; margin-bottom: 20px; color: #555; }
-        li { margin-bottom: 10px; line-height: 1.7; }
-        .highlight { font-weight: 600; color: #2980b9; }
-        .back-btn { display: inline-block; background: #3498db; color: #fff; padding: 12px 30px; border-radius: 30px; text-decoration: none; font-weight: bold; margin-top: 30px; transition: background 0.3s; }
-        .back-btn:hover { background: #2980b9; }
-    </style>
+{% extends "base.html" %}
 
-    {% if ga_measurement_id %}
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ ga_measurement_id }}"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', '{{ ga_measurement_id }}');
-    </script>
-    {% endif %}
-</head>
-<body style="background-color: #f9f9f9;">
-    <header class="main-header" style="padding: 20px 0;">
-        <div class="logo-container">
-            <a href="/" class="logo" style="font-size: 1.5rem; font-weight: bold; color: #333; text-decoration: none;">KR Campus</a>
-        </div>
-    </header>
+{% block head_extra %}
+<style>
+    .static-page-wrap { background-color: #f9f9f9; padding-bottom: 40px; }
+    .about-container { max-width: 900px; margin: 40px auto 0; padding: 0 20px; }
+    .about-section { background: #fff; padding: 50px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); margin-bottom: 30px; }
+    .about-section h1 { color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 20px; margin-bottom: 30px; font-size: 2.2rem; }
+    .about-section h2 { color: #34495e; margin-top: 40px; margin-bottom: 15px; font-size: 1.5rem; border-left: 5px solid #3498db; padding-left: 15px; }
+    .about-section p { line-height: 1.8; color: #555; margin-bottom: 20px; font-size: 1.05rem; }
+    .about-section ul { list-style-type: disc; padding-left: 20px; margin-bottom: 20px; color: #555; }
+    .about-section li { margin-bottom: 10px; line-height: 1.7; }
+    .about-section .highlight { font-weight: 600; color: #2980b9; }
+    .back-btn { display: inline-block; background: #3498db; color: #fff; padding: 12px 30px; border-radius: 30px; text-decoration: none; font-weight: bold; margin-top: 30px; transition: background 0.3s; }
+    .back-btn:hover { background: #2980b9; }
+</style>
+{% endblock %}
 
+{% block content %}
+<div class="static-page-wrap">
     <div class="about-container">
         <div class="about-section">
             <h1>About KR Campus</h1>
@@ -98,20 +73,5 @@
             </div>
         </div>
     </div>
-
-    <footer class="main-footer">
-        <div class="footer-content">
-            <a href="/" class="footer-logo-link">
-                <img src="/static/img/logo.png" alt="KR Campus" class="footer-logo">
-            </a>
-            <div class="footer-links">
-                <a href="/guide?lang={{ current_lang }}">Guide</a>
-                <a href="/about?lang={{ current_lang }}">About</a>
-                <a href="/policy?lang={{ current_lang }}">Privacy</a>
-                <a href="/contact?lang={{ current_lang }}">Contact</a>
-            </div>
-            <p class="copyright">© 2026 KR Campus. All rights reserved.</p>
-        </div>
-    </footer>
-</body>
-</html>
+</div>
+{% endblock %}

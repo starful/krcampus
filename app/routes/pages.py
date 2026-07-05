@@ -279,9 +279,11 @@ async def compare_page(request: Request, ids: str = "", lang: str = Query("en"))
 
 @router.get("/about", response_class=HTMLResponse)
 async def about(request: Request, lang: str = Query("en")):
+    ui = get_ui_text(lang)
     return templates.TemplateResponse(request, "about.html", {
         "canonical_url": build_canonical_url("/about", lang),
         "current_lang": lang,
+        "ui": ui,
         "hreflang_urls": build_hreflang_urls("/about"),
         "updated_at": default_updated_at(),
         "meta_title": build_meta_title("About KR Campus", lang),
@@ -294,9 +296,11 @@ async def about(request: Request, lang: str = Query("en")):
 
 @router.get("/contact", response_class=HTMLResponse)
 async def contact(request: Request, lang: str = Query("en")):
+    ui = get_ui_text(lang)
     return templates.TemplateResponse(request, "contact.html", {
         "canonical_url": build_canonical_url("/contact", lang),
         "current_lang": lang,
+        "ui": ui,
         "hreflang_urls": build_hreflang_urls("/contact"),
         "updated_at": default_updated_at(),
         "meta_title": build_meta_title("Contact KR Campus", lang),
@@ -309,9 +313,11 @@ async def contact(request: Request, lang: str = Query("en")):
 
 @router.get("/policy", response_class=HTMLResponse)
 async def policy(request: Request, lang: str = Query("en")):
+    ui = get_ui_text(lang)
     return templates.TemplateResponse(request, "policy.html", {
         "canonical_url": build_canonical_url("/policy", lang),
         "current_lang": lang,
+        "ui": ui,
         "hreflang_urls": build_hreflang_urls("/policy"),
         "updated_at": default_updated_at(),
         "meta_title": build_meta_title("Privacy Policy", lang),

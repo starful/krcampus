@@ -1,14 +1,14 @@
 ---
 {
   "layout": "guide",
-  "id": "best-national-universities-japan",
+  "id": "best-national-universities-korea",
   "title": "Affordable Excellence: Top 5 National Universities for International Students",
   "category": "Curated List",
   "is_featured": true,
   "tags": [
     "Ranking",
     "Recommendation",
-    "best-national-universities-japan"
+    "best-national-universities-korea"
   ],
   "description": "Explore our top picks for Affordable Excellence: Top 5 National Universities for International Students. Discover the best schools matching your career and lifestyle goals in Korea.",
   "thumbnail": "https://images.unsplash.com/photo-1525921429624-479b6a29d84c?w=500",

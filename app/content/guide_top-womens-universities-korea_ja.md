@@ -1,7 +1,7 @@
 ---
 {
   "layout": "guide",
-  "id": "top-womens-education-japan",
+  "id": "top-womens-universities-korea",
   "title": "【日本の女子大特集】女性のエンパワーメントとキャリアを拓く：留学におすすめの日本の女子大学・専門カレッジ徹底比較",
   "category": "Curated List",
   "is_featured": true,

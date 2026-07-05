@@ -1,7 +1,7 @@
 ---
 {
   "layout": "guide",
-  "id": "best-national-universities-japan",
+  "id": "best-national-universities-korea",
   "title": "学費を抑えて世界トップクラスの教育を！留学生におすすめの韓国国立大学トップ5徹底解説",
   "category": "Curated List",
   "is_featured": true,
@@ -9,7 +9,7 @@
     "ランキング",
     "おすすめ",
     "韓国留学",
-    "best-national-universities-japan"
+    "best-national-universities-korea"
   ],
   "description": "韓国留学費用を抑えながら、卓越した教育を受けたい方必見！韓国の名門国公立大学の魅力、おすすめ校トップ5（ソウル大・釜山大・慶北大・全南大・江原大）の特徴、学費・生活費の比較、出願スケジュールまで徹底解説します。",
   "thumbnail": "https://images.unsplash.com/photo-1525921429624-479b6a29d84c?w=500",

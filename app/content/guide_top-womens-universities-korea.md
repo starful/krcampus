@@ -1,22 +1,22 @@
 ---
 {
   "layout": "guide",
-  "id": "top-womens-education-japan",
-  "title": "Empowering Women: Best Women's Universities & Colleges in Japan",
+  "id": "top-womens-universities-korea",
+  "title": "Empowering Women: Best Women's Universities in Korea",
   "category": "Curated List",
   "is_featured": true,
   "tags": [
     "Ranking",
     "Recommendation",
-    "top-womens-education-japan"
+    "top-womens-universities-korea"
   ],
-  "description": "Explore our top picks for Empowering Women: Best Women's Universities & Colleges in Japan. Discover the best schools matching your career and lifestyle goals in Korea.",
+  "description": "Explore top women's universities in Korea for international students — Ewha, Sookmyung, Duksung, and more.",
   "thumbnail": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500",
   "date": "2026-07-01"
 }
 ---
 
-# Empowering Women: Best Women's Universities & Colleges in Japan
+# Empowering Women: Best Women's Universities in Korea
 
 ## The Evolution of Female Leadership in East Asian Higher Education
 For ambitious international students planning their studies abroad, East Asia offers some of the most prestigious pathways to academic and personal empowerment. While historical institutions in neighboring countries like Japan have long advocated for women's development, South Korea has firmly established itself as the premier destination for modern female leadership. South Korea’s women's universities do not just educate; they serve as global incubators for future executives, diplomats, scientists, and creatives. Providing top-tier academic resources, robust support networks, and unparalleled career safety nets, these universities offer international students a transformative college experience in one of the safest and most technologically advanced nations in the world.
