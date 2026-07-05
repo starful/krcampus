@@ -8,7 +8,16 @@ from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from google.generativeai.types import GenerationConfig
 from batch_limits import school_limit
-from common import setup_logging, setup_gemini, clean_json_response, maps_api_key, DATA_DIR, CONTENT_DIR, LOG_DIR
+from common import (
+    setup_logging,
+    setup_gemini,
+    clean_json_response,
+    maps_api_key,
+    remove_content_artifacts,
+    DATA_DIR,
+    CONTENT_DIR,
+    LOG_DIR,
+)
 from content_generator import generate_english_body, refresh_school_meta
 from content_specs import validate_body
 from topic_queue_csv import resolve as resolve_queue_csv
@@ -133,14 +142,15 @@ def process_school(row):
     }
     frontmatter_data = refresh_school_meta(frontmatter_data)
 
+    filepath = os.path.join(OUTPUT_DIR, f"{slug}.md")
     body = generate_english_body("school", frontmatter_data)
     if not body:
+        remove_content_artifacts(filepath)
         return f"Failed body: {name_ko}"
     ok, reason = validate_body("school", body)
     if not ok:
+        remove_content_artifacts(filepath)
         return f"Failed validation ({name_ko}): {reason}"
-
-    filepath = os.path.join(OUTPUT_DIR, f"{slug}.md")
     with open(filepath, "w", encoding="utf-8") as f:
         f.write("---\n")
         f.write(json.dumps(frontmatter_data, ensure_ascii=False, indent=2))

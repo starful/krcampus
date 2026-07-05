@@ -29,6 +29,20 @@ def maps_api_key() -> str | None:
     return os.getenv("KRCAMPUS_GOOGLE_MAPS_API_KEY") or None
 
 
+def remove_content_artifacts(md_path: str | os.PathLike[str]) -> bool:
+    """Remove EN/JA markdown for a content slug (no-op if missing)."""
+    base = str(md_path)
+    removed = False
+    paths = [base]
+    if base.endswith(".md") and not base.endswith("_ja.md"):
+        paths.append(base[:-3] + "_ja.md")
+    for path in paths:
+        if os.path.isfile(path):
+            os.remove(path)
+            removed = True
+    return removed
+
+
 # Gemini 모델 설정 함수
 def setup_gemini():
     api_key = os.getenv("GEMINI_API_KEY")

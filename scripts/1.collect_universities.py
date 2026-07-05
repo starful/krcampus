@@ -8,7 +8,16 @@ from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from google.generativeai.types import GenerationConfig
 from batch_limits import university_limit
-from common import setup_logging, setup_gemini, clean_json_response, maps_api_key, DATA_DIR, CONTENT_DIR, LOG_DIR
+from common import (
+    setup_logging,
+    setup_gemini,
+    clean_json_response,
+    maps_api_key,
+    remove_content_artifacts,
+    DATA_DIR,
+    CONTENT_DIR,
+    LOG_DIR,
+)
 from content_generator import generate_english_body
 from content_specs import validate_body
 from topic_queue_csv import resolve as resolve_queue_csv
@@ -114,6 +123,10 @@ def process_university(univ):
     raw_slug = data.get("english_slug", name_en.replace(" ", "-").lower())
     slug = f"univ_{raw_slug}" if not raw_slug.startswith("univ_") else raw_slug
 
+    filepath = os.path.join(OUTPUT_DIR, f"{slug}.md")
+    if os.path.isfile(filepath):
+        return f"Skip exists: {slug}.md"
+
     frontmatter_data = {
         "layout": "school",
         "id": slug,
@@ -132,12 +145,13 @@ def process_university(univ):
 
     body = generate_english_body("university", frontmatter_data)
     if not body:
+        remove_content_artifacts(filepath)
         return f"Failed body: {name_ko}"
     ok, reason = validate_body("university", body)
     if not ok:
+        remove_content_artifacts(filepath)
         return f"Failed validation ({name_ko}): {reason}"
 
-    filepath = os.path.join(OUTPUT_DIR, f"{slug}.md")
     with open(filepath, "w", encoding="utf-8") as f:
         f.write("---\n")
         f.write(json.dumps(frontmatter_data, ensure_ascii=False, indent=2))
@@ -178,6 +192,9 @@ def main():
                 result = future.result()
                 if result and str(result).startswith("Failed"):
                     failures += 1
+                    print(result, flush=True)
+                elif result and str(result).startswith("Skip"):
+                    print(result, flush=True)
             except Exception as e:
                 failures += 1
                 print(f"⚠️ {name_ko} generated an exception: {e}")

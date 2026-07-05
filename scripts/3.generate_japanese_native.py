@@ -9,7 +9,7 @@ import frontmatter
 from tqdm import tqdm
 
 from batch_limits import guide_limit, school_limit, university_limit
-from common import CONTENT_DIR, setup_logging
+from common import CONTENT_DIR, remove_content_artifacts, setup_logging
 from content_generator import generate_japanese_body, localize_meta_for_ja
 from content_specs import kind_from_filename, validate_body
 
@@ -46,16 +46,18 @@ def _write_ja(en_path: str) -> str:
     if kind == "guide":
         guide_extra = f"Topic context from English page: {meta.get('description', '')}"
 
+    ja_path = en_path.replace(".md", "_ja.md")
     body = generate_japanese_body(kind, meta, guide_extra=guide_extra)
     if not body:
+        remove_content_artifacts(ja_path)
         return f"❌ Failed body: {os.path.basename(en_path)}"
 
     ok, reason = validate_body(kind, body)
     if not ok:
+        remove_content_artifacts(ja_path)
         return f"❌ Failed validation ({os.path.basename(en_path)}): {reason}"
 
     ja_meta = localize_meta_for_ja(meta)
-    ja_path = en_path.replace(".md", "_ja.md")
     with open(ja_path, "w", encoding="utf-8") as f:
         f.write("---\n")
         f.write(json.dumps(ja_meta, ensure_ascii=False, indent=2))

@@ -8,7 +8,7 @@ import glob
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from batch_limits import guide_limit
-from common import setup_logging, DATA_DIR, CONTENT_DIR, LOG_DIR
+from common import setup_logging, remove_content_artifacts, DATA_DIR, CONTENT_DIR, LOG_DIR
 from content_generator import generate_english_body
 from content_specs import validate_body
 from topic_queue_csv import resolve as resolve_queue_csv
@@ -77,11 +77,13 @@ def process_topic(row):
     content_body = generate_content(row)
 
     if not content_body:
+        remove_content_artifacts(filepath)
         return f"❌ Failed: {slug}"
 
     ok, reason = validate_body("guide", content_body)
     if not ok:
         logging.warning(f"guide {slug}: {reason}")
+        remove_content_artifacts(filepath)
         return f"❌ Failed validation: {slug} — {reason}"
 
     thumbnail_url = get_thumbnail(row['category'])

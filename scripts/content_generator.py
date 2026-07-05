@@ -12,7 +12,7 @@ from common import clean_json_response, setup_gemini
 from content_specs import ContentKind, SPECS, validate_body
 
 model = setup_gemini()
-MAX_ATTEMPTS = 2
+MAX_ATTEMPTS = 3
 META_ATTEMPTS = 2
 
 
@@ -68,7 +68,7 @@ Faculties: {json.dumps(faculties[:20], ensure_ascii=False)}
 Stats: {json.dumps(stats, ensure_ascii=False)}
 Tuition hints: {json.dumps(tuition, ensure_ascii=False)}
 
-**Length: {target} characters** (6000-7000). Markdown body ONLY.
+**Length: {target} characters** (6000-7000). **Hard maximum {SPECS["university"]["max_chars"]} characters — never exceed it.** Markdown body ONLY.
 
 Required ## sections (expand each substantially):
 1. University Overview
@@ -231,7 +231,7 @@ def _school_prompt_ja(meta: dict) -> str:
 """
 
 
-def _try_condense(kind: ContentKind, body: str, reason: str, *, attempts: int = 1) -> str | None:
+def _try_condense(kind: ContentKind, body: str, reason: str, *, attempts: int = 3) -> str | None:
     draft = body
     last_reason = reason
     for _ in range(attempts):
