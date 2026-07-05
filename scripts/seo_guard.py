@@ -116,13 +116,13 @@ def run_checks() -> tuple[list[CheckResult], list[CheckResult]]:
 
     html_targets = [
         ("/", f"{DOMAIN}/"),
-        ("/?lang=kr", f"{DOMAIN}/?lang=kr"),
+        ("/?lang=ja", f"{DOMAIN}/?lang=ja"),
         ("/schools", f"{DOMAIN}/schools"),
-        ("/schools?lang=kr", f"{DOMAIN}/schools?lang=kr"),
+        ("/schools?lang=ja", f"{DOMAIN}/schools?lang=ja"),
         ("/universities", f"{DOMAIN}/universities"),
-        ("/universities?lang=kr", f"{DOMAIN}/universities?lang=kr"),
+        ("/universities?lang=ja", f"{DOMAIN}/universities?lang=ja"),
         ("/guide", f"{DOMAIN}/guide"),
-        ("/guide?lang=kr", f"{DOMAIN}/guide?lang=kr"),
+        ("/guide?lang=ja", f"{DOMAIN}/guide?lang=ja"),
         ("/about", f"{DOMAIN}/about"),
         ("/policy", f"{DOMAIN}/policy"),
         ("/contact", f"{DOMAIN}/contact"),

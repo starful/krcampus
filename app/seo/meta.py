@@ -5,7 +5,7 @@ from app.settings import DOMAIN, SITE_NAME
 
 def build_canonical_url(path: str, lang: str | None = None) -> str:
     canonical = f"{DOMAIN}{path}"
-    if lang in ("ja", "kr"):
+    if lang == "ja":
         return f"{canonical}?lang={lang}"
     return canonical
 

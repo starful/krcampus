@@ -1,3 +1,5 @@
+from urllib.parse import urlencode
+
 from fastapi import Request
 from fastapi.responses import RedirectResponse
 
@@ -14,6 +16,17 @@ def redirect_target(path: str) -> str | None:
     if target == normalized:
         return None
     return target
+
+
+async def lang_kr_alias_middleware(request: Request, call_next):
+    """Redirect legacy ?lang=kr bookmarks to ?lang=ja."""
+    if request.query_params.get("lang") == "kr":
+        params = dict(request.query_params)
+        params["lang"] = "ja"
+        query = urlencode(params)
+        redirect_url = f"{request.url.path}?{query}" if query else request.url.path
+        return RedirectResponse(url=redirect_url, status_code=301)
+    return await call_next(request)
 
 
 async def legacy_redirect_middleware(request: Request, call_next):

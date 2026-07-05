@@ -33,6 +33,11 @@ class RouteSmokeTests(unittest.TestCase):
         self.assertEqual(response.status_code, 301)
         self.assertEqual(response.headers.get("location"), "/policy")
 
+    def test_lang_kr_alias_redirects_to_ja(self):
+        response = self.client.get("/guide?lang=kr", follow_redirects=False)
+        self.assertEqual(response.status_code, 301)
+        self.assertEqual(response.headers.get("location"), "/guide?lang=ja")
+
     def test_reactions_api_returns_counts(self):
         response = self.client.get("/api/reactions/smoke-test-slug")
         self.assertEqual(response.status_code, 200)
