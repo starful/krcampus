@@ -1,21 +1,21 @@
 ---
 basic_info:
-  address: 55 Hanyangdaehak-ro, Sangnok-gu, Ansan-si, Gyeonggi-do, South Korea
+  address: 55 Hanyangdaehak-ro, Sangnok-gu, Ansan, Gyeonggi-do, South Korea
   capacity: 500
   name_en: Hanyang University ERICA International Language Institute
   name_ko: 한양대학교 ERICA 국제언어교육원
 category: school
 courses:
-- admission_month: 3, 6, 9, 12
-  course_name: Regular Korean Program
+- admission_month: March, June, September, December
+  course_name: Regular Korean Language Program
   total_fees: 1400000
 date: '2026-07-05'
 faculties: []
 features:
-- TOPIK preparation
 - On-campus Dormitory
+- TOPIK Preparation Classes
 - Korean Cultural Experience Programs
-- University Admission Pathways
+- Hanyang University Admission Guidance
 id: school_hanyang-university-erica-international-language-institute
 lang: en
 layout: school
@@ -25,10 +25,10 @@ location:
 stats:
   capacity: 500
 tags:
-- TOPIK preparation
 - On-campus Dormitory
+- TOPIK Preparation Classes
 - Korean Cultural Experience Programs
-- University Admission Pathways
+- Hanyang University Admission Guidance
 thumbnail: /static/images/school_hanyang-university-erica-international-language-institute.jpg
 title: Hanyang University ERICA International Language Institute
 tuition:
@@ -37,106 +37,122 @@ tuition:
   textbook_fee: 50000
 ---
 
+# Complete Guide: Hanyang University ERICA International Language Institute
+
+The International Language Institute at Hanyang University’s ERICA campus (Ansan) offers premium Korean language education with a low cost of living.
+
+---
+
 ## 1. School Overview
 
-The International Language Institute at **Hanyang University ERICA** (55 Hanyangdaehak-ro, Sangnok-gu, Ansan-si, Gyeonggi-do) offers high-quality, immersive Korean language education for international students. Located just south of Seoul, the ERICA campus provides a spacious, green, and high-tech environment.
-
-Capped at **500 students**, the institute ensures an optimal student-to-teacher ratio, allowing for personalized counseling, interactive classes, and active support. It is designed for students seeking systematic academic fluency, cultural integration, and direct pathways to Hanyang University undergraduate or graduate programs.
+*   **Address:** 55 Hanyangdaehak-ro, Sangnok-gu, Ansan, Gyeonggi-do, South Korea
+*   **Student Capacity:** 500 students
+*   **Key Characteristics:** 
+    *   **Spacious Campus:** Flat green spaces, modern facilities, and an on-campus student village.
+    *   **Personalized Care:** A 500-student cap ensures small classes, direct advising, and dedicated support.
 
 ---
 
 ## 2. Programs & Schedule
 
-The **Regular Korean Program** runs four 10-week terms per year. It features six levels, from Level 1 (Beginner) to Level 6 (Advanced), developing reading, writing, listening, and speaking skills.
+The Regular Korean Language Program runs four terms annually (6 levels, beginner to advanced), integrating speaking, listening, reading, writing, and culture.
 
-*   **Total Hours:** 200 hours per semester (20 hours/week, 4 hours/day, Mon–Fri).
-*   **Class Shifts:** Morning (09:00 - 13:00) or Afternoon (14:00 - 18:00) based on placement test results.
-*   **Cultural Activities:** Includes one hands-on cultural experience (e.g., K-Pop dance, traditional crafts, historic visits) per semester.
+### Program Structure
+*   **Total Hours:** 200 hours per 10-week semester.
+*   **Weekly Commitment:** 20 hours/week (Mon–Fri).
+*   **Daily Schedule:** Morning (09:00 AM – 01:00 PM) or Afternoon (02:00 PM – 06:00 PM) based on level.
 
-### Regular Program Schedule
+### Semester Schedule
 
-| Term | Application Deadline | Program Duration | Admission Months |
+| Semester | Application Deadline | Program Duration | Cultural Activities |
 | :--- | :--- | :--- | :--- |
-| **Spring** | Early January | March – Mid-May | March |
-| **Summer** | Early April | June – Mid-August | June |
-| **Autumn** | Early July | September – Mid-November | September |
-| **Winter** | Early October | December – Mid-February | December |
+| **Spring** | Early January | March – Mid-May | Cooking / Ceramic Art |
+| **Summer** | Early April | June – Mid-August | Folk Village / Crafts |
+| **Autumn** | Early July | September – Mid-Nov | Hanbok / K-Pop Dance |
+| **Winter** | Early October | December – Mid-Feb | Ski Camp / Taekwondo |
 
 ---
 
 ## 3. Tuition & Fees
 
-Fees at Hanyang University ERICA are highly competitive. Payments must be made in Korean Won (KRW) via bank transfer.
+Hanyang University ERICA offers quality language training at highly competitive rates.
 
-### Fee Breakdown
+### Cost Breakdown (Per Semester)
 
-| Fee Category | Cost (KRW) | Frequency / Notes |
+| Fee Category | Cost (KRW) | Refund Policy / Details |
 | :--- | :--- | :--- |
-| **Application Fee** | 80,000 | One-time, non-refundable |
-| **Tuition (Regular Program)** | 1,400,000 | Per semester (10 weeks) |
-| **Textbooks** | Approx. 50,000 | Per level (at campus bookstore) |
-| **National Health Insurance** | Variable | Monthly (mandatory) |
+| **Application Fee** | 80,000 KRW | Non-refundable screening fee |
+| **Tuition (1 Term)** | 1,400,000 KRW | Includes classes and cultural events |
+| **Textbooks** | ~50,000 KRW | Purchased separately per level |
+| **Study Deposit** | 300,000 KRW | Refunded at graduation or departure |
+| **Health Insurance** | ~60,000 KRW/month | Mandatory National Health Insurance |
 
-*Note: D-4 visa applicants must typically register and pay for at least two terms (2,880,000 KRW total, including the application fee).*
+*Note: D-4 visa applicants must register and pay for at least two semesters (2,800,000 KRW).*
 
 ---
 
 ## 4. Admissions & D-4 Visa Steps
 
-Foreign students studying for over 90 days need a D-4 (General Student) visa.
+Students planning to study for over 90 days must apply for a General Student Visa (D-4-1).
 
-[Apply Online] -> [Submit Docs] -> [Document Review] -> [Pay Tuition] -> [Get CoA] -> [Apply for Visa]
+[Apply Online] -> [Document Screening] -> [Tuition Payment] -> [CoA Issued] -> [Visa Application] -> [Entry]
 
-### Step-by-Step Procedure:
-1. **Online Application:** Submit your application on the ERICA ILI website.
-2. **Document Submission:** Upload or post required documents:
-   * Apostilled or consular-verified graduation certificate (high school or higher).
-   * Passport copy and one passport-sized photo.
-   * Financial proof: Bank certificate showing USD 10,000 or more (held for 30+ days).
-3. **Screening & Invoice:** Successful applicants receive a tuition invoice via email.
-4. **Payment:** Transfer fees (minimum 2 terms for visa applicants) within the deadline.
-5. **Certificate of Admission (CoA):** Issued after payment confirmation.
-6. **Visa Application:** Submit the CoA, passport, academic and financial documents to your local Korean Embassy or Consulate.
+### Required Application Documents
+1.  **Application Form:** Submitted online.
+2.  **Passport Copy:** Valid for at least one year.
+3.  **Educational Certificate:** Apostilled or consular-confirmed graduation certificate of highest education.
+4.  **Financial Proof:** Bank balance certificate showing $10,000+ USD.
+5.  **Family Certificate:** Required if using parental financial proof.
+
+### Step-by-Step Visa Process
+*   **Step 1:** Apply online and mail physical apostilled documents to ERICA.
+*   **Step 2:** Pay tuition invoice after successful document screening.
+*   **Step 3:** Receive the Certificate of Admission (CoA) and business license from ERICA.
+*   **Step 4:** Submit the CoA and visa documents to the local Korean Embassy.
 
 ---
 
 ## 5. TOPIK & University Pathway
 
-Hanyang University ERICA offers structured pathways for students transitioning into degree programs:
+The language institute offers a direct pathway to academic programs at Hanyang University ERICA.
 
-*   **TOPIK Prep:** Special afternoon clinics (mock exams, essay-writing workshops) run before official test dates.
-*   **Admission Pathways:** Completing Level 3 or 4 at the language institute waives the external TOPIK requirement for certain ERICA undergraduate departments.
-*   **Scholarships:** Institute graduates matriculating into undergraduate programs receive priority for language-proficiency scholarships, discounting tuition up to 50% for the first semester.
+### TOPIK Preparation Classes
+*   **Targeted Training:** Special prep sessions held leading up to official exams.
+*   **Mock Exams:** Frequent practice exams targeting essay writing and listening.
+
+### Hanyang University ERICA Admission Guidance
+*   **Briefings:** Dedicated information sessions for current language students.
+*   **Scholarships:** Level 4 graduates progressing to ERICA undergraduate majors receive 30% to 100% tuition waivers based on grades.
+*   **Direct Pathway:** Interview waiver for selected majors upon completing Level 3 or 4.
 
 ---
 
 ## 6. Dormitory & Living in the City
 
-### On-Campus Dormitory
-On-campus housing (Residence Hall) is guaranteed for language program applicants who apply early.
-*   **Rooms:** Primarily double rooms furnished with beds, desks, AC, high-speed internet, laundry rooms, study lounges, a convenience store, and a cafeteria.
-*   **Cost:** Approximately 1,000,000 to 1,300,000 KRW per semester (11-12 weeks)—significantly cheaper than renting in Seoul.
+### On-Campus Dormitory (Injaegwan)
+*   **Room Types:** Double rooms (shared).
+*   **Facilities:** Wi-Fi, laundry, study lounges, communal kitchens, and convenience stores.
+*   **Cost:** ~250,000 to 350,000 KRW/month (highly affordable).
 
-### Living in Ansan
-Ansan offers a lower cost of living than Seoul with excellent transport connectivity:
-*   **Transit:** A free university shuttle runs to Hanyang University ERICA Station (Line 4 and Suin-Bundang Line), reaching central Seoul in 50–60 minutes.
-*   **Local Vibe:** Sangnok-gu is pedestrian-friendly, filled with affordable student cafes, restaurants, supermarkets, and green parks.
+### Living in Ansan City
+*   **Transportation:** Linked to Seoul via Subway Line 4 and Suin-Bundang Line. Free campus shuttle buses run to the station.
+*   **Lifestyle:** Ansan is a safe, planned city offering parks, bike paths, and affordable student dining.
 
 ---
 
 ## 7. FAQ
 
+### Can I apply for the program if I am currently a high school graduate?
+Yes. Anyone with a high school diploma or equivalent can apply. You must provide an apostilled graduation certificate.
+
+### What is the class attendance requirement?
+Students must maintain at least **80%** attendance (160 out of 200 hours). Falling below this results in failure and visa cancellation.
+
 ### Can I work part-time while studying on a D-4 visa?
-Yes, after six months of study. You must maintain >90% attendance and obtain school recommendation for an official Part-time Work Permit from Immigration.
+Yes, after **6 months** of study. You can work up to 20 hours per week with permission from the university and immigration.
 
-### How is the class placement decided?
-Via a mandatory placement test (written/oral). Absolute beginners who cannot read Hangeul start automatically at Level 1 and are exempt.
+### Is the on-campus dormitory guaranteed for all new students?
+Yes. The university prioritizes incoming international language students who apply and pay the deposit on time.
 
-### What is the attendance policy to pass a level?
-You must maintain at least 80% attendance (160/200 hours) and score an average of 70% or higher on exams to advance.
-
-### Is health insurance mandatory?
-Yes. International students must enroll in the Korean National Health Insurance (NHIS) after registering their Alien Registration Card (ARC).
-
-### Are textbooks included in the tuition fee?
-No. Textbooks cost approximately 50,000 KRW per level and must be purchased separately at the campus bookstore.
+### Are there refund policies if my visa is rejected?
+Yes. If your D-4 visa is rejected, you will receive a refund for tuition and deposit (excluding the non-refundable 80,000 KRW application fee).
