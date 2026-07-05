@@ -30,7 +30,7 @@ def pick_related_guides(item: dict, item_type: str, lang: str, limit: int = 4) -
         source_text = f"{item.get('title', '')} {item.get('description', '')}"
     else:
         basic = item.get("basic_info", {}) or {}
-        source_text = f"{basic.get('name_en', '')} {basic.get('address', '')}"
+        source_text = f"{basic.get('name_en', '')} {basic.get('address') or ''}"
 
     matched = _matched_city_keywords(source_text)
     related = []
@@ -82,7 +82,7 @@ def pick_related_schools(item: dict, lang: str, limit: int = 4) -> list[dict]:
     related = []
     for school in schools:
         basic = school.get("basic_info", {}) or {}
-        address = basic.get("address", "")
+        address = basic.get("address") or ""
         address_lower = address.lower()
         category = school.get("category")
 

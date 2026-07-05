@@ -58,6 +58,9 @@ class RouteSmokeTests(unittest.TestCase):
         guide_response = self.client.get(f"/guide/{guide_slug}")
         self.assertEqual(guide_response.status_code, 200)
         self.assertIn("reaction-panel", guide_response.text)
+
+        guide_ja = self.client.get("/guide/best-national-universities-japan?lang=ja")
+        self.assertEqual(guide_ja.status_code, 200, guide_ja.text[:200])
         self.assertIn("count-like", school_response.text)
 
 

@@ -1,5 +1,5 @@
 def compare_city(item: dict) -> str:
-    address = item.get("basic_info", {}).get("address", "")
+    address = (item.get("basic_info") or {}).get("address") or ""
     if not address:
         return "—"
     return address.split(",")[0].strip()
