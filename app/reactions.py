@@ -4,7 +4,7 @@ from fastapi import APIRouter, Request, HTTPException
 import firebase_admin
 from firebase_admin import credentials, firestore
 from starlette.concurrency import run_in_threadpool
-from app.utils import get_client_ip
+from app.http_utils import get_client_ip
 
 router = APIRouter()
 COLLECTION_NAME = os.getenv("REACTIONS_COLLECTION", "krcampus")

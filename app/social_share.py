@@ -9,7 +9,8 @@ from urllib.parse import quote
 
 import frontmatter
 
-from app.utils import CONTENT_DIR, assign_thumbnails, resolve_guide_detail_thumbnail
+from app.paths import CONTENT_DIR
+from app.thumbnails import assign_thumbnails, resolve_guide_detail_thumbnail
 
 SOCIAL_CARD_VERSION = "1"
 _FETCH_UA = "KRCampus/1.0 (+https://krcampus.net)"

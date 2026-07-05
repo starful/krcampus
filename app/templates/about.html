@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ meta_title or 'About Us - KR Campus' }}</title>
-    <meta name="description" content="{{ meta_description or 'Learn about KR Campus, our mission to simplify studying in Japan, and how we use data to help international students find their perfect school.' }}">
+    <meta name="description" content="{{ meta_description or 'Learn about KR Campus, our mission to simplify studying in Korea, and how we use data to help international students find their perfect school.' }}">
     <meta name="robots" content="index,follow">
     <link rel="canonical" href="{{ canonical_url }}">
     {% if hreflang_urls %}
     <link rel="alternate" hreflang="en" href="{{ hreflang_urls['en'] }}">
-    <link rel="alternate" hreflang="ja" href="{{ hreflang_urls['ko'] }}">
+    <link rel="alternate" hreflang="ja" href="{{ hreflang_urls['ja'] }}">
     <link rel="alternate" hreflang="x-default" href="{{ hreflang_urls['x-default'] }}">
     {% endif %}
     <link rel="stylesheet" href="/static/css/style.css">
@@ -26,7 +26,6 @@
         .back-btn:hover { background: #2980b9; }
     </style>
 
-    <!-- Google tag (gtag.js) -->
     {% if ga_measurement_id %}
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ ga_measurement_id }}"></script>
     <script>
@@ -47,51 +46,51 @@
     <div class="about-container">
         <div class="about-section">
             <h1>About KR Campus</h1>
-            
+
             <p>
-                Welcome to <strong>KR Campus</strong>, the premier data-driven platform dedicated to empowering international students in their journey to study in Japan. We understand that choosing to study abroad is one of the most significant decisions in your life. It is not just about learning a language; it is about choosing a new environment, a potential career path, and a future home.
+                Welcome to <strong>KR Campus</strong>, a data-driven platform dedicated to empowering international students in their journey to study in Korea. Choosing to study abroad is one of the most significant decisions in your life — not just about learning Korean, but about choosing a new environment, a potential career path, and a future home.
             </p>
             <p>
-                Navigating the landscape of Japanese education can be daunting. With hundreds of language schools and universities scattered across the archipelago, finding reliable, comparable, and transparent information is a challenge. KR Campus was born out of a desire to solve this information asymmetry. We believe that every student deserves access to clear, accurate, and visualized data to make informed decisions without the noise of aggressive marketing.
+                Navigating Korean education can be daunting. With dozens of language institutes and universities across the country, finding reliable, comparable, and transparent information is a challenge. KR Campus was built to solve this information asymmetry. We believe every student deserves clear, accurate, and visualized data to make informed decisions without aggressive marketing noise.
             </p>
 
             <h2>🎯 Our Mission</h2>
             <p>
-                Our mission is simple yet ambitious: <strong>To democratize access to Japanese education information.</strong>
+                Our mission is simple yet ambitious: <strong>To democratize access to Korean education information.</strong>
             </p>
             <p>
-                We aim to move beyond static lists and brochures. By leveraging technology, we provide an interactive map-based search engine that allows you to filter schools based on what truly matters to you—whether that is tuition affordability, nationality mix, location convenience, or specialized curriculum for university advancement or employment. We strive to be the compass that guides you from the initial spark of interest to your first day in a Japanese classroom.
+                We move beyond static lists and brochures. Our interactive map-based search lets you filter schools by what truly matters — tuition affordability, location, dormitory options, or specialized curriculum for university advancement. We aim to guide you from initial interest to your first day on a Korean campus.
             </p>
 
             <h2>🔍 Data Methodology & Transparency</h2>
             <p>
-                At KR Campus, data integrity is our core value. We do not accept payments from schools to alter their rankings or hide data. Our information is aggregated from:
+                At KR Campus, data integrity is our core value. We do not accept payments from schools to alter rankings or hide data. Our information is aggregated from:
             </p>
             <ul>
-                <li><strong>Official School Websites:</strong> We crawl and verify tuition fees, course offerings, and facility details directly from the source.</li>
-                <li><strong>Association for the Promotion of Japanese Language Education (Nisshinkyo):</strong> We utilize public datasets regarding school capacity, student demographics, and legal compliance status.</li>
-                <li><strong>AI-Enhanced Processing:</strong> We employ advanced AI models (LLMs) to standardize unstructured text into comparable metrics, ensuring that a "University Prep Course" in Tokyo means the same data point as one in Osaka.</li>
+                <li><strong>Official School Websites:</strong> Tuition fees, course offerings, and facility details verified directly from the source.</li>
+                <li><strong>Public Education Datasets:</strong> School capacity, student demographics, and compliance status where publicly available.</li>
+                <li><strong>AI-Enhanced Processing:</strong> Advanced models standardize unstructured text into comparable metrics so you can compare institutes across Seoul, Busan, and other cities consistently.</li>
             </ul>
             <p>
-                While we make every effort to ensure accuracy, school policies and fees can change rapidly. We always recommend visiting the official website of the institution through the links provided on our detail pages for the most up-to-date information.
+                School policies and fees can change rapidly. Always confirm the latest details on each institution's official website via the links on our detail pages.
             </p>
 
             <h2>🚀 Why Choose KR Campus?</h2>
             <p>
-                Unlike traditional agencies that may steer you towards partner schools, KR Campus offers a neutral ground.
+                Unlike traditional agencies that may steer you toward partner schools, KR Campus offers a neutral ground.
             </p>
             <ul>
-                <li><strong>Visual Search:</strong> See exactly where schools are located relative to train stations, cheap housing areas, and part-time job hubs.</li>
-                <li><strong>Comprehensive Filtering:</strong> Filter by <span class="highlight">Nationality Ratio</span> to find an environment where you can focus on speaking Japanese, or filter by <span class="highlight">Tuition</span> to fit your budget.</li>
-                <li><strong>Essential Guides:</strong> Beyond school search, we provide A-to-Z guides on Visas, Housing, and settlement, written by experts who have lived through the process.</li>
+                <li><strong>Visual Search:</strong> See where schools are located relative to subway lines, housing areas, and student neighborhoods.</li>
+                <li><strong>Comprehensive Filtering:</strong> Filter by <span class="highlight">region</span>, <span class="highlight">dormitory</span>, academic track, and <span class="highlight">tuition</span> to fit your budget.</li>
+                <li><strong>Essential Guides:</strong> Practical A-to-Z guides on visas, housing, TOPIK prep, and settlement in Korea.</li>
             </ul>
 
             <h2>🌟 Our Vision for the Future</h2>
             <p>
-                We are constantly evolving. In the near future, we plan to introduce community features where current students can leave anonymous reviews, a tuition simulation calculator, and direct connection services to school admission offices. We envision a platform where the entire study abroad ecosystem—from preparation to employment in Japan—is seamlessly connected.
+                We are constantly evolving — community reviews, tuition calculators, and clearer admission pathways. We envision a platform where the entire study-abroad ecosystem in Korea, from preparation to graduation, is seamlessly connected.
             </p>
             <p>
-                Thank you for trusting KR Campus as your partner in this exciting adventure. Let's build your future in Japan, together.
+                Thank you for trusting KR Campus as your partner in this adventure. Let's build your future in Korea, together.
             </p>
 
             <div style="text-align: center;">
@@ -102,18 +101,16 @@
 
     <footer class="main-footer">
         <div class="footer-content">
-            <!-- 로고 이미지로 교체 -->
             <a href="/" class="footer-logo-link">
                 <img src="/static/img/logo.png" alt="KR Campus" class="footer-logo">
             </a>
-            
             <div class="footer-links">
                 <a href="/guide?lang={{ current_lang }}">Guide</a>
                 <a href="/about?lang={{ current_lang }}">About</a>
                 <a href="/policy?lang={{ current_lang }}">Privacy</a>
                 <a href="/contact?lang={{ current_lang }}">Contact</a>
             </div>
-            <p class="copyright">© 2024 KR Campus. All rights reserved.</p>
+            <p class="copyright">© 2026 KR Campus. All rights reserved.</p>
         </div>
     </footer>
 </body>
