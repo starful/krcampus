@@ -44,16 +44,17 @@
     "Strategic location in Seoul (Heukseok-dong) overlooking the Han River, with easy access to Gangnam and Yeouido."
   ],
   "thumbnail": "/static/img/pin-univ.png",
-  "title": "Chung-Ang University (CAU) Admission & Tuition Guide",
+  "title": "Chung-Ang University (CAU) 2026 Admission & Tuition Guide",
   "tuition": {
     "admission_fee": 196000,
     "yearly_tuition": 8500000
   },
-  "description": "Planning to study at Chung-Ang University (CAU)? Check 2026 tuition fees, admission requirements, scholarships, and courses for international students.",
-  "seo_title": "Chung-Ang University (CAU) 2026: Tuition & Admissions | KR Campus",
-  "seo_description": "Planning to study at Chung-Ang University (CAU)? Check 2026 tuition fees, admission requirements, scholarships, and courses for international students."
+  "description": "Your complete 2026 guide to studying at Chung-Ang University (CAU). Find tuition fees, admission requirements, and scholarships for international students.",
+  "seo_title": "Chung-Ang University (CAU) 2026 Admission & Tuition | KR Campus",
+  "seo_description": "Get the complete 2026 guide to Chung-Ang University (CAU). Learn about tuition, admissions, scholarships, and programs for international students."
 }
 ---
+
 
 
 # Chung-Ang University (CAU) International Student Guide

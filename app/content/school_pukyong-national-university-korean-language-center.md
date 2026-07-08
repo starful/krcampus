@@ -58,17 +58,18 @@
     "Convenient Location in Busan"
   ],
   "thumbnail": "/static/img/pin-school.png",
-  "title": "Pukyong National University Korean Language Center",
+  "title": "Pukyong National University (PKNU) Korean Language Center",
   "tuition": {
     "registration_fee": 60000,
     "quarterly_tuition": 1200000,
     "textbook_fee": 50000
   },
-  "description": "Learn Korean at Pukyong National University (PKNU) in Busan. Check 2026 tuition, visa requirements, application deadlines, and reviews on KR Campus.",
-  "seo_title": "PKNU Korean Language Center (Busan) - 2026 Guide | KR Campus",
-  "seo_description": "Study Korean at Pukyong National University (PKNU). Find 2026 tuition fees, course schedules, and admission requirements on KR Campus."
+  "description": "Study Korean at Pukyong National University (PKNU) in Busan. Find comprehensive 2026 details on tuition, application schedules, visa requirements, and student reviews.",
+  "seo_title": "PKNU Korean Language Center: 2026 Guide | KR Campus",
+  "seo_description": "Apply to the PKNU Korean language program in Busan. Check 2026 tuition, deadlines, visa requirements, and student reviews on KR Campus."
 }
 ---
+
 
 
 ## 1. School Overview

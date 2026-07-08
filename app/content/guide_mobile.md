@@ -2,16 +2,19 @@
 {
   "layout": "guide",
   "id": "mobile",
-  "title": "Best SIM Cards and Mobile Plans for Students",
+  "title": "Best South Korea SIM Cards and Mobile Plans for Students",
   "category": "Settlement",
   "tags": [
     "Settlement"
   ],
-  "description": "Mobile options for short and long stays.",
+  "description": "Find the best South Korea SIM cards, eSIMs, and cheap mobile plans for international students. Compare top long-term and short-term options.",
   "thumbnail": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500",
-  "date": "2026-06-09"
+  "date": "2026-06-09",
+  "seo_title": "Best South Korea SIM Cards & eSIM for Students (2026) | KR Campus",
+  "seo_description": "Compare the best South Korea SIM cards, eSIMs, and cheap mobile plans for international students. Find the perfect long-term or short-term option!"
 }
 ---
+
 
 # Best SIM Cards and Mobile Plans for Students
 

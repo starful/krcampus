@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "seoul-vs-incheon",
-  "title": "Seoul vs Incheon: Where Should You Study Korean?",
+  "title": "Seoul vs Incheon: Which City is Best to Study Korean?",
   "category": "Region",
   "tags": [
     "Region"
   ],
-  "description": "Seoul or Incheon? Compare tuition, living costs, and top universities to choose the perfect city for your Korean language journey.",
+  "description": "Deciding between Seoul and Incheon for language school? Compare tuition, rent, and student life to choose the perfect city for your Korean studies.",
   "thumbnail": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=500",
   "date": "2026-06-09",
-  "seo_title": "Seoul vs Incheon: Best City for Korean Language Study? (2026)",
-  "seo_description": "Seoul or Incheon? Compare tuition, living costs, and top universities to choose the perfect city for your Korean language journey."
+  "seo_title": "Seoul vs Incheon: Which City is Best to Study Korean? | KR Campus",
+  "seo_description": "Seoul or Incheon? Compare tuition, rent, and top language schools to find the absolute best (and most affordable) city for your Korean studies."
 }
 ---
+
 
 
 # Seoul vs Incheon: Which Is Best for Korean Language Study?

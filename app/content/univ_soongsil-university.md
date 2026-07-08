@@ -43,16 +43,17 @@
     "Highly Comprehensive Support System and Scholarships for Global Students"
   ],
   "thumbnail": "/static/img/pin-univ.png",
-  "title": "Soongsil University",
+  "title": "Soongsil University (2026 Guide)",
   "tuition": {
     "admission_fee": 540000,
     "yearly_tuition": 8400000
   },
-  "description": "Your ultimate guide to Soongsil University. Find 2026 admission requirements, tuition fees, and scholarship details for international students.",
-  "seo_title": "Soongsil University 2026: Admission, Tuition & Scholarships",
-  "seo_description": "Plan your studies at Soongsil University. Explore the 2026 admission guide, tuition fees, and application requirements for international students."
+  "description": "The complete guide to Soongsil University for international students, covering 2026 admissions, tuition, and scholarships.",
+  "seo_title": "Soongsil University 2026: Admissions, Tuition & Scholarships",
+  "seo_description": "Apply to Soongsil University in 2026! Your guide to international admissions, tuition fees, and scholarships in Seoul, Korea."
 }
 ---
+
 
 
 # Soongsil University: The Ultimate International Student Guide

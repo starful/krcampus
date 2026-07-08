@@ -51,16 +51,17 @@
     "Strong global network with over 700 partner institutions worldwide"
   ],
   "thumbnail": "/static/img/pin-univ.png",
-  "title": "Yonsei University: 2026 Guide for International Students",
+  "title": "Yonsei University: 2026 International Student Guide",
   "tuition": {
     "admission_fee": 512000,
     "yearly_tuition": 9600000
   },
-  "description": "Your complete guide to studying at Yonsei University. Explore 2026 admission requirements, tuition fees, scholarships, and campus life at one of Korea's top SKY universities.",
-  "seo_title": "Yonsei University Admissions 2026: Tuition & Requirements | KR Campus",
-  "seo_description": "Planning to study at Yonsei University? Get the complete 2026 guide on tuition fees, admission requirements, and scholarships for international students."
+  "description": "Learn how to get into Yonsei University with our comprehensive 2026 guide covering international admission requirements, tuition, scholarships, and campus life.",
+  "seo_title": "Yonsei University 2026: International Admissions Guide | KR Campus",
+  "seo_description": "Apply to Yonsei University in 2026! Get the complete guide to international admission requirements, tuition fees, scholarships, and campus life."
 }
 ---
+
 
 
 # Complete Guide to Yonsei University for International Students

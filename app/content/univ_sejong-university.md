@@ -44,13 +44,17 @@
     "Excellent location in central Seoul, adjacent to the Children's Grand Park"
   ],
   "thumbnail": "/static/img/pin-univ.png",
-  "title": "Sejong University",
+  "title": "Sejong University (2026 Guide)",
   "tuition": {
     "admission_fee": 150000,
     "yearly_tuition": 9000000
-  }
+  },
+  "description": "Your complete 2026 guide to Sejong University. Learn about international student admissions, tuition, English-taught courses, and scholarships.",
+  "seo_title": "Sejong University: 2026 Tuition, Admission & Scholarships",
+  "seo_description": "Plan your study at Sejong University. Get the 2026 guide on international admissions, tuition fees, scholarships, and English programs."
 }
 ---
+
 
 ## 1. University Overview
 

@@ -44,13 +44,17 @@
     "Robust Korean Language Education Center and student support"
   ],
   "thumbnail": "/static/img/pin-univ.png",
-  "title": "Daegu University",
+  "title": "Daegu University: 2026 Guide for International Students",
   "tuition": {
     "admission_fee": 150000,
     "yearly_tuition": 7200000
-  }
+  },
+  "description": "Explore Daegu University's 2026 admission guide, tuition fees, scholarships, and top programs for international students on KR Campus.",
+  "seo_title": "Daegu University 2026: Tuition & Admission | KR Campus",
+  "seo_description": "Planning to study at Daegu University? Find 2026 tuition fees, admission requirements, and scholarships for international students on KR Campus."
 }
 ---
+
 
 # Ultimate Study Guide: Daegu University (대구대학교) for International Students
 

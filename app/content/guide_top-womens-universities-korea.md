@@ -2,7 +2,7 @@
 {
   "layout": "guide",
   "id": "top-womens-universities-korea",
-  "title": "Empowering Women: Best Women's Universities in Korea",
+  "title": "Best Women's Universities in Korea: 2026 Guide",
   "category": "Curated List",
   "is_featured": true,
   "tags": [
@@ -10,11 +10,14 @@
     "Recommendation",
     "top-womens-universities-korea"
   ],
-  "description": "Explore top women's universities in Korea for international students — Ewha, Sookmyung, Duksung, and more.",
+  "description": "Discover the best women's universities in Korea for international students, including Ewha and Sookmyung. Find programs, admission tips, and campus life.",
   "thumbnail": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500",
-  "date": "2026-07-01"
+  "date": "2026-07-01",
+  "seo_title": "Top Women's Universities in Korea (2026) | KR Campus",
+  "seo_description": "Discover the best women's universities in Korea for international students, including Ewha and Sookmyung. Find programs, admission tips, and campus life."
 }
 ---
+
 
 # Empowering Women: Best Women's Universities in Korea
 

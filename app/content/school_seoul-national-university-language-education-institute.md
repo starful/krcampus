@@ -58,14 +58,18 @@
     "Access to SNU Campus Facilities"
   ],
   "thumbnail": "/static/img/pin-school.png",
-  "title": "Seoul National University Language Education Institute",
+  "title": "Seoul National University Language Education Institute (SNU LEI)",
   "tuition": {
     "registration_fee": 80000,
     "quarterly_tuition": 1800000,
     "textbook_fee": 60000
-  }
+  },
+  "description": "Study Korean at Seoul National University (SNU LEI). Check 2026 tuition, application steps, and student guides on KR Campus.",
+  "seo_title": "SNU Korean Language Program: 2026 Tuition & Guide | KR Campus",
+  "seo_description": "Study Korean at Seoul National University (SNU LEI). Check 2026 tuition, application steps, and student guides on KR Campus."
 }
 ---
+
 
 # Guide to Seoul National University Language Education Institute (SNU LEI)
 
