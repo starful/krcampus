@@ -1,104 +1,33 @@
 {% extends "base.html" %}
-
 {% block head_extra %}
 <style>
     .static-page-wrap { background-color: #f9f9f9; padding-bottom: 40px; }
     .contact-container { max-width: 700px; margin: 40px auto 0; padding: 0 20px; }
-    .contact-box { background: #fff; padding: 50px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); }
-    .contact-box h1 { text-align: center; color: #2c3e50; margin-bottom: 10px; font-size: 2rem; }
-    .contact-box .subtitle { text-align: center; color: #666; margin-bottom: 40px; font-size: 1rem; line-height: 1.6; }
-    .form-group { margin-bottom: 25px; }
-    .form-group label { display: block; margin-bottom: 8px; font-weight: 600; color: #34495e; }
-    .form-group input, .form-group textarea { width: 100%; padding: 14px; border: 1px solid #ddd; border-radius: 8px; box-sizing: border-box; font-size: 1rem; background-color: #fcfcfc; transition: border-color 0.3s; }
-    .form-group input:focus, .form-group textarea:focus { border-color: #3498db; outline: none; background-color: #fff; }
-    .form-group textarea { height: 180px; resize: vertical; }
-    button[type="submit"] {
-        width: 100%; background: #3498db; color: white; padding: 16px; border-radius: 8px; font-size: 1.1rem; font-weight: bold; transition: background 0.3s; cursor: pointer; border: none;
-    }
-    button[type="submit"]:hover { background: #2980b9; }
-    button[type="submit"]:disabled { background: #95a5a6; cursor: not-allowed; }
-    .loading { display: none; text-align: center; margin-top: 15px; color: #666; font-size: 0.95rem; }
-    .success-message { display: none; text-align: center; margin-top: 20px; color: #27ae60; font-weight: bold; background: #eafaf1; padding: 15px; border-radius: 8px; }
-    .error-message { display: none; text-align: center; margin-top: 20px; color: #c0392b; font-weight: bold; background: #fdedec; padding: 15px; border-radius: 8px; }
+    .contact-box { background: #fff; padding: 50px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); text-align: center; }
+    .contact-box h1 { color: #2c3e50; margin-bottom: 12px; }
+    .contact-box .subtitle { color: #666; margin-bottom: 32px; line-height: 1.6; }
+    .btn { display: inline-block; background: #3498db; color: #fff !important; padding: 16px 32px; border-radius: 8px;
+            font-size: 1.1rem; font-weight: bold; text-decoration: none; }
+    .links { margin-top: 28px; }
+    .links a { color: #3498db; margin: 0 8px; }
 </style>
 {% endblock %}
-
 {% block content %}
 <div class="static-page-wrap">
     <div class="contact-container">
         <div class="contact-box">
+            {% if current_lang == 'ja' %}
+            <h1>お問い合わせ</h1>
+            <p class="subtitle">データ修正・フィードバック・提携のご相談は下のボタンからお願いします。</p>
+            <a class="btn" href="https://script.google.com/macros/s/AKfycbw4VlSszEVcOl1Jllgv-3ftTwOyIIZM_V8P0oXXa71rI6KqHtaw7o3igBPen2V1I1Me/exec?site=krcampus" target="_blank" rel="noopener noreferrer">お問い合わせフォームを開く</a>
+            <p class="links"><a href="/policy?lang=ja">プライバシーポリシー</a> · <a href="/about?lang=ja">About</a></p>
+            {% else %}
             <h1>Contact Us</h1>
-            <p class="subtitle">
-                Have questions about a school? Found incorrect data? Or just want to say hello?<br>
-                Fill out the form below, and our team will get back to you as soon as possible.
-            </p>
-
-            <form id="contactForm">
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" required placeholder="Your Name">
-                </div>
-                <div class="form-group">
-                    <label for="email">Email Address</label>
-                    <input type="email" id="email" name="email" required placeholder="you@example.com">
-                </div>
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" required placeholder="Please describe your inquiry in detail..."></textarea>
-                </div>
-                <button type="submit" id="submitBtn">Send Message</button>
-
-                <div id="loadingMsg" class="loading">
-                    <i class="fas fa-circle-notch fa-spin"></i> Sending your message...
-                </div>
-                <div id="successMsg" class="success-message">
-                    <i class="fas fa-check-circle"></i> Message sent successfully! We will contact you shortly.
-                </div>
-                <div id="errorMsg" class="error-message">
-                    <i class="fas fa-exclamation-triangle"></i> Something went wrong. Please try again later.
-                </div>
-            </form>
+            <p class="subtitle">Data corrections, feedback, or partnerships — open the form to message us.</p>
+            <a class="btn" href="https://script.google.com/macros/s/AKfycbw4VlSszEVcOl1Jllgv-3ftTwOyIIZM_V8P0oXXa71rI6KqHtaw7o3igBPen2V1I1Me/exec?site=krcampus" target="_blank" rel="noopener noreferrer">Open contact form</a>
+            <p class="links"><a href="/policy?lang=en">Privacy Policy</a> · <a href="/about?lang=en">About</a></p>
+            {% endif %}
         </div>
     </div>
 </div>
-{% endblock %}
-
-{% block scripts %}
-<script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbxQ18TWQ4WwSkbO02ZddtcmCVh2RZTWR8xeUZ8nVX3IiRQZA9Tb6FCzPPyKK9Qx6jcqkQ/exec';
-    const form = document.forms['contactForm'];
-    const btn = document.getElementById('submitBtn');
-    const loading = document.getElementById('loadingMsg');
-    const successMsg = document.getElementById('successMsg');
-    const errorMsg = document.getElementById('errorMsg');
-
-    form.addEventListener('submit', e => {
-        e.preventDefault();
-        btn.disabled = true;
-        btn.innerHTML = "Sending...";
-        loading.style.display = "block";
-        successMsg.style.display = "none";
-        errorMsg.style.display = "none";
-
-        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(() => {
-                loading.style.display = "none";
-                successMsg.style.display = "block";
-                btn.innerHTML = "Sent";
-                form.reset();
-                setTimeout(() => {
-                    btn.disabled = false;
-                    btn.innerHTML = "Send Message";
-                    successMsg.style.display = "none";
-                }, 5000);
-            })
-            .catch(error => {
-                console.error('Error!', error.message);
-                loading.style.display = "none";
-                errorMsg.style.display = "block";
-                btn.disabled = false;
-                btn.innerHTML = "Send Message";
-            });
-    });
-</script>
 {% endblock %}
