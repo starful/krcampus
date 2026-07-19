@@ -10,7 +10,9 @@
            href="{{ amazon_search_url }}"
            target="_blank"
            rel="nofollow sponsored noopener noreferrer"
-           title="Amazon.co.jp">
+           title="Amazon.co.jp"
+           data-track="affiliate_amazon"
+           data-track-label="{{ affiliate_category or 'amazon' }}">
             {{ amazon_button_label }}
         </a>
         {% endif %}
@@ -19,7 +21,9 @@
            href="{{ klook_url }}"
            target="_blank"
            rel="nofollow sponsored noopener noreferrer"
-           title="Klook">
+           title="Klook"
+           data-track="affiliate_klook"
+           data-track-label="klook">
             {{ klook_button_label }}
         </a>
         {% endif %}
@@ -31,7 +35,9 @@
            href="{{ coupang_desktop_href }}"
            target="_blank"
            rel="nofollow sponsored noopener noreferrer"
-           referrerpolicy="unsafe-url">
+           referrerpolicy="unsafe-url"
+           data-track="affiliate_coupang"
+           data-track-label="{{ affiliate_category }}-desktop">
             <img src="{{ coupang_desktop_img }}"
                  alt="Coupang {{ affiliate_category_label }}"
                  width="728"
@@ -43,7 +49,9 @@
            href="{{ coupang_mobile_href }}"
            target="_blank"
            rel="nofollow sponsored noopener noreferrer"
-           referrerpolicy="unsafe-url">
+           referrerpolicy="unsafe-url"
+           data-track="affiliate_coupang"
+           data-track-label="{{ affiliate_category }}-mobile">
             <img src="{{ coupang_mobile_img }}"
                  alt="Coupang {{ affiliate_category_label }}"
                  width="320"
