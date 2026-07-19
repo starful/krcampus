@@ -100,6 +100,10 @@
     {# 본문 내용 #}
     <div class="detail-content">{{ content_body | safe }}</div>
 
+    {% if item_type == 'guide' %}
+    {% include 'partials/affiliate_box.html' %}
+    {% endif %}
+
     <div class="detail-cta-panel">
         <a href="/guide?lang={{ current_lang }}" class="detail-cta-btn" data-track="detail_cta" data-track-label="related_guides">
             <i class="fa-solid fa-compass"></i>

@@ -7,6 +7,7 @@ from app.compare import build_compare_export, compare_fee_value, prepare_compare
 from app.content_loader import load_guides, load_school_data
 from app.content_new import enrich_items
 from app.content_service import load_guide_post, load_school_post, render_markdown
+from app.affiliate import affiliate_context
 from app.context import (
     default_updated_at,
     detail_cross_links,
@@ -158,6 +159,7 @@ async def guide_detail(request: Request, slug: str, lang: str = Query("en")):
         ),
         "faq_json_ld": guide_faq_json_ld(slug, lang),
         "cross_site_links": detail_cross_links(lang, item),
+        **affiliate_context(slug, lang=lang),
         **inject_family_context(FAMILY_SITE_ID, lang),
         **ctx,
     })

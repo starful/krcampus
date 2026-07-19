@@ -10,6 +10,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from batch_limits import guide_limit
 from common import setup_logging, remove_content_artifacts, DATA_DIR, CONTENT_DIR, LOG_DIR
 from content_generator import generate_english_body
+from content_quality import is_deleted_guide
 from content_specs import validate_body
 from topic_queue_csv import resolve as resolve_queue_csv
 
@@ -71,6 +72,8 @@ def generate_content(row):
 def process_topic(row):
     """한 개의 주제를 생성하고 파일로 저장하는 단위 작업"""
     slug = row['slug']
+    if is_deleted_guide(slug):
+        return f"⏭️ Blocked deleted guide: {slug}"
     filename = f"guide_{slug}.md"
     filepath = os.path.join(OUTPUT_DIR, filename)
 

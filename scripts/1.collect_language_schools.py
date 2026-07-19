@@ -14,6 +14,7 @@ from common import (
     LOG_DIR,
 )
 from content_generator import generate_school_en_unified
+from content_quality import is_deleted_school
 from topic_queue_csv import resolve as resolve_queue_csv
 
 setup_logging("school_gen.log")
@@ -73,6 +74,8 @@ def process_school(row):
     coords = get_google_coordinates(city, region)
     raw_slug = data.get("english_slug", name_en.replace(" ", "-").lower())
     slug = f"school_{raw_slug}" if not raw_slug.startswith("school_") else raw_slug
+    if is_deleted_school(slug):
+        return f"⏭️ Blocked deleted school: {slug}"
     filepath = os.path.join(OUTPUT_DIR, f"{slug}.md")
 
     if os.path.isfile(filepath):

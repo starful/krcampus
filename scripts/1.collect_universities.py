@@ -14,6 +14,7 @@ from common import (
     LOG_DIR,
 )
 from content_generator import generate_university_en_unified
+from content_quality import is_deleted_univ
 from topic_queue_csv import resolve as resolve_queue_csv
 
 setup_logging("univ_gen.log")
@@ -72,6 +73,8 @@ def process_university(univ):
 
     raw_slug = data.get("english_slug", name_en.replace(" ", "-").lower())
     slug = f"univ_{raw_slug}" if not raw_slug.startswith("univ_") else raw_slug
+    if is_deleted_univ(slug):
+        return f"⏭️ Blocked deleted univ: {slug}"
     filepath = os.path.join(OUTPUT_DIR, f"{slug}.md")
 
     if os.path.isfile(filepath):

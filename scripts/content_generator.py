@@ -10,6 +10,7 @@ from typing import Any
 from google.generativeai.types import GenerationConfig
 
 from common import clean_json_response, setup_gemini
+from content_quality import ENTITY_QUALITY_PROMPT_RULES, GUIDE_QUALITY_PROMPT_RULES
 from content_specs import ContentKind, SPECS, validate_body
 
 model = setup_gemini()
@@ -49,10 +50,13 @@ Brief: {description}
 
 {_length_rules("guide")}
 
+{GUIDE_QUALITY_PROMPT_RULES}
+
 Requirements:
 - Markdown body ONLY (no frontmatter, no JSON).
 - Friendly, professional tone for students planning to study in **South Korea** (not Japan).
 - Practical facts: visas, costs, timelines, tips.
+- Cover themes with UNIQUE ## titles: overview, programs/pathways, costs, admissions/visa, campus life, FAQ.
 
 Generate the full article now.
 """
@@ -80,14 +84,16 @@ Tuition hints: {json.dumps(tuition, ensure_ascii=False)}
 
 {_length_rules("university")}
 
-Required ## sections:
-1. University Overview
-2. English-Taught & International Programs
-3. Faculties & Academic Strengths
-4. Tuition, Fees & Scholarships (fee comparison table in KRW)
-5. Admissions for International Students
-6. Campus Life & Location
-7. FAQ (at least 5 Q&A as ### subheadings)
+{ENTITY_QUALITY_PROMPT_RULES}
+
+Cover these themes with UNIQUE ## titles tailored to THIS university (do not copy numbered generic labels):
+- overview of the university and city fit
+- English-taught / international pathways
+- faculties and academic strengths
+- tuition, fees, scholarships (include a KRW comparison table)
+- admissions for international students
+- campus life and location
+- FAQ (at least 5 ### Q&A)
 
 Markdown body ONLY.
 """
@@ -114,14 +120,16 @@ Features: {json.dumps(features, ensure_ascii=False)}
 
 {_length_rules("school")}
 
-Required ## sections:
-1. School Overview
-2. Programs & Schedule
-3. Tuition & Fees (KRW table)
-4. Admissions & D-4 Visa Steps
-5. TOPIK & University Pathway
-6. Dormitory & Living in the City
-7. FAQ (at least 5 ### subheadings)
+{ENTITY_QUALITY_PROMPT_RULES}
+
+Cover these themes with UNIQUE ## titles tailored to THIS institute (do not copy numbered generic labels):
+- school overview and who it fits
+- programs and schedule
+- tuition and fees (KRW table)
+- admissions and D-4 visa steps
+- TOPIK and university pathway
+- dormitory and living in the city
+- FAQ (at least 5 ### subheadings)
 
 Markdown body ONLY.
 """
@@ -147,7 +155,10 @@ Schema:
   "body": "Markdown ENGLISH article. {_length_rules('school')}"
 }}
 
+{ENTITY_QUALITY_PROMPT_RULES}
+
 body must satisfy: {spec['min_chars']}-{spec['max_chars']} chars, {spec['min_h2']}+ ## headings, {spec['min_tables']}+ tables.
+Use unique ## titles for THIS institute (no numbered generic "School Overview" skeleton).
 Do NOT include frontmatter outside JSON. Realistic KRW estimates.
 """
 
@@ -173,7 +184,10 @@ Schema:
   "body": "Markdown ENGLISH article. {_length_rules('university')}"
 }}
 
+{ENTITY_QUALITY_PROMPT_RULES}
+
 body must satisfy: {spec['min_chars']}-{spec['max_chars']} chars, {spec['min_h2']}+ ## headings, {spec['min_tables']}+ tables.
+Use unique ## titles for THIS university (no numbered generic "University Overview" skeleton).
 Label estimates clearly. No markdown outside the body string.
 """
 

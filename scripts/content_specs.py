@@ -73,6 +73,8 @@ def count_tables(body: str) -> int:
 
 
 def validate_body(kind: ContentKind, body: str) -> tuple[bool, str]:
+    from content_quality import template_heading_issues
+
     spec = SPECS[kind]
     n = len(body.strip())
     if n < spec["min_chars"]:
@@ -85,6 +87,9 @@ def validate_body(kind: ContentKind, body: str) -> tuple[bool, str]:
     tables = count_tables(body)
     if tables < spec["min_tables"]:
         return False, f"need {spec['min_tables']}+ tables (has {tables})"
+    template_issues = template_heading_issues(body, threshold=3)
+    if template_issues:
+        return False, template_issues[0]
     return True, "ok"
 
 
