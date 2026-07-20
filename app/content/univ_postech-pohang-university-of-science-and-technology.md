@@ -44,14 +44,13 @@ tuition:
   admission_fee: 0
   yearly_tuition: 6120000
 ---
-
 # Ultimate International Student Guide: Pohang University of Science and Technology (POSTECH)
 
 Pohang University of Science and Technology (POSTECH), founded in 1986 by steelmaker POSCO in Pohang, South Korea, is a premier global research institution. Despite its short history, POSTECH has quickly ascended to become a top-tier STEM university. With selective enrollment, an elite faculty-to-student ratio, and immense corporate backing, it offers international students a world-class, research-intensive environment.
 
 ---
 
-## 1. University Overview
+## Pohang University of Science and Technology: Campus Snapshot
 
 POSTECH was established to educate elite science and engineering minds and pioneer breakthrough technologies. Unlike massive comprehensive universities, POSTECH maintains an intimate, specialized environment with approximately 1,400 undergraduate and 2,100 graduate students. 
 
@@ -59,7 +58,7 @@ This boutique approach enables an exceptional 1:5 faculty-to-student ratio. Stud
 
 ---
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Pohang University of Science and Technology
 
 As South Korea's first bilingual campus, POSTECH conducts nearly all junior/senior undergraduate courses and 100% of graduate courses in English. International students do not need prior Korean language skills to succeed academically.
 
@@ -67,7 +66,7 @@ The International Student and Scholar Services (ISSS) office assists with visas,
 
 ---
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Pohang University of Science and Technology
 
 POSTECH focuses entirely on advanced science and engineering, encouraging interdisciplinary research across 12 departments:
 
@@ -88,7 +87,7 @@ POSTECH is home to the **Pohang Accelerator Laboratory (PAL)**, housing 3rd and 
 
 ---
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Pohang University of Science and Technology
 
 With generous subsidies from corporate sponsors and government grants, POSTECH offers a highly competitive tuition structure.
 
@@ -111,7 +110,7 @@ Most international students receive financial aid:
 
 ---
 
-## 5. Admissions for International Students
+## International Admission Path to Pohang University of Science and Technology
 
 Admissions are highly selective, with an international acceptance rate of **15-20%**. 
 
@@ -128,7 +127,7 @@ Admissions are highly selective, with an international acceptance rate of **15-2
 
 ---
 
-## 6. Campus Life & Location
+## Living Near Pohang University of Science and Technology Campus
 
 Located at **77 Cheongam-ro, Nam-gu, Pohang-si, Gyeongsangbuk-do**, POSTECH is situated in a prominent coastal industrial city. Seoul is 2.5 hours away via KTX.
 
@@ -140,7 +139,7 @@ Located at **77 Cheongam-ro, Nam-gu, Pohang-si, Gyeongsangbuk-do**, POSTECH is s
 
 ---
 
-## 7. FAQ
+## FAQ for Prospective Pohang University of Science and Technology Students
 
 ### Can I apply to POSTECH if I don't speak any Korean?
 Yes. POSTECH is bilingual. Almost all upper-level undergraduate and all graduate courses, as well as administrative services, are in English.

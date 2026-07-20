@@ -53,22 +53,21 @@
   }
 }
 ---
-
 # Jeju National University: The Ultimate Guide for International Students
 
-## 1. University Overview
+## Jeju National University: Campus Snapshot
 Jeju National University (JNU), located at 102 Jejudaehak-ro, Jeju-si, Jeju-do, is one of South Korea's flagship national universities. Founded in 1952, JNU has grown into a world-class academic hub, currently hosting over 850 international students from more than 40 countries. With a competitive yet welcoming **acceptance rate of 55%**, the university offers a highly accessible pathway to top-tier Korean higher education.
 
 What makes JNU unique is its stunning location on Jeju Island, a pristine UNESCO World Natural Heritage site. Students here study in an eco-friendly environment while enjoying unmatched safety. The university is a global leader in specialized fields like Marine Science, Tourism, and Green Energy Studies, combining outstanding academic infrastructure with an unbeatable natural lifestyle.
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Jeju National University
 JNU offers structured pathways for international students to excel academically:
 *   **Intensive Korean Language Program:** Run by the Center for International Affairs, this program offers levels 1 to 6 to prepare students for undergraduate or graduate study.
 *   **Undergraduate English Courses:** While undergraduate degrees are mostly taught in Korean, departments within the College of Economics & Commerce and College of Engineering offer selected major courses in English.
 *   **Graduate English Tracks:** JNU’s Graduate School provides fully English-taught master's and doctoral programs, particularly in STEM, biotechnology, and marine sciences.
 *   **Student Support:** Initiatives like the "JNU Buddy Program" pair international students with local mentors to assist with campus life and language practice.
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Jeju National University
 JNU’s 12 colleges offer diverse academic options utilizing the island's unique ecosystem:
 *   College of Humanities, College of Social Sciences, College of Economics & Commerce
 *   College of Applied Life Sciences, College of Ocean Sciences, College of Natural Sciences
@@ -82,7 +81,7 @@ JNU’s 12 colleges offer diverse academic options utilizing the island's unique
 | **Engineering** | Smart Grid, Green Energy | Tech companies, EV industry |
 | **Applied Life Sciences** | Subtropical Agriculture | Pharmacies, bio-research centers |
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Jeju National University
 As a state-funded national university, JNU offers elite education at a fraction of the cost of private universities.
 
 ### Estimated Fee Comparison (in KRW)
@@ -98,7 +97,7 @@ As a state-funded national university, JNU offers elite education at a fraction 
 *   **GPA Scholarships:** Enrolled students keeping high GPAs receive 30% to 100% tuition waivers.
 *   **Guaranteed Housing:** International students enjoy **absolute priority for campus dormitories**. Modern dorms cost ₩1,000,000 to ₩1,300,000 per semester, including meal plans.
 
-## 5. Admissions for International Students
+## International Admission Path to Jeju National University
 JNU looks for academically motivated international students with strong cultural curiosity.
 
 ### Requirements
@@ -112,13 +111,13 @@ JNU looks for academically motivated international students with strong cultural
 4.  **Interview:** Some departments conduct online interviews to assess language skills.
 5.  **Visa Application:** Receive the Certificate of Admission and apply for a D-2 student visa.
 
-## 6. Campus Life & Location
+## Living Near Jeju National University Campus
 Studying at 102 Jejudaehak-ro means living at the foot of Mt. Hallasan with direct views of the ocean.
 *   **Active Student Life:** JNU features vast libraries, sports complexes, cafeterias with diverse food options, and active international clubs.
 *   **UNESCO Heritage Living:** Students can enjoy outdoor adventures like hiking volcanic peaks, surfing beach breaks, and enjoying mild winters.
 *   **Great Connectivity:** The campus is connected to Jeju International Airport and downtown Jeju-si via an extensive bus network. Flights to Seoul take just one hour.
 
-## 7. FAQ
+## FAQ for Prospective Jeju National University Students
 
 ### Is Korean proficiency mandatory for admission to JNU?
 No. While Korean-taught undergraduate majors require TOPIK Level 3, several graduate research labs in engineering, ocean sciences, and biotechnology operate entirely in English and accept English proficiency test scores like IELTS or TOEFL.

@@ -55,15 +55,14 @@
   }
 }
 ---
-
 # Ultimate Study Abroad Guide: Chonnam National University (CNU)
 
-## 1. University Overview
+## Chonnam National University: Campus Snapshot
 Chonnam National University (전남대학교), located in Gwangju, South Korea, is a premier higher education institution. Founded in 1952, CNU is recognized as one of the ten prestigious Flagship Korean National Universities (KNU). These elite public institutions were founded by the South Korean government to provide high-caliber, affordable education and spearhead research across the nation's key provinces.
 
 CNU ranks highly in national and global assessments, hosting over 2,100 international students from 75 countries. The university serves as a vital gateway for global talent, offering advanced research infrastructure and direct career pathways in high-growth sectors such as artificial intelligence, biotechnology, and automotive technology. For students seeking a highly respected degree without the high costs of private universities in Seoul, CNU stands out as an exceptional choice.
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Chonnam National University
 While Korean is the primary language of instruction, CNU offers strong English-medium pathways to accommodate global applicants:
 - **Undergraduate Level**: The College of Business Administration and specialized engineering divisions offer select English-taught tracks designed to equip global students with industry-ready skills.
 - **Graduate Level**: Master’s and Ph.D. programs in STEM fields are widely conducted in English, backed by internationally published faculty.
@@ -73,7 +72,7 @@ To ease the transition, CNU provides structured international support:
 - **Global Peer Mentoring**: International students are paired with Korean student "buddies" for academic and cultural adjustment.
 - **Cultural Excursions**: Fully funded field trips to historic villages, museums, and industrial complexes are organized regularly.
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Chonnam National University
 CNU boasts 14 comprehensive colleges combining foundational theory with industry practice:
 - **College of AI Convergence**: Focuses on big data and machine learning, leveraging Gwangju’s status as Korea’s primary AI hub.
 - **College of Engineering**: Strong in automotive and chemical engineering, partnering closely with regional industrial complexes.
@@ -81,7 +80,7 @@ CNU boasts 14 comprehensive colleges combining foundational theory with industry
 - **Colleges of Medicine, Pharmacy, and Veterinary Medicine**: Elite-tier programs supported by the extensive CNU Hospital network.
 - **Other Major Faculties**: The Colleges of Humanities, Social Sciences, Natural Sciences, Agriculture and Life Sciences, Education, Human Ecology, Nursing, and Arts offer excellent academic paths.
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Chonnam National University
 As a state-funded national university, CNU is incredibly affordable, costing roughly one-third of private capital-region universities. Notably, the undergraduate admission fee is completely abolished (0 KRW).
 
 ### Tuition Fee Comparison (Estimated in KRW)
@@ -102,7 +101,7 @@ As a state-funded national university, CNU is incredibly affordable, costing rou
 | **Academic Excellence** | Maintain GPA > 3.5 in subsequent semesters | 30% to 100% Tuition Waiver |
 | **GKS (Global Korea Scholarship)** | Apply via Embassy or University | Full tuition & monthly stipend |
 
-## 5. Admissions for International Students
+## International Admission Path to Chonnam National University
 CNU maintains an acceptance rate of approximately **35-45%** for international applicants. This offers a highly achievable entry point for qualified global students.
 
 ### Application Steps
@@ -112,12 +111,12 @@ CNU maintains an acceptance rate of approximately **35-45%** for international a
 4. **Interview**: Attend an online academic interview with departmental faculty.
 5. **Visa**: Receive the Certificate of Admission (COA) to apply for the D-2 student visa.
 
-## 6. Campus Life & Location
+## Living Near Chonnam National University Campus
 Located at **77 Yongbong-ro, Buk-gu, Gwangju, 61186, South Korea**, CNU’s primary campus is a scenic, self-contained green oasis featuring a central lake called "Bongji." Gwangju is connected to Seoul via the KTX high-speed train, taking just 1.5 hours.
 
 Gwangju, the "City of Light," is South Korea's cultural capital, famous for the Gwangju Biennale and its democratic history. The cost of living is 30-40% lower than in Seoul. On-campus dormitories offer modern double rooms with meal options starting at ~1,000,000 KRW per semester, which includes modern utilities and high-speed internet.
 
-## 7. FAQ
+## FAQ for Prospective Chonnam National University Students
 
 ### Can international students work part-time?
 Yes. D-2 student visa holders can work part-time up to 20 hours per week during semesters (unlimited during breaks) with university approval, normally requiring TOPIK Level 3.

@@ -54,15 +54,13 @@
   "seo_description": "Plan your study at Sejong University. Get the 2026 guide on international admissions, tuition fees, scholarships, and English programs."
 }
 ---
-
-
-## 1. University Overview
+## Sejong University: Campus Snapshot
 
 Established in 1940, Sejong University (세종대학교) is a prestigious private university in Seoul. Named after King Sejong the Great, the creator of Hangul, it is globally recognized for its rapid academic rise and strong reputation in specialized fields. Hosting over 3,200 international students from 50+ countries, Sejong maintains a balanced international acceptance rate of 35% to 45%. The campus integrates traditional Korean architecture with advanced research centers, offering a future-oriented learning environment.
 
 ---
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Sejong University
 
 Sejong University offers comprehensive English-track undergraduate and graduate programs taught by faculty holding degrees from elite global institutions.
 
@@ -75,7 +73,7 @@ For bilingual or Korean-track students, the Sejong Center for International Educ
 
 ---
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Sejong University
 
 Sejong University features 10 colleges offering diverse academic pathways.
 
@@ -100,7 +98,7 @@ Sejong University features 10 colleges offering diverse academic pathways.
 
 ---
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Sejong University
 
 Sejong University combines competitive tuition with one of Seoul's most generous international scholarship portfolios.
 
@@ -133,7 +131,7 @@ First-semester waivers are awarded based on language proficiency at the time of 
 
 ---
 
-## 5. Admissions for International Students
+## International Admission Path to Sejong University
 
 Admissions open twice a year for Spring (March) and Fall (September) semesters.
 
@@ -146,7 +144,7 @@ Admissions open twice a year for Spring (March) and Fall (September) semesters.
 
 ---
 
-## 6. Campus Life & Location
+## Living Near Sejong University Campus
 
 Located at **209 Neungdong-ro, Gwangjin-gu, Seoul**, the campus offers an exceptional urban lifestyle balanced with green space.
 
@@ -156,7 +154,7 @@ Located at **209 Neungdong-ro, Gwangjin-gu, Seoul**, the campus offers an except
 
 ---
 
-## 7. FAQ
+## FAQ for Prospective Sejong University Students
 
 ### Q1: Can I work part-time while studying at Sejong University?
 Yes. D-2 visa holders can work up to 20 hours per week during semesters (unlimited during breaks) after receiving school and immigration approval. Higher TOPIK scores unlock more hours and job types.

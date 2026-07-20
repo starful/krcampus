@@ -66,10 +66,9 @@
   }
 }
 ---
-
 # Guide to University of Seoul International Language Institute
 
-## 1. School Overview
+## University of Seoul International Language Institute: Language Program Snapshot
 The University of Seoul (UOS) International Language Institute (국제어학원) is a top-tier public Korean language center located at 163 Seoulsiripdaero, Dongdaemun-gu, Seoul, 02504, Republic of Korea. Managed and funded by the Seoul Municipal Government, UOS offers one of the most affordable and structured Korean language programs in the capital. 
 
 The institute operates with a strict capacity of 600 students, allowing for highly personalized instruction and excellent student support. Key advantages include:
@@ -79,7 +78,7 @@ The institute operates with a strict capacity of 600 students, allowing for high
 * **Excellent Campus Facilities:** Full access to state-of-the-art libraries, computer labs, athletic facilities, and dining halls.
 * **Cultural Experience Classes:** Regular hand-on field trips, cultural events, and free TOPIK preparation courses integrated into the curriculum.
 
-## 2. Programs & Schedule
+## Courses & Term Calendar at University of Seoul International Language Institute
 The Regular Program offers structured language training spanning six levels, from absolute beginner (Level 1) to highly advanced (Level 6). The year is divided into four 10-week semesters.
 
 Classes meet Monday through Friday for 4 hours a day (20 hours per week, 200 total hours per semester). Daily schedules are split into morning (09:00 - 13:00) and afternoon (13:30 - 17:30) blocks based on the initial placement test results.
@@ -92,7 +91,7 @@ Classes meet Monday through Friday for 4 hours a day (20 hours per week, 200 tot
 | **Fall** | September | Sep – Nov (10 Weeks) | 20 | 200 |
 | **Winter** | December | Dec – Feb (10 Weeks) | 20 | 200 |
 
-## 3. Tuition & Fees
+## What Studying at University of Seoul International Language Institute Costs
 UOS is widely recognized for having the best price-to-quality ratio in Seoul. Fees are identical across all terms.
 
 ### Table 2: Fee Structure (KRW)
@@ -103,7 +102,7 @@ UOS is widely recognized for having the best price-to-quality ratio in Seoul. Fe
 | **Textbooks** | ~50,000 | Purchased separately after arrival |
 | **Total (Two Semesters)** | 3,210,000 | Required payment for D-4 Visa |
 
-## 4. Admissions & D-4 Visa Steps
+## D-4 Visa & Admission Steps for University of Seoul International Language Institute
 Students planning to study for two or more terms must apply for a D-4 (General Student) visa. 
 
 ### Step-by-Step Application Pipeline
@@ -119,20 +118,20 @@ Students planning to study for two or more terms must apply for a D-4 (General S
 * Graduation Certificate (High school or higher, Apostilled or Consular Confirmed).
 * Financial Proof: Bank statement showing at least $10,000 USD (or equivalent).
 
-## 5. TOPIK & University Pathway
+## TOPIK Progress & Degree Paths via University of Seoul International Language Institute
 UOS offers clear academic pathways for students looking to pursue higher education in South Korea:
 * **TOPIK Prep Courses:** Specialized, zero-cost afternoon classes focused on academic Korean and exam strategies.
 * **UOS Undergraduate Track:** Level 4 graduates satisfy the language requirement for undergraduate programs at UOS.
 * **Alumni Scholarships:** Students transitioning from the language program to a degree at UOS are eligible for special enrollment scholarships.
 
-## 6. Dormitory & Living in the City
+## Housing Options Around University of Seoul International Language Institute
 UOS is situated in Dongdaemun-gu, a highly accessible district with a lower cost of living compared to southern or western Seoul.
 
 * **On-Campus Dormitories:** International students can apply for the *International House* or *Residence Hall*. Housing costs roughly 800,000 to 1,100,000 KRW per 10-week term (double occupancy, meal plans excluded). Placement is competitive.
 * **Off-Campus Housing:** Renting a *One-room* (studio) or *Goshiwon* near Cheongnyangni station ranges from 350,000 to 600,000 KRW per month.
 * **Public Transit:** The campus is walking distance from Cheongnyangni Station, a major hub for metro lines, buses, and the KTX train.
 
-## 7. FAQ
+## FAQ for University of Seoul International Language Institute Learners
 
 ### Q1: Can I work part-time while on a D-4 student visa?
 Yes, after completing 6 months (one semester is not enough) of study. You need an attendance rate above 90% and official permission from both the school and the immigration office.

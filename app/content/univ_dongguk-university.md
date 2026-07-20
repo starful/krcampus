@@ -53,22 +53,21 @@
   }
 }
 ---
-
 # Ultimate International Student Guide to Dongguk University
 
-## 1. University Overview
+## Dongguk University: Campus Snapshot
 
 Dongguk University (동국대학교), established in 1906, is one of South Korea's most prestigious private universities. Located at 30 Pildong-ro 1-gil, Jung-gu, Seoul, 04620, South Korea, it lies in the very heart of the capital city, right at the foot of the iconic Namsan Mountain. Founded by the Jogye Order of Korean Buddhism, the university seamlessly blends rich traditional heritage with modern, cutting-edge academic innovation. This unique blend creates an inspiring and highly inclusive environment for international students. 
 
 Today, Dongguk hosts approximately 3,200 international students from over 60 countries, maintaining an estimated undergraduate acceptance rate of around 45% for qualified foreign applicants. Its central location, combined with strong academic standings, makes it a top-tier destination for global scholars seeking a balanced lifestyle in Seoul.
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Dongguk University
 
 While Dongguk University conducts a significant portion of its courses in Korean, it offers a robust array of English-taught options to support global students. The Dongguk Business School (DBS) is fully AACSB-accredited and offers numerous business courses taught entirely in English. Additionally, the College of AI Convergence and select tracks in the Social Sciences and Engineering departments provide English-friendly pathways. 
 
 For students who need to boost their Korean language skills, Dongguk’s renowned Korean Language Education Center (KLEC) provides immersive programs ranging from Level 1 to 6. This serves as a primary pathway for students to transition into full degree programs, ensuring linguistic and academic success.
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Dongguk University
 
 Dongguk’s academic structure features twelve core faculties, each designed to meet modern career demands:
 
@@ -82,7 +81,7 @@ Dongguk’s academic structure features twelve core faculties, each designed to 
 
 Other notable faculties include **Law**, **Education**, and **Natural Sciences**, which collectively support a well-rounded academic experience.
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Dongguk University
 
 Dongguk University offers an affordable fee structure compared to Western universities. The average annual tuition across all departments is approximately 8,500,000 KRW, with a one-time admission fee of 500,000 KRW.
 
@@ -101,7 +100,7 @@ To alleviate financial burdens, Dongguk offers generous international scholarshi
 * **TOPIK Merit Scholarship:** Students entering with TOPIK Level 3 receive a 30% waiver; Level 4-5 gets 50%; Level 6 gets 100%.
 * **Academic Excellence Scholarship:** From the second semester onward, maintaining a high GPA can earn 20% to 60% tuition discounts.
 
-## 5. Admissions for International Students
+## International Admission Path to Dongguk University
 
 International admissions run twice a year. The process evaluates academic transcripts, language proficiency, personal statements, and letters of recommendation.
 
@@ -112,13 +111,13 @@ International admissions run twice a year. The process evaluates academic transc
 
 For arts and athletic programs, portfolios or practical tests are required. All foreign documents must be apostilled or consular-verified.
 
-## 6. Campus Life & Location
+## Living Near Dongguk University Campus
 
 Dongguk’s campus sits directly beside Namsan Park, offering a scenic escape in the middle of a bustling metropolis. International students can walk from campus straight to major Seoul hubs like Myeongdong (shopping district) and Chungmuro (the historic center of Korean cinema). 
 
 On campus, students enjoy state-of-the-art facilities like the Namsan Residence Hall, which offers modern rooms, fitness centers, and study lounges. Because of the university's Buddhist roots, students can experience unique cultural activities, including temple stays, meditation sessions, and the annual Lotus Lantern Festival (Yeondeunghoe). The Global Lounge acts as a social hub where international and domestic students connect through language exchanges and peer mentoring.
 
-## 7. FAQ
+## FAQ for Prospective Dongguk University Students
 
 ### Is Korean proficiency required for admission?
 While English-tracked courses exist, most undergraduate majors require a minimum of TOPIK Level 3. If you do not have this, you can enroll first in Dongguk’s Korean Language Education Center.

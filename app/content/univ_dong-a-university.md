@@ -50,10 +50,9 @@
   }
 }
 ---
-
 # Comprehensive Study-Abroad Guide: Dong-A University in Busan
 
-## 1. University Overview
+## Dong-A University: Campus Snapshot
 
 Dong-A University (DAU), located at 37 Nakdong-daero 550beon-gil, Saha-gu, Busan, 49315, South Korea, is a highly prestigious and historic private institution. Established in 1946 under the core values of "Freedom, Truth, and Justice," DAU has developed into a major academic hub, hosting over 1,450 international students. The university maintains an estimated acceptance rate of 65%, presenting an accessible yet academically rigorous option for driven international applicants.
 
@@ -63,7 +62,7 @@ Structurally, DAU features three distinct specialized campuses integrated seamle
 
 ---
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Dong-A University
 
 For students seeking education without prior Korean skills, Dong-A offers the Global Business Academic Program (GBAP). Fully taught in English, GBAP is an elite track within the College of Business Administration designed to cultivate global corporate leaders. The curriculum integrates practical business training, international finance, trade, and marketing.
 
@@ -71,7 +70,7 @@ For Korean-medium majors, the Language Education Center provides intensive Korea
 
 ---
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Dong-A University
 
 Dong-A University offers a comprehensive range of programs across nine core colleges, each operating on a campus optimized for its specific field.
 
@@ -91,7 +90,7 @@ The College of Engineering and College of Natural Sciences utilize advanced rese
 
 ---
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Dong-A University
 
 Studying at Dong-A is highly cost-effective, with an average yearly tuition of approximately 7,400,000 KRW, depending on the field of study.
 
@@ -114,7 +113,7 @@ Subsequently, students can retain scholarships ranging from 20% to 100% by maint
 
 ---
 
-## 5. Admissions for International Students
+## International Admission Path to Dong-A University
 
 Dong-A University admits international students twice a year: for the Spring semester (March) and the Fall semester (September).
 
@@ -129,7 +128,7 @@ The application process requires completing an online application, mailing physi
 
 ---
 
-## 6. Campus Life & Location
+## Living Near Dong-A University Campus
 
 Dong-A operates three specialized campuses strategically located in Busan, South Korea's second-largest city:
 * **Seunghak Campus:** Located on the slopes of Mount Seunghak, it houses engineering, health, and athletic departments with vast sports facilities.
@@ -140,7 +139,7 @@ Living in Busan offers an unparalleled coastal lifestyle. From Gwangalli Beach t
 
 ---
 
-## 7. FAQ
+## FAQ for Prospective Dong-A University Students
 
 ### Is a TOPIK score mandatory for admission?
 No. It is not required if you apply to the English-medium Global Business Academic Program (GBAP). However, for Korean-taught majors, a minimum of TOPIK Level 3 is required.

@@ -49,20 +49,19 @@
   }
 }
 ---
-
 # Study Abroad Guide: University of Seoul (UOS)
 
 Choosing the right study-abroad destination requires balancing academic prestige with financial practicality. The **University of Seoul (UOS)**, located at *163 Seoulsirip-daero, Dongdaemun-gu, Seoul, 02504, South Korea*, is one of East Asia’s most compelling choices. Founded in 1918 and funded by the Seoul Metropolitan Government, this public institution offers a highly subsidized hub for academic excellence, providing an unparalleled return on investment for global talent.
 
 ---
 
-## 1. University Overview
+## University of Seoul: Campus Snapshot
 
 Highly regarded in South Korea for public policy, engineering, and urban planning, UOS maintains an **estimated acceptance rate of 30%** for international applicants. The university hosts approximately **1,150 international students**, fostering a diverse and integrated campus. Because it is subsidized by the city, UOS operates with a mission of social responsibility, offering top-tier education, modern laboratories, and a stellar faculty at a fraction of the cost of private institutions in Seoul.
 
 ---
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at University of Seoul
 
 While undergraduate instruction is primarily in Korean, UOS offers robust global pathways:
 
@@ -72,7 +71,7 @@ While undergraduate instruction is primarily in Korean, UOS offers robust global
 
 ---
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define University of Seoul
 
 UOS is organized into eight colleges offering targeted academic pathways:
 
@@ -87,7 +86,7 @@ UOS is organized into eight colleges offering targeted academic pathways:
 
 ---
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at University of Seoul
 
 Subsidized directly by the city government, UOS is the most affordable high-ranking university in South Korea's capital.
 
@@ -109,7 +108,7 @@ UOS supports international talent through robust institutional and government sc
 
 ---
 
-## 5. Admissions for International Students
+## International Admission Path to University of Seoul
 
 Admissions are processed twice a year for the Spring (March) and Fall (September) semesters.
 
@@ -125,7 +124,7 @@ Admissions are processed twice a year for the Spring (March) and Fall (September
 
 ---
 
-## 6. Campus Life & Location
+## Living Near University of Seoul Campus
 
 UOS offers a flat, park-like green campus equipped with modern facilities in the central-eastern part of Seoul.
 
@@ -135,7 +134,7 @@ UOS offers a flat, park-like green campus equipped with modern facilities in the
 
 ---
 
-## 7. FAQ
+## FAQ for Prospective University of Seoul Students
 
 ### Can I study at UOS if I do not speak Korean?
 Yes. Students can apply to English-taught tracks in Business, International Relations, and graduate programs at the International School of Urban Sciences (ISUS). Learning basic conversational Korean is recommended for daily life.

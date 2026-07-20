@@ -46,23 +46,22 @@
   }
 }
 ---
-
 # Korea National University of Transportation (KNUT): The Ultimate International Student Guide
 
-## 1. University Overview
+## Korea National University of Transportation: Campus Snapshot
 Founded to lead global infrastructure development, the Korea National University of Transportation (KNUT) is a prestigious national institution in South Korea. Located at 50 Daehak-ro, Chungju-si, Chungcheongbuk-do, KNUT is the nation’s only national university specializing in transportation, logistics, and railway engineering. This unique focus makes it an academic powerhouse for careers in smart mobility, aerospace, and high-speed rail.
 
 As a public institution, KNUT offers premium education with highly affordable tuition. It hosts a diverse student body with an estimated acceptance rate of 65% and roughly 450 international students. KNUT operates across three campuses in Chungju, Jeungpyeong, and Uiwang, each serving as a specialized hub.
 
 A key strength of the university is its strategic partnerships with industry leaders like Hyundai Rotem, KORAIL (Korea Railroad Corporation), and top tech firms, offering students direct pathways to internships and career opportunities.
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Korea National University of Transportation
 While most courses are taught in Korean, KNUT offers pathways for international students:
 * **English-Support Programs:** Select graduate research labs in the Colleges of Engineering and Convergence Technology operate in English, allowing researchers to study under English-speaking advisors.
 * **Korean Language Center:** Offers intensive 10-week terms designed to take students from beginner levels to TOPIK Level 3 or 4, satisfying degree entry requirements.
 * **Exchange Schemes:** Global exchange programs with partner universities worldwide enrich the multicultural campus atmosphere.
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Korea National University of Transportation
 KNUT’s academic structure aligns with modern industrial demands, distributed across three campuses.
 
 | Campus | Focus | Core Colleges & Departments |
@@ -78,7 +77,7 @@ KNUT’s academic structure aligns with modern industrial demands, distributed a
 * **College of Health & Life Sciences:** Includes nursing, physical therapy, and food science.
 * **College of Humanities & Social Sciences:** Offers global business, public administration, and languages.
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Korea National University of Transportation
 KNUT is highly affordable, offering premium public education at a fraction of private university costs.
 
 ### Estimated Fee Breakdown (in KRW)
@@ -95,7 +94,7 @@ KNUT is highly affordable, offering premium public education at a fraction of pr
 * **Academic Excellence:** Enrolled students with a GPA of 3.0+ can secure 30% to 80% tuition waivers.
 * **TOPIK Achievement:** Financial grants for upgrading language levels during enrollment.
 
-## 5. Admissions for International Students
+## International Admission Path to Korea National University of Transportation
 KNUT admits students for Spring (March) and Fall (September) semesters.
 
 ### Key Requirements:
@@ -109,7 +108,7 @@ KNUT admits students for Spring (March) and Fall (September) semesters.
 3. **Interview:** Attend an online academic interview if required.
 4. **Visa:** Apply for the D-2 student visa using the issued Certificate of Admission.
 
-## 6. Campus Life & Location
+## Living Near Korea National University of Transportation Campus
 KNUT provides vibrant campus environments balancing study with student life.
 * **Chungju Campus (Main):** Located in historic Chungju, famous for natural lakes and outdoor sports. Features modern dorms, fitness centers, and cheap dining halls.
 * **Uiwang Campus (Railway specialized):** Situated in the Seoul Capital Area, offering industry networking with KORAIL and easy access to Seoul's urban core via subway.
@@ -117,7 +116,7 @@ KNUT provides vibrant campus environments balancing study with student life.
 
 Dormitories offer high-speed Wi-Fi, study lounges, global kitchens, and excellent security, ensuring safety and comfort.
 
-## 7. FAQ
+## FAQ for Prospective Korea National University of Transportation Students
 
 ### Can I work part-time while studying at KNUT?
 Yes. D-2 visa holders can work up to 20 hours per week during semesters and unlimited hours during vacations with university and immigration clearance. TOPIK level 3+ is generally required.

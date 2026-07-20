@@ -46,14 +46,13 @@
   }
 }
 ---
-
 # Master Guide to UNIST: The Ultimate Study-Abroad Handbook
 
 Ulsan National Institute of Science and Technology (UNIST) is one of South Korea's four prestigious public universities dedicated to science and technology. Founded to become a world-leading research institution, UNIST has rapidly established itself as a global powerhouse in engineering and natural sciences. This guide offers an in-depth look at UNIST's academic programs, scholarships, admissions, and student life for international applicants.
 
 ---
 
-## 1. University Overview
+## Ulsan National Institute of Science and Technology: Campus Snapshot
 
 Located in Ulsan, the industrial heart of South Korea, UNIST bridges academic research and industrial application. Since its establishment in 2007, UNIST has grown rapidly, earning global recognition for high-impact research.
 
@@ -65,7 +64,7 @@ UNIST ranks among the world's top young universities, with a stellar reputation 
 
 ---
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Ulsan National Institute of Science and Technology
 
 A defining feature of UNIST is its global academic environment. **100% of lectures are in English** for both undergraduate and graduate levels.
 
@@ -76,7 +75,7 @@ Key international support features include:
 
 ---
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Ulsan National Institute of Science and Technology
 
 UNIST organizes its academic disciplines into specialized colleges and schools designed to promote interdisciplinary collaboration.
 
@@ -93,7 +92,7 @@ UNIST is globally celebrated for its contributions to green energy materials, ba
 
 ---
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Ulsan National Institute of Science and Technology
 
 UNIST offers generous financial support. Admitted international students are eligible for a **Full Tuition Waiver** and **Monthly Living Stipends**, subject to maintaining academic standards.
 
@@ -114,7 +113,7 @@ Undergraduate students must maintain a minimum cumulative GPA of 2.0 out of 4.3 
 
 ---
 
-## 5. Admissions for International Students
+## International Admission Path to Ulsan National Institute of Science and Technology
 
 Admission to UNIST is highly competitive, seeking outstanding students with a passion for science and innovation.
 
@@ -130,7 +129,7 @@ Admission to UNIST is highly competitive, seeking outstanding students with a pa
 
 ---
 
-## 6. Campus Life & Location
+## Living Near Ulsan National Institute of Science and Technology Campus
 
 Located in Eonyang-eup, Ulsan, the UNIST campus features a peaceful environment centered around Gamak Pond.
 
@@ -145,7 +144,7 @@ Ulsan blends natural beauty with industrial strength. Students can visit Taehwag
 
 ---
 
-## 7. FAQ
+## FAQ for Prospective Ulsan National Institute of Science and Technology Students
 
 ### Can I apply to UNIST if I do not speak any Korean?
 Yes. All lectures, exams, and resources are in English. While basic Korean helps with daily life off-campus, it is not required for admission or graduation.

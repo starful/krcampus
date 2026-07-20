@@ -64,16 +64,15 @@
   }
 }
 ---
-
 # Guide to Soongsil University Korean Language Institute
 
-## 1. School Overview
+## Soongsil University Korean Language Institute: Language Program Snapshot
 
 The Soongsil University Korean Language Institute (숭실대학교 한국어교육원), located at **369 Sangdo-ro, Dongjak-gu, Seoul, 06978, Republic of Korea**, has a student capacity of **800 students**. It offers a focused, personalized learning environment for international students. Known for technological innovation and a global community, the institute serves as a reliable gateway to undergraduate or graduate programs in Korea. Key highlights include modern on-campus housing, a 1:1 Korean Buddy Program, intensive TOPIK prep courses, and systematic admissions counseling.
 
 ---
 
-## 2. Programs & Schedule
+## Courses & Term Calendar at Soongsil University Korean Language Institute
 
 Soongsil University operates its regular Korean curriculum across four quarterly semesters: Spring, Summer, Fall, and Winter.
 
@@ -91,7 +90,7 @@ Soongsil University operates its regular Korean curriculum across four quarterly
 
 ---
 
-## 3. Tuition & Fees
+## What Studying at Soongsil University Korean Language Institute Costs
 
 Financial planning for the language programs involves application fees, tuition, and textbook costs.
 
@@ -104,7 +103,7 @@ Financial planning for the language programs involves application fees, tuition,
 
 ---
 
-## 4. Admissions & D-4 Visa Steps
+## D-4 Visa & Admission Steps for Soongsil University Korean Language Institute
 
 Students intending to study for two semesters (6 months) or longer must obtain a D-4-1 (General Student) visa.
 
@@ -130,7 +129,7 @@ Apply for the D-4 visa at the nearest Korean Embassy or Consulate. Once approved
 
 ---
 
-## 5. TOPIK & University Pathway
+## TOPIK Progress & Degree Paths via Soongsil University Korean Language Institute
 
 Soongsil provides systematic pathways to undergraduate and graduate programs:
 
@@ -140,7 +139,7 @@ Soongsil provides systematic pathways to undergraduate and graduate programs:
 
 ---
 
-## 6. Dormitory & Living in the City
+## Housing Options Around Soongsil University Korean Language Institute
 
 Soongsil offers convenient, safe living conditions in central Seoul.
 
@@ -156,7 +155,7 @@ Located directly on Seoul Subway Line 7 (Soongsil University Station), offering 
 
 ---
 
-## 7. FAQ
+## FAQ for Soongsil University Korean Language Institute Learners
 
 ### Can I work part-time while studying on a D-4 visa?
 Yes, after completing six months of continuous studies with a 90%+ attendance rate. Eligible students can work up to 20 hours per week during semesters with immigration approval.

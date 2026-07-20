@@ -64,12 +64,11 @@
   }
 }
 ---
-
-## 1. School Overview
+## Sejong University Korean Language Center: Language Program Snapshot
 
 The Sejong University Korean Language Center (세종대학교 한국어교육센터), located at 209 Neungdong-ro, Gwangjin-gu, Seoul, Republic of Korea, is a premier institution specialized in teaching Korean to international students. With an enrollment capacity of 1,000 students, the center provides highly structured language courses. Positioned on a beautiful, traditional-style campus directly adjacent to Children's Grand Park Station (Line 7), it offers modern campus facilities, dedicated academic advisors, and excellent transit links. The center successfully integrates immersive cultural experience programs with rigorous academics, making it an ideal destination for studying in Seoul.
 
-## 2. Programs & Schedule
+## Courses & Term Calendar at Sejong University Korean Language Center
 
 The center offers four distinct pathways to accommodate various educational goals, from long-term academic preparation to intensive conversational practice.
 
@@ -82,7 +81,7 @@ The center offers four distinct pathways to accommodate various educational goal
 
 Regular classes meet Monday through Friday. Morning sessions run from 09:00 to 13:00, and afternoon sessions run from 13:30 to 17:30. A mandatory placement test is conducted online or on-campus before each term begins.
 
-## 3. Tuition & Fees
+## What Studying at Sejong University Korean Language Center Costs
 
 Tuition and mandatory administrative fees must be paid in Korean Won (KRW). 
 
@@ -97,7 +96,7 @@ Tuition and mandatory administrative fees must be paid in Korean Won (KRW).
 * **Insurance:** Mandatory health insurance costs roughly 60,000 to 110,000 KRW depending on policy guidelines.
 * **Refunds:** Tuition refunds are processed under university guidelines based on cancellation dates.
 
-## 4. Admissions & D-4 Visa Steps
+## D-4 Visa & Admission Steps for Sejong University Korean Language Center
 
 Students planning to study for more than 90 days must apply for a D-4-1 (General Student) visa.
 
@@ -110,7 +109,7 @@ Students planning to study for more than 90 days must apply for a D-4-1 (General
 4. **Admission Letter:** The university issues the official Certificate of Admission (CoA).
 5. **Visa Application:** Bring the CoA, financial statements, and educational records to the local Korean Embassy to secure the D-4 visa.
 
-## 5. TOPIK & University Pathway
+## TOPIK Progress & Degree Paths via Sejong University Korean Language Center
 
 The specialized TOPIK Preparation Courses prepare students for academic integration through writing, speaking, and listening drills. 
 
@@ -121,7 +120,7 @@ Language center graduates who matriculate into Sejong University's undergraduate
 
 Additionally, the university admissions Korean language proficiency interview can be waived for students who complete Level 4 or higher at the center.
 
-## 6. Dormitory & Living in the City
+## Housing Options Around Sejong University Korean Language Center
 
 On-campus housing is available at the modern **Happy Dormitory (행복기숙사)**.
 * **Room Options:** Double (shared) or quad rooms.
@@ -130,7 +129,7 @@ On-campus housing is available at the modern **Happy Dormitory (행복기숙사)
 
 The campus location in Gwangjin-gu offers a safe, energetic neighborhood bordered by Children's Grand Park. This provides students with convenient access to recreational space, budget-friendly dining, cafes, and easy transit (Line 7) to major Seoul districts like Gangnam and Jamsil.
 
-## 7. FAQ
+## FAQ for Sejong University Korean Language Center Learners
 
 ### Q1: Can I get a D-4 visa for the Short-term Intensive Program?
 No. The D-4 visa requires enrolling in at least two consecutive terms (20 weeks) of the Regular Program. Short-term students must use tourist visas or visa-free entry.

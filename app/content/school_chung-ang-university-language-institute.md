@@ -64,11 +64,10 @@
   }
 }
 ---
-
-## 1. School Overview
+## Chung-Ang University Language Institute: Language Program Snapshot
 The Chung-Ang University (CAU) Language Institute, located at 84 Heukseok-ro, Dongjak-gu, Seoul (06974), hosts a student capacity of 1,200. Recognized for its highly structured curriculum and student support, the institute provides an immersive environment close to major commercial and cultural hubs like Yeouido and Gangnam. It offers high-quality instruction with direct paths into CAU undergraduate and graduate programs, making it a popular choice for international students aiming to build careers in South Korea.
 
-## 2. Programs & Schedule
+## Courses & Term Calendar at Chung-Ang University Language Institute
 The institute features four key Korean programs to accommodate different academic, personal, and career objectives.
 
 | Program Name | Admission Months | Duration | Hours/Week | Class Schedule |
@@ -83,7 +82,7 @@ The institute features four key Korean programs to accommodate different academi
 * **Evening Korean Language Program:** Tailored for foreign professionals, students, or residents unable to attend daytime courses.
 * **TOPIK Preparation Program:** Special training focused on exam patterns, essay formats, and practice tests to ensure students achieve target proficiency.
 
-## 3. Tuition & Fees
+## What Studying at Chung-Ang University Language Institute Costs
 All fees are processed in South Korean Won (KRW). Textbooks are sold separately at the campus bookstore.
 
 | Fee Type | Regular Program | Short-term | Evening | TOPIK Prep |
@@ -95,7 +94,7 @@ All fees are processed in South Korean Won (KRW). Textbooks are sold separately 
 
 *Note: Prices are subject to change. A minimum 2-term registration is typically required to apply for the D-4 student visa.*
 
-## 4. Admissions & D-4 Visa Steps
+## D-4 Visa & Admission Steps for Chung-Ang University Language Institute
 International applicants planning to study in the Regular Program for 20 weeks or more must obtain a D-4 (General Student) visa.
 
 ### Application Steps:
@@ -111,7 +110,7 @@ International applicants planning to study in the Regular Program for 20 weeks o
 * Bank statement indicating a minimum balance of $10,000 USD (held for over 30 days).
 * Family relationship document (if utilizing a parent's bank statement).
 
-## 5. TOPIK & University Pathway
+## TOPIK Progress & Degree Paths via Chung-Ang University Language Institute
 CAU actively supports pathways for language graduates transitioning into standard degree programs.
 
 * **Conditional Admission:** Students who complete Level 3 or 4 at CAU’s language center can secure conditional undergraduate admission before submitting an official TOPIK score.
@@ -119,7 +118,7 @@ CAU actively supports pathways for language graduates transitioning into standar
   * **Language Center Rewards:** The top student in each level receives a 50% tuition waiver for the next term; runner-ups receive a 30% discount.
   * **University Transition Scholarships:** Language graduates enrolling in CAU undergraduate degrees can receive 50% to 100% tuition waivers for their first semester based on their achieved TOPIK level (typically Level 5 or 6).
 
-## 6. Dormitory & Living in the City
+## Housing Options Around Chung-Ang University Language Institute
 On-campus housing is available for international students to support stable living conditions.
 
 ### On-Campus Housing (Blue Mir Hall)
@@ -131,7 +130,7 @@ On-campus housing is available for international students to support stable livi
 ### Neighborhood and Transit
 The Heukseok campus is situated next to Heukseok Station (Subway Line 9), allowing students to reach Gangnam or Yeouido within 15–20 minutes. The adjacent Han River Park offers cheap recreation, and the university district features affordable dining and cafe options.
 
-## 7. FAQ
+## FAQ for Chung-Ang University Language Institute Learners
 
 ### Can I get a D-4 visa if I register for the Evening or Short-term programs?
 No. The D-4 visa is reserved exclusively for full-time students enrolled in the Regular Program (at least 2 terms). Short-term or evening students must utilize a tourist visa or an existing valid residence visa.
@@ -146,4 +145,3 @@ No. Rooms are allocated on a first-come, first-served basis. If you do not secur
 Students must maintain at least 80% attendance (80 hours out of 100 per term) to pass a level. Falling below 80% results in automatic failure and blocks visa extensions.
 
 ### Can I work a part-time job during my studies?
-Yes, but only after completing 6 months (one semester) of regular study with at least 90% attendance. You must apply for and receive an S-3 Part-time Work Permit from immigration.

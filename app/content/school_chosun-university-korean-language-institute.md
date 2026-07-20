@@ -64,10 +64,9 @@
   }
 }
 ---
-
 # Chosun University Korean Language Institute Guide
 
-## 1. School Overview
+## Chosun University Korean Language Institute: Language Program Snapshot
 Chosun University Korean Language Institute, located at 309 Pilmun-daero, Dong-gu, Gwangju (61452), Republic of Korea, is a premier center for international students with an enrollment capacity of 500. Located within Chosun University, the institute offers high-quality instruction in Gwangju, a metropolitan city famous for arts, culture, and a low cost of living.
 
 Core strengths:
@@ -77,7 +76,7 @@ Core strengths:
 * **Rich Cultural Experience Programs:** Guided historical excursions, food workshops, and regional tours.
 * **Dedicated Student Support Services:** Multi-lingual staff assisting with visas, insurance, and campus life.
 
-## 2. Programs & Schedule
+## Courses & Term Calendar at Chosun University Korean Language Institute
 The curriculum features regular, short-term, and prep tracks. The Regular Program operates on four 10-week terms per year. Classes are held Monday-Friday for 4 hours daily (20 hours/week, 200 hours/term), from Level 1 to 6.
 
 | Course Name | Admission Month | Duration | Core Focus |
@@ -87,7 +86,7 @@ The curriculum features regular, short-term, and prep tracks. The Regular Progra
 | **Short-term Program** | July, January | 3-4 Weeks | Conversational practice & culture |
 | **TOPIK Prep Special Course** | April, October | Flexible | Test strategies, writing, mock exams |
 
-## 3. Tuition & Fees
+## What Studying at Chosun University Korean Language Institute Costs
 Chosun University offers very competitive tuition rates. Textbooks and medical insurance are billed separately.
 
 | Fee Category | Cost (KRW) | Billing Cycle & Details |
@@ -99,7 +98,7 @@ Chosun University offers very competitive tuition rates. Textbooks and medical i
 | **Textbook Fee** | Approx. 50,000 KRW | Purchased separately per level |
 | **Health Insurance** | Approx. 60,000 KRW | Mandatory, per 6 months |
 
-## 4. Admissions & D-4 Visa Steps
+## D-4 Visa & Admission Steps for Chosun University Korean Language Institute
 To study in the Regular Program for more than one term, students require a General Student Visa (D-4-1).
 
 1. **Submit Application:** Send application form, passport copy, photo, notarized graduation certificate, and bank statement of USD 10,000.
@@ -108,20 +107,20 @@ To study in the Regular Program for more than one term, students require a Gener
 4. **Receive CoA:** The institute issues the Certificate of Admission (CoA).
 5. **Apply for D-4 Visa:** Submit the CoA and required documents to the nearest South Korean Consulate.
 
-## 5. TOPIK & University Pathway
+## TOPIK Progress & Degree Paths via Chosun University Korean Language Institute
 The language institute serves as a direct pipeline for students seeking degrees at Chosun University.
 * **Targeted Exam Prep:** The TOPIK Prep Special Course focuses heavily on reading, listening, and essay writing.
 * **Direct Undergraduate Admission:** Students who complete Level 3 or higher are eligible for direct admission to undergraduate programs, bypassing external TOPIK requirements.
 * **Transition Scholarships:** Graduates receive priority admission and are eligible for 30% to 50% tuition waivers for their first semester based on their TOPIK scores.
 
-## 6. Dormitory & Living in the City
+## Housing Options Around Chosun University Korean Language Institute
 Gwangju provides an exceptionally comfortable, budget-friendly lifestyle.
 * **Guaranteed Housing:** All international language students are guaranteed double-occupancy rooms in campus dormitories.
 * **Dormitory Amenities:** Rooms are equipped with beds, desks, AC, and Wi-Fi. Access to laundry rooms and shared kitchens is provided.
 * **Affordable Housing Costs:** Dorm rates range from 600,000 to 900,000 KRW per 4-month semester.
 * **Living in Gwangju:** The city has excellent transit and diverse dining. Living expenses are roughly 30% cheaper than in Seoul.
 
-## 7. FAQ
+## FAQ for Chosun University Korean Language Institute Learners
 
 ### Can I work part-time while studying at Chosun University?
 Yes. D-4 visa holders can work part-time up to 20 hours per week after completing 6 months of study, provided attendance is above 90% and you obtain an immigration work permit.

@@ -56,20 +56,19 @@
   }
 }
 ---
-
 # Chungnam National University: The Ultimate International Student Guide
 
-## 1. University Overview
+## Chungnam National University: Campus Snapshot
 Chungnam National University (CNU), located at 99 Daehak-ro, Yuseong-gu, Daejeon, is one of South Korea’s prestigious Flagship National Universities. Representing Daejeon Metropolitan City and the South Chungcheong Province, CNU has built a stellar reputation for academic excellence, innovation, and global collaboration.
 
 CNU currently hosts a vibrant community of over 1,850 international students. With an estimated acceptance rate of 35% to 45% for international applicants, the university maintains an accessible yet selective admission system that rewards students meeting language and academic benchmarks. CNU offers an exceptional educational return on investment, providing high-quality state-subsidized education at roughly half the tuition cost of private universities in Seoul, making it a highly competitive choice.
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Chungnam National University
 While the primary medium of instruction at CNU is Korean, the university has expanded its global reach by offering a growing number of English-medium courses. International programs are particularly robust in fields like Engineering, Business Administration, and Biotechnology.
 
 For students requiring language preparation, the Korean Language Center at CNU offers intensive, high-quality language tracks designed to take students from beginner levels to TOPIK Level 3 or 4 within a single year. Additionally, CNU actively participates in global exchange networks and dual-degree programs with partner institutions worldwide, allowing international students to enjoy a globally connected academic journey without boundaries.
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Chungnam National University
 CNU offers a comprehensive range of academic programs across 15 specialized faculties:
 
 *   **College of Humanities** & **College of Social Sciences**
@@ -83,7 +82,7 @@ CNU offers a comprehensive range of academic programs across 15 specialized facu
 
 CNU’s primary academic strength lies in its strategic alliance with Daedeok Innopolis, South Korea’s premier science and R&D hub. This proximity allows the Colleges of Engineering, Bioscience, and Natural Sciences to maintain active research partnerships with over 40 state-run research institutes and 2,000 high-tech companies, providing students with unparalleled internship and employment pathways.
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Chungnam National University
 One of CNU's most appealing features is its highly affordable fee structure, made possible by substantial government subsidies. Notably, CNU does not charge an admission fee for international undergraduate students.
 
 | Program Type | CNU Annual Tuition (KRW) | Seoul Private Univ. Avg. (KRW, Est.) | Savings with CNU |
@@ -103,7 +102,7 @@ To further ease the financial burden, CNU offers generous scholarships based on 
 | **Freshman Merit Scholarship** | TOPIK Level 4 or IELTS 6.5 | 50% Tuition Waiver (1st Sem) |
 | **Academic Excellence Scholarship** | GPA in top 10% of international students | 30% to 100% Tuition Waiver |
 
-## 5. Admissions for International Students
+## International Admission Path to Chungnam National University
 The international admission process at CNU is designed to be streamlined and student-friendly. Applications are accepted twice a year for the Spring (March) and Fall (September) semesters.
 
 ### Key Admission Requirements:
@@ -113,12 +112,12 @@ The international admission process at CNU is designed to be streamlined and stu
     *   *English Track:* TOEFL iBT 80, IELTS 5.5, or equivalent.
 3.  **Financial Proof:** Certificate of balance showing funds of at least USD 18,000.
 
-## 6. Campus Life & Location
+## Living Near Chungnam National University Campus
 The Yuseong Campus of CNU is a massive, self-contained green campus located in Daejeon. The campus acts as a mini-city, equipped with state-of-the-art libraries, cheap student cafeterias, sports facilities, and comprehensive international student support centers.
 
 Daejeon is widely known as the "Silicon Valley of Korea." As a science and technology hub, it offers a clean, safe, and highly intellectual environment. It is also incredibly well-connected: a KTX bullet train ride connects Daejeon to Seoul in just 50 minutes. Furthermore, the cost of living in Daejeon is approximately 30-40% lower than in Seoul, making it an ideal base for budget-conscious international students. The surrounding Yuseong neighborhood is famous for its natural hot springs and vibrant college town atmosphere.
 
-## 7. FAQ
+## FAQ for Prospective Chungnam National University Students
 
 ### What is the minimum TOPIK score required for admission?
 For programs taught in Korean, the minimum requirement is TOPIK Level 3. However, aiming for TOPIK Level 4 or higher is highly recommended to secure better scholarship opportunities and ease your academic transition.

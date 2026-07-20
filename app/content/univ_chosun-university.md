@@ -50,20 +50,19 @@
   }
 }
 ---
-
 # Chosun University: International Student Guide
 
-## 1. University Overview
+## Chosun University: Campus Snapshot
 Established in 1946, Chosun University (조선대학교) is one of South Korea's oldest and most prestigious private institutions. Founded through the collective contributions of 72,000 local citizens, this unique citizen-established university is located in the cultural hub of Gwangju. Today, it hosts over 1,150 international students as part of its vibrant community. With an estimated acceptance rate of 75% to 85%, Chosun offers an accessible yet academically rigorous environment for global applicants looking to experience authentic Korean student life.
 
 The university is famous for its breathtaking, massive campus featuring the iconic white Main Building, which is a registered national cultural property, and its annual Rose Festival that attracts thousands of tourists. Beyond its aesthetics, Chosun is highly regarded for its affordable tuition rates and the significantly lower cost of living in Gwangju compared to Seoul, making it a premier destination for budget-conscious international students.
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Chosun University
 To support its global network, Chosun University offers specialized tracks and support programs for international students. While most undergraduate degrees are taught in Korean, the university has expanded its English-friendly lectures, particularly within global business, engineering, and ICT. The campus also features a dedicated Global Lounge where international and domestic students meet for peer mentoring, language exchanges, and academic tutoring.
 
 For students who do not meet the Korean proficiency requirements, the Language Education Institute offers an intensive Korean Language Program. This 10-week-per-semester program prepares students to achieve TOPIK Level 3 or higher, which is the standard benchmark for undergraduate admission.
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Chosun University
 Chosun University boasts a diverse array of faculties designed to prepare students for the global workforce. Its primary strengths lie in Engineering, IT, and Global Business. Its ICT and Electronics Engineering faculty is particularly famous for its collaborative industry projects with local technology firms, providing students with direct internship and career pathways.
 
 The primary academic faculties available to international students include:
@@ -73,7 +72,7 @@ The primary academic faculties available to international students include:
 * **Business & Economics & Foreign Studies:** Cultivating global commercial and linguistic skills.
 * **Art and Design & Physical Education:** Fostering creativity and athletic excellence.
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Chosun University
 Chosun University is highly competitive in terms of educational costs. Tuition rates are approximately 30% to 40% lower than private universities in Seoul. Furthermore, Gwangju offers highly competitive living costs, allowing students to rent comfortable off-campus studios for a fraction of Seoul's average rates.
 
 ### Estimated Tuition and Fees (2024/2025)
@@ -89,7 +88,7 @@ Chosun University is highly competitive in terms of educational costs. Tuition r
 * **Freshmen TOPIK Scholarship:** Students entering with TOPIK Level 3 receive a 30% tuition waiver, Level 4 receives 40%, and Level 5 or 6 receives up to a 50% to 100% waiver.
 * **Academic Excellence Scholarship:** From the second semester onward, students can receive a 30% to 60% tuition waiver based on their GPA from the previous semester.
 
-## 5. Admissions for International Students
+## International Admission Path to Chosun University
 The admissions process evaluates both academic potential and cultural adaptability. The application process typically requires online submission followed by document screening and, in some cases, an online interview to assess basic communication skills and academic intent.
 
 ### Key Requirements and Timeline
@@ -103,12 +102,12 @@ The admissions process evaluates both academic potential and cultural adaptabili
 
 Candidates must submit notarized academic credentials and a certificate of financial capability ($18,000+) to secure the D-2 student visa.
 
-## 6. Campus Life & Location
+## Living Near Chosun University Campus
 Located at 309 Pilmun-daero, Dong-gu, Gwangju, 61452, South Korea, Chosun University offers an unparalleled student experience. Gwangju is South Korea’s sixth-largest city, famous for its rich history, art, and democratic heritage. It provides a peaceful, student-friendly environment with excellent public transportation connecting to Seoul in under two hours via the KTX. The campus's proximity to Gwangju's vibrant downtown area, Chungjang-ro, ensures that students have access to modern shopping, dining, and cultural events just minutes away.
 
 On campus, international students enjoy modern dormitories. The cost of a shared dormitory room ranges from 800,000 to 1,200,000 KRW per semester (estimated). The university's global support center hosts cultural excursions and language exchange programs, ensuring that international students integrate quickly and feel at home.
 
-## 7. FAQ
+## FAQ for Prospective Chosun University Students
 
 ### Can I apply to Chosun University without knowing any Korean?
 Yes. You can apply directly to the university's intensive Korean Language Program. Once you achieve TOPIK Level 3, you can matriculate into an undergraduate degree. Some English-friendly tracks also accept English test scores (IELTS/TOEFL) for direct admission.

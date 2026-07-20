@@ -51,17 +51,16 @@
   }
 }
 ---
-
 # Kyungpook National University (KNU): The Ultimate International Student Guide
 
-## 1. University Overview
+## Kyungpook National University: Campus Snapshot
 Located in the metropolitan city of Daegu, **Kyungpook National University (KNU)** is one of South Korea's premier Flagship Korean National Universities. Established in 1946, KNU has cultivated a stellar reputation for research excellence, academic innovation, and regional economic partnership.
 
 With an active international student community of over **2,200 scholars** from 80+ countries and a selective yet achievable acceptance rate of **55% - 65%**, KNU offers an inclusive global learning environment. The university bridges the gap between high-quality education and economic accessibility. As a flagship public institution, it is funded heavily by the government, ensuring state-of-the-art campus facilities and highly affordable educational resources for ambitious global minds.
 
 ---
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Kyungpook National University
 While Korean is the primary language of instruction, KNU has expanded its English-medium offerings to accommodate international talents.
 
 * **Undergraduate Options:** Selected tracks in Business Administration, Global Software, and Engineering offer courses taught entirely in English.
@@ -71,7 +70,7 @@ While Korean is the primary language of instruction, KNU has expanded its Englis
 
 ---
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Kyungpook National University
 KNU spans specialized campuses integrated with the Daegu-Gyeongbuk industrial zone—a powerhouse for IT, semiconductors, and advanced engineering partnered with conglomerates like Samsung and LG.
 
 ### Core Faculties
@@ -88,7 +87,7 @@ KNU spans specialized campuses integrated with the Daegu-Gyeongbuk industrial zo
 
 ---
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Kyungpook National University
 KNU is highly affordable compared to private universities in Seoul. The yearly tuition fee averages **4,500,000 KRW**, and KNU charges **0 KRW in international undergraduate admission fees**.
 
 | Fee Component | KNU (National) | Seoul Private Univ. (Est.) |
@@ -105,7 +104,7 @@ KNU is highly affordable compared to private universities in Seoul. The yearly t
 
 ---
 
-## 5. Admissions for International Students
+## International Admission Path to Kyungpook National University
 KNU runs two admission cycles: **Spring Semester** (applications in Sep/Oct) and **Fall Semester** (applications in Mar/Apr).
 
 ### Eligibility & Checklist
@@ -118,14 +117,14 @@ KNU runs two admission cycles: **Spring Semester** (applications in Sep/Oct) and
 
 ---
 
-## 6. Campus Life & Location
+## Living Near Kyungpook National University Campus
 KNU is located at **80 Daehak-ro, Buk-gu, Daegu, 41566**. Daegu is South Korea's fourth-largest metropolitan area, blending historical landmarks with advanced technology. It offers an energetic urban lifestyle with a cost of living roughly 30% lower than Seoul.
 
 The main campus is connected to the city via Daegu's efficient subway and bus lines, with rapid KTX train access to Seoul (just 1.5 hours away). On-campus facilities include modern dorms, extensive libraries, gymnasiums, and global lounges. The surrounding college town ("Daehak-ro") features student-friendly cafes, pubs, and shopping. KNU also runs a "Buddy Program" that pairs international students with domestic mentors to assist with cultural adjustment.
 
 ---
 
-## 7. FAQ
+## FAQ for Prospective Kyungpook National University Students
 
 ### Is KNU a prestigious university?
 Yes. KNU is one of the premier Flagship National Universities in South Korea. It is highly respected for research excellence and ranks exceptionally high for job placement in major technology and engineering corporations.

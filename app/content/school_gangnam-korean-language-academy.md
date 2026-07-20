@@ -64,15 +64,14 @@
   }
 }
 ---
-
-## 1. School Overview
+## Gangnam Korean Language Academy: Language Program Snapshot
 Located in Seoul’s premium business hub, Gangnam Korean Language Academy (강남 한국어학원) provides professional, highly personalized Korean language training. With a capacity of 350 students, the academy delivers a focused, community-oriented environment that avoids the crowds of massive university institutes. It specializes in small-group education, practical conversational mastery, and targeted university pathways, offering direct access to modern Seoul.
 
 *   **Address:** 4F, 12 Teheran-ro 4-gil, Gangnam-gu, Seoul, South Korea
 *   **Capacity:** 350 students
 *   **Core Features:** TOPIK prep, Small group classes, K-culture activities, Flexible scheduling, University progression support.
 
-## 2. Programs & Schedule
+## Courses & Term Calendar at Gangnam Korean Language Academy
 The academy offers four distinct study tracks designed to fit diverse schedules, professional commitments, and academic goals.
 
 ### Table 1: Program Tracks & Schedules
@@ -87,7 +86,7 @@ The academy offers four distinct study tracks designed to fit diverse schedules,
 *   **Flexible Scheduling Options:** Evening and weekend courses are optimized for working professionals or university students needing supplementary study.
 *   **Class Size:** Class sizes are kept small to ensure every student receives direct corrective feedback during speaking exercises.
 
-## 3. Tuition & Fees
+## What Studying at Gangnam Korean Language Academy Costs
 All fees are payable in South Korean Won (KRW). Tuition must be settled in full before the official course start date.
 
 ### Table 2: Comprehensive Fee Breakdown
@@ -100,7 +99,7 @@ All fees are payable in South Korean Won (KRW). Tuition must be settled in full 
 
 *Note: The registration fee is a one-time, non-refundable charge. Textbooks are updated periodically to match current TOPIK benchmarks.*
 
-## 4. Admissions & D-4 Visa Steps
+## D-4 Visa & Admission Steps for Gangnam Korean Language Academy
 International students enrolling in the **Regular Intensive Korean Program** for two or more terms (20 weeks) are eligible for the D-4 (General Student) visa.
 
 ### Step-by-Step Enrollment Process:
@@ -110,18 +109,18 @@ International students enrolling in the **Regular Intensive Korean Program** for
 4. **Receive CoA:** The academy issues the Certificate of Admission (CoA) and business license copy.
 5. **Apply for Visa:** Submit the CoA, bank statements (showing USD 10,000+), and medical reports to the local Korean Embassy to get your D-4 visa.
 
-## 5. TOPIK & University Pathway
+## TOPIK Progress & Degree Paths via Gangnam Korean Language Academy
 The academy provides structured progression support for students who plan to transition into undergraduate or graduate programs at leading South Korean universities:
 *   **Targeted TOPIK Preparation:** Coursework focuses on strategy for the TOPIK II exam, including timed writing practices, listening comprehension shortcuts, and academic vocabulary.
 *   **University Progression Support:** Counselors offer personalized guidance. This includes assistance with compiling application documents, writing study plans in Korean, and mock interviews.
 *   **Academic Partnerships:** Information sessions explain admission timelines and visa transitions for prospective university applicants.
 
-## 6. Dormitory & Living in the City
+## Housing Options Around Gangnam Korean Language Academy
 Because the academy is a private institute, it does not operate central university dormitories. However, its prime Gangnam location offers convenient housing:
 *   **Partnered Goshiwons & Share Houses:** The academy helps book clean, furnished mini-studios (Goshiwon) or shared rooms within a 5 to 15-minute walk. Monthly rents range between KRW 450,000 and KRW 750,000, with zero or minimal security deposits.
 *   **Neighborhood Amenities:** Located at 12 Teheran-ro 4-gil, students are steps from Gangnam Station (Line 2 and Shinbundang Line), convenience stores, major clinics, banking options, and restaurants.
 
-## 7. FAQ
+## FAQ for Gangnam Korean Language Academy Learners
 
 ### Can I get a D-4 student visa with the Evening or Weekend course?
 No. South Korean immigration requires at least 15 class hours per week for a D-4 visa. Only the **Regular Intensive Korean Program** (20 hours/week) qualifies.

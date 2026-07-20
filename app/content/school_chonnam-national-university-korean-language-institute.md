@@ -66,10 +66,9 @@
   }
 }
 ---
-
 # Chonnam National University Korean Language Institute Guide
 
-## 1. School Overview
+## Chonnam National University: Language Program Snapshot
 Located at **77 Yongbong-ro, Buk-gu, Gwangju (61186)**, Chonnam National University (CNU) is a premier flagship national university in South Korea. The CNU Korean Language Institute (Language Education Center) accommodates up to 800 international students, offering a high-quality academic environment paired with exceptionally low living and tuition costs.
 
 Key institutional advantages include:
@@ -79,7 +78,7 @@ Key institutional advantages include:
 *   **Korean Student Buddy/Mentoring Program** pairing learners with local CNU peers.
 *   **Direct Degree Pathway Scholarships** for students matriculating into undergraduate or graduate courses.
 
-## 2. Programs & Schedule
+## Courses & Term Calendar at Chonnam National University
 The institute runs four 10-week terms annually. The curriculum covers Level 1 (Beginner) to Level 6 (Advanced), focusing on integrated communication skills: speaking, listening, reading, and writing, alongside hands-on cultural activities.
 
 Classes run Monday to Friday, 4 hours per day (20 hours per week, 200 hours total per term). Classes are split into morning (9:00 AM - 1:00 PM) or afternoon (1:00 PM - 5:00 PM) sessions depending on proficiency levels.
@@ -91,7 +90,7 @@ Classes run Monday to Friday, 4 hours per day (20 hours per week, 200 hours tota
 | Fall Regular Program | September | 10 Weeks | 20 | 1,450,000 |
 | Winter Regular Program | December | 10 Weeks | 20 | 1,450,000 |
 
-## 3. Tuition & Fees
+## What Studying at Chonnam National University Costs
 CNU offers highly competitive tuition rates compared to private universities. D-4 visa applicants must pay for at least two terms initially to qualify for visa documents.
 
 | Fee Item | Cost (KRW) | Frequency / Notes |
@@ -102,7 +101,7 @@ CNU offers highly competitive tuition rates compared to private universities. D-
 | **Textbook Costs** | Approx. 50,000 | Purchased upon arrival |
 | **National Health Insurance** | Approx. 75,000 | Monthly mandatory insurance |
 
-## 4. Admissions & D-4 Visa Steps
+## D-4 Visa & Admission Steps for Chonnam National University
 International applicants require a D-4 (General Trainee) visa to enroll in the regular program. Follow these practical steps:
 
 1.  **Document Submission**: Submit the online application and mail physical copies of required documents (apostilled graduation certificate, passport copy, and a bank statement showing at least $10,000 USD).
@@ -111,16 +110,16 @@ International applicants require a D-4 (General Trainee) visa to enroll in the r
 4.  **Certificate of Admission (CoA)**: Upon payment verification, CNU issues the official CoA and registration documents.
 5.  **Visa Application**: Apply for the D-4 visa at the Korean Embassy in your home country with the CoA, passport, photo, and financial documents.
 
-## 5. TOPIK & University Pathway
+## TOPIK Progress & Degree Paths via Chonnam National University
 The institute serves as an academic bridge to CNU’s undergraduate and graduate programs:
 *   **Systematic TOPIK Prep**: The curriculum incorporates TOPIK exam practice, with dedicated evening preparation workshops designed to help students secure Level 3 or 4 quickly.
 *   **Direct Degree Pathway Scholarships**: Language program graduates transferring directly to CNU degree programs receive admission priority. Undergraduates holding a TOPIK Level 4 or higher can qualify for merit-based scholarships covering 40% to 100% of their first-semester tuition fees.
 
-## 6. Dormitory & Living in the City
+## Housing Options Around Chonnam National University
 *   **On-Campus Dormitory Guarantee**: CNU guarantees on-campus housing for all incoming language students. The residence halls feature double-occupancy rooms with central heating/cooling, study desks, and laundry facilities. The cost ranges from 800,000 to 1,200,000 KRW per semester depending on the selected meal plan option.
 *   **Cost of Living in Gwangju**: Located in Buk-gu, Gwangju, CNU boasts extremely low living expenses. Off-campus meals range from 7,000 to 10,000 KRW. Efficient local bus lines connect the Yongbong-ro campus directly to the U-Square Bus Terminal and downtown cultural districts.
 
-## 7. FAQ
+## FAQ for Chonnam National University Learners
 
 ### Is the dormitory guaranteed for all language students?
 Yes. CNU provides an On-Campus Dormitory Guarantee for incoming international language students, provided they complete the housing application and pay the fee during the registration period.

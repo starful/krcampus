@@ -54,20 +54,19 @@
   }
 }
 ---
-
 # Ewha Womans University: The Ultimate International Student Guide
 
 Founded in 1886, **Ewha Womans University** in Seoul, South Korea, is the world’s largest female educational institution. Ewha has shaped Korean society by producing many of the nation's first female leaders. Today, it hosts over 3,200 international students from 80+ countries, offering a supportive, globally integrated academic environment.
 
 ---
 
-## 1. University Overview
+## Ewha Womans University: Campus Snapshot
 
 Ewha blends historical prestige with futuristic infrastructure on its iconic campus in Seoul's Seodaemun district. The centerpiece is the **Ewha Campus Complex (ECC)**, designed by architect Dominique Perrault—an underground structure integrating nature with modern study spaces, libraries, and theaters. Ewha balances academic rigor with global engagement, boasting a diverse community, strong research partnerships, and an elite global alumni network.
 
 ---
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Ewha Womans University
 
 While Korean is the primary language of instruction, Ewha offers robust English-taught pathways.
 
@@ -82,7 +81,7 @@ Ewha’s **GSIS** offers Master’s and Ph.D. programs entirely in English, spec
 
 ---
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Ewha Womans University
 
 Ewha houses 11 undergraduate colleges spanning humanities, engineering, and healthcare sciences.
 
@@ -100,7 +99,7 @@ Ewha houses 11 undergraduate colleges spanning humanities, engineering, and heal
 
 ---
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Ewha Womans University
 
 Costs vary by program, with STEM and art fields being on the higher end of the spectrum.
 
@@ -121,7 +120,7 @@ Costs vary by program, with STEM and art fields being on the higher end of the s
 
 ---
 
-## 5. Admissions for International Students
+## International Admission Path to Ewha Womans University
 
 Admissions are based on academic performance, personal statements, and language skills, not the Korean CSAT.
 
@@ -138,7 +137,7 @@ Admissions are based on academic performance, personal statements, and language 
 
 ---
 
-## 6. Campus Life & Location
+## Living Near Ewha Womans University Campus
 
 Studying at Ewha places students in Seoul's vibrant youth culture.
 
@@ -152,7 +151,7 @@ Located at **52 Ewhayeodae-gil, Seodaemun-gu, Seoul**, Ewha is adjacent to **Sin
 
 ---
 
-## 7. FAQ
+## FAQ for Prospective Ewha Womans University Students
 
 ### Can male students apply to Ewha Womans University?
 Yes, but only as exchange or visiting students. Degree programs are strictly female-only.

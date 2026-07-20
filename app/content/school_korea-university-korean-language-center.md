@@ -64,14 +64,13 @@
   }
 }
 ---
-
-## 1. School Overview
+## Korea University Korean Language Center: Language Program Snapshot
 
 The Korean Language and Culture Center (KLCC) at Korea University, established in 1986, is a premier language institution accommodating over 2,000 international students annually. Situated at 145 Anam-ro, Seongbuk-gu, Seoul, KU represents one-third of South Korea’s prestigious "SKY" universities. 
 
 The center stands out for its high-quality curriculum, professional faculty, and structured learner support systems. Students benefit from an immersive academic environment that integrates intensive linguistic training with rich cultural programs and peer-to-peer networking opportunities like the KU Buddy Program.
 
-## 2. Programs & Schedule
+## Courses & Term Calendar at Korea University Korean Language Center
 
 Korea University offers structured programs tailored to varying academic and professional needs. The standard curriculum spans Levels 1 to 6 (Beginner to Advanced). Regular and Academic courses run on a 10-week quarterly system (20 hours per week, 200 hours total per term), while short-term courses offer intensive, speaking-focused study.
 
@@ -82,7 +81,7 @@ Korea University offers structured programs tailored to varying academic and pro
 | **3-Week Short-term Program** | January, July, August | 20 hours | Summer/winter learners looking for fast progress |
 | **Research Program** | March, September | Variable | Scholars and researchers doing academic work |
 
-## 3. Tuition & Fees
+## What Studying at Korea University Korean Language Center Costs
 
 Tuition fees are calculated per term. These fees do not include textbooks or personal living expenses.
 
@@ -97,7 +96,7 @@ Tuition fees are calculated per term. These fees do not include textbooks or per
 
 *Note: Group medical insurance is mandatory for all international students and is billed separately (approx. 60,000 to 110,000 KRW per semester).*
 
-## 4. Admissions & D-4 Visa Steps
+## D-4 Visa & Admission Steps for Korea University Korean Language Center
 
 Applicants planning to study for two or more terms (more than 90 days) must apply for a D-4-1 (General Student) visa. 
 
@@ -114,21 +113,21 @@ Applicants planning to study for two or more terms (more than 90 days) must appl
 *   Bank Balance Certificate (minimum $10,000 USD or equivalent, held for at least 1 month).
 *   Proof of family relations (if the bank statement is under a parent's name).
 
-## 5. TOPIK & University Pathway
+## TOPIK Progress & Degree Paths via Korea University Korean Language Center
 
 KU KLCC provides dedicated infrastructure for students transitioning to higher education:
 *   **TOPIK Prep:** The center hosts specialized afternoon preparation workshops and mock exams prior to official Test of Proficiency in Korean (TOPIK) dates.
 *   **University Pathway Support:** Advisors hold regular admissions counseling sessions. Graduating from Level 4 or higher satisfies the language requirement for undergraduate and graduate entry at Korea University and partner colleges.
 *   **KU Buddy Program:** Matches international students with current KU undergraduate students to facilitate campus integration, language practice, and cultural exchange.
 
-## 6. Dormitory & Living in the City
+## Housing Options Around Korea University Korean Language Center
 
 Students can apply for on-campus housing, though placements are highly competitive.
 *   **On-Campus Housing:** CJ International House and Anam Global House offer double and single rooms. Rates range from 1,200,000 KRW to 2,000,000 KRW per term.
 *   **Off-Campus Alternatives:** Many students choose *Goshiwons* (mini-studios) or *One-rooms* (regular studios) around Anam-dong and Jegi-dong. Goshiwons cost 350,000 to 550,000 KRW/month (no deposit), while One-rooms range from 500,000 to 700,000 KRW/month (requiring a 5,000,000+ KRW deposit).
 *   **Neighborhood Vibe:** Located in Seongbuk-gu, Anam is a lively college district. It is highly accessible via Anam Station (Subway Line 6), offering affordable dining, student-friendly clinics, and direct transit to central Seoul.
 
-## 7. FAQ
+## FAQ for Korea University Korean Language Center Learners
 
 ### Can I work part-time while studying on a D-4 visa?
 Yes, but only after residing in Korea for 6 months (1 semester) and maintaining an class attendance rate of 90% or higher. You must obtain official permission from both the school and the immigration office to work up to 20 hours per week.
@@ -143,4 +142,3 @@ No. Students should purchase the designated KU Korean textbooks at the campus bo
 Yes. Both the Regular and 3-Week programs cater to absolute beginners. Students with no prior knowledge are placed in Level 1, where they learn Hangeul (the Korean alphabet) from day one.
 
 ### Does Korea University provide airport pickup services?
-No, KU KLCC does not offer airport pickup. Students must travel from Incheon or Gimpo Airport to the Anam campus independently using the Airport Railroad (AREX), airport limousine buses, or local taxis.

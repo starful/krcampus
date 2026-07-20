@@ -66,11 +66,10 @@
   }
 }
 ---
-
-## 1. School Overview
+## Konkuk University Language Education Institute: Language Program Snapshot
 Located at 120 Neungdong-ro, Gwangjin-gu, Seoul (05029), the Konkuk University Language Education Institute (LEI) is a leading institution with an annual capacity of 1,500 international students. Nestled in Seoul's vibrant "Gundae" neighborhood, the campus is serviced by Subway Lines 2 and 7, providing unparalleled transit access. The institute is renowned for its immersive Korean language courses, on-campus dormitory (KU:L House), cultural experience programs, and clear academic pathways to Konkuk’s undergraduate and graduate schools.
 
-## 2. Programs & Schedule
+## Courses & Term Calendar at Konkuk University Language Education Institute
 Konkuk LEI runs four programs to match various student goals. The Regular Program spans 10 weeks per term, prioritizing academic language skills. The Short-term Intensive Program focuses on conversational survival skills and cultural excursions. The Evening Program caters to working professionals, while the TOPIK Prep Class targets test-taking strategies.
 
 ### Table 1: Program Schedules & Structure
@@ -81,7 +80,7 @@ Konkuk LEI runs four programs to match various student goals. The Regular Progra
 | **Evening Program** | March, September | Tue, Thu (19:00-21:50) | 10 Weeks (60 hours) |
 | **TOPIK Prep Class** | April, October | Sat (10:00-13:00) | 8 Weeks (24 hours) |
 
-## 3. Tuition & Fees
+## What Studying at Konkuk University Language Education Institute Costs
 Tuition is billed per semester or course. Regular program applicants seeking a D-4 visa must enroll and pay for at least two semesters (2 terms). Textbooks are sold separately at the university bookstore.
 
 ### Table 2: Tuition & Fee Structure (KRW)
@@ -94,7 +93,7 @@ Tuition is billed per semester or course. Regular program applicants seeking a D
 
 *Note: Scholarships of up to 100% of the tuition fee are awarded to students with perfect attendance and outstanding grades in the Regular Program.*
 
-## 4. Admissions & D-4 Visa Steps
+## D-4 Visa & Admission Steps for Konkuk University Language Education Institute
 International applicants planning to study in the Regular Program for 90 days or longer require a D-4 (General Trainee) visa.
 
 ### Step-by-Step Admission Process:
@@ -107,17 +106,17 @@ International applicants planning to study in the Regular Program for 90 days or
 4. **Standard Admission Letter:** Receive the Certificate of Admission (COA) from Konkuk University.
 5. **Visa Application:** Present the COA, visa application form, passport, and financial documents to the local Korean Embassy/Consulate to obtain the D-4 visa.
 
-## 5. TOPIK & University Pathway
+## TOPIK Progress & Degree Paths via Konkuk University Language Education Institute
 Konkuk LEI offers a seamless transition for students planning to pursue degrees in Korea:
 * **Direct Entrance:** Completion of Level 3 or higher at Konkuk LEI satisfies the language proficiency requirement for undergraduate admission, exempting students from the formal TOPIK exam requirement.
 * **TOPIK Prep Integration:** Regular programs incorporate practice tests, while dedicated TOPIK Prep classes focus on writing essay strategies and timing.
 * **Admission Scholarships:** Graduates of Konkuk LEI who matriculate into Konkuk undergraduate programs are eligible for tuition waivers ranging from 30% to 50% based on their final LEI grade or TOPIK score.
 
-## 6. Dormitory & Living in the City
+## Housing Options Around Konkuk University Language Education Institute
 * **KU:L House On-Campus Dormitory:** Double rooms feature private bathrooms, air conditioning, and desks. Shared facilities include study lounges, laundry rooms, and a cafeteria. Expect rates of approximately 1,200,000 to 1,500,000 KRW per 10-week term. Apply immediately upon receiving your admission notice, as space is limited.
 * **Campus and Neighborhood:** Located in Gwangjin-gu, the campus surrounds the picturesque Ilgamho Lake. The "Gundae" neighborhood is a popular student destination with affordable dining, the Star City Mall, and multiple convenience facilities. Lines 2 and 7 make transit to Gangnam, Dongdaemun, and Han River parks fast and straightforward.
 
-## 7. FAQ
+## FAQ for Konkuk University Language Education Institute Learners
 
 ### Can I work part-time on a D-4 visa?
 Yes. After completing 6 months of study with at least 90% attendance, you can apply for a part-time work permit to work up to 20 hours per week.

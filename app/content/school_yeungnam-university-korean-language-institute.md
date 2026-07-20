@@ -36,14 +36,13 @@ tuition:
   registration_fee: 100000
   textbook_fee: 50000
 ---
-
-## 1. School Overview
+## Yeungnam University Korean Language Institute: Language Program Snapshot
 
 Yeungnam University Korean Language Institute (YU KLI), located in Gyeongsan, Gyeongsangbuk-do, is a premier institution accommodating up to 500 international students. Situated at 280 Daehak-ro, the massive, park-like campus offers an optimal learning environment with state-of-the-art academic facilities. 
 
 YU KLI is an ideal choice for budget-conscious students seeking high-quality education without the high living costs of Seoul. Key strengths include guaranteed on-campus dormitory rooms, dedicated TOPIK preparation classes, immersive cultural experience programs, and clear pathways to undergraduate and graduate programs at Yeungnam University.
 
-## 2. Programs & Schedule
+## Courses & Term Calendar at Yeungnam University Korean Language Institute
 
 The Regular Program runs four times a year, aligning with the four seasons. The curriculum focuses on practical communication skills through 200 hours of intensive training per term over 10 weeks. 
 
@@ -58,7 +57,7 @@ The Regular Program runs four times a year, aligning with the four seasons. The 
 | **Autumn (September)**| May – Jul | Early Sept – Mid-November | Intermediate reading & writing |
 | **Winter (December)** | Aug – Oct | Early Dec – Mid-February | Advanced academic discussion |
 
-## 3. Tuition & Fees
+## What Studying at Yeungnam University Korean Language Institute Costs
 
 YU KLI offers highly competitive tuition rates. D-4 visa applicants must register for at least two terms (20 weeks) to receive visa sponsorship.
 
@@ -72,7 +71,7 @@ YU KLI offers highly competitive tuition rates. D-4 visa applicants must registe
 
 *Note: Personal health insurance (mandatory) and daily meals are not included in the fees listed above.*
 
-## 4. Admissions & D-4 Visa Steps
+## D-4 Visa & Admission Steps for Yeungnam University Korean Language Institute
 
 International students staying over 90 days must apply for a D-4 (General Trainee) visa. The standard pipeline includes the following steps:
 
@@ -83,20 +82,20 @@ International students staying over 90 days must apply for a D-4 (General Traine
 5. **Receive CoA**: The university mails the original Certificate of Admission (CoA).
 6. **Visa Application**: Apply for the D-4 visa at your local South Korean Embassy or Consulate.
 
-## 5. TOPIK & University Pathway
+## TOPIK Progress & Degree Paths via Yeungnam University Korean Language Institute
 
 The institute provides structured support for students wishing to pursue higher education in South Korea.
 - **TOPIK Special Prep**: The curriculum includes targeted afternoon preparation for the TOPIK II exam (Levels 3 to 6), focusing on essay writing, listening comprehension, and past paper analysis.
 - **Admission Waivers**: Students who successfully complete Level 3 or higher at YU KLI meet the language requirement for Yeungnam University undergraduate admission, bypassing external test scores.
 - **Scholarships**: Undergraduate applicants holding TOPIK Level 3 receive a 30% tuition scholarship for their first semester. Those holding Level 4 or higher receive a 50% tuition waiver.
 
-## 6. Dormitory & Living in the City
+## Housing Options Around Yeungnam University Korean Language Institute
 
 - **Guaranteed Dormitory**: All language students are guaranteed on-campus dormitory placement. Rooms are double-occupancy, featuring single beds, study desks, private wardrobes, air conditioning, and free Wi-Fi.
 - **Low Cost of Living**: Gyeongsan-si is a major university town adjacent to Daegu. Rent, food, and daily life cost roughly 30% to 40% less than in Seoul.
 - **Subway Connection**: The campus is served directly by **Yeungnam University Station** (Daegu Subway Line 2). You can travel directly to downtown Daegu in just 25 minutes.
 
-## 7. FAQ
+## FAQ for Yeungnam University Korean Language Institute Learners
 
 ### Q1. Is there an age limit for applying?
 There is no set age limit, but applicants must have graduated from high school or college within the past 2 to 5 years. Longer career gaps require additional documentation.

@@ -62,14 +62,13 @@
   }
 }
 ---
-
-## 1. School Overview
+## Youngsan University Korean Language Institute: Language Program Snapshot
 
 The Youngsan University (Y'sU) Korean Language Institute in Busan (142 Bansong-ro, Haeundae-gu) accommodates up to 400 international students annually. Operating directly on the Haeundae Campus, it blends high-quality language coursework with immersive cultural education. The program is ideal for students aiming to matriculate into Korean undergraduate programs or acquire professional-level language skills. Key benefits include targeted TOPIK preparation, direct university pathway scholarships, guaranteed on-campus dormitory facilities, and structured regional field trips designed to introduce students to the culture of Busan.
 
 ---
 
-## 2. Programs & Schedule
+## Courses & Term Calendar at Youngsan University Korean Language Institute
 
 The institute runs a quarterly academic system with four 10-week semesters annually. Classes meet for 20 hours per week (Monday to Friday, 4 hours per day) for a total of 200 hours per semester. Levels range from beginner (Level 1) to advanced (Level 6), with instruction split into morning and afternoon sessions depending on placement test results.
 
@@ -84,7 +83,7 @@ The institute runs a quarterly academic system with four 10-week semesters annua
 
 ---
 
-## 3. Tuition & Fees
+## What Studying at Youngsan University Korean Language Institute Costs
 
 Tuition is set at 1,300,000 KRW per semester. Most international applicants seeking a D-4 student visa must register and pay for at least two semesters (2,600,000 KRW) or up to four semesters in advance, depending on their home country's consular guidelines.
 
@@ -100,7 +99,7 @@ Tuition is set at 1,300,000 KRW per semester. Most international applicants seek
 
 ---
 
-## 4. Admissions & D-4 Visa Steps
+## D-4 Visa & Admission Steps for Youngsan University Korean Language Institute
 
 International applicants must follow a structured process to secure admission and obtain a D-4 General Student Visa.
 
@@ -113,7 +112,7 @@ International applicants must follow a structured process to secure admission an
 
 ---
 
-## 5. TOPIK & University Pathway
+## TOPIK Progress & Degree Paths via Youngsan University Korean Language Institute
 
 The curriculum integrates target test preparation to help students master the TOPIK (Test of Proficiency in Korean) exam, which is a key requirement for long-term academic and professional success in South Korea.
 
@@ -125,7 +124,7 @@ Students who complete at least two semesters of the language program and achieve
 
 ---
 
-## 6. Dormitory & Living in the City
+## Housing Options Around Youngsan University Korean Language Institute
 
 ### On-Campus Dormitory
 The university prioritizes housing for international students. Shared rooms (double/quad occupancy) include individual beds, study desks, closets, and climate control. Shared facilities include laundromats, gyms, study halls, and communal kitchens. The cost ranges from 800,000 to 1,000,000 KRW per 16-week period.
@@ -138,7 +137,7 @@ To aid language retention and integration, the institute hosts quarterly field t
 
 ---
 
-## 7. FAQ
+## FAQ for Youngsan University Korean Language Institute Learners
 
 ### Is class attendance mandatory?
 Yes. Students must maintain a minimum of 80% attendance. Falling below this threshold leads to course failure and blocks D-4 visa extensions at the immigration office.
@@ -151,6 +150,3 @@ Yes, on-campus dormitory placement is highly prioritized and guaranteed for all 
 
 ### What is the refund policy if my visa is denied?
 If your D-4 visa application is rejected by the Korean Embassy, the university refunds the full tuition. The 50,000 KRW application fee remains non-refundable.
-
-### How do I get to the campus from Gimhae Airport?
-Take the Gimhae Light Rail to Sasang Station, transfer to Metro Line 2 to Dongnae, and then transfer to Metro Line 4 to exit at Youngsan University Station. A taxi takes approximately 50 minutes and costs about 40,000 KRW.

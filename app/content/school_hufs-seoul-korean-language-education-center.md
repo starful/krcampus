@@ -59,8 +59,7 @@
   }
 }
 ---
-
-## School Overview
+## Hankuk University of Foreign Studies: Language Program Snapshot
 Hankuk University of Foreign Studies (HUFS) is a premier global institution for foreign language education. The Korean Language Education Center (KLEC) at the Seoul Campus (107, Imun-ro, Dongdaemun-gu, Seoul, Republic of Korea) hosts up to 1,500 international students. HUFS KLEC is globally renowned for its academic rigor, native speaking-focused pedagogy, and interactive environment.
 
 Unlike programs focused strictly on written grammar, HUFS implements a communication-first framework designed to build speaking confidence immediately. The campus is located in the student-friendly Imun-dong neighborhood, providing a safe and affordable community for learning.
@@ -72,7 +71,7 @@ Unlike programs focused strictly on written grammar, HUFS implements a communica
 *   **TOPIK Prep Classes:** Specialized exam preparation sessions focused on passing the Test of Proficiency in Korean.
 *   **Cultural Experience Programs:** Termly excursions (e.g., historical landmarks, pottery making, and traditional cooking) to enrich cultural understanding.
 
-## Programs & Schedule
+## Courses & Term Calendar at Hankuk University of Foreign Studies
 HUFS KLEC offers three major programs tailored to different timelines and academic goals:
 
 | Program Name | Admission Months | Duration | Weekly Hours | Daily Class Schedule |
@@ -85,7 +84,7 @@ HUFS KLEC offers three major programs tailored to different timelines and academ
 *   **Short-term Program:** A 3-week course focused on conversational skills, ideal for vacation-period study.
 *   **Evening Practical Program:** A 10-week semi-intensive course for professionals or university students with daytime commitments.
 
-## Tuition & Fees
+## What Studying at Hankuk University of Foreign Studies Costs
 Tuition must be paid in full prior to the start of each semester. The table below outlines the core costs for each program pathway:
 
 | Program Type | Application Fee (KRW) | Tuition Fee (KRW) | Textbooks (KRW, Est.) | Total Initial Cost (KRW) |
@@ -96,7 +95,7 @@ Tuition must be paid in full prior to the start of each semester. The table belo
 
 *Note: The application fee is non-refundable. Tuition does not include housing, dining, or mandatory health insurance.*
 
-## Admissions & D-4 Visa Steps
+## D-4 Visa & Admission Steps for Hankuk University of Foreign Studies
 Students planning to enroll for two or more terms (20+ weeks) in the Regular Program must secure a D-4 (General Student) visa. 
 
 **Step-by-Step Enrollment Process:**
@@ -106,18 +105,18 @@ Students planning to enroll for two or more terms (20+ weeks) in the Regular Pro
 4. **Certificate of Admission (CoA):** HUFS will mail your physical CoA and the university business license.
 5. **Visa Application:** Present your CoA, passport, visa application form, and financial proof to your local Korean Embassy or Consulate.
 
-## TOPIK & University Pathway
+## TOPIK Progress & Degree Paths via Hankuk University of Foreign Studies
 HUFS KLEC provides robust pathways for students targeting academic careers in Korea:
 *   **TOPIK Preparation:** Special mock exams and writing workshops before official test dates.
 *   **Direct Undergraduate Admission:** Completing Level 3 or higher satisfies language requirements for undergraduate admission at HUFS, bypassing external exams.
 *   **Alumni Scholarships:** KLEC graduates entering HUFS degrees receive 30% to 50% tuition waivers depending on their grades and TOPIK levels.
 
-## Dormitory & Living in the City
+## Housing Options Around Hankuk University of Foreign Studies
 *   **On-campus Dormitory (GlobeeDorm):** Offers shared double/triple rooms with private desks, high-speed Wi-Fi, and air conditioning. Cost is approximately 1,000,000 to 1,400,000 KRW per 10-week semester.
 *   **Off-campus Living:** Imun-dong is highly student-centric. Private rooms (*goshiwons*) run 350,000 to 500,000 KRW/month with no deposit. Standard studios (*one-rooms*) cost 500,000 to 700,000 KRW/month with a safety deposit (typically 5,000,000 KRW).
 *   **Transit:** The campus is a 5-minute walk from Hankuk University of Foreign Studies Station (Subway Line 1), connecting you to downtown Seoul in 20 minutes.
 
-## FAQ
+## FAQ for Hankuk University of Foreign Studies Learners
 
 ### Can I work a part-time job on a D-4 visa?
 Yes, after completing 6 months of study (2 semesters) with a consistent attendance rate of 90% or higher. You must obtain a Part-time Work Permit from the immigration office.

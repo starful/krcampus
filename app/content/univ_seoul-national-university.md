@@ -53,14 +53,13 @@
   }
 }
 ---
-
 # Ultimate Study Abroad Guide: Seoul National University (SNU)
 
 As an expert study-abroad consultant, I highly recommend Seoul National University (SNU) for ambitious students seeking world-class academics and cutting-edge research. Established in 1946, SNU is the prestigious "S" in the "SKY" university trio, representing the peak of Korean higher education.
 
 ---
 
-## 1. University Overview
+## Seoul National University: Campus Snapshot
 
 Located at **1 Gwanak-ro, Gwanak-gu, Seoul, 08826, Republic of Korea**, SNU is consistently ranked #1 in South Korea and top 40 globally. This elite status reflects its rigorous academic standards and remarkable global research output.
 
@@ -68,7 +67,7 @@ With a competitive **acceptance rate of 15%** for international applicants, SNU 
 
 ---
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Seoul National University
 
 While Korean is the primary language, SNU has expanded its global footprint with a diverse selection of English-taught programs and globally-recognized faculty.
 
@@ -78,7 +77,7 @@ While Korean is the primary language, SNU has expanded its global footprint with
 
 ---
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Seoul National University
 
 SNU comprises an impressive array of colleges, offering comprehensive programs across almost every academic discipline. The university includes the College of Humanities, College of Social Sciences, College of Natural Sciences, College of Engineering, College of Agriculture and Life Sciences, College of Business Administration, College of Liberal Studies, College of Human Ecology, College of Music, College of Fine Arts, College of Medicine, and College of Nursing.
 
@@ -94,7 +93,7 @@ The **College of Liberal Studies** allows students to design their own interdisc
 
 ---
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Seoul National University
 
 Compared to Western universities, SNU offers world-class education at an affordable rate. Tuition varies by major, with humanities being the most affordable.
 
@@ -115,7 +114,7 @@ SNU offers excellent scholarships to attract top international talent:
 
 ---
 
-## 5. Admissions for International Students
+## International Admission Path to Seoul National University
 
 SNU divides international admission into **International Admissions I** (parents are non-Korean) and **International Admissions II** (applicant completed all education abroad).
 
@@ -129,7 +128,7 @@ The application window for the Fall semester opens in March, while the Spring se
 
 ---
 
-## 6. Campus Life & Location
+## Living Near Seoul National University Campus
 
 The 4.3 square-kilometer Gwanak Campus is a vibrant academic city. It features state-of-the-art libraries, high-tech research labs, gymnasiums, and the SNU Museum of Art.
 
@@ -140,7 +139,7 @@ With the SNU Subway Station (Line 2) linked via frequent campus shuttles, studen
 
 ---
 
-## 7. FAQ
+## FAQ for Prospective Seoul National University Students
 
 ### Can I study at SNU if I don't speak fluent Korean?
 Yes. You can apply to fully English-taught graduate programs (like GSIS or GS-MBA). However, studying basic Korean at the SNU Language Education Institute prior to your semester is highly recommended.

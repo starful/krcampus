@@ -51,7 +51,6 @@
   }
 }
 ---
-
 # Kangwon National University (KNU): The Ultimate International Student Guide
 
 Choosing a study-abroad destination requires balancing academics, cost, and quality of life. As one of the prestigious **10 Flagship Korean National Universities (KNU10)**, Kangwon National University (강원대학교) offers a world-class education at a fraction of the cost of Seoul-based schools. 
@@ -60,7 +59,7 @@ Located in the scenic lakeside city of Chuncheon, KNU combines a focused study e
 
 ---
 
-## 1. University Overview
+## Kangwon National University: Campus Snapshot
 
 Established in 1947 as a provincial agricultural college, KNU is a comprehensive research powerhouse representing Gangwon State. 
 
@@ -72,7 +71,7 @@ KNU is highly regarded for its research, regional development, and green initiat
 
 ---
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Kangwon National University
 
 KNU offers specialized pathways and support systems for global talent.
 
@@ -84,7 +83,7 @@ For students needing language preparation, KNU’s KLI offers intensive, year-ro
 
 ---
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Kangwon National University
 
 KNU comprises diverse colleges catering to various professional aspirations, with distinct competitive advantages in life and environmental sciences.
 
@@ -104,7 +103,7 @@ KNU comprises diverse colleges catering to various professional aspirations, wit
 
 ---
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Kangwon National University
 
 As a state-funded national institution, KNU's tuition is roughly half that of private universities in Seoul.
 
@@ -125,7 +124,7 @@ The one-time admission fee is approximately **150,000 KRW**. Average yearly tuit
 
 ---
 
-## 5. Admissions for International Students
+## International Admission Path to Kangwon National University
 
 KNU selects globally minded individuals with strong academic potential.
 
@@ -143,7 +142,7 @@ KNU selects globally minded individuals with strong academic potential.
 
 ---
 
-## 6. Campus Life & Location
+## Living Near Kangwon National University Campus
 
 Situated in Chuncheon, KNU's campus is a scenic sanctuary. Chuncheon is famous for safety, clean air, stunning lakes, and its signature dish: *Dakgalbi* (spicy stir-fried chicken).
 
@@ -155,7 +154,7 @@ International students receive housing priority. Dorms are modern, clean, and eq
 
 ---
 
-## 7. FAQ
+## FAQ for Prospective Kangwon National University Students
 
 ### What is the minimum TOPIK score required for undergraduate admission?
 Most majors require TOPIK Level 3, though students must obtain TOPIK Level 4 or higher to graduate.

@@ -45,20 +45,19 @@
   }
 }
 ---
-
 # Korea National Open University (KNOU): International Student Guide
 
-## 1. University Overview
+## Korea National Open University: Campus Snapshot
 Established in 1972 as Korea’s first national distance-learning institution, Korea National Open University (KNOU) has pioneered lifelong education for five decades. Boasting a massive alumni network exceeding 700,000, KNOU is the country's largest public higher education institution. Headquartered at 86 Daehak-ro, Jongno-gu, Seoul, 03087, the university integrates online learning with a vast network of 13 regional campuses and 31 study centers nationwide. This hybrid structure allows students to access physical library resources, study spaces, and local peer networks throughout South Korea.
 
 Designed for working professionals and self-paced learners, KNOU uses digital media, mobile applications, and TV broadcasting to deliver accredited degree programs. It offers an exceptionally flexible and affordable pathway to earning a respected national university degree.
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Korea National Open University
 KNOU’s primary mission is to serve public education needs in South Korea, meaning the official medium of instruction is Korean. The university does not offer degrees fully taught in English. Consequently, international applicants need intermediate to advanced Korean language skills (TOPIK Level 3 or higher is highly recommended) to understand course content, complete assignments, and pass examinations.
 
 Currently hosting around 320 international students, the university provides administrative support, including online counseling and digital orientation guides, to help non-native speakers navigate academic platforms. For students fluent in Korean or eager to master professional-level academic Korean, KNOU offers an unparalleled environment for complete linguistic and cultural immersion.
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Korea National Open University
 KNOU offers four core faculties designed to merge theoretical frameworks with practical, career-oriented applications.
 
 *   **Humanities:** Focuses on literature, linguistics, and history, with popular majors in Korean and English Language & Literature.
@@ -73,7 +72,7 @@ KNOU offers four core faculties designed to merge theoretical frameworks with pr
 | **Natural Sciences**| Computer Science, Food & Nutrition | Software engineering, dietetics |
 | **Education** | Early Childhood Education | Pedagogical theory, child development |
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Korea National Open University
 As a national institution, KNOU offers unmatched affordability. Tuition is kept at roughly 10% of standard private universities in South Korea, making higher education highly accessible.
 
 Below is a cost comparison between KNOU and typical private South Korean universities:
@@ -89,7 +88,7 @@ Below is a cost comparison between KNOU and typical private South Korean univers
 
 To reward academic performance, KNOU offers merit-based scholarships. International students who maintain high GPAs are eligible for partial or full tuition waivers.
 
-## 5. Admissions for International Students
+## International Admission Path to Korea National Open University
 KNOU maintains an open admissions policy with an acceptance rate of approximately 95%.
 
 ### Key Admission Requirements
@@ -102,12 +101,12 @@ KNOU maintains an open admissions policy with an acceptance rate of approximatel
 *   **Document Submission:** Submit certified academic transcripts and proof of visa status to the admissions office.
 *   **Fee Payment:** Pay the 8,000 KRW registration fee and tuition.
 
-## 6. Campus Life & Location
+## Living Near Korea National Open University Campus
 KNOU’s headquarters is located at 86 Daehak-ro, Jongno-gu, Seoul, 03087, in the cultural heart of the capital. Daehak-ro is famous for its independent theaters, cafes, and youth culture, providing an exciting city experience.
 
 While lectures are online, student life is supported by 13 regional campuses and 31 local study centers across South Korea. These hubs feature computer labs, libraries, and quiet study rooms. International students can join regional study groups and student clubs, which are excellent for networking with local Korean peers, collaborating on assignments, and participating in seasonal campus events. Physical presence is required primarily for weekend examinations or specific blended-learning classes.
 
-## 7. FAQ
+## FAQ for Prospective Korea National Open University Students
 
 ### Can I study at KNOU if I do not speak Korean?
 No. All coursework, online portals, exams, and textbooks are in Korean. Intermediate to advanced Korean proficiency is required.

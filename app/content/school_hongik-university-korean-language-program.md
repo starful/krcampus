@@ -64,12 +64,11 @@
   }
 }
 ---
-
-## 1. School Overview
+## Hongik University Korean Language Program: Language Program Snapshot
 
 Hongik University's International Language Institute (국제언어교육원), located at 94 Wausan-ro, Mapo-gu, Seoul, 04066, South Korea, is a premier institution for Korean language education. Hosting up to 1,200 international students, the institute is set in Hongdae—the epicenter of youth, street art, and indie culture in Seoul. Hongik University blends rigorous academic instruction with rich cultural experiences, making it an ideal choice for students seeking both language fluency and a dynamic, creative social life.
 
-## 2. Programs & Schedule
+## Courses & Term Calendar at Hongik University Korean Language Program
 
 The institute offers specialized tracks tailored to various academic and professional goals, including intensive quarterly semesters and short-term courses.
 
@@ -82,7 +81,7 @@ The institute offers specialized tracks tailored to various academic and profess
 
 The **Regular Intensive Program** operates four 10-week semesters annually, totaling 200 hours per term. It spans Levels 1 to 6, systematically training students in speaking, listening, reading, and writing. The **Short-Term Program** focuses on conversational speed paired with cultural excursions.
 
-## 3. Tuition & Fees
+## What Studying at Hongik University Korean Language Program Costs
 
 Tuition and fees are calculated in South Korean Won (KRW). Living expenses, meals, and medical insurance are not included.
 
@@ -95,7 +94,7 @@ Tuition and fees are calculated in South Korean Won (KRW). Living expenses, meal
 
 *Note: D-4 visa applicants must register and pay for at least two terms (20 weeks) of the Regular Program, bringing the initial tuition payment to KRW 3,300,000 plus the application fee.*
 
-## 4. Admissions & D-4 Visa Steps
+## D-4 Visa & Admission Steps for Hongik University Korean Language Program
 
 To study in the Regular Program for more than 90 days, international students must secure a D-4 (General Student) visa.
 
@@ -105,7 +104,7 @@ To study in the Regular Program for more than 90 days, international students mu
 4. **Certificate of Admission (CoA):** The university mails the physical CoA and business registration certificate.
 5. **Visa Application:** Submit the CoA, passport, academic certificates (apostilled), and a bank statement showing a balance of $10,000+ USD to your local Korean Embassy.
 
-## 5. TOPIK & University Pathway
+## TOPIK Progress & Degree Paths via Hongik University Korean Language Program
 
 Hongik KLI supports students transitioning into Korean higher education through targeted academic services:
 
@@ -113,12 +112,12 @@ Hongik KLI supports students transitioning into Korean higher education through 
 * **Academic Counseling:** Students receive personalized consultation on university application timelines, portfolio creation, and personal statement reviews.
 * **Tuition Waivers:** Graduates of the KLI who advance to Hongik University's undergraduate or graduate schools are eligible for exclusive admission pathways and partial tuition waivers based on their language level.
 
-## 6. Dormitory & Living in the City
+## Housing Options Around Hongik University Korean Language Program
 
 * **On-Campus Dormitory:** Hongik offers modern on-campus housing (including Dormitory 2) with twin-sharing rooms. Every room features air conditioning, personal desks, closets, and private bathrooms. Common facilities include study lounges, fitness centers, and laundry rooms.
 * **Living in Hongdae:** The campus is steps away from Hongik University Station (Line 2, Gyeongui-Jungang, and AREX airport line). This provides direct access to cheap student restaurants, street busking, vintage shopping, and cafes, ensuring a convenient and exciting student life.
 
-## 7. FAQ
+## FAQ for Hongik University Korean Language Program Learners
 
 ### Can I work part-time while studying on a D-4 visa?
 Yes. After residing in Korea for 6 months (1 semester) with an attendance rate above 90%, you can apply for a part-time work permit to work up to 20 hours per week with university approval.

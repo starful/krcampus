@@ -55,20 +55,19 @@
   }
 }
 ---
-
 # Study Abroad Guide: Kyung Hee University (경희대학교)
 
-## 1. University Overview
+## Kyung Hee University: Campus Snapshot
 Kyung Hee University (KHU), established in 1949, is one of South Korea's premier private research institutions. Renowned for academic excellence and global engagement, KHU operates a dual-campus system. The main campus is situated in the capital at 26, Kyungheedae-ro, Dongdaemun-gu, Seoul, 02447. 
 
 Guided by its founding philosophy, "Towards a Global Eminent University, Creating a Civilized World," KHU integrates traditional Eastern values with modern Western sciences. Today, KHU hosts a diverse student body, including approximately 4,800 international students from over 80 countries. With an estimated acceptance rate of 30% to 35% for international applicants, the university is a selective yet accessible gateway for global minds.
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Kyung Hee University
 While Korean is the primary language of instruction, KHU offers a wide range of English-taught programs. Fully English-taught undergraduate tracks are available through the College of International Studies (KIC) and selected pathways in the College of Hotel and Tourism Management and the School of Management. At the graduate level, English-medium options span the natural sciences, engineering, and international studies.
 
 To support integration, KHU runs a dedicated Global Service Center (GSC). The GSC is a comprehensive support hub assisting with visa issuance (D-2), immigration, national health insurance, and academic advising. The GSC also coordinates the Global Buddy Program, pairing international students with local Korean peers to ease their social transition.
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Kyung Hee University
 Kyung Hee University’s academic architecture comprises diverse faculties designed to cultivate global expertise. The main faculties include:
 
 *   **College of Humanities** & **College of Social Sciences**
@@ -87,7 +86,7 @@ Kyung Hee University’s academic architecture comprises diverse faculties desig
 
 The College of Hotel and Tourism Management consistently ranks among the top globally. The College of Korean Medicine is a world leader in integrative health sciences, conducting collaborative research with global health agencies.
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Kyung Hee University
 Kyung Hee University offers competitive tuition rates relative to private universities in Western nations. Fees are calculated per semester and vary by major.
 
 ### Table 2: Estimated Fee Comparison by Department (Annual in KRW)
@@ -103,7 +102,7 @@ Kyung Hee University offers competitive tuition rates relative to private univer
 
 To assist students, KHU provides generous merit scholarships. International freshmen with outstanding application profiles or high TOPIK scores (Level 5 or 6) can receive first-semester tuition waivers ranging from 50% to 100%. Enrolled students can maintain scholarships by meeting basic GPA requirements (usually above 3.0).
 
-## 5. Admissions for International Students
+## International Admission Path to Kyung Hee University
 The international admission process is streamlined and runs independently of the highly competitive Korean national entrance exam.
 
 ### Key Requirements:
@@ -115,12 +114,12 @@ The international admission process is streamlined and runs independently of the
 
 The GSC assists admitted students with the official Certificate of Admission, which is required for obtaining a D-2 student visa.
 
-## 6. Campus Life & Location
+## Living Near Kyung Hee University Campus
 The Seoul campus, in Dongdaemun-gu, is celebrated as one of Asia's most beautiful. It features stunning gothic-style architecture, including the grand Grand Peace Hall (Masterpiece Hall)—a massive cathedral-style auditorium that hosts cultural events, concerts, and graduation ceremonies.
 
 During the spring, the campus is lined with cherry blossoms, earning it the nickname "Kyung Hee Land." Located a short walk from Hoegi Subway Station (Line 1), the campus provides quick access to downtown Seoul. Students enjoy a lively district filled with student-friendly cafes and affordable dining. On-campus dormitories, such as Woo-Jung House, offer modern and secure living spaces.
 
-## 7. FAQ
+## FAQ for Prospective Kyung Hee University Students
 
 ### What is the international acceptance rate at KHU?
 The estimated acceptance rate for international applicants is 30% to 35%. Students with strong academic records and language test scores have high admission prospects.

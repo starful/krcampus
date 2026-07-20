@@ -49,8 +49,7 @@
   }
 }
 ---
-
-## 1. University Overview
+## Korea University of Technology and Education: Campus Snapshot
 
 Korea University of Technology and Education (KOREATECH) is a premier public university established in 1991 by the South Korean Ministry of Employment and Labor. Located in Cheonan, KOREATECH bridges the gap between academic theory and industry practice through its signature **50:50 theory-to-practice educational model**, where students spend half of their curriculum in state-of-the-art laboratory facilities.
 
@@ -58,7 +57,7 @@ The university consistently ranks **#1 in graduate employment rates** among four
 
 ---
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Korea University of Technology and Education
 
 While KOREATECH is a public institution with a Korean-medium focus, it actively supports global talent through key academic pathways:
 
@@ -68,7 +67,7 @@ While KOREATECH is a public institution with a Korean-medium focus, it actively 
 
 ---
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Korea University of Technology and Education
 
 KOREATECH collaborates with industry leaders like Samsung, Hyundai, and LG to ensure its curriculum meets the demands of the Fourth Industrial Revolution.
 
@@ -87,7 +86,7 @@ Students enjoy 24/7 access to heavily subsidized labs equipped with industrial-g
 
 ---
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Korea University of Technology and Education
 
 Backed by the Ministry of Employment and Labor, KOREATECH's tuition is significantly lower than private institutions.
 
@@ -108,7 +107,7 @@ Backed by the Ministry of Employment and Labor, KOREATECH's tuition is significa
 
 ---
 
-## 5. Admissions for International Students
+## International Admission Path to Korea University of Technology and Education
 
 KOREATECH evaluates applicants holistically based on academic records, language skills, and a passion for technology.
 
@@ -123,7 +122,7 @@ KOREATECH evaluates applicants holistically based on academic records, language 
 
 ---
 
-## 6. Campus Life & Location
+## Living Near Korea University of Technology and Education Campus
 
 KOREATECH is located in Cheonan, a dynamic tech hub about 80 kilometers south of Seoul.
 
@@ -137,7 +136,7 @@ The scenic campus in Byeongcheon-myeon is connected to downtown Seoul via expres
 
 ---
 
-## 7. FAQ
+## FAQ for Prospective Korea University of Technology and Education Students
 
 ### Can I apply to KOREATECH without knowing any Korean?
 Yes, for graduate programs where research is conducted in English. Undergraduate students must obtain TOPIK Level 3, which can be achieved via KOREATECH's intensive language programs.

@@ -49,8 +49,7 @@
   }
 }
 ---
-
-## 1. University Overview
+## Inha University: Campus Snapshot
 
 Established in 1954, **Inha University** (인하대학교) is a premier private research institution in Incheon, South Korea. Its name is a portmanteau of "Incheon" and "Hawaii," honoring the Korean-American immigrants who helped found it as a world-class engineering institute. Located at **100 Inha-ro, Michuhol-gu, Incheon**, the campus sits at the center of the nation's key logistics and technology gateway.
 
@@ -58,7 +57,7 @@ Supported by the **Hanjin Group** (owner of **Korean Air**) since 1994, Inha pro
 
 ---
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Inha University
 
 For international students who do not speak fluent Korean, Inha offers several English-taught pathways:
 
@@ -68,7 +67,7 @@ For international students who do not speak fluent Korean, Inha offers several E
 
 ---
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Inha University
 
 Inha University combines traditional STEM disciplines with strong business and humanities faculties.
 
@@ -80,7 +79,7 @@ Inha University combines traditional STEM disciplines with strong business and h
 
 ---
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Inha University
 
 Inha University offers premium education at highly competitive rates compared to Seoul-based universities, supported by an aggressive scholarship framework.
 
@@ -106,7 +105,7 @@ Inha University offers premium education at highly competitive rates compared to
 
 ---
 
-## 5. Admissions for International Students
+## International Admission Path to Inha University
 
 Applying to Inha University involves a streamlined online application process held twice a year.
 
@@ -123,7 +122,7 @@ Applying to Inha University involves a streamlined online application process he
 
 ---
 
-## 6. Campus Life & Location
+## Living Near Inha University Campus
 
 Situated in **Incheon**, South Korea’s third-largest city, Inha University is a major cultural and youth hub. 
 
@@ -133,7 +132,7 @@ Situated in **Incheon**, South Korea’s third-largest city, Inha University is 
 
 ---
 
-## 7. FAQ
+## FAQ for Prospective Inha University Students
 
 ### Can I apply to Inha University without knowing any Korean?
 Yes. You can apply to the School of Global Convergence Studies (SGCS) or other English-track engineering programs. However, learning basic Korean is recommended for daily life.

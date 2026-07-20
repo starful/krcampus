@@ -64,10 +64,9 @@
   }
 }
 ---
-
 # Guide to Chungnam National University Korean Language Center
 
-## 1. School Overview
+## Chungnam National University: Language Program Snapshot
 Chungnam National University (CNU) is a premier flagship national university in South Korea. Located in Daejeon, the nation’s science and technology hub, the CNU Korean Language Center operates inside the modern Language Education Center (W12) building. With an official capacity of 1,000 international students, the center delivers high-quality linguistic instruction combined with rich cultural exposure.
 
 Choosing CNU offers several strategic advantages:
@@ -81,7 +80,7 @@ Choosing CNU offers several strategic advantages:
 
 ---
 
-## 2. Programs & Schedule
+## Courses & Term Calendar at Chungnam National University
 The center provides systematic programs tailored for academic advancement, professional development, or short-term linguistic goals. 
 
 ### Course Offerings & Key Information
@@ -95,7 +94,7 @@ The center provides systematic programs tailored for academic advancement, profe
 
 ---
 
-## 3. Tuition & Fees
+## What Studying at Chungnam National University Costs
 As a national institution, CNU offers affordable tuition rates, making it an ideal choice for budget-conscious students.
 
 ### Comprehensive Fee Breakdown (KRW)
@@ -111,7 +110,7 @@ As a national institution, CNU offers affordable tuition rates, making it an ide
 
 ---
 
-## 4. Admissions & D-4 Visa Steps
+## D-4 Visa & Admission Steps for Chungnam National University
 Students enrolling in the Regular Program for two or more terms must apply for a D-4 (General Student) visa.
 
 ### Step-by-Step Pathway
@@ -123,7 +122,7 @@ Students enrolling in the Regular Program for two or more terms must apply for a
 
 ---
 
-## 5. TOPIK & University Pathway
+## TOPIK Progress & Degree Paths via Chungnam National University
 CNU runs a highly structured TOPIK pathway to help students qualify for degree programs.
 * **TOPIK Special Prep:** The course starting in October focuses on TOPIK II essay writing and listening practice.
 * **Undergraduate Matriculation:** Students who reach TOPIK Level 3 or 4 can transition directly into undergraduate majors at CNU.
@@ -131,7 +130,7 @@ CNU runs a highly structured TOPIK pathway to help students qualify for degree p
 
 ---
 
-## 6. Dormitory & Living in the City
+## Housing Options Around Chungnam National University
 Daejeon offers high living standards at a more accessible price point than Seoul.
 * **On-Campus Dormitory Access:** Language students are eligible to apply for on-campus dormitory housing. Rooms are shared (double occupancy) and include desks, beds, climate control, and campus internet access.
 * **Daejeon Science & Tech Hub:** Located in Yuseong-gu, the campus is vibrant and surrounded by student-friendly infrastructure, hot springs, and parks.
@@ -139,7 +138,7 @@ Daejeon offers high living standards at a more accessible price point than Seoul
 
 ---
 
-## 7. FAQ
+## FAQ for Chungnam National University Learners
 
 ### Can I work part-time while studying at CNU?
 Yes. After 6 months of study on a D-4 visa, you can apply for a legal part-time work permit through the immigration office if your attendance is above 90%.

@@ -51,7 +51,6 @@
   }
 }
 ---
-
 # Sookmyung Women's University: An Expert Study-Abroad Guide
 
 Choosing the right study destination is a pivotal decision. Located in the heart of Seoul, South Korea, **Sookmyung Women's University** is a premier institution dedicated to nurturing global female leaders. Established in 1906 as Korea’s first royal private women’s academy, Sookmyung combines a rich historical legacy with academic innovation.
@@ -60,7 +59,7 @@ This guide covers Sookmyung’s academics, English pathways, admission process, 
 
 ---
 
-## 1. University Overview
+## Sookmyung Women's University: Campus Snapshot
 
 Sookmyung Women's University is a premier institution in Seoul, South Korea, pioneering female education since 1906. As Korea’s first royal private women’s academy, it blends historic prestige with modern academic research.
 
@@ -71,7 +70,7 @@ Sookmyung Women's University is a premier institution in Seoul, South Korea, pio
 
 ---
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Sookmyung Women's University
 
 Sookmyung provides excellent English-taught pathways to facilitate academic transitions for international students.
 
@@ -83,7 +82,7 @@ Through 350+ global partnerships, Sookmyung offers exchange semesters, dual-degr
 
 ---
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Sookmyung Women's University
 
 Sookmyung operates 10 colleges offering a wide spectrum of programs:
 
@@ -102,7 +101,7 @@ Key academic strengths lie in **Business Administration**, **Global Cooperation*
 
 ---
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Sookmyung Women's University
 
 Sookmyung offers competitive tuition rates with a one-time application fee of **150,000 KRW**.
 
@@ -127,7 +126,7 @@ Sookmyung offers competitive tuition rates with a one-time application fee of **
 
 ---
 
-## 5. Admissions for International Students
+## International Admission Path to Sookmyung Women's University
 
 Sookmyung admits international female students for the Spring (March) and Fall (September) semesters.
 
@@ -144,7 +143,7 @@ Sookmyung admits international female students for the Spring (March) and Fall (
 
 ---
 
-## 6. Campus Life & Location
+## Living Near Sookmyung Women's University Campus
 
 Sookmyung’s location in Yongsan-gu, Seoul, provides a safe, vibrant urban environment.
 
@@ -156,7 +155,7 @@ Sookmyung’s location in Yongsan-gu, Seoul, provides a safe, vibrant urban envi
 
 ---
 
-## 7. FAQ
+## FAQ for Prospective Sookmyung Women's University Students
 
 ### Can male international students apply to Sookmyung?
 Sookmyung is women-only for regular degree programs. However, male students from partner universities can enroll as exchange students.

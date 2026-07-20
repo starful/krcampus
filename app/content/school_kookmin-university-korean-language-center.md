@@ -64,14 +64,13 @@
   }
 }
 ---
-
 # Kookmin University Korean Language Center: A Practical Guide for International Students
 
 Choosing where to learn Korean in Seoul is a vital step for your academic and career goals. The **Kookmin University (KMU) Korean Language Center** in Seongbuk-gu is a premier institution with a capacity of 1,000 students. Known for its campus environment, structured support, and unique student pathways, it is a top choice for international learners.
 
 ---
 
-## 1. School Overview
+## Kookmin University Korean Language Center: Language Program Snapshot
 
 *   **Address:** 77 Jeongneung-ro, Seongbuk-gu, Seoul, 02707, Republic of Korea
 *   **Capacity:** 1,000 students per year
@@ -81,7 +80,7 @@ The center is highly regarded for its structured transition pathways to undergra
 
 ---
 
-## 2. Programs & Schedule
+## Courses & Term Calendar at Kookmin University Korean Language Center
 
 The center offers four 10-week terms annually across six proficiency levels, from beginner (Level 1) to advanced (Level 6).
 
@@ -98,7 +97,7 @@ The center offers four 10-week terms annually across six proficiency levels, fro
 
 ---
 
-## 3. Tuition & Fees
+## What Studying at Kookmin University Korean Language Center Costs
 
 Fees must be paid in Korean Won (KRW). To apply for a D-4 visa, applicants must register and pay for a minimum of two semesters (6 months).
 
@@ -116,7 +115,7 @@ Fees must be paid in Korean Won (KRW). To apply for a D-4 visa, applicants must 
 
 ---
 
-## 4. Admissions & D-4 Visa Steps
+## D-4 Visa & Admission Steps for Kookmin University Korean Language Center
 
 International students planning to study for over 90 days must apply for a D-4 (General Student) visa.
 
@@ -131,7 +130,7 @@ International students planning to study for over 90 days must apply for a D-4 (
 
 ---
 
-## 5. TOPIK & University Pathway
+## TOPIK Progress & Degree Paths via Kookmin University Korean Language Center
 
 For students aiming to enter undergraduate or graduate courses in Korea, KMU offers dedicated academic support.
 
@@ -141,7 +140,7 @@ For students aiming to enter undergraduate or graduate courses in Korea, KMU off
 
 ---
 
-## 6. Dormitory & Living in the City
+## Housing Options Around Kookmin University Korean Language Center
 
 Kookmin University guarantees on-campus housing for incoming international language students.
 
@@ -156,7 +155,7 @@ KMU is located in green, peaceful Seongbuk-gu. While quieter than commercial are
 
 ---
 
-## 7. FAQ
+## FAQ for Kookmin University Korean Language Center Learners
 
 ### Can I work part-time while studying on a D-4 visa?
 Yes. You can work part-time (up to 20 hours per week) after completing six months (two semesters) of study. You must have at least 90% attendance and obtain approval from school advisors and immigration.
@@ -171,4 +170,3 @@ It is a university-run program pairing language students with local KMU undergra
 No. Level 1 starts with the Korean alphabet (Hangeul) and basic pronunciation. No prior knowledge of the language is required.
 
 ### How do I obtain my Alien Registration Card (ARC)?
-During orientation, staff will guide you through the group ARC application. You must pay the application fee (around 30,000 KRW) and submit biometric data. Processing takes 4 to 6 weeks.

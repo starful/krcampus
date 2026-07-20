@@ -51,14 +51,13 @@
   }
 }
 ---
-
 # Konkuk University: Ultimate International Student Guide
 
 Located in the heart of Seoul, Konkuk University (KU) is one of South Korea's premier private institutions. Known for its blend of academic rigor, massive green campus, and unmatched location, Konkuk has become a top choice for global talents. Today, the university hosts over 3,200 international students, offering a supportive ecosystem designed to turn global perspectives into academic and professional success.
 
 ---
 
-## 1. University Overview
+## Konkuk University: Campus Snapshot
 
 Established in 1946, Konkuk University has evolved from a school dedicated to rural development into a comprehensive global research hub. Situated at **120 Neungdong-ro, Gwangjin-gu, Seoul**, Konkuk balances urban energy with campus serenity. 
 
@@ -75,7 +74,7 @@ With an international acceptance rate estimated between 35% and 45%, Konkuk offe
 
 ---
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Konkuk University
 
 While the majority of degree programs at Konkuk are taught in Korean, the university has rapidly expanded its English-language offerings. 
 
@@ -85,7 +84,7 @@ While the majority of degree programs at Konkuk are taught in Korean, the univer
 
 ---
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Konkuk University
 
 Konkuk University comprises 10 diverse colleges. While all programs maintain high academic standards, three fields stand out as nationally renowned powerhouses:
 
@@ -107,7 +106,7 @@ Konkuk University comprises 10 diverse colleges. While all programs maintain hig
 
 ---
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Konkuk University
 
 Konkuk University offers a transparent fee structure alongside generous scholarship incentives, particularly for students with strong Korean language proficiency (TOPIK).
 
@@ -134,7 +133,7 @@ For subsequent semesters, international students can receive 20% to 100% tuition
 
 ---
 
-## 5. Admissions for International Students
+## International Admission Path to Konkuk University
 
 Admissions are conducted twice a year for the Spring (March) and Fall (September) semesters.
 
@@ -147,7 +146,7 @@ Admissions are conducted twice a year for the Spring (March) and Fall (September
 
 ---
 
-## 6. Campus Life & Location
+## Living Near Konkuk University Campus
 
 The lifestyle at Konkuk is arguably one of its greatest selling points. 
 
@@ -157,7 +156,7 @@ The lifestyle at Konkuk is arguably one of its greatest selling points.
 
 ---
 
-## 7. FAQ
+## FAQ for Prospective Konkuk University Students
 
 ### Can I apply without knowing any Korean?
 Yes. You can apply to pure English-track programs if you meet the TOEFL or IELTS requirements. Alternatively, you can enroll in the Konkuk Korean Language Institute (KLI) first, and then matriculate into a degree program once you reach TOPIK Level 3.
@@ -172,4 +171,3 @@ While housing is not 100% guaranteed, international freshmen are given high prio
 Yes. Students holding a D-2 student visa can legally work part-time (up to 20–25 hours per week depending on their Korean proficiency level) after obtaining permission from the university's International Office and the immigration authority.
 
 ### How much spending money do I need monthly?
-Excluding tuition, a budget of KRW 800,000 to 1,200,000 per month is usually sufficient to cover housing, food, public transit, and moderate leisure activities in Seoul.

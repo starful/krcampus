@@ -46,14 +46,13 @@
   }
 }
 ---
-
 # Youngsan University (YSU) International Student Guide
 
 Choosing the right study-abroad destination is a pivotal decision. For students seeking high-quality education, practical training, and an exciting lifestyle, **Youngsan University (YSU)** in Busan, South Korea, stands out. With its specialized Haeundae campus, industry-aligned curricula, and financial aid, YSU offers an accessible, career-oriented path for global applicants.
 
 ---
 
-## 1. University Overview
+## Youngsan University: Campus Snapshot
 
 Youngsan University (영산대학교) is a private institution dedicated to cultivating practical professionals. Operating dual campuses, its international hub is the **Haeundae Campus** in Busan (*142 Bansong-ro, Haeundae-gu*), placing students in South Korea's maritime and tourism capital.
 
@@ -61,7 +60,7 @@ With an **acceptance rate of ~80%**, YSU is highly accessible to qualified inter
 
 ---
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Youngsan University
 
 While Korean is the primary language, YSU offers specialized pathways to support international students:
 
@@ -71,7 +70,7 @@ While Korean is the primary language, YSU offers specialized pathways to support
 
 ---
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Youngsan University
 
 YSU organizes its programs across specialized, industry-focused colleges.
 
@@ -89,7 +88,7 @@ YSU organizes its programs across specialized, industry-focused colleges.
 
 ---
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Youngsan University
 
 YSU offers highly competitive tuition rates and generous scholarships for international students.
 
@@ -117,7 +116,7 @@ YSU rewards language preparation with substantial first-semester tuition waivers
 
 ---
 
-## 5. Admissions for International Students
+## International Admission Path to Youngsan University
 
 YSU evaluates applicants holistically based on academic records, language skills, and motivation.
 
@@ -136,7 +135,7 @@ YSU evaluates applicants holistically based on academic records, language skills
 
 ---
 
-## 6. Campus Life & Location
+## Living Near Youngsan University Campus
 
 Studying at YSU's Haeundae Campus offers an excellent balance of education and lifestyle.
 
@@ -146,7 +145,7 @@ Studying at YSU's Haeundae Campus offers an excellent balance of education and l
 
 ---
 
-## 7. FAQ
+## FAQ for Prospective Youngsan University Students
 
 ### What is the acceptance rate for international students at Youngsan University?
 The acceptance rate is approximately 80%. YSU is accessible to international applicants who meet basic academic and visa requirements.

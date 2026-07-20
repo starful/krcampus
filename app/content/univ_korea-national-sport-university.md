@@ -51,17 +51,16 @@
   }
 }
 ---
-
 # Korea National Sport University (KNSU): The Ultimate International Student Guide
 
-## 1. University Overview
+## Korea National Sport University: Campus Snapshot
 Korea National Sport University (KNSU), located at 1239 Yangjae-daero, Songpa-gu, Seoul, 05402, South Korea, is the country's only national sport university. Founded in 1977, KNSU is the premier training ground for South Korean Olympic medalists and sports science pioneers. KNSU alumni have won over 100 Olympic medals, cementing its elite legacy on the global athletic stage.
 
 The university offers highly affordable national university tuition rates, making top-tier education highly accessible to global students. The campus features state-of-the-art sports science research and training facilities that meet international standards. Located in Seoul's vibrant Olympic Park area, KNSU blends competitive athletics with academic rigor. With a selective acceptance rate of 30%, KNSU provides an exclusive learning environment. It currently hosts 110 international students, offering a close-knit, highly focused global sports community.
 
 ---
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Korea National Sport University
 While Korean is the primary language of instruction, KNSU supports international students through multiple academic pathways:
 
 * **English-Friendly Classes:** Selected graduate courses and theoretical lectures use English textbooks, translated materials, and offer English exam options.
@@ -70,7 +69,7 @@ While Korean is the primary language of instruction, KNSU supports international
 
 ---
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Korea National Sport University
 KNSU offers specialized undergraduate majors across eight dedicated departments:
 
 * **Department of Physical Education:** Focuses on scientific training principles to produce elite athletes, coaches, and physical education teachers.
@@ -84,7 +83,7 @@ KNSU offers specialized undergraduate majors across eight dedicated departments:
 
 ---
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Korea National Sport University
 Supported by the South Korean government, KNSU provides world-class educational infrastructure at affordable national tuition rates, much lower than private universities in Seoul.
 
 ### Fee Comparison (Estimated Figures, in KRW)
@@ -103,7 +102,7 @@ KNSU offers several merit-based scholarships to support international students:
 
 ---
 
-## 5. Admissions for International Students
+## International Admission Path to Korea National Sport University
 KNSU’s selection process evaluates academic records, athletic portfolios, and language skills.
 
 ### Admission Timeline (Estimated)
@@ -123,7 +122,7 @@ KNSU’s selection process evaluates academic records, athletic portfolios, and 
 
 ---
 
-## 6. Campus Life & Location
+## Living Near Korea National Sport University Campus
 KNSU is located in Seoul's vibrant Olympic Park area, providing students with direct access to a historical athletic hub. 
 
 Students benefit from state-of-the-art sports science research and training facilities, including an Olympic-sized swimming pool, a professional velodrome, specialized gymnastics halls, and advanced human performance labs.
@@ -132,7 +131,7 @@ Living in Songpa-gu offers an active, metropolitan lifestyle. The Olympic Park S
 
 ---
 
-## 7. FAQ
+## FAQ for Prospective Korea National Sport University Students
 
 ### Is it necessary to be an elite athlete to apply to KNSU?
 No. While KNSU trains elite athletes, departments like Sports Medicine, Sports Industry and Leisure, and Community Sports focus on academic theory and do not require practical fitness trials.

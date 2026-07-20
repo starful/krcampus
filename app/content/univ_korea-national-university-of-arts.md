@@ -47,14 +47,13 @@
   }
 }
 ---
-
 # Korea National University of Arts (K-ARTS): The Ultimate International Student Guide
 
 For artists seeking world-class training in Asia, the **Korea National University of Arts (한국예술종합학교 / K-ARTS)** is South Korea’s premier national arts conservatory. Renowned globally for cultivating exceptional talent in performing, visual, and cinematic arts, this guide provides an essential overview for aspiring international students.
 
 ---
 
-## 1. University Overview
+## Korea National University of Arts: Campus Snapshot
 
 Established in 1992 by the Ministry of Culture, Sports and Tourism, K-ARTS is a specialized professional conservatory focusing on intensive practical training, studio sessions, and masterclasses rather than general education.
 
@@ -66,7 +65,7 @@ K-ARTS operates on two Seoul campuses: the **Seokgwan-dong Campus** (the main cr
 
 ---
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Korea National University of Arts
 
 While Korean is the primary language of instruction, K-ARTS remains highly accessible to global talent:
 
@@ -76,7 +75,7 @@ While Korean is the primary language of instruction, K-ARTS remains highly acces
 
 ---
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Korea National University of Arts
 
 K-ARTS consists of six specialized schools offering intensive, practical curriculums.
 
@@ -93,7 +92,7 @@ K-ARTS consists of six specialized schools offering intensive, practical curricu
 
 ---
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Korea National University of Arts
 
 As a national institution, K-ARTS offers world-class training at highly affordable rates compared to Western conservatories.
 
@@ -116,7 +115,7 @@ For talented students from developing countries, the fully funded **AMA+ Scholar
 
 ---
 
-## 5. Admissions for International Students
+## International Admission Path to Korea National University of Arts
 
 K-ARTS admissions are highly competitive, prioritizing talent over grades. Portfolios and auditions carry the most weight.
 
@@ -127,7 +126,7 @@ K-ARTS admissions are highly competitive, prioritizing talent over grades. Portf
 
 ---
 
-## 6. Campus Life & Location
+## Living Near Korea National University of Arts Campus
 
 K-ARTS operates across two culturally distinct Seoul campuses:
 
@@ -136,7 +135,7 @@ K-ARTS operates across two culturally distinct Seoul campuses:
 
 ---
 
-## 7. FAQ
+## FAQ for Prospective Korea National University of Arts Students
 
 ### Can I apply if I do not speak any Korean?
 Yes. However, most programs require TOPIK Level 3 or 4 before starting formal classes. AMA+ scholars receive intensive language training prior to their degree coursework.

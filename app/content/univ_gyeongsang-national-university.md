@@ -44,14 +44,13 @@ tuition:
   admission_fee: 0
   yearly_tuition: 4100000
 ---
-
 # Gyeongsang National University (GNU) International Student Guide
 
 Choosing the right university is a pivotal decision. Located in historic Jinju, Gyeongsang National University (GNU) is a premier South Korean destination offering world-class academics, highly affordable tuition, and a welcoming community for global scholars.
 
 ---
 
-## 1. University Overview
+## Gyeongsang National University: Campus Snapshot
 
 Gyeongsang National University (GNU) is one of South Korea's **10 Flagship Korean National Universities (KNU)**. These elite institutions are government-funded to provide accessible, high-quality education while driving regional innovation and global research.
 
@@ -59,7 +58,7 @@ Following a landmark 2021 merger with Gyeongnam National University of Science a
 
 ---
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Gyeongsang National University
 
 While Korean is the primary language, GNU has expanded its global options to accommodate international students.
 
@@ -74,7 +73,7 @@ The GNU Language Education Center offers intensive Korean programs running four 
 
 ---
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Gyeongsang National University
 
 GNU’s academic architecture features 12 distinct colleges:
 
@@ -99,7 +98,7 @@ GNU’s academic architecture features 12 distinct colleges:
 
 ---
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Gyeongsang National University
 
 As a subsidized national university, GNU offers premium education at a fraction of private university costs. Notably, GNU has **eliminated its admission fee (0 KRW)**. The average annual tuition across all majors is approximately **4,100,000 KRW**.
 
@@ -119,7 +118,7 @@ As a subsidized national university, GNU offers premium education at a fraction 
 
 ---
 
-## 5. Admissions for International Students
+## International Admission Path to Gyeongsang National University
 
 Applying to GNU involves a holistic evaluation of academic credentials, language proficiency, and a statement of purpose.
 
@@ -137,7 +136,7 @@ Applying to GNU involves a holistic evaluation of academic credentials, language
 
 ---
 
-## 6. Campus Life & Location
+## Living Near Gyeongsang National University Campus
 
 ### The Historic City of Jinju
 Located in Gyeongsangnam-do, Jinju is famous for its Namgang Yudeung (Lantern) Festival and Jinjuseong Fortress. It offers authentic Korean culture without the high costs of Seoul.
@@ -150,7 +149,7 @@ The Office of International & External Cooperation runs buddy programs, student 
 
 ---
 
-## 7. FAQ
+## FAQ for Prospective Gyeongsang National University Students
 
 ### What is the acceptance rate for international students at GNU?
 The international acceptance rate is around **65%**. Applicants meeting basic language and academic documentation requirements have a very strong chance of admission.

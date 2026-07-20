@@ -64,12 +64,11 @@
   }
 }
 ---
-
-## 1. School Overview
+## King Sejong Institute Center Seoul: Language Program Snapshot
 
 King Sejong Institute Center Seoul (세종학당 서울) is a premier public Korean language institution managed under the Ministry of Culture, Sports and Tourism. Located on the 11th Floor of the Metro Building in Jung-gu, the center accommodates up to 300 international students. It offers high-quality instruction from certified native-speaking teachers at affordable rates. The central location provides easy access to Seoul's cultural and commercial landmarks, ensuring an immersive learning experience.
 
-## 2. Programs & Schedule
+## Courses & Term Calendar at King Sejong Institute Center Seoul
 
 The institute offers specialized tracks ranging from foundation courses to professional and preparation modules. Courses are structured to fit various academic and career goals, with schedules designed to maximize class time and practical communication.
 
@@ -85,7 +84,7 @@ The institute offers specialized tracks ranging from foundation courses to profe
 *   **Business Korean:** Tailored for professionals and job seekers, focusing on honorifics, corporate correspondence, and workplace communication.
 *   **TOPIK Preparation:** Intensive training targeting test strategies, writing correction, and past exam analysis to maximize test scores.
 
-## 3. Tuition & Fees
+## What Studying at King Sejong Institute Center Seoul Costs
 
 Due to government support, tuition at the King Sejong Institute Center Seoul remains highly competitive. The following table details the cost structure for each program.
 
@@ -98,7 +97,7 @@ Due to government support, tuition at the King Sejong Institute Center Seoul rem
 
 *Note: Fees are subject to minor adjustments per term. Textbooks are purchased separately upon level placement. Registration fees are non-refundable.*
 
-## 4. Admissions & D-4 Visa Steps
+## D-4 Visa & Admission Steps for King Sejong Institute Center Seoul
 
 Prospective students must follow a structured process to register and secure visas.
 
@@ -110,13 +109,13 @@ Prospective students must follow a structured process to register and secure vis
     *   *Short-term (Business/TOPIK):* Eligible for K-ETA or C-3-1 (Short-term) visa options.
     *   *Long-term (Beginner/Intermediate):* Eligible for a D-4-1 (General Student) visa. The school issues the Standard Admission Letter needed for the embassy application after tuition confirmation.
 
-## 5. TOPIK & University Pathway
+## TOPIK Progress & Degree Paths via King Sejong Institute Center Seoul
 
 Studying at this center provides an excellent academic bridge to Korean higher education.
 *   **Official Recognition:** Certificates from the King Sejong Institute Foundation are recognized by Korean universities and the Ministry of Justice for visa evaluation.
 *   **Academic Progression:** The curriculum aligns with national standards. The TOPIK preparation course specifically focuses on writing (Questions 51–54) and high-level listening, easing transition into university programs requiring TOPIK Level 3 or 4.
 
-## 6. Dormitory & Living in the City
+## Housing Options Around King Sejong Institute Center Seoul
 
 As the center is situated in an office complex in Jung-gu, it does not offer on-campus dormitories. Students must arrange private accommodations.
 
@@ -126,7 +125,7 @@ As the center is situated in an office complex in Jung-gu, it does not offer on-
     *   *One-rooms (Studios):* Standard apartments requiring high key money deposits (5,000,000+ KRW) and monthly rent of 600,000–900,000 KRW.
 *   **Area Living Costs:** Jung-gu (near Myeongdong) offers excellent transit links (Euljiro 1-ga Station). Budget around 10,000–15,000 KRW per meal and 70,000 KRW monthly for transportation.
 
-## 7. FAQ
+## FAQ for King Sejong Institute Center Seoul Learners
 
 ### Does the institute provide on-campus accommodation?
 No, the Center does not operate student dormitories. Students must secure private off-campus housing like Goshiwons, share houses, or studio rentals in Seoul.

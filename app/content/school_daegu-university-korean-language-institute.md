@@ -64,10 +64,9 @@
   }
 }
 ---
-
 # Guide: Daegu University Korean Language Institute
 
-## 1. School Overview
+## Daegu University Korean Language Institute: Language Program Snapshot
 Daegu University’s Korean Language Institute (KLI) provides high-quality language training for international students on its scenic green campus. With a total capacity of 500 students, the institute offers a supportive learning environment away from the high costs of the Seoul metropolitan area.
 
 **Key Program Features:**
@@ -81,7 +80,7 @@ Daegu University’s Korean Language Institute (KLI) provides high-quality langu
 
 ---
 
-## 2. Programs & Schedule
+## Courses & Term Calendar at Daegu University Korean Language Institute
 The KLI offers a systematic curriculum across Levels 1 to 6. The academic year is divided into four 10-week semesters. Each semester consists of 200 hours of study (20 hours per week, Monday through Friday, 4 hours per day).
 
 ### Table 1: Program Academic Calendar
@@ -94,7 +93,7 @@ The KLI offers a systematic curriculum across Levels 1 to 6. The academic year i
 
 ---
 
-## 3. Tuition & Fees
+## What Studying at Daegu University Korean Language Institute Costs
 The tuition at Daegu University is exceptionally affordable compared to metropolitan institutes.
 
 ### Table 2: Detailed Cost Structure
@@ -110,7 +109,7 @@ The tuition at Daegu University is exceptionally affordable compared to metropol
 
 ---
 
-## 4. Admissions & D-4 Visa Steps
+## D-4 Visa & Admission Steps for Daegu University Korean Language Institute
 International applicants studying for more than 90 days must apply for a D-4 (General Student) visa.
 
 ### Step-by-Step Process
@@ -129,7 +128,7 @@ International applicants studying for more than 90 days must apply for a D-4 (Ge
 
 ---
 
-## 5. TOPIK & University Pathway
+## TOPIK Progress & Degree Paths via Daegu University Korean Language Institute
 The KLI prepares students for academic transition into undergraduate or graduate degrees.
 * **TOPIK Training:** Intensive mock tests and writing prep classes are held before exams.
 * **Admission Waiver:** Completion of Level 3 at KLI satisfies language requirements for undergraduate admission.
@@ -139,7 +138,7 @@ The KLI prepares students for academic transition into undergraduate or graduate
 
 ---
 
-## 6. Dormitory & Living in the City
+## Housing Options Around Daegu University Korean Language Institute
 The main campus is in Gyeongsan, providing a lower cost of living than Seoul.
 
 * **Guaranteed Housing:** All incoming language students are guaranteed on-campus housing. Dormitories feature double rooms with desks, beds, heating, and internet.
@@ -149,7 +148,7 @@ The main campus is in Gyeongsan, providing a lower cost of living than Seoul.
 
 ---
 
-## 7. FAQ
+## FAQ for Daegu University Korean Language Institute Learners
 
 ### Can I work part-time on a D-4 visa?
 Yes, after 6 months of study, provided your attendance is above 90%. You must obtain a Part-time Work Permit from the immigration office.

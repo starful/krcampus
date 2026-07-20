@@ -64,8 +64,7 @@
   }
 }
 ---
-
-## 1. School Overview
+## Kangnam University Korean Language Center: Language Program Snapshot
 
 Kangnam University Korean Language Center, located in Yongin-si, Gyeonggi-do, is a specialized training institution accommodating up to 300 international students. The university is widely recognized for its supportive, inclusive campus culture and excellent student care services. 
 
@@ -73,7 +72,7 @@ Situated just south of Seoul, the campus provides an ideal balance of a focused,
 
 ---
 
-## 2. Programs & Schedule
+## Courses & Term Calendar at Kangnam University Korean Language Center
 
 The center runs four 10-week semesters annually. Classes build practical communication skills over 200 hours of instruction per term, held Monday through Friday (4 hours daily). The curriculum features six levels, ranging from Beginner (Level 1) to Advanced (Level 6).
 
@@ -88,7 +87,7 @@ The center runs four 10-week semesters annually. Classes build practical communi
 
 ---
 
-## 3. Tuition & Fees
+## What Studying at Kangnam University Korean Language Center Costs
 
 The tuition fee is exceptionally competitive compared to language institutes in downtown Seoul, making it an excellent cost-effective option for long-term study.
 
@@ -105,7 +104,7 @@ The tuition fee is exceptionally competitive compared to language institutes in 
 
 ---
 
-## 4. Admissions & D-4 Visa Steps
+## D-4 Visa & Admission Steps for Kangnam University Korean Language Center
 
 To study at the center for more than 90 days, international applicants must obtain a D-4 (General Student) visa.
 
@@ -117,7 +116,7 @@ To study at the center for more than 90 days, international applicants must obta
 
 ---
 
-## 5. TOPIK & University Pathway
+## TOPIK Progress & Degree Paths via Kangnam University Korean Language Center
 
 Kangnam University actively supports academic progression. The Language Center integrates TOPIK (Test of Proficiency in Korean) preparation courses directly into its regular curriculum to help students qualify for degree programs. 
 
@@ -125,7 +124,7 @@ International students who complete Level 3 or higher are eligible for direct ad
 
 ---
 
-## 6. Dormitory & Living in the City
+## Housing Options Around Kangnam University Korean Language Center
 
 On-campus dormitory housing is prioritized for international language students. Rooms feature standard amenities including Wi-Fi, laundry facilities, study desks, and shared fitness spaces.
 
@@ -136,7 +135,7 @@ Located at **111, Gushingu-ro, Giheung-gu, Yongin-si, Gyeonggi-do, Republic of K
 
 ---
 
-## 7. FAQ
+## FAQ for Kangnam University Korean Language Center Learners
 
 ### Can I work part-time while studying on a D-4 visa?
 Yes. After 6 months (180 days) on a D-4 visa, you can work up to 20 hours per week. You must have at least 90% attendance, a school recommendation, and a basic level of TOPIK proficiency to receive immigration clearance.

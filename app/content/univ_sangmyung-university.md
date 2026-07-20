@@ -48,24 +48,23 @@
   }
 }
 ---
-
 # Sangmyung University: International Student Guide
 
-## 1. University Overview
+## Sangmyung University: Campus Snapshot
 Established in 1937, Sangmyung University (SMU) is a prestigious private institution located at 20 Hongjimun 2-gil, Jongno-gu, Seoul, South Korea. Situated in a historic, scenic, and peaceful district, the campus offers an inspiring learning environment that uniquely blends natural beauty with modern Seoul city convenience.
 
 With an estimated acceptance rate of 45% and a global community of over 1,150 international students, Sangmyung provides an accessible, welcoming academic environment. SMU is internationally recognized for its top-tier Art, Design, and Performing Arts programs, alongside an industry-coupled curriculum that infuses Artificial Intelligence (AI) and software systems across all traditional academic faculties.
 
 ---
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Sangmyung University
 While Korean is the primary medium of instruction, Sangmyung University has actively expanded its English-friendly tracks. Select programs within Global Business, Software Engineering, and Humanities offer English-friendly lectures, blended coursework, and bilingual academic materials to assist international students.
 
 To aid with social and academic integration, the Sangmyung Korean Language Education Center provides intensive, multi-level language programs. The university also operates robust support initiatives, including the "Global Buddy" mentoring program, dedicated visa services, and specialized career development workshops managed by the Office of International Affairs. In addition, the university's Global Lounge serves as a central hub where international and domestic students can interact and practice language skills daily.
 
 ---
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Sangmyung University
 Sangmyung University's academic structure comprises seven specialized colleges designed to foster cross-disciplinary innovation:
 
 *   **College of Humanities and Social Sciences:** Focused on global cultures, media, and sociological trends.
@@ -86,7 +85,7 @@ Sangmyung University's academic structure comprises seven specialized colleges d
 
 ---
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Sangmyung University
 Sangmyung offers highly competitive tuition rates compared to other major private universities in Seoul. The admission fee is 180,000 KRW, with an average yearly tuition of approximately 8,200,000 KRW.
 
 ### Table 2: Estimated Annual Tuition by Field (KRW)
@@ -105,7 +104,7 @@ Sangmyung offers highly competitive tuition rates compared to other major privat
 
 ---
 
-## 5. Admissions for International Students
+## International Admission Path to Sangmyung University
 International admissions run twice a year for the Spring (March) and Fall (September) terms. The university evaluates academic background, language skills, and creative potential.
 
 ### Basic Admission Criteria
@@ -118,14 +117,14 @@ International admissions run twice a year for the Spring (March) and Fall (Septe
 
 ---
 
-## 6. Campus Life & Location
+## Living Near Sangmyung University Campus
 The Seoul campus is uniquely located in Jongno-gu, the historical and cultural center of South Korea. Set against Bukhansan Mountain, the campus is famous for its scenic, steep pathways, modern architecture, and beautiful views overlooking central Seoul.
 
 International students enjoy access to comfortable on-campus dormitories, student lounges, and state-of-the-art dining and athletic facilities. Beyond the gates, students are minutes away from historic attractions like Gyeongbokgung Palace, Bukchon Hanok Village, and trendy arts neighborhoods, making SMU an ideal hub for exploring both ancient Korean heritage and modern youth culture.
 
 ---
 
-## 7. FAQ
+## FAQ for Prospective Sangmyung University Students
 
 ### Is Sangmyung University fully English-friendly?
 While most core courses are taught in Korean, SMU offers select English-taught classes in Global Business and Computer Science. Robust administrative support in English is provided by the Office of International Affairs.

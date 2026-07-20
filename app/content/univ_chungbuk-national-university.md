@@ -45,14 +45,13 @@ tuition:
   admission_fee: 0
   yearly_tuition: 4200000
 ---
-
 # International Student Guide: Chungbuk National University (CBNU)
 
 Chungbuk National University (충북대학교), located in Cheongju, South Korea, is one of the country’s ten prestigious Flagship National Universities. Known for world-class education and research, CBNU offers an inclusive environment for global talent. This guide covers everything international students need to know to study at CBNU.
 
 ---
 
-## 1. University Overview
+## Chungbuk National University: Campus Snapshot
 
 Founded in 1951, CBNU is a leading research-centric national university located in Cheongju, the capital of Chungcheongbuk-do, just 1.5 hours south of Seoul.
 
@@ -63,7 +62,7 @@ Founded in 1951, CBNU is a leading research-centric national university located 
 
 ---
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Chungbuk National University
 
 While undergraduate programs mostly use Korean, CBNU offers English-medium courses and intensive language support.
 
@@ -75,7 +74,7 @@ CBNU offers English-taught tracks in Engineering, Biotechnology, and Natural Sci
 
 ---
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Chungbuk National University
 
 CBNU features 13 diverse colleges offering comprehensive undergraduate and graduate programs.
 
@@ -101,7 +100,7 @@ CBNU features 13 diverse colleges offering comprehensive undergraduate and gradu
 
 ---
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Chungbuk National University
 
 As a public national university, CBNU offers highly subsidized tuition. The admission fee for international students is **0 KRW**.
 
@@ -129,7 +128,7 @@ CBNU offers generous scholarships for international talent:
 
 ---
 
-## 5. Admissions for International Students
+## International Admission Path to Chungbuk National University
 
 CBNU admits international applicants twice a year for the Spring and Fall semesters.
 
@@ -151,7 +150,7 @@ CBNU admits international applicants twice a year for the Spring and Fall semest
 
 ---
 
-## 6. Campus Life & Location
+## Living Near Chungbuk National University Campus
 
 ### Cheongju: The Ideal Student City
 Cheongju blends rich historical heritage with advanced industries. It offers a low cost of living and easy access to Seoul via the KTX high-speed rail at nearby Osong Station.
@@ -166,7 +165,7 @@ The OIS Buddy Program pairs international students with local mentors to assist 
 
 ---
 
-## 7. FAQ
+## FAQ for Prospective Chungbuk National University Students
 
 ### Q1: Can I apply to CBNU if I do not speak Korean?
 Yes. Graduate applicants can join English-taught research tracks. Undergraduates with no Korean background should first enroll in the 1-year intensive Korean Language Program at the CBNU Language Center.

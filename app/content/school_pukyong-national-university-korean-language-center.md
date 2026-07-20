@@ -69,17 +69,13 @@
   "seo_description": "Study Korean at PKNU in Busan. Check out the 2026 tuition, application schedules, visa requirements, and student dormitory details."
 }
 ---
-
-
-
-
-## 1. School Overview
+## Pukyong National University: Language Program Snapshot
 
 The Korean Language Center (KLC) at Pukyong National University (PKNU) is a state-run language training institution located at **45 Yongso-ro, Nam-gu, Busan, 48513, Republic of Korea**. Situated on a flat, accessible campus near Gwangalli Beach and the Kyungsung University district, PKNU hosts up to **800 students**. The center provides guaranteed housing, buddy tutoring programs, and comprehensive TOPIK support.
 
 ---
 
-## 2. Programs & Schedule
+## Courses & Term Calendar at Pukyong National University
 
 PKNU offers structured Regular, Short-term, and Test Preparation courses.
 
@@ -98,7 +94,7 @@ PKNU offers structured Regular, Short-term, and Test Preparation courses.
 
 ---
 
-## 3. Tuition & Fees
+## What Studying at Pukyong National University Costs
 
 PKNU offers competitive tuition rates. Textbook costs (~50,000 KRW) and health insurance (~60,000–80,000 KRW per semester) are separate.
 
@@ -118,7 +114,7 @@ Students with top GPAs and 100% attendance receive a **10% to 30% tuition waiver
 
 ---
 
-## 4. Admissions & D-4 Visa Steps
+## D-4 Visa & Admission Steps for Pukyong National University
 
 International students studying for more than 90 days must apply for a **D-4-1 (General Student) Visa**.
 
@@ -139,7 +135,7 @@ International students studying for more than 90 days must apply for a **D-4-1 (
 
 ---
 
-## 5. TOPIK & University Pathway
+## TOPIK Progress & Degree Paths via Pukyong National University
 
 PKNU offers pathways for students transitioning from language training to degree programs:
 
@@ -149,7 +145,7 @@ PKNU offers pathways for students transitioning from language training to degree
 
 ---
 
-## 6. Dormitory & Living in the City
+## Housing Options Around Pukyong National University
 
 ### Guaranteed On-Campus Housing
 PKNU guarantees dormitory placement for newly registered language students during their first two terms. 
@@ -162,7 +158,7 @@ PKNU features a flat campus in student-centric Nam-gu, surrounded by affordable 
 
 ---
 
-## 7. FAQ
+## FAQ for Pukyong National University Learners
 
 ### Can I choose my class shift (Morning or Afternoon)?
 Assignments are based on placement test scores. Levels 1-2 often run in the afternoon, while advanced levels run in the morning. Shift requests are reviewed on a case-by-case basis.

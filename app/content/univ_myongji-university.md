@@ -50,8 +50,7 @@
   }
 }
 ---
-
-## 1. University Overview
+## Myongji University: Campus Snapshot
 
 Myongji University (명지대학교), founded in 1948, is a prominent private university in South Korea known for its global outreach, academic excellence, and holistic student development. Guided by its values of love, truth, and service, Myongji hosts a diverse international community of roughly 2,800 international students.
 
@@ -59,7 +58,7 @@ With an estimated acceptance rate of 65%, the university offers an accessible ye
 
 ---
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Myongji University
 
 Myongji University actively expands its global footprint through international study programs. Although Korean is the primary language of instruction, the university offers English-taught courses, particularly within the College of Business Administration and the College of ICT Convergence.
 
@@ -67,7 +66,7 @@ For students needing language preparation, the Myongji Korean Language Education
 
 ---
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Myongji University
 
 The academic structure of Myongji University is strategically split across its dual campuses to optimize resource allocation, research output, and state-of-the-art facilities.
 
@@ -80,7 +79,7 @@ Key academic strengths include the College of Architecture, which was the first 
 
 ---
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Myongji University
 
 Myongji University provides premium education at a very competitive tuition rate. Fees vary by major, with laboratory- and studio-based courses (such as Engineering and Arts) having higher costs than humanities courses.
 
@@ -100,7 +99,7 @@ To support international students, Myongji offers various scholarship opportunit
 
 ---
 
-## 5. Admissions for International Students
+## International Admission Path to Myongji University
 
 Myongji University runs two main admission cycles per year: the Spring Semester (commencing in March, with applications open from September to November) and the Fall Semester (commencing in September, with applications open from March to May).
 
@@ -111,7 +110,7 @@ International applicants must meet the following general requirements:
 
 ---
 
-## 6. Campus Life & Location
+## Living Near Myongji University Campus
 
 Myongji’s dual campuses offer two distinct, enriching student lifestyles:
 * **Seoul Campus (Seodaemun-gu):** Positioned in the dynamic heart of Seoul, this campus is close to popular student hubs like Sinchon and Hongdae. Students benefit from an energetic urban environment, countless cultural experiences, and easy access to Seoul's public transportation network.
@@ -121,7 +120,7 @@ Both campuses feature modern, secure on-campus dormitories. The university also 
 
 ---
 
-## 7. FAQ
+## FAQ for Prospective Myongji University Students
 
 ### What is the estimated acceptance rate for international students?
 The acceptance rate is estimated at 65%. While admissions are highly accessible, applicants must meet academic and language proficiency requirements to secure their place.

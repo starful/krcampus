@@ -58,15 +58,13 @@
   "seo_description": "Explore Jeonbuk National University (JBNU) 2026 admission guide, tuition fees, scholarships, and requirements for international students on KR Campus."
 }
 ---
-
-
 # Jeonbuk National University (JBNU): Complete International Student Guide
 
 Jeonbuk National University (전북대학교), located in South Korea's historic center, is one of the country's ten Flagship Korean National Universities. Known for top-tier research, a green campus, and low tuition, JBNU is an ideal gateway for global minds seeking a world-class education without Seoul's high costs.
 
 ---
 
-## 1. University Overview
+## Jeonbuk National University: Campus Snapshot
 
 Founded in 1947, Jeonbuk National University (JBNU) is the intellectual hub of the Jeollabuk-do province. Funded substantially by the government, JBNU maintains cutting-edge research facilities and highly affordable programs.
 
@@ -76,7 +74,7 @@ Located in Jeonju, a UNESCO Creative City of Gastronomy and home to the famous H
 
 ---
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Jeonbuk National University
 
 While Korean is the primary language of instruction, JBNU offers expanding global tracks.
 
@@ -93,7 +91,7 @@ For students needing Korean proficiency, the KLI offers intensive preparation:
 
 ---
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Jeonbuk National University
 
 JBNU features 14 colleges with academic strengths aligned with national future-growth industries:
 *   Humanities, Social Sciences, Commerce, Engineering, Agriculture & Life Sciences, Education, Natural Sciences, Human Ecology, Veterinary Medicine, Nursing, Medicine, Environmental & Bioresource Sciences, Arts, and Liberal Arts.
@@ -108,7 +106,7 @@ JBNU features 14 colleges with academic strengths aligned with national future-g
 
 ---
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Jeonbuk National University
 
 JBNU offers competitive tuition rates roughly 50% lower than private universities in Seoul. JBNU has also eliminated the undergraduate admission fee for all enrolled students.
 
@@ -129,7 +127,7 @@ JBNU offers generous scholarships to offset tuition:
 
 ---
 
-## 5. Admissions for International Students
+## International Admission Path to Jeonbuk National University
 
 JBNU has an estimated international student acceptance rate of 45-55%, depending on the major and language readiness.
 
@@ -146,7 +144,7 @@ JBNU has an estimated international student acceptance rate of 45-55%, depending
 
 ---
 
-## 6. Campus Life & Location
+## Living Near Jeonbuk National University Campus
 
 ### The Jeonju Experience
 Jeonju is Korea’s cultural capital, home to the famous Hanok Village and the birthplace of *Bibimbap*. The cost of living is 30-40% lower than Seoul, allowing students to maintain a high quality of life affordably.
@@ -158,7 +156,7 @@ Jeonju is Korea’s cultural capital, home to the famous Hanok Village and the b
 
 ---
 
-## 7. FAQ
+## FAQ for Prospective Jeonbuk National University Students
 
 ### Is it possible to study at JBNU if I do not speak any Korean?
 Yes. You can enroll in English-taught programs at the graduate level or select undergraduate engineering/business tracks. Alternatively, you can study at the KLI to achieve TOPIK Level 3 before starting your degree.

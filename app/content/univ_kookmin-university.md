@@ -51,20 +51,19 @@
   }
 }
 ---
-
-## 1. University Overview
+## Kookmin University: Campus Snapshot
 
 Established in 1946 by cabinet members of the Provisional Government, Kookmin University (KMU) is a prestigious private institution located in Seoul, South Korea. As the nation's first private university founded after liberation, KMU carries a legacy of nurturing leaders who embody pragmatism, nationalism, and global citizenship. Today, the university hosts a vibrant international community of over 2,700 international students from more than 60 countries, maintaining an estimated selective acceptance rate of 45%. 
 
 KMU is highly regarded for its industry-aligned education model, state-of-the-art research hubs, and a highly active Korean Language Center (KLC). Bordered by the scenic Bukhansan National Park, the campus offers a serene environment for academic focus while remaining highly connected to the pulse of downtown Seoul.
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Kookmin University
 
 To accommodate global applicants, KMU has expanded its English-medium programs and specialized international tracks. The flagship undergraduate offering is the Kookmin International Business School (KIBS), which offers a fully English-taught Bachelor of Business Administration (BBA) degree. This program equips students with global financial, managerial, and analytical tools.
 
 At the graduate level, KMU offers several English-language tracks, primarily within the College of Creative Engineering and the College of Software. For students seeking dual-language pathways, KMU's Korean Language Center (KLC) provides intensive language training that transitions students smoothly into Korean-taught major courses. The university also maintains active dual-degree and exchange partnerships with over 400 global universities.
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Kookmin University
 
 KMU comprises 10 diverse colleges offering world-class training. Two fields stand out globally:
 1. **Automotive Engineering:** Closely allied with Hyundai and Kia, the College of Creative Engineering is a premier incubator for future mobility, autonomous systems, and smart vehicle technology.
@@ -80,7 +79,7 @@ KMU comprises 10 diverse colleges offering world-class training. Two fields stan
 
 Other key faculties include the College of Social Sciences, College of Law, College of Science and Technology, College of Physical Education, and College of Art.
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Kookmin University
 
 Kookmin University offers competitive tuition rates and a generous scholarship scheme for international students to support their academic journeys.
 
@@ -99,7 +98,7 @@ Kookmin University offers competitive tuition rates and a generous scholarship s
 *   **Academic Excellence:** Offers 30% to 100% tuition waivers from the second semester onward for students maintaining a GPA above 3.0.
 *   **KLC Graduate Benefit:** Students transitioning from KMU's Korean Language Center program receive enrollment fee waivers and priority undergraduate admission.
 
-## 5. Admissions for International Students
+## International Admission Path to Kookmin University
 
 KMU evaluates applicants holistically based on academic records, language skills, and portfolios. The university holds two major intake periods: the Spring semester (applications open in September) and the Fall semester (applications open in March).
 
@@ -109,13 +108,13 @@ KMU evaluates applicants holistically based on academic records, language skills
 3. **Financial Proof:** Certificate of bank balance showing at least USD 16,000 (standard D-2 visa requirement).
 4. **Portfolio:** Required for applicants to the College of Design and College of Art.
 
-## 6. Campus Life & Location
+## Living Near Kookmin University Campus
 
 Located at 77 Jeongneung-ro, Seongbuk-gu, Seoul, 02707, South Korea, KMU is unique for its location bordering Bukhansan National Park. Students enjoy clean air, hiking trails, and nature alongside modern campus facilities like gymnasiums, study lounges, and global food courts.
 
 Despite its natural setting, the campus is highly connected to downtown Seoul. Regular buses link the university directly to subway lines 3 and 4, putting historic districts like Hyehwa, Dongdaemun, and Insadong within 20 minutes. Campus life is lively, featuring international student clubs, Korean cultural exchange programs, and the vibrant "Daedongje" Spring Festival. On-campus dormitories provide comfortable, affordable housing with prioritized slots for first-semester international students.
 
-## 7. FAQ
+## FAQ for Prospective Kookmin University Students
 
 ### What is the estimated cost of living for a KMU student?
 Students typically spend 800,000 to 1,200,000 KRW per month. This covers on-campus dormitory housing (approx. 350,000 KRW/month), meals, transportation, and personal expenses.

@@ -64,10 +64,9 @@
   }
 }
 ---
-
 # Guide to Dankook University Korean Language Center
 
-## 1. School Overview
+## Dankook University Korean Language Center: Language Program Snapshot
 Located at 152, Jukjeon-ro, Suji-gu, Yongin-si, Gyeonggi-do, Republic of Korea, Dankook University's Korean Language Center (KLC) provides a highly structured environment for international students. With a student capacity of 500, the center offers a focused, supportive learning community compared to massive Seoul campuses, while remaining easily accessible to the Seoul metropolitan area via the Suin-Bundang Line.
 
 The KLC stands out by offering several exclusive features for international trainees:
@@ -76,7 +75,7 @@ The KLC stands out by offering several exclusive features for international trai
 * **Direct Pathway**: Transition tracks to Dankook's undergraduate programs.
 * **Cultural Immersion**: Integrated Korean Culture Experience Days every semester.
 
-## 2. Programs & Schedule
+## Courses & Term Calendar at Dankook University Korean Language Center
 The regular program operates on a four-semester annual cycle (Spring, Summer, Autumn, Winter). Each term spans 10 weeks, delivering 200 hours of intensive language training. Classes run Monday through Friday for 4 hours a day (typically 9:00 AM to 1:00 PM). The curriculum spans levels from Beginner (Level 1) to Advanced (Level 6).
 
 | Semester | Admission Month | Duration | Weekly Hours | Primary Curricular Focus |
@@ -86,7 +85,7 @@ The regular program operates on a four-semester annual cycle (Spring, Summer, Au
 | **Autumn (가을 학기)** | September | Sep – Nov (10 weeks) | 20 hours | Intermediate writing, TOPIK prep |
 | **Winter (겨울 학기)** | December | Dec – Feb (10 weeks) | 20 hours | Academic Korean, debate skills |
 
-## 3. Tuition & Fees
+## What Studying at Dankook University Korean Language Center Costs
 Cost planning is critical for obtaining your visa. Students applying for the D-4 visa must register and pay for at least two semesters (20 weeks) upfront.
 
 | Fee Category | Amount (KRW) | Payment Cycle | Details |
@@ -97,7 +96,7 @@ Cost planning is critical for obtaining your visa. Students applying for the D-4
 | **Textbooks** | ~50,000 KRW | Per level | Purchased separately at the bookstore |
 | **Alien Insurance** | ~110,000 KRW | Per 6 months | Mandatory health insurance coverage |
 
-## 4. Admissions & D-4 Visa Steps
+## D-4 Visa & Admission Steps for Dankook University Korean Language Center
 If you plan to study for more than 90 days, you must apply for a D-4 (General Student) visa. Follow these chronological steps:
 
 1. **Online Document Submission**: Upload your graduation certificate (Apostilled or consular-verified), academic transcripts, copy of passport, and a bank balance certificate showing a minimum of $10,000 USD.
@@ -106,16 +105,16 @@ If you plan to study for more than 90 days, you must apply for a D-4 (General St
 4. **Receive Admission Packet**: The university issues your official Certificate of Admission (CoA) and university registration documents.
 5. **Embassy Visa Application**: Submit the CoA and required documents to the nearest Korean Embassy or Consulate in your home country to obtain the D-4 visa.
 
-## 5. TOPIK & University Pathway
+## TOPIK Progress & Degree Paths via Dankook University Korean Language Center
 Dankook KLC prioritizes transitioning language trainees into degree-seeking programs:
 * **TOPIK Preparation**: Integrated workshops with practice exams and writing drills for Level 3+ score.
 * **Undergraduate Pathway**: KLC Level 3 or 4 graduates get simplified undergraduate admissions, bypassing external TOPIK exams for specific departments at Dankook University.
 
-## 6. Dormitory & Living in the City
+## Housing Options Around Dankook University Korean Language Center
 * **Guaranteed Dormitories**: KLC students are guaranteed housing in Woongbi or Jilmoo Halls. Rooms are double occupancy with individual desks, beds, and AC. Facilities include laundries, kitchens, and a gym.
 * **Living in Jukjeon**: Located in Yongin, Gyeonggi-do, the campus offers a peaceful environment with lower living costs than Seoul. Red express buses connect to central Seoul (Gangnam/Myeongdong) in 40 minutes.
 
-## 7. FAQ
+## FAQ for Dankook University Korean Language Center Learners
 
 ### Can I enroll for only one semester if I do not need a student visa?
 Yes. If you hold a valid visa that allows short-term study (such as a working holiday visa, F-series visa, or tourist visa), you can enroll for a single 10-week semester. You will only pay the application fee and tuition for one term (1,600,000 KRW total).

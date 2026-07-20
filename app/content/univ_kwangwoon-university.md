@@ -49,19 +49,18 @@
   }
 }
 ---
-
-## 1. University Overview
+## Kwangwoon University: Campus Snapshot
 Kwangwoon University, founded in 1934, is a prestigious private research institution located in Seoul, South Korea. Famously recognized as the pioneer of electronics and IT engineering in South Korea, Kwangwoon holds a legendary reputation for its historical and modern contributions to science and technology. Originally established as the Chosun Radio School, it paved the way for the nation's rapid technological advancement, transforming over the decades into a comprehensive university while maintaining its identity as an engineering powerhouse.
 
 Today, the university hosts over 1,350 international students in a supportive, multicultural academic environment. With an acceptance rate of approximately 40-45%, admission is competitive yet highly accessible for qualified global applicants. The standout feature of Kwangwoon is its exceptionally strong industry-academic partnerships with global tech giants like Samsung and LG. These alliances ensure that its curricula remain aligned with industry demands, leading to a consistently high post-graduation employment rate, especially in advanced technology and software engineering sectors.
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Kwangwoon University
 Kwangwoon University actively expands its global outreach through specialized international pathways:
 * **Undergraduate Programs**: While the primary language of instruction is Korean, selected courses in business, computer science, and engineering are offered in English. Students with TOPIK Level 3 or higher can transition directly into full academic degrees.
 * **Graduate Studies**: The Graduate School offers extensive English-medium research tracks in IT, nanotechnology, and advanced engineering, catering to international scholars.
 * **Korean Language Program (KLP)**: Run by the Institute of International Education, this program offers intensive language tracks (Levels 1–6) designed to prepare non-native speakers for academic success in their chosen degrees.
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Kwangwoon University
 Kwangwoon comprises eight specialized colleges. The university's core strengths lie in the **College of Electronics & Information Engineering** and the **College of Software & Convergence**, both of which receive heavy government funding and corporate support.
 
 | College | Focus Areas | Key Specialties |
@@ -77,7 +76,7 @@ Kwangwoon comprises eight specialized colleges. The university's core strengths 
 
 These academic structures emphasize interdisciplinary synergy, producing graduates who excel in hybrid roles combining technical expertise and business acumen.
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Kwangwoon University
 Kwangwoon offers competitive tuition rates compared to other private universities in Seoul. The average yearly tuition is approximately 8,200,000 KRW.
 
 | Study Field | Admission Fee (One-Time) | Annual Tuition (Est.) | Total First Year (Est.) |
@@ -94,7 +93,7 @@ To ease financial burdens, Kwangwoon provides generous scholarships for internat
 * **Academic Excellence**: 30% to 80% tuition waivers for current students maintaining high GPAs.
 * **TOPIK Reward**: Cash incentives or waivers for improving TOPIK scores during study.
 
-## 5. Admissions for International Students
+## International Admission Path to Kwangwoon University
 Kwangwoon welcomes global applicants for Spring (March) and Fall (September) terms.
 
 * **Eligibility**: Applicants must have completed high school (for undergraduate) or hold a bachelor's (for graduate).
@@ -108,14 +107,14 @@ Kwangwoon welcomes global applicants for Spring (March) and Fall (September) ter
   4. Passports of applicant and parents.
   5. Financial statement showing at least $16,000 USD (or equivalent).
 
-## 6. Campus Life & Location
+## Living Near Kwangwoon University Campus
 Located at **20 Kwangwoon-ro, Nowon-gu, Seoul, 01897, South Korea**, Kwangwoon combines a quiet, focused academic environment with direct urban connectivity.
 
 * **Unbeatable Access**: The campus is a brief walk from **Kwangwoon University Station (Seoul Subway Line 1 and Gyeongui-Jungang Line)**. This puts downtown Seoul, including historic sites and modern cultural hubs, within a 30-minute subway ride.
 * **Modern Facilities**: Key features include the state-of-the-art **80th Anniversary Memorial Hall**, a massive complex with a digital library, group study zones, and dining areas. Cozy, high-speed Wi-Fi-enabled on-campus dorms are readily available for international students.
 * **Vibrant Community**: Students can join foreign student clubs, participate in the colorful annual university festival, and benefit from the "Kwangwoon Global Buddy" mentorship program, which pairs incoming students with local Koreans.
 
-## 7. FAQ
+## FAQ for Prospective Kwangwoon University Students
 
 ### Is Kwangwoon University a good school for engineering?
 Yes, Kwangwoon is widely recognized as a pioneer in electronics and IT engineering in South Korea. Its strong curriculum and deep ties with tech giants lead to high employment rates.

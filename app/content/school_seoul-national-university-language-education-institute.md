@@ -69,13 +69,9 @@
   "seo_description": "Apply to Seoul National University (SNU) Korean Language Program. Find 2026 tuition, requirements, and step-by-step application guides on KR Campus."
 }
 ---
-
-
-
-
 # Guide to Seoul National University Language Education Institute (SNU LEI)
 
-## 1. School Overview
+## Seoul National University Language Education Institute: Language Program Snapshot
 The Seoul National University Language Education Institute (SNU LEI) is Korea’s premier language center, located at **Language Education Institute (Bldg. 137-1), Seoul National University, 1 Gwanak-ro, Gwanak-gu, Seoul, 08826, South Korea**. Operating with a capacity of **2,000 students**, it provides high-caliber academic training on SNU's main Gwanak campus.
 
 Key program highlights include:
@@ -86,7 +82,7 @@ Key program highlights include:
 * **TOPIK Prep Courses:** Target preparation sessions for the national language proficiency exam.
 * **Access to SNU Campus Facilities:** Access to libraries, computer labs, health centers, and gyms.
 
-## 2. Programs & Schedule
+## Courses & Term Calendar at Seoul National University Language Education Institute
 SNU LEI offers year-round programs catering to academic students, working professionals, and short-term visitors.
 
 ### Program Formats
@@ -101,7 +97,7 @@ SNU LEI offers year-round programs catering to academic students, working profes
 | **Evening Program** | March, September | Mon, Thu (19:00 - 22:00) | 6 hours | 10 weeks |
 | **3-Week Short-Term Program** | January, August | Mon-Fri (09:00 - 13:00) | 20 hours | 3 weeks |
 
-## 3. Tuition & Fees
+## What Studying at Seoul National University Language Education Institute Costs
 Tuition is billed per term and must be paid in full prior to class commencement. Fees vary by time slot.
 
 | Program / Item | Fee (KRW) | Description |
@@ -113,7 +109,7 @@ Tuition is billed per term and must be paid in full prior to class commencement.
 | **3-Week Short-Term Program** | 880,000 KRW | 3-week intensive program fee |
 | **Textbooks** | ~45,000 KRW | Purchased separately per semester |
 
-## 4. Admissions & D-4 Visa Steps
+## D-4 Visa & Admission Steps for Seoul National University Language Education Institute
 To qualify for a D-4 (General Student) visa, students must apply for a minimum of two consecutive terms (20 weeks) of the Regular Program.
 
 ### Application Steps
@@ -129,20 +125,20 @@ To qualify for a D-4 (General Student) visa, students must apply for a minimum o
 * Official bank statement indicating a balance of at least $10,000 USD.
 * Copy of passport identification page.
 
-## 5. TOPIK & University Pathway
+## TOPIK Progress & Degree Paths via Seoul National University Language Education Institute
 SNU LEI’s curriculum is optimized for academic progression and university entry in South Korea.
 * **Exam Prep:** Core courses naturally integrate TOPIK-style test structures. Specialized TOPIK prep classes are regularly offered before national test dates.
 * **University Admission:** Level 3 or 4 completion meets the language requirement for undergraduate admissions at SNU and most major Korean universities. For competitive majors and graduate schools, completing Level 5 or 6 is highly recommended.
 * **Academic Counseling:** Students have access to counseling regarding university applications, document prep, and admission requirements.
 
-## 6. Dormitory & Living in the City
+## Housing Options Around Seoul National University Language Education Institute
 * **On-Campus Dormitories:** Language students can apply for Gwanak Residence Halls. However, availability is limited, and priority is given to degree-seeking students. Apply immediately upon acceptance.
 * **Off-Campus Options:**
     * *Goshiwon/Goshitel:* Small single rooms near Nakseongdae or Sillim. Costs 350,000 to 550,000 KRW/month with no deposit.
     * *One-Room (Studio):* Costs 500,000 to 800,000 KRW/month with a safety deposit starting at 5,000,000 KRW.
 * **Campus Amenities:** Students receive ID cards granting access to the Central Library, computer centers, student cafeterias, and health services.
 
-## 7. FAQ
+## FAQ for Seoul National University Language Education Institute Learners
 
 ### Can I get a D-4 visa if I only enroll in the 3-Week Short-Term Program?
 No. The D-4 visa requires enrolling in at least two consecutive 10-week terms of the Regular Program. Short-term students must study under a tourist visa or via visa-free entry (K-ETA).
@@ -155,6 +151,3 @@ Students can register at the start of each term. The LEI matches language studen
 
 ### Are textbooks included in the tuition fee?
 No. Textbooks must be purchased separately at the SNU Bookstore at the start of each term. A complete set costs approximately 40,000 to 50,000 KRW.
-
-### What are the academic requirements to pass to the next level?
-Students must maintain an attendance rate of at least 80% (160 out of 200 hours per term) and achieve an overall score average of 60% or higher on their midterm and final examinations.

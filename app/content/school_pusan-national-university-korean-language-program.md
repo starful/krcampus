@@ -64,14 +64,13 @@
   }
 }
 ---
-
 # Pusan National University Korean Language Program: Ultimate Practical Guide
 
 Choosing the right institute to study Korean is a critical step for your academic and career pathway. The **Pusan National University (PNU) Korean Language Education Center** stands out as a premier destination in southern South Korea, offering a high-quality curriculum backed by national university resources.
 
 ---
 
-## 1. School Overview
+## Pusan National University: Language Program Snapshot
 
 Located in the coastal city of Busan, PNU is one of Korea’s top-tier national universities. The Language Education Center offers a highly structured environment to help international students transition from complete beginners to academic-level speakers.
 
@@ -86,7 +85,7 @@ Located in the coastal city of Busan, PNU is one of Korea’s top-tier national 
 
 ---
 
-## 2. Programs & Schedule
+## Courses & Term Calendar at Pusan National University
 
 The program operates on a quarterly basis with four terms per year: Spring, Summer, Autumn, and Winter. The curriculum features six proficiency levels (Level 1 to Level 6) aligned with the official TOPIK framework. 
 
@@ -103,7 +102,7 @@ Each term runs for 10 weeks, totaling 200 hours of instruction (20 hours per wee
 
 ---
 
-## 3. Tuition & Fees
+## What Studying at Pusan National University Costs
 
 PNU offers premium education at a fraction of the cost found in metropolitan Seoul.
 
@@ -121,7 +120,7 @@ PNU offers premium education at a fraction of the cost found in metropolitan Seo
 
 ---
 
-## 4. Admissions & D-4 Visa Steps
+## D-4 Visa & Admission Steps for Pusan National University
 
 To study for more than 90 days, you must obtain a **D-4 (General Student) Visa** by registering for at least two terms (20 weeks).
 
@@ -136,7 +135,7 @@ To study for more than 90 days, you must obtain a **D-4 (General Student) Visa**
 
 ---
 
-## 5. TOPIK & University Pathway
+## TOPIK Progress & Degree Paths via Pusan National University
 
 PNU focuses on academic progression, maintaining high TOPIK pass rates through exam prep classes in Levels 4 to 6.
 
@@ -145,7 +144,7 @@ PNU focuses on academic progression, maintaining high TOPIK pass rates through e
 
 ---
 
-## 6. Dormitory & Living in the City
+## Housing Options Around Pusan National University
 
 ### On-Campus Dormitory Guarantee
 PNU provides guaranteed housing for new language students during their first semester.
@@ -160,7 +159,7 @@ Busan is South Korea’s second-largest city, combining urban convenience with b
 
 ---
 
-## 7. FAQ
+## FAQ for Pusan National University Learners
 
 ### Can I work part-time while studying at PNU under a D-4 visa?
 Yes. After studying for six months (two semesters) with an attendance rate of 90% or higher, you can apply for an S-3 part-time work permit to work up to 20 hours per week.
@@ -175,4 +174,3 @@ No. Textbooks must be purchased separately at the on-campus bookstore for approx
 No. It is guaranteed for the first semester only. For subsequent terms, assignment depends on your cumulative grades, attendance, and room availability.
 
 ### Do I need to know Korean before applying?
-No. Level 1 starts with the Korean alphabet (Hangeul). All students take a placement test upon arrival to ensure they study at the appropriate level.

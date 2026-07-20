@@ -45,22 +45,21 @@
   }
 }
 ---
-
 # Duksung Women's University: International Student Guide
 
-## 1. University Overview
+## Duksung Women's University: Campus Snapshot
 Founded in 1920 by the independent activist Cha Mirisa during the Japanese colonial era, Duksung Women's University is a historic pillar of female empowerment and academic excellence in Seoul, South Korea. Established on the core belief that educating women is key to national progress, the university has spent over a century transforming young women into independent, creative, and global leaders. 
 
 Duksung hosts a diverse academic community with approximately 450 international students. With an undergraduate acceptance rate of 45%, the university offers a highly supportive environment. Located at 33 Samyang-ro 144-gil, Dobong-gu, Seoul, the scenic campus sits near the base of Bukhansan National Park, providing a peaceful environment ideal for study while remaining fully connected via public transit to central Seoul.
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Duksung Women's University
 Duksung promotes internationalization through structured pathways and language training. While Korean is the primary medium of instruction, English-friendly options exist.
 
 The highlight of Duksung’s global curriculum is the unique **Free-Major System** in the College of Global Convergence. This allows international freshmen to enter without declaring a major. During their first year, students take introductory courses, adapt to Korean academic culture, and improve their language skills. At the end of the freshman year, they choose their major without competitive GPA barriers.
 
 For students needing linguistic preparation, the on-campus Korean Language Institute (KLI) offers intensive programs to prepare for the TOPIK (Test of Proficiency in Korean) exam, ensuring academic readiness before entering undergraduate programs.
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Duksung Women's University
 Duksung’s academic framework combines traditional scholarship with industry demands. The undergraduate curriculum is divided into three primary colleges open to international applicants, alongside a specialized professional department.
 
 *   **College of Global Convergence:** Humanities, social sciences, and business. Key majors include Global Business, Media, and International Relations.
@@ -75,7 +74,7 @@ Duksung’s academic framework combines traditional scholarship with industry de
 | **Art & Design** | Visual Design, Interior Design | Korean (Practical focus) |
 | **Pharmacy** | Pharmaceutical Sciences *(Restricted)* | Korean |
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Duksung Women's University
 Duksung offers highly affordable education in Seoul. The average yearly tuition is approximately 7,600,000 KRW, which is competitive for private universities. The university is renowned for **generous TOPIK-based tuition scholarships** that cover up to 100% of first-semester tuition.
 
 | Expense Category | Cost per Semester (KRW) | Yearly Cost (KRW) |
@@ -93,7 +92,7 @@ Duksung offers highly affordable education in Seoul. The average yearly tuition 
 *   **TOPIK Level 3:** 30% Tuition Waiver
 *   *Subsequent semesters offer merit scholarships (30% to 100%) based on maintaining a GPA of 3.0 or above.*
 
-## 5. Admissions for International Students
+## International Admission Path to Duksung Women's University
 Duksung's admissions process evaluates academic readiness and linguistic capability.
 
 *   **Eligibility:** Female non-Korean citizens whose parents both hold non-Korean citizenship, having completed secondary education equivalent to South Korea’s 12-year system.
@@ -108,14 +107,14 @@ Duksung's admissions process evaluates academic readiness and linguistic capabil
     4. Passports of applicant and parents.
     5. Personal Statement and Study Plan.
 
-## 6. Campus Life & Location
+## Living Near Duksung Women's University Campus
 Located at 33 Samyang-ro 144-gil, Dobong-gu, Seoul, Duksung’s campus is a tranquil oasis adjacent to Bukhansan National Park, famous for its cherry blossoms and autumn foliage.
 
 On-campus housing is secure, affordable, and prioritizes new international students. The dormitories offer modern double or quad rooms, study lounges, and communal kitchens.
 
 Duksung supports integration via its Global Lounge and the "Duksung Buddy" program, which pairs international students with local peers for language exchange and cultural excursions. The campus is highly accessible, linked to central Seoul via the Ui-Sinseol LRT line, connecting students to cultural hubs like Myeong-dong in under 40 minutes.
 
-## 7. FAQ
+## FAQ for Prospective Duksung Women's University Students
 
 ### Can male international students apply to Duksung?
 No. As a women's university, degree-seeking undergraduate programs are open to female students only. Male students can only attend as exchange students from partner institutions.

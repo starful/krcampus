@@ -69,12 +69,10 @@
   "seo_description": "Check Dongguk University Korean Language Institute tuition, terms, requirements, and how to apply. Start learning Korean in Seoul with KR Campus!"
 }
 ---
-
-
-## 1. School Overview
+## Dongguk University Korean Language Institute: Language Program Snapshot
 The Dongguk University Korean Language Institute (KLI), located in Hyehwa Hall (30 Pildong-ro 1-gil, Jung-gu, Seoul, 04620), is a high-capacity educational center hosting up to 1,500 international students. Positioned in central Seoul, the campus directly borders Namsan Mountain and is near Myeongdong, offering a perfect blend of natural scenery and urban convenience. Known for academic excellence, KLI provides on-campus dormitory access, admission scholarships for Dongguk degree programs, a supportive Korean Buddy Program, and diverse cultural activities.
 
-## 2. Programs & Schedule
+## Courses & Term Calendar at Dongguk University Korean Language Institute
 Dongguk KLI offers four programs tailored to different educational and professional goals. All new students must take a mandatory placement test (written and oral) to be assigned to one of six levels (Beginner 1 to Advanced 2).
 
 ### Program Options & Semesters
@@ -91,7 +89,7 @@ Dongguk KLI offers four programs tailored to different educational and professio
 *   **Levels 3–4 (Intermediate):** Conversational fluency, understanding social issues, and common idiomatic expressions.
 *   **Levels 5–6 (Advanced):** Academic writing, formal debates, presentations, and Korean culture through literature.
 
-## 3. Tuition & Fees
+## What Studying at Dongguk University Korean Language Institute Costs
 All fees must be settled in Korean Won (KRW). Tuition does not include books. Students requiring a D-4 general student visa must register and pay for at least two terms (20 weeks).
 
 ### Fee Breakdown by Program (KRW)
@@ -104,7 +102,7 @@ All fees must be settled in Korean Won (KRW). Tuition does not include books. St
 | **Student Insurance** | 60,000 | N/A | 60,000 | N/A |
 | **Total Initial Cost** | **1,870,000** | **1,110,000** | **1,870,000** | **470,000** |
 
-## 4. Admissions & D-4 Visa Steps
+## D-4 Visa & Admission Steps for Dongguk University Korean Language Institute
 Students studying for more than 90 days must obtain a D-4 General Student Visa. 
 
 ### Step-by-Step Procedure
@@ -120,18 +118,18 @@ Students studying for more than 90 days must obtain a D-4 General Student Visa.
 *   **Financial Proof:** Bank balance certificate showing at least USD 10,000.
 *   **ID Documents:** Passport copy and one passport-sized color photo.
 
-## 5. TOPIK & University Pathway
+## TOPIK Progress & Degree Paths via Dongguk University Korean Language Institute
 Dongguk KLI serves as a direct pathway to academic programs at Dongguk University.
 *   **Admission Scholarships:** KLI graduates entering a degree program at Dongguk receive a 30% to 50% tuition waiver for their first semester if they hold TOPIK Level 3 or higher.
 *   **Academic Korean Track:** Designed for academic preparation, teaching students research essay writing, citation rules, and academic presentation strategies.
 *   **TOPIK Prep:** Dedicated classes focus on test mechanics, essay composition, and intermediate/advanced grammar to boost exam performance.
 
-## 6. Dormitory & Living in the City
+## Housing Options Around Dongguk University Korean Language Institute
 *   **On-Campus Housing:** New students have priority access to Namsan and Hyehwa Residence Halls. Rooms are double-occupancy, featuring study desks, air conditioning, private bathrooms, and Wi-Fi. Average costs range from 350,000 to 450,000 KRW per month.
 *   **Transit Access:** Located in Jung-gu, Hyehwa Hall is next to Dongguk University Station (Line 3) and Chungmuro Station (Lines 3 & 4), connecting you to Gangnam, Hongdae, and Seoul Station in minutes.
 *   **Surrounding Area:** The campus shares borders with Namsan Park trails. Students are within walking distance of Myeongdong shopping streets and Dongdaemun.
 
-## 7. FAQ
+## FAQ for Dongguk University Korean Language Institute Learners
 
 ### Can I work part-time while studying on a D-4 visa?
 Yes. After 6 months of study with at least 90% attendance, you can apply for a work permit to work up to 20 hours per week.

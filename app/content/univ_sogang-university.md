@@ -55,9 +55,7 @@
   "seo_description": "Get the 2026 admissions guide for Sogang University. Learn about tuition fees, English-taught programs, requirements, and application steps."
 }
 ---
-
-
-## 1. University Overview
+## Sogang University: Campus Snapshot
 
 Sogang University, founded in 1960 by the Society of Jesus (Jesuits), is one of South Korea's premier private research institutions. Located in Seoul, Sogang is globally recognized for its rigorous Jesuit academic tradition, which emphasizes holistic education, critical thinking, and social responsibility. With an international student body of approximately 3,200 students, the university serves as a diverse, vibrant hub for global education.
 
@@ -65,7 +63,7 @@ Sogang is distinguished by its unique "No-Barrier Multi-Major System (Unique in 
 
 ---
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Sogang University
 
 Sogang provides excellent pathways for students not yet fluent in Korean. The **School of Global Studies (SGS)** is the flagship undergraduate destination, offering fully English-taught degrees in Global Korean Studies and International Relations. At the graduate level, the Graduate School of International Studies (GSIS) and the Sogang Business School (SBS) offer extensive English-medium curricula.
 
@@ -73,7 +71,7 @@ For language learners, the highly acclaimed speaking-focused **KLEC (Korean Lang
 
 ---
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Sogang University
 
 Sogang’s reputation in Business and Economics is legendary; the term "Sogang School" historically refers to the academic economists who designed Korea’s rapid post-war economic development. 
 
@@ -97,7 +95,7 @@ Undergraduate and graduate programs span across these key faculties:
 
 ---
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Sogang University
 
 Sogang offers high-quality education at competitive rates compared to Western universities. Tuition fees differ by department, with laboratory-based engineering programs costing more than humanities programs.
 
@@ -118,7 +116,7 @@ Sogang offers high-quality education at competitive rates compared to Western un
 
 ---
 
-## 5. Admissions for International Students
+## International Admission Path to Sogang University
 
 Admissions at Sogang are competitive but accessible, with an estimated international acceptance rate of **25-30% (Estimated for International Applicants)**.
 
@@ -133,7 +131,7 @@ Applications for the Spring semester close in October, while Fall applications c
 
 ---
 
-## 6. Campus Life & Location
+## Living Near Sogang University Campus
 
 Sogang's campus is at 35 Baekbeom-ro, Mapo-gu, Seoul, placing students inside the vibrant **Sinchon Student District**. This neighborhood is Seoul's collegiate heartland, shared with neighboring Yonsei and Ewha universities, offering budget-friendly eateries, cafes, and cultural venues.
 
@@ -141,7 +139,7 @@ On campus, international students reside in Gonzaga Hall, a modern residential f
 
 ---
 
-## 7. FAQ
+## FAQ for Prospective Sogang University Students
 
 ### Can I apply to Sogang if I do not speak any Korean?
 Yes. You can apply to the School of Global Studies (SGS), which offers completely English-taught undergraduate degree tracks. However, taking conversational courses at KLEC is recommended for daily life.

@@ -64,11 +64,10 @@
   }
 }
 ---
-
-## School Overview
+## Dong-A University Korean Language Institute: Language Program Snapshot
 The Dong-A University Korean Language Institute, located at 225 Gudeok-ro, Seo-gu, Busan, is a premier educational center for international students. With a total capacity of 600 students, the institute ensures a personalized yet globally diverse classroom experience. Situated in South Korea’s scenic second-largest city, Dong-A offers a unique coastal lifestyle combined with rigorous language training. The program focuses on practical communication skills, academic Korean for university preparation, and socio-cultural integration. Key features of the institute include intensive TOPIK prep classes, comfortable dormitory accommodation, reliable university pathway programs, cultural experiences, and scholarship opportunities.
 
-## Programs & Schedule
+## Courses & Term Calendar at Dong-A University Korean Language Institute
 The institute operates four regular 10-week semesters annually: Spring, Summer, Fall, and Winter. Each semester delivers 200 hours of intensive classroom instruction, consisting of 20 hours per week (4 hours daily, Monday to Friday). The curriculum is systematically structured across six proficiency levels, from beginner (Levels 1–2) to advanced (Levels 5–6).
 
 ### Program Academic Calendar
@@ -82,7 +81,7 @@ The institute operates four regular 10-week semesters annually: Spring, Summer, 
 
 *Note: Daily class schedules may switch to afternoon sessions depending on enrollment. Level placement is determined by a mandatory test.*
 
-## Tuition & Fees
+## What Studying at Dong-A University Korean Language Institute Costs
 The tuition fees at Dong-A University are highly competitive compared to institutes in the capital region. Below is the breakdown of the estimated costs per semester of study.
 
 ### Estimated Fee Structure (per Semester)
@@ -96,7 +95,7 @@ The tuition fees at Dong-A University are highly competitive compared to institu
 
 *Note: Students applying for a D-4 visa are generally required to pay tuition for at least two semesters (2,620,000 KRW) in advance to secure visa sponsorship documents.*
 
-## Admissions & D-4 Visa Steps
+## D-4 Visa & Admission Steps for Dong-A University Korean Language Institute
 International applicants planning to study for more than 90 days must obtain a D-4 (General Student) visa. Follow these critical steps to secure your admission:
 
 1. **Application Submission:** Submit the completed application form with your consular-verified or apostilled high school/university graduation certificate, a bank statement showing at least USD 10,000, and passport photos.
@@ -105,18 +104,18 @@ International applicants planning to study for more than 90 days must obtain a D
 4. **COA Issuance:** Once the payment is verified, the university will send you the Certificate of Admission (COA).
 5. **Visa Application:** Submit the COA, visa application, passport, and financial documents to the nearest Korean Embassy or Consulate.
 
-## TOPIK & University Pathway
+## TOPIK Progress & Degree Paths via Dong-A University Korean Language Institute
 For students targeting higher education, Dong-A University offers strong academic pathways and support systems:
 * **TOPIK Prep:** Special preparation classes are integrated into the regular curriculum, focusing on mock exams, writing structures, and advanced vocabulary to maximize test scores.
 * **University Pathways:** Language students completing Level 3 or 4 can matriculate directly into Dong-A University's undergraduate majors.
 * **Scholarships:** Pathway students transitioning to degrees receive 30% to 100% tuition waivers based on language grades and official TOPIK scores.
 
-## Dormitory & Living in the City
+## Housing Options Around Dong-A University Korean Language Institute
 Busan offers high-quality coastal living at a lower cost than Seoul.
 * **Dormitories:** On-campus housing (such as Hanlim Dormitory or Seokdang Global House) offers shared double rooms with desks, beds, AC, and Wi-Fi. Costs range from 1,000,000 to 1,500,000 KRW per semester, excluding meals.
 * **Living in Busan:** Located in Seo-gu, the Gudeok campus is well-connected via public transit. Students enjoy budget-friendly food and easily access sites like Gwangalli Beach, Nampo-dong, and Gamcheon Culture Village.
 
-## FAQ
+## FAQ for Dong-A University Korean Language Institute Learners
 
 ### Can I work part-time while studying on a D-4 visa?
 Yes, but only after completing 6 months of study (one semester equivalent) with an attendance rate of 90% or higher. You must obtain permission from both the university and the immigration office to work part-time (up to 20 hours per week).

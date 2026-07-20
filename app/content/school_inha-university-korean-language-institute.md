@@ -62,16 +62,14 @@
   "seo_description": "Learn Korean at Inha University. Check 2026 program details, tuition fees, application steps, and student reviews to plan your study in Korea."
 }
 ---
-
-
 # Comprehensive Guide to Inha University Korean Language Institute
 
-## 1. School Overview
+## Inha University Korean Language Institute: Language Program Snapshot
 Located at 100 Inha-ro, Michuhol-gu, Incheon, South Korea, the Inha University Korean Language Institute (한국어교육원) is a premier training center for global students. With a capacity of 1,200 students, the institute delivers high-quality linguistic education in a dynamic, supportive campus environment.
 
 Incheon offers a strategic location, providing modern urban conveniences at a fraction of Seoul's cost of living. Key features of the institute include an on-campus dormitory guarantee for incoming students, the integrative Inha Buddy Program, focused TOPIK preparation modules, and a direct admission pathway into Inha University’s undergraduate and graduate schools.
 
-## 2. Programs & Schedule
+## Courses & Term Calendar at Inha University Korean Language Institute
 The institute operates three main programs designed for various student goals:
 
 *   **Regular Program (정규 과정):** A comprehensive four-term program covering Levels 1 through 6. Students attend classes 5 days a week, 4 hours per day (20 hours per week) for a total of 200 hours per term.
@@ -84,7 +82,7 @@ The institute operates three main programs designed for various student goals:
 | **Short-term Intensive** | July, August | 3–4 Weeks | 15 Hours |
 | **TOPIK Prep Class** | April, October | 4–6 Weeks | 6 Hours |
 
-## 3. Tuition & Fees
+## What Studying at Inha University Korean Language Institute Costs
 Tuition at Inha University is highly economical. The table below outlines the basic fee structure.
 
 | Fee Category | Cost (KRW) | Refund Policy / Details |
@@ -97,7 +95,7 @@ Tuition at Inha University is highly economical. The table below outlines the ba
 
 *Note: Dormitory fees, personal health insurance, and living expenses are billed separately.*
 
-## 4. Admissions & D-4 Visa Steps
+## D-4 Visa & Admission Steps for Inha University Korean Language Institute
 Students planning to study for two or more terms must apply for a D-4 (General Student) visa. Follow this step-by-step process:
 
 1.  **Online Application:** Submit your application on the official institute portal.
@@ -107,19 +105,19 @@ Students planning to study for two or more terms must apply for a D-4 (General S
 5.  **Visa Documents:** The institute issues the Certificate of Admission (COA) after verifying the wire transfer.
 6.  **Embassy Application:** Apply for the D-4 visa at the local Korean embassy or consulate in your home country using the COA and financial documents.
 
-## 5. TOPIK & University Pathway
+## TOPIK Progress & Degree Paths via Inha University Korean Language Institute
 Inha University provides structural support for students aiming to transition to undergraduate or graduate degrees:
 
 *   **TOPIK Classes:** Held twice a year, these prep classes focus on test-taking strategies, high-frequency vocabulary, and essay writing.
 *   **Admission Benefits:** Students who complete Level 3 or higher in the Regular Program are eligible for English/Korean language qualification waivers when applying to select Inha University undergraduate programs.
 *   **Scholarships:** Language pathway students transitioning to full degrees receive tuition scholarships (30% to 100%) based on their language grades and official TOPIK achievements.
 
-## 6. Dormitory & Living in the City
+## Housing Options Around Inha University Korean Language Institute
 *   **On-Campus Dormitory Guarantee:** First-semester international students are guaranteed a spot in the university dormitory. Rooms are shared (typically quad or double) and equipped with high-speed internet, beds, desks, and climate control.
 *   **Affordable Cost of Living:** Michuhol-gu, Incheon offers an exceptionally affordable living standard. On-campus dining, local restaurants, and off-campus housing (studios) are significantly cheaper than in central Seoul.
 *   **Inha Buddy Program:** To ease cultural transition, new students are paired with domestic Inha University students for language exchange, campus tours, and administrative assistance.
 
-## 7. FAQ
+## FAQ for Inha University Korean Language Institute Learners
 
 ### Can I work part-time while studying at Inha?
 Yes. D-4 visa holders can work part-time (up to 20 hours/week) after 6 months of study. You must maintain over 90% attendance and obtain school and immigration approval.

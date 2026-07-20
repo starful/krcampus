@@ -36,14 +36,13 @@ tuition:
   registration_fee: 100000
   textbook_fee: 50000
 ---
-
 # Complete Guide: Hanyang University ERICA International Language Institute
 
 The International Language Institute at Hanyang University’s ERICA campus (Ansan) offers premium Korean language education with a low cost of living.
 
 ---
 
-## 1. School Overview
+## Hanyang University ERICA International Language Institute: Language Program Snapshot
 
 *   **Address:** 55 Hanyangdaehak-ro, Sangnok-gu, Ansan, Gyeonggi-do, South Korea
 *   **Student Capacity:** 500 students
@@ -53,7 +52,7 @@ The International Language Institute at Hanyang University’s ERICA campus (Ans
 
 ---
 
-## 2. Programs & Schedule
+## Courses & Term Calendar at Hanyang University ERICA International Language Institute
 
 The Regular Korean Language Program runs four terms annually (6 levels, beginner to advanced), integrating speaking, listening, reading, writing, and culture.
 
@@ -73,7 +72,7 @@ The Regular Korean Language Program runs four terms annually (6 levels, beginner
 
 ---
 
-## 3. Tuition & Fees
+## What Studying at Hanyang University ERICA International Language Institute Costs
 
 Hanyang University ERICA offers quality language training at highly competitive rates.
 
@@ -91,7 +90,7 @@ Hanyang University ERICA offers quality language training at highly competitive 
 
 ---
 
-## 4. Admissions & D-4 Visa Steps
+## D-4 Visa & Admission Steps for Hanyang University ERICA International Language Institute
 
 Students planning to study for over 90 days must apply for a General Student Visa (D-4-1).
 
@@ -112,7 +111,7 @@ Students planning to study for over 90 days must apply for a General Student Vis
 
 ---
 
-## 5. TOPIK & University Pathway
+## TOPIK Progress & Degree Paths via Hanyang University ERICA International Language Institute
 
 The language institute offers a direct pathway to academic programs at Hanyang University ERICA.
 
@@ -127,7 +126,7 @@ The language institute offers a direct pathway to academic programs at Hanyang U
 
 ---
 
-## 6. Dormitory & Living in the City
+## Housing Options Around Hanyang University ERICA International Language Institute
 
 ### On-Campus Dormitory (Injaegwan)
 *   **Room Types:** Double rooms (shared).
@@ -140,7 +139,7 @@ The language institute offers a direct pathway to academic programs at Hanyang U
 
 ---
 
-## 7. FAQ
+## FAQ for Hanyang University ERICA International Language Institute Learners
 
 ### Can I apply for the program if I am currently a high school graduate?
 Yes. Anyone with a high school diploma or equivalent can apply. You must provide an apostilled graduation certificate.

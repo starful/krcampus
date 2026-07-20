@@ -49,18 +49,17 @@
   }
 }
 ---
-
-## 1. University Overview
+## Daegu Gyeongbuk Institute of Science and Technology: Campus Snapshot
 Daegu Gyeongbuk Institute of Science and Technology (DGIST) is one of South Korea's four elite public research universities, alongside KAIST, GIST, and UNIST. Established in 2004 by the national government, DGIST has rapidly become a powerhouse of global innovation. Located at 333 Techno Jungang-daero, Hyeonpung-eup, Dalseong-gun, Daegu, 42988, Republic of Korea, the institute boasts world-class facilities designed for future leaders in convergence science.
 
 With a highly selective estimated acceptance rate of 10-15%, DGIST maintains an elite, high-resource academic community. The university currently hosts around 150 international students, offering them unparalleled access to advanced research infrastructure, including its renowned High-Performance Computing (HPC) Center. For ambitious international scholars, DGIST is a premier gateway to cutting-edge scientific training and global academic integration in Korea.
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Daegu Gyeongbuk Institute of Science and Technology
 DGIST stands out by offering a 100% English-taught academic environment. All undergraduate lectures, coursework, examinations, and official communications are conducted entirely in English, allowing international students to transition seamlessly into a rigorous scientific environment.
 
 To support its international community, the DGIST International Affairs Office provides visa assistance, basic Korean language programs, and peer mentoring. Undergraduate students benefit from an educational model emphasizing collaborative research, preparing them to publish in high-impact journals and participate in global conferences early in their scientific careers.
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Daegu Gyeongbuk Institute of Science and Technology
 The defining feature of DGIST's undergraduate program is its Unique Single-Major Curriculum (Convergence Science). Instead of declaring a rigid major in their first year, undergraduate students build a strong foundational knowledge in physics, chemistry, biology, math, and humanities before pursuing customized research.
 
 ### Table 1: Academic Structure & Key Research Focuses
@@ -77,7 +76,7 @@ The defining feature of DGIST's undergraduate program is its Unique Single-Major
 
 Graduate programs focus on translation and industrial collaboration, supported by the world-class High-Performance Computing (HPC) Center. The HPC Center allows researchers to conduct high-fidelity modeling and handle big data with absolute precision.
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Daegu Gyeongbuk Institute of Science and Technology
 DGIST is highly cost-effective due to exceptional government backing. Eligible international students receive generous scholarship packages, including full tuition waivers and monthly stipends for living expenses, making top-tier education virtually free.
 
 ### Table 2: Estimated Cost of Attendance & Funding (in KRW)
@@ -91,7 +90,7 @@ DGIST is highly cost-effective due to exceptional government backing. Eligible i
 
 *Note: Non-tuition figures are realistic estimates and can vary depending on individual lifestyle and funding.*
 
-## 5. Admissions for International Students
+## International Admission Path to Daegu Gyeongbuk Institute of Science and Technology
 Admissions at DGIST are competitive, evaluating academic excellence, scientific curiosity, and potential for leadership. Applications open once a year for the Spring intake, with online portals typically accepting documents between August and October.
 
 ### Required Application Components:
@@ -103,12 +102,12 @@ Admissions at DGIST are competitive, evaluating academic excellence, scientific 
 
 Shortlisted candidates undergo an online interview in English by faculty panels, assessing technical competence, critical thinking, and research alignment.
 
-## 6. Campus Life & Location
+## Living Near Daegu Gyeongbuk Institute of Science and Technology Campus
 Located in the southern city of Daegu, DGIST is situated in "Daegu Technopolis," a meticulously planned science city. This environment ensures safety, quietude, and a focused atmosphere ideal for deep study and scientific discovery.
 
 The campus boasts modern infrastructure, including an indoor sports complex, music studios, and a cutting-edge library. On-campus residential halls are fully furnished, secure, and affordable. While the location is suburban, public transit directly connects the campus to downtown Daegu, allowing students to access vibrant urban life. The nearby KTX high-speed train connects Daegu to Seoul in just under two hours.
 
-## 7. FAQ
+## FAQ for Prospective Daegu Gyeongbuk Institute of Science and Technology Students
 
 ### Is Korean language proficiency required for admission?
 No. Because 100% of lectures and academic work are in English, Korean proficiency is not required. However, taking the free basic Korean classes offered on campus is highly recommended for daily life.

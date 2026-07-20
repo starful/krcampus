@@ -64,14 +64,13 @@
   }
 }
 ---
-
 Sungkyunkwan University (SKKU) Korean Language Center (KLC), located in Jongno-gu, Seoul, is a premier language institute on the historic Humanities and Social Sciences Campus. With a 1,200-student capacity, the KLC is famous for its intensive 6-term system, which allows students to complete the curriculum faster than standard 4-term university programs.
 
-## 1. School Overview
+## Sungkyunkwan University Korean Language Center: Language Program Snapshot
 
 Located next to the historic 1398 Sungkyunkwan Confucian academy, the KLC offers immersive Korean education. Its fast-track 6-term curriculum is designed for highly motivated students aiming for rapid university entry or career placement in Korea. The center supports its 1,200 students with cultural immersion programs, historical tours, and language exchange partnerships with SKKU undergraduate students.
 
-## 2. Programs & Schedule
+## Courses & Term Calendar at Sungkyunkwan University Korean Language Center
 
 The KLC runs on an 8-week cycle (6 terms per year), providing 200 hours of instruction per term—matching traditional 10-week programs in a shorter timeframe.
 
@@ -87,7 +86,7 @@ The KLC runs on an 8-week cycle (6 terms per year), providing 200 hours of instr
 * **Levels 3–4 (Intermediate):** Focuses on social topics and written expression. Level 4 acts as the gateway to undergraduate studies.
 * **Levels 5–6 (Advanced):** Focuses on academic research, debate, and professional essay writing.
 
-## 3. Tuition & Fees
+## What Studying at Sungkyunkwan University Korean Language Center Costs
 
 Fees vary by program. To obtain a D-4 visa, applicants must register and pay for at least two terms (16 weeks) of the Regular or Academic programs.
 
@@ -99,7 +98,7 @@ Fees vary by program. To obtain a D-4 visa, applicants must register and pay for
 
 *Note: Tuition excludes housing, meals, and visa fees. Wire transfer fees are paid by the sender.*
 
-## 4. Admissions & D-4 Visa Steps
+## D-4 Visa & Admission Steps for Sungkyunkwan University Korean Language Center
 
 Applicants studying for over one term must apply for a D-4-1 visa. Follow these steps:
 
@@ -110,7 +109,7 @@ Applicants studying for over one term must apply for a D-4-1 visa. Follow these 
 5. **Admission Certificate:** SKKU mails the physical Certificate of Admission (CoA).
 6. **Visa Application:** Submit the CoA, passport, photo, and financial documents to the nearest Korean Embassy or Consulate.
 
-## 5. TOPIK & University Pathway
+## TOPIK Progress & Degree Paths via Sungkyunkwan University Korean Language Center
 
 SKKU KLC offers optimized pathways to undergraduate or graduate programs at SKKU or other universities.
 
@@ -118,7 +117,7 @@ SKKU KLC offers optimized pathways to undergraduate or graduate programs at SKKU
 * **TOPIK Waiver:** Successfully completing Level 4 or higher satisfies the language requirement for undergraduate admission to SKKU, bypassing the official TOPIK exam.
 * **TOPIK Preparation:** Core intermediate and advanced classes (Levels 4–6) integrate mock tests and specialized instruction.
 
-## 6. Dormitory & Living in the City
+## Housing Options Around Sungkyunkwan University Korean Language Center
 
 The campus is in Hyehwa (Jongno-gu), a lively theater and arts district near central Seoul.
 
@@ -126,7 +125,7 @@ The campus is in Hyehwa (Jongno-gu), a lively theater and arts district near cen
 * **Off-Campus Housing:** Private mini-studios (*Goshiwon*) near Hyehwa Station cost **KRW 350,000 to KRW 600,000 per month** (no deposit). Studio apartments (*One-rooms*) require a deposit starting at KRW 5,000,000.
 * **Location Benefits:** Jongno-gu is highly walkable, rich in history (Changgyeonggung Palace, Naksan Park), and well-connected to public transit via Hyehwa Station.
 
-## 7. FAQ
+## FAQ for Sungkyunkwan University Korean Language Center Learners
 
 ### What are the main benefits of the 6-term system over the standard 4-term system?
 The 6-term system uses 8-week terms instead of 10-week ones. You cover the same 200 hours per level but can finish all six levels in one year (48 weeks) instead of 1.5 years, saving on living costs in Seoul.

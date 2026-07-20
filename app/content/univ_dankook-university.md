@@ -49,14 +49,13 @@
   }
 }
 ---
-
 # Dankook University (DKU) International Student Guide
 
 Dankook University (DKU), founded in 1947 as Korea's first post-liberation private university, is a premier institution hosting over 2,200 international students. Operating a specialized dual-campus system with a **40%** acceptance rate, DKU offers competitive yet accessible global education. This guide covers academics, costs, admissions, and campus life.
 
 ---
 
-## 1. University Overview
+## Dankook University: Campus Snapshot
 
 DKU's innovative **dual-campus system** optimizes academic focus:
 * **Jukjeon Campus (Yongin):** Specializes in IT, Software, Humanities, and Social Sciences. Located near Gyeonggi-do's tech valley, it offers close links to tech giants.
@@ -66,7 +65,7 @@ Its strategic location in the Seoul Metropolitan Area grants students excellent 
 
 ---
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Dankook University
 
 DKU offers English-taught tracks and support programs for international students.
 
@@ -79,7 +78,7 @@ The **Korean Language House (KLH)** offers 10-week intensive language courses (f
 
 ---
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Dankook University
 
 DKU offers diverse undergraduate programs across its specialized colleges.
 
@@ -97,7 +96,7 @@ DKU is highly ranked for engineering and IT. Collaborative ties with Samsung and
 
 ---
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Dankook University
 
 DKU offers competitive tuition and generous financial aid.
 
@@ -121,7 +120,7 @@ DKU provides merit-based aid:
 
 ---
 
-## 5. Admissions for International Students
+## International Admission Path to Dankook University
 
 DKU admissions prioritize academic preparation and language readiness.
 
@@ -136,7 +135,7 @@ DKU admissions prioritize academic preparation and language readiness.
 
 ---
 
-## 6. Campus Life & Location
+## Living Near Dankook University Campus
 
 Address: **152, Jukjeon-ro, Suji-gu, Yongin-si, Gyeonggi-do, Republic of Korea**. 
 
@@ -150,7 +149,7 @@ Based in Yongin’s tech valley, Jukjeon Campus offers a green, focused environm
 
 ---
 
-## 7. FAQ
+## FAQ for Prospective Dankook University Students
 
 ### What is the difference between the Jukjeon and Cheonan campuses?
 Jukjeon focuses on IT, engineering, software, and humanities, while Cheonan hosts life sciences, medicine, and languages. Students are assigned based on major.

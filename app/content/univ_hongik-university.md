@@ -47,20 +47,19 @@
   }
 }
 ---
-
 # Global Study Guide: Hongik University, Seoul
 
-## 1. University Overview
+## Hongik University: Campus Snapshot
 Hongik University (홍익대학교), in Seoul, is a prestigious private institution renowned globally for its pioneering contributions to art, design, and architecture. Founded in 1946 under the philosophy of "Hongik Ingan" (to benefit all humankind), the university is South Korea’s premier incubator for creative talent. Located at 94 Wausan-ro, Mapo-gu, Seoul (04066), the campus sits at the epicenter of the capital's youth culture.
 
 The university hosts a global community of over 2,850 international students from 60 countries. Balancing a competitive academic atmosphere with a 35% acceptance rate, Hongik provides a highly supportive yet rigorous environment. It bridges traditional research and creative industries, making it a top global destination.
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Hongik University
 To support its international community, Hongik continues to expand its global programs. While Korean is the primary language of instruction, the university offers strategic English-taught courses, particularly in the College of Business Administration and the College of Engineering.
 
 The International Language Institute provides an acclaimed Korean program (Levels 1-6) for academic fluency and TOPIK preparation. International students also benefit from dedicated bilingual advisors, administrative support, and global exchange opportunities with over 150 partner institutions.
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Hongik University
 Hongik University’s academic structure is designed to foster cross-disciplinary expertise. While celebrated as the country's No. 1 university for Art & Design, its engineering and business programs are equally robust, backed by extensive industry connections.
 
 Primary colleges include:
@@ -77,7 +76,7 @@ Primary colleges include:
 | **Business** | Business Admin, Global Business | AACSB-aligned, global internship tracks |
 | **Science & Tech** | Materials Science, Electronic Eng | Tech-focused labs with corporate sponsors |
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Hongik University
 Hongik University offers competitive tuition rates. While humanities and business programs are more affordable, the prestigious fine arts and engineering tracks require slightly higher fees to cover specialized studios and lab equipment.
 
 | Expense Category | Cost (KRW) | Notes & Details |
@@ -96,7 +95,7 @@ Hongik offers generous merit-based entry scholarships:
 * **TOPIK Level 4:** 40% tuition waiver for the first semester.
 * **Academic Excellence Scholarship:** 20% to 100% tuition waiver for subsequent semesters based on GPA.
 
-## 5. Admissions for International Students
+## International Admission Path to Hongik University
 Hongik University maintains a structured application process for international students. With a 35% acceptance rate, applicants are evaluated holistically on academic records, language skills, and creative potential.
 
 * **Academic Requirements:** High school diploma from an accredited domestic or international institution.
@@ -104,12 +103,12 @@ Hongik University maintains a structured application process for international s
 * **Portfolio Submission:** Fine Arts and Architecture applicants must submit a portfolio of original works.
 * **Timeline:** Spring applications open September-October; Fall applications run March-April.
 
-## 6. Campus Life & Location
+## Living Near Hongik University Campus
 Hongik’s main campus is located in the heart of Hongdae, Seoul’s legendary cultural, indie music, fashion, and nightlife hub. Studying here means stepping out of the classroom directly into a district filled with street performers, creative cafes, and indie art galleries.
 
 On campus, international students enjoy an enriching student life. The university's Global Lounge acts as a social and academic hub, offering peer tutoring, cultural exchange events, and administrative assistance. From the high-energy Hongik Festival to student galleries, campus life combines academic study with an unforgettable cultural experience.
 
-## 7. FAQ
+## FAQ for Prospective Hongik University Students
 
 ### Can I study at Hongik if I do not speak fluent Korean?
 Yes. You can apply to English-taught tracks in Business and Engineering. Alternatively, you can enroll in Hongik’s intensive language program to reach the required TOPIK level before starting your degree.

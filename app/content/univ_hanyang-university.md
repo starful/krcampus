@@ -50,17 +50,16 @@
   }
 }
 ---
-
 # Hanyang University: Ultimate International Student Guide
 
-## 1. University Overview
+## Hanyang University: Campus Snapshot
 Established in 1939 as South Korea's first private engineering school, Hanyang University (HYU) is a premier research-intensive institution located at 222 Wangsimni-ro, Seongdong-gu, Seoul, 04763. The university has earned the moniker "The Engine of Korea" for its pivotal role in national development, with its alumni forming the technological backbone of the country’s rapid industrialization during the mid-to-late 20th century.
 
 Today, Hanyang is a global hub hosting over 4,850 international students. The university maintains an estimated acceptance rate of 30-40% for qualified international applicants, balancing selective academic standards with a dedication to global talent. Ranked among the top 150 universities globally, Hanyang is celebrated for its world-class engineering, business programs, and outstanding career outcomes.
 
 ---
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Hanyang University
 Hanyang University provides comprehensive English-medium tracks alongside its regular Korean programs to accommodate international students.
 
 *   **Division of International Studies (DIS):** This flagship undergraduate program is conducted entirely in English, providing an interdisciplinary curriculum combining international relations, global business, law, and economics.
@@ -69,7 +68,7 @@ Hanyang University provides comprehensive English-medium tracks alongside its re
 
 ---
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Hanyang University
 Hanyang is organized into specialized colleges preparing students for global leadership.
 
 *   **College of Engineering & College of Computing:** Hanyang's world-class powerhouse, maintaining close corporate pipelines with tech giants like Samsung and Hyundai.
@@ -79,7 +78,7 @@ Hanyang is organized into specialized colleges preparing students for global lea
 
 ---
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Hanyang University
 Pursuing a degree at Hanyang University is a high-value investment. Below is an estimated breakdown of the standard academic costs for international students.
 
 ### Estimated Academic Fees (in KRW)
@@ -104,7 +103,7 @@ Pursuing a degree at Hanyang University is a high-value investment. Below is an 
 
 ---
 
-## 5. Admissions for International Students
+## International Admission Path to Hanyang University
 Admissions at Hanyang focus on academic performance, language proficiency, and cultural adaptability.
 
 ### Minimum Application Requirements
@@ -120,14 +119,14 @@ Admissions at Hanyang focus on academic performance, language proficiency, and c
 
 ---
 
-## 6. Campus Life & Location
+## Living Near Hanyang University Campus
 Located at 222 Wangsimni-ro, Seongdong-gu, Hanyang’s Seoul campus offers an exceptional urban location. A key feature is its on-campus subway station: **Hanyang University Station (Line 2)**. This allows students to reach key hotspots like Gangnam, City Hall, and Hongdae in under 20 minutes directly from the center of campus.
 
 The adjacent Wangsimni area is a thriving student hub with budget-friendly dining, cafes, and shopping centers. On campus, "Hanyang Plaza" serves as a central student gathering point. Dynamic student organizations, such as the "Hanyang Global Lions," coordinate international events, while the annual spring festival "Rachios" brings the community together with live performances by famous K-pop artists.
 
 ---
 
-## 7. FAQ
+## FAQ for Prospective Hanyang University Students
 
 ### What is the acceptance rate for international students?
 The acceptance rate is an estimated 30-40% for qualified international applicants. Students meeting core language and academic requirements have a high likelihood of admission.

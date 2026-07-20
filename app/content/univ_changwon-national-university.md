@@ -51,14 +51,13 @@
   }
 }
 ---
-
 # Ultimate Study Guide: Changwon National University (CWNU)
 
 Are you looking for an affordable, highly-ranked national university in South Korea with deep ties to global industries? Changwon National University (CWNU) is an exceptional choice. This comprehensive guide covers everything international students need to know.
 
 ---
 
-## 1. University Overview
+## Changwon National University: Campus Snapshot
 
 Changwon National University (CWNU), founded in 1969, is a premier public institution in Changwon, Gyeongsangnam-do. As a flagship national university, CWNU delivers world-class education at an affordable cost. It has a 65% acceptance rate and hosts over 680 international students.
 
@@ -66,7 +65,7 @@ Strategically integrated with the Changwon National Industrial Complex, the univ
 
 ---
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Changwon National University
 
 While Korean is the primary language at CWNU, the university offers English-mediated instruction (EMI) across several engineering and business courses. Programs in Mechatronics and Engineering provide a high proportion of classes in English.
 
@@ -74,7 +73,7 @@ For students needing Korean language training, the CWNU Korean Language Center o
 
 ---
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Changwon National University
 
 CWNU operates eight diverse faculties, providing robust academic pathways. The university’s absolute strength lies in its **College of Mechatronics**, a specialized field integrating mechanical, electrical, and computer engineering. This department is heavily funded by the Korean government to drive smart manufacturing and robotics innovation.
 
@@ -93,7 +92,7 @@ Through these faculties, CWNU maintains active partnerships with regional resear
 
 ---
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Changwon National University
 
 CWNU offers unmatched financial benefits. As a national university, its tuition fees are heavily subsidized by the government. In an exceptional move to support students, the university has set its admission fee to 0 KRW.
 
@@ -110,7 +109,7 @@ To further ease the financial burden, CWNU provides generous merit-based scholar
 
 ---
 
-## 5. Admissions for International Students
+## International Admission Path to Changwon National University
 
 Admissions at CWNU are held for the Spring (March) and Fall (September) semesters.
 
@@ -123,7 +122,7 @@ The process involves online document submission and an online faculty interview.
 
 ---
 
-## 6. Campus Life & Location
+## Living Near Changwon National University Campus
 
 Located at 20 Changwondae-hakro, Uichang-gu, Changwon, CWNU boasts a beautiful, flat campus that is highly walkable. Changwon is a planned eco-city, offering high safety, clean air, and extensive green spaces.
 
@@ -133,7 +132,7 @@ Moreover, Changwon is a global industrial hub. It hosts manufacturing headquarte
 
 ---
 
-## 7. FAQ
+## FAQ for Prospective Changwon National University Students
 
 ### What is the acceptance rate for international students?
 The international student acceptance rate is around 65%. Students who meet the academic requirements and hold the necessary language certifications stand a very strong chance of admission.

@@ -42,14 +42,13 @@ tuition:
   admission_fee: 640000
   yearly_tuition: 6180000
 ---
-
 # Comprehensive Guide to POSTECH: An Elite Destination for International Students
 
 Pohang University of Science and Technology (POSTECH), established in 1986 by POSCO, is a premier research-oriented university. Located at **77 Cheongam-ro, Nam-gu, Pohang-si, Gyeongbuk, South Korea**, POSTECH operates on a boutique scale, offering world-class laboratory resources and an elite academic environment.
 
 ---
 
-## 1. University Overview
+## Pohang University of Science and Technology: Campus Snapshot
 
 POSTECH stands as a pillar of scientific innovation in Asia, maintaining a highly selective, small-campus model. 
 
@@ -60,7 +59,7 @@ POSTECH stands as a pillar of scientific innovation in Asia, maintaining a highl
 
 ---
 
-## 2. English-Taught & International Programs
+## English Tracks & Global Study at Pohang University of Science and Technology
 
 POSTECH is a bilingual campus, utilizing English as the primary language of instruction for advanced studies.
 
@@ -75,7 +74,7 @@ The International Student and Scholar Services (ISSS) office provides comprehens
 
 ---
 
-## 3. Faculties & Academic Strengths
+## Academic Strengths That Define Pohang University of Science and Technology
 
 POSTECH’s academic structure is highly focused, spanning natural sciences and specialized engineering fields.
 
@@ -97,7 +96,7 @@ POSTECH’s academic structure is highly focused, spanning natural sciences and 
 
 ---
 
-## 4. Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships at Pohang University of Science and Technology
 
 POSTECH offers a world-class education at a fraction of Western costs, supported by heavily subsidized tuition and generous scholarship systems.
 
@@ -118,7 +117,7 @@ POSTECH offers a world-class education at a fraction of Western costs, supported
 
 ---
 
-## 5. Admissions for International Students
+## International Admission Path to Pohang University of Science and Technology
 
 With an acceptance rate under 15%, applicants must demonstrate stellar academic performance, especially in STEM subjects.
 
@@ -138,7 +137,7 @@ With an acceptance rate under 15%, applicants must demonstrate stellar academic 
 
 ---
 
-## 6. Campus Life & Location
+## Living Near Pohang University of Science and Technology Campus
 
 ### Life on Campus
 POSTECH operates a Residential College (RC) system, guaranteeing housing for freshmen and sophomores to blend living and learning. Students can join over 80 clubs covering sports, music, and robotics. The Tae-Joon Park Digital Library provides 24/7 study spaces and advanced digital databases.
@@ -150,7 +149,7 @@ Located on the southeastern coast, Pohang is an industrial powerhouse and scenic
 
 ---
 
-## 7. FAQ
+## FAQ for Prospective Pohang University of Science and Technology Students
 
 ### Q1: Do I need to speak fluent Korean to get admitted to POSTECH?
 No. POSTECH is a bilingual campus. Most advanced coursework and research meetings are held in English, though basic Korean is helpful for daily life.
@@ -163,6 +162,3 @@ Yes. POSTECH guarantees highly affordable dormitory housing for all admitted int
 
 ### Q4: Can undergraduate students participate in real research projects?
 Yes. Through the Undergraduate Research Program (URP), undergraduates can work in labs alongside professors, sometimes co-authoring papers in international journals.
-
-### Q5: Is there financial support for medical emergencies?
-Students register under the National Health Insurance Service (NHIS) of Korea. The campus health center also provides free basic medical consultations and first aid.

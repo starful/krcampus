@@ -36,8 +36,7 @@ tuition:
   registration_fee: 100000
   textbook_fee: 50000
 ---
-
-## 1. School Overview
+## University of Ulsan Korean Language Center: Language Program Snapshot
 
 The University of Ulsan (UOU) Korean Language Center offers intensive language training for international students. Located in Korea’s industrial powerhouse, the center provides a focused academic environment with a capacity of 300 students. This ensures personalized attention and strong administrative support.
 
@@ -48,7 +47,7 @@ The center is ideal for students seeking quality education in a safe, cost-effic
 
 ---
 
-## 2. Programs & Schedule
+## Courses & Term Calendar at University of Ulsan Korean Language Center
 
 The **Regular Program** runs four terms per year (Spring, Summer, Autumn, and Winter) and covers levels 1 (beginner) to 6 (advanced).
 
@@ -69,7 +68,7 @@ The **Regular Program** runs four terms per year (Spring, Summer, Autumn, and Wi
 
 ---
 
-## 3. Tuition & Fees
+## What Studying at University of Ulsan Korean Language Center Costs
 
 UOU offers highly competitive costs. Students applying for a D-4 visa must register and pay for a minimum of two terms (6 months).
 
@@ -87,7 +86,7 @@ UOU offers highly competitive costs. Students applying for a D-4 visa must regis
 
 ---
 
-## 4. Admissions & D-4 Visa Steps
+## D-4 Visa & Admission Steps for University of Ulsan Korean Language Center
 
 To study for more than 90 days, you must obtain a D-4 (General Student) visa:
 
@@ -100,7 +99,7 @@ To study for more than 90 days, you must obtain a D-4 (General Student) visa:
 
 ---
 
-## 5. TOPIK & University Pathway
+## TOPIK Progress & Degree Paths via University of Ulsan Korean Language Center
 
 UOU provides structured preparation and pathways for students pursuing higher education in Korea:
 
@@ -111,7 +110,7 @@ UOU provides structured preparation and pathways for students pursuing higher ed
 
 ---
 
-## 6. Dormitory & Living in the City
+## Housing Options Around University of Ulsan Korean Language Center
 
 * **On-Campus Dormitory:** Double-occupancy rooms equipped with desks, wardrobes, and internet. Facilities include laundry rooms, study lounges, and gyms. Costs range from 800,000 to 1,200,000 KRW per 4-month semester (meals excluded).
 * **Cultural Experience Programs:** Activities include pottery making, Taekwondo, city tours of Taehwagang National Garden, and visits to nearby industrial sites.
@@ -119,7 +118,7 @@ UOU provides structured preparation and pathways for students pursuing higher ed
 
 ---
 
-## 7. FAQ
+## FAQ for University of Ulsan Korean Language Center Learners
 
 ### Can I apply if I only graduated from high school?
 Yes. The minimum requirement is a high school diploma. You must submit your graduation certificate with an Apostille or Korean Consular seal.
