@@ -9,9 +9,10 @@
   ],
   "description": "When and how to renew your Alien Registration Card.",
   "thumbnail": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500",
-  "date": "2026-06-30"
+  "date": "2026-07-20"
 }
 ---
+
 
 # ARC Renewal Guide for Degree Students
 

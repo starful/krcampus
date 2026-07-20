@@ -9,9 +9,10 @@
   ],
   "description": "Work hour limits and common jobs.",
   "thumbnail": "https://images.unsplash.com/photo-1556740758-90de374c12ad?w=500",
-  "date": "2026-06-09"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Part-time Work Rules for Students in Korea
 

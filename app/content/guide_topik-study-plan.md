@@ -9,9 +9,10 @@
   ],
   "description": "Structured TOPIK prep schedule.",
   "thumbnail": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500",
-  "date": "2026-06-09"
+  "date": "2026-07-20"
 }
 ---
+
 
 # 3-Month TOPIK Study Plan: Your Guide to Studying in Korea
 

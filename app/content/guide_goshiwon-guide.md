@@ -9,11 +9,12 @@
   ],
   "description": "A complete guide to finding, booking, and living in a Korean Goshiwon as an international student.",
   "thumbnail": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500",
-  "date": "2026-06-09",
+  "date": "2026-07-20",
   "seo_title": "The Ultimate Goshiwon Guide for Students in Korea | KR Campus",
   "seo_description": "Looking for budget housing in Korea? Learn everything about Goshiwon costs, amenities, pros & cons, and booking tips in our ultimate student guide."
 }
 ---
+
 
 
 # Goshiwon Guide for Korea Students

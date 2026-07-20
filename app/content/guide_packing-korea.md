@@ -9,9 +9,10 @@
   ],
   "description": "Seasonal packing checklist.",
   "thumbnail": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=500",
-  "date": "2026-06-09"
+  "date": "2026-07-20"
 }
 ---
+
 
 # What to Pack for Korea Study Abroad: The Ultimate Seasonal Checklist
 

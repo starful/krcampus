@@ -9,9 +9,10 @@
   ],
   "description": "How to save money with Seoul's unlimited transit pass.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
-  "date": "2026-07-05"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Climate Card Guide for Students in Seoul
 

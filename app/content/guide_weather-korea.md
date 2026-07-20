@@ -9,9 +9,10 @@
   ],
   "description": "Climate by season.",
   "thumbnail": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=500",
-  "date": "2026-06-14"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Korea Seasons: What Clothes to Bring
 

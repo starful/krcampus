@@ -9,9 +9,10 @@
   ],
   "description": "Living and studying in Busan.",
   "thumbnail": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=500",
-  "date": "2026-06-09"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Student Life in Busan: Costs and Culture
 

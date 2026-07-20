@@ -9,9 +9,10 @@
   ],
   "description": "Tuition and reputation tradeoffs.",
   "thumbnail": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=500",
-  "date": "2026-06-09"
+  "date": "2026-07-20"
 }
 ---
+
 
 # National vs Private Universities in Korea: Tuition, Prestige, and Support Tradeoffs
 

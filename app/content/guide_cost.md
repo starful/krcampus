@@ -9,9 +9,10 @@
   ],
   "description": "Realistic budget for tuition and living in Seoul.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
-  "date": "2026-06-09"
+  "date": "2026-07-20"
 }
 ---
+
 
 ## 1-Year Study Cost in Seoul: A Realistic Budget Guide
 

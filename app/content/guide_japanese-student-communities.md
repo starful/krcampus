@@ -9,9 +9,10 @@
   ],
   "description": "Finding support, language exchanges, and communities.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-07-08"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Japanese Student Networks and Communities in Korea: Your Guide to Connection and Support
 

@@ -9,11 +9,12 @@
   ],
   "description": "Deciding between Seoul and Incheon for language school? Compare tuition, rent, and student life to choose the perfect city for your Korean studies.",
   "thumbnail": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=500",
-  "date": "2026-06-09",
+  "date": "2026-07-20",
   "seo_title": "Seoul vs Incheon: Which City is Best to Study Korean? | KR Campus",
   "seo_description": "Seoul or Incheon? Compare tuition, rent, and top language schools to find the absolute best (and most affordable) city for your Korean studies."
 }
 ---
+
 
 
 

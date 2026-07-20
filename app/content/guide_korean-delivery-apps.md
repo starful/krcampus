@@ -9,9 +9,10 @@
   ],
   "description": "A guide on using Baemin, Coupang Eats, and Yogiyo without a Korean ID.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-07-01"
+  "date": "2026-07-20"
 }
 ---
+
 
 Welcome to South Korea! As an international student, one of the most exciting aspects of your new life will be experiencing "baedal" (배달)—Korea's world-famous food delivery culture. Whether you are pulling an all-nighter during midterms or hosting a "chimaek" (chicken and beer) party, food delivery apps will become your best friends.
 

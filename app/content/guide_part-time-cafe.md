@@ -9,9 +9,10 @@
   ],
   "description": "Common student jobs in Korea.",
   "thumbnail": "https://images.unsplash.com/photo-1556740758-90de374c12ad?w=500",
-  "date": "2026-06-09"
+  "date": "2026-07-20"
 }
 ---
+
 
 Part-Time Jobs in Cafes and Stores
 

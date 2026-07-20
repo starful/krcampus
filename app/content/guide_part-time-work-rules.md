@@ -9,9 +9,10 @@
   ],
   "description": "Legal work hours and permission steps.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-06-30"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Part-Time Work Rules for International Students in South Korea
 

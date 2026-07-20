@@ -9,9 +9,10 @@
   ],
   "description": "Planning your admission timeline.",
   "thumbnail": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=500",
-  "date": "2026-06-09"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Language School to University Pathway: Planning Your Admission Timeline
 

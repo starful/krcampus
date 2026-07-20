@@ -9,9 +9,10 @@
   ],
   "description": "Medical visit guide with phrases.",
   "thumbnail": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=500",
-  "date": "2026-06-09"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Using Clinics and Hospitals in Korea
 
