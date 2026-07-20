@@ -64,11 +64,13 @@
     "quarterly_tuition": 1800000,
     "textbook_fee": 60000
   },
-  "description": "Study Korean at Seoul National University (SNU LEI). Check 2026 tuition, application steps, and student guides on KR Campus.",
-  "seo_title": "SNU Korean Language Program: 2026 Tuition & Guide | KR Campus",
-  "seo_description": "Study Korean at Seoul National University (SNU LEI). Check 2026 tuition, application steps, and student guides on KR Campus."
+  "description": "Apply to Seoul National University (SNU) Korean Language Program. Find 2026 tuition, requirements, and step-by-step application guides on KR Campus.",
+  "seo_title": "SNU Korean Language Program (LEI) 2026 Guide | KR Campus",
+  "seo_description": "Apply to Seoul National University (SNU) Korean Language Program. Find 2026 tuition, requirements, and step-by-step application guides on KR Campus."
 }
 ---
+
+
 
 
 # Guide to Seoul National University Language Education Institute (SNU LEI)

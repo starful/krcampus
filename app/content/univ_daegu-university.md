@@ -49,11 +49,12 @@
     "admission_fee": 150000,
     "yearly_tuition": 7200000
   },
-  "description": "Explore Daegu University's 2026 admission guide, tuition fees, scholarships, and top programs for international students on KR Campus.",
-  "seo_title": "Daegu University 2026: Tuition & Admission | KR Campus",
-  "seo_description": "Planning to study at Daegu University? Find 2026 tuition fees, admission requirements, and scholarships for international students on KR Campus."
+  "description": "Your ultimate 2026 guide to Daegu University. Find critical details on international admissions, tuition fees, generous scholarships, and top academic programs.",
+  "seo_title": "Daegu University 2026: Admissions, Tuition & Scholarships",
+  "seo_description": "Apply to Daegu University in 2026. Get complete details on international student admissions, tuition, scholarships, and top English-taught programs."
 }
 ---
+
 
 
 # Ultimate Study Guide: Daegu University (대구대학교) for International Students

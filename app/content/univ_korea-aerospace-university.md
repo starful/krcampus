@@ -42,16 +42,17 @@
     "Highly specialized programs in Air Traffic Control and Aviation Logistics"
   ],
   "thumbnail": "/static/img/pin-univ.png",
-  "title": "Korea Aerospace University: Admission, Tuition & Programs",
+  "title": "Korea Aerospace University: 2026 Admission, Tuition & Programs",
   "tuition": {
     "admission_fee": 450000,
     "yearly_tuition": 8900000
   },
-  "description": "Explore Korea Aerospace University (KAU). Find comprehensive details on international student admissions, tuition fees, rankings, and academic programs.",
-  "seo_title": "Korea Aerospace University: Tuition & Admission | KR Campus",
-  "seo_description": "Study at Korea Aerospace University. Find up-to-date international tuition fees, admission requirements, rankings, and program details."
+  "description": "Planning to study at Korea Aerospace University (KAU)? Find 2026 international admission requirements, tuition fees, and scholarship details.",
+  "seo_title": "Korea Aerospace University (KAU) 2026 Admission & Tuition | krcampus",
+  "seo_description": "Planning to study at Korea Aerospace University (KAU)? Find 2026 international admission requirements, tuition fees, and scholarship details."
 }
 ---
+
 
 
 # Korea Aerospace University (KAU) International Student Guide

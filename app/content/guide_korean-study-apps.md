@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "korean-study-apps",
-  "title": "Best Apps to Learn Korean Before You Arrive (2026)",
+  "title": "Must-Have Apps to Learn Korean Before You Arrive (2026)",
   "category": "Preparation",
   "tags": [
     "Preparation"
   ],
-  "description": "Looking for the best apps to learn Korean? Discover the top-rated Korean learning apps to practice speaking, grammar, and vocabulary before you arrive.",
+  "description": "Planning your move or trip to Korea? Start studying early with these handpicked, top-rated apps to master Korean speaking, grammar, and vocabulary before you arrive.",
   "thumbnail": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=500",
   "date": "2026-06-09",
-  "seo_title": "10 Best Apps to Learn Korean in 2026 (Free & Paid) | KR Campus",
-  "seo_description": "Looking for the best apps to learn Korean? Discover the top-rated Korean learning apps to practice speaking, grammar, and vocabulary before you arrive."
+  "seo_title": "Must-Have Apps to Learn Korean Before You Arrive (2026) | KR Campus",
+  "seo_description": "Preparing for Korea? Here are the best Korean learning apps to master speaking, vocabulary, and grammar before your plane lands. Start learning now!"
 }
 ---
+
 
 
 # Best Apps for Learning Korean Before Arrival

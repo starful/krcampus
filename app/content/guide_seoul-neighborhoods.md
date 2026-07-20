@@ -2,16 +2,19 @@
 {
   "layout": "guide",
   "id": "seoul-neighborhoods",
-  "title": "Best Seoul Neighborhoods for Students",
+  "title": "Best Seoul Neighborhoods for International Students",
   "category": "Region",
   "tags": [
     "Region"
   ],
-  "description": "Sinchon vs Hongdae vs Gangnam for students.",
+  "description": "Discover the top areas to live in Seoul for international students. Compare student-friendly neighborhoods like Sinchon, Hongdae, and Gangnam.",
   "thumbnail": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=500",
-  "date": "2026-06-09"
+  "date": "2026-06-09",
+  "seo_title": "Best Seoul Neighborhoods for International Students | KR Campus",
+  "seo_description": "Where to live in Seoul? Compare Sinchon, Hongdae, and Gangnam to find the best student-friendly neighborhoods for international students."
 }
 ---
+
 
 # Best Seoul Neighborhoods for Students
 

@@ -2,16 +2,19 @@
 {
   "layout": "guide",
   "id": "visa",
-  "title": "Student Visa Guide for Korea (D-2 and D-4)",
+  "title": "How to Get a South Korea Student Visa (D-2 and D-4 Guide)",
   "category": "Visa",
   "tags": [
     "Visa"
   ],
-  "description": "Step-by-step visa guide for language study and degree programs in Korea.",
+  "description": "Your ultimate step-by-step guide to South Korean student visa requirements, application processes, and document checklists for international students.",
   "thumbnail": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=500",
-  "date": "2026-06-09"
+  "date": "2026-06-09",
+  "seo_title": "[2026] South Korea Student Visa Guide: D-2 & D-4 | KR Campus",
+  "seo_description": "Apply for a South Korea student visa (D-2 or D-4) with ease. Discover step-by-step requirements, documents, and tips for international students."
 }
 ---
+
 
 # Student Visa Guide for Korea (D-2 and D-4)
 

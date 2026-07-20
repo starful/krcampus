@@ -47,13 +47,17 @@
     "Vibrant student-friendly campus town located in Busan, South Korea's second-largest city."
   ],
   "thumbnail": "/static/img/pin-univ.png",
-  "title": "Pusan National University",
+  "title": "Pusan National University (PNU) Admission & Tuition Guide",
   "tuition": {
     "admission_fee": 181000,
     "yearly_tuition": 4500000
-  }
+  },
+  "description": "Your complete guide to studying at Pusan National University. Discover up-to-date tuition fees, admission requirements, and scholarship options for international students.",
+  "seo_title": "Pusan National University (PNU) Guide: Tuition & Admissions",
+  "seo_description": "Want to study at Pusan National University? Explore 2026 tuition fees, admission requirements, scholarship options, and international student guides!"
 }
 ---
+
 
 # Ultimate Study Abroad Guide: Pusan National University (PNU)
 

@@ -7,13 +7,14 @@
   "tags": [
     "Part-time"
   ],
-  "description": "Discover how to find internships in Korea for international students. This 2026 guide covers visa requirements, English-friendly host companies, and proven application strategies.",
+  "description": "How to find internships in Korea for international students. Learn about visa rules (D-2/D-10), English-friendly companies, and top application tips.",
   "thumbnail": "https://images.unsplash.com/photo-1556740758-90de374c12ad?w=500",
   "date": "2026-06-09",
-  "seo_title": "Internships in Korea for International Students (2026) | KR Campus",
-  "seo_description": "Find English-friendly internships in Korea for international students. Learn about visa rules (D-2, D-10), top companies, and application tips."
+  "seo_title": "Internships in Korea for International Students (2026) | KRCampus",
+  "seo_description": "How to find internships in Korea for international students. Learn about visa rules (D-2/D-10), English-friendly companies, and top application tips."
 }
 ---
+
 
 
 

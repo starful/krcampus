@@ -2,16 +2,19 @@
 {
   "layout": "guide",
   "id": "dorm-application",
-  "title": "How to Apply for University Dormitories in Korea",
+  "title": "How to Apply for University Dormitories in Korea (2026 Guide)",
   "category": "Housing",
   "tags": [
     "Housing"
   ],
-  "description": "Dorm priority and deadlines.",
+  "description": "Learn how to apply for university dorms in Korea. Step-by-step guide on eligibility, deadlines, and tips to secure your campus housing. Read now!",
   "thumbnail": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500",
-  "date": "2026-06-09"
+  "date": "2026-06-09",
+  "seo_title": "How to Secure a University Dorm in Korea: 2026 Guide | KR Campus",
+  "seo_description": "Learn how to apply for university dorms in Korea. Step-by-step guide on eligibility, deadlines, and tips to secure your campus housing. Read now!"
 }
 ---
+
 
 # How to Apply for University Dormitories in Korea
 

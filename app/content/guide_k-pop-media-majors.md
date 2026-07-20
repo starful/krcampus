@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "k-pop-media-majors",
-  "title": "K-pop & Media Majors in Korea: Complete 2026 University Guide",
+  "title": "K-Pop & Media Majors in Korea: Ultimate 2026 Guide",
   "category": "Selection",
   "tags": [
     "Selection"
   ],
-  "description": "Discover top Korean university majors in K-pop and media. Learn about programs, entry requirements, and career paths in the K-entertainment industry.",
+  "description": "Discover the best Korean universities for K-pop and media majors. Learn about requirements, programs, and career paths in the K-entertainment industry.",
   "thumbnail": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=500",
   "date": "2026-06-09",
-  "seo_title": "How to Study K-Pop in Korea: Best Majors & Universities (2026)",
-  "seo_description": "Dream of working in K-pop? Find the best Korean university programs, media majors, and career paths to launch your global entertainment career."
+  "seo_title": "Study K-Pop & Media in Korea: 2026 Guide | KRCampus",
+  "seo_description": "Want to work in the K-pop industry? Discover top Korean universities for media and K-pop majors, entry requirements, and career paths for 2026."
 }
 ---
+
 
 
 
