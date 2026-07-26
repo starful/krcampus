@@ -149,7 +149,7 @@ def expand_ja_file(en_fp: Path) -> dict:
         return {"file": en_fp.name, "status": "skip", "msg": "unknown kind"}
 
     body_en = post.content or ""
-    en_ok, en_reason = validate_body(kind, body_en)
+    en_ok, en_reason = validate_body(kind, body_en, allow_too_long=True)
     if not en_ok:
         return {"file": en_fp.name, "status": "fail", "msg": f"EN not ready: {en_reason}"}
 

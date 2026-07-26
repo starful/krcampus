@@ -54,7 +54,7 @@ def translate_file(filepath):
             return {"status": "error", "file": filename, "msg": "translation failed"}
 
         new_meta, new_body = result
-        ok, reason = validate_body(kind, new_body)
+        ok, reason = validate_body(kind, new_body, allow_too_long=True)
 
         with open(target_path, "w", encoding="utf-8") as f:
             f.write("---\n")

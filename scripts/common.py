@@ -2,7 +2,8 @@ import os
 import json
 import re
 import logging
-import google.generativeai as genai
+import sys
+from pathlib import Path
 from dotenv import load_dotenv
 
 # 환경 변수 로드
@@ -43,13 +44,14 @@ def remove_content_artifacts(md_path: str | os.PathLike[str]) -> bool:
     return removed
 
 
-# Gemini 모델 설정 함수
 def setup_gemini():
-    api_key = os.getenv("GEMINI_API_KEY")
-    if not api_key:
-        raise ValueError("GEMINI_API_KEY is missing in .env")
-    genai.configure(api_key=api_key)
-    return genai.GenerativeModel('gemini-flash-latest')
+    """Claude CLI subscription (name kept for call-site compatibility)."""
+    _shared = Path(__file__).resolve().parents[2] / "shared"
+    if str(_shared) not in sys.path:
+        sys.path.insert(0, str(_shared))
+    from site_llm import setup_claude_model
+
+    return setup_claude_model()
 
 # JSON/Markdown 정제 함수
 def clean_json_response(text):

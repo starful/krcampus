@@ -88,10 +88,11 @@ def _check_content_lengths() -> tuple[list[CheckResult], list[CheckResult]]:
         if not kind:
             continue
         body = post.content or ""
-        ok, reason = validate_body(kind, body)
+        ok, reason = validate_body(kind, body, allow_too_long=True)
         label = f"{fp.name} ({len(body.strip())} chars)"
         if ok:
-            passed.append(CheckResult(True, f"content length EN: {label}"))
+            note = f" — {reason}" if reason.startswith("warning:") else ""
+            passed.append(CheckResult(True, f"content length EN: {label}{note}"))
         else:
             failed.append(CheckResult(False, f"content length EN: {label} — {reason}"))
 
@@ -101,9 +102,10 @@ def _check_content_lengths() -> tuple[list[CheckResult], list[CheckResult]]:
         ja_post = frontmatter.load(ja_fp)
         ja_body = ja_post.content or ""
         ja_label = f"{ja_fp.name} ({len(ja_body.strip())} chars)"
-        ja_ok, ja_reason = validate_body(kind, ja_body)
+        ja_ok, ja_reason = validate_body(kind, ja_body, allow_too_long=True)
         if ja_ok:
-            passed.append(CheckResult(True, f"content length JA: {ja_label}"))
+            note = f" — {ja_reason}" if ja_reason.startswith("warning:") else ""
+            passed.append(CheckResult(True, f"content length JA: {ja_label}{note}"))
         else:
             failed.append(CheckResult(False, f"content length JA: {ja_label} — {ja_reason}"))
 

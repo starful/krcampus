@@ -11,7 +11,7 @@ from batch_limits import guide_limit
 from common import setup_logging, remove_content_artifacts, DATA_DIR, CONTENT_DIR, LOG_DIR
 from content_generator import generate_english_body
 from content_quality import is_deleted_guide
-from content_specs import validate_body
+from content_specs import validate_body_for_save
 from topic_queue_csv import resolve as resolve_queue_csv
 
 # --- 설정 ---
@@ -83,11 +83,14 @@ def process_topic(row):
         remove_content_artifacts(filepath)
         return f"❌ Failed: {slug}"
 
-    ok, reason = validate_body("guide", content_body)
+    ok, reason = validate_body_for_save("guide", content_body)
     if not ok:
         logging.warning(f"guide {slug}: {reason}")
         remove_content_artifacts(filepath)
         return f"❌ Failed validation: {slug} — {reason}"
+    if reason.startswith("warning:"):
+        logging.warning(f"guide {slug}: {reason}")
+        print(f"  ⚠ guide {slug}: {reason}", flush=True)
 
     thumbnail_url = get_thumbnail(row['category'])
     frontmatter_data = {

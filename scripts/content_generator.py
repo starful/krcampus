@@ -1,4 +1,4 @@
-"""Shared Gemini body generation with length validation (1 call per EN/JA target)."""
+"""Shared Claude body generation with length validation (1 call per EN/JA target)."""
 
 from __future__ import annotations
 
@@ -6,8 +6,6 @@ import json
 import os
 import time
 from typing import Any
-
-from google.generativeai.types import GenerationConfig
 
 from common import clean_json_response, setup_gemini
 from content_quality import ENTITY_QUALITY_PROMPT_RULES, GUIDE_QUALITY_PROMPT_RULES
@@ -17,10 +15,22 @@ model = setup_gemini()
 
 MAX_ATTEMPTS = max(1, int(os.getenv("KRCAMPUS_MAX_ATTEMPTS", "1")))
 META_ATTEMPTS = max(1, int(os.getenv("KRCAMPUS_META_ATTEMPTS", "1")))
-ENABLE_CONDENSE = os.getenv("KRCAMPUS_CONDENSE", "0").strip().lower() in ("1", "true", "yes")
+# Default on: try one Claude shorten pass before soft-accepting oversized drafts.
+ENABLE_CONDENSE = os.getenv("KRCAMPUS_CONDENSE", "1").strip().lower() not in (
+    "0",
+    "false",
+    "no",
+)
 CONDENSE_ATTEMPTS = 1 if ENABLE_CONDENSE else 0
+# Soft-keep oversized drafts when structure is otherwise OK (do not discard).
+SOFT_ACCEPT_TOO_LONG = os.getenv("KRCAMPUS_SOFT_TOO_LONG", "1").strip().lower() not in (
+    "0",
+    "false",
+    "no",
+)
 
-_JSON_CONFIG = GenerationConfig(response_mime_type="application/json")
+# Kept for call-site compatibility; Claude shim ignores generation_config.
+_JSON_CONFIG = None
 
 
 def _retry_sleep(exc: Exception, attempt: int) -> None:
@@ -237,6 +247,24 @@ def _try_condense(kind: ContentKind, body: str, reason: str, *, attempts: int | 
     return None
 
 
+def _resolve_oversized(kind: ContentKind, body: str, reason: str) -> str | None:
+    """Condense if possible; otherwise soft-accept when structure is OK."""
+    condensed = _try_condense(kind, body, reason)
+    if condensed:
+        return condensed
+    if not SOFT_ACCEPT_TOO_LONG:
+        return None
+    ok, soft_reason = validate_body(kind, body, allow_too_long=True)
+    if not ok:
+        return None
+    print(
+        f"  soft-accept oversized {kind}: {soft_reason} "
+        f"({len(body.strip())} chars)",
+        flush=True,
+    )
+    return body.strip()
+
+
 def _generate_body(kind: ContentKind, meta: dict, *, guide_extra: str = "", lang: str = "en") -> str | None:
     if lang != "en":
         return None
@@ -277,9 +305,9 @@ def _generate_body(kind: ContentKind, meta: dict, *, guide_extra: str = "", lang
             _retry_sleep(exc, attempt)
 
     if body.strip() and last_reason.startswith("too long"):
-        condensed = _try_condense(kind, body, last_reason)
-        if condensed:
-            return condensed
+        kept = _resolve_oversized(kind, body, last_reason)
+        if kept:
+            return kept
     if last_reason and last_reason != "unknown":
         print(f"  generate_english_body failed: {last_reason}", flush=True)
     return None
@@ -293,9 +321,9 @@ def _parse_unified_response(kind: ContentKind, data: dict[str, Any]) -> tuple[di
     if not ok:
         print(f"  unified {kind} validation failed: {reason} ({len(body)} chars)", flush=True)
         if reason.startswith("too long"):
-            condensed = _try_condense(kind, body, reason)
-            if condensed:
-                body = condensed
+            kept = _resolve_oversized(kind, body, reason)
+            if kept:
+                body = kept
             else:
                 return None
         else:
@@ -307,7 +335,7 @@ def _parse_unified_response(kind: ContentKind, data: dict[str, Any]) -> tuple[di
 def generate_school_en_unified(
     name_ko: str, name_en: str, region: str, city: str
 ) -> tuple[dict[str, Any], str] | None:
-    """One Gemini call: metadata + EN markdown body for a language institute."""
+    """One Claude call: metadata + EN markdown body for a language institute."""
     prompt = _school_unified_prompt(name_ko, name_en, region, city)
     last_err = "unknown"
     for attempt in range(MAX_ATTEMPTS):
@@ -328,7 +356,7 @@ def generate_school_en_unified(
 def generate_university_en_unified(
     name_ko: str, name_en: str, region: str
 ) -> tuple[dict[str, Any], str] | None:
-    """One Gemini call: metadata + EN markdown body for a university."""
+    """One Claude call: metadata + EN markdown body for a university."""
     prompt = _university_unified_prompt(name_ko, name_en, region)
     last_err = "unknown"
     for attempt in range(MAX_ATTEMPTS):
@@ -368,7 +396,7 @@ def refresh_school_meta(meta: dict) -> dict:
 
 
 def translate_to_japanese(kind: ContentKind, meta: dict, body_en: str) -> tuple[dict, str] | None:
-    """One Gemini call: EN meta+body → JA meta+body."""
+    """One Claude call: EN meta+body → JA meta+body."""
     spec = SPECS[kind]
     target = spec["target"]
     max_chars = spec["max_chars"]
@@ -415,9 +443,9 @@ Input:
             _retry_sleep(exc, attempt)
 
     if new_body.strip() and last_reason.startswith("too long"):
-        condensed = _try_condense(kind, new_body, last_reason)
-        if condensed:
-            return new_meta, condensed
+        kept = _resolve_oversized(kind, new_body, last_reason)
+        if kept:
+            return new_meta, kept
     if last_reason != "unknown":
         print(f"  translate_to_japanese failed: {last_reason}", flush=True)
     return None

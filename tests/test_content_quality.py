@@ -5,16 +5,34 @@ from __future__ import annotations
 import sys
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 
 from content_quality import is_deleted_guide, template_heading_issues  # noqa: E402
-from content_specs import validate_body  # noqa: E402
+from content_specs import validate_body, validate_body_for_save  # noqa: E402
 
 
 def _mid_pad() -> str:
     # Keep total body inside university 5500–7500 band across 5–7 sections.
     return ("Korea campus detail for international students. ") * 18
+
+
+def _valid_structure_body(*, pad: str | None = None) -> str:
+    pad = pad or _mid_pad()
+    table = (
+        "| Fee | KRW |\n| --- | --- |\n| Tuition | 4,000,000 |\n\n"
+        "| Item | Note |\n| --- | --- |\n| Dorm | Optional |\n"
+    )
+    return (
+        f"## Why students choose this Seoul campus\n{pad}\n"
+        f"## English pathways that actually exist\n{pad}\n"
+        f"## Faculties with international intake\n{pad}\n"
+        f"## Tuition snapshot and scholarships\n{table}\n{pad}\n"
+        f"## Admissions timeline for foreigners\n{pad}\n"
+        f"## Living near campus\n{pad}\n"
+        f"## FAQ for applicants\n### Q1?\nA1\n### Q2?\nA2\n### Q3?\nA3\n### Q4?\nA4\n### Q5?\nA5\n"
+    )
 
 
 class ContentQualityTests(unittest.TestCase):
@@ -76,6 +94,47 @@ class ContentQualityTests(unittest.TestCase):
 
     def test_empty_diet_plan_lookups(self):
         self.assertFalse(is_deleted_guide("housing"))
+
+    def test_too_long_hard_fail_by_default(self):
+        body = _valid_structure_body(pad=("Korea campus detail for international students. ") * 40)
+        self.assertGreater(len(body.strip()), 7500)
+        ok, reason = validate_body("university", body)
+        self.assertFalse(ok)
+        self.assertTrue(reason.startswith("too long"), reason)
+
+    def test_too_long_soft_accept_for_save(self):
+        body = _valid_structure_body(pad=("Korea campus detail for international students. ") * 40)
+        self.assertGreater(len(body.strip()), 7500)
+        ok, reason = validate_body_for_save("university", body)
+        self.assertTrue(ok, reason)
+        self.assertTrue(reason.startswith("warning: too long"), reason)
+
+    def test_too_long_still_rejects_template_structure(self):
+        pad = ("Korea campus detail for international students. ") * 40
+        table = "| A | B |\n| --- | --- |\n| 1 | 2 |\n\n| C | D |\n| --- | --- |\n| 3 | 4 |\n"
+        body = (
+            f"## 1. University Overview\n{pad}\n"
+            f"## 2. English-Taught & International Programs\n{pad}\n"
+            f"## 3. Faculties & Academic Strengths\n{pad}\n"
+            f"## 4. Tuition, Fees & Scholarships\n{table}\n{pad}\n"
+            f"## 5. Admissions for International Students\n{pad}\n"
+        )
+        ok, reason = validate_body_for_save("university", body)
+        self.assertFalse(ok)
+        self.assertIn("template headings", reason)
+
+    def test_resolve_oversized_soft_accepts_without_condense(self):
+        import content_generator as cg
+
+        body = _valid_structure_body(pad=("Korea campus detail for international students. ") * 40)
+        with (
+            patch.object(cg, "ENABLE_CONDENSE", False),
+            patch.object(cg, "SOFT_ACCEPT_TOO_LONG", True),
+            patch.object(cg, "_try_condense", return_value=None),
+        ):
+            kept = cg._resolve_oversized("university", body, f"too long ({len(body)} > 7500)")
+        self.assertIsNotNone(kept)
+        self.assertEqual(kept, body.strip())
 
 
 if __name__ == "__main__":

@@ -72,15 +72,24 @@ def count_tables(body: str) -> int:
     return tables
 
 
-def validate_body(kind: ContentKind, body: str) -> tuple[bool, str]:
+def validate_body(
+    kind: ContentKind,
+    body: str,
+    *,
+    allow_too_long: bool = False,
+) -> tuple[bool, str]:
+    """Validate body structure and length.
+
+    Structure (min length, H2, tables, template headings) always hard-fails.
+    Over-max length hard-fails unless ``allow_too_long`` — then returns
+    ``(True, "warning: too long …")`` so callers can soft-accept.
+    """
     from content_quality import template_heading_issues
 
     spec = SPECS[kind]
     n = len(body.strip())
     if n < spec["min_chars"]:
         return False, f"too short ({n} < {spec['min_chars']})"
-    if n > spec["max_chars"]:
-        return False, f"too long ({n} > {spec['max_chars']})"
     h2 = count_h2(body)
     if h2 < spec["min_h2"]:
         return False, f"need {spec['min_h2']}+ H2 sections (has {h2})"
@@ -90,7 +99,17 @@ def validate_body(kind: ContentKind, body: str) -> tuple[bool, str]:
     template_issues = template_heading_issues(body, threshold=3)
     if template_issues:
         return False, template_issues[0]
+    if n > spec["max_chars"]:
+        msg = f"too long ({n} > {spec['max_chars']})"
+        if allow_too_long:
+            return True, f"warning: {msg}"
+        return False, msg
     return True, "ok"
+
+
+def validate_body_for_save(kind: ContentKind, body: str) -> tuple[bool, str]:
+    """Publish gate: soft-accept over-max length; still reject structural issues."""
+    return validate_body(kind, body, allow_too_long=True)
 
 
 def length_band(kind: ContentKind) -> str:

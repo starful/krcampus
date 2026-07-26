@@ -2,18 +2,19 @@ import os
 import json
 import glob
 import frontmatter
-import google.generativeai as genai
 from dotenv import load_dotenv
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
+
+from common import setup_gemini
 
 # --- 설정 ---
 load_dotenv()
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONTENT_DIR = os.path.join(BASE_DIR, "app", "content") # 모든 파일이 이 폴더에 위치
 
-# 동시 처리 개수 (유료 API 사용 시 10~20, 무료는 1~2 권장)
-MAX_WORKERS = 10
+# Claude CLI — keep concurrency modest
+MAX_WORKERS = 3
 
 # 한 번 실행 시 번역할 최대 원본 파일 수 (Work Hub KOREAN_LIMIT, 0 이하 → 기본값)
 def _korean_batch_limit() -> int:
@@ -24,13 +25,7 @@ def _korean_batch_limit() -> int:
         n = 6
     return 6 if n <= 0 else n
 
-# API 키 설정
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-if not GEMINI_API_KEY:
-    raise ValueError("GEMINI_API_KEY is missing in .env")
-
-genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel('gemini-flash-latest')
+model = setup_gemini()
 
 def clean_json_response(text):
     text = text.replace("```json", "").replace("```", "").strip()

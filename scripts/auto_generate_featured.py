@@ -5,7 +5,7 @@ import re
 import frontmatter
 from datetime import datetime
 from common import setup_logging, DATA_DIR, CONTENT_DIR, LOG_DIR
-from content_generator import generate_english_body, _try_condense
+from content_generator import generate_english_body
 from content_specs import validate_body
 
 # --- 설정 ---
@@ -172,9 +172,11 @@ def finalize_guide_body(raw_content: str, link_index: list) -> str | None:
     if ok:
         return linked
     if reason.startswith("too long"):
-        condensed = _try_condense("guide", linked, reason)
-        if condensed:
-            return condensed
+        from content_generator import _resolve_oversized
+
+        kept = _resolve_oversized("guide", linked, reason)
+        if kept:
+            return kept
     print(f"  validation failed after links: {reason} ({len(linked.strip())} chars)")
     return None
 
