@@ -54,6 +54,7 @@ tuition:
   textbook_fee: 80000
 ---
 
+
 ## Where the Gongneung Campus Fits in Seoul's Northeastern University Belt
 
 서울과학기술대학교 한국어교육원 (Seoul National University of Science and Technology Korean Language Center, often called Seoultech) sits inside the university's Gongneung-dong campus in Nowon-gu, a quieter, residential corner of northeastern Seoul rather than the crowded language-institute strip around Hongdae or Sinchon. The campus is a five-minute walk from Gongneung Station on Line 7, giving direct subway access across the city without a maze of transfers. Because Seoultech is primarily an engineering and technology university, the language center draws a different student mix than the humanities-heavy institutes downtown — many learners here are preparing to enter Seoultech's own undergraduate or graduate programs, though the center accepts general applicants from any background.

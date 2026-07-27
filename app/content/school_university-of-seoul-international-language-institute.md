@@ -29,7 +29,7 @@
       "total_fees": 1580000
     }
   ],
-  "date": "2026-06-10",
+  "date": "2026-07-27",
   "faculties": [],
   "features": [
     "Affordable Tuition",
@@ -66,6 +66,7 @@
   }
 }
 ---
+
 # Guide to University of Seoul International Language Institute
 
 ## University of Seoul International Language Institute: Language Program Snapshot
