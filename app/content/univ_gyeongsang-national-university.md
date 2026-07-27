@@ -5,7 +5,7 @@ basic_info:
   name_en: Gyeongsang National University
   name_ko: 경상국립대학교
 category: university
-date: '2026-07-01'
+date: '2026-07-27'
 faculties:
 - College of Humanities
 - College of Social Sciences
@@ -44,6 +44,7 @@ tuition:
   admission_fee: 0
   yearly_tuition: 4100000
 ---
+
 # Gyeongsang National University (GNU) International Student Guide
 
 Choosing the right university is a pivotal decision. Located in historic Jinju, Gyeongsang National University (GNU) is a premier South Korean destination offering world-class academics, highly affordable tuition, and a welcoming community for global scholars.

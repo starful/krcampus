@@ -8,7 +8,7 @@
     "name_ja": "충북대학교"
   },
   "category": "university",
-  "date": "2026-07-05",
+  "date": "2026-07-27",
   "faculties": [
     "College of Humanities",
     "College of Social Sciences",
@@ -53,6 +53,7 @@
   }
 }
 ---
+
 
 ## 1. 大学概要
 

@@ -12,11 +12,13 @@
   ],
   "description": "Explore the top women's universities in Korea. Compare Ewha, Sookmyung, and more with our 2026 guide on rankings, scholarships, and admissions.",
   "thumbnail": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500",
-  "date": "2026-07-20",
+  "date": "2026-07-27",
   "seo_title": "Top Women's Universities in Korea: 2026 Rankings | KR Campus",
   "seo_description": "Explore the top women's universities in Korea. Compare Ewha, Sookmyung, and more with our 2026 guide on rankings, scholarships, and admissions."
 }
 ---
+
+
 
 
 

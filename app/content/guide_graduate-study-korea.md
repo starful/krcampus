@@ -9,11 +9,12 @@
   ],
   "description": "Your ultimate 2026 guide to Master's & PhD programs in Korea. Learn about admission steps, tuition costs, and fully-funded scholarships.",
   "thumbnail": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=500",
-  "date": "2026-07-20",
+  "date": "2026-07-27",
   "seo_title": "Graduate School in Korea: 2026 International Student Guide",
   "seo_description": "Your ultimate 2026 guide to Master's & PhD programs in Korea. Learn about admission steps, tuition costs, and fully-funded scholarships."
 }
 ---
+
 
 
 

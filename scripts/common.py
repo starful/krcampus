@@ -45,7 +45,18 @@ def remove_content_artifacts(md_path: str | os.PathLike[str]) -> bool:
 
 
 def setup_gemini():
-    """Claude CLI subscription (name kept for call-site compatibility)."""
+    """LLM backend for content scripts (Claude by default; Gemini if USE_GEMINI=1)."""
+    if os.getenv("USE_GEMINI", "").strip().lower() in ("1", "true", "yes"):
+        import google.generativeai as genai
+
+        api_key = (os.getenv("GEMINI_API_KEY") or "").strip()
+        if not api_key:
+            raise RuntimeError("USE_GEMINI=1 requires GEMINI_API_KEY")
+        genai.configure(api_key=api_key)
+        model_name = (os.getenv("GEMINI_MODEL") or "gemini-2.5-flash").strip()
+        print(f"LLM backend: Gemini ({model_name})", flush=True)
+        return genai.GenerativeModel(model_name)
+
     _shared = Path(__file__).resolve().parents[2] / "shared"
     if str(_shared) not in sys.path:
         sys.path.insert(0, str(_shared))

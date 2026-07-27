@@ -9,9 +9,11 @@
   ],
   "description": "Bank account steps for foreigners.",
   "thumbnail": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500",
-  "date": "2026-07-20"
+  "date": "2026-07-27"
 }
 ---
+
+
 
 
 # Opening a Korean Bank Account as a Student

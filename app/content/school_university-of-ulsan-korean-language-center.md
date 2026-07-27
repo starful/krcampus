@@ -9,7 +9,7 @@ courses:
 - admission_month: 3, 6, 9, 12
   course_name: Regular Program
   total_fees: 1200000
-date: '2026-07-05'
+date: '2026-07-27'
 faculties: []
 features:
 - On-campus Dormitory
@@ -36,6 +36,7 @@ tuition:
   registration_fee: 100000
   textbook_fee: 50000
 ---
+
 ## University of Ulsan Korean Language Center: Language Program Snapshot
 
 The University of Ulsan (UOU) Korean Language Center offers intensive language training for international students. Located in Korea’s industrial powerhouse, the center provides a focused academic environment with a capacity of 300 students. This ensures personalized attention and strong administrative support.

@@ -9,11 +9,12 @@
   ],
   "description": "Discover the best Korean universities for K-pop and media majors. Learn about requirements, programs, and career paths in the K-entertainment industry.",
   "thumbnail": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=500",
-  "date": "2026-07-20",
+  "date": "2026-07-27",
   "seo_title": "Study K-Pop & Media in Korea: 2026 Guide | KRCampus",
   "seo_description": "Want to work in the K-pop industry? Discover top Korean universities for media and K-pop majors, entry requirements, and career paths for 2026."
 }
 ---
+
 
 
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Chungbuk National University
   name_ko: 충북대학교
 category: university
-date: '2026-07-05'
+date: '2026-07-27'
 faculties:
 - College of Humanities
 - College of Social Sciences
@@ -45,6 +45,7 @@ tuition:
   admission_fee: 0
   yearly_tuition: 4200000
 ---
+
 # International Student Guide: Chungbuk National University (CBNU)
 
 Chungbuk National University (충북대학교), located in Cheongju, South Korea, is one of the country’s ten prestigious Flagship National Universities. Known for world-class education and research, CBNU offers an inclusive environment for global talent. This guide covers everything international students need to know to study at CBNU.

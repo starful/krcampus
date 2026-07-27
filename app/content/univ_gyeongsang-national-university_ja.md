@@ -6,7 +6,7 @@ basic_info:
   name_ja: 경상국립대학교
   name_ko: 경상국립대학교
 category: university
-date: '2026-07-01'
+date: '2026-07-27'
 faculties:
 - College of Humanities
 - College of Social Sciences
@@ -44,6 +44,7 @@ tuition:
   admission_fee: 0
   yearly_tuition: 4100000
 ---
+
 
 ## 1. 大学概要
 

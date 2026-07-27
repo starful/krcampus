@@ -9,11 +9,12 @@
   ],
   "description": "Can you study in Korea in English? Yes! Discover 100% English-taught programs, top universities, requirements, and how to apply for 2026.",
   "thumbnail": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=500",
-  "date": "2026-07-20",
+  "date": "2026-07-27",
   "seo_title": "English-Taught Programs in Korean Universities: 2026 Guide",
   "seo_description": "Can you study in Korea in English? Yes! Discover 100% English-taught programs, top universities, requirements, and how to apply for 2026."
 }
 ---
+
 
 
 

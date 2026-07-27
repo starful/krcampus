@@ -5,7 +5,7 @@ basic_info:
   name_en: Jeonju University
   name_ko: 전주대학교
 category: university
-date: '2026-07-26'
+date: '2026-07-27'
 faculties:
 - College of Culture & Tourism
 - College of Sports Science (Taekwondo)
@@ -45,6 +45,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 5600000
 ---
+
 
 ## A Language Institute Rooted in Korea's Food and Craft Capital
 

@@ -6,7 +6,7 @@ basic_info:
   name_en: Cheongju University
   name_ko: 청주대학교
 category: university
-date: '2026-07-26'
+date: '2026-07-27'
 faculties:
 - College of Humanities
 - College of Social Sciences
@@ -41,6 +41,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 7500000
 ---
+
 
 ## Where Cheongju University Fits in Chungbuk's University Landscape
 

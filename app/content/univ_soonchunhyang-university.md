@@ -6,7 +6,7 @@ basic_info:
   name_en: Soonchunhyang University
   name_ko: 순천향대학교
 category: university
-date: '2026-07-26'
+date: '2026-07-27'
 faculties:
 - College of Medicine
 - College of Nursing
@@ -62,6 +62,7 @@ tuition:
   admission_fee: 0
   yearly_tuition: 7500000
 ---
+
 
 ## A Private University Built Around Its Own Hospitals
 

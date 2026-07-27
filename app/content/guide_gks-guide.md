@@ -9,9 +9,11 @@
   ],
   "description": "Complete guide to Global Korea Scholarship.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
-  "date": "2026-07-20"
+  "date": "2026-07-27"
 }
 ---
+
+
 
 
 # GKS (KGSP) Scholarship Guide for Korea

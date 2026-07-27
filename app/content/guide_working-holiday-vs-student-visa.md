@@ -9,9 +9,10 @@
   ],
   "description": "Compare the H-1 Working Holiday visa with D-2 and D-4 student visas for studying and living in Korea, specifically for Japanese passport holders.",
   "thumbnail": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=500",
-  "date": "2026-07-20"
+  "date": "2026-07-27"
 }
 ---
+
 
 
 Working Holiday vs. Student Visa for Korea: Which is Best?

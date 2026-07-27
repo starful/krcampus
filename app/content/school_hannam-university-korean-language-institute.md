@@ -21,7 +21,7 @@ courses:
 - admission_month: '1'
   course_name: Short-Term Intensive Winter/Summer Program
   total_fees: 850000
-date: '2026-07-26'
+date: '2026-07-27'
 faculties: []
 features:
 - TOPIK-focused curriculum with in-house mock exams
@@ -54,6 +54,7 @@ tuition:
   registration_fee: 80000
   textbook_fee: 70000
 ---
+
 
 ## Where Hannam Fits Among Daejeon's Korean Programs
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Pohang University of Science and Technology (POSTECH)
   name_ko: 포항공과대학교
 category: university
-date: '2026-07-01'
+date: '2026-07-27'
 faculties:
 - Mathematics
 - Physics
@@ -42,6 +42,7 @@ tuition:
   admission_fee: 640000
   yearly_tuition: 6180000
 ---
+
 # Comprehensive Guide to POSTECH: An Elite Destination for International Students
 
 Pohang University of Science and Technology (POSTECH), established in 1986 by POSCO, is a premier research-oriented university. Located at **77 Cheongam-ro, Nam-gu, Pohang-si, Gyeongbuk, South Korea**, POSTECH operates on a boutique scale, offering world-class laboratory resources and an elite academic environment.

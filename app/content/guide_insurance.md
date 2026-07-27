@@ -9,9 +9,10 @@
   ],
   "description": "NHI registration and costs.",
   "thumbnail": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=500",
-  "date": "2026-07-20"
+  "date": "2026-07-27"
 }
 ---
+
 
 
 # National Health Insurance for Students in Korea

@@ -9,9 +9,10 @@
   ],
   "description": "Overview of major scholarship programs.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
-  "date": "2026-07-20"
+  "date": "2026-07-27"
 }
 ---
+
 
 
 # Scholarships for International Students in Korea: The KR Campus Guide

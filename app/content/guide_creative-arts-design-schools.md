@@ -12,9 +12,10 @@
   ],
   "description": "Explore our top picks for Art & Design: Best Schools for Anime, Manga, and Creative Studies. Discover the best schools matching your career and lifestyle goals in Korea.",
   "thumbnail": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=500",
-  "date": "2026-07-20"
+  "date": "2026-07-27"
 }
 ---
+
 
 
 # Art & Design: Best Schools for Anime, Manga, and Creative Studies

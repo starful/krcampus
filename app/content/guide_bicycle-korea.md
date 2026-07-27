@@ -9,9 +9,10 @@
   ],
   "description": "Bike registration and safety.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-07-20"
+  "date": "2026-07-27"
 }
 ---
+
 
 
 Studying in South Korea on a D-2 (Degree) or D-4 (Language Trainee) visa is an incredible opportunity. Between navigating classes at top-tier universities like Seoul National University, Yonsei, or KAIST, you will need a reliable and budget-friendly mode of transportation. Cycling is one of the best ways for international students to save money on daily commutes while staying active. Korea’s cities feature remarkable cycling infrastructure, ranging from sprawling riverside paths to urban lanes.

@@ -9,9 +9,11 @@
   ],
   "description": "Bank comparison for newcomers.",
   "thumbnail": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500",
-  "date": "2026-07-20"
+  "date": "2026-07-27"
 }
 ---
+
+
 
 
 # KB vs Shinhan vs Woori for Students

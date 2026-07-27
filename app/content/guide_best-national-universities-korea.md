@@ -12,9 +12,10 @@
   ],
   "description": "Explore our top picks for Affordable Excellence: Top 5 National Universities for International Students. Discover the best schools matching your career and lifestyle goals in Korea.",
   "thumbnail": "https://images.unsplash.com/photo-1525921429624-479b6a29d84c?w=500",
-  "date": "2026-07-20"
+  "date": "2026-07-27"
 }
 ---
+
 
 
 # Affordable Excellence: Top 5 National Universities for International Students

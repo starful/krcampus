@@ -6,6 +6,7 @@ from typing import Any
 
 OK_SERIES_IDS = frozenset({"okramen", "okonsen", "okcaddie"})
 CAMPUS_IDS = frozenset({"jpcampus", "krcampus"})
+KR_SERIES_IDS = frozenset({"krcampus", "krcare"})
 STANDALONE_IDS = frozenset({"statfacts", "starful.biz"})
 
 SITE_REGISTRY: list[dict[str, Any]] = [
@@ -54,6 +55,15 @@ SITE_REGISTRY: list[dict[str, Any]] = [
         "desc_ko": "한국 유학 실전 가이드",
         "desc_ja": "韓国留学ガイド",
     },
+    {
+        "id": "krcare",
+        "url": "https://krcare.net",
+        "emoji": "💚",
+        "name": "KR Care",
+        "desc_en": "Korea medical trip care",
+        "desc_ko": "한국 의료여행 케어",
+        "desc_ja": "韓国メディカル旅行ケア",
+    },
 ]
 
 _SITES_BY_ID = {site["id"]: site for site in SITE_REGISTRY}
@@ -64,7 +74,8 @@ FOOTER_GROUPS: dict[str, list[str]] = {
     "okonsen": ["okramen", "okcaddie"],
     "okcaddie": ["okramen", "okonsen"],
     "jpcampus": ["krcampus"],
-    "krcampus": ["jpcampus"],
+    "krcampus": ["jpcampus", "krcare"],
+    "krcare": ["krcampus"],
 }
 
 # Region contextual links — OK Series sites only (no campus / statfacts / starful).
@@ -203,8 +214,10 @@ REGION_CROSS_LINKS: dict[str, list[dict[str, str]]] = {
 def _allowed_sibling_ids(current_id: str) -> frozenset[str]:
     if current_id in OK_SERIES_IDS:
         return OK_SERIES_IDS
+    if current_id == "krcare":
+        return KR_SERIES_IDS
     if current_id in CAMPUS_IDS:
-        return CAMPUS_IDS
+        return CAMPUS_IDS | frozenset({"krcare"})
     return frozenset()
 
 
@@ -228,6 +241,8 @@ def site_home_url(site_id: str, lang: str) -> str:
         return f"{base}/?lang=kr"
     if site_id == "krcampus" and lang == "ja":
         return f"{base}/?lang=ja"
+    if site_id == "krcare" and lang in ("ja", "zh", "zh_tw", "ko"):
+        return f"{base}/?lang={lang}"
     if lang == "ko" and site_id in OK_SERIES_IDS:
         return f"{base}/?lang=ko"
     return f"{base}/"
@@ -281,7 +296,7 @@ def family_section_title(lang: str | None, variant: str = "japan") -> str:
 
 
 def family_section_variant(current_id: str) -> str:
-    if current_id in CAMPUS_IDS:
+    if current_id in CAMPUS_IDS or current_id in KR_SERIES_IDS:
         return "study"
     return "japan"
 
@@ -361,25 +376,39 @@ def cross_links_for(
             if len(links) >= 2:
                 break
 
-    # Campus cluster: partner site only on detail pages.
+    # Campus / KR cluster: partner sites on detail pages.
     if current_id == "jpcampus":
         partner = _SITES_BY_ID["krcampus"]
-        partner_link = {
-            "id": "krcampus",
-            "url": site_home_url("krcampus", lang),
-            "emoji": partner["emoji"],
-            "label": site_description(partner, lang),
-        }
-        links = [partner_link]
+        links = [
+            {
+                "id": "krcampus",
+                "url": site_home_url("krcampus", lang),
+                "emoji": partner["emoji"],
+                "label": site_description(partner, lang),
+            }
+        ]
     elif current_id == "krcampus":
-        partner = _SITES_BY_ID["jpcampus"]
-        partner_link = {
-            "id": "jpcampus",
-            "url": site_home_url("jpcampus", lang),
-            "emoji": partner["emoji"],
-            "label": site_description(partner, lang),
-        }
-        links = [partner_link]
+        links = []
+        for pid in ("jpcampus", "krcare"):
+            partner = _SITES_BY_ID[pid]
+            links.append(
+                {
+                    "id": pid,
+                    "url": site_home_url(pid, lang),
+                    "emoji": partner["emoji"],
+                    "label": site_description(partner, lang),
+                }
+            )
+    elif current_id == "krcare":
+        partner = _SITES_BY_ID["krcampus"]
+        links = [
+            {
+                "id": "krcampus",
+                "url": site_home_url("krcampus", lang),
+                "emoji": partner["emoji"],
+                "label": site_description(partner, lang),
+            }
+        ]
 
     deduped: list[dict[str, str]] = []
     seen: set[str] = set()

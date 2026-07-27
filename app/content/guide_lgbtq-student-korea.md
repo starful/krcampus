@@ -9,9 +9,10 @@
   ],
   "description": "Practical context for newcomers.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-07-20"
+  "date": "2026-07-27"
 }
 ---
+
 
 
 # LGBTQ+ Student Life in Korea

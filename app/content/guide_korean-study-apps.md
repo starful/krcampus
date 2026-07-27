@@ -9,11 +9,13 @@
   ],
   "description": "Planning your move or trip to Korea? Start studying early with these handpicked, top-rated apps to master Korean speaking, grammar, and vocabulary before you arrive.",
   "thumbnail": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=500",
-  "date": "2026-07-20",
+  "date": "2026-07-27",
   "seo_title": "Must-Have Apps to Learn Korean Before You Arrive (2026) | KR Campus",
   "seo_description": "Preparing for Korea? Here are the best Korean learning apps to master speaking, vocabulary, and grammar before your plane lands. Start learning now!"
 }
 ---
+
+
 
 
 

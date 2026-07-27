@@ -9,7 +9,7 @@ courses:
 - admission_month: 3, 6, 9, 12
   course_name: Regular Program
   total_fees: 1300000
-date: '2026-07-05'
+date: '2026-07-27'
 faculties: []
 features:
 - TOPIK preparation classes
@@ -36,6 +36,7 @@ tuition:
   registration_fee: 100000
   textbook_fee: 50000
 ---
+
 ## Yeungnam University Korean Language Institute: Language Program Snapshot
 
 Yeungnam University Korean Language Institute (YU KLI), located in Gyeongsan, Gyeongsangbuk-do, is a premier institution accommodating up to 500 international students. Situated at 280 Daehak-ro, the massive, park-like campus offers an optimal learning environment with state-of-the-art academic facilities. 

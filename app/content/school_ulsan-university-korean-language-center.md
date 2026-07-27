@@ -18,7 +18,7 @@ courses:
 - admission_month: '12'
   course_name: Regular Korean Program (Level 1-6)
   total_fees: 1730000
-date: '2026-07-26'
+date: '2026-07-27'
 faculties: []
 features:
 - TOPIK I & II preparation
@@ -51,6 +51,7 @@ tuition:
   registration_fee: 80000
   textbook_fee: 80000
 ---
+
 
 ## Ulsan's Industrial Backbone Meets Academic Korean
 
