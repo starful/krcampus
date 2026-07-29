@@ -1,8 +1,8 @@
-"""Affiliate CTAs for KR Campus guides.
+"""Affiliate CTAs for KR Campus.
 
 - Amazon.co.jp search: EN + JA (Associates tag)
 - Coupang category banners: EN + JA lifestyle guides
-- Klook Travelpayouts links: arrival / eSIM / packing guides
+- Klook Travelpayouts links: arrival / eSIM / packing guides + school/university
 """
 
 from __future__ import annotations
@@ -17,6 +17,9 @@ AMAZON_TAG = os.getenv("AMAZON_ASSOCIATE_TAG", "starful06-22")
 KLOOK_URL_DEFAULT = "https://klook.tpo.mx/ED7IfKaq"
 KLOOK_URL_EN = os.getenv("KLOOK_URL_EN", KLOOK_URL_DEFAULT)
 KLOOK_URL_JA = os.getenv("KLOOK_URL_JA", KLOOK_URL_DEFAULT)
+
+SCHOOL_BOOK_KEYWORD = "TOPIK 問題集"
+UNIVERSITY_BOOK_KEYWORD = "TOPIK 問題集"
 
 DISCLOSURE_KO = (
     "이 포스팅은 쿠팡 파트너스 활동의 일환으로, "
@@ -200,28 +203,45 @@ def klook_url(*, lang: str = "en") -> str:
     return KLOOK_URL_EN
 
 
-def affiliate_context(slug: str, *, lang: str = "en") -> dict[str, Any]:
-    """Amazon.jp + Coupang (EN/JA) + Klook on arrival/eSIM/packing guides."""
+def _hidden() -> dict[str, Any]:
+    return {
+        "show_affiliate": False,
+        "show_amazon": False,
+        "show_coupang": False,
+        "show_klook": False,
+    }
+
+
+def affiliate_context(
+    slug: str = "",
+    *,
+    lang: str = "en",
+    item_type: str = "guide",
+) -> dict[str, Any]:
+    """Amazon.jp + Coupang (guides) + Klook. School/university → Amazon + Klook."""
+    kind_raw = (item_type or "guide").strip().lower()
     key = normalize_guide_slug(slug)
     is_ja = (lang or "en").lower().startswith("ja")
 
-    amazon_kw = GUIDE_AMAZON_MAP.get(key)
-    show_amazon = bool(amazon_kw)
-
-    coupang_cat_id = GUIDE_COUPANG_MAP.get(key)
-    if coupang_cat_id and coupang_cat_id not in COUPANG_CATEGORIES:
+    if kind_raw in ("school", "university"):
+        amazon_kw = (
+            SCHOOL_BOOK_KEYWORD if kind_raw == "school" else UNIVERSITY_BOOK_KEYWORD
+        )
+        show_amazon = True
+        show_coupang = False
+        show_klook = True
         coupang_cat_id = None
-    show_coupang = bool(coupang_cat_id)
-
-    show_klook = key in GUIDE_KLOOK_SLUGS
+    else:
+        amazon_kw = GUIDE_AMAZON_MAP.get(key)
+        show_amazon = bool(amazon_kw)
+        coupang_cat_id = GUIDE_COUPANG_MAP.get(key)
+        if coupang_cat_id and coupang_cat_id not in COUPANG_CATEGORIES:
+            coupang_cat_id = None
+        show_coupang = bool(coupang_cat_id)
+        show_klook = key in GUIDE_KLOOK_SLUGS
 
     if not show_amazon and not show_coupang and not show_klook:
-        return {
-            "show_affiliate": False,
-            "show_amazon": False,
-            "show_coupang": False,
-            "show_klook": False,
-        }
+        return _hidden()
 
     cat_label = ""
     if show_coupang and coupang_cat_id:
@@ -236,15 +256,24 @@ def affiliate_context(slug: str, *, lang: str = "en") -> dict[str, Any]:
             parts.append("Coupang")
         if show_klook:
             parts.append("Klook")
-        title = "留学・生活の準備 — " + " / ".join(parts) if parts else "関連リンク"
-        bits = []
-        if show_amazon:
-            bits.append(f"「Amazon.co.jp」で「{amazon_kw}」を検索")
-        if show_coupang:
-            bits.append("到着後用に Coupang カテゴリをチェック")
-        if show_klook:
-            bits.append("eSIM・空港アクセスは Klook")
-        desc = "、".join(bits) + "できます。" if bits else ""
+        if kind_raw in ("school", "university"):
+            title = "留学の準備 — " + " / ".join(parts) if parts else "関連リンク"
+            bits = []
+            if show_amazon:
+                bits.append(f"「Amazon.co.jp」で「{amazon_kw}」を検索")
+            if show_klook:
+                bits.append("eSIM・空港アクセスは Klook")
+            desc = "、".join(bits) + "できます。" if bits else ""
+        else:
+            title = "留学・生活の準備 — " + " / ".join(parts) if parts else "関連リンク"
+            bits = []
+            if show_amazon:
+                bits.append(f"「Amazon.co.jp」で「{amazon_kw}」を検索")
+            if show_coupang:
+                bits.append("到着後用に Coupang カテゴリをチェック")
+            if show_klook:
+                bits.append("eSIM・空港アクセスは Klook")
+            desc = "、".join(bits) + "できます。" if bits else ""
         amazon_label = f"Amazonで「{amazon_kw}」を検索 ↗" if amazon_kw else ""
         klook_label = "Klookで eSIM・空港アクセスを見る ↗"
         note = "アフィリエイトリンク · 新しいタブで開きます"
@@ -256,15 +285,24 @@ def affiliate_context(slug: str, *, lang: str = "en") -> dict[str, Any]:
             parts.append("Coupang")
         if show_klook:
             parts.append("Klook")
-        title = "Prep for Korea — " + " / ".join(parts) if parts else "Related links"
-        bits = []
-        if show_amazon:
-            bits.append(f"Amazon.co.jp search for 「{amazon_kw}」")
-        if show_coupang:
-            bits.append(f"Coupang «{cat_label}» for after you arrive")
-        if show_klook:
-            bits.append("Klook for eSIM & airport transfer")
-        desc = ". ".join(bits) + "." if bits else ""
+        if kind_raw in ("school", "university"):
+            title = "Prep for Korea — " + " / ".join(parts) if parts else "Related links"
+            bits = []
+            if show_amazon:
+                bits.append(f"Amazon.co.jp search for 「{amazon_kw}」")
+            if show_klook:
+                bits.append("Klook for eSIM & airport transfer")
+            desc = ". ".join(bits) + "." if bits else ""
+        else:
+            title = "Prep for Korea — " + " / ".join(parts) if parts else "Related links"
+            bits = []
+            if show_amazon:
+                bits.append(f"Amazon.co.jp search for 「{amazon_kw}」")
+            if show_coupang:
+                bits.append(f"Coupang «{cat_label}» for after you arrive")
+            if show_klook:
+                bits.append("Klook for eSIM & airport transfer")
+            desc = ". ".join(bits) + "." if bits else ""
         amazon_label = f"Search 「{amazon_kw}」 on Amazon Japan ↗" if amazon_kw else ""
         klook_label = "eSIM & airport transfer on Klook ↗"
         note = "Affiliate links · opens in a new tab"

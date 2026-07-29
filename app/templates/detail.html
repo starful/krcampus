@@ -100,7 +100,7 @@
     {# 본문 내용 #}
     <div class="detail-content">{{ content_body | safe }}</div>
 
-    {% if item_type == 'guide' %}
+    {% if item_type in ('guide', 'school', 'university') %}
     {% include 'partials/affiliate_box.html' %}
     {% endif %}
 

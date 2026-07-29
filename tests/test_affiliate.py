@@ -73,3 +73,23 @@ def test_maps_use_known_coupang_categories():
 def test_klook_slugs_are_mapped():
     for slug in GUIDE_KLOOK_SLUGS:
         assert slug in GUIDE_COUPANG_MAP or slug in GUIDE_AMAZON_MAP
+
+
+def test_school_shows_amazon_and_klook():
+    ctx = affiliate_context("school_foo", lang="en", item_type="school")
+    assert ctx["show_affiliate"] is True
+    assert ctx["show_amazon"] is True
+    assert ctx["show_klook"] is True
+    assert ctx["show_coupang"] is False
+    assert "TOPIK" in ctx["amazon_keyword"]
+    assert "ED7IfKaq" in ctx["klook_url"]
+
+
+def test_university_shows_amazon_and_klook_ja():
+    ctx = affiliate_context("univ_bar", lang="ja", item_type="university")
+    assert ctx["show_affiliate"] is True
+    assert ctx["show_amazon"] is True
+    assert ctx["show_klook"] is True
+    assert "Amazon" in ctx["affiliate_title"]
+    assert "Klook" in ctx["affiliate_title"]
+    assert "ED7IfKaq" in ctx["klook_url"]
