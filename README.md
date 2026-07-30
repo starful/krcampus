@@ -1,49 +1,82 @@
 # KR Campus
 
-Study in Korea — jpcampus-style site (FastAPI + map + guides + schools).
+**Study in Korea** — map-first platform for language schools, universities, and study-abroad guides. Sister site to [JP Campus](https://jpcampus.net) with a Korea focus and Japanese translations.
 
-## CSV (same pattern as jpcampus)
+| | |
+|--|--|
+| **Live** | [https://krcampus.net](https://krcampus.net) |
+| **GitHub** | [starful/krcampus](https://github.com/starful/krcampus) |
+| **Hub ID** | `krcampus` |
+| **GA4** | Property `540991708` · GSC `sc-domain:krcampus.net` |
 
-| File | Purpose |
-|------|---------|
-| `data/guide_topics.csv` | Study-abroad guides → `guide_*.md` |
-| `data/language_schools.csv` | Korean language institutes → `school_*.md` |
-| `data/universities.csv` | Universities → `univ_*.md` |
+## Features
 
-## Languages
+- Interactive map + list UI for schools and universities
+- Markdown CMS under `app/content` (guides, schools, universities)
+- **English** source content; **Japanese** via `scripts/3.generate_japanese_native.py`
+- SEO: canonical URLs, hreflang, sitemap, `scripts/seo_guard.py` in deploy pipeline
+- Bilingual UI (`?lang=` / i18n JSON)
 
-- **English** — source `*.md`
-- **Japanese** — translation `*_ja.md` via `scripts/3.create_japanese_content.py`
+## Tech stack
 
-## Local run
+- **Backend:** Python 3.11+, FastAPI, Uvicorn
+- **Frontend:** Jinja2, vanilla JS, Google Maps
+- **Data:** Markdown → `scripts/build_data.py` → `app/static/json/`
+- **Infra:** Docker, Cloud Build, Cloud Run
+- **AI:** Gemini (guide/school generation scripts)
+
+## Content sources
+
+| CSV | Output |
+|-----|--------|
+| `data/guide_topics.csv` | `guide_*.md` |
+| `data/language_schools.csv` | `school_*.md` |
+| `data/universities.csv` | `univ_*.md` |
+
+## OK Admin pipeline
+
+Order (configurable via env limits): AI guides → language schools → universities → (optional JA) → featured → images → optimize → build → optional SEO guard.
+
+Run from Hub **Content** tab or locally:
 
 ```bash
 cd /opt/work/krcampus
-cp .env.example .env   # set GEMINI_API_KEY, KRCAMPUS_GOOGLE_MAPS_API_KEY
 pip install -r requirements.txt
+cp .env.example .env   # GEMINI_API_KEY, KRCAMPUS_GOOGLE_MAPS_API_KEY
 python3 scripts/build_data.py
 uvicorn app.main:app --host 0.0.0.0 --port 8080
 ```
 
-Maps: set `KRCAMPUS_GOOGLE_MAPS_API_KEY` in `.env` (local) or Secret Manager `KRCAMPUS_GOOGLE_MAPS_API_KEY` (Cloud Run).
-
-Open http://127.0.0.1:8080
-
-## Routes
-
-- `/` — map + featured schools/universities/guides
-- `/schools` — language institutes
-- `/universities` — universities
-- `/guide` — study guides
-- `/school/{id}` — school/university detail
-
 ## Deploy
 
 ```bash
-./deploy.sh --content-only
+./deploy.sh --content-only              # generate + build
+./deploy.sh --deploy-only               # Cloud Run only
 ./deploy.sh --deploy-only --with-git --with-deploy
 ```
 
-## OK Admin
+Modes: `--full`, `--content-only`, `--deploy-only`. Options: `--with-git`, `--with-deploy`.
 
-`krcampus` in `sites.yaml` — pipeline: guides → language schools → universities → JA → build.
+Production deploy: merge to `main`, pull locally, then OK Admin **④ Deploy** or `./deploy.sh --deploy-only`.
+
+## GCS images
+
+- Bucket: `ok-project-assets` · prefix: `krcampus/`
+- Places types: `university`, `school`
+
+## Routes
+
+- `/` — map + featured content
+- `/schools`, `/universities`, `/guide`
+- `/school/{id}` — detail pages
+
+## Tests
+
+```bash
+pytest tests/
+```
+
+## Related
+
+- Registry: `/opt/work/sites.yaml`
+- Ops hub: [okadmin](../okadmin/README.md) · Ship workflow: [CONTRIBUTING](../okadmin/CONTRIBUTING.md)
