@@ -45,16 +45,17 @@
     "Highly Acclaimed Speaking-focused KLEC Language Program"
   ],
   "thumbnail": "/static/img/pin-univ.png",
-  "title": "Sogang University 2026: Guide for International Students",
+  "title": "Sogang University 2026: Complete Guide for International Students",
   "tuition": {
     "admission_fee": 900000,
     "yearly_tuition": 8400000
   },
-  "description": "Your comprehensive guide to Sogang University admissions, tuition fees, programs, and student life in Korea.",
-  "seo_title": "Sogang University 2026: Admissions, Tuition & Requirements",
-  "seo_description": "Get the 2026 admissions guide for Sogang University. Learn about tuition fees, English-taught programs, requirements, and application steps."
+  "description": "Explore Sogang University's admissions process, tuition costs, academic programs, scholarship opportunities, and campus life for international students seeking to study in Korea.",
+  "seo_title": "Sogang University 2026 Admissions Guide for International Students",
+  "seo_description": "Sogang University 2026: Complete admissions guide for international students. Learn about tuition, programs, scholarships, and student life in Korea."
 }
 ---
+
 ## Sogang University: Campus Snapshot
 
 Sogang University, founded in 1960 by the Society of Jesus (Jesuits), is one of South Korea's premier private research institutions. Located in Seoul, Sogang is globally recognized for its rigorous Jesuit academic tradition, which emphasizes holistic education, critical thinking, and social responsibility. With an international student body of approximately 3,200 students, the university serves as a diverse, vibrant hub for global education.

@@ -43,16 +43,17 @@
     "Highly Comprehensive Support System and Scholarships for Global Students"
   ],
   "thumbnail": "/static/img/pin-univ.png",
-  "title": "Soongsil University (2026 Guide)",
+  "title": "Soongsil University: 2026 Admissions, Tuition & Scholarships Guide",
   "tuition": {
     "admission_fee": 540000,
     "yearly_tuition": 8400000
   },
-  "description": "The complete guide to Soongsil University for international students, covering 2026 admissions, tuition, and scholarships.",
-  "seo_title": "Soongsil University 2026: Admissions, Tuition & Scholarships",
-  "seo_description": "Apply to Soongsil University in 2026! Your guide to international admissions, tuition fees, and scholarships in Seoul, Korea."
+  "description": "Complete guide to Soongsil University for international students, including 2026 admissions requirements, tuition costs, and scholarship opportunities.",
+  "seo_title": "Soongsil University 2026 Admissions | Tuition & Scholarships | KR Campus",
+  "seo_description": "Soongsil University 2026: admissions guide, tuition fees, scholarships for international students. Start your application today."
 }
 ---
+
 # Soongsil University: The Ultimate International Student Guide
 
 For students seeking heritage, technology, and a vibrant Seoul lifestyle, **Soongsil University (숭실대학교)** is an exceptional choice. Founded in 1897 as Korea's first modern university, Soongsil is a global leader in Computer Science, AI, and IT Convergence, offering international students a supportive academic environment.
