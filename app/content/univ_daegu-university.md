@@ -44,16 +44,17 @@
     "Robust Korean Language Education Center and student support"
   ],
   "thumbnail": "/static/img/pin-univ.png",
-  "title": "Daegu University: 2026 Guide for International Students",
+  "title": "Daegu University 2026: International Student Admissions & Scholarships",
   "tuition": {
     "admission_fee": 150000,
     "yearly_tuition": 7200000
   },
-  "description": "Your ultimate 2026 guide to Daegu University. Find critical details on international admissions, tuition fees, generous scholarships, and top academic programs.",
-  "seo_title": "Daegu University 2026: Admissions, Tuition & Scholarships",
-  "seo_description": "Apply to Daegu University in 2026. Get complete details on international student admissions, tuition, scholarships, and top English-taught programs."
+  "description": "2026 guide for international students at Daegu University. Admissions, tuition fees, scholarships, and application requirements in one place.",
+  "seo_title": "Daegu University 2026: International Student Admissions Guide",
+  "seo_description": "Complete 2026 admissions guide for Daegu University. Scholarships, tuition, requirements, and programs for international students studying in Korea."
 }
 ---
+
 # Ultimate Study Guide: Daegu University (대구대학교) for International Students
 
 Daegu University (DU), established in 1956, is a premier private university located in Gyeongsan, Gyeongsangbuk-do, South Korea. Known for its dedication to social welfare, specialized education, and academic innovation, the university provides an incredibly welcoming environment for global talent seeking high-quality, affordable higher education.
