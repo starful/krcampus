@@ -24,7 +24,7 @@ courses:
 - admission_month: '9'
   course_name: TOPIK Intensive Track
   total_fees: 1650000
-date: '2026-07-27'
+date: '2026-08-02'
 faculties: []
 features:
 - TOPIK prep track
@@ -53,6 +53,7 @@ tuition:
   registration_fee: 80000
   textbook_fee: 80000
 ---
+
 
 
 ## Where the Gongneung Campus Fits in Seoul's Northeastern University Belt

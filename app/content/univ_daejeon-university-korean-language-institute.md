@@ -5,7 +5,7 @@ basic_info:
   name_en: Daejeon University
   name_ko: 대전대학교
 category: university
-date: '2026-07-27'
+date: '2026-08-02'
 faculties:
 - College of Korean Medicine
 - College of Health Sciences
@@ -48,6 +48,8 @@ tuition:
   admission_fee: 100000
   yearly_tuition: 6800000
 ---
+
+
 
 
 ## Where Daejeon University Sits in Korea's Language-Program Landscape

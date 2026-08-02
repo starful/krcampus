@@ -5,7 +5,7 @@ basic_info:
   name_en: Sahmyook University
   name_ko: 삼육대학교
 category: university
-date: '2026-07-27'
+date: '2026-08-02'
 faculties:
 - School of Theology
 - College of Humanities & Social Sciences
@@ -42,6 +42,7 @@ tuition:
   admission_fee: 700000
   yearly_tuition: 8500000
 ---
+
 
 
 ## Sahmyook University: A Holistic Education in Seoul's Tranquil North

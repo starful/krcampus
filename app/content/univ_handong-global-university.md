@@ -5,7 +5,7 @@ basic_info:
   name_en: Handong Global University
   name_ko: 한동대학교
 category: university
-date: '2026-07-30'
+date: '2026-08-02'
 faculties:
 - School of Global Leadership
 - Handong International Law School
@@ -46,6 +46,7 @@ tuition:
   admission_fee: 0
   yearly_tuition: 8000000
 ---
+
 
 ## Why Pohang, Not Seoul, Is Central to the Handong Decision
 

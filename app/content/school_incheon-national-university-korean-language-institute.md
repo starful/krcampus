@@ -18,7 +18,7 @@ courses:
 - admission_month: '12'
   course_name: Regular Program (Level 1-6)
   total_fees: 1600000
-date: '2026-07-27'
+date: '2026-08-02'
 faculties: []
 features:
 - TOPIK prep
@@ -47,6 +47,7 @@ tuition:
   registration_fee: 80000
   textbook_fee: 70000
 ---
+
 
 
 ## Where This Program Sits: Songdo, Not Old Incheon

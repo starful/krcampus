@@ -5,7 +5,7 @@ basic_info:
   name_en: Woosong University
   name_ko: 우송대학교
 category: university
-date: '2026-07-27'
+date: '2026-08-02'
 faculties:
 - Woosong Language Institute (Korean Language Program)
 - School of Railroad & Transportation Systems
@@ -45,6 +45,7 @@ tuition:
   admission_fee: 150000
   yearly_tuition: 4600000
 ---
+
 
 
 ## What Woosong's Korean Language Institute Actually Offers

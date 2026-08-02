@@ -5,7 +5,7 @@ basic_info:
   name_en: Baekseok University
   name_ko: 백석대학교
 category: university
-date: '2026-07-27'
+date: '2026-08-02'
 faculties:
 - Music (Performance, Composition, Church Music)
 - Design & Visual Arts
@@ -41,6 +41,7 @@ tuition:
   admission_fee: 650000
   yearly_tuition: 7500000
 ---
+
 
 
 ## Where Baekseok Fits in Cheonan's University Landscape

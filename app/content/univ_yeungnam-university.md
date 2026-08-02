@@ -5,7 +5,7 @@ basic_info:
   name_en: Yeungnam University
   name_ko: 영남대학교
 category: university
-date: '2026-08-01'
+date: '2026-08-02'
 faculties:
 - College of Humanities
 - College of Social Sciences
@@ -56,6 +56,7 @@ tuition:
   admission_fee: 0
   yearly_tuition: 8500000
 ---
+
 
 ## Where Yeungnam University Actually Sits
 

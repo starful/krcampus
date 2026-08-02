@@ -18,7 +18,7 @@ courses:
 - admission_month: '12'
   course_name: Regular Korean Program (Winter Intake)
   total_fees: 1730000
-date: '2026-07-27'
+date: '2026-08-02'
 faculties: []
 features:
 - TOPIK-focused curriculum
@@ -51,6 +51,7 @@ tuition:
   registration_fee: 80000
   textbook_fee: 80000
 ---
+
 
 
 ## Where Nowon-gu Puts You on the Seoul Map

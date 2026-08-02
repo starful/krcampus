@@ -6,7 +6,7 @@ basic_info:
   name_en: Namseoul University
   name_ko: 남서울대학교
 category: university
-date: '2026-07-27'
+date: '2026-08-02'
 faculties:
 - Regular Korean Program (Levels 1–6)
 - Intensive Korean Program
@@ -41,6 +41,7 @@ tuition:
   admission_fee: 100000
   yearly_tuition: 5600000
 ---
+
 
 
 ## A Cheonan Campus, Not a Seoul Campus — Why That Matters

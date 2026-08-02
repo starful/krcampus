@@ -9,7 +9,7 @@ courses:
 - admission_month: '3'
   course_name: Regular Program
   total_fees: 1810000
-date: '2026-07-27'
+date: '2026-08-02'
 faculties: []
 features:
 - TOPIK prep sessions
@@ -38,6 +38,7 @@ tuition:
   registration_fee: 80000
   textbook_fee: 80000
 ---
+
 
 
 ## Why International Students Pick Hansung University's Korean Language Institute

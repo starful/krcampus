@@ -5,7 +5,7 @@ basic_info:
   name_en: Korea University Sejong Campus
   name_ko: 고려대학교 세종캠퍼스
 category: university
-date: '2026-07-27'
+date: '2026-08-02'
 faculties:
 - College of Global Business
 - College of Public Policy
@@ -42,6 +42,7 @@ tuition:
   admission_fee: 800000
   yearly_tuition: 7500000
 ---
+
 
 
 ## Gateway to Global Ambition: Discovering Korea University Sejong Campus

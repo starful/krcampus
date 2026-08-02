@@ -21,7 +21,7 @@ courses:
 - admission_month: '1'
   course_name: Winter/Summer Intensive Camp
   total_fees: 850000
-date: '2026-07-27'
+date: '2026-08-02'
 faculties: []
 features:
 - TOPIK prep
@@ -52,6 +52,7 @@ tuition:
   registration_fee: 80000
   textbook_fee: 70000
 ---
+
 
 
 

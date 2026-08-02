@@ -18,7 +18,7 @@ courses:
 - admission_month: '12'
   course_name: Regular Program
   total_fees: 1730000
-date: '2026-07-27'
+date: '2026-08-02'
 faculties: []
 features:
 - TOPIK prep
@@ -47,6 +47,7 @@ tuition:
   registration_fee: 80000
   textbook_fee: 80000
 ---
+
 
 
 Silla University's Korean Language Institute (신라대학교 한국어교육원) sits on the university's main hilltop campus in Sasang-gu, on Busan's western side, and runs a 10-week, six-level program that starts four times a year. It is one of the more affordable language institutes in a metropolitan city, which is the main reason it draws budget-conscious students from Vietnam, China, Uzbekistan, and Japan who want a D-4 visa pathway without Seoul-level living costs.

@@ -5,7 +5,7 @@ basic_info:
   name_en: Semyung University
   name_ko: 세명대학교
 category: university
-date: '2026-07-27'
+date: '2026-08-02'
 faculties:
 - College of Korean Medicine
 - College of Pharmacy
@@ -45,6 +45,7 @@ tuition:
   admission_fee: 800000
   yearly_tuition: 2800000
 ---
+
 
 
 ## Jecheon, Not Seoul: What That Means for Language Students

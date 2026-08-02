@@ -5,7 +5,7 @@ basic_info:
   name_en: Pukyong National University
   name_ko: 부경대학교
 category: university
-date: '2026-07-27'
+date: '2026-08-02'
 faculties:
 - College of Humanities and Social Sciences
 - College of Natural Sciences
@@ -45,6 +45,7 @@ tuition:
   admission_fee: 150000
   yearly_tuition: 6500000
 ---
+
 
 
 ## 부산의 해양 강국, 부경대학교 (Pukyong National University: Busan's Maritime Powerhouse)

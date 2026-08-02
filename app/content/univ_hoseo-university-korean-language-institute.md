@@ -5,7 +5,7 @@ basic_info:
   name_en: Hoseo University
   name_ko: 호서대학교
 category: university
-date: '2026-07-27'
+date: '2026-08-02'
 faculties:
 - College of Engineering
 - College of Information Technology
@@ -47,6 +47,7 @@ tuition:
   admission_fee: 100000
   yearly_tuition: 5200000
 ---
+
 
 
 Hoseo University (호서대학교) runs its Korean Language Institute out of the Asan campus in Chungcheongnam-do, roughly 50 minutes south of Seoul by KTX. For D-4 visa applicants weighing a regional language school against a Seoul institute, Hoseo's pitch is straightforward: lower living costs than the capital, a direct rail line back into the city for weekends, and a university identity built around engineering and entrepreneurship rather than the humanities-heavy image some older schools carry.

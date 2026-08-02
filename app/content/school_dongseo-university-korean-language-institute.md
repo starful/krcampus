@@ -21,7 +21,7 @@ courses:
 - admission_month: '7'
   course_name: Short-Term Intensive Camp
   total_fees: 700000
-date: '2026-07-27'
+date: '2026-08-02'
 faculties: []
 features:
 - TOPIK exam preparation
@@ -52,6 +52,7 @@ tuition:
   registration_fee: 100000
   textbook_fee: 90000
 ---
+
 
 
 ## Where Dongseo University's Korean Program Fits in Busan
