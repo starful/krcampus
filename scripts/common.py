@@ -57,7 +57,7 @@ def setup_gemini():
         print(f"LLM backend: Gemini ({model_name})", flush=True)
         return genai.GenerativeModel(model_name)
 
-    _shared = Path(__file__).resolve().parents[2] / "shared"
+    _shared = Path(__file__).resolve().parents[2] / "_shared"
     if str(_shared) not in sys.path:
         sys.path.insert(0, str(_shared))
     from site_llm import setup_claude_model
