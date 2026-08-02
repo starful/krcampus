@@ -5,7 +5,7 @@ basic_info:
   name_en: Daegu Catholic University
   name_ko: 대구가톨릭대학교
 category: university
-date: '2026-08-01'
+date: '2026-08-02'
 faculties:
 - College of Pharmacy
 - College of Nursing
@@ -52,6 +52,7 @@ tuition:
   admission_fee: 0
   yearly_tuition: 7200000
 ---
+
 
 ## Founded in 1914: A Catholic Seminary That Became a Comprehensive University
 

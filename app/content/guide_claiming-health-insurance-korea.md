@@ -9,9 +9,10 @@
   ],
   "description": "Understand your coverage, finding English-speaking clinics, and navigating the NHIS system.",
   "thumbnail": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=500",
-  "date": "2026-07-30"
+  "date": "2026-08-02"
 }
 ---
+
 
 
 # How to Use and Claim National Health Insurance in Korea

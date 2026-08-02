@@ -5,7 +5,7 @@ basic_info:
   name_en: Kumoh National Institute of Technology
   name_ko: 금오공과대학교
 category: university
-date: '2026-07-27'
+date: '2026-08-02'
 faculties:
 - College of Electronic and Information Engineering
 - College of Mechanical System Engineering
@@ -45,6 +45,7 @@ tuition:
   admission_fee: 0
   yearly_tuition: 4200000
 ---
+
 
 
 ## A National Engineering University Inside Korea's Electronics Belt

@@ -21,7 +21,7 @@ courses:
 - admission_month: Rolling
   course_name: Short-Term Intensive Course
   total_fees: 850000
-date: '2026-07-27'
+date: '2026-08-02'
 faculties: []
 features:
 - TOPIK prep
@@ -50,6 +50,7 @@ tuition:
   registration_fee: 80000
   textbook_fee: 80000
 ---
+
 
 
 ## A Small, Focused Program in the Heart of Seongbuk-gu

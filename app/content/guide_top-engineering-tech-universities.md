@@ -12,9 +12,10 @@
   ],
   "description": "Explore our top picks for Future Tech Leaders: Top Engineering Universities in Korea. Discover the best schools matching your career and lifestyle goals in Korea.",
   "thumbnail": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500",
-  "date": "2026-07-30"
+  "date": "2026-08-02"
 }
 ---
+
 
 
 # Future Tech Leaders: Top Engineering Universities in Korea

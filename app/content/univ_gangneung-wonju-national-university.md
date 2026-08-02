@@ -5,7 +5,7 @@ basic_info:
   name_en: Gangneung-Wonju National University
   name_ko: 국립강릉원주대학교
 category: university
-date: '2026-07-30'
+date: '2026-08-02'
 faculties:
 - College of Humanities
 - College of Social Sciences
@@ -47,6 +47,7 @@ tuition:
   admission_fee: 0
   yearly_tuition: 2900000
 ---
+
 
 ## A Two-Campus National University on Korea's East Coast
 

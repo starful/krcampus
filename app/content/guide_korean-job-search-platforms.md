@@ -9,9 +9,10 @@
   ],
   "description": "An overview of top job portals, networking apps, and recruitment sites for students and graduates.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-08-01"
+  "date": "2026-08-02"
 }
 ---
+
 
 
 # Best Job Search Websites and Apps in Korea for Foreigners

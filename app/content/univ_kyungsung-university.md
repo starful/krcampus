@@ -5,7 +5,7 @@ basic_info:
   name_en: Kyungsung University
   name_ko: 경성대학교
 category: university
-date: '2026-07-27'
+date: '2026-08-02'
 faculties:
 - College of Humanities
 - College of Social Sciences
@@ -47,6 +47,7 @@ tuition:
   admission_fee: 850000
   yearly_tuition: 7800000
 ---
+
 
 
 ## Discovering Kyungsung University: A Busan Academic Hub

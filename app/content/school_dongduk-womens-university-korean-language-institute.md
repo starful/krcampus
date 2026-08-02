@@ -18,7 +18,7 @@ courses:
 - admission_month: '12'
   course_name: Regular Program
   total_fees: 1660000
-date: '2026-07-27'
+date: '2026-08-02'
 faculties: []
 features:
 - TOPIK-oriented curriculum with group exam registration
@@ -47,6 +47,7 @@ tuition:
   registration_fee: 80000
   textbook_fee: 80000
 ---
+
 
 
 ## Where the Institute Sits in Seoul
