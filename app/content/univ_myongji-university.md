@@ -43,13 +43,17 @@
     "High employment rates and practical curriculum tailored to industry standards"
   ],
   "thumbnail": "/static/img/pin-univ.png",
-  "title": "Myongji University",
+  "title": "Myongji University Rankings, Tuition & Admissions 2026",
   "tuition": {
     "admission_fee": 150000,
     "yearly_tuition": 8200000
-  }
+  },
+  "description": "Check Myongji University rankings, tuition costs, and admission requirements. Compare schools and prepare your application on KR Campus.",
+  "seo_title": "Myongji University Rankings, Tuition & Admissions 2026 | KR Campus",
+  "seo_description": "Check Myongji University rankings, tuition costs, and admission requirements. Compare schools and prepare your application on KR Campus."
 }
 ---
+
 ## Myongji University: Campus Snapshot
 
 Myongji University (명지대학교), founded in 1948, is a prominent private university in South Korea known for its global outreach, academic excellence, and holistic student development. Guided by its values of love, truth, and service, Myongji hosts a diverse international community of roughly 2,800 international students.

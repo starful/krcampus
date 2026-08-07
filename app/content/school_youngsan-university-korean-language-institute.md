@@ -54,14 +54,18 @@
     "Busan Cultural Experience Tours"
   ],
   "thumbnail": "/static/img/pin-school.png",
-  "title": "Youngsan University Korean Language Institute",
+  "title": "Youngsan University Korean Language Institute | Tuition & Programs",
   "tuition": {
     "registration_fee": 50000,
     "quarterly_tuition": 1200000,
     "textbook_fee": 50000
-  }
+  },
+  "description": "Explore Youngsan University's Korean Language programs. Full tuition information, course details, and admission requirements for international students.",
+  "seo_title": "Youngsan University Korean Language Institute | Tuition & Programs",
+  "seo_description": "Explore Youngsan University's Korean Language programs. Full tuition information, course details, and admission requirements for international students."
 }
 ---
+
 ## Youngsan University Korean Language Institute: Language Program Snapshot
 
 The Youngsan University (Y'sU) Korean Language Institute in Busan (142 Bansong-ro, Haeundae-gu) accommodates up to 400 international students annually. Operating directly on the Haeundae Campus, it blends high-quality language coursework with immersive cultural education. The program is ideal for students aiming to matriculate into Korean undergraduate programs or acquire professional-level language skills. Key benefits include targeted TOPIK preparation, direct university pathway scholarships, guaranteed on-campus dormitory facilities, and structured regional field trips designed to introduce students to the culture of Busan.

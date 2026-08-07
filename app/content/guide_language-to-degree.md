@@ -2,16 +2,19 @@
 {
   "layout": "guide",
   "id": "language-to-degree",
-  "title": "Language School to University Pathway",
+  "title": "Language School to University: Korean Admission Pathway",
   "category": "Selection",
   "tags": [
     "Selection"
   ],
-  "description": "Planning your admission timeline.",
+  "description": "Guide to transitioning from language schools to Korean university degree programs with timeline and requirements",
   "thumbnail": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=500",
-  "date": "2026-07-27"
+  "date": "2026-07-27",
+  "seo_title": "Language School to University: Korean Admission Pathway 2026 | KR Campus",
+  "seo_description": "Learn the complete pathway from Korean language school to university admission. Timeline, requirements, and admission steps for degree programs."
 }
 ---
+
 
 
 
