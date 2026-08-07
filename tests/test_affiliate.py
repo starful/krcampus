@@ -1,11 +1,8 @@
-"""KR Campus affiliate: Amazon.jp + Coupang (EN/JA) + Klook."""
+"""KR Campus affiliate: Amazon.jp + Klook (no Coupang)."""
 
 from app.affiliate import (
     AMAZON_TAG,
-    COUPANG_CATEGORIES,
-    DISCLOSURE_KO,
     GUIDE_AMAZON_MAP,
-    GUIDE_COUPANG_MAP,
     GUIDE_KLOOK_SLUGS,
     affiliate_context,
     amazon_search_url,
@@ -24,28 +21,27 @@ def test_amazon_url_uses_co_jp_and_tag():
     assert AMAZON_TAG in url
 
 
-def test_english_shows_amazon_and_coupang():
+def test_english_shows_amazon_only_for_lifestyle():
     ctx = affiliate_context("dorm-application", lang="en")
     assert ctx["show_affiliate"] is True
     assert ctx["show_amazon"] is True
-    assert ctx["show_coupang"] is True
+    assert ctx["show_klook"] is False
     assert "amazon.co.jp" in ctx["amazon_search_url"]
-    assert DISCLOSURE_KO in ctx["affiliate_disclosure"]
+    assert "coupang" not in ctx["affiliate_desc"].lower()
+    assert "Coupang" not in ctx["affiliate_title"]
 
 
-def test_japanese_lifestyle_shows_amazon_and_coupang():
+def test_japanese_lifestyle_shows_amazon_only():
     ctx = affiliate_context("dorm-application", lang="ja")
     assert ctx["show_amazon"] is True
-    assert ctx["show_coupang"] is True
-    assert ctx["affiliate_category"] == "home_interior"
-    assert DISCLOSURE_KO in ctx["affiliate_disclosure"]
-    assert ctx["coupang_desktop_href"] == COUPANG_CATEGORIES["home_interior"]["desktop_href"]
+    assert ctx["show_klook"] is False
+    assert "Amazon" in ctx["affiliate_title"]
+    assert "Coupang" not in ctx["affiliate_title"]
 
 
 def test_japanese_topik_amazon_only():
     ctx = affiliate_context("topik", lang="ja")
     assert ctx["show_amazon"] is True
-    assert ctx["show_coupang"] is False
     assert ctx["show_klook"] is False
     assert "TOPIK" in ctx["amazon_keyword"]
 
@@ -64,15 +60,16 @@ def test_unmapped_visa_hides():
     assert affiliate_context("visa", lang="en")["show_affiliate"] is False
 
 
-def test_maps_use_known_coupang_categories():
-    for slug, cat in GUIDE_COUPANG_MAP.items():
-        assert cat in COUPANG_CATEGORIES, slug
-        assert slug in GUIDE_AMAZON_MAP, slug
+def test_amazon_map_keys_are_nonempty():
+    assert GUIDE_AMAZON_MAP
+    for slug, kw in GUIDE_AMAZON_MAP.items():
+        assert slug and kw
 
 
-def test_klook_slugs_are_mapped():
+def test_klook_slugs_have_amazon_or_standalone():
     for slug in GUIDE_KLOOK_SLUGS:
-        assert slug in GUIDE_COUPANG_MAP or slug in GUIDE_AMAZON_MAP
+        ctx = affiliate_context(slug, lang="en")
+        assert ctx["show_klook"] is True
 
 
 def test_school_shows_amazon_and_klook():
@@ -80,7 +77,6 @@ def test_school_shows_amazon_and_klook():
     assert ctx["show_affiliate"] is True
     assert ctx["show_amazon"] is True
     assert ctx["show_klook"] is True
-    assert ctx["show_coupang"] is False
     assert "TOPIK" in ctx["amazon_keyword"]
     assert "ED7IfKaq" in ctx["klook_url"]
 
@@ -93,3 +89,10 @@ def test_university_shows_amazon_and_klook_ja():
     assert "Amazon" in ctx["affiliate_title"]
     assert "Klook" in ctx["affiliate_title"]
     assert "ED7IfKaq" in ctx["klook_url"]
+
+
+def test_context_has_no_coupang_keys():
+    ctx = affiliate_context("dorm-application", lang="en")
+    assert "show_coupang" not in ctx
+    assert "coupang_desktop_href" not in ctx
+    assert "affiliate_disclosure" not in ctx

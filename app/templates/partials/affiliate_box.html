@@ -1,4 +1,4 @@
-{# Amazon.co.jp + Coupang banners (EN+JA) + Klook on selected guides #}
+{# Amazon.co.jp + Klook on selected guides / schools #}
 {% if show_affiliate %}
 <aside class="affiliate-box" role="complementary" aria-label="Affiliate links">
     <p class="affiliate-box__title">{{ affiliate_title }}</p>
@@ -29,40 +29,7 @@
         {% endif %}
     </div>
     {% endif %}
-    {% if show_coupang %}
-    <div class="affiliate-box__banners">
-        <a class="affiliate-box__banner affiliate-box__banner--desktop"
-           href="{{ coupang_desktop_href }}"
-           target="_blank"
-           rel="nofollow sponsored noopener noreferrer"
-           referrerpolicy="unsafe-url"
-           data-track="affiliate_coupang"
-           data-track-label="{{ affiliate_category }}-desktop">
-            <img src="{{ coupang_desktop_img }}"
-                 alt="Coupang {{ affiliate_category_label }}"
-                 width="728"
-                 height="90"
-                 loading="lazy"
-                 decoding="async">
-        </a>
-        <a class="affiliate-box__banner affiliate-box__banner--mobile"
-           href="{{ coupang_mobile_href }}"
-           target="_blank"
-           rel="nofollow sponsored noopener noreferrer"
-           referrerpolicy="unsafe-url"
-           data-track="affiliate_coupang"
-           data-track-label="{{ affiliate_category }}-mobile">
-            <img src="{{ coupang_mobile_img }}"
-                 alt="Coupang {{ affiliate_category_label }}"
-                 width="320"
-                 height="100"
-                 loading="lazy"
-                 decoding="async">
-        </a>
-    </div>
-    <p class="affiliate-box__disclosure">{{ affiliate_disclosure }}</p>
-    {% endif %}
-    {% if (show_amazon or show_klook) and not show_coupang %}
+    {% if show_amazon or show_klook %}
     <p class="affiliate-box__note">{{ affiliate_note }}</p>
     {% endif %}
 </aside>
