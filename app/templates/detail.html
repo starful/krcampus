@@ -97,12 +97,12 @@
     </div>
     {% endif %}
 
-    {# 본문 내용 #}
-    <div class="detail-content">{{ content_body | safe }}</div>
-
     {% if item_type in ('guide', 'school', 'university') %}
     {% include 'partials/affiliate_box.html' %}
     {% endif %}
+
+    {# 본문 내용 #}
+    <div class="detail-content">{{ content_body | safe }}</div>
 
     <div class="detail-cta-panel">
         <a href="/guide?lang={{ current_lang }}" class="detail-cta-btn" data-track="detail_cta" data-track-label="related_guides">
