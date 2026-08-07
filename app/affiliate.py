@@ -7,27 +7,38 @@
 from __future__ import annotations
 
 import os
-from typing import Any
+from typing import Any, Literal
 from urllib.parse import quote_plus
 
 AMAZON_TAG = os.getenv("AMAZON_ASSOCIATE_TAG", "starful06-22")
 
-# Travelpayouts krcampus Klook short link (Korea trip / eSIM — not JP onsen).
-KLOOK_URL_DEFAULT = "https://klook.tpo.mx/ED7IfKaq"
+KlookIntent = Literal["esim", "airport", "fallback"]
+
+# Travelpayouts krcampus Klook short links (also reused by krcare).
+KLOOK_URLS: dict[str, str] = {
+    "esim_en": "https://klook.tpo.mx/ei41OcMK",
+    "esim_ja": "https://klook.tpo.mx/sVI2GsrC",
+    "airport_en": "https://klook.tpo.mx/BSwK5MnY",
+    "airport_ja": "https://klook.tpo.mx/N6y8DtrW",
+    "fallback_en": "https://klook.tpo.mx/IHDxaMD6",
+    # No dedicated JA fallback — reuse esim_ja.
+    "fallback_ja": "https://klook.tpo.mx/sVI2GsrC",
+}
+
+KLOOK_URL_DEFAULT = KLOOK_URLS["fallback_en"]
 KLOOK_URL_EN = os.getenv("KLOOK_URL_EN", KLOOK_URL_DEFAULT)
-KLOOK_URL_JA = os.getenv("KLOOK_URL_JA", KLOOK_URL_DEFAULT)
+KLOOK_URL_JA = os.getenv("KLOOK_URL_JA", KLOOK_URLS["esim_ja"])
 
 SCHOOL_BOOK_KEYWORD = "TOPIK 問題集"
 UNIVERSITY_BOOK_KEYWORD = "TOPIK 問題集"
 
+GUIDE_KLOOK_ESIM: frozenset[str] = frozenset({"sim-esim-korea", "mobile"})
+GUIDE_KLOOK_AIRPORT: frozenset[str] = frozenset({"arrival"})
+GUIDE_KLOOK_FALLBACK: frozenset[str] = frozenset({"packing-korea"})
+
 # Guides that show a Klook Travelpayouts CTA (eSIM / arrival prep).
-GUIDE_KLOOK_SLUGS: frozenset[str] = frozenset(
-    {
-        "arrival",
-        "sim-esim-korea",
-        "packing-korea",
-        "mobile",
-    }
+GUIDE_KLOOK_SLUGS: frozenset[str] = (
+    GUIDE_KLOOK_ESIM | GUIDE_KLOOK_AIRPORT | GUIDE_KLOOK_FALLBACK
 )
 
 # slug → Amazon.co.jp search keyword (JP store)
@@ -87,10 +98,30 @@ def amazon_search_url(keyword: str) -> str:
     )
 
 
-def klook_url(*, lang: str = "en") -> str:
-    if (lang or "en").lower().startswith("ja"):
-        return KLOOK_URL_JA
-    return KLOOK_URL_EN
+def resolve_klook_intent(
+    slug: str = "",
+    *,
+    item_type: str = "guide",
+) -> KlookIntent:
+    kind = (item_type or "guide").strip().lower()
+    if kind in ("school", "university"):
+        return "esim"
+    key = normalize_guide_slug(slug)
+    if key in GUIDE_KLOOK_AIRPORT:
+        return "airport"
+    if key in GUIDE_KLOOK_ESIM:
+        return "esim"
+    return "fallback"
+
+
+def klook_url(*, lang: str = "en", slug: str = "", item_type: str = "guide") -> str:
+    intent = resolve_klook_intent(slug, item_type=item_type)
+    is_ja = (lang or "en").lower().startswith("ja")
+    suffix = "ja" if is_ja else "en"
+    key = f"{intent}_{suffix}"
+    if key in KLOOK_URLS:
+        return KLOOK_URLS[key]
+    return KLOOK_URL_JA if is_ja else KLOOK_URL_EN
 
 
 def _hidden() -> dict[str, Any]:
@@ -188,6 +219,8 @@ def affiliate_context(
         "amazon_button_label": amazon_label,
         "amazon_keyword": amazon_kw or "",
         "affiliate_category": "",
-        "klook_url": klook_url(lang=lang) if show_klook else "",
+        "klook_url": (
+            klook_url(lang=lang, slug=slug, item_type=kind_raw) if show_klook else ""
+        ),
         "klook_button_label": klook_label if show_klook else "",
     }

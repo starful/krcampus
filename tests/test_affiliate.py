@@ -49,10 +49,17 @@ def test_japanese_topik_amazon_only():
 def test_arrival_shows_klook():
     ctx = affiliate_context("arrival", lang="en")
     assert ctx["show_klook"] is True
-    assert "klook.tpo.mx" in ctx["klook_url"]
+    assert "BSwK5MnY" in ctx["klook_url"]
     ctx_ja = affiliate_context("arrival", lang="ja")
     assert ctx_ja["show_klook"] is True
-    assert "klook.tpo.mx" in ctx_ja["klook_url"]
+    assert "N6y8DtrW" in ctx_ja["klook_url"]
+
+
+def test_esim_guide_uses_esim_link():
+    ctx = affiliate_context("sim-esim-korea", lang="en")
+    assert "ei41OcMK" in ctx["klook_url"]
+    ctx_ja = affiliate_context("mobile", lang="ja")
+    assert "sVI2GsrC" in ctx_ja["klook_url"]
 
 
 def test_unmapped_visa_hides():
@@ -78,7 +85,7 @@ def test_school_shows_amazon_and_klook():
     assert ctx["show_amazon"] is True
     assert ctx["show_klook"] is True
     assert "TOPIK" in ctx["amazon_keyword"]
-    assert "ED7IfKaq" in ctx["klook_url"]
+    assert "ei41OcMK" in ctx["klook_url"]
 
 
 def test_university_shows_amazon_and_klook_ja():
@@ -88,7 +95,7 @@ def test_university_shows_amazon_and_klook_ja():
     assert ctx["show_klook"] is True
     assert "Amazon" in ctx["affiliate_title"]
     assert "Klook" in ctx["affiliate_title"]
-    assert "ED7IfKaq" in ctx["klook_url"]
+    assert "sVI2GsrC" in ctx["klook_url"]
 
 
 def test_context_has_no_coupang_keys():
