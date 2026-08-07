@@ -2,16 +2,19 @@
 {
   "layout": "guide",
   "id": "engineering-universities-korea",
-  "title": "Top Engineering Universities in Korea",
+  "title": "Korea's Best Engineering Universities: 2026 Complete Guide",
   "category": "Selection",
   "tags": [
     "Selection"
   ],
-  "description": "STEM study options.",
+  "description": "Discover Korea's top engineering universities. Compare rankings, programs, admissions requirements & scholarships for STEM students.",
   "thumbnail": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=500",
-  "date": "2026-07-27"
+  "date": "2026-07-27",
+  "seo_title": "Best Engineering Universities in Korea 2026 - Rankings & Programs",
+  "seo_description": "Compare Korea's top engineering universities by ranking. Explore STEM programs, admission requirements, and scholarship opportunities for students."
 }
 ---
+
 
 
 
