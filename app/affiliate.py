@@ -29,8 +29,8 @@ KLOOK_URL_DEFAULT = KLOOK_URLS["fallback_en"]
 KLOOK_URL_EN = os.getenv("KLOOK_URL_EN", KLOOK_URL_DEFAULT)
 KLOOK_URL_JA = os.getenv("KLOOK_URL_JA", KLOOK_URLS["esim_ja"])
 
-SCHOOL_BOOK_KEYWORD = "TOPIK 問題集"
-UNIVERSITY_BOOK_KEYWORD = "TOPIK 問題集"
+SCHOOL_BOOK_KEYWORD = "TOPIK II 問題集"
+UNIVERSITY_BOOK_KEYWORD = "TOPIK II 問題集"
 
 GUIDE_KLOOK_ESIM: frozenset[str] = frozenset({"sim-esim-korea", "mobile"})
 GUIDE_KLOOK_AIRPORT: frozenset[str] = frozenset({"arrival"})
@@ -41,40 +41,40 @@ GUIDE_KLOOK_SLUGS: frozenset[str] = (
     GUIDE_KLOOK_ESIM | GUIDE_KLOOK_AIRPORT | GUIDE_KLOOK_FALLBACK
 )
 
-# slug → Amazon.co.jp search keyword (JP store)
+# slug → Amazon.co.jp search keyword (JP store — pre-departure buys)
 GUIDE_AMAZON_MAP: dict[str, str] = {
     # housing / packing
     "dorm-application": "寝具セット シングル",
     "goshiwon-guide": "寝具セット シングル",
-    "housing": "収納ボックス",
-    "packing-korea": "スーツケース",
+    "housing": "衣類圧縮袋",
+    "packing-korea": "スーツケース キャリーケース",
     "seoul-neighborhoods": "旅行用圧縮袋",
-    "urban-lifestyle-seoul-schools": "収納ボックス",
-    "busan-student-life": "収納ボックス",
+    "urban-lifestyle-seoul-schools": "衣類圧縮袋",
+    "busan-student-life": "衣類圧縮袋",
     # digital / arrival
-    "arrival": "海外変換プラグ",
-    "mobile": "モバイルバッテリー",
-    "sim-esim-korea": "モバイルバッテリー",
+    "arrival": "海外変換プラグ 韓国",
+    "mobile": "モバイルバッテリー 大容量",
+    "sim-esim-korea": "モバイルバッテリー 大容量",
     "korean-study-apps": "タブレット スタンド",
-    "emergency-contacts-korea": "常備薬",
-    "t-money-guide": "交通系ICカード ケース",
-    "climate-card-seoul": "モバイルバッテリー",
+    "emergency-contacts-korea": "常備薬 セット",
+    "t-money-guide": "ネックポーチ パスポート",
+    "climate-card-seoul": "折りたたみ傘",
     # kitchen / budget
     "convenience-store-korea": "電気ケトル",
-    "korean-food-student-budget": "フライパン",
-    "korean-delivery-apps": "弁当箱",
-    "cost": "電気ケトル",
-    "monthly-budget-seoul": "水筒",
-    "monthly-budget-busan": "水筒",
+    "korean-food-student-budget": "フライパン セット",
+    "korean-delivery-apps": "箸 スプーン セット",
+    "cost": "家計簿 ノート",
+    "monthly-budget-seoul": "水筒 ステンレス",
+    "monthly-budget-busan": "水筒 ステンレス",
     # weather
     "weather-korea": "折りたたみ傘",
-    "winter-korea-student": "ダウンジャケット",
+    "winter-korea-student": "ダウンジャケット メンズ",
     "bicycle-korea": "自転車 鍵",
-    "culture-shock-korea": "常備薬",
+    "culture-shock-korea": "韓国語 会話 本",
     # study books
-    "topik": "TOPIK 問題集",
-    "topik-study-plan": "TOPIK 問題集",
-    "topik-vs-klat": "TOPIK 問題集",
+    "topik": "TOPIK II 問題集",
+    "topik-study-plan": "TOPIK II 問題集",
+    "topik-vs-klat": "TOPIK II 問題集",
 }
 
 
