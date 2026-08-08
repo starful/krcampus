@@ -1,6 +1,7 @@
 """Affiliate CTAs for KR Campus.
 
 - Amazon.co.jp search: EN + JA (Associates tag)
+- Rakuten Travel: 韓国 ホテル (school/univ + mapped pages)
 - Klook Travelpayouts links: arrival / eSIM / packing guides + school/university
 """
 
@@ -8,9 +9,14 @@ from __future__ import annotations
 
 import os
 from typing import Any, Literal
-from urllib.parse import quote_plus
+from urllib.parse import quote, quote_plus
 
 AMAZON_TAG = os.getenv("AMAZON_ASSOCIATE_TAG", "starful06-22")
+RAKUTEN_TRAVEL_HGC = os.getenv(
+    "RAKUTEN_TRAVEL_HGC", "55b9427b.a63c2df8.55b9427c.3a0d270c"
+)
+_RAKUTEN_UT = "eyJwYWdlIjoidXJsIiwidHlwZSI6InRleHQiLCJjb2wiOjF9"
+RAKUTEN_TRAVEL_KEYWORD = "韓国 ホテル"
 
 KlookIntent = Literal["esim", "airport", "fallback"]
 
@@ -98,6 +104,19 @@ def amazon_search_url(keyword: str) -> str:
     )
 
 
+def rakuten_travel_url(keyword: str = RAKUTEN_TRAVEL_KEYWORD) -> str:
+    raw = (
+        "https://kw.travel.rakuten.co.jp/keyword/Search.do?"
+        + "f_key="
+        + quote_plus(keyword)
+    )
+    pc = quote(raw, safe="")
+    return (
+        f"https://hb.afl.rakuten.co.jp/hgc/{RAKUTEN_TRAVEL_HGC}/"
+        f"?pc={pc}&link_type=text&ut={_RAKUTEN_UT}"
+    )
+
+
 def resolve_klook_intent(
     slug: str = "",
     *,
@@ -129,6 +148,7 @@ def _hidden() -> dict[str, Any]:
         "show_affiliate": False,
         "show_amazon": False,
         "show_klook": False,
+        "show_rakuten_travel": False,
     }
 
 
@@ -138,7 +158,7 @@ def affiliate_context(
     lang: str = "en",
     item_type: str = "guide",
 ) -> dict[str, Any]:
-    """Amazon.jp + Klook. School/university → Amazon + Klook."""
+    """Amazon.jp + Rakuten Travel + Klook. School/university → all three."""
     kind_raw = (item_type or "guide").strip().lower()
     key = normalize_guide_slug(slug)
     is_ja = (lang or "en").lower().startswith("ja")
@@ -149,18 +169,22 @@ def affiliate_context(
         )
         show_amazon = True
         show_klook = True
+        show_rakuten_travel = True
     else:
         amazon_kw = GUIDE_AMAZON_MAP.get(key)
         show_amazon = bool(amazon_kw)
         show_klook = key in GUIDE_KLOOK_SLUGS
+        show_rakuten_travel = show_amazon or show_klook
 
-    if not show_amazon and not show_klook:
+    if not show_amazon and not show_klook and not show_rakuten_travel:
         return _hidden()
 
     if is_ja:
         parts = []
         if show_amazon:
             parts.append("Amazon")
+        if show_rakuten_travel:
+            parts.append("楽天トラベル")
         if show_klook:
             parts.append("Klook")
         if kind_raw in ("school", "university"):
@@ -168,6 +192,8 @@ def affiliate_context(
             bits = []
             if show_amazon:
                 bits.append(f"「Amazon.co.jp」で「{amazon_kw}」を検索")
+            if show_rakuten_travel:
+                bits.append("宿泊は楽天トラベルで「韓国 ホテル」")
             if show_klook:
                 bits.append("eSIM・空港アクセスは Klook")
             desc = "、".join(bits) + "できます。" if bits else ""
@@ -176,35 +202,34 @@ def affiliate_context(
             bits = []
             if show_amazon:
                 bits.append(f"「Amazon.co.jp」で「{amazon_kw}」を検索")
+            if show_rakuten_travel:
+                bits.append("宿泊は楽天トラベルで「韓国 ホテル」")
             if show_klook:
                 bits.append("eSIM・空港アクセスは Klook")
             desc = "、".join(bits) + "できます。" if bits else ""
         amazon_label = f"Amazonで「{amazon_kw}」を検索 ↗" if amazon_kw else ""
+        rakuten_travel_label = "楽天トラベルで韓国ホテルを検索 ↗"
         klook_label = "Klookで eSIM・空港アクセスを見る ↗"
         note = "アフィリエイトリンク · 新しいタブで開きます"
     else:
         parts = []
         if show_amazon:
             parts.append("Amazon")
+        if show_rakuten_travel:
+            parts.append("Rakuten Travel")
         if show_klook:
             parts.append("Klook")
-        if kind_raw in ("school", "university"):
-            title = "Prep for Korea — " + " / ".join(parts) if parts else "Related links"
-            bits = []
-            if show_amazon:
-                bits.append(f"Amazon.co.jp search for 「{amazon_kw}」")
-            if show_klook:
-                bits.append("Klook for eSIM & airport transfer")
-            desc = ". ".join(bits) + "." if bits else ""
-        else:
-            title = "Prep for Korea — " + " / ".join(parts) if parts else "Related links"
-            bits = []
-            if show_amazon:
-                bits.append(f"Amazon.co.jp search for 「{amazon_kw}」")
-            if show_klook:
-                bits.append("Klook for eSIM & airport transfer")
-            desc = ". ".join(bits) + "." if bits else ""
+        title = "Prep for Korea — " + " / ".join(parts) if parts else "Related links"
+        bits = []
+        if show_amazon:
+            bits.append(f"Amazon.co.jp search for 「{amazon_kw}」")
+        if show_rakuten_travel:
+            bits.append("Rakuten Travel for Korea hotels")
+        if show_klook:
+            bits.append("Klook for eSIM & airport transfer")
+        desc = ". ".join(bits) + "." if bits else ""
         amazon_label = f"Search 「{amazon_kw}」 on Amazon Japan ↗" if amazon_kw else ""
+        rakuten_travel_label = "Search Korea hotels on Rakuten Travel ↗"
         klook_label = "eSIM & airport transfer on Klook ↗"
         note = "Affiliate links · opens in a new tab"
 
@@ -212,6 +237,7 @@ def affiliate_context(
         "show_affiliate": True,
         "show_amazon": show_amazon,
         "show_klook": show_klook,
+        "show_rakuten_travel": show_rakuten_travel,
         "affiliate_title": title,
         "affiliate_desc": desc,
         "affiliate_note": note,
@@ -219,6 +245,10 @@ def affiliate_context(
         "amazon_button_label": amazon_label,
         "amazon_keyword": amazon_kw or "",
         "affiliate_category": "",
+        "rakuten_travel_url": rakuten_travel_url() if show_rakuten_travel else "",
+        "rakuten_travel_button_label": (
+            rakuten_travel_label if show_rakuten_travel else ""
+        ),
         "klook_url": (
             klook_url(lang=lang, slug=slug, item_type=kind_raw) if show_klook else ""
         ),

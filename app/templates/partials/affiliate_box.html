@@ -1,9 +1,9 @@
-{# Amazon.co.jp + Klook — prominent CTA above article body #}
+{# Amazon.co.jp + Rakuten Travel + Klook — prominent CTA above article body #}
 {% if show_affiliate %}
 <aside class="affiliate-box affiliate-box--prominent" role="complementary" aria-label="Affiliate links">
     <p class="affiliate-box__title">{{ affiliate_title }}</p>
     <p class="affiliate-box__desc">{{ affiliate_desc }}</p>
-    {% if show_amazon or show_klook %}
+    {% if show_amazon or show_rakuten_travel or show_klook %}
     <div class="affiliate-box__actions">
         {% if show_amazon %}
         <a class="affiliate-box__btn affiliate-box__btn--amazon"
@@ -14,6 +14,17 @@
            data-track="affiliate_amazon"
            data-track-label="{{ affiliate_category or 'amazon' }}">
             {{ amazon_button_label }}
+        </a>
+        {% endif %}
+        {% if show_rakuten_travel and rakuten_travel_url %}
+        <a class="affiliate-box__btn affiliate-box__btn--rakuten"
+           href="{{ rakuten_travel_url }}"
+           target="_blank"
+           rel="nofollow sponsored noopener noreferrer"
+           title="Rakuten Travel"
+           data-track="affiliate_rakuten"
+           data-track-label="korea-hotel">
+            {{ rakuten_travel_button_label }}
         </a>
         {% endif %}
         {% if show_klook %}
@@ -29,7 +40,7 @@
         {% endif %}
     </div>
     {% endif %}
-    {% if show_amazon or show_klook %}
+    {% if show_amazon or show_rakuten_travel or show_klook %}
     <p class="affiliate-box__note">{{ affiliate_note }}</p>
     {% endif %}
 </aside>

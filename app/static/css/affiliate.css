@@ -58,6 +58,11 @@
     box-shadow: 0 10px 22px rgba(255, 153, 0, 0.28);
 }
 .affiliate-box__btn--amazon:hover { background: #e88b00; }
+.affiliate-box__btn--rakuten {
+    background: #bf0000;
+    box-shadow: 0 10px 22px rgba(191, 0, 0, 0.28);
+}
+.affiliate-box__btn--rakuten:hover { background: #a00000; }
 .affiliate-box__btn--klook {
     background: #166534;
     box-shadow: 0 10px 22px rgba(22, 101, 52, 0.28);
