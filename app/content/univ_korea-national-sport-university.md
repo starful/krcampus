@@ -44,16 +44,17 @@
     "Located in Seoul's vibrant Olympic Park area."
   ],
   "thumbnail": "/static/img/pin-univ.png",
-  "title": "Korea National Sport University",
+  "title": "Korea National Sport University | Top Sports Programs & Admissions Guide",
   "tuition": {
     "admission_fee": 100000,
     "yearly_tuition": 3900000
   },
-  "description": "Admissions guide with tuition information, programs, rankings, and student resources for Korea's premier sports university.",
-  "seo_title": "Korea National Sport University: Admissions, Tuition & Programs | KR Campus",
-  "seo_description": "Apply to Korea National Sport University: admissions requirements, tuition, programs & rankings. Complete 2026 guide to sports education in South Korea."
+  "description": "Korea's leading sports university. View competitive admissions, elite programs, tuition, scholarships & career pathways.",
+  "seo_title": "Korea National Sport University - Best Sports Programs & Admissions Guide",
+  "seo_description": "Korea's leading sports university. View competitive admissions, elite programs, tuition, scholarships & career pathways."
 }
 ---
+
 
 # Korea National Sport University (KNSU): The Ultimate International Student Guide
 

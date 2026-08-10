@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "convenience-store-korea",
-  "title": "Korean Convenience Stores Guide: CU, GS25 & Emart24 | KR Campus",
+  "title": "Korean Convenience Stores Guide: Shop at CU, GS25 & Emart24",
   "category": "Culture",
   "tags": [
     "Culture"
   ],
-  "description": "Your complete guide to Korean convenience stores including CU, GS25, and Emart24. Discover what to buy, how to pay, loyalty programs, and insider shopping tips for Korea's most convenient retail experience.",
+  "description": "Master Korean convenience stores: expert guide to CU, GS25, Emart24. Learn payment methods, loyalty programs, insider tips, and must-buy products for travelers.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
   "date": "2026-07-27",
-  "seo_title": "Korean Convenience Stores Guide: CU, GS25 & Emart24",
-  "seo_description": "Complete guide to Korean convenience stores: CU, GS25, Emart24. Learn how to shop, payment methods, and what to find at Korea's largest convenience store chains."
+  "seo_title": "Korean Convenience Stores Guide: CU, GS25 & Emart24 – KR Campus",
+  "seo_description": "Complete guide to Korean convenience stores. Discover CU, GS25, Emart24 with insider tips, payment methods, loyalty programs, and what to buy."
 }
 ---
+
 
 
 
