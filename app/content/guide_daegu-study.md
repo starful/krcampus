@@ -7,11 +7,14 @@
   "tags": [
     "Region"
   ],
-  "description": "Regional hub guide.",
+  "description": "Find the best universities in Daegu, South Korea. Compare programs, tuition costs, scholarships and housing for international students.",
   "thumbnail": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=500",
-  "date": "2026-07-27"
+  "date": "2026-07-27",
+  "seo_title": "Studying in Daegu, Korea: Universities, Programs & Cost Guide | KR Campus",
+  "seo_description": "Discover top universities in Daegu with programs, tuition costs & scholarships. Your complete guide to studying in South Korea."
 }
 ---
+
 
 
 

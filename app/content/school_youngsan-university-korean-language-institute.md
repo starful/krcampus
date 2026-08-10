@@ -54,17 +54,18 @@
     "Busan Cultural Experience Tours"
   ],
   "thumbnail": "/static/img/pin-school.png",
-  "title": "Youngsan University Korean Language Institute | Tuition & Programs",
+  "title": "Korean Language Courses at Youngsan University | Beginner to Advanced Programs",
   "tuition": {
     "registration_fee": 50000,
     "quarterly_tuition": 1200000,
     "textbook_fee": 50000
   },
-  "description": "Explore Youngsan University's Korean Language programs. Full tuition information, course details, and admission requirements for international students.",
-  "seo_title": "Youngsan University Korean Language Institute | Tuition & Programs",
-  "seo_description": "Explore Youngsan University's Korean Language programs. Full tuition information, course details, and admission requirements for international students."
+  "description": "Study Korean at Youngsan University's accredited language institute. Full-time & part-time courses, flexible levels, competitive tuition. Admissions open year-round.",
+  "seo_title": "Youngsan University Korean Language Institute - Official Courses & Tuition",
+  "seo_description": "Learn Korean at Youngsan University. Full program details, tuition costs, admission requirements & course levels for international students. Enroll today."
 }
 ---
+
 
 ## Youngsan University Korean Language Institute: Language Program Snapshot
 
