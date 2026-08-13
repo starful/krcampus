@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "housing",
-  "title": "Student Housing in Korea 2026: Complete Guide to Dorms, Goshiwon & Apartments",
+  "title": "Student Housing in Korea 2026: Dorm vs Goshiwon vs Apartment — Complete Guide",
   "category": "Housing",
   "tags": [
     "Housing"
   ],
-  "description": "Affordable student housing in Korea: compare dorms, goshiwon & one-room apartments. Costs, contracts & expert tips for international & Korean students.",
+  "description": "Compare housing in Korea: dorms, goshiwon & apartments with costs, contracts & expert tips for international students. Choose the best option.",
   "thumbnail": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500",
   "date": "2026-07-27",
-  "seo_title": "Student Housing Korea 2026: Guide to Dorms, Goshiwon & Apartments | KRCampus",
-  "seo_description": "Affordable student housing in Korea: compare dorms, goshiwon & apartments. Costs, contracts & expert tips for international & Korean students."
+  "seo_title": "Student Housing in Korea 2026: Dorm vs Goshiwon vs Apartment — Complete Guide",
+  "seo_description": "Compare housing in Korea: dorms, goshiwon & apartments with costs, contracts & expert tips for international students. Choose the best option."
 }
 ---
+
 
 
 

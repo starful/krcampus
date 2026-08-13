@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "graduate-study-korea",
-  "title": "Graduate School in Korea: 2026 Guide for International Students",
+  "title": "Graduate School in Korea: Master's & PhD Programs 2026 Guide",
   "category": "Selection",
   "tags": [
     "Selection"
   ],
-  "description": "Your ultimate 2026 guide to Master's & PhD programs in Korea. Learn about admission steps, tuition costs, and fully-funded scholarships.",
+  "description": "Complete guide to pursuing a Master's degree or PhD in Korea. Learn admission requirements, university rankings, tuition costs, and fully-funded scholarships for international students.",
   "thumbnail": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=500",
   "date": "2026-07-27",
-  "seo_title": "Graduate School in Korea: 2026 International Student Guide",
-  "seo_description": "Your ultimate 2026 guide to Master's & PhD programs in Korea. Learn about admission steps, tuition costs, and fully-funded scholarships."
+  "seo_title": "Master's Programs in Korea 2026: Complete Guide for International Students",
+  "seo_description": "Study Master's or PhD in Korea. Full guide to admission steps, top universities, tuition costs, and fully-funded scholarships for international students."
 }
 ---
+
 
 
 

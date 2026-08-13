@@ -51,16 +51,17 @@
     "Strong global network with over 700 partner institutions worldwide"
   ],
   "thumbnail": "/static/img/pin-univ.png",
-  "title": "Yonsei University: 2026 International Student Guide",
+  "title": "Yonsei University: Complete 2026 International Admission Guide",
   "tuition": {
     "admission_fee": 512000,
     "yearly_tuition": 9600000
   },
-  "description": "Learn how to get into Yonsei University with our comprehensive 2026 guide covering international admission requirements, tuition, scholarships, and campus life.",
-  "seo_title": "Yonsei University 2026: International Admissions Guide | KR Campus",
-  "seo_description": "Apply to Yonsei University in 2026! Get the complete guide to international admission requirements, tuition fees, scholarships, and campus life."
+  "description": "Everything international students need to know about getting into Yonsei University, including admission requirements, tuition, scholarships, and application timeline.",
+  "seo_title": "Yonsei University Admission Guide 2026 | International Requirements",
+  "seo_description": "Complete international admission guide for Yonsei University 2026. Learn application requirements, tuition, scholarships, deadlines, and expert tips."
 }
 ---
+
 # Complete Guide to Yonsei University for International Students
 
 Choosing the right university is a pivotal step. For a world-class education in South Korea, Yonsei University (연세대학교) in Seoul stands out as a premier destination. Established in 1885, Yonsei is the oldest private university in South Korea and a founding member of the elite "SKY" universities. With a global network of over 700 partner institutions and 5,200+ international students, Yonsei offers a highly globalized learning environment.

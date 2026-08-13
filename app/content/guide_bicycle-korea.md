@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "bicycle-korea",
-  "title": "Cycling Rules & Bike Registration in Korea",
+  "title": "Korea Cycling Laws & Bike Registration: Complete 2026 Guide",
   "category": "Culture",
   "tags": [
     "Culture"
   ],
-  "description": "Essential guide to Korea's cycling laws, bike registration requirements, safety gear rules, and penalties for students.",
+  "description": "Master Korea's cycling laws, bike registration & safety rules. Avoid penalties. Essential guide for students cycling in Korea.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
   "date": "2026-07-27",
-  "seo_title": "Cycling Rules & Bike Registration in Korea | KR Campus",
-  "seo_description": "Learn Korea's cycling laws: bike registration requirements, mandatory safety gear, helmet rules & traffic fines for students."
+  "seo_title": "Korea Cycling Laws & Bike Registration: Complete 2026 Guide | KR Campus",
+  "seo_description": "Master Korea's cycling laws, bike registration & safety rules. Avoid penalties. Essential guide for students cycling in Korea."
 }
 ---
+
 
 
 

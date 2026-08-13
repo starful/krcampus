@@ -7,13 +7,14 @@
   "tags": [
     "Selection"
   ],
-  "description": "Complete guide to transferring to Korean universities: eligibility requirements, credit conversion, visa procedures & scholarship options.",
+  "description": "Step-by-step guide covering eligibility, credit transfer, visa requirements, and scholarship options for Korean university transfer.",
   "thumbnail": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=500",
   "date": "2026-07-27",
-  "seo_title": "How to Transfer to a Korean University: 2026 Guide & Requirements",
-  "seo_description": "Learn how to transfer to Korean universities: step-by-step process, eligibility requirements, credit transfer, visas & scholarships."
+  "seo_title": "How to Transfer to Korean University in 2026: Complete Guide",
+  "seo_description": "Ready to transfer to Korea? Eligibility, credit conversion, visa procedures, scholarships & step-by-step guide for 2026."
 }
 ---
+
 
 
 
