@@ -58,17 +58,18 @@
     "Sinchon Campus Location"
   ],
   "thumbnail": "/static/img/pin-school.png",
-  "title": "Yonsei University Korean Language Institute (KLI)",
+  "title": "Study Korean at Yonsei University KLI | 2026 Complete Guide",
   "tuition": {
     "registration_fee": 80000,
     "quarterly_tuition": 1770000,
     "textbook_fee": 80000
   },
-  "description": "The ultimate guide to studying Korean at Yonsei University KLI. Explore updated 2026 tuition, term dates, step-by-step application tips, and student reviews.",
-  "seo_title": "Yonsei KLI 2026: Tuition, Dates & How to Apply | KR Campus",
-  "seo_description": "Planning to study at Yonsei University KLI? Get the complete 2026 guide on tuition fees, semester dates, visa requirements, and student reviews."
+  "description": "Master Korean at Yonsei University's prestigious KLI. 2026 tuition, application steps, class schedules & student reviews. Enroll today.",
+  "seo_title": "Yonsei University Korean Language Institute 2026 Programs & Application Guide",
+  "seo_description": "Complete guide to Yonsei University's Korean Language Institute. Tuition costs, admission requirements, term schedules & verified student testimonials."
 }
 ---
+
 ## Yonsei University Korean Language Institute: Language Program Snapshot
 Established in 1959, the Yonsei University Korean Language Institute (KLI) is the oldest and most prestigious language academy in South Korea. Located at 50 Yonsei-ro, Seodaemun-gu, Seoul, 03722, Republic of Korea, the institute is integrated directly into Yonsei’s iconic main Sinchon Campus. This Sinchon Campus Location provides students with an academic environment inside one of Seoul's most vibrant university districts.
 

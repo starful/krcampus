@@ -45,16 +45,17 @@
     "Highly Acclaimed Speaking-focused KLEC Language Program"
   ],
   "thumbnail": "/static/img/pin-univ.png",
-  "title": "Sogang University 2026: Complete Guide for International Students",
+  "title": "Sogang University: International Student Guide 2026",
   "tuition": {
     "admission_fee": 900000,
     "yearly_tuition": 8400000
   },
-  "description": "Explore Sogang University's admissions process, tuition costs, academic programs, scholarship opportunities, and campus life for international students seeking to study in Korea.",
-  "seo_title": "Sogang University 2026 Admissions Guide for International Students",
-  "seo_description": "Sogang University 2026: Complete admissions guide for international students. Learn about tuition, programs, scholarships, and student life in Korea."
+  "description": "Complete Sogang University guide: admissions requirements, tuition fees, scholarships & programs for international students.",
+  "seo_title": "Sogang University 2026: Admissions, Tuition & Scholarships for International Students",
+  "seo_description": "Discover Sogang University admissions requirements, tuition costs, scholarships & programs for international students applying in 2026."
 }
 ---
+
 
 ## Sogang University: Campus Snapshot
 

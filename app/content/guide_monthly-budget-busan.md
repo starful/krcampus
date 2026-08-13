@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "monthly-budget-busan",
-  "title": "Monthly Budget Breakdown for Students in Busan",
+  "title": "Monthly Student Budget in Busan | Living Costs Guide 2026",
   "category": "Budget",
   "tags": [
     "Budget"
   ],
-  "description": "Comprehensive guide to monthly living expenses for students in Busan, including tuition, accommodation, food, transportation, and utilities costs.",
+  "description": "Plan your Busan student budget. Get detailed monthly costs for rent, food, transport & utilities. Practical cost breakdown inside.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
   "date": "2026-07-20",
-  "seo_title": "Student Monthly Budget in Busan 2026: Housing, Food & Living Costs",
-  "seo_description": "Complete breakdown of monthly student expenses in Busan 2026. Housing, food, tuition & utility costs for Korean universities."
+  "seo_title": "Busan Student Monthly Budget & Living Expenses | KR Campus",
+  "seo_description": "Discover realistic monthly budgets for Busan students. Break down housing, food, transport & utilities with money-saving tips."
 }
 ---
+
 
 
 
