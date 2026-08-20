@@ -5,7 +5,7 @@ basic_info:
   name_en: Dong-Eui University
   name_ko: 동의대학교
 category: university
-date: '2026-08-11'
+date: '2026-08-20'
 faculties:
 - College of Engineering
 - College of IT Convergence
@@ -45,6 +45,7 @@ tuition:
   admission_fee: 0
   yearly_tuition: 7200000
 ---
+
 
 ## Where Dong-Eui Fits Among Busan's Private Universities
 
