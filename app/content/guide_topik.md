@@ -7,12 +7,11 @@
   "tags": [
     "Exam"
   ],
-  "description": "TOPIK preparation overview.",
+  "description": "TOPIK exam guide for international students: levels, schedule, scoring, and study tips.",
   "thumbnail": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500",
-  "date": "2026-07-20"
+  "date": "2026-08-20"
 }
 ---
-
 
 # TOPIK Exam Guide: Levels Schedule and Study Tips
 
@@ -81,3 +80,13 @@ Once you have your TOPIK results, you must synchronize them with your university
 * **Language Course Pathways:** If you cannot reach TOPIK Level 3 or 4 before your desired semester, consider enrolling in a university-affiliated Korean Language Institute (KLI) on a D-4 visa first. Most KLIs offer intensive training programs designed to transition you directly to a degree program once you pass the target TOPIK level.
 
 With your certificate in hand, you are well on your way to experiencing the vibrant life of an international student in South Korea!
+
+## Sources & how to verify
+Before you apply or pay fees, confirm details on official pages. Useful starting points:
+
+* [Study in Korea (NIIED)](https://www.studyinkorea.go.kr/) — scholarships and study pathways
+* [Korea Immigration Service](https://www.immigration.go.kr/) — visas, ARC, stay rules
+* [Korea.net](https://www.korea.net/) — government overview pages for newcomers
+* Your school’s official international student office pages for tuition and admission dates
+
+**Editorial note (KR Campus):** We revise guides when policies change. If something looks outdated, [contact us](/contact) with a source link and we will review it.

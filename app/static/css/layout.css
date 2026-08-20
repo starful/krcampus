@@ -110,6 +110,37 @@
 .info-label { font-size: 0.75rem; color: var(--text-gray); text-transform: uppercase; font-weight: 700; margin-bottom: 8px; }
 .info-value { font-size: 1.1rem; font-weight: 800; }
 .detail-content h2 { font-size: 1.5rem; margin-top: 50px; border-bottom: 2px solid var(--border); padding-bottom: 15px; }
+.editorial-note {
+    margin: 36px 0 8px;
+    padding: 22px 24px;
+    border-radius: 14px;
+    border: 1px solid var(--border);
+    background: #f8fafc;
+}
+.editorial-note-title {
+    margin: 0 0 10px;
+    font-size: 1.15rem;
+    font-weight: 800;
+    color: var(--text-dark);
+}
+.editorial-note-meta {
+    margin: 0 0 12px;
+    font-size: 0.88rem;
+    color: var(--text-gray);
+}
+.editorial-note-body {
+    margin: 0 0 14px;
+    font-size: 0.95rem;
+    line-height: 1.65;
+    color: #475569;
+}
+.editorial-note-links {
+    margin: 0;
+    padding-left: 18px;
+    line-height: 1.8;
+    font-size: 0.9rem;
+}
+.editorial-note-links a { color: var(--primary); font-weight: 600; }
 .detail-content table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 25px 0; border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
 .detail-content th { background: #f8fafc; padding: 15px; font-weight: 700; text-align: left; }
 .detail-content td { padding: 15px; border-bottom: 1px solid var(--border); }

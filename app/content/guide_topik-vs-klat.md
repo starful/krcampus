@@ -7,12 +7,11 @@
   "tags": [
     "Exam"
   ],
-  "description": "Language requirements explained.",
+  "description": "TOPIK vs other language requirements explained for language-school and university admissions in Korea.",
   "thumbnail": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500",
-  "date": "2026-07-20"
+  "date": "2026-08-20"
 }
 ---
-
 
 # TOPIK vs KIIP: Which Do You Need?
 

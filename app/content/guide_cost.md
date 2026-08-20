@@ -7,12 +7,11 @@
   "tags": [
     "Budget"
   ],
-  "description": "Realistic budget for tuition and living in Seoul.",
+  "description": "Realistic study-in-Korea budget for tuition and living costs in Seoul and other cities.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
-  "date": "2026-07-20"
+  "date": "2026-08-20"
 }
 ---
-
 
 ## 1-Year Study Cost in Seoul: A Realistic Budget Guide
 
@@ -92,3 +91,13 @@ To summarize, let's look at the total estimated cost for one year of study in Se
 **Grand Total Estimated Budget:** Approximately **20,244,000 KRW** (around **$15,215 USD**).
 
 While this figure might seem daunting, careful planning, opting for university dormitories, and cooking at home can bring this total down significantly. Seoul remains an incredibly rewarding destination that offers top-tier education and an unforgettable cultural experience for every international student who plans wisely.
+
+## Sources & how to verify
+Before you apply or pay fees, confirm details on official pages. Useful starting points:
+
+* [Study in Korea (NIIED)](https://www.studyinkorea.go.kr/) — scholarships and study pathways
+* [Korea Immigration Service](https://www.immigration.go.kr/) — visas, ARC, stay rules
+* [Korea.net](https://www.korea.net/) — government overview pages for newcomers
+* Your school’s official international student office pages for tuition and admission dates
+
+**Editorial note (KR Campus):** We revise guides when policies change. If something looks outdated, [contact us](/contact) with a source link and we will review it.

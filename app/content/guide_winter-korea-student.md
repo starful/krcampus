@@ -7,12 +7,11 @@
   "tags": [
     "Life"
   ],
-  "description": "Heating, clothing, and indoor life tips.",
+  "description": "Winter student life in Korea: heating, clothing layers, indoor routines, and cold-weather campus tips.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-07-20"
+  "date": "2026-08-20"
 }
 ---
-
 
 # Surviving Korean Winter as a Student: Heating, Clothing, and Indoor Life Tips
 

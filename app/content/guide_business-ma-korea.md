@@ -7,13 +7,11 @@
   "tags": [
     "Selection"
   ],
-  "description": "Business school guide.",
+  "description": "Guide to business and MBA-style graduate study options in Korea for international applicants.",
   "thumbnail": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=500",
-  "date": "2026-07-27"
+  "date": "2026-08-20"
 }
 ---
-
-
 
 # MBA and Business Programs in Korea
 

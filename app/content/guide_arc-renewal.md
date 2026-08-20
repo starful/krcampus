@@ -7,13 +7,11 @@
   "tags": [
     "Settlement"
   ],
-  "description": "When and how to renew your Alien Registration Card.",
+  "description": "When and how to renew your Alien Registration Card (ARC) as a student in Korea.",
   "thumbnail": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500",
-  "date": "2026-07-27"
+  "date": "2026-08-20"
 }
 ---
-
-
 
 # ARC Renewal Guide for Degree Students
 

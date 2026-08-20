@@ -7,14 +7,11 @@
   "tags": [
     "Region"
   ],
-  "description": "Living and studying in Busan.",
+  "description": "Living and studying in Busan: neighborhoods, budgets, language institutes, and student lifestyle tips.",
   "thumbnail": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=500",
-  "date": "2026-07-27"
+  "date": "2026-08-20"
 }
 ---
-
-
-
 
 # Student Life in Busan: Costs and Culture
 

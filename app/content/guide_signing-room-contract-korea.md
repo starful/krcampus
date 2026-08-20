@@ -7,13 +7,11 @@
   "tags": [
     "Housing"
   ],
-  "description": "Step-by-step guide to understanding leases, Wolse, Jeonse, and real estate fees in Korea.",
+  "description": "Signing a Room Contract in Korea: A Guide for Students. Practical Study in Korea guidance from KR Campus — verify the latest official rules before you appl",
   "thumbnail": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500",
   "date": "2026-08-02"
 }
 ---
-
-
 
 # Signing a Room Contract in Korea: A Guide for Students
 

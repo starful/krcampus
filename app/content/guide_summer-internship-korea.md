@@ -7,13 +7,11 @@
   "tags": [
     "Career"
   ],
-  "description": "Finding legal short internships.",
+  "description": "Finding legal short internships in Korea as an international student, including visa constraints.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-07-27"
+  "date": "2026-08-20"
 }
 ---
-
-
 
 # Summer Internships for International Students in Korea
 

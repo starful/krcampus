@@ -7,13 +7,11 @@
   "tags": [
     "Settlement"
   ],
-  "description": "Banking options for newcomers.",
+  "description": "How to open a bank account in Korea as a student: documents, ARC timing, and bank options.",
   "thumbnail": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500",
-  "date": "2026-07-27"
+  "date": "2026-08-20"
 }
 ---
-
-
 
 # Opening a Bank Account in Korea as a Student
 
@@ -83,3 +81,13 @@ Navigating a new financial ecosystem can be tricky. Keep these pro-tips in mind 
 *   **Avoid ATM Fees:** Using ATMs operated by your own bank during normal business hours (usually 8:30 AM to 6:00 PM) is free. Using other banks' ATMs or using ATMs late at night will incur fees ranging from 500 to 1,000 KRW per transaction.
 *   **Connect to Digital Wallets:** Once your account is active, immediately link it to **KakaoPay** or **Toss**. These financial apps are incredibly popular in Korea for split-billing meals with friends and making instant, hassle-free transfers.
 *   **International Wire Transfers:** For receiving money from parents back home, look into specialized digital transfer services like SentBe, WireBarley, or Wise. They are often significantly cheaper and faster than traditional bank-to-bank SWIFT transfers.
+
+## Sources & how to verify
+Before you apply or pay fees, confirm details on official pages. Useful starting points:
+
+* [Study in Korea (NIIED)](https://www.studyinkorea.go.kr/) — scholarships and study pathways
+* [Korea Immigration Service](https://www.immigration.go.kr/) — visas, ARC, stay rules
+* [Korea.net](https://www.korea.net/) — government overview pages for newcomers
+* Your school’s official international student office pages for tuition and admission dates
+
+**Editorial note (KR Campus):** We revise guides when policies change. If something looks outdated, [contact us](/contact) with a source link and we will review it.

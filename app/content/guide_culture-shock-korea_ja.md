@@ -9,19 +9,17 @@
     "韓国留学",
     "韓国文化"
   ],
-  "description": "韓国に新しく来る留学生が驚きやすい、独特の社会規範、年齢に応じた上下関係、飲酒文化、デジタル生活、大学の講義マナーなどを徹底解説します。",
+  "description": "韓国留学で感じやすい文化差と対人マナー。教室・アルバイト・日常生活で役立つ適応のヒントを、実務目線でまとめました。",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-07-27",
+  "date": "2026-08-20",
   "lang": "ja",
   "basic_info": {
+    "name_en": "Culture Shocks in Korea for New Students",
     "name_ja": "韓国留学カルチャーショック",
-    "name_ko": "한국 유학 문화 충격",
-    "name_en": "Culture Shocks in Korea for New Students"
+    "name_ko": "한국 유학 문화 충격"
   }
 }
 ---
-
-
 
 # 韓国留学でのカルチャーショック：新留学生が知っておくべき生活習慣とマナー
 

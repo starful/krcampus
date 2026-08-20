@@ -7,13 +7,11 @@
   "tags": [
     "Settlement"
   ],
-  "description": "Mobile setup for students.",
+  "description": "Mobile SIM and eSIM options for students arriving in Korea, including prepaid plans and registration tips.",
   "thumbnail": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500",
-  "date": "2026-07-27"
+  "date": "2026-08-20"
 }
 ---
-
-
 
 # SIM and eSIM Plans in Korea (2026)
 

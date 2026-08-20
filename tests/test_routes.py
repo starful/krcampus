@@ -69,11 +69,27 @@ class RouteSmokeTests(unittest.TestCase):
             ("/guide/best-national-universities-japan", "/guide/best-national-universities-korea"),
             ("/guide/top-womens-education-japan", "/guide/top-womens-universities-korea"),
             ("/guide/women-universities-korea", "/guide/top-womens-universities-korea"),
+            ("/guide/part-time-work-rules", "/guide/part-time"),
+            ("/guide/korean-bank-account", "/guide/bank"),
+            ("/guide/claiming-health-insurance-korea", "/guide/insurance"),
         ]:
             with self.subTest(old_path=old_path):
                 response = self.client.get(old_path, follow_redirects=False)
                 self.assertEqual(response.status_code, 301)
                 self.assertEqual(response.headers.get("location"), new_path)
+
+    def test_ads_txt_supports_get_and_head(self):
+        get_resp = self.client.get("/ads.txt")
+        self.assertEqual(get_resp.status_code, 200)
+        self.assertIn("google.com", get_resp.text)
+        head_resp = self.client.head("/ads.txt")
+        self.assertEqual(head_resp.status_code, 200)
+
+    def test_guide_detail_has_editorial_note(self):
+        response = self.client.get("/guide/visa")
+        self.assertEqual(response.status_code, 200)
+        self.assertIn("editorial-note", response.text)
+        self.assertIn("Study in Korea", response.text)
 
     def test_static_pages_use_site_header(self):
         response = self.client.get("/about")

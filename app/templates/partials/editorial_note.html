@@ -1,0 +1,17 @@
+{% if item_type == 'guide' %}
+<section class="editorial-note" aria-label="{{ ui.editorial_note_title }}">
+    <h2 class="editorial-note-title">{{ ui.editorial_note_title }}</h2>
+    <p class="editorial-note-meta">
+        <strong>{{ ui.last_reviewed }}</strong>
+        {{ item.get('date') or updated_at or '—' }}
+        · KR Campus
+    </p>
+    <p class="editorial-note-body">{{ ui.editorial_note_body }}</p>
+    <ul class="editorial-note-links">
+        <li><a href="https://www.korea.net/" target="_blank" rel="noopener noreferrer">Korea.net</a></li>
+        <li><a href="https://www.studyinkorea.go.kr/" target="_blank" rel="noopener noreferrer">Study in Korea (NIIED)</a></li>
+        <li><a href="https://www.immigration.go.kr/" target="_blank" rel="noopener noreferrer">Korea Immigration</a></li>
+        <li><a href="/contact?lang={{ current_lang }}">{{ ui.contact_us }}</a></li>
+    </ul>
+</section>
+{% endif %}

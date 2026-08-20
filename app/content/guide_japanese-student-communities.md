@@ -7,16 +7,11 @@
   "tags": [
     "Culture"
   ],
-  "description": "Finding support, language exchanges, and communities.",
+  "description": "Finding Japanese-speaking student communities, language exchanges, and support networks in Korea.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-07-27"
+  "date": "2026-08-20"
 }
 ---
-
-
-
-
-
 
 # Japanese Student Networks and Communities in Korea: Your Guide to Connection and Support
 

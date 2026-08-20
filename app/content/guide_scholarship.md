@@ -7,13 +7,11 @@
   "tags": [
     "Budget"
   ],
-  "description": "Overview of major scholarship programs.",
+  "description": "Overview of major scholarships for international students in Korea, including GKS and university tuition waivers.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
-  "date": "2026-07-27"
+  "date": "2026-08-20"
 }
 ---
-
-
 
 # Scholarships for International Students in Korea: The KR Campus Guide
 
@@ -110,3 +108,13 @@ To stand out in highly competitive selection pools, follow these key strategies 
 * **Apostille Documents Early:** Korean universities require consular-authenticated or apostilled diplomas and transcripts. These take weeks to prepare, so plan ahead.
 
 With proper planning, your dream of studying in South Korea is highly achievable. Keep reading KR Campus for more practical guides on navigating student life in Korea!
+
+## Sources & how to verify
+Before you apply or pay fees, confirm details on official pages. Useful starting points:
+
+* [Study in Korea (NIIED)](https://www.studyinkorea.go.kr/) — scholarships and study pathways
+* [Korea Immigration Service](https://www.immigration.go.kr/) — visas, ARC, stay rules
+* [Korea.net](https://www.korea.net/) — government overview pages for newcomers
+* Your school’s official international student office pages for tuition and admission dates
+
+**Editorial note (KR Campus):** We revise guides when policies change. If something looks outdated, [contact us](/contact) with a source link and we will review it.

@@ -7,9 +7,9 @@
   "tags": [
     "節約"
   ],
-  "description": "ソウルの公共交通機関が乗り放題になる「気候同行カード」を使って、毎月の交通費を賢く節約する方法をご紹介します。",
+  "description": "ソウルのクライメートカード（乗り放題）の使い方と、学生の交通費をどれだけ節約できるかの目安をわかりやすく解説します。",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
-  "date": "2026-07-20",
+  "date": "2026-08-20",
   "lang": "ja",
   "basic_info": {
     "name_ja": "Climate Card Guide for Students in Seoul"
@@ -19,7 +19,6 @@
   ]
 }
 ---
-
 
 # Comprehensive Guide to PostgreSQL Performance Tuning
 

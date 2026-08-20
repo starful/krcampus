@@ -7,14 +7,11 @@
   "tags": [
     "Settlement"
   ],
-  "description": "Bank comparison for newcomers.",
+  "description": "Compare major Korean banks for students — fees, English support, and which account types fit newcomers.",
   "thumbnail": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500",
-  "date": "2026-07-27"
+  "date": "2026-08-20"
 }
 ---
-
-
-
 
 # KB vs Shinhan vs Woori for Students
 

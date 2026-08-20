@@ -7,12 +7,11 @@
   "tags": [
     "Exam"
   ],
-  "description": "Structured TOPIK prep schedule.",
+  "description": "A structured 3-month TOPIK study plan with weekly goals for listening, reading, and writing.",
   "thumbnail": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500",
-  "date": "2026-07-20"
+  "date": "2026-08-20"
 }
 ---
-
 
 # 3-Month TOPIK Study Plan: Your Guide to Studying in Korea
 

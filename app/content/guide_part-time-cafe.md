@@ -7,13 +7,11 @@
   "tags": [
     "Part-time"
   ],
-  "description": "Common student jobs in Korea.",
+  "description": "Cafe and retail part-time jobs for students in Korea — expectations, Korean phrases, and legal limits.",
   "thumbnail": "https://images.unsplash.com/photo-1556740758-90de374c12ad?w=500",
-  "date": "2026-07-27"
+  "date": "2026-08-20"
 }
 ---
-
-
 
 Part-Time Jobs in Cafes and Stores
 

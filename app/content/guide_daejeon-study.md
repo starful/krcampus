@@ -7,13 +7,11 @@
   "tags": [
     "Region"
   ],
-  "description": "Science city guide.",
+  "description": "Studying in Daejeon, Korea’s science city: universities, language programs, and living costs.",
   "thumbnail": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=500",
-  "date": "2026-07-27"
+  "date": "2026-08-20"
 }
 ---
-
-
 
 # Studying in Daejeon: KAIST and Chungnam
 

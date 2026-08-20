@@ -7,13 +7,11 @@
   "tags": [
     "Insurance"
   ],
-  "description": "Medical visit guide with phrases.",
+  "description": "How to visit clinics and hospitals in Korea as a student, with useful phrases and insurance claim basics.",
   "thumbnail": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=500",
-  "date": "2026-07-27"
+  "date": "2026-08-20"
 }
 ---
-
-
 
 # Using Clinics and Hospitals in Korea
 

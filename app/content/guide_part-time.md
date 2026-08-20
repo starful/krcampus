@@ -7,12 +7,11 @@
   "tags": [
     "Part-time"
   ],
-  "description": "Work hour limits and common jobs.",
+  "description": "Part-time work rules for students in Korea — hour limits, permission, and common job types.",
   "thumbnail": "https://images.unsplash.com/photo-1556740758-90de374c12ad?w=500",
-  "date": "2026-07-20"
+  "date": "2026-08-20"
 }
 ---
-
 
 # Part-time Work Rules for Students in Korea
 
@@ -86,3 +85,13 @@ Approval takes 5 to 10 business days. A digital confirmation will update your of
 *   **Job Search Portals:** Use specialized Korean job search apps like *Albamon* (알바몬) and *Alba Heaven* (알바천국). These platforms are entirely in Korean, so knowing basic reading skills is vital. You can also search your university's bulletin boards for on-campus vacancies.
 *   **Taxes and Fees:** A standard 3.3% income tax is typically withheld from your monthly part-time earnings. This is a normal practice under local tax laws, and you do not need to worry about additional tax filing unless you earn a very high income.
 *   **Prioritize Academics:** Your student visa is designed for academic pursuit. Keep your attendance high and grades steady. Your work permit will not be renewed if your GPA drops below 2.0 or if your class attendance falls below required minimums.
+
+## Sources & how to verify
+Before you apply or pay fees, confirm details on official pages. Useful starting points:
+
+* [Study in Korea (NIIED)](https://www.studyinkorea.go.kr/) — scholarships and study pathways
+* [Korea Immigration Service](https://www.immigration.go.kr/) — visas, ARC, stay rules
+* [Korea.net](https://www.korea.net/) — government overview pages for newcomers
+* Your school’s official international student office pages for tuition and admission dates
+
+**Editorial note (KR Campus):** We revise guides when policies change. If something looks outdated, [contact us](/contact) with a source link and we will review it.

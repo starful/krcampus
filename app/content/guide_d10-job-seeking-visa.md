@@ -7,12 +7,11 @@
   "tags": [
     "Visa"
   ],
-  "description": "A step-by-step guide to staying in Korea after graduation.",
+  "description": "Step-by-step guide to switching to a D-10 job-seeking visa after graduation in Korea.",
   "thumbnail": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=500",
-  "date": "2026-08-11"
+  "date": "2026-08-20"
 }
 ---
-
 
 ## How the D-10 Visa Actually Works
 

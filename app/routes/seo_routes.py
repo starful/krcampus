@@ -12,7 +12,7 @@ from app.settings import ADS_TXT_CONTENT, DOMAIN
 router = APIRouter()
 
 
-@router.get("/ads.txt", response_class=PlainTextResponse)
+@router.api_route("/ads.txt", methods=["GET", "HEAD"], response_class=PlainTextResponse)
 async def ads_txt():
     return ADS_TXT_CONTENT
 

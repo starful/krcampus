@@ -7,14 +7,11 @@
   "tags": [
     "Settlement"
   ],
-  "description": "Step-by-step ARC application.",
+  "description": "Step-by-step Alien Registration Card (ARC) application after arrival: documents, appointments, and common delays.",
   "thumbnail": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500",
-  "date": "2026-07-27"
+  "date": "2026-08-20"
 }
 ---
-
-
-
 
 # Alien Registration Card (ARC) Guide: The Ultimate Checklist for International Students in South Korea
 

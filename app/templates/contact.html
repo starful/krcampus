@@ -5,7 +5,8 @@
     .contact-container { max-width: 700px; margin: 40px auto 0; padding: 0 20px; }
     .contact-box { background: #fff; padding: 50px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); text-align: center; }
     .contact-box h1 { color: #2c3e50; margin-bottom: 12px; }
-    .contact-box .subtitle { color: #666; margin-bottom: 32px; line-height: 1.6; }
+    .contact-box .subtitle { color: #666; margin-bottom: 20px; line-height: 1.6; }
+    .contact-box .trust-list { text-align: left; max-width: 420px; margin: 0 auto 28px; color: #555; line-height: 1.7; }
     .btn { display: inline-block; background: #3498db; color: #fff !important; padding: 16px 32px; border-radius: 8px;
             font-size: 1.1rem; font-weight: bold; text-decoration: none; }
     .links { margin-top: 28px; }
@@ -18,14 +19,24 @@
         <div class="contact-box">
             {% if current_lang == 'ja' %}
             <h1>お問い合わせ</h1>
-            <p class="subtitle">データ修正・フィードバック・提携のご相談は下のボタンからお願いします。</p>
+            <p class="subtitle">KR Campus編集チームへの連絡窓口です。通常、数営業日以内に確認します。</p>
+            <ul class="trust-list">
+                <li>学校データの誤り・古い学費情報の指摘</li>
+                <li>ガイド内容の訂正・追加要望</li>
+                <li>提携・掲載に関するご相談</li>
+            </ul>
             <a class="btn" href="https://script.google.com/macros/s/AKfycbw4VlSszEVcOl1Jllgv-3ftTwOyIIZM_V8P0oXXa71rI6KqHtaw7o3igBPen2V1I1Me/exec?site=krcampus" target="_blank" rel="noopener noreferrer">お問い合わせフォームを開く</a>
-            <p class="links"><a href="/policy?lang=ja">プライバシーポリシー</a> · <a href="/about?lang=ja">About</a></p>
+            <p class="links"><a href="/policy?lang=ja">プライバシーポリシー</a> · <a href="/about?lang=ja">About</a> · <a href="/guide?lang=ja">ガイド一覧</a></p>
             {% else %}
-            <h1>Contact Us</h1>
-            <p class="subtitle">Data corrections, feedback, or partnerships — open the form to message us.</p>
+            <h1>Contact KR Campus</h1>
+            <p class="subtitle">Reach the KR Campus editorial team. We usually review messages within a few business days.</p>
+            <ul class="trust-list">
+                <li>Corrections to school data or outdated fee information</li>
+                <li>Guide content fixes or topic requests</li>
+                <li>Partnership or listing inquiries</li>
+            </ul>
             <a class="btn" href="https://script.google.com/macros/s/AKfycbw4VlSszEVcOl1Jllgv-3ftTwOyIIZM_V8P0oXXa71rI6KqHtaw7o3igBPen2V1I1Me/exec?site=krcampus" target="_blank" rel="noopener noreferrer">Open contact form</a>
-            <p class="links"><a href="/policy?lang=en">Privacy Policy</a> · <a href="/about?lang=en">About</a></p>
+            <p class="links"><a href="/policy?lang=en">Privacy Policy</a> · <a href="/about?lang=en">About</a> · <a href="/guide?lang=en">Guides</a></p>
             {% endif %}
         </div>
     </div>

@@ -7,12 +7,11 @@
   "tags": [
     "Budget"
   ],
-  "description": "Seoul cost breakdown.",
+  "description": "Realistic monthly student budget for Seoul covering rent, food, transport, and insurance.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
-  "date": "2026-07-20"
+  "date": "2026-08-20"
 }
 ---
-
 
 # Monthly Student Budget in Seoul (2026)
 

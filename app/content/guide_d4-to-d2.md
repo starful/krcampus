@@ -7,12 +7,11 @@
   "tags": [
     "Visa"
   ],
-  "description": "How language students transition to degree visas.",
+  "description": "How language students on D-4 can transition to a D-2 degree visa in Korea.",
   "thumbnail": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=500",
-  "date": "2026-07-20"
+  "date": "2026-08-20"
 }
 ---
-
 
 # Switching from D-4 to D-2 Visa in Korea
 

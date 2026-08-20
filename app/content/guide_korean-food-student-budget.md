@@ -7,15 +7,11 @@
   "tags": [
     "Life"
   ],
-  "description": "Affordable meals near campus.",
+  "description": "Affordable Korean meals near campus — convenience stores, cafeterias, and student food strategies.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-07-27"
+  "date": "2026-08-20"
 }
 ---
-
-
-
-
 
 # Cheap Korean Food for Students on a Budget: Your KR Campus Dining Guide
 

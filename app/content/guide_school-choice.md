@@ -7,13 +7,11 @@
   "tags": [
     "Selection"
   ],
-  "description": "Criteria for picking a language school in Korea.",
+  "description": "How to choose a Korean language institute: location, tuition, dorms, and university pathway fit.",
   "thumbnail": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=500",
-  "date": "2026-07-27"
+  "date": "2026-08-20"
 }
 ---
-
-
 
 # How to Choose a Korean Language Institute
 
@@ -79,3 +77,13 @@ To make your final decision, use this quick checklist:
 * **Pick your backdrop:** Seoul’s fast-paced environment vs. the affordable, culturally rich lifestyle of regional cities.
 
 No matter which school you choose, studying Korean in South Korea is a powerful way to accelerate your language skills and experience a culture that is shaping the global stage. Plan early, apply at least three months before your target semester, and get ready for an unforgettable adventure!
+
+## Sources & how to verify
+Before you apply or pay fees, confirm details on official pages. Useful starting points:
+
+* [Study in Korea (NIIED)](https://www.studyinkorea.go.kr/) — scholarships and study pathways
+* [Korea Immigration Service](https://www.immigration.go.kr/) — visas, ARC, stay rules
+* [Korea.net](https://www.korea.net/) — government overview pages for newcomers
+* Your school’s official international student office pages for tuition and admission dates
+
+**Editorial note (KR Campus):** We revise guides when policies change. If something looks outdated, [contact us](/contact) with a source link and we will review it.

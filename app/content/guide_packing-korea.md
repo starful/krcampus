@@ -7,14 +7,11 @@
   "tags": [
     "Preparation"
   ],
-  "description": "Seasonal packing checklist.",
+  "description": "Seasonal packing checklist for studying in Korea — clothing, documents, adapters, and what to buy after you land.",
   "thumbnail": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=500",
-  "date": "2026-07-27"
+  "date": "2026-08-20"
 }
 ---
-
-
-
 
 # What to Pack for Korea Study Abroad: The Ultimate Seasonal Checklist
 

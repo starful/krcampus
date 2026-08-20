@@ -71,6 +71,9 @@ _UI_JA = {
     "compare_copy_text": "比較をテキストでコピー",
     "compare_copied": "コピーしました",
     "compare_related_guides": "関連ガイド",
+    "editorial_note_title": "編集メモ・出典",
+    "last_reviewed": "最終確認:",
+    "editorial_note_body": "本ガイドは公開情報と公式案内を基に整理しています。ビザ・学費・制度は変更されるため、申請前に必ず公式サイトで最新内容を確認してください。誤りを見つけた場合はお問い合わせください。",
 }
 
 _UI_EN = {
@@ -150,6 +153,9 @@ _UI_EN = {
     "compare_copy_text": "Copy as text",
     "compare_copied": "Copied!",
     "compare_related_guides": "Related guides",
+    "editorial_note_title": "Editorial note & sources",
+    "last_reviewed": "Last reviewed:",
+    "editorial_note_body": "This guide is compiled from public and official information for international students. Visas, fees, and rules change — confirm details on official sites before you apply. Contact us if you spot an error.",
 }
 
 

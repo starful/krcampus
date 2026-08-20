@@ -9,13 +9,11 @@
   ],
   "description": "Your ultimate step-by-step guide to South Korean student visa requirements, application processes, and document checklists for international students.",
   "thumbnail": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=500",
-  "date": "2026-07-20",
+  "date": "2026-08-20",
   "seo_title": "[2026] South Korea Student Visa Guide: D-2 & D-4 | KR Campus",
   "seo_description": "Apply for a South Korea student visa (D-2 or D-4) with ease. Discover step-by-step requirements, documents, and tips for international students."
 }
 ---
-
-
 
 # Student Visa Guide for Korea (D-2 and D-4)
 
@@ -94,3 +92,13 @@ Congratulations! Your visa is approved. However, your journey does not end at In
 * **Understand Part-time Work Rules:** International students cannot work immediately. D-2 students can work part-time after obtaining permission from the university's international office and the immigration office. D-4 students must wait six months and maintain an attendance rate of 90% or higher before applying for a part-time work permit.
 
 Enjoy your academic adventure in South Korea! Study hard, explore the rich culture, and let KR Campus guide you every step of the way!
+
+## Sources & how to verify
+Before you apply or pay fees, confirm details on official pages. Useful starting points:
+
+* [Study in Korea (NIIED)](https://www.studyinkorea.go.kr/) — scholarships and study pathways
+* [Korea Immigration Service](https://www.immigration.go.kr/) — visas, ARC, stay rules
+* [Korea.net](https://www.korea.net/) — government overview pages for newcomers
+* Your school’s official international student office pages for tuition and admission dates
+
+**Editorial note (KR Campus):** We revise guides when policies change. If something looks outdated, [contact us](/contact) with a source link and we will review it.

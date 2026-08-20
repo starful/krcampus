@@ -7,13 +7,11 @@
   "tags": [
     "Culture"
   ],
-  "description": "Practical context for newcomers.",
+  "description": "Practical context for LGBTQ+ newcomers studying in Korea: campus life, safety basics, and support networks.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-07-27"
+  "date": "2026-08-20"
 }
 ---
-
-
 
 # LGBTQ+ Student Life in Korea
 

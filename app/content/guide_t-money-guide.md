@@ -7,13 +7,11 @@
   "tags": [
     "Settlement"
   ],
-  "description": "Using public transport cards.",
+  "description": "How to get and use a T-money card for buses, subway, and transfers across Korean cities.",
   "thumbnail": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500",
-  "date": "2026-07-27"
+  "date": "2026-08-20"
 }
 ---
-
-
 
 # T-money and Transit in Korea
 

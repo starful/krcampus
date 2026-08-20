@@ -7,13 +7,11 @@
   "tags": [
     "Region"
   ],
-  "description": "Honam region guide.",
+  "description": "Study and student life in Gwangju and the Honam region — schools, costs, and daily life.",
   "thumbnail": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=500",
-  "date": "2026-07-27"
+  "date": "2026-08-20"
 }
 ---
-
-
 
 # Studying in Gwangju: Chonnam and Beyond
 

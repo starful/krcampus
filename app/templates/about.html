@@ -20,57 +20,71 @@
 <div class="static-page-wrap">
     <div class="about-container">
         <div class="about-section">
+            {% if current_lang == 'ja' %}
+            <h1>KR Campusについて</h1>
+            <p>
+                <strong>KR Campus</strong>は、韓国留学を検討する国際学生向けの情報サイトです。語学堂・大学を地図で比較し、ビザ・住居・学費・生活に関する実用ガイドを提供しています。
+            </p>
+            <p>
+                私たちは学校から掲載料を受けて順位を操作しません。公開情報と公式サイトを基に、比較しやすい形で整理しています。料金や募集要項は変更されるため、必ず各校の公式サイトで最新情報を確認してください。
+            </p>
+
+            <h2>運営方針</h2>
+            <ul>
+                <li><strong>中立的な比較:</strong> 語学堂・大学を地域・学費・特徴で並べて確認できます。</li>
+                <li><strong>実用ガイド:</strong> D-2/D-4ビザ、ARC、住居、銀行、アルバイトなど、入学前〜到着後に必要な手順を解説します。</li>
+                <li><strong>定期更新:</strong> 学校データとガイドは継続的に見直します。各ページの日付と「最終確認」欄を参考にしてください。</li>
+            </ul>
+
+            <h2>情報の出典</h2>
+            <ul>
+                <li>各大学・語学堂の公式ウェブサイト</li>
+                <li>韓国政府・出入国・教育関連の公開案内（ビザ、ARC、健康保険など）</li>
+                <li>読者からの訂正・フィードバック（<a href="/contact?lang=ja">お問い合わせ</a>）</li>
+            </ul>
+            <p>
+                誤記や古い情報を見つけた場合はご連絡ください。確認後、可能な限り早く修正します。
+            </p>
+
+            <h2>誰のためのサイトか</h2>
+            <p>
+                韓国語学堂への入学、大学進学、生活準備を自分で調べたい学生と保護者向けです。エージェントの勧誘ページではなく、<span class="highlight">意思決定に必要な比較材料</span>を提供することが目的です。
+            </p>
+            {% else %}
             <h1>About KR Campus</h1>
-
             <p>
-                Welcome to <strong>KR Campus</strong>, a data-driven platform dedicated to empowering international students in their journey to study in Korea. Choosing to study abroad is one of the most significant decisions in your life — not just about learning Korean, but about choosing a new environment, a potential career path, and a future home.
+                <strong>KR Campus</strong> helps international students plan study in Korea. We publish a map-based directory of language institutes and universities, plus practical guides on visas, housing, costs, and everyday student life.
             </p>
             <p>
-                Navigating Korean education can be daunting. With dozens of language institutes and universities across the country, finding reliable, comparable, and transparent information is a challenge. KR Campus was built to solve this information asymmetry. We believe every student deserves clear, accurate, and visualized data to make informed decisions without aggressive marketing noise.
-            </p>
-
-            <h2>🎯 Our Mission</h2>
-            <p>
-                Our mission is simple yet ambitious: <strong>To democratize access to Korean education information.</strong>
-            </p>
-            <p>
-                We move beyond static lists and brochures. Our interactive map-based search lets you filter schools by what truly matters — tuition affordability, location, dormitory options, or specialized curriculum for university advancement. We aim to guide you from initial interest to your first day on a Korean campus.
+                We do not accept payment from schools to change rankings or hide information. School details are compiled from public sources and official websites, then structured so you can compare options. Fees and admissions rules change — always confirm the latest details on each institution’s official site.
             </p>
 
-            <h2>🔍 Data Methodology & Transparency</h2>
-            <p>
-                At KR Campus, data integrity is our core value. We do not accept payments from schools to alter rankings or hide data. Our information is aggregated from:
-            </p>
+            <h2>How we work</h2>
             <ul>
-                <li><strong>Official School Websites:</strong> Tuition fees, course offerings, and facility details verified directly from the source.</li>
-                <li><strong>Public Education Datasets:</strong> School capacity, student demographics, and compliance status where publicly available.</li>
-                <li><strong>AI-Enhanced Processing:</strong> Advanced models standardize unstructured text into comparable metrics so you can compare institutes across Seoul, Busan, and other cities consistently.</li>
-            </ul>
-            <p>
-                School policies and fees can change rapidly. Always confirm the latest details on each institution's official website via the links on our detail pages.
-            </p>
-
-            <h2>🚀 Why Choose KR Campus?</h2>
-            <p>
-                Unlike traditional agencies that may steer you toward partner schools, KR Campus offers a neutral ground.
-            </p>
-            <ul>
-                <li><strong>Visual Search:</strong> See where schools are located relative to subway lines, housing areas, and student neighborhoods.</li>
-                <li><strong>Comprehensive Filtering:</strong> Filter by <span class="highlight">region</span>, <span class="highlight">dormitory</span>, academic track, and <span class="highlight">tuition</span> to fit your budget.</li>
-                <li><strong>Essential Guides:</strong> Practical A-to-Z guides on visas, housing, TOPIK prep, and settlement in Korea.</li>
+                <li><strong>Neutral comparison:</strong> Browse institutes and universities by region, fees, and features — including side-by-side compare.</li>
+                <li><strong>Practical guides:</strong> Step-by-step coverage of D-2/D-4 visas, ARC, housing, banking, part-time work, and arrival checklists.</li>
+                <li><strong>Ongoing updates:</strong> We revise school data and guides over time. Use each page’s date and “Last reviewed” note as a checkpoint.</li>
             </ul>
 
-            <h2>🌟 Our Vision for the Future</h2>
+            <h2>Where information comes from</h2>
+            <ul>
+                <li>Official university and language-institute websites</li>
+                <li>Public Korean government guidance on visas, immigration (ARC), and National Health Insurance where relevant</li>
+                <li>Reader corrections and feedback via our <a href="/contact?lang=en">contact form</a></li>
+            </ul>
             <p>
-                We are constantly evolving — community reviews, tuition calculators, and clearer admission pathways. We envision a platform where the entire study-abroad ecosystem in Korea, from preparation to graduation, is seamlessly connected.
+                If you find an error or outdated detail, please contact us. We review reports and update pages when we can verify the change.
             </p>
+
+            <h2>Who this site is for</h2>
             <p>
-                Thank you for trusting KR Campus as your partner in this adventure. Let's build your future in Korea, together.
+                Students and families researching Korean language programs or degree pathways on their own. KR Campus is not an agency sales page — our goal is to give you <span class="highlight">clear comparison material</span> so you can decide with fewer surprises.
             </p>
+            {% endif %}
 
             <div style="text-align: center;">
-                <a href="/contact?lang={{ current_lang }}" class="back-btn">Contact</a>
-                <a href="/?lang={{ current_lang }}" class="back-btn" style="margin-left: 12px; background: #2c3e50;">Back to Main Map</a>
+                <a href="/contact?lang={{ current_lang }}" class="back-btn">{{ ui.contact_us }}</a>
+                <a href="/?lang={{ current_lang }}" class="back-btn" style="margin-left: 12px; background: #2c3e50;">{{ ui.back_to_map }}</a>
             </div>
         </div>
     </div>

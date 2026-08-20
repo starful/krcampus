@@ -7,13 +7,11 @@
   "tags": [
     "Insurance"
   ],
-  "description": "NHI registration and costs.",
+  "description": "How students enroll in Korea’s National Health Insurance (NHI), typical costs, and what to do before your first clinic visit.",
   "thumbnail": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=500",
-  "date": "2026-07-27"
+  "date": "2026-08-20"
 }
 ---
-
-
 
 # National Health Insurance for Students in Korea
 
@@ -79,3 +77,13 @@ Navigating a medical situation in Korea is straightforward if you follow these p
 * **Emergencies & Translation:** For medical emergencies, dial **119** for a free ambulance. For immediate English translation during consultations, call the Korea Travel Hotline at **1330**.
 
 By understanding the NHI framework, you can study in Korea with peace of mind. Keep your details updated, pay your premiums on time, and make the most of South Korea's excellent medical care!
+
+## Sources & how to verify
+Before you apply or pay fees, confirm details on official pages. Useful starting points:
+
+* [Study in Korea (NIIED)](https://www.studyinkorea.go.kr/) — scholarships and study pathways
+* [Korea Immigration Service](https://www.immigration.go.kr/) — visas, ARC, stay rules
+* [Korea.net](https://www.korea.net/) — government overview pages for newcomers
+* Your school’s official international student office pages for tuition and admission dates
+
+**Editorial note (KR Campus):** We revise guides when policies change. If something looks outdated, [contact us](/contact) with a source link and we will review it.

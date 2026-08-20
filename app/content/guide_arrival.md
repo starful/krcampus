@@ -7,12 +7,11 @@
   "tags": [
     "Preparation"
   ],
-  "description": "What to do after arrival.",
+  "description": "What to do in your first days after arriving in Korea: SIM, transport, ARC prep, and campus check-in.",
   "thumbnail": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=500",
-  "date": "2026-07-20"
+  "date": "2026-08-20"
 }
 ---
-
 
 # First Week in Korea: Essential Checklist
 
@@ -89,3 +88,13 @@ Your university's Office of International Affairs (OIA) will host a mandatory or
 ## Your Journey Starts Now
 
 Your first week in South Korea will fly by in a blur of exciting sights, new tastes, and essential administrative tasks. By staying organized and checking these five major milestones off your list early, you will set yourself up for a highly successful and stress-free academic semester. Welcome to South Korea, and enjoy your study abroad journey!
+
+## Sources & how to verify
+Before you apply or pay fees, confirm details on official pages. Useful starting points:
+
+* [Study in Korea (NIIED)](https://www.studyinkorea.go.kr/) — scholarships and study pathways
+* [Korea Immigration Service](https://www.immigration.go.kr/) — visas, ARC, stay rules
+* [Korea.net](https://www.korea.net/) — government overview pages for newcomers
+* Your school’s official international student office pages for tuition and admission dates
+
+**Editorial note (KR Campus):** We revise guides when policies change. If something looks outdated, [contact us](/contact) with a source link and we will review it.

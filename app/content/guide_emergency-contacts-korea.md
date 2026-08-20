@@ -7,14 +7,11 @@
   "tags": [
     "Culture"
   ],
-  "description": "Essential phone numbers, English-speaking clinics, and medical help in Korea.",
+  "description": "Essential emergency numbers, English-speaking clinics, and medical help options for students in Korea.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-07-27"
+  "date": "2026-08-20"
 }
 ---
-
-
-
 
 # Emergency Contacts and Healthcare Guide in Korea
 

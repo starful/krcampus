@@ -7,14 +7,11 @@
   "tags": [
     "Budget"
   ],
-  "description": "How international students can claim tax refunds on shopping and services.",
+  "description": "How international students can claim tax refunds on shopping and services in Korea, including documents and timelines.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
-  "date": "2026-07-27"
+  "date": "2026-08-20"
 }
 ---
-
-
-
 
 # Tax Refund Guide for Students in Korea
 

@@ -7,13 +7,11 @@
   "tags": [
     "Region"
   ],
-  "description": "City comparison for students.",
+  "description": "Compare studying in Seoul vs other Korean cities for language school and university plans.",
   "thumbnail": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=500",
-  "date": "2026-07-27"
+  "date": "2026-08-20"
 }
 ---
-
-
 
 # Studying in Seoul vs Busan: Which City Fits You?
 
