@@ -5,7 +5,7 @@ basic_info:
   name_en: Busan University of Foreign Studies
   name_ko: 부산외국어대학교
 category: university
-date: '2026-08-11'
+date: '2026-08-20'
 faculties:
 - College of Foreign Languages (English, Japanese, Chinese, French, German, Russian,
   Spanish)
@@ -52,6 +52,7 @@ tuition:
   admission_fee: 0
   yearly_tuition: 7200000
 ---
+
 
 ## Why a Language-Focused University in Busan Fits a Specific Kind of Student
 

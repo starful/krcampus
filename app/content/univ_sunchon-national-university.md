@@ -5,7 +5,7 @@ basic_info:
   name_en: Sunchon National University
   name_ko: 국립순천대학교
 category: university
-date: '2026-08-08'
+date: '2026-08-20'
 faculties:
 - College of Humanities & Social Sciences
 - College of Natural Sciences
@@ -47,6 +47,7 @@ tuition:
   admission_fee: 0
   yearly_tuition: 4300000
 ---
+
 
 ## Where Suncheon Fits in Korea's University Map
 

@@ -6,7 +6,7 @@ basic_info:
   name_en: Yonsei University Wonju Campus (Yonsei University Mirae Campus)
   name_ko: 연세대학교 원주캠퍼스
 category: university
-date: '2026-08-13'
+date: '2026-08-20'
 faculties:
 - College of Health Sciences
 - College of Science and Engineering
@@ -46,6 +46,7 @@ tuition:
   admission_fee: 0
   yearly_tuition: 7500000
 ---
+
 
 ## Why Yonsei Chose Wonju for Its Second Campus
 

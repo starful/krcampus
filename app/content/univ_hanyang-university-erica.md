@@ -5,7 +5,7 @@ basic_info:
   name_en: Hanyang University ERICA Campus
   name_ko: 한양대학교 ERICA
 category: university
-date: '2026-08-13'
+date: '2026-08-20'
 faculties:
 - College of Engineering
 - College of Software Convergence
@@ -52,6 +52,7 @@ tuition:
   admission_fee: 0
   yearly_tuition: 7500000
 ---
+
 
 ## Ansan, Not Seoul: A Legally Separate Admissions Track
 

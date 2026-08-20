@@ -5,7 +5,7 @@ basic_info:
   name_en: Mokpo National University
   name_ko: 국립목포대학교
 category: university
-date: '2026-08-08'
+date: '2026-08-20'
 faculties:
 - College of Humanities
 - College of Social Sciences
@@ -49,6 +49,7 @@ tuition:
   admission_fee: 0
   yearly_tuition: 2500000
 ---
+
 
 국립목포대학교 (Mokpo National University) is a national university whose main campus is not actually in Mokpo city — it sits about 20 minutes away in Cheonggye-myeon, Muan-gun, next to Muan International Airport. If you're comparing this school to others in Jeonnam, the two things that set it apart are its founding strength in fisheries/ocean science and its national-university fee structure, both covered below along with tuition, TOPIK requirements, and dorm logistics.
 
