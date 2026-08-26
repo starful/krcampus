@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "monthly-budget-busan",
-  "title": "Monthly Student Budget in Busan | Living Costs Guide 2026",
+  "title": "Busan Student Monthly Budget 2026: Rent, Food & Costs Guide",
   "category": "Budget",
   "tags": [
     "Budget"
   ],
-  "description": "Plan your Busan student budget. Get detailed monthly costs for rent, food, transport & utilities. Practical cost breakdown inside.",
+  "description": "See real monthly costs for studying in Busan: dorm vs one-room rent, food, transport, and utilities—plus visa savings tips for 2026.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
   "date": "2026-07-20",
-  "seo_title": "Busan Student Monthly Budget & Living Expenses | KR Campus",
-  "seo_description": "Discover realistic monthly budgets for Busan students. Break down housing, food, transport & utilities with money-saving tips."
+  "seo_title": "Monthly Student Budget in Busan (2026) | Rent, Food & Costs",
+  "seo_description": "Busan student living costs for 2026: dorm vs one-room rent, food, transport, utilities, and visa savings you'll need before you arrive."
 }
 ---
+
 
 
 
@@ -82,3 +83,6 @@ To keep your monthly budget under control and make your money stretch further, c
 * **Keep a Buffer for Visa Extensions:** Ensure you keep a savings buffer in your Korean bank account to meet the strict financial proof requirements when applying for visa extensions at the Busan Immigration Office.
 
 By budgeting wisely and taking advantage of Busan's naturally lower cost of living compared to Seoul, you can enjoy a highly rewarding student life. From sandy beaches and delicious food to top-tier education, Busan truly offers the perfect balance for your Korean study abroad journey.
+
+## Who This Budget Guide Is Best For
+This breakdown is most useful if you're weighing dormitory life against a private one-room, planning your D-2 or D-4 visa savings, or simply trying to see how far a monthly allowance stretches in Busan compared to Seoul. Start with the housing and visa sections above, then adjust the food, transport, and utility estimates to match your own lifestyle and neighborhood choice.

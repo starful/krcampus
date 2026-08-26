@@ -2,21 +2,19 @@
 {
   "layout": "guide",
   "id": "dorm-application",
-  "title": "University Dorm Applications in Korea: Complete 2026 Guide",
+  "title": "[2026] Korea Dorm Application Guide: Deadlines, Eligibility & Tips",
   "category": "Housing",
   "tags": [
     "Housing"
   ],
-  "description": "Step-by-step guide to applying for university dorms in Korea with eligibility requirements, deadlines, and insider tips to secure housing.",
+  "description": "See exact 2026 dorm application windows, eligibility rules, and move-in dates for Korean universities—plus tips to avoid missing the deadline.",
   "thumbnail": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500",
   "date": "2026-07-20",
-  "seo_title": "How to Apply for University Dorms in Korea: 2026 Guide",
-  "seo_description": "Master Korean university dorm applications: eligibility requirements, key deadlines, and proven tips to secure housing. Start here!"
+  "seo_title": "[2026] Korea Dorm Application Guide: Deadlines, Eligibility & Tips",
+  "seo_description": "See exact 2026 dorm application windows, eligibility rules, and move-in dates for Korean universities—plus tips to avoid missing the deadline."
 }
 ---
-
-
-
+**Quick answer:** Korea's 2026 dorm applications open in **early-to-mid January** (Spring) and **early-to-mid July** (Fall)—weeks before results are announced. The window is short and waitlists move slowly, so mark these dates now and have your transcript, ID, and enrollment proof ready before the portal opens.
 
 # How to Apply for University Dormitories in Korea
 

@@ -48,16 +48,18 @@
     "World-class research facilities in Agriculture, Veterinary Science, and Smart Semiconductor Engineering"
   ],
   "thumbnail": "/static/img/pin-univ.png",
-  "title": "Jeonbuk National University (JBNU)",
+  "title": "JBNU 2026: Tuition, Scholarships & English Tracks | KR Campus",
   "tuition": {
     "admission_fee": 0,
     "yearly_tuition": 3800000
   },
-  "description": "Explore Jeonbuk National University (JBNU) 2026 admission guide, tuition fees, scholarships, and requirements for international students on KR Campus.",
-  "seo_title": "Jeonbuk National University (JBNU) Admission & Tuition (2026) | KR Campus",
-  "seo_description": "Explore Jeonbuk National University (JBNU) 2026 admission guide, tuition fees, scholarships, and requirements for international students on KR Campus."
+  "description": "Jeonbuk National University 2026 guide: tuition, scholarships, English-track engineering programs, and KLI Korean courses for international students.",
+  "seo_title": "JBNU 2026: Tuition, Scholarships & English Tracks | KR Campus",
+  "seo_description": "Jeonbuk National University 2026 guide: tuition, scholarships, English-track engineering programs, and KLI Korean courses for international students."
 }
 ---
+**Quick take:** JBNU pairs low tuition and strong scholarship support with growing English-track options in engineering and agriculture—plus a Jeonju campus setting that beats Seoul on cost and culture. Below: admissions, programs, and Korean-language prep for international students.
+
 # Jeonbuk National University (JBNU): Complete International Student Guide
 
 Jeonbuk National University (전북대학교), located in South Korea's historic center, is one of the country's ten Flagship Korean National Universities. Known for top-tier research, a green campus, and low tuition, JBNU is an ideal gateway for global minds seeking a world-class education without Seoul's high costs.
