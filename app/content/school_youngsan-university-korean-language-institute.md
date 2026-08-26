@@ -54,17 +54,18 @@
     "Busan Cultural Experience Tours"
   ],
   "thumbnail": "/static/img/pin-school.png",
-  "title": "Korean Language Courses at Youngsan University | Beginner to Advanced Programs",
+  "title": "Youngsan University Korean Language Institute | Busan TOPIK Prep",
   "tuition": {
     "registration_fee": 50000,
     "quarterly_tuition": 1200000,
     "textbook_fee": 50000
   },
-  "description": "Study Korean at Youngsan University's accredited language institute. Full-time & part-time courses, flexible levels, competitive tuition. Admissions open year-round.",
-  "seo_title": "Youngsan University Korean Language Institute - Official Courses & Tuition",
-  "seo_description": "Learn Korean at Youngsan University. Full program details, tuition costs, admission requirements & course levels for international students. Enroll today."
+  "description": "Busan Korean language program at Youngsan University: TOPIK prep, university pathway, dorms. Quarterly intake, tuition & visa info.",
+  "seo_title": "Youngsan University Korean Language Institute Busan | Courses & Tuition",
+  "seo_description": "Study Korean at Youngsan University in Busan: TOPIK prep, quarterly terms, dorms, D-4 visa tuition guide. Beginner to advanced levels."
 }
 ---
+
 
 
 ## Youngsan University Korean Language Institute: Language Program Snapshot
@@ -155,3 +156,7 @@ Yes, on-campus dormitory placement is highly prioritized and guaranteed for all 
 
 ### What is the refund policy if my visa is denied?
 If your D-4 visa application is rejected by the Korean Embassy, the university refunds the full tuition. The 50,000 KRW application fee remains non-refundable.
+
+## Who This Program Suits
+
+Youngsan University's Korean Language Institute is a good fit for students planning to matriculate into a Korean undergraduate program in Busan, since the institute offers direct university pathway scholarships and TOPIK-focused coursework. It also suits students who want guaranteed on-campus housing rather than arranging off-campus accommodation on their own. Because the academic calendar runs on a quarterly system with four intake points per year (March, June, September, December), applicants have flexibility in choosing a start date that fits their visa and travel timeline. Prospective students should confirm current tuition, visa documentation requirements, and application deadlines directly with the institute's admissions office before applying.

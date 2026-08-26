@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "housing",
-  "title": "Student Housing in Korea 2026: Dorm vs Goshiwon vs Apartment — Complete Guide",
+  "title": "Student Housing in Korea 2026: Dorm vs Goshiwon vs Apartment Costs",
   "category": "Housing",
   "tags": [
     "Housing"
   ],
-  "description": "Compare housing in Korea: dorms, goshiwon & apartments with costs, contracts & expert tips for international students. Choose the best option.",
+  "description": "Real 2026 costs for Korean dorms, goshiwon & one-rooms — compare prices, contracts, and rules before you sign a lease.",
   "thumbnail": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500",
   "date": "2026-08-20",
-  "seo_title": "Student Housing in Korea 2026: Dorm vs Goshiwon vs Apartment — Complete Guide",
-  "seo_description": "Compare housing in Korea: dorms, goshiwon & apartments with costs, contracts & expert tips for international students. Choose the best option."
+  "seo_title": "Student Housing in Korea 2026: Dorm vs Goshiwon vs Apartment Costs",
+  "seo_description": "Real 2026 costs for Korean dorms, goshiwon & one-rooms — compare prices, contracts, and rules before you sign a lease."
 }
 ---
+**Quick answer:** Dorms run 350,000–800,000 KRW/month with utilities included, goshiwons offer flexible month-to-month deals, and one-room apartments give the most privacy but need a deposit. Here's how to pick the right fit for your budget and lifestyle.
 
 # Student Housing in Korea: Dorm Goshiwon vs Apartment
 
