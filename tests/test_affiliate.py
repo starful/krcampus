@@ -1,104 +1,61 @@
-"""KR Campus affiliate: Amazon.jp + Rakuten Travel/eSIM + Klook airport."""
+"""KR Campus affiliate: Rakuten Travel/eSIM + A8 (Klook removed)."""
 
 from app.affiliate import (
-    AMAZON_TAG,
-    GUIDE_AMAZON_MAP,
-    GUIDE_KLOOK_SLUGS,
-    RAKUTEN_KOREA_ESIM_URL,
-    RAKUTEN_KOREA_TRAVEL_URL,
+    GUIDE_PREP_SLUGS,
     affiliate_context,
-    amazon_search_url,
-    normalize_guide_slug,
     rakuten_esim_url,
     rakuten_travel_url,
 )
-
-
-def test_normalize_strips_prefixes():
-    assert normalize_guide_slug("guide_packing-korea") == "packing-korea"
-    assert normalize_guide_slug("packing-korea_ja") == "packing-korea"
-
-
-def test_amazon_url_uses_co_jp_and_tag():
-    url = amazon_search_url("TOPIK 問題集")
-    assert "amazon.co.jp/s?k=" in url
-    assert AMAZON_TAG in url
+from app.a8_affiliate import a8_banners_context
 
 
 def test_rakuten_short_links():
-    assert rakuten_travel_url() == RAKUTEN_KOREA_TRAVEL_URL
+    assert rakuten_travel_url() == "https://a.r10.to/hPhGZl"
     assert "hPhGZl" in rakuten_travel_url()
-    assert rakuten_esim_url() == RAKUTEN_KOREA_ESIM_URL
+    assert rakuten_esim_url() == "https://a.r10.to/h9O1Fq"
     assert "h9O1Fq" in rakuten_esim_url()
 
 
-def test_english_shows_amazon_and_rakuten_for_lifestyle():
+def test_english_shows_rakuten_for_lifestyle():
     ctx = affiliate_context("dorm-application", lang="en")
     assert ctx["show_affiliate"] is True
-    assert ctx["show_amazon"] is True
-    assert ctx["show_klook"] is False
     assert ctx["show_rakuten_travel"] is True
     assert ctx["show_rakuten_esim"] is False
     assert "hPhGZl" in ctx["rakuten_travel_url"]
     assert "coupang" not in ctx["affiliate_desc"].lower()
+    assert "amazon" not in ctx["affiliate_desc"].lower()
 
 
-def test_arrival_shows_klook_airport_not_esim_klook():
+def test_arrival_shows_kkday_a8_not_klook():
     ctx = affiliate_context("arrival", lang="en")
-    assert ctx["show_klook"] is True
-    assert "BSwK5MnY" in ctx["klook_url"]
+    assert ctx["show_affiliate"] is True
     assert ctx["show_rakuten_travel"] is True
-    assert ctx["show_rakuten_esim"] is False
+    a8 = a8_banners_context(slug="arrival", lang="en", item_type="guide")
+    assert a8["show_a8_banners"] is True
+    assert a8["a8_banners"][0]["id"] == "kkday"
 
 
-def test_esim_guide_uses_rakuten_esim():
-    ctx = affiliate_context("sim-esim-korea", lang="en")
+def test_mobile_shows_rakuten_esim():
+    ctx = affiliate_context("mobile", lang="en")
+    assert ctx["show_affiliate"] is True
     assert ctx["show_rakuten_esim"] is True
-    assert "h9O1Fq" in ctx["rakuten_esim_url"]
-    assert ctx["show_klook"] is False
-    ctx_ja = affiliate_context("mobile", lang="ja")
-    assert ctx_ja["show_rakuten_esim"] is True
-    assert "h9O1Fq" in ctx_ja["rakuten_esim_url"]
+    assert ctx["show_rakuten_travel"] is True
 
 
-def test_unmapped_visa_hides():
-    assert affiliate_context("visa", lang="ja")["show_affiliate"] is False
-    assert affiliate_context("visa", lang="en")["show_affiliate"] is False
+def test_topik_shows_korean_college_a8():
+    a8 = a8_banners_context(slug="topik", lang="en", item_type="guide")
+    assert a8["show_a8_banners"] is True
+    assert a8["a8_banners"][0]["id"] == "korean_college"
 
 
-def test_amazon_map_keys_are_nonempty():
-    assert GUIDE_AMAZON_MAP
-    for slug, kw in GUIDE_AMAZON_MAP.items():
-        assert slug and kw
-
-
-def test_klook_slugs_still_show_box():
-    for slug in GUIDE_KLOOK_SLUGS:
+def test_prep_slugs_still_show_box():
+    for slug in ("arrival", "packing-korea", "sim-esim-korea"):
+        assert slug in GUIDE_PREP_SLUGS
         ctx = affiliate_context(slug, lang="en")
         assert ctx["show_affiliate"] is True
 
 
-def test_school_shows_amazon_travel_and_esim():
-    ctx = affiliate_context("school_foo", lang="en", item_type="school")
-    assert ctx["show_affiliate"] is True
-    assert ctx["show_amazon"] is True
-    assert ctx["show_rakuten_travel"] is True
-    assert ctx["show_rakuten_esim"] is True
-    assert ctx["show_klook"] is False
-    assert "TOPIK" in ctx["amazon_keyword"]
-    assert "hPhGZl" in ctx["rakuten_travel_url"]
-    assert "h9O1Fq" in ctx["rakuten_esim_url"]
-
-
-def test_university_ja():
-    ctx = affiliate_context("univ_bar", lang="ja", item_type="university")
-    assert ctx["show_affiliate"] is True
-    assert ctx["show_amazon"] is True
-    assert ctx["show_rakuten_esim"] is True
-    assert ctx["show_klook"] is False
-    assert "Amazon" in ctx["affiliate_title"]
-
-
-def test_context_has_no_coupang_keys():
-    ctx = affiliate_context("dorm-application", lang="en")
-    assert "show_coupang" not in ctx
+def test_housing_agoda_a8():
+    a8 = a8_banners_context(slug="housing", lang="en", item_type="guide")
+    assert a8["show_a8_banners"] is True
+    assert a8["a8_banners"][0]["id"] == "agoda"

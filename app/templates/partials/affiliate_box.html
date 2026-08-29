@@ -1,21 +1,10 @@
-{# Amazon.co.jp + Rakuten Travel/eSIM + Klook — prominent CTA above article body #}
+{# Rakuten Travel/eSIM + A8 banners #}
 {% if show_affiliate %}
 <aside class="affiliate-box affiliate-box--prominent" role="complementary" aria-label="Affiliate links">
     <p class="affiliate-box__title">{{ affiliate_title }}</p>
     <p class="affiliate-box__desc">{{ affiliate_desc }}</p>
-    {% if show_amazon or show_rakuten_travel or show_rakuten_esim or show_klook %}
+    {% if show_rakuten_travel or show_rakuten_esim %}
     <div class="affiliate-box__actions">
-        {% if show_amazon %}
-        <a class="affiliate-box__btn affiliate-box__btn--amazon"
-           href="{{ amazon_search_url }}"
-           target="_blank"
-           rel="nofollow sponsored noopener noreferrer"
-           title="Amazon.co.jp"
-           data-track="affiliate_amazon"
-           data-track-label="{{ affiliate_category or 'amazon' }}">
-            {{ amazon_button_label }}
-        </a>
-        {% endif %}
         {% if show_rakuten_travel and rakuten_travel_url %}
         <a class="affiliate-box__btn affiliate-box__btn--rakuten"
            href="{{ rakuten_travel_url }}"
@@ -38,21 +27,9 @@
             {{ rakuten_esim_button_label }}
         </a>
         {% endif %}
-        {% if show_klook %}
-        <a class="affiliate-box__btn affiliate-box__btn--klook"
-           href="{{ klook_url }}"
-           target="_blank"
-           rel="nofollow sponsored noopener noreferrer"
-           title="Klook"
-           data-track="affiliate_klook"
-           data-track-label="klook">
-            {{ klook_button_label }}
-        </a>
-        {% endif %}
     </div>
-    {% endif %}
-    {% if show_amazon or show_rakuten_travel or show_rakuten_esim or show_klook %}
     <p class="affiliate-box__note">{{ affiliate_note }}</p>
     {% endif %}
 </aside>
 {% endif %}
+{% include 'partials/a8_banners.html' %}

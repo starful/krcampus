@@ -7,6 +7,7 @@ from app.compare import build_compare_export, compare_fee_value, prepare_compare
 from app.content_loader import load_guides, load_school_data
 from app.content_new import enrich_items
 from app.content_service import load_guide_post, load_school_post, render_markdown
+from app.a8_affiliate import a8_banners_context
 from app.affiliate import affiliate_context
 from app.context import (
     default_updated_at,
@@ -126,6 +127,7 @@ async def read_school_detail(request: Request, school_id: str, lang: str = Query
         "cross_site_links": detail_cross_links(lang, item),
         **inject_family_context(FAMILY_SITE_ID, lang),
         **affiliate_context(school_id, lang=lang, item_type=item_type),
+        **a8_banners_context(slug=school_id, lang=lang, item_type=item_type),
         **ctx,
     })
 
@@ -161,6 +163,7 @@ async def guide_detail(request: Request, slug: str, lang: str = Query("en")):
         "faq_json_ld": guide_faq_json_ld(slug, lang),
         "cross_site_links": detail_cross_links(lang, item),
         **affiliate_context(slug, lang=lang),
+        **a8_banners_context(slug=slug, lang=lang, item_type="guide"),
         **inject_family_context(FAMILY_SITE_ID, lang),
         **ctx,
     })
