@@ -5,7 +5,7 @@ basic_info:
   name_en: Seoul Women's University
   name_ko: 서울여자대학교
 category: university
-date: '2026-08-26'
+date: '2026-08-31'
 faculties:
 - College of Humanities
 - College of Social Sciences
@@ -45,6 +45,7 @@ tuition:
   admission_fee: 0
   yearly_tuition: 7500000
 ---
+
 
 ## A Women's-Only Campus in Nowon-gu: What Sets Seoul Women's University Apart
 
