@@ -2,21 +2,19 @@
 {
   "layout": "guide",
   "id": "daegu-study",
-  "title": "Studying in Daegu: Universities and Cost",
+  "title": "Study in Daegu 2026: Top Universities & Real Costs | KR Campus",
   "category": "Region",
   "tags": [
     "Region"
   ],
-  "description": "Find the best universities in Daegu, South Korea. Compare programs, tuition costs, scholarships and housing for international students.",
+  "description": "Compare Daegu's top universities, tuition costs, scholarships, and housing — a budget-friendly alternative to Seoul for international students in 2026.",
   "thumbnail": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=500",
   "date": "2026-07-27",
-  "seo_title": "Studying in Daegu, Korea: Universities, Programs & Cost Guide | KR Campus",
-  "seo_description": "Discover top universities in Daegu with programs, tuition costs & scholarships. Your complete guide to studying in South Korea."
+  "seo_title": "Daegu Study Guide 2026: Universities, Tuition & Costs",
+  "seo_description": "Thinking about studying in Daegu? Compare tuition costs, top universities, scholarships, and housing to see how it beats Seoul on price in 2026."
 }
 ---
-
-
-
+Considering Daegu over Seoul? This 2026 guide breaks down the city's top universities, realistic tuition and living costs, and scholarship options — everything you need to compare before you apply.
 
 # Studying in Daegu: Universities and Cost
 

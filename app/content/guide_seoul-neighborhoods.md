@@ -2,18 +2,20 @@
 {
   "layout": "guide",
   "id": "seoul-neighborhoods",
-  "title": "4 Best Seoul Neighborhoods for International Students (2026)",
+  "title": "Sinchon vs Hongdae vs Gangnam vs Jamsil: Best Seoul Area for Students (2026)",
   "category": "Region",
   "tags": [
     "Region"
   ],
-  "description": "Sinchon, Hongdae, Gangnam, or Jamsil? Compare housing costs, transit & vibe to find the right Seoul neighborhood for your student visa and budget.",
+  "description": "D-2/D-4 visa housing deadline? Compare Sinchon, Hongdae, Gangnam &amp; Jamsil on rent, transit &amp; vibe to pick fast.",
   "thumbnail": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=500",
   "date": "2026-07-27",
-  "seo_title": "4 Best Seoul Neighborhoods for International Students (2026)",
-  "seo_description": "Sinchon, Hongdae, Gangnam, or Jamsil? Compare housing costs, transit & vibe to find the right Seoul neighborhood for your student visa and budget."
+  "seo_title": "Sinchon vs Hongdae vs Gangnam vs Jamsil: Best Seoul Area for Students (2026)",
+  "seo_description": "D-2/D-4 visa housing deadline? Compare Sinchon, Hongdae, Gangnam &amp; Jamsil on rent, transit &amp; vibe to pick fast."
 }
 ---
+**Quick answer:** if your ARC deadline is tight, Sinchon or Hongdae get you a lease fastest; Gangnam and Jamsil trade convenience for cost. Read on for the full breakdown.
+
 Choosing where to live as an international student in Seoul comes down to three things: your visa housing deadline, your monthly budget, and how close you want to stay to campus life. Here's a quick 2026 comparison of Sinchon, Hongdae, Gangnam, and Jamsil to help you decide fast.
 
 # Best Seoul Neighborhoods for Students

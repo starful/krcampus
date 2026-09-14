@@ -47,16 +47,18 @@
     "Vibrant student-friendly campus town located in Busan, South Korea's second-largest city."
   ],
   "thumbnail": "/static/img/pin-univ.png",
-  "title": "Pusan National University (PNU) Admission & Tuition Guide",
+  "title": "Pusan National University (PNU) 2026 Admission & Tuition Guide",
   "tuition": {
     "admission_fee": 181000,
     "yearly_tuition": 4500000
   },
-  "description": "Your complete guide to studying at Pusan National University. Discover up-to-date tuition fees, admission requirements, and scholarship options for international students.",
-  "seo_title": "Pusan National University (PNU) Guide: Tuition & Admissions",
-  "seo_description": "Want to study at Pusan National University? Explore 2026 tuition fees, admission requirements, scholarship options, and international student guides!"
+  "description": "See PNU's 2026 tuition, admission requirements & scholarships for international students. Acceptance rate 35-45%, English tracks available.",
+  "seo_title": "PNU 2026 Guide: Tuition, Admission & Scholarships | Krcampus",
+  "seo_description": "See PNU's 2026 tuition, admission requirements & scholarships for international students. Acceptance rate 35-45%, English tracks available."
 }
 ---
+**Quick take:** PNU accepts an estimated 35–45% of international applicants, hosts 2,100+ global students, and partners with Hyundai, Samsung, and Doosan for internships — a strong-value pick outside Seoul. Here's what to know about admission, tuition, and scholarships.
+
 # Ultimate Study Abroad Guide: Pusan National University (PNU)
 
 Choosing where to study abroad is a life-changing decision. For students seeking top-tier academics, deep industry connections, and an affordable, coastal lifestyle, Pusan National University (PNU) in South Korea is a premier choice.

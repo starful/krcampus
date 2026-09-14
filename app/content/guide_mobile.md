@@ -2,22 +2,19 @@
 {
   "layout": "guide",
   "id": "mobile",
-  "title": "Best South Korea SIM Cards and Mobile Plans for Students",
+  "title": "Best South Korea SIM Cards & eSIM Plans for Students (2026)",
   "category": "Settlement",
   "tags": [
     "Settlement"
   ],
-  "description": "Find the best South Korea SIM cards, eSIMs, and cheap mobile plans for international students. Compare top long-term and short-term options.",
+  "description": "Compare Korea SIM cards, eSIMs & mobile plans for international students in 2026 — passport-only signup, airport pickup, and short vs. long-term options.",
   "thumbnail": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500",
   "date": "2026-07-27",
-  "seo_title": "Best South Korea SIM Cards & eSIM for Students (2026) | KR Campus",
-  "seo_description": "Compare the best South Korea SIM cards, eSIMs, and cheap mobile plans for international students. Find the perfect long-term or short-term option!"
+  "seo_title": "Korea SIM Cards & eSIM Plans for Students | 2026 Guide",
+  "seo_description": "Compare Korea SIM cards, eSIMs & mobile plans for international students in 2026 — passport-only signup, airport pickup, and short vs. long-term options."
 }
 ---
-
-
-
-
+**Quick answer:** Staying under 90 days? Grab a prepaid SIM or eSIM with just your passport — no ARC needed. Staying longer? A postpaid plan with a Korean carrier or MVNO usually offers better value once your Alien Registration Card is ready. Here's how to compare your options and avoid overpaying.
 
 # Best SIM Cards and Mobile Plans for Students
 
