@@ -5,7 +5,7 @@ basic_info:
   name_en: Hansung University
   name_ko: 한성대학교
 category: university
-date: '2026-09-04'
+date: '2026-09-14'
 faculties:
 - College of IT Convergence (Computer Engineering, AI Application, ICT Design)
 - College of Knowledge Service & Consulting (Business Administration, Global MICE,
@@ -44,6 +44,7 @@ tuition:
   admission_fee: 800000
   yearly_tuition: 7200000
 ---
+
 
 ## What Hansung University Is Known For
 

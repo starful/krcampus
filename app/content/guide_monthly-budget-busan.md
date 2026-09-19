@@ -2,22 +2,19 @@
 {
   "layout": "guide",
   "id": "monthly-budget-busan",
-  "title": "Busan Student Monthly Budget 2026: Rent, Food & Costs Guide",
+  "title": "Busan Student Monthly Budget 2026: Rent, Food & Visa Costs",
   "category": "Budget",
   "tags": [
     "Budget"
   ],
-  "description": "See real monthly costs for studying in Busan: dorm vs one-room rent, food, transport, and utilities—plus visa savings tips for 2026.",
+  "description": "How much does studying in Busan really cost per month in 2026? Compare dorm vs one-room rent, food, transport & utilities, plus visa savings tips.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
   "date": "2026-07-20",
-  "seo_title": "Monthly Student Budget in Busan (2026) | Rent, Food & Costs",
-  "seo_description": "Busan student living costs for 2026: dorm vs one-room rent, food, transport, utilities, and visa savings you'll need before you arrive."
+  "seo_title": "Busan Student Monthly Budget 2026: Rent, Food & Visa Costs",
+  "seo_description": "How much does studying in Busan really cost per month in 2026? Compare dorm vs one-room rent, food, transport & utilities, plus visa savings tips."
 }
 ---
-
-
-
-
+Wondering exactly how much you'll spend each month as a student in Busan? This guide breaks down real dorm vs. one-room rent, food, transport, and utility costs—plus the visa savings requirement you'll need to show before you arrive—so you can plan your 2026 budget with confidence.
 
 # Monthly Student Budget in Busan
 

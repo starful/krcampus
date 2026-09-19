@@ -2,21 +2,19 @@
 {
   "layout": "guide",
   "id": "remittance-korea",
-  "title": "How to Send Money to Korea: 5 Best & Cheapest Ways (2026)",
+  "title": "Send Money to Korea 2026: Cheapest Way to Pay Tuition (Wise vs Banks)",
   "category": "Budget",
   "tags": [
     "Budget"
   ],
-  "description": "Looking for the cheapest way to send money to South Korea? Compare top remittance apps like Wise and SentBe to get the best KRW rates in 2026.",
+  "description": "Paying Korean tuition or rent from abroad? Compare Wise vs SWIFT bank transfers to avoid hidden fees and get the best KRW rate in 2026.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
   "date": "2026-07-20",
-  "seo_title": "How to Send Money to Korea: 5 Cheapest Ways (2026) | KR Campus",
-  "seo_description": "Looking for the cheapest way to send money to South Korea? Compare top remittance apps like Wise and SentBe to get the best KRW rates in 2026."
+  "seo_title": "Send Money to Korea 2026: Cheapest Way to Pay Tuition (Wise vs Banks)",
+  "seo_description": "Paying Korean tuition or rent from abroad? Compare Wise vs SWIFT bank transfers to avoid hidden fees and get the best KRW rate in 2026."
 }
 ---
-
-
-
+Sending money to Korea as a student can feel overwhelming, especially with a tuition deadline looming. This guide compares Wise and traditional SWIFT bank transfers so you can move tuition, deposits, or monthly living expenses into a Korean bank account like Hana, Woori, or Shinhan without losing money to hidden fees or a weak exchange rate.
 
 # How to Send Money to Korea: Wise vs. Traditional Banks
 

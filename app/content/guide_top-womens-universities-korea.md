@@ -2,7 +2,7 @@
 {
   "layout": "guide",
   "id": "top-womens-universities-korea",
-  "title": "Top Women's Universities in Korea: 2026 Guide",
+  "title": "Top Women&#39;s Universities in Korea 2026: Rankings &amp; Guide | KR Campus",
   "category": "Curated List",
   "is_featured": true,
   "tags": [
@@ -10,19 +10,14 @@
     "Recommendation",
     "top-womens-universities-korea"
   ],
-  "description": "Explore Korea's top women's universities ranked for 2026. Admission rates, GPA requirements, scholarships for Ewha, Sookmyung & more.",
+  "description": "See 2026 rankings for Korea&#39;s top women&#39;s universities: admission rates, GPA cutoffs &amp; scholarships for Ewha, Sookmyung &amp; more.",
   "thumbnail": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500",
   "date": "2026-07-27",
-  "seo_title": "Top Women's Universities in Korea 2026 - Rankings & Admissions | KR Campus",
-  "seo_description": "Explore Korea's top women's universities ranked for 2026. Admission rates, GPA requirements, scholarships for Ewha, Sookmyung & more."
+  "seo_title": "Top Women's Universities in Korea 2026: Rankings & Guide | KR Campus",
+  "seo_description": "See 2026 rankings for Korea's top women's universities: admission rates, GPA cutoffs & scholarships for Ewha, Sookmyung & more."
 }
 ---
-
-
-
-
-
-
+**Updated for 2026:** This guide ranks Korea's leading women's universities—Ewha, Sookmyung, and beyond—by admission competitiveness, scholarship access, and international-student support, so you can compare programs at a glance before diving into the full breakdown below.
 
 # Empowering Women: Best Women's Universities in Korea
 

@@ -47,11 +47,17 @@ tags:
 - Located in Geumjeong-gu, a quieter, mountain-adjacent district connected to central
   Busan by subway
 thumbnail: /static/images/univ_busan-foreign-studies.jpg
-title: Busan University of Foreign Studies
+title: '[2026] Busan University of Foreign Studies (BUFS) | KR Campus'
 tuition:
   admission_fee: 0
   yearly_tuition: 7200000
+description: 'Busan University of Foreign Studies (BUFS): language majors, KLI Korean
+  courses, tuition clues, and campus life in Geumjeong-gu for 2026 applicants.'
+seo_title: Busan University of Foreign Studies (BUFS) 2026 | KR Campus
+seo_description: 'BUFS in Busan: language-major lineup, Korean Language Institute
+  pathway, tuition clues, and Geumjeong-gu campus life for 2026 applicants.'
 ---
+
 
 
 ## Why a Language-Focused University in Busan Fits a Specific Kind of Student
@@ -102,3 +108,7 @@ Applicants coming for KLI-only study apply for a D-4-1 (language training) visa 
 ## Housing and Getting Settled
 
 On-campus dormitory space is limited and prioritized for new international and exchange students in their first one to two semesters; after that, most students move into nearby 원룸 or officetel housing in Namsan-dong or Guseo-dong, both within walking or short-bus distance of campus. Rent for a basic one-room unit near BUFS generally runs lower than comparable housing near Busan National University or in central Busan, making it a reasonable option for budget-conscious students willing to trade nightlife proximity for cost savings.
+
+## Who BUFS Fits Best (and Quick Prep Tips)
+
+BUFS suits applicants who want a language-first degree rather than a STEM or research track — think trade, tourism, interpretation, or diplomacy-adjacent careers built around a second foreign language plus Korean. Before applying, shortlist your target language major first, since course availability and class size vary a lot between the flagship English/Japanese/Chinese tracks and smaller programs like Vietnamese or Thai. If you're starting through the Korean Language Institute, ask the admissions office directly about current session dates and level-placement testing, since these details change term to term.
