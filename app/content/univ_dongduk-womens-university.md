@@ -48,6 +48,7 @@ tuition:
   yearly_tuition: 7800000
 ---
 
+
 ## A Small Women's University With an Outsized Design and Music Reputation
 
 Dongduk Women's University (동덕여자대학교) sits in Seongbuk-gu, a hilly, residential district in northeastern Seoul known for its concentration of universities (Korea University, Sungshin Women's, Hansung University are all nearby). Founded in 1950, Dongduk is one of a shrinking handful of women's-only four-year universities left in South Korea, a status that became a national talking point in late 2024 when the administration floated a plan to admit male students and was met with sustained student protests; the plan was ultimately shelved. For prospective students, the practical takeaway is that Dongduk's single-sex identity is currently secure and central to its campus culture, not a detail in flux.

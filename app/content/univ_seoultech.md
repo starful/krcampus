@@ -5,7 +5,7 @@ basic_info:
   name_en: Seoul National University of Science and Technology
   name_ko: 서울과학기술대학교
 category: university
-date: '2026-09-04'
+date: '2026-09-14'
 faculties:
 - College of Engineering
 - College of Information Technology (IT)
@@ -56,6 +56,7 @@ tuition:
   admission_fee: 0
   yearly_tuition: 4200000
 ---
+
 
 ## What Kind of School SEOULTECH Actually Is
 

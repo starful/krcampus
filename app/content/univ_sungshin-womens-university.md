@@ -53,6 +53,7 @@ tuition:
   yearly_tuition: 7500000
 ---
 
+
 Sungshin Women's University (성신여자대학교) is one of Korea's oldest private women's universities, founded in 1936 in Seoul. For international students weighing a Seoul-based women's university with strong fashion, design, and business programs plus a growing AI-convergence track, here is what matters for admissions, cost, and daily life.
 
 ## Two Campuses on Line 4: Dongseon-dong and Unjeong Green Campus
