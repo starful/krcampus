@@ -94,7 +94,7 @@ def _copy(banner_id: str, *, lang: str) -> dict[str, str]:
         click = url_for_location(
             lang=lang,
             country="kr",
-            default_city=16901,
+            default_city=14690,
         )
         return {
             "id": src["id"],
@@ -132,9 +132,9 @@ def a8_banners_context(
     if kind in ("school", "university"):
         keys = ["agoda", "korean_college"]
     elif key in GUIDE_A8_KKDAY:
-        keys = ["kkday"]
+        keys = ["agoda", "kkday"]
     elif key in GUIDE_A8_LANGUAGE:
-        keys = ["korean_college"]
+        keys = ["agoda", "korean_college"]
     elif key in GUIDE_A8_AGODA:
         keys = ["agoda"]
 

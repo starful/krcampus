@@ -26,13 +26,14 @@ def test_english_shows_rakuten_for_lifestyle():
     assert "amazon" not in ctx["affiliate_desc"].lower()
 
 
-def test_arrival_shows_kkday_a8_not_klook():
+def test_arrival_shows_agoda_and_kkday_a8():
     ctx = affiliate_context("arrival", lang="en")
     assert ctx["show_affiliate"] is True
     assert ctx["show_rakuten_travel"] is True
     a8 = a8_banners_context(slug="arrival", lang="en", item_type="guide")
     assert a8["show_a8_banners"] is True
-    assert a8["a8_banners"][0]["id"] == "kkday"
+    assert [b["id"] for b in a8["a8_banners"]] == ["agoda", "kkday"]
+    assert "agoda.com/partners" in a8["a8_banners"][0]["click_url"]
 
 
 def test_mobile_shows_rakuten_esim():
@@ -42,10 +43,11 @@ def test_mobile_shows_rakuten_esim():
     assert ctx["show_rakuten_travel"] is True
 
 
-def test_topik_shows_korean_college_a8():
+def test_topik_shows_agoda_and_korean_college_a8():
     a8 = a8_banners_context(slug="topik", lang="en", item_type="guide")
     assert a8["show_a8_banners"] is True
-    assert a8["a8_banners"][0]["id"] == "korean_college"
+    assert [b["id"] for b in a8["a8_banners"]] == ["agoda", "korean_college"]
+    assert "agoda.com/partners" in a8["a8_banners"][0]["click_url"]
 
 
 def test_prep_slugs_still_show_box():
