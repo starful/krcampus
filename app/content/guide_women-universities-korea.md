@@ -9,9 +9,11 @@
   ],
   "description": "Ewha, Sookmyung, and others.",
   "thumbnail": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=500",
-  "date": "2026-09-14"
+  "date": "2026-09-28"
 }
 ---
+
+
 
 
 # Women's Universities in Korea: Ewha, Sookmyung, and Beyond
