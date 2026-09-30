@@ -6,7 +6,13 @@
     .contact-box { background: #fff; padding: 50px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); text-align: center; }
     .contact-box h1 { color: #2c3e50; margin-bottom: 12px; }
     .contact-box .subtitle { color: #666; margin-bottom: 20px; line-height: 1.6; }
-    .contact-box .trust-list { text-align: left; max-width: 420px; margin: 0 auto 28px; color: #555; line-height: 1.7; }
+    .contact-box .trust-list { text-align: left; max-width: 420px; margin: 0 auto 16px; color: #555; line-height: 1.7; }
+    .contact-box .notice {
+        text-align: left; max-width: 36rem; margin: 0 auto 28px;
+        padding: 14px 16px; background: #f4f8fc; border-left: 4px solid #3498db;
+        border-radius: 0 8px 8px 0; color: #444; font-size: 0.95rem; line-height: 1.6;
+    }
+    .contact-box .notice strong { color: #2c3e50; }
     .btn { display: inline-block; background: #3498db; color: #fff !important; padding: 16px 32px; border-radius: 8px;
             font-size: 1.1rem; font-weight: bold; text-decoration: none; }
     .links { margin-top: 28px; }
@@ -25,6 +31,7 @@
                 <li>ガイド内容の訂正・追加要望</li>
                 <li>提携・掲載に関するご相談</li>
             </ul>
+            <p class="notice"><strong>KR Campusは情報サイトです。</strong>大学や出入国機関ではありません。入学代行、海外エージェント契約、ビザ相談、個人書類の確認は行いません。特定の学校については、その学校の公式窓口へお問い合わせください。</p>
             <a class="btn" href="https://script.google.com/macros/s/AKfycbw4VlSszEVcOl1Jllgv-3ftTwOyIIZM_V8P0oXXa71rI6KqHtaw7o3igBPen2V1I1Me/exec?site=krcampus" target="_blank" rel="noopener noreferrer">お問い合わせフォームを開く</a>
             <p class="links"><a href="/policy?lang=ja">プライバシーポリシー</a> · <a href="/about?lang=ja">About</a> · <a href="/guide?lang=ja">ガイド一覧</a></p>
             {% else %}
@@ -35,6 +42,7 @@
                 <li>Guide content fixes or topic requests</li>
                 <li>Partnership or listing inquiries</li>
             </ul>
+            <p class="notice"><strong>KR Campus is an information site.</strong> We are not a university or visa office. We do not handle admissions, exclusive agent agreements, or visa cases, and we do not review personal documents. For a specific school, contact that school directly.</p>
             <a class="btn" href="https://script.google.com/macros/s/AKfycbw4VlSszEVcOl1Jllgv-3ftTwOyIIZM_V8P0oXXa71rI6KqHtaw7o3igBPen2V1I1Me/exec?site=krcampus" target="_blank" rel="noopener noreferrer">Open contact form</a>
             <p class="links"><a href="/policy?lang=en">Privacy Policy</a> · <a href="/about?lang=en">About</a> · <a href="/guide?lang=en">Guides</a></p>
             {% endif %}

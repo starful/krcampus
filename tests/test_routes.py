@@ -98,6 +98,14 @@ class RouteSmokeTests(unittest.TestCase):
         self.assertIn("main-footer", response.text)
         self.assertNotIn("© 2024 KR Campus", response.text)
 
+    def test_contact_says_not_a_school(self):
+        en = self.client.get("/contact")
+        self.assertEqual(en.status_code, 200)
+        self.assertIn("not a university or visa office", en.text)
+        ja = self.client.get("/contact?lang=ja")
+        self.assertEqual(ja.status_code, 200)
+        self.assertIn("大学や出入国機関ではありません", ja.text)
+
 
 if __name__ == "__main__":
     unittest.main()
