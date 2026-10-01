@@ -2,16 +2,19 @@
 {
   "layout": "guide",
   "id": "korean-resume-writing-tips",
-  "title": "Writing a Korean Resume and Self-Introduction Letter (Self-PR)",
+  "title": "Korean Resume & Self-Introduction Letter Guide (2026)",
   "category": "Work",
   "tags": [
     "Work"
   ],
-  "description": "How to write a standard Korean resume (이력서) and self-introduction letter (자기소개서) to stand out to employers.",
+  "description": "Learn to write a Korean resume (이력서) and self-introduction letter (자기소개서) step by step, with the format employers expect.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-08-08"
+  "date": "2026-08-08",
+  "seo_title": "Korean Resume & Self-Introduction Letter Guide (2026)",
+  "seo_description": "Learn to write a Korean resume (이력서) and self-introduction letter (자기소개서) step by step, with the format employers expect."
 }
 ---
+
 
 
 ## What Makes a Korean Resume Different From a Western CV
@@ -85,3 +88,14 @@ Only if the job posting is in English or the company explicitly accepts English 
 
 **How long should my jasoseo be overall?**
 Follow the platform's stated character limits exactly — typically 500–1,000 characters per question, 3–5 questions total. There is rarely a "one universal length"; it's set per company.
+
+## Who This Guide Is For
+
+This guide is for international applicants, overseas Koreans, and new graduates preparing their first 이력서 and 자기소개서 for the Korean job market — whether you're applying to a conglomerate, a startup, or an SME.
+
+### Quick Tips Before You Submit
+
+- Match your photo and formatting to the company's preferred template (paper form vs. online application)
+- Keep each 자기소개서 answer focused on one concrete example per prompt
+- Proofread for natural Korean phrasing, not just grammar — awkward translations stand out to reviewers
+- Double-check your visa status field if applying as a foreign national
