@@ -2,16 +2,19 @@
 {
   "layout": "guide",
   "id": "korean-bank-account",
-  "title": "Opening a Korean bank account as a student",
+  "title": "Korean Bank Account for Students: Step-by-Step 2026 Guide | KR Campus",
   "category": "Settlement",
   "tags": [
     "Settlement"
   ],
-  "description": "Bank account steps for foreigners.",
+  "description": "Which bank, what to bring, and exactly when you're eligible to open an account after arrival — a clear step-by-step guide for international students in Korea.",
   "thumbnail": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500",
-  "date": "2026-09-04"
+  "date": "2026-09-04",
+  "seo_title": "Korean Bank Account for Students (2026 Guide) | KR Campus",
+  "seo_description": "ARC timing, required documents, and the banks that actually work for foreigners — everything international students need before their first trip to the branch."
 }
 ---
+Confused about when you're even allowed to open an account, or which bank to pick as a foreigner? The order of steps matters more than most guides let on — get it wrong and you can lose weeks waiting on tuition refunds, scholarship transfers, or your phone plan setup. Here's the exact sequence, from ARC to activation.
 
 # Opening a Korean Bank Account as a Student: A Step-by-Step Guide
 
