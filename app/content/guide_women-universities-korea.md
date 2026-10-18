@@ -2,19 +2,19 @@
 {
   "layout": "guide",
   "id": "women-universities-korea",
-  "title": "Women's Universities in Korea",
+  "title": "Women's Universities in Korea (2026): Ewha, Sookmyung & More | KR Campus",
   "category": "Selection",
   "tags": [
     "Selection"
   ],
-  "description": "Ewha, Sookmyung, and others.",
+  "description": "Compare Korea's top women's universities—tuition, English programs, visas, and campus life—so you can shortlist the right fit fast.",
   "thumbnail": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=500",
-  "date": "2026-09-28"
+  "date": "2026-09-28",
+  "seo_title": "Women's Universities in Korea: Ewha, Sookmyung & More (2026)",
+  "seo_description": "Ewha, Sookmyung, and more compared: English programs, tuition, visas, and campus life—see which Korean women's university fits you."
 }
 ---
-
-
-
+Trying to figure out which women's university in Korea actually fits your major, budget, and visa timeline? Before you dive in, here's the fast version: how Ewha, Sookmyung, and the other top picks stack up on English-taught programs, tuition, and campus life.
 
 # Women's Universities in Korea: Ewha, Sookmyung, and Beyond
 

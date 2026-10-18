@@ -7,13 +7,15 @@
   "tags": [
     "Visa"
   ],
-  "description": "Changing from D-4 to D-2 in Korea? See the application timeline, required documents, and common mistakes to avoid a visa denial.",
+  "description": "Switching from D-4 to D-2 in Korea? See the exact timeline, document order, and financial proof steps that prevent visa denial.",
   "thumbnail": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=500",
   "date": "2026-08-20",
-  "seo_title": "D-4 to D-2 Visa Change in Korea (2026) | KR Campus",
-  "seo_description": "Changing from D-4 to D-2 in Korea? See the application timeline, required documents, and common mistakes to avoid a visa denial."
+  "seo_title": "D-4 to D-2 Visa Change in Korea (2026): Avoid Costly Mistakes",
+  "seo_description": "Switching from D-4 to D-2 in Korea? See the exact timeline, document order, and financial proof steps that prevent visa denial."
 }
 ---
+Most D-4 to D-2 switches aren't denied over missing paperwork — they're denied over timing and document order. Before you touch HiKorea, know which window you're in and what order your documents need to go in, so you don't end up restarting the whole process.
+
 Thinking about moving from a D-4 language visa to a D-2 degree visa? The timing window, document order, and financial proof are where most applicants trip up — not the paperwork itself, and a single missed step can mean restarting the whole process. Here's what actually matters, in order.
 
 # Switching from D-4 to D-2 Visa in Korea

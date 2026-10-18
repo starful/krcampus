@@ -2,16 +2,19 @@
 {
   "layout": "guide",
   "id": "claiming-health-insurance-korea",
-  "title": "How to Use and Claim National Health Insurance in Korea",
+  "title": "[2026] How to Use & Claim National Health Insurance (NHIS) in Korea | KR",
   "category": "Insurance",
   "tags": [
     "Insurance"
   ],
-  "description": "Understand your coverage, finding English-speaking clinics, and navigating the NHIS system.",
+  "description": "NHIS basics for foreigners in Korea: enroll, use your card at clinics, find English-speaking care, add private insurance, and file claims.",
   "thumbnail": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=500",
-  "date": "2026-08-26"
+  "date": "2026-08-26",
+  "seo_title": "[2026] National Health Insurance (NHIS) Korea Guide: Enroll, Use, Claim | KR",
+  "seo_description": "How foreign students and residents enroll in Korea's NHIS, use it at clinics, find English-speaking care, and file reimbursement claims."
 }
 ---
+
 
 ## How to Use and Claim National Health Insurance in Korea
 
@@ -105,3 +108,12 @@ Yes, students pay a flat regional average rate (not income-based), usually lower
 
 **Does NHIS cover treatment back home during university breaks?**
 No — NHIS only covers care received in Korea. If traveling, add short-term travel insurance separately.
+
+## Quick Tips for First-Time NHIS Users
+
+- Keep your ARC and a working phone number on hand — clinics ask for both when registering as a new patient.
+- Changing from student to employee status (or vice versa) can shift your enrollment category; confirm with your local NHIS branch if your visa status changes.
+- Lost your enrollment confirmation? Reprint it through the 건강보험 app or at any NHIS branch counter.
+- Some specialist, dental, or vision visits involve different co-payment rules — ask the front desk before treatment if you're unsure.
+
+This guide is aimed at international students on D-2/D-4 visas, but the enrollment and clinic steps apply broadly to other NHIS members too.

@@ -51,14 +51,18 @@
     "Ewha Global Buddy Program"
   ],
   "thumbnail": "/static/img/pin-school.png",
-  "title": "Ewha Language Center",
+  "title": "Ewha Language Center | Korean Language Programs in Seoul",
   "tuition": {
     "registration_fee": 80000,
     "quarterly_tuition": 1720000,
     "textbook_fee": 60000
-  }
+  },
+  "description": "Learn Korean at Ewha Language Center: intensive (200 hrs/10 weeks), evening, and short-term programs. 2,500+ students annually since 1962.",
+  "seo_title": "Ewha Language Center | Korean Language Programs in Seoul",
+  "seo_description": "Ewha Language Center offers intensive, evening, and short-term Korean language programs with 6 proficiency levels. Co-educational classes for international students in Seoul."
 }
 ---
+
 ## Ewha Language Center: Language Program Snapshot
 Established in 1962, the Ewha Language Center (ELC) at Ewha Womans University is a premier Korean language training institute located in Seodaemun-gu, Seoul. Catering to over 2,500 students annually, ELC is globally recognized for its highly acclaimed "Ewha Korean" textbook series and its speaking-focused curriculum.
 
@@ -135,3 +139,11 @@ No. Dormitory spaces are limited and distributed on a first-come, first-served b
 Yes. If your visa is officially denied by the Korean embassy, you must submit a refund application along with the official visa rejection letter. ELC will refund the tuition fee, excluding the non-refundable registration fee.
 
 ### Can I work part-time while studying on a D-4 visa?
+
+## Why Study at Ewha Language Center?
+
+**Established Excellence** — Operating since 1962, ELC is recognized globally for its Ewha Korean textbook series, a standard in Korean language education. 
+
+**Flexible Scheduling** — Choose intensive, evening, or short-term programs to match your lifestyle and learning goals. 
+
+**Large Alumni Network** — Join 2,500+ annual students and thousands of graduates who have gone on to universities, careers, and continued proficiency development.

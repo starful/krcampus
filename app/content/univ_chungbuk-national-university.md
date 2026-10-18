@@ -40,11 +40,17 @@ tags:
 - Extremely affordable tuition fees with robust scholarship opportunities for global
   talent
 thumbnail: /static/images/univ_chungbuk-national-university.jpg
-title: Chungbuk National University
+title: Chungbuk National University (CBNU) 2026 Guide | KR Campus
 tuition:
   admission_fee: 0
   yearly_tuition: 4200000
+description: 'Chungbuk National University (CBNU) guide: tuition, admissions, international
+  programs, and campus info for prospective students in 2026.'
+seo_title: Chungbuk National University (CBNU) 2026 Guide | KR Campus
+seo_description: 'Chungbuk National University (CBNU) guide: tuition, admissions,
+  international programs, and campus info for prospective students in 2026.'
 ---
+
 
 # International Student Guide: Chungbuk National University (CBNU)
 
@@ -182,3 +188,7 @@ Excluding tuition, a budget of 600,000 to 800,000 KRW (~$450 - $600 USD) per mon
 
 ### Q5: How competitive is the College of Veterinary Medicine?
 Extremely competitive. Admissions require outstanding academic records, strong language scores (Korean or English), and a successful interview.
+
+## Who CBNU Suits & Practical Tips
+
+CBNU is a strong fit for students seeking flagship national-university quality at a lower cost, with growing international support in STEM graduate programs. Before applying, check your target college's language requirement, confirm whether your program is Korean-taught or English-taught, and contact the Office of International Services (OIS) early for document and visa guidance. Budget extra time for TOPIK or English test score submission, since requirements differ by college.
