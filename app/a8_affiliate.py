@@ -123,7 +123,12 @@ def a8_banners_context(
     item_type: str = "guide",
 ) -> dict[str, Any]:
     if not _enabled():
-        return {"show_a8_banners": False, "a8_banners": []}
+        return {
+            "show_a8_banners": False,
+            "a8_banners": [],
+            "agoda_cta": None,
+            "show_agoda_cta": False,
+        }
 
     key = _normalize(slug)
     kind = (item_type or "guide").strip().lower()
@@ -139,10 +144,16 @@ def a8_banners_context(
         keys = ["agoda"]
 
     if not keys:
-        return {"show_a8_banners": False, "a8_banners": []}
+        return {
+            "show_a8_banners": False,
+            "a8_banners": [],
+            "agoda_cta": None,
+            "show_agoda_cta": False,
+        }
 
     is_ja = (lang or "en").lower().startswith("ja")
     banners = [_copy(k, lang=lang) for k in keys]
+    agoda = next((b for b in banners if b.get("id") == "agoda"), None)
     return {
         "show_a8_banners": True,
         "a8_banners": banners,
@@ -154,4 +165,6 @@ def a8_banners_context(
             if is_ja
             else "Affiliate ads · opens in new tab"
         ),
+        "agoda_cta": agoda,
+        "show_agoda_cta": agoda is not None,
     }
