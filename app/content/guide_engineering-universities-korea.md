@@ -2,7 +2,7 @@
 {
   "layout": "guide",
   "id": "engineering-universities-korea",
-  "title": "Top Engineering Universities in Korea 2026: Rankings & Admissions",
+  "title": "Korea's Top Engineering Universities 2026: Full Rankings Guide",
   "category": "Selection",
   "tags": [
     "Selection"
@@ -10,10 +10,11 @@
   "description": "Compare Korea's top engineering schools—KAIST, POSTECH, SNU & more—with rankings, admission steps, and STEM scholarships for international students.",
   "thumbnail": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=500",
   "date": "2026-07-27",
-  "seo_title": "Korea's Top Engineering Universities 2026: Full Rankings Guide",
-  "seo_description": "Compare Korea's top engineering schools—KAIST, POSTECH, SNU & more—with rankings, admission steps, and STEM scholarships for international students."
+  "seo_title": "Study Engineering in Korea 2026: KAIST vs POSTECH vs SNU—Job Placement Rates & Scholarships",
+  "seo_description": "Top engineering universities in Korea: KAIST, POSTECH, SNU compared. English programs, STEM scholarships, job placement & admission."
 }
 ---
+
 Considering engineering study in Korea? KAIST, POSTECH, and Seoul National University consistently top the country's rankings, offering English-taught programs, strong industry ties to companies like Samsung and LG, and generous STEM scholarships for international applicants. Below, we compare what makes each school distinct and outline the steps to apply.
 
 # Top Engineering Universities in Korea

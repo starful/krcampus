@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "transfer-university-korea",
-  "title": "Transfer to Korean University: Complete 2026 Guide & Tips",
+  "title": "How to Transfer to Korean University in 2026: Complete Guide",
   "category": "Selection",
   "tags": [
     "Selection"
   ],
-  "description": "Step-by-step guide covering eligibility, credit transfer, visa requirements, and scholarship options for Korean university transfer.",
+  "description": "Ready to transfer to Korea? Eligibility, credit conversion, visa procedures, scholarships & step-by-step guide for 2026.",
   "thumbnail": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=500",
   "date": "2026-07-27",
-  "seo_title": "How to Transfer to Korean University in 2026: Complete Guide",
-  "seo_description": "Ready to transfer to Korea? Eligibility, credit conversion, visa procedures, scholarships & step-by-step guide for 2026."
+  "seo_title": "Transfer to Korean University 2026: Credit Transfer Secrets (No Rejection)",
+  "seo_description": "Transfer to Korea without losing credits. Exact eligibility, fast-track requirements, visa timeline, and scholarships for 2026."
 }
 ---
+
 
 
 
