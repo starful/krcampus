@@ -34,6 +34,7 @@ def test_arrival_shows_agoda_and_kkday_a8():
     assert a8["show_a8_banners"] is True
     assert [b["id"] for b in a8["a8_banners"]] == ["agoda", "kkday"]
     assert "agoda.com/partners" in a8["a8_banners"][0]["click_url"]
+    assert a8["show_agoda_cta"] is True
 
 
 def test_mobile_shows_rakuten_esim():
