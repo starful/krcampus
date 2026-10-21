@@ -2,7 +2,7 @@
 {
   "layout": "guide",
   "id": "daegu-study",
-  "title": "Study in Daegu 2026: Tuition, Scholarships & Top Universities",
+  "title": "Daegu Study Guide 2026: Tuition, Scholarships & Top Unis",
   "category": "Region",
   "tags": [
     "Region"
@@ -10,10 +10,11 @@
   "description": "See 2026 tuition, scholarship, and housing costs for Daegu's top universities — a budget-friendly alternative to Seoul, compared side by side.",
   "thumbnail": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=500",
   "date": "2026-07-27",
-  "seo_title": "Daegu Study Guide 2026: Tuition, Scholarships & Top Unis",
-  "seo_description": "See 2026 tuition, scholarship, and housing costs for Daegu's top universities — a budget-friendly alternative to Seoul, compared side by side."
+  "seo_title": "Study in Daegu vs Seoul 2026: Universities, Tuition & Scholarships Compared—Save $$$",
+  "seo_description": "Daegu universities 2026: tuition 30% cheaper than Seoul with full cost breakdown, scholarships & housing for international students."
 }
 ---
+
 **Daegu tuition runs well below Seoul's**, and this 2026 guide shows exactly where the savings show up — scholarships, housing, and the universities worth shortlisting first.
 
 Considering Daegu over Seoul? This 2026 guide breaks down the city's top universities, realistic tuition and living costs, and scholarship options — everything you need to compare before you apply.

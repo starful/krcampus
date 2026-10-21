@@ -10,10 +10,11 @@
   "description": "Which Korea SIM plan actually saves you money? Compare prepaid vs. postpaid costs by visa length, plus airport pickup options for 2026.",
   "thumbnail": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500",
   "date": "2026-07-27",
-  "seo_title": "Korea SIM Cards & eSIM Plans for Students (2026): Which Saves You the Most?",
-  "seo_description": "Which Korea SIM plan actually saves you money? Compare prepaid vs. postpaid costs by visa length, plus airport pickup options for 2026."
+  "seo_title": "Cheapest Korea SIM Plans for Students 2026: Save 40% vs Airport Prices (Prepaid vs Postpaid)",
+  "seo_description": "Save on Korea mobile: Compare prepaid SIM vs eSIM vs postpaid by visa length. Airport pickup rates & cheapest 2026 student plans included."
 }
 ---
+
 **The short version:** a prepaid SIM costs more per month than a postpaid plan — so if you're staying past 90 days and can get your ARC, switching early is the easiest way to cut your phone bill. Below, compare your options by visa length so you don't overpay for connectivity you don't need.
 
 **Quick answer:** Staying under 90 days? Grab a prepaid SIM or eSIM with just your passport — no ARC needed. Staying longer? A postpaid plan with a Korean carrier or MVNO usually offers better value once your Alien Registration Card is ready. Here's how to compare your options and avoid overpaying.
