@@ -1,4 +1,6 @@
 import asyncio
+import hashlib
+import hmac
 import os
 import uuid
 
@@ -18,8 +20,15 @@ def ga4_configured() -> bool:
 
 
 def client_id_for_request(request: Request) -> str:
-    """Stable-but-anonymous client id derived from the request IP (no cookies)."""
-    return str(uuid.uuid5(uuid.NAMESPACE_DNS, get_client_ip(request)))
+    """Stable-but-anonymous client id derived from the request IP (no cookies).
+
+    Keyed with GA_API_SECRET so the IP can't be recovered or brute-forced
+    from the client id by anyone without the secret.
+    """
+    digest = hmac.new(
+        GA_API_SECRET.encode(), get_client_ip(request).encode(), hashlib.sha256
+    ).digest()
+    return str(uuid.UUID(bytes=digest[:16]))
 
 
 def _send_event(client_id: str, name: str, params: dict) -> None:
