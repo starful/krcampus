@@ -86,6 +86,7 @@
             loading="eager"
             decoding="async"
         >
+    {% if item.get('thumbnail_credit') %}<figcaption class="photo-credit">{{ item.get('thumbnail_credit') }}</figcaption>{% endif %}
     </figure>
     {% endif %}
 

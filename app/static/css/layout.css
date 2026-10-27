@@ -249,3 +249,6 @@
     .family-site-card { flex: 1 1 100%; max-width: none; justify-content: center; }
 }
 
+
+/* Google Places photo credit under the guide cover */
+.photo-credit { font-size: 11px; color: #8a8f99; text-align: right; margin: 4px 2px 0; }
