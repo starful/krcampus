@@ -4,6 +4,7 @@ from fastapi import APIRouter, Request, HTTPException
 import firebase_admin
 from firebase_admin import credentials, firestore
 from starlette.concurrency import run_in_threadpool
+from app.analytics import client_id_for_request, track_event
 from app.http_utils import get_client_ip
 
 router = APIRouter()
@@ -90,6 +91,12 @@ async def process_reaction(request: Request, slug: str, reaction_type: str):
         result, data = await run_in_threadpool(sync_process_reaction, db, COLLECTION_NAME, slug, safe_ip, reaction_type)
     except Exception as e:
         raise HTTPException(status_code=500, detail="Reaction processing failed")
+
+    await track_event(
+        client_id_for_request(request),
+        "reaction",
+        {"slug": slug, "reaction_type": reaction_type, "action": result},
+    )
 
     return {
         "status": "success", "action": result,

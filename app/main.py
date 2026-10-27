@@ -4,7 +4,11 @@ from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 
 from app.context import configure_templates
-from app.middleware import lang_kr_alias_middleware, legacy_redirect_middleware
+from app.middleware import (
+    ga4_pageview_middleware,
+    lang_kr_alias_middleware,
+    legacy_redirect_middleware,
+)
 from app.paths import CONTENT_DIR, STATIC_DIR
 from app.reactions import router as reactions_router
 from app.routes import assets, pages, seo_routes
@@ -19,6 +23,7 @@ configure_templates()
 
 app.middleware("http")(legacy_redirect_middleware)
 app.middleware("http")(lang_kr_alias_middleware)
+app.middleware("http")(ga4_pageview_middleware)
 
 app.include_router(reactions_router, prefix="/api")
 app.include_router(assets.router)

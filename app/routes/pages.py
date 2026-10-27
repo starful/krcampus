@@ -3,6 +3,7 @@ import json
 from fastapi import APIRouter, HTTPException, Query, Request
 from fastapi.responses import HTMLResponse, RedirectResponse
 
+from app.analytics import client_id_for_request, track_event
 from app.compare import build_compare_export, compare_fee_value, prepare_compare_items
 from app.content_loader import load_guides, load_school_data
 from app.content_new import enrich_items
@@ -254,6 +255,13 @@ async def compare_page(request: Request, ids: str = "", lang: str = Query("en"))
 
     ui = get_ui_text(lang)
     prepared = prepare_compare_items(selected, lang)
+
+    await track_event(
+        client_id_for_request(request),
+        "compare_view",
+        {"ids": ",".join(item.get("id", "") for item in selected), "count": len(selected)},
+    )
+
     return templates.TemplateResponse(request, "compare.html", {
         "selected": prepared,
         "min_fee": min_fee,
