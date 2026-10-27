@@ -78,6 +78,10 @@ def _guide_thumbnail_from_id(guide_id: str) -> str:
 
 
 def resolve_guide_list_thumbnail(meta) -> str:
+    # our own cover photo (Google Places / school photo) when the guide has one
+    thumb = str(meta.get("thumbnail") or "").strip()
+    if "/static/images/" in thumb:
+        return thumb
     return _guide_thumbnail_from_id(str(meta.get("id") or ""))
 
 
