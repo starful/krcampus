@@ -1,0 +1,4 @@
+<div class="lang-selector">
+    <a href="{{ hreflang_urls.en if hreflang_urls else ('?lang=en') }}" class="lang-btn{% if current_lang != 'ja' %} active{% endif %}">EN</a>
+    <a href="{{ hreflang_urls.ja if hreflang_urls else ('?lang=ja') }}" class="lang-btn{% if current_lang == 'ja' %} active{% endif %}">JA</a>
+</div>
