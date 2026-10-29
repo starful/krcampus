@@ -3,6 +3,7 @@ from urllib.parse import urlencode
 from fastapi import Request
 from fastapi.responses import RedirectResponse
 
+from app.analytics import client_id_for_request, track_event
 from app.settings import REDIRECT_MAP
 
 
@@ -43,3 +44,21 @@ async def legacy_redirect_middleware(request: Request, call_next):
     query = request.url.query
     redirect_url = f"{target}?{query}" if query and "?" not in target else target
     return RedirectResponse(url=redirect_url, status_code=301)
+
+
+async def ga4_pageview_middleware(request: Request, call_next):
+    """Record a server-side GA4 page_view for successful HTML page requests."""
+    response = await call_next(request)
+    path = request.url.path
+    if (
+        request.method == "GET"
+        and response.status_code < 400
+        and not path.startswith(("/api", "/static"))
+        and response.headers.get("content-type", "").startswith("text/html")
+    ):
+        await track_event(
+            client_id_for_request(request),
+            "page_view",
+            {"page_location": str(request.url), "page_path": path},
+        )
+    return response
