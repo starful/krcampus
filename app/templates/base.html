@@ -66,10 +66,7 @@
         </div>
 
         <div class="header-right">
-            <div class="lang-selector">
-                <a href="?lang=en" class="lang-btn{% if current_lang != 'ja' %} active{% endif %}">EN</a>
-                <a href="?lang=ja" class="lang-btn{% if current_lang == 'ja' %} active{% endif %}">JA</a>
-            </div>
+            {% include 'partials/lang_selector.html' %}
             <a href="/compare?lang={{ current_lang }}" class="header-compare-btn" data-compare-open data-track="compare_open" data-track-label="header">
                 {{ ui.compare_header }} <span class="header-compare-badge" data-compare-count>0</span>
             </a>
