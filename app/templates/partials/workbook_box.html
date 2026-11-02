@@ -1,0 +1,19 @@
+{% if workbooks %}
+<aside class="workbook-box" role="complementary" aria-label="{{ ui.workbook_box_label }}">
+    <p class="workbook-box__kicker">{{ ui.workbook_free_badge }}</p>
+    <p class="workbook-box__title">{{ ui.workbook_box_title }}</p>
+    <p class="workbook-box__desc">{{ ui.workbook_box_desc }}</p>
+    <div class="workbook-box__actions">
+        {% for book in workbooks %}
+        <a class="workbook-box__btn"
+           href="{{ book.href }}"
+           download="{{ book.filename }}"
+           data-track="workbook_download"
+           data-track-label="{{ book.id }}">
+            {{ book.title }}
+        </a>
+        {% endfor %}
+    </div>
+    <p class="workbook-box__note">{{ ui.workbook_box_note }}</p>
+</aside>
+{% endif %}
