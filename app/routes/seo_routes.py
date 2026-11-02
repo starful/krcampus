@@ -4,10 +4,10 @@ from xml.sax.saxutils import escape as xml_escape
 from fastapi import APIRouter
 from fastapi.responses import PlainTextResponse, Response
 
-from app.content_loader import load_guides, load_school_data
+from app.content_loader import load_guides, load_school_data, load_stay_data
 from app.context import content_lastmod
 from app.seo.meta import build_hreflang_urls
-from app.settings import ADS_TXT_CONTENT, DOMAIN
+from app.settings import ADS_TXT_CONTENT, DOMAIN, SHOW_STAYS_UI
 
 router = APIRouter()
 
@@ -36,7 +36,10 @@ async def sitemap():
 
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     add_entry("/", today, "daily", "1.0")
-    for page in ["/about", "/guide", "/schools", "/universities", "/contact", "/policy", "/compare"]:
+    static_pages = ["/about", "/guide", "/schools", "/universities", "/contact", "/policy", "/compare"]
+    if SHOW_STAYS_UI:
+        static_pages.append("/stays")
+    for page in static_pages:
         add_entry(page, today, "weekly", "0.8")
 
     schools_en, _ = load_school_data("en")
@@ -60,6 +63,19 @@ async def sitemap():
             "weekly",
             "0.7",
         )
+
+    if SHOW_STAYS_UI:
+        stays_en, _ = load_stay_data("en")
+        for stay in stays_en:
+            stay_id = stay.get("id")
+            if not stay_id:
+                continue
+            add_entry(
+                f"/stay/{stay_id}",
+                content_lastmod(f"stay_{stay_id}.md", f"stay_{stay_id}_ja.md"),
+                "weekly",
+                "0.75",
+            )
 
     unique_entries = {(e["loc"], e["lastmod"], e["changefreq"], e["priority"]): e for e in entries}
     xml_items = []

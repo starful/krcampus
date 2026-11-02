@@ -36,15 +36,22 @@
 <main class="detail-container" style="margin-top: 40px;">
 
     {# 뒤로가기 버튼 #}
-    <a href="{{ '/guide' if item_type == 'guide' else ('/universities' if item_type == 'university' else '/schools') }}?lang={{ current_lang }}" class="back-to-list-btn">
+    <a href="{% if item_type == 'guide' %}/guide{% elif item_type == 'stay' %}{{ '/stays' if show_stays_ui else '/guide' }}{% elif item_type == 'university' %}/universities{% else %}/schools{% endif %}?lang={{ current_lang }}" class="back-to-list-btn">
         <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/></svg>
-        <span>{{ ui.back_to_list }}</span>
+        <span>{{ ui.back_to_stays if item_type == 'stay' and show_stays_ui else ui.back_to_list }}</span>
     </a>
 
     <div class="detail-header">
         {% if item_type == 'guide' %}
             <span class="detail-category">{{ item.get('category', 'Guide') }}</span>
             <h1 class="detail-title">{{ item.get('title', 'Guide Detail') }}</h1>
+        {% elif item_type == 'stay' %}
+            <span class="detail-category">{{ stay_type_label }}</span>
+            <h1 class="detail-title">{{ item.get('basic_info', {}).get('name_en') or item.get('basic_info', {}).get('name_ko') }}</h1>
+            <p style="color: var(--text-gray); display: flex; align-items: center; gap: 8px;">
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
+                {{ item.get('basic_info', {}).get('address', 'Address not available') }}
+            </p>
         {% else %}
             <span class="detail-category">{{ ui.university if item_type == 'university' else ui.language_school }}</span>
             <h1 class="detail-title">{{ item.get('title') or item.get('basic_info', {}).get('name_ja') or item.get('basic_info', {}).get('name_en') or item.get('basic_info', {}).get('name_ko') }}</h1>
@@ -91,7 +98,28 @@
     {% endif %}
 
     {# 학교/대학 정보 그리드 #}
-    {% if item_type != 'guide' %}
+    {% if item_type == 'stay' %}
+    <div class="info-grid">
+        <div class="info-item">
+            <div class="info-label">{{ ui.stay_label_operator }}</div>
+            <div class="info-value">{{ item.get('basic_info', {}).get('operator') or '—' }}</div>
+        </div>
+        <div class="info-item">
+            <div class="info-label">{{ ui.stay_label_type }}</div>
+            <div class="info-value">{{ stay_type_label }}</div>
+        </div>
+        <div class="info-item">
+            <div class="info-label">{{ ui.stay_label_rent }}</div>
+            <div class="info-value">
+                {% if item.get('rent') and item.get('rent').get('min') and item.get('rent').get('max') %}
+                    ₩{{ "{:,}".format(item.get('rent').get('min')) }} – ₩{{ "{:,}".format(item.get('rent').get('max')) }}
+                {% else %}
+                    {{ ui.stay_rent_see_operator }}
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    {% elif item_type != 'guide' %}
     <div class="info-grid">
         <div class="info-item">
             <div class="info-label">{{ ui.capacity }}</div>
@@ -116,6 +144,10 @@
 
     {% if item_type in ('guide', 'school', 'university') %}
     {% include 'partials/affiliate_box.html' %}
+    {% endif %}
+
+    {% if item_type == 'stay' %}
+    {% include 'partials/a8_housing_banners.html' %}
     {% endif %}
 
     {# 본문 내용 #}

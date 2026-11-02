@@ -18,8 +18,34 @@
         <p style="color: var(--text-gray); font-size: 1.1rem;">{{ description }}</p>
     </div>
 
+    {% if show_a8_housing %}
+    {% include 'partials/a8_housing_banners.html' %}
+    {% endif %}
+
     <div class="card-grid">
         {% for item in items %}
+        {% if item_type == 'stay' %}
+        <a href="{{ item.link }}" class="card stay-card{% if item.is_new %} is-new-content{% endif %}" data-stay-id="{{ item.id }}" data-stay-type="{{ item.stay_type }}">
+            <div class="card-img">
+                <img src="{{ item.thumbnail }}" alt="{{ item.basic_info.name_en or item.basic_info.name_ko }}" loading="lazy" decoding="async" class="card-thumb">
+                {% if item.is_new %}<span class="badge-new">New</span>{% endif %}
+                <span class="card-badge" style="color: var(--primary);">{{ ui.stay_badge }}</span>
+            </div>
+            <div class="card-body">
+                <h4>{{ item.basic_info.name_en or item.basic_info.name_ko }}</h4>
+                <div class="card-meta">
+                    <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"></path></svg>
+                    <span>{{ item.basic_info.address }}</span>
+                </div>
+                <p style="font-size: 0.85rem; color: var(--text-gray); margin-top: 8px;">
+                    {{ ui.get('stay_type_' ~ item.stay_type, item.stay_type) }}
+                    {% if item.rent and item.rent.min %}
+                    · ₩{{ "{:,}".format(item.rent.min) }}{{ ui.per_month }}
+                    {% endif %}
+                </p>
+            </div>
+        </a>
+        {% else %}
         <a href="{{ item.link }}" class="card{% if item_type != 'guide' %} school-card{% endif %}{% if item.is_new %} is-new-content{% endif %}"{% if item_type != 'guide' %} data-school-id="{{ item.id }}"{% endif %}>
             <div class="card-img">
                 <img src="{{ item.thumbnail }}" alt="{{ item.title or item.basic_info.name_display or item.basic_info.name_en or item.basic_info.name_ko }}" loading="lazy" decoding="async" class="card-thumb">
@@ -49,6 +75,7 @@
             </div>
             {% endif %}
         </a>
+        {% endif %}
         {% endfor %}
     </div>
 </main>

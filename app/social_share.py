@@ -6,7 +6,7 @@ import re
 import urllib.request
 from urllib.parse import quote
 
-from app.content_service import load_guide_post, load_school_post
+from app.content_service import load_guide_post, load_school_post, load_stay_post
 from app.thumbnails import assign_thumbnails, resolve_guide_detail_thumbnail
 
 SOCIAL_CARD_VERSION = "1"
@@ -14,8 +14,8 @@ _FETCH_UA = "KRCampus/1.0 (+https://krcampus.net)"
 
 
 def social_image_path(kind: str, identifier: str) -> str:
-    if kind == "guide":
-        safe = "guide-" + re.sub(r"[^a-z0-9_-]", "", identifier.lower())
+    if kind in ("guide", "stay"):
+        safe = f"{kind}-" + re.sub(r"[^a-z0-9_-]", "", identifier.lower())
     else:
         safe = re.sub(r"[^a-z0-9_-]", "", identifier.lower())
     return f"/social/{safe}.jpg"
@@ -26,7 +26,7 @@ def social_image_url(domain: str, kind: str, identifier: str) -> str:
 
 
 def detail_page_path(kind: str, identifier: str, lang: str) -> str:
-    segment = "school" if kind == "school" else "guide"
+    segment = kind if kind in ("school", "stay") else "guide"
     path = f"/{segment}/{identifier}"
     return f"{path}?lang=ja" if lang == "ja" else path
 
@@ -99,6 +99,14 @@ def load_guide_item(slug: str, lang: str) -> dict:
     item = dict(post.metadata)
     item.setdefault("id", slug)
     item["thumbnail"] = resolve_guide_detail_thumbnail(item)
+    return item
+
+
+def load_stay_item(stay_id: str, lang: str) -> dict:
+    post, _ = load_stay_post(stay_id, lang)
+    item = dict(post.metadata)
+    item.setdefault("id", stay_id)
+    assign_thumbnails([item], "stay")
     return item
 
 

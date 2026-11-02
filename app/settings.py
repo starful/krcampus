@@ -33,6 +33,9 @@ REDIRECT_MAP_PATH = Path(BASE_DIR) / "redirects.json"
 FAMILY_SITE_ID = "krcampus"
 SITE_NAME = "KR Campus"
 
+# Student housing (/stay/{id}, /stays) — off until stay content exists.
+SHOW_STAYS_UI = os.getenv("SHOW_STAYS_UI", "0").strip().lower() in {"1", "true", "yes", "on"}
+
 SCHOOL_ID_ALIASES = {
     "univ_ulsan-national-institute-of-science-and-technology": "univ_unist-ulsan-national-institute-of-science-and-technology",
     "univ_ulsan-national-institute-of-science-and-technology-unist": "univ_unist-ulsan-national-institute-of-science-and-technology",

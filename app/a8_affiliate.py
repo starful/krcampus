@@ -116,6 +116,33 @@ def _copy(banner_id: str, *, lang: str) -> dict[str, str]:
     }
 
 
+def a8_housing_context(
+    *,
+    page_kind: str = "stays_list",
+    lang: str = "en",
+    stay_id: str = "",
+) -> dict[str, Any]:
+    """Agoda CTA on the student-housing list/detail pages (no Korea share-house A8 program yet)."""
+    if not _enabled():
+        return {
+            "show_a8_housing": False,
+            "a8_housing_banners": [],
+            "a8_housing_note": "",
+            "a8_housing_title": "",
+            "a8_housing_desc": "",
+        }
+
+    is_ja = (lang or "en").lower().startswith("ja")
+    banner = _copy("agoda", lang=lang)
+    return {
+        "show_a8_housing": True,
+        "a8_housing_banners": [banner],
+        "a8_housing_title": "留学生向け住居パートナー（広告）" if is_ja else "Student housing partners",
+        "a8_housing_desc": "",
+        "a8_housing_note": "アフィリエイト広告 · 新しいタブで開きます" if is_ja else "Affiliate ads · opens in new tab",
+    }
+
+
 def a8_banners_context(
     *,
     slug: str = "",
