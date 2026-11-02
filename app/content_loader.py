@@ -22,6 +22,19 @@ def _apply_lang_to_schools(schools, lang):
     return schools
 
 
+def _read_stays_json(file_path):
+    with open(file_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+        return data.get("stays", []), data.get("last_updated", "")
+
+
+def _apply_lang_to_stays(stays, lang):
+    for stay in stays:
+        sid = stay.get("id", "")
+        stay["link"] = f"/stay/{sid}?lang={lang}"
+    return stays
+
+
 @lru_cache(maxsize=4)
 def load_school_data(lang="en"):
     en_path = os.path.join(STATIC_DIR, "json", "schools_data.json")
@@ -35,6 +48,27 @@ def load_school_data(lang="en"):
             schools, updated = _read_schools_json(en_path)
             return _apply_lang_to_schools(schools, "ja"), updated
         return _read_schools_json(en_path)
+    except Exception as e:
+        print(f"Error loading data: {e}")
+        return [], ""
+
+
+@lru_cache(maxsize=4)
+def load_stay_data(lang="en"):
+    """Student housing list data — app/static/json/stays_data.json (empty until seeded)."""
+    en_path = os.path.join(STATIC_DIR, "json", "stays_data.json")
+    if not os.path.exists(en_path):
+        return [], None
+    try:
+        if lang == "ja":
+            ja_path = os.path.join(STATIC_DIR, "json", "stays_data_ja.json")
+            if os.path.exists(ja_path):
+                stays, updated = _read_stays_json(ja_path)
+                if stays:
+                    return stays, updated
+            stays, updated = _read_stays_json(en_path)
+            return _apply_lang_to_stays(stays, "ja"), updated
+        return _read_stays_json(en_path)
     except Exception as e:
         print(f"Error loading data: {e}")
         return [], ""

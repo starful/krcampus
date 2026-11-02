@@ -36,6 +36,10 @@ def resolve_guide_path(slug: str, lang: str) -> str | None:
     return resolve_content_path(f"guide_{slug}", lang)
 
 
+def resolve_stay_path(stay_id: str, lang: str) -> str | None:
+    return resolve_content_path(f"stay_{stay_id}", lang)
+
+
 def load_post(md_path: str):
     return frontmatter.load(md_path)
 
@@ -55,4 +59,11 @@ def load_guide_post(slug: str, lang: str):
     md_path = resolve_guide_path(slug, lang)
     if not md_path:
         raise FileNotFoundError(slug)
+    return load_post(md_path), md_path
+
+
+def load_stay_post(stay_id: str, lang: str):
+    md_path = resolve_stay_path(stay_id, lang)
+    if not md_path:
+        raise FileNotFoundError(stay_id)
     return load_post(md_path), md_path

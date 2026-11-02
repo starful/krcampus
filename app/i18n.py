@@ -74,6 +74,20 @@ _UI_JA = {
     "editorial_note_title": "編集メモ・出典",
     "last_reviewed": "最終確認:",
     "editorial_note_body": "本ガイドは公開情報と公式案内を基に整理しています。ビザ・学費・制度は変更されるため、申請前に必ず公式サイトで最新内容を確認してください。誤りを見つけた場合はお問い合わせください。",
+    "stays_list_title": "留学生向け住居",
+    "stays_list_desc": "ゴシウォン・シェアハウス・ワンルームなど、韓国留学生向けの住居情報です。",
+    "meta_stays_title": "韓国留学生向け住居一覧 | KR Campus",
+    "meta_stays_desc": "ゴシウォン・シェアハウス・ワンルームなど、韓国留学生向けの住居情報をまとめました。",
+    "stay_badge": "住居",
+    "back_to_stays": "住居一覧に戻る",
+    "stay_type_guesthouse": "ゲストハウス",
+    "stay_type_share_house": "シェアハウス",
+    "stay_type_monthly_stay": "マンスリー",
+    "stay_label_operator": "運営",
+    "stay_label_type": "タイプ",
+    "stay_label_rent": "月額費用",
+    "stay_rent_see_operator": "運営元で確認",
+    "per_month": "/月",
 }
 
 _UI_EN = {
@@ -156,6 +170,20 @@ _UI_EN = {
     "editorial_note_title": "Editorial note & sources",
     "last_reviewed": "Last reviewed:",
     "editorial_note_body": "This guide is compiled from public and official information for international students. Visas, fees, and rules change — confirm details on official sites before you apply. Contact us if you spot an error.",
+    "stays_list_title": "Student Housing",
+    "stays_list_desc": "Goshiwons, share houses, and studios for international students in Korea.",
+    "meta_stays_title": "Student Housing in Korea | KR Campus",
+    "meta_stays_desc": "Browse goshiwons, share houses, and studios for international students in Korea.",
+    "stay_badge": "Housing",
+    "back_to_stays": "Back to Housing",
+    "stay_type_guesthouse": "Guesthouse",
+    "stay_type_share_house": "Share house",
+    "stay_type_monthly_stay": "Monthly stay",
+    "stay_label_operator": "Operator",
+    "stay_label_type": "Type",
+    "stay_label_rent": "Monthly rent",
+    "stay_rent_see_operator": "See operator site",
+    "per_month": "/mo",
 }
 
 

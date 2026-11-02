@@ -14,6 +14,7 @@ from app.social_share import (
     fetch_social_jpeg,
     load_guide_item,
     load_school_item,
+    load_stay_item,
     resolve_thumbnail_url,
     share_context,
 )
@@ -34,6 +35,9 @@ def _render_social_image(kind: str, identifier: str, lang: str) -> Response:
     if kind == "school":
         item, item_type = load_school_item(identifier, lang)
         source = resolve_thumbnail_url(DOMAIN, item, item_type, gcs_base=GCS_IMAGE_BASE)
+    elif kind == "stay":
+        item = load_stay_item(identifier, lang)
+        source = resolve_thumbnail_url(DOMAIN, item, "stay", gcs_base=GCS_IMAGE_BASE)
     else:
         item = load_guide_item(identifier, lang)
         source = resolve_thumbnail_url(
@@ -85,6 +89,8 @@ async def social_image(image_key: str, lang: str = Query("en")):
         return FileResponse(static_path, media_type="image/jpeg", headers=_social_image_headers())
     if image_key.startswith("guide-"):
         return _render_social_image("guide", image_key[6:], lang)
+    if image_key.startswith("stay-"):
+        return _render_social_image("stay", image_key[5:], lang)
     return _render_social_image("school", image_key, lang)
 
 
@@ -130,6 +136,28 @@ async def guide_social_card(request: Request, slug: str, lang: str = Query("en")
         "seo_desc": build_meta_description(
             desc_raw,
             "Actionable study-in-Korea guide with practical decisions and student checklists.",
+        ),
+        "page_url": page,
+        "card_url": card,
+        **ctx,
+    })
+
+
+@router.api_route("/card/stay/{stay_id}", methods=["GET", "HEAD"], response_class=HTMLResponse)
+async def stay_social_card(request: Request, stay_id: str, lang: str = Query("en")):
+    item = load_stay_item(stay_id, lang)
+    basic = item.get("basic_info", {})
+    title = item.get("title") or basic.get("name_en") or basic.get("name_ko") or "Student Housing"
+    ctx = share_context(DOMAIN, "stay", stay_id, title, lang)
+    page = f"{DOMAIN}{detail_page_path('stay', stay_id, lang)}"
+    card = f"{DOMAIN}{card_page_path('stay', stay_id, lang)}"
+    return templates.TemplateResponse(request, "social_card.html", {
+        "lang": lang,
+        "title": title,
+        "seo_title": build_meta_title(title, lang),
+        "seo_desc": build_meta_description(
+            item.get("description", ""),
+            "Foreigner-friendly student housing near Korean language schools and universities.",
         ),
         "page_url": page,
         "card_url": card,

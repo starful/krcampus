@@ -38,6 +38,13 @@ SCHOOL_THUMBNAILS = [
     "https://images.unsplash.com/photo-1559077138-3e27e1cdb95a?w=500", "https://images.unsplash.com/photo-1598368195835-91e67f80c9d7?w=500",
 ]
 
+STAY_THUMBNAILS = [
+    "https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=500", "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=500",
+    "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=500", "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=500",
+    "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=500", "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=500",
+    "https://images.unsplash.com/photo-1554995207-c18c203602cb?w=500", "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=500",
+]
+
 GUIDE_THUMBNAILS = [
     "https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?w=500", "https://images.unsplash.com/photo-1610312278520-bcc893a3ff1d?w=500",
     "https://images.unsplash.com/photo-1590559899731-a382839e5549?w=500", "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=500",
@@ -121,7 +128,12 @@ def resolve_guide_thumbnail(meta) -> str:
 
 
 def assign_thumbnails(items, item_category="school"):
-    thumb_pool = UNIV_THUMBNAILS if item_category == "university" else SCHOOL_THUMBNAILS
+    if item_category == "university":
+        thumb_pool = UNIV_THUMBNAILS
+    elif item_category == "stay":
+        thumb_pool = STAY_THUMBNAILS
+    else:
+        thumb_pool = SCHOOL_THUMBNAILS
     for item in items:
         if not item.get("thumbnail"):
             item_id = str(item.get("id", "default_id"))

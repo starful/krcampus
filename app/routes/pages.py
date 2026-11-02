@@ -5,10 +5,10 @@ from fastapi.responses import HTMLResponse, RedirectResponse
 
 from app.analytics import client_id_for_request, track_event
 from app.compare import build_compare_export, compare_fee_value, prepare_compare_items
-from app.content_loader import load_guides, load_school_data
+from app.content_loader import load_guides, load_school_data, load_stay_data
 from app.content_new import enrich_items
-from app.content_service import load_guide_post, load_school_post, render_markdown
-from app.a8_affiliate import a8_banners_context
+from app.content_service import load_guide_post, load_school_post, load_stay_post, render_markdown
+from app.a8_affiliate import a8_banners_context, a8_housing_context
 from app.affiliate import affiliate_context
 from app.context import (
     default_updated_at,
@@ -27,7 +27,14 @@ from app.related import pick_compare_guides, pick_related_guides, pick_related_s
 from app.seo.faq_schema import guide_faq_json_ld
 from app.seo.meta import build_canonical_url, build_hreflang_urls, build_meta_description, build_meta_title
 from app.seo.serp_overrides import apply_guide_serp_overrides
-from app.settings import DOMAIN, FAMILY_SITE_ID, KRCAMPUS_GOOGLE_MAPS_API_KEY, SCHOOL_ID_ALIASES, SITE_NAME
+from app.settings import (
+    DOMAIN,
+    FAMILY_SITE_ID,
+    KRCAMPUS_GOOGLE_MAPS_API_KEY,
+    SCHOOL_ID_ALIASES,
+    SHOW_STAYS_UI,
+    SITE_NAME,
+)
 from app.social_share import share_context
 from app.thumbnails import assign_thumbnails, diversify_guide_thumbnails, resolve_guide_detail_thumbnail
 
@@ -170,6 +177,50 @@ async def guide_detail(request: Request, slug: str, lang: str = Query("en")):
     })
 
 
+@router.get("/stay/{stay_id}", response_class=HTMLResponse)
+async def stay_detail(request: Request, stay_id: str, lang: str = Query("en")):
+    try:
+        post, _ = load_stay_post(stay_id, lang)
+    except FileNotFoundError:
+        raise HTTPException(status_code=404, detail="Stay content file not found")
+
+    content_html = render_markdown(post.content)
+    item = dict(post.metadata)
+    item.setdefault("id", stay_id)
+    assign_thumbnails([item], "stay")
+
+    basic = item.get("basic_info") or {}
+    share_title = item.get("title") or basic.get("name_en") or basic.get("name_ko") or "Student Housing"
+    ctx = share_context(DOMAIN, "stay", stay_id, share_title, lang)
+
+    stay_type = item.get("stay_type", "guesthouse")
+    ui = get_ui_text(lang)
+    stay_type_label = ui.get(f"stay_type_{stay_type}", stay_type)
+
+    return templates.TemplateResponse(request, "detail.html", {
+        "item": item, "item_type": "stay",
+        "stay_type_label": stay_type_label,
+        "content_body": content_html, "current_lang": lang, "ui": ui,
+        "show_stays_ui": SHOW_STAYS_UI,
+        "canonical_url": build_canonical_url(f"/stay/{stay_id}", lang),
+        "hreflang_urls": build_hreflang_urls(f"/stay/{stay_id}"),
+        "updated_at": default_updated_at(),
+        "related_schools": pick_related_schools(item, lang),
+        "related_guides": pick_related_guides(item, "stay", lang),
+        "meta_title": build_meta_title(item.get("seo_title") or share_title, lang),
+        "meta_description": build_meta_description(
+            item.get("seo_description") or item.get("description", ""),
+            "Foreigner-friendly student housing near Korean language schools and universities.",
+        ),
+        "faq_json_ld": None,
+        "cross_site_links": detail_cross_links(lang, item),
+        **inject_family_context(FAMILY_SITE_ID, lang),
+        **affiliate_context(stay_id, lang=lang, item_type="stay"),
+        **a8_housing_context(page_kind="stay_detail", lang=lang, stay_id=stay_id),
+        **ctx,
+    })
+
+
 @router.get("/schools", response_class=HTMLResponse)
 async def school_list(request: Request, lang: str = Query("en")):
     schools_data, _ = load_school_data(lang)
@@ -209,6 +260,32 @@ async def university_list(request: Request, lang: str = Query("en")):
             "Find university options in Korea with practical comparisons and prep guidance.",
             "Find university options in Korea with practical comparisons and prep guidance.",
         ),
+    })
+
+
+@router.get("/stays", response_class=HTMLResponse)
+async def stay_list(request: Request, lang: str = Query("en")):
+    if not SHOW_STAYS_UI:
+        return RedirectResponse(url=f"/guide?lang={lang}", status_code=302)
+
+    stays_data, _ = load_stay_data(lang)
+    stays = enrich_items(assign_thumbnails(stays_data, "stay"))
+    ui = get_ui_text(lang)
+    return templates.TemplateResponse(request, "list.html", {
+        "items": stays, "item_type": "stay",
+        "title": ui["stays_list_title"],
+        "description": ui["stays_list_desc"],
+        "current_lang": lang, "ui": ui,
+        "show_stays_ui": True,
+        "canonical_url": build_canonical_url("/stays", lang),
+        "hreflang_urls": build_hreflang_urls("/stays"),
+        "updated_at": default_updated_at(),
+        "meta_title": build_meta_title(ui["meta_stays_title"], lang),
+        "meta_description": build_meta_description(
+            ui["meta_stays_desc"],
+            "Browse student housing options across Korea.",
+        ),
+        **a8_housing_context(page_kind="stays_list", lang=lang),
     })
 
 
