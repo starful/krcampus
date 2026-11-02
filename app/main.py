@@ -13,6 +13,7 @@ from app.paths import CONTENT_DIR, STATIC_DIR
 from app.reactions import router as reactions_router
 from app.routes import assets, pages, seo_routes
 from app.settings import DOMAIN, GCS_IMAGE_BASE  # re-exported for scripts/tests
+from app.waitlist import router as waitlist_router
 
 app = FastAPI()
 
@@ -26,6 +27,7 @@ app.middleware("http")(lang_kr_alias_middleware)
 app.middleware("http")(ga4_pageview_middleware)
 
 app.include_router(reactions_router, prefix="/api")
+app.include_router(waitlist_router, prefix="/api")
 app.include_router(assets.router)
 app.include_router(seo_routes.router)
 app.include_router(pages.router)
