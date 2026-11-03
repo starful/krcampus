@@ -1,4 +1,4 @@
-"""A8.net affiliate banners for KR Campus."""
+"""Affiliate banners for KR Campus — Agoda Partners only (A8 KKday/Korean College removed)."""
 
 from __future__ import annotations
 
@@ -36,30 +36,6 @@ _BANNERS: dict[str, dict[str, str]] = {
         "alt_en": "Agoda — hotels",
         "alt_ja": "Agoda — 宿泊",
     },
-    "kkday": {
-        "id": "kkday",
-        "click_url": "https://px.a8.net/svt/ejp?a8mat=4BAH9J+4DRYEI+52F8+5ZMCH",
-        "image_url": "https://www27.a8.net/svt/bgt?aid=260829415265&wid=004&eno=01&mid=s00000023642001006000&mc=1",
-        "pixel_url": "https://www14.a8.net/0.gif?a8mat=4BAH9J+4DRYEI+52F8+5ZMCH",
-        "label_en": "KKday — Korea activities",
-        "label_ja": "KKday — 韓国アクティビティ",
-        "desc_en": "Airport transfers and day tours in Korea.",
-        "desc_ja": "空港送迎・韓国ツアー予約。",
-        "alt_en": "KKday — affiliate",
-        "alt_ja": "KKday — アフィリエイト",
-    },
-    "korean_college": {
-        "id": "korean_college",
-        "click_url": "https://px.a8.net/svt/ejp?a8mat=4BAH9J+3ME0KQ+51XQ+63OY9",
-        "image_url": "https://www23.a8.net/svt/bgt?aid=260829415219&wid=004&eno=01&mid=s00000023579001025000&mc=1",
-        "pixel_url": "https://www18.a8.net/0.gif?a8mat=4BAH9J+3ME0KQ+51XQ+63OY9",
-        "label_en": "Korean College",
-        "label_ja": "コリアンカレッジ",
-        "desc_en": "Online Korean lessons before you arrive.",
-        "desc_ja": "渡航前のオンライン韓国語教室。",
-        "alt_en": "Korean College — affiliate",
-        "alt_ja": "コリアンカレッジ — アフィリエイト",
-    },
 }
 
 
@@ -85,31 +61,20 @@ def _copy(banner_id: str, *, lang: str) -> dict[str, str]:
     src = _BANNERS[banner_id]
     is_ja = (lang or "en").lower().startswith("ja")
     suffix = "ja" if is_ja else "en"
-    key = banner_id.upper()
-    if banner_id == "agoda":
-        try:
-            from agoda_partners import url_for_location
-        except ImportError:
-            from .agoda_partners import url_for_location
-        click = url_for_location(
-            lang=lang,
-            country="kr",
-            default_city=14690,
-        )
-        return {
-            "id": src["id"],
-            "click_url": click,
-            "image_url": "",
-            "pixel_url": "",
-            "label": src[f"label_{suffix}"],
-            "desc": src[f"desc_{suffix}"],
-            "alt": src[f"alt_{suffix}"],
-        }
+    try:
+        from agoda_partners import url_for_location
+    except ImportError:
+        from .agoda_partners import url_for_location
+    click = url_for_location(
+        lang=lang,
+        country="kr",
+        default_city=14690,
+    )
     return {
         "id": src["id"],
-        "click_url": os.getenv(f"A8_{key}_CLICK_URL", src["click_url"]),
-        "image_url": os.getenv(f"A8_{key}_BANNER_URL", src["image_url"]),
-        "pixel_url": os.getenv(f"A8_{key}_PIXEL_URL", src["pixel_url"]),
+        "click_url": click,
+        "image_url": "",
+        "pixel_url": "",
         "label": src[f"label_{suffix}"],
         "desc": src[f"desc_{suffix}"],
         "alt": src[f"alt_{suffix}"],
@@ -161,13 +126,13 @@ def a8_banners_context(
     kind = (item_type or "guide").strip().lower()
     keys: list[str] = []
 
-    if kind in ("school", "university"):
-        keys = ["agoda", "korean_college"]
-    elif key in GUIDE_A8_KKDAY:
-        keys = ["agoda", "kkday"]
-    elif key in GUIDE_A8_LANGUAGE:
-        keys = ["agoda", "korean_college"]
-    elif key in GUIDE_A8_AGODA:
+    # Agoda only — KKday / Korean College (px.a8.net) removed.
+    if (
+        kind in ("school", "university")
+        or key in GUIDE_A8_KKDAY
+        or key in GUIDE_A8_LANGUAGE
+        or key in GUIDE_A8_AGODA
+    ):
         keys = ["agoda"]
 
     if not keys:
