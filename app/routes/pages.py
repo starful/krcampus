@@ -9,6 +9,7 @@ from app.content_loader import load_guides, load_school_data, load_stay_data
 from app.content_new import enrich_items
 from app.content_service import load_guide_post, load_school_post, load_stay_post, render_markdown
 from app.a8_affiliate import a8_banners_context, a8_housing_context
+from app.amazon_affiliate import amazon_context, kind_for as amazon_kind_for
 from app.affiliate import affiliate_context
 from app.context import (
     default_updated_at,
@@ -136,6 +137,7 @@ async def read_school_detail(request: Request, school_id: str, lang: str = Query
         **inject_family_context(FAMILY_SITE_ID, lang),
         **affiliate_context(school_id, lang=lang, item_type=item_type),
         **a8_banners_context(slug=school_id, lang=lang, item_type=item_type),
+        **amazon_context(kind=amazon_kind_for(school_id, item_type), lang=lang),
         **ctx,
     })
 
@@ -172,6 +174,7 @@ async def guide_detail(request: Request, slug: str, lang: str = Query("en")):
         "cross_site_links": detail_cross_links(lang, item),
         **affiliate_context(slug, lang=lang),
         **a8_banners_context(slug=slug, lang=lang, item_type="guide"),
+        **amazon_context(kind=amazon_kind_for(slug, "guide"), lang=lang),
         **inject_family_context(FAMILY_SITE_ID, lang),
         **ctx,
     })
