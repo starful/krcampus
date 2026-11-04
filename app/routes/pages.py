@@ -288,7 +288,6 @@ async def stay_list(request: Request, lang: str = Query("en")):
             ui["meta_stays_desc"],
             "Browse student housing options across Korea.",
         ),
-        **a8_housing_context(page_kind="stays_list", lang=lang),
     })
 
 

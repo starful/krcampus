@@ -1,5 +1,7 @@
-{# Housing affiliate partners — Agoda stays near the student's campus/area #}
-{% if show_a8_housing and a8_housing_banners %}
+{# One housing place: Agoda (+ Amazon when provided). #}
+{% set _house = a8_housing_banners if (show_a8_housing and a8_housing_banners) else [] %}
+{% set _amz = amazon_cta if (show_amazon and amazon_cta) else None %}
+{% if _house or _amz %}
 <aside class="a8-banners a8-housing affiliate-box affiliate-box--a8"
        role="complementary"
        aria-label="{{ '提携住居広告' if current_lang == 'ja' else 'Affiliate housing' }}">
@@ -10,25 +12,38 @@
     <p class="affiliate-box__desc">{{ a8_housing_desc }}</p>
     {% endif %}
     <div class="a8-banners__grid">
-        {% for banner in a8_housing_banners %}
+        {% for banner in _house %}
         <div class="a8-banners__item a8-banners__item--{{ banner.id }}">
             <a class="a8-banners__link"
                href="{{ banner.click_url }}"
                target="_blank"
                rel="nofollow sponsored noopener noreferrer"
                title="{{ banner.label }}{% if banner.desc %} — {{ banner.desc }}{% endif %}"
-               data-track="affiliate_a8"
+               data-track="affiliate_agoda"
                data-track-label="{{ banner.id }}">
                 <span class="a8-banners__label">{{ banner.label }}</span>
                 {% if banner.desc %}
                 <span class="a8-banners__desc">{{ banner.desc }}</span>
                 {% endif %}
             </a>
-            {% if banner.pixel_url %}
-            <img class="a8-affiliate-pixel" src="{{ banner.pixel_url }}" width="1" height="1" alt="" aria-hidden="true">
-            {% endif %}
         </div>
         {% endfor %}
+        {% if _amz %}
+        <div class="a8-banners__item a8-banners__item--amazon">
+            <a class="a8-banners__link"
+               href="{{ _amz.click_url }}"
+               target="_blank"
+               rel="nofollow sponsored noopener noreferrer"
+               title="{{ _amz.label }}{% if _amz.desc %} — {{ _amz.desc }}{% endif %}"
+               data-track="affiliate_amazon"
+               data-track-label="{{ _amz.keyword }}">
+                <span class="a8-banners__label">{{ _amz.label }}</span>
+                {% if _amz.desc %}
+                <span class="a8-banners__desc">{{ _amz.desc }}</span>
+                {% endif %}
+            </a>
+        </div>
+        {% endif %}
     </div>
     {% if a8_housing_note %}
     <p class="affiliate-box__note">{{ a8_housing_note }}</p>
