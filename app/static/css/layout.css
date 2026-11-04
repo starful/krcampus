@@ -144,6 +144,7 @@
 .detail-content table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 25px 0; border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
 .detail-content th { background: #f8fafc; padding: 15px; font-weight: 700; text-align: left; }
 .detail-content td { padding: 15px; border-bottom: 1px solid var(--border); }
+.detail-content img { max-width: 100%; height: auto; }
 .detail-cta-panel {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
