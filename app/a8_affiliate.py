@@ -127,8 +127,9 @@ def a8_banners_context(
     keys: list[str] = []
 
     # Agoda only — KKday / Korean College (px.a8.net) removed.
+    # List pages pass item_type without a slug; still show one Agoda slot.
     if (
-        kind in ("school", "university")
+        kind in ("school", "university", "guide")
         or key in GUIDE_A8_KKDAY
         or key in GUIDE_A8_LANGUAGE
         or key in GUIDE_A8_AGODA
