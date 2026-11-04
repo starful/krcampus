@@ -43,9 +43,12 @@
   "tuition": {
     "admission_fee": 0,
     "yearly_tuition": 6200000
-  }
+  },
+  "seo_title": "UNIST: 100% English Science & Tech Degrees in Korea",
+  "seo_description": "UNIST Korea: 100% English science & engineering degrees, scholarships, international student support & campus life. Top tech university."
 }
 ---
+
 # Master Guide to UNIST: The Ultimate Study-Abroad Handbook
 
 Ulsan National Institute of Science and Technology (UNIST) is one of South Korea's four prestigious public universities dedicated to science and technology. Founded to become a world-leading research institution, UNIST has rapidly established itself as a global powerhouse in engineering and natural sciences. This guide offers an in-depth look at UNIST's academic programs, scholarships, admissions, and student life for international applicants.

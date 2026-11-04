@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "korean-study-apps",
-  "title": "Best Korean Learning Apps 2026 | Learn Fast Before Your Trip",
+  "title": "Best Korean Learning Apps to Master Korean Before Your Trip",
   "category": "Preparation",
   "tags": [
     "Preparation"
   ],
-  "description": "Master Korean speaking & grammar with top-rated apps. Get conversation-ready before your Korea trip or move. Expert guide with app reviews.",
+  "description": "Master Korean speaking & grammar with expert-reviewed apps. Become conversation-ready before your Korea trip or move. 2026 study guide.",
   "thumbnail": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=500",
   "date": "2026-07-27",
-  "seo_title": "Best Korean Learning Apps to Master Korean Before Your Trip",
-  "seo_description": "Master Korean speaking & grammar with expert-reviewed apps. Become conversation-ready before your Korea trip or move. 2026 study guide."
+  "seo_title": "Best Apps to Learn Korean: Master Hangul & Conversation Before Arrival",
+  "seo_description": "Learn Korean fast: top-rated apps for Hangul, grammar, and conversational speaking. Go from zero to basic fluency before your move. 2026 guide."
 }
 ---
+
 
 
 

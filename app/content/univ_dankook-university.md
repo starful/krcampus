@@ -42,16 +42,17 @@
     "Vibrant campus life with strong industry-academic cooperation in Gyeonggi-do's high-tech valley"
   ],
   "thumbnail": "/static/img/pin-univ.png",
-  "title": "Dankook University 2026: Admission & Tuition Guide | KR Campus",
+  "title": "Dankook University 2026: 40% Admission Rate, English Programs, Tuition & Scholarship Guide",
   "tuition": {
     "admission_fee": 500000,
     "yearly_tuition": 8200000
   },
-  "description": "Dankook University 2026: 40% acceptance rate, dual campuses (IT, biotech, medicine), English tracks & tuition overview for international students.",
-  "seo_title": "Dankook University 2026: 40% Admission Rate, English Programs, Tuition & Scholarship Guide",
-  "seo_description": "Dankook 2026: 40% acceptance rate, English degrees in IT & business, dual campuses, tuition, deadlines & international student support."
+  "description": "Dankook 2026: 40% acceptance rate, English degrees in IT & business, dual campuses, tuition, deadlines & international student support.",
+  "seo_title": "Dankook University: 40% Acceptance Rate, English Degrees & Scholarships for International Students",
+  "seo_description": "Apply to Dankook: 40% acceptance rate, English-taught programs, dual campuses, tuition costs, scholarships & international student support."
 }
 ---
+
 
 **Planning to apply to Dankook University in 2026?** With a 40% acceptance rate, two specialized campuses (Jukjeon for IT and humanities, Cheonan for biotech and medicine), and English-taught tracks like Mobile System Engineering and Global Business Administration, DKU remains one of Korea's most accessible top-tier options for international students. Here's what you need to know before you apply.
 

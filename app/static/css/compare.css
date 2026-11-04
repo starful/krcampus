@@ -79,6 +79,7 @@ body.compare-bar-active {
     align-items: center;
     justify-content: center;
     gap: 16px;
+    padding-bottom: calc(14px + env(safe-area-inset-bottom));
     transform: translateY(100%);
     transition: transform 0.25s ease;
     box-shadow: 0 -8px 30px rgba(0, 0, 0, 0.15);
@@ -386,6 +387,9 @@ body.compare-bar-active {
     .header-compare-btn {
         display: none;
     }
+    body.compare-bar-active {
+        padding-bottom: calc(120px + env(safe-area-inset-bottom));
+    }
     .compare-bar {
         flex-direction: column;
         text-align: center;
@@ -396,4 +400,27 @@ body.compare-bar-active {
     }
     .compare-action-btn {
         width: 100%;
+        min-height: 44px;
     }
+    .compare-toggle-btn {
+        min-height: 40px;
+        padding: 10px 14px;
+    }
+    .compare-remove-col {
+        padding: 8px 2px;
+        margin-top: 2px;
+    }
+    .compare-clear-btn,
+    .compare-open-btn {
+        min-height: 40px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .compare-table-wrap {
+        -webkit-overflow-scrolling: touch;
+    }
+    .compare-page-head h1 {
+        font-size: 1.5rem;
+    }
+}

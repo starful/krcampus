@@ -10,9 +10,12 @@
   "description": "韓国留学の入学時期を徹底比較！3月（春学期）vs 9月（秋学期）どちらを選ぶべき？。韓国留学の準備・手続き・生活に役立つ実務ポイントをKR Campusが整理したガイドです。申請前に必ず公式サイトで最新情報を確認してください。",
   "thumbnail": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=500",
   "date": "2026-07-20",
-  "lang": "ja"
+  "lang": "ja",
+  "seo_title": "韓国留学の入学時期を徹底比較！3月（春学期）vs 9月（秋学期）どちらを選ぶべき？",
+  "seo_description": "3月入学と9月入学を徹底比較：キャンパス体験、出願スケジュール、メリット・デメリットで最適な学期を選択。日本からの留学準備ガイド。"
 }
 ---
+
 
 March vs September Intake in Korea: Choosing Your Start Term
 
