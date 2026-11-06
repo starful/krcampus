@@ -51,7 +51,7 @@ async def sitemap():
             f"/school/{school_id}",
             content_lastmod(f"{school_id}.md", f"{school_id}_ja.md"),
             "weekly",
-            "0.8",
+            "0.9",
         )
 
     guides_en = load_guides("en")

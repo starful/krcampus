@@ -24,7 +24,12 @@ from app.filters import (
     get_school_feature_filters,
 )
 from app.i18n import get_ui_text
-from app.related import pick_compare_guides, pick_related_guides, pick_related_schools
+from app.related import (
+    pick_compare_guides,
+    pick_internal_boost_links,
+    pick_related_guides,
+    pick_related_schools,
+)
 from app.seo.faq_schema import guide_faq_json_ld
 from app.seo.meta import build_canonical_url, build_hreflang_urls, build_meta_description, build_meta_title
 from app.seo.serp_overrides import apply_guide_serp_overrides
@@ -134,6 +139,7 @@ async def read_school_detail(request: Request, school_id: str, lang: str = Query
         ),
         "faq_json_ld": None,
         "cross_site_links": detail_cross_links(lang, item),
+        "internal_boost_links": pick_internal_boost_links(school_id, lang),
         **inject_family_context(FAMILY_SITE_ID, lang),
         **affiliate_context(school_id, lang=lang, item_type=item_type),
         **a8_banners_context(slug=school_id, lang=lang, item_type=item_type),
@@ -172,6 +178,7 @@ async def guide_detail(request: Request, slug: str, lang: str = Query("en")):
         ),
         "faq_json_ld": guide_faq_json_ld(slug, lang),
         "cross_site_links": detail_cross_links(lang, item),
+        "internal_boost_links": pick_internal_boost_links(f"guide:{slug}", lang),
         **affiliate_context(slug, lang=lang),
         **a8_banners_context(slug=slug, lang=lang, item_type="guide"),
         **amazon_context(kind=amazon_kind_for(slug, "guide"), lang=lang),
@@ -217,6 +224,7 @@ async def stay_detail(request: Request, stay_id: str, lang: str = Query("en")):
         ),
         "faq_json_ld": None,
         "cross_site_links": detail_cross_links(lang, item),
+        "internal_boost_links": pick_internal_boost_links(f"stay:{stay_id}", lang),
         **inject_family_context(FAMILY_SITE_ID, lang),
         **affiliate_context(stay_id, lang=lang, item_type="stay"),
         **a8_housing_context(page_kind="stay_detail", lang=lang, stay_id=stay_id),
