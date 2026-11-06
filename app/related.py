@@ -72,6 +72,30 @@ def pick_compare_guides(selected: list[dict], lang: str, limit: int = 4) -> list
     return related[:limit]
 
 
+def pick_internal_boost_links(current_id: str, lang: str, limit: int = 3) -> list[dict]:
+    """Rotate through the full school/university catalog so every detail page
+    picks up internal links over time, not just the first few in list order."""
+    schools, _ = load_school_data(lang)
+    pool = [s for s in schools if s.get("id") and s["id"] != current_id]
+    if not pool:
+        return []
+
+    start = sum(ord(c) for c in current_id) % len(pool)
+    rotated = pool[start:] + pool[:start]
+
+    links = []
+    for school in rotated[:limit]:
+        basic = school.get("basic_info", {}) or {}
+        label = basic.get("name_display") or basic.get("name_en") or basic.get("name_ko") or school["id"]
+        links.append({
+            "id": school["id"],
+            "url": f"/school/{school['id']}?lang={lang}",
+            "emoji": "🎓" if school.get("category") == "university" else "🏫",
+            "label": label,
+        })
+    return links
+
+
 def pick_related_schools(item: dict, lang: str, limit: int = 4) -> list[dict]:
     schools, _ = load_school_data(lang)
     source_text = f"{item.get('title', '')} {item.get('description', '')}"

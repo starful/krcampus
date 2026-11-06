@@ -21,3 +21,22 @@
     </ul>
 </section>
 {% endif %}
+
+{% if internal_boost_links %}
+<section class="cross-site-links internal-boost-links" aria-label="{{ '학교·대학 더 보기' if family_lang == 'ko' else ('もっと学校を見る' if family_lang == 'ja' else 'More schools & universities') }}">
+    <h2 class="cross-site-links__title">
+        {% if family_lang == 'ja' %}もっと学校・大学を見る
+        {% elif family_lang == 'ko' %}학교·대학 더 보기
+        {% else %}More schools & universities{% endif %}
+    </h2>
+    <ul class="cross-site-links__list">
+        {% for link in internal_boost_links %}
+        <li>
+            <a href="{{ link.url }}" data-track="internal_boost_link" data-track-label="{{ link.id }}">
+                <span aria-hidden="true">{{ link.emoji }}</span> {{ link.label }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</section>
+{% endif %}
