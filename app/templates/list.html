@@ -18,6 +18,32 @@
         <p style="color: var(--text-gray); font-size: 1.1rem;">{{ description }}</p>
     </div>
 
+    {% if item_type == 'guide' %}
+    {% set spotlight_slugs = ['korean-job-search-platforms', 'university-english-tracks'] %}
+    {% set spotlight_items = [] %}
+    {% for slug in spotlight_slugs %}
+        {% for g in items %}
+            {% if slug in g.link %}
+                {% set _ = spotlight_items.append(g) %}
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+    {% if spotlight_items %}
+    <section class="guide-spotlight" aria-label="Popular guides">
+        <p class="guide-spotlight-label">{% if current_lang == 'ja' %}人気の留学ガイド{% else %}Popular Guides Right Now{% endif %}</p>
+        <div class="guide-spotlight-grid">
+            {% for g in spotlight_items %}
+            <a href="{{ g.link }}" class="guide-spotlight-card" data-track="guide_spotlight" data-track-label="{{ g.link }}">
+                <h3>{{ g.title }}</h3>
+                <p>{{ g.description | truncate(100) }}</p>
+                <span class="guide-spotlight-cta">{% if current_lang == 'ja' %}続きを読む →{% else %}Read the guide →{% endif %}</span>
+            </a>
+            {% endfor %}
+        </div>
+    </section>
+    {% endif %}
+    {% endif %}
+
     <div class="card-grid">
         {% for item in items %}
         {% if item_type == 'stay' %}

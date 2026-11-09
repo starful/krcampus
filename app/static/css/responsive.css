@@ -20,7 +20,9 @@
     .section-title { font-size: 1.4rem; text-align: center; } 
     .section-header { justify-content: center; flex-direction: column; gap: 10px; } 
     .detail-title, .list-title { font-size: 2rem; text-align: center; }
-    .card-grid, .info-grid { grid-template-columns: 1fr; }
+    .card-grid, .info-grid, .guide-top-highlight { grid-template-columns: 1fr; }
+    .guide-spotlight-grid { grid-template-columns: 1fr; }
+    .quick-summary-box, .quick-related-box { padding: 16px; }
     .quick-actions { grid-template-columns: 1fr; }
     .card { border-radius: 16px; }
     .card-body, .card-footer { padding-left: 16px; padding-right: 16px; }
