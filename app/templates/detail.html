@@ -69,6 +69,53 @@
         {% endif %}
     </div>
 
+    {% if item_type == 'guide' and item.get('id') in ('korean-job-search-platforms', 'university-english-tracks') %}
+    <section class="guide-top-highlight" aria-label="Quick summary and recommended reads">
+        <div class="quick-summary-box">
+            <p class="quick-summary-label">{% if current_lang == 'ja' %}要点まとめ{% else %}Quick Summary{% endif %}</p>
+            {% if item.get('id') == 'korean-job-search-platforms' %}
+            <ul class="quick-summary-list">
+                {% if current_lang == 'ja' %}
+                <li>まずPeopleNJobと大学キャリアセンターから — 外国人向けに作られています。</li>
+                <li>ビザが重要：求職ビザD-10（最長2年）と就労ビザE-7（本採用）の違いを理解しましょう。</li>
+                <li>サラミン・ジョブコリアは求人の80%以上を占めますが韓国語のみ — 翻訳ツールが必須です。</li>
+                <li>TOPIK（4級以上）があれば、必須でなくても書類選考の通過率が上がります。</li>
+                {% else %}
+                <li>Start with PeopleNJob and your university career center — built specifically for foreigners.</li>
+                <li>Visa matters: D-10 (job-seeking, up to 2 years) vs. E-7 (full-time hire) — know which applies to you.</li>
+                <li>Saramin and JobKorea post 80%+ of Korea's jobs, but are Korean-only — bring a translator.</li>
+                <li>A TOPIK score (Level 4+) meaningfully improves callback rates even when not required.</li>
+                {% endif %}
+            </ul>
+            {% else %}
+            <ul class="quick-summary-list">
+                {% if current_lang == 'ja' %}
+                <li>出願にTOPIKは不要ですが、TOEFL・IELTSなどの英語スコアは必須です。</li>
+                <li>代表校：延世大UIC、高麗大DIS、KAIST、梨花女子大スクラントンカレッジ。</li>
+                <li>春入学の出願は毎年8〜9月頃、秋入学は毎年2〜4月頃に開始。</li>
+                <li>学費は1学期2,000〜8,000米ドル、生活費は月800〜1,200米ドルが目安。</li>
+                {% else %}
+                <li>No TOPIK required for admission — but English test scores (TOEFL/IELTS) are mandatory.</li>
+                <li>Top picks: Yonsei UIC, Korea University DIS, KAIST, Ewha Scranton College.</li>
+                <li>Spring intake applications typically open ~Aug–Sep; Fall intake opens ~Feb–Apr.</li>
+                <li>Budget $2,000–$8,000 USD/semester tuition plus $800–$1,200/month living costs.</li>
+                {% endif %}
+            </ul>
+            {% endif %}
+        </div>
+        {% if related_guides %}
+        <div class="quick-related-box">
+            <p class="quick-related-label">{% if current_lang == 'ja' %}あわせて読みたい{% else %}Recommended Next Reads{% endif %}</p>
+            <ul class="quick-related-list">
+                {% for guide in related_guides[:3] %}
+                <li><a href="{{ guide.link }}" data-track="related_guide_top" data-track-label="{{ guide.link }}">{{ guide.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+    </section>
+    {% endif %}
+
     {% if show_agoda_cta and agoda_cta %}
     <aside class="early-agoda-cta" style="margin: 0 0 1.25rem; padding: 1rem 1.1rem; background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 14px; display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; justify-content: space-between;">
       <p style="margin: 0; color: #1e3a5f; font-size: 0.95rem; font-weight: 600; line-height: 1.45; flex: 1 1 220px;">
