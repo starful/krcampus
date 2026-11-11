@@ -90,6 +90,8 @@
 .back-to-list-btn { display: inline-flex; align-items: center; gap: 8px; background: #f1f5f9; color: var(--text-dark); padding: 10px 20px; border-radius: 10px; font-weight: 600; font-size: 0.9rem; margin-bottom: 24px; transition: background-color 0.2s; }
 .back-to-list-btn:hover { background-color: #e2e8f0; }
 .detail-header, .list-header { margin-bottom: 40px; }
+.page-hero-compact { margin-top: 40px; }
+.mobile-scroll-helper { display: none; }
 .detail-title, .list-title { font-size: 2.5rem; font-weight: 800; margin-bottom: 15px; }
 .detail-category { color: var(--primary); font-weight: 700; text-transform: uppercase; font-size: 0.9rem; display: block; }
 .detail-guide-hero {
