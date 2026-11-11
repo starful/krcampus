@@ -5,8 +5,8 @@
 
 {% block content %}
 {# [수정] 헤더가 사라졌으므로 상단 여백을 120px -> 40px로 축소 #}
-<main class="content-wrapper" style="margin-top: 40px;"> 
-    
+<main class="content-wrapper page-hero-compact">
+
     <div style="margin-bottom: 40px;">
         {# [중요] 헤더(로고)가 없으므로 'Back to Map' 버튼이 유일한 네비게이션입니다 #}
         <a href="/?lang={{ current_lang }}" class="back-to-list-btn" style="margin-bottom: 20px;">
@@ -17,6 +17,20 @@
         <h1 style="font-size: 2.5rem; font-weight: 800; margin-bottom: 10px;">{{ title }}</h1>
         <p style="color: var(--text-gray); font-size: 1.1rem;">{{ description }}</p>
     </div>
+
+    {% if items %}
+    {% set mobile_highlight = items[0] %}
+    <section class="mobile-scroll-helper" aria-label="Quick navigation">
+        <a href="{{ mobile_highlight.link }}" class="mobile-scroll-helper-card" data-track="mobile_related_card" data-track-label="{{ mobile_highlight.link }}">
+            <img src="{{ mobile_highlight.thumbnail }}" alt="" loading="lazy" decoding="async">
+            <span class="mobile-scroll-helper-card-body">
+                <span class="mobile-scroll-helper-card-label">{{ ui.mobile_related_label }}</span>
+                <strong>{{ mobile_highlight.title or mobile_highlight.basic_info.name_display or mobile_highlight.basic_info.name_en or mobile_highlight.basic_info.name_ko }}</strong>
+            </span>
+        </a>
+        <a href="#list-results" class="mobile-scroll-cta-btn" data-track="mobile_scroll_cta" data-track-label="list">{{ ui.mobile_scroll_cta }}</a>
+    </section>
+    {% endif %}
 
     {% if item_type == 'guide' %}
     {% set spotlight_slugs = ['korean-job-search-platforms', 'university-english-tracks'] %}
@@ -44,7 +58,7 @@
     {% endif %}
     {% endif %}
 
-    <div class="card-grid">
+    <div class="card-grid" id="list-results">
         {% for item in items %}
         {% if item_type == 'stay' %}
         <a href="{{ item.link }}" class="card stay-card{% if item.is_new %} is-new-content{% endif %}" data-stay-id="{{ item.id }}" data-stay-type="{{ item.stay_type }}">
@@ -101,4 +115,8 @@
         {% endfor %}
     </div>
 </main>
+{% endblock %}
+
+{% block scripts %}
+<script src="/static/js/scroll-depth.js"></script>
 {% endblock %}

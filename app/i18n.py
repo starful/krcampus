@@ -88,6 +88,8 @@ _UI_JA = {
     "stay_label_rent": "月額費用",
     "stay_rent_see_operator": "運営元で確認",
     "per_month": "/月",
+    "mobile_related_label": "こちらもおすすめ",
+    "mobile_scroll_cta": "続きを見る ↓",
 }
 
 _UI_EN = {
@@ -184,6 +186,8 @@ _UI_EN = {
     "stay_label_rent": "Monthly rent",
     "stay_rent_see_operator": "See operator site",
     "per_month": "/mo",
+    "mobile_related_label": "You might also like",
+    "mobile_scroll_cta": "See more below ↓",
 }
 
 

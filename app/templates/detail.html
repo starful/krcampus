@@ -33,7 +33,7 @@
 
 {% block content %}
 {# [수정] 상단 여백 축소 (40px) #}
-<main class="detail-container" style="margin-top: 40px;">
+<main class="detail-container page-hero-compact">
 
     {# 뒤로가기 버튼 #}
     <a href="{% if item_type == 'guide' %}/guide{% elif item_type == 'stay' %}{{ '/stays' if show_stays_ui else '/guide' }}{% elif item_type == 'university' %}/universities{% else %}/schools{% endif %}?lang={{ current_lang }}" class="back-to-list-btn">
@@ -68,6 +68,20 @@
                 data-track-label="{{ item.id }}">{{ ui.compare_add }}</button>
         {% endif %}
     </div>
+
+    {% set mobile_highlight = (related_guides[0] if related_guides else (related_schools[0] if related_schools else none)) %}
+    {% if mobile_highlight %}
+    <section class="mobile-scroll-helper" aria-label="Quick navigation">
+        <a href="{{ mobile_highlight.link }}" class="mobile-scroll-helper-card" data-track="mobile_related_card" data-track-label="{{ mobile_highlight.link }}">
+            <img src="{{ mobile_highlight.thumbnail }}" alt="" loading="lazy" decoding="async">
+            <span class="mobile-scroll-helper-card-body">
+                <span class="mobile-scroll-helper-card-label">{{ ui.mobile_related_label }}</span>
+                <strong>{{ mobile_highlight.title or mobile_highlight.basic_info.name_display or mobile_highlight.basic_info.name_en or mobile_highlight.basic_info.name_ko }}</strong>
+            </span>
+        </a>
+        <a href="#detail-main" class="mobile-scroll-cta-btn" data-track="mobile_scroll_cta" data-track-label="detail">{{ ui.mobile_scroll_cta }}</a>
+    </section>
+    {% endif %}
 
     {% if item_type == 'guide' and item.get('id') in ('korean-job-search-platforms', 'university-english-tracks') %}
     <section class="guide-top-highlight" aria-label="Quick summary and recommended reads">
@@ -198,7 +212,7 @@
     {% endif %}
 
     {# 본문 내용 #}
-    <div class="detail-content">{{ content_body | safe }}</div>
+    <div class="detail-content" id="detail-main">{{ content_body | safe }}</div>
 
     {% include 'partials/editorial_note.html' %}
 
@@ -283,6 +297,7 @@
 {% endblock %}
 
 {% block scripts %}
+<script src="/static/js/scroll-depth.js"></script>
 <script>
     const itemSlug = "{{ item.get('id') }}"; // 현재 페이지의 slug
 
