@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "national-vs-private-korea",
-  "title": "National vs Private Universities in Korea",
+  "title": "National vs Private Universities in Korea: Tuition, Scholarships & Which Fits Your Budget?",
   "category": "Selection",
   "tags": [
     "Selection"
   ],
-  "description": "National vs private universities in Korea — tuition tradeoffs, reputation, and international-student fit.",
+  "description": "Compare Korean national and private universities: tuition costs, scholarships, facilities, and career support. Choose the right fit for your goals.",
   "thumbnail": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=500",
   "date": "2026-08-20",
-  "seo_title": "National vs Private Universities in Korea: Tuition, Scholarships & Which Fits Your Budget?",
-  "seo_description": "Compare Korean national and private universities: tuition costs, scholarships, facilities, and career support. Choose the right fit for your goals."
+  "seo_title": "National vs Private Universities in Korea: Costs & Career Prospects",
+  "seo_description": "National vs Private Korean universities: compare tuition, scholarships, facilities, and campus life. Find the best fit for your budget and goals."
 }
 ---
+
 
 
 # National vs Private Universities in Korea: Tuition, Prestige, and Support Tradeoffs
