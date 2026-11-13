@@ -2,19 +2,20 @@
 {
   "layout": "guide",
   "id": "spring-vs-fall-intake",
-  "title": "韓国留学の入学時期を徹底比較！3月（春学期）vs 9月（秋学期）どちらを選ぶべき？",
+  "title": "3月入学 vs 9月入学：韓国留学で最適な学期を選ぶ【準備ガイド】",
   "category": "Selection",
   "tags": [
     "Selection"
   ],
-  "description": "韓国留学の入学時期を徹底比較！3月（春学期）vs 9月（秋学期）どちらを選ぶべき？。韓国留学の準備・手続き・生活に役立つ実務ポイントをKR Campusが整理したガイドです。申請前に必ず公式サイトで最新情報を確認してください。",
+  "description": "3月と9月の入学タイミング比較：キャンパス体験、出願スケジュール、メリット・デメリット。日本からの留学準備。",
   "thumbnail": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=500",
   "date": "2026-07-20",
   "lang": "ja",
-  "seo_title": "韓国留学の入学時期を徹底比較！3月（春学期）vs 9月（秋学期）どちらを選ぶべき？",
-  "seo_description": "3月入学と9月入学を徹底比較：キャンパス体験、出願スケジュール、メリット・デメリットで最適な学期を選択。日本からの留学準備ガイド。"
+  "seo_title": "3月入学 vs 9月入学：韓国留学で最適な学期を選ぶ【準備ガイド】",
+  "seo_description": "3月と9月の入学タイミング比較：キャンパス体験、出願スケジュール、メリット・デメリット。日本からの留学準備。"
 }
 ---
+
 
 
 March vs September Intake in Korea: Choosing Your Start Term

@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "korean-food-student-budget",
-  "title": "Eat Well for $7-11/Day in Korea: Student Cafeteria Secrets & Budget Food Hacks 2026",
+  "title": "Student Food Budget in Korea: Eat Well for $7–11/Day (Hak-sik to Street Food)",
   "category": "Life",
   "tags": [
     "Life"
   ],
-  "description": "Budget food in Korea: eat well for $7-11/day with cafeteria guides, convenience store hacks & best cheap restaurants for students.",
+  "description": "Korean student food guide: campus cafeterias (hak-sik), convenience stores, street food. Eat well for $7–11/day as international student.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
   "date": "2026-08-20",
-  "seo_title": "Eat Well in Korea for $7-11/Day: Student Cafeteria Guide & Budget Dining Tips",
-  "seo_description": "Eat well for $7-11/day in Korea: student cafeteria secrets, convenience store hacks, and cheap local restaurants for international students."
+  "seo_title": "Student Food Budget in Korea: Eat Well for $7–11/Day (Hak-sik to Street Food)",
+  "seo_description": "Korean student food guide: campus cafeterias (hak-sik), convenience stores, street food. Eat well for $7–11/day as international student."
 }
 ---
+
 
 
 **Eating well in Korea doesn't have to break your budget.** With daily spending as low as 10,000–15,000 KRW, smart students mix campus cafeterias, convenience store hacks, and neighborhood favorites to stretch every won. Here's exactly how to do it.

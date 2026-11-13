@@ -2,19 +2,19 @@
 {
   "layout": "guide",
   "id": "women-universities-korea",
-  "title": "Women's Universities in Korea 2026: Ewha, Sookmyung & Dongguk Comparison & Campus Guide",
+  "title": "Top Women's Universities in Korea: Ewha, Sookmyung & Dongguk Comparison",
   "category": "Selection",
   "tags": [
     "Selection"
   ],
-  "description": "Korea's women's universities compared: Ewha vs Sookmyung vs Dongguk—English programs, tuition, campus life, career networks & visa info.",
+  "description": "Korean women's universities: Ewha, Sookmyung, Dongguk guide. English programs, tuition, scholarships, alumni networks, career support.",
   "thumbnail": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=500",
   "date": "2026-09-28",
-  "seo_title": "Best Women's Universities Korea: Ewha vs Sookmyung vs Dongguk",
-  "seo_description": "Compare Korea's top women's universities: Ewha, Sookmyung, Dongguk. English programs, tuition, scholarships, career networks & campus."
+  "seo_title": "Top Women's Universities in Korea: Ewha, Sookmyung & Dongguk Comparison",
+  "seo_description": "Korean women's universities: Ewha, Sookmyung, Dongguk guide. English programs, tuition, scholarships, alumni networks, career support."
 }
 ---
-
+Choosing a women's university in Korea? Ewha Womans University, Sookmyung Women's University, and Dongguk University each offer distinct advantages: Ewha leads in size and international recognition, Sookmyung excels in design and K-beauty networks, while Dongguk offers accessible tuition with solid academics. Here's what you need to know.
 
 Trying to figure out which women's university in Korea actually fits your major, budget, and visa timeline? Before you dive in, here's the fast version: how Ewha, Sookmyung, and the other top picks stack up on English-taught programs, tuition, and campus life.
 

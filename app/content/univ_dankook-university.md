@@ -42,17 +42,17 @@
     "Vibrant campus life with strong industry-academic cooperation in Gyeonggi-do's high-tech valley"
   ],
   "thumbnail": "/static/img/pin-univ.png",
-  "title": "Dankook University 2026: 40% Admission Rate, English Programs, Tuition & Scholarship Guide",
+  "title": "Dankook University: 40% Acceptance Rate + English Degrees & International Support",
   "tuition": {
     "admission_fee": 500000,
     "yearly_tuition": 8200000
   },
-  "description": "Dankook 2026: 40% acceptance rate, English degrees in IT & business, dual campuses, tuition, deadlines & international student support.",
-  "seo_title": "Dankook University: 40% Acceptance Rate, English Degrees & Scholarships for International Students",
-  "seo_description": "Apply to Dankook: 40% acceptance rate, English-taught programs, dual campuses, tuition costs, scholarships & international student support."
+  "description": "DKU international guide: 40% acceptance rate, English-taught engineering & business programs, dual campuses, tuition, scholarships & student life.",
+  "seo_title": "Dankook University: 40% Acceptance Rate + English Degrees & International Support",
+  "seo_description": "DKU international guide: 40% acceptance rate, English-taught engineering & business programs, dual campuses, tuition, scholarships & student life."
 }
 ---
-
+Looking for an accessible, top-tier Korean university with English-taught programs? Dankook University (DKU) hosts 2,200+ international students and maintains a 40% acceptance rate for overseas applicants. Whether you're interested in IT, engineering, or global business, here's what you need to know about admissions, costs, scholarships, and campus life.
 
 **Planning to apply to Dankook University in 2026?** With a 40% acceptance rate, two specialized campuses (Jukjeon for IT and humanities, Cheonan for biotech and medicine), and English-taught tracks like Mobile System Engineering and Global Business Administration, DKU remains one of Korea's most accessible top-tier options for international students. Here's what you need to know before you apply.
 

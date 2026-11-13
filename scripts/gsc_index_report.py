@@ -71,7 +71,7 @@ def collect_site_urls() -> list[dict[str, str]]:
     return urls
 
 
-def load_credentials():
+def load_credentials(scopes: list[str] | None = None):
     from google.auth.transport.requests import Request as AuthRequest
     from google.oauth2 import service_account
 
@@ -81,7 +81,7 @@ def load_credentials():
             "GOOGLE_APPLICATION_CREDENTIALS가 설정되어 있지 않거나 파일을 찾을 수 없습니다. "
             "Search Console 속성에 사용자로 추가된 서비스 계정 키 파일 경로를 지정하세요."
         )
-    creds = service_account.Credentials.from_service_account_file(cred_path, scopes=SCOPES)
+    creds = service_account.Credentials.from_service_account_file(cred_path, scopes=scopes or SCOPES)
     creds.refresh(AuthRequest())
     return creds
 
