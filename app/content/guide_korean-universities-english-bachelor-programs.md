@@ -2,16 +2,20 @@
 {
   "layout": "guide",
   "id": "korean-universities-english-bachelor-programs",
-  "title": "Top 10 Korean Universities for English-Taught Undergraduate Programs 2026",
+  "title": "Best English-Taught Bachelor's Programs in Korea 2026: Top 10 Universities, Tuition & Scholarships",
   "category": "Selection",
   "tags": [
     "Selection"
   ],
-  "description": "Rank Korea's top 10 universities for English-taught bachelor's degrees: tuition, available majors, entry requirements, and student life.",
+  "description": "Ranked guide to English bachelor's degrees in Korea: top 10 universities compared. Tuition, scholarships, admission requirements.",
   "thumbnail": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=500",
-  "date": "2026-11-07"
+  "date": "2026-11-07",
+  "seo_title": "Best English-Taught Bachelor's Programs in Korea 2026: Top 10 Universities, Tuition & Scholarships",
+  "seo_description": "Ranked guide to English bachelor's degrees in Korea: top 10 universities compared. Tuition, scholarships, admission requirements."
 }
 ---
+
+
 
 # Top 10 Korean Universities for English-Taught Undergraduate Programs 2026
 
