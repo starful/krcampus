@@ -2,16 +2,22 @@
 {
   "layout": "guide",
   "id": "korean-job-search-platforms",
-  "title": "Best Job Search Websites and Apps in Korea for Foreigners",
+  "title": "Best Job Search Platforms for Foreigners in Korea 2026: Visa Sponsorship + English-Friendly Sites",
   "category": "Career",
   "tags": [
     "Career"
   ],
-  "description": "An overview of top job portals, networking apps, and recruitment sites for students and graduates.",
+  "description": "Job hunting as foreigner in Korea: Saramin, JobKorea, LinkedIn, visa sponsorship guides, D-2/D-10 visas, English-friendly job boards.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-08-02"
+  "date": "2026-08-02",
+  "seo_title": "Best Job Search Platforms for Foreigners in Korea 2026: Visa Sponsorship + English-Friendly Sites",
+  "seo_description": "Job hunting as foreigner in Korea: Saramin, JobKorea, LinkedIn, visa sponsorship guides, D-2/D-10 visas, English-friendly job boards."
 }
 ---
+
+
+
+
 
 
 
@@ -97,3 +103,26 @@ Start with PeopleNJob and your university career center for foreigner-friendly l
 Not always — foreign-invested companies, English-medium roles, and some IT positions hire at TOPIK 3–4 or even conversational level — but higher proficiency significantly widens your options across sectors.
 
 Start broad across two or three platforms, but focus real effort on your university's career office and PeopleNJob first — they're built for exactly your situation, and that focus tends to pay off faster than casting a wide net across Korean-only mega-portals alone.
+
+## Visa & Work Permit Requirements for Job Hunting in Korea (2026)
+
+**D-2 (Student) Visa:** Limited to part-time work (20 hours/week during semester). Must apply for work permit at Korean immigration. Not ideal for full-time job hunting until graduation.
+
+**D-10 (Job-Seeking) Visa:** 6 months to find employment with employer sponsorship. Available to recent graduates. Renewable once for an additional 6 months.
+
+**E-1 (English Teaching):** Dedicated teaching visa; fastest path if you speak fluent English for hagwon or corporate roles.
+
+**E-7 (Specific Occupations/Professional):** Reserved for engineers, designers, R&D specialists. Requires job offer and company sponsorship.
+
+**F-2 (Long-Term Residence):** Available after 3+ years in Korea; allows unrestricted job hunting without visa sponsorship requirements.
+
+Most portals in this guide accept applications from any visa status, but sponsorship availability depends heavily on your visa category and employer.
+
+## English-First Job Platforms & Remote Work Options
+
+If Korean language is still building, these platforms serve English speakers and often highlight visa sponsorship:
+
+- **LinkedIn Korea** — Filter by role and company; many multinational firms note visa sponsorship explicitly
+- **We Work Remotely** — Remote tech and creative roles; numerous Korea-based companies hire globally
+- **Angel List** — Korean startup ecosystem; review founder profiles to identify visa-friendly hiring
+- **Wanted** — Korea's startup job board, increasingly English-accessible; company pages often show international hiring status

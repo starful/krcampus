@@ -2,16 +2,20 @@
 {
   "layout": "guide",
   "id": "top-10-english-taught-universities",
-  "title": "Top 10 Korean Universities for English-Taught Programs 2026",
+  "title": "Top 10 English-Taught Universities in Korea (No TOPIK Required) 2026: QS Rankings + Full Tuition Guide",
   "category": "Selection",
   "tags": [
     "Selection"
   ],
-  "description": "Best Korean universities offering English-taught degrees. QS rankings, tuition, program types, and admission requirements for international students.",
+  "description": "No TOPIK needed: study engineering, business, STEM in English at KAIST, SNU, Yonsei, POSTECH. 2026 tuition costs, admissions, visa sponsorship.",
   "thumbnail": "https://krcampus.net/static/images/guide_top-10-english-taught-universities.jpg",
-  "date": "2026-11-03"
+  "date": "2026-11-03",
+  "seo_title": "Top 10 English-Taught Universities in Korea (No TOPIK Required) 2026: QS Rankings + Full Tuition Guide",
+  "seo_description": "No TOPIK needed: study engineering, business, STEM in English at KAIST, SNU, Yonsei, POSTECH. 2026 tuition costs, admissions, visa sponsorship."
 }
 ---
+
+
 # Top 10 Korean Universities for English-Taught Programs 2026
 
 If TOPIK fluency isn't realistic before your application deadline, you still have strong options. South Korea's top universities now run full bachelor's and master's tracks entirely in English, especially in engineering, business, and international studies. Below are the ten best-ranked schools for English-medium instruction (EMI), with tuition, language requirements, and deadlines so you can shortlist fast.
