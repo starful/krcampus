@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "korean-bank-account",
-  "title": "Korean Bank Account for Students: ARC to Account in 3 Days + Foreigner-Friendly Banks 2026",
+  "title": "Open a Korean Bank Account as a Student: ARC, Required Documents & Best Banks 2026",
   "category": "Settlement",
   "tags": [
     "Settlement"
   ],
-  "description": "Step-by-step guide: ARC timing, required documents, best banks for foreigners. Open your Korean bank account in days, not weeks.",
+  "description": "Essential guide to opening a Korean bank account as a student—ARC timing, required docs, best banks for foreigners.",
   "thumbnail": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500",
   "date": "2026-09-04",
-  "seo_title": "Korean Bank Account for Students: ARC to Account in 3 Days + Foreigner-Friendly Banks 2026",
-  "seo_description": "Step-by-step guide: ARC timing, required documents, best banks for foreigners. Open your Korean bank account in days, not weeks."
+  "seo_title": "Open a Korean Bank Account as a Student: ARC, Required Documents & Best Banks 2026",
+  "seo_description": "Essential guide to opening a Korean bank account as a student—ARC timing, required docs, best banks for foreigners."
 }
 ---
+
 
 
 Confused about when you're even allowed to open an account, or which bank to pick as a foreigner? The order of steps matters more than most guides let on — get it wrong and you can lose weeks waiting on tuition refunds, scholarship transfers, or your phone plan setup. Here's the exact sequence, from ARC to activation.
