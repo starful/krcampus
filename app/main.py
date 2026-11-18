@@ -33,3 +33,13 @@ app.include_router(seo_routes.router)
 app.include_router(pages.router)
 
 app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
+
+# Anonymous visit log for Starful HQ「이용자 보기」
+from pathlib import Path as _Path
+try:
+    from visitkit.fastapi_api import register_visitlog
+except ImportError:
+    import sys
+    sys.path.insert(0, str(_Path(__file__).resolve().parents[1]))
+    from visitkit.fastapi_api import register_visitlog
+register_visitlog(app, site_id="krcampus", db_path=_Path(__file__).resolve().parents[1] / "data" / "visitlog.sqlite3")

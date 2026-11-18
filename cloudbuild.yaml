@@ -46,8 +46,8 @@ steps:
       - '--platform=managed'
       - '--allow-unauthenticated'
       - '--port=8080'
-      - '--set-env-vars=GCS_BUCKET_NAME=krcampus,GA_MEASUREMENT_ID=G-ZTC8BNMCRR'
-      - '--set-secrets=KRCAMPUS_GOOGLE_MAPS_API_KEY=KRCAMPUS_GOOGLE_MAPS_API_KEY:latest'
+      - '--set-env-vars=GCS_BUCKET_NAME=krcampus,GA_MEASUREMENT_ID=G-ZTC8BNMCRR,STORE_BACKEND=firestore,FIRESTORE_COLLECTION=krcampus'
+      - '--set-secrets=KRCAMPUS_GOOGLE_MAPS_API_KEY=KRCAMPUS_GOOGLE_MAPS_API_KEY:latest,VISITLOG_SECRET=VISITLOG_SECRET:latest'
     waitFor: ['docker-push'] 
 
 images:
