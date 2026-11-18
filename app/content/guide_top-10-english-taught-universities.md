@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "top-10-english-taught-universities",
-  "title": "Top 10 English-Taught Universities in Korea (No TOPIK Required) 2026: QS Rankings + Full Tuition Guide",
+  "title": "Study in English in Korea (No TOPIK Needed): Top 10 Universities, QS Ranked, Full Tuition Guide",
   "category": "Selection",
   "tags": [
     "Selection"
   ],
-  "description": "No TOPIK needed: study engineering, business, STEM in English at KAIST, SNU, Yonsei, POSTECH. 2026 tuition costs, admissions, visa sponsorship.",
+  "description": "No TOPIK required. QS-ranked English universities in Korea: KAIST, Yonsei, SNU, POSTECH. Compare tuition, deadlines, visa sponsorship.",
   "thumbnail": "https://krcampus.net/static/images/guide_top-10-english-taught-universities.jpg",
   "date": "2026-11-03",
-  "seo_title": "Top 10 English-Taught Universities in Korea (No TOPIK Required) 2026: QS Rankings + Full Tuition Guide",
-  "seo_description": "No TOPIK needed: study engineering, business, STEM in English at KAIST, SNU, Yonsei, POSTECH. 2026 tuition costs, admissions, visa sponsorship."
+  "seo_title": "Study in English in Korea (No TOPIK Needed): Top 10 Universities, QS Ranked, Full Tuition Guide",
+  "seo_description": "No TOPIK required. QS-ranked English universities in Korea: KAIST, Yonsei, SNU, POSTECH. Compare tuition, deadlines, visa sponsorship."
 }
 ---
+
 
 
 # Top 10 Korean Universities for English-Taught Programs 2026

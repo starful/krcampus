@@ -39,15 +39,17 @@
     "Rapidly Rising Global Ranking in Materials Science & Engineering"
   ],
   "thumbnail": "/static/img/pin-univ.png",
-  "title": "Ulsan National Institute of Science and Technology",
+  "title": "UNIST Korea: 100% English Engineering & Science Degrees, Scholarships, International Campus Life 2026",
   "tuition": {
     "admission_fee": 0,
     "yearly_tuition": 6200000
   },
-  "seo_title": "UNIST: 100% English Science & Tech Degrees in Korea",
-  "seo_description": "UNIST Korea: 100% English science & engineering degrees, scholarships, international student support & campus life. Top tech university."
+  "seo_title": "UNIST Korea: 100% English Engineering & Science Degrees, Scholarships, International Campus Life 2026",
+  "seo_description": "UNIST Ulsan: 100% English engineering & science degrees, international scholarships, campus life, Hyundai partnerships.",
+  "description": "UNIST Ulsan: 100% English engineering & science degrees, international scholarships, campus life, Hyundai partnerships."
 }
 ---
+
 
 # Master Guide to UNIST: The Ultimate Study-Abroad Handbook
 

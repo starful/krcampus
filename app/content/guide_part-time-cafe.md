@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "part-time-cafe",
-  "title": "Part-Time Cafe Jobs in Korea for Students: Work Permits, Wages & Essential Korean Phrases 2026",
+  "title": "Cafe Alba Jobs in Korea: Work Permits, Wages, Phrases & Hiring Tips for International Students 2026",
   "category": "Part-time",
   "tags": [
     "Part-time"
   ],
-  "description": "Alba jobs in Korean cafes for international students—work permits, wage expectations, legal limits, essential Korean phrases, employer expectations.",
+  "description": "Part-time cafe jobs (alba) for international students in Korea—work permits, wages, legal requirements, Korean phrases.",
   "thumbnail": "https://images.unsplash.com/photo-1556740758-90de374c12ad?w=500",
   "date": "2026-08-20",
-  "seo_title": "Part-Time Cafe Jobs in Korea for Students: Work Permits, Wages & Essential Korean Phrases 2026",
-  "seo_description": "Alba jobs in Korean cafes for international students—work permits, wage expectations, legal limits, essential Korean phrases, employer expectations."
+  "seo_title": "Cafe Alba Jobs in Korea: Work Permits, Wages, Phrases & Hiring Tips for International Students 2026",
+  "seo_description": "Part-time cafe jobs (alba) for international students in Korea—work permits, wages, legal requirements, Korean phrases."
 }
 ---
+
 
 
 
