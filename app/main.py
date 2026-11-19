@@ -36,10 +36,11 @@ app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
 
 # Anonymous visit log for Starful HQ「이용자 보기」
 from pathlib import Path as _Path
+import logging as _logging
+import sys as _sys
+_sys.path.insert(0, str(_Path(__file__).resolve().parents[1]))
 try:
     from visitkit.fastapi_api import register_visitlog
-except ImportError:
-    import sys
-    sys.path.insert(0, str(_Path(__file__).resolve().parents[1]))
-    from visitkit.fastapi_api import register_visitlog
-register_visitlog(app, site_id="krcampus", db_path=_Path(__file__).resolve().parents[1] / "data" / "visitlog.sqlite3")
+    register_visitlog(app, site_id="krcampus", db_path=_Path(__file__).resolve().parents[1] / "data" / "visitlog.sqlite3")
+except Exception as _exc:  # keep site up if visitkit missing
+    _logging.getLogger("krcampus").warning("visitlog not registered: %s", _exc)
