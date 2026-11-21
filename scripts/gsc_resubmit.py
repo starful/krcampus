@@ -94,6 +94,12 @@ def find_unindexed(limit: int | None) -> list[dict[str, str]]:
 
 
 def publish(session, token: str, url: str) -> dict:
+    # Disabled 2026-11-21: the Indexing API is only for JobPosting/BroadcastEvent pages.
+    # Using it on normal pages is a risk to the whole site in Google Search. Set
+    # ALLOW_INDEXING_API=1 only if a page type it supports is added.
+    if os.environ.get("ALLOW_INDEXING_API") != "1":
+        print("Indexing API disabled (ALLOW_INDEXING_API is not 1); skipped.")
+        return {}
     resp = session.post(
         PUBLISH_ENDPOINT,
         headers={"Authorization": f"Bearer {token}"},
@@ -105,6 +111,9 @@ def publish(session, token: str, url: str) -> dict:
 
 
 def main() -> int:
+    if os.environ.get("ALLOW_INDEXING_API") != "1":
+        print("Indexing API disabled (ALLOW_INDEXING_API is not 1); nothing sent.")
+        return 0
     from google.auth.transport.requests import Request as AuthRequest
 
     parser = argparse.ArgumentParser(description="미색인 URL 우선순위별 재제출")
