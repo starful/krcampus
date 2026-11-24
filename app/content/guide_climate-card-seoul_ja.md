@@ -20,90 +20,89 @@
 }
 ---
 
-# Comprehensive Guide to PostgreSQL Performance Tuning
+# ソウルで暮らす留学生のための「気候同行カード」活用ガイド
 
-PostgreSQL is one of the most powerful, open-source relational database management systems available today. While it is highly capable out of the box, default configurations are typically conservative to ensure compatibility across a wide range of hardware. To unlock its full potential for high-volume, production-grade applications, database administrators and developers must engage in systematic performance tuning. This guide covers database optimization, focusing on system configurations, indexing strategies, query execution analysis, and routine maintenance.
+韓国に来たばかりの留学生にとって、ソウルの充実した公共交通機関を使いこなすことは生活に慣れるための最初の一歩です。大学への通学、弘大（ホンデ）での友人との待ち合わせ、鍾路（チョンノ）の史跡めぐりなど、移動が重なると交通費はすぐにかさみます。そこで役立つのが、ソウル市が提供する定額乗り放題パス「気候同行カード」（韓国語：기후동행카드、英語名 Climate Card）です。
 
-## Understanding the Query Planner and EXPLAIN
-Before optimizing any database, you must understand how PostgreSQL executes queries. The query planner evaluates multiple execution paths and selects the most efficient plan based on table statistics.
-To inspect this plan, use the `EXPLAIN` statement. Adding the `ANALYZE` option executes the query and returns actual runtimes alongside estimated costs:
-sql
-EXPLAIN ANALYZE SELECT * FROM orders WHERE customer_id = 4512 AND status = 'completed';
+このガイドでは、KR Campus が気候同行カードの基本から、学期中・在学中に交通費を大きく節約するコツまでをまとめて紹介します。
 
-Key metrics to look for in the output include:
-* **Sequential Scan (Seq Scan):** The planner reads the entire table from disk. This is slow for large datasets.
-* **Index Scan:** The planner uses an index to locate rows. This is highly efficient.
-* **Bitmap Index Scan:** A hybrid approach that scans indexes first, builds a memory bitmap of matching pages, and then reads those pages.
-* **Actual Time:** The time taken (in milliseconds) to execute each node of the query.
-If the planner miscalculates costs, it is often due to outdated statistics. Running `ANALYZE` manually updates these statistics, allowing the planner to make better choices.
+---
 
-## Key Configuration Parameters
-PostgreSQL's default configurations are designed for minimal hardware. For dedicated database servers, adjusting memory allocation parameters is the most impactful step you can take.
+## 1. 気候同行カードとは？
 
-### Table 1: Key postgresql.conf Parameters
-| Parameter | Default Value | Recommended Setting | Description |
-| :--- | :--- | :--- | :--- |
-| `shared_buffers` | 128MB | 25% of total system RAM | Amount of memory used for shared memory buffers. |
-| `work_mem` | 4MB | 32MB - 64MB (per operation) | Memory allocated for internal sort operations and hash tables. |
-| `maintenance_work_mem` | 64MB | 10% of RAM (up to 2GB) | Memory used for maintenance operations like `VACUUM` and `CREATE INDEX`. |
-| `effective_cache_size` | 4GB | 50% to 75% of system RAM | Guide to the planner on how much memory is available for disk caching. |
-| `random_page_cost` | 4.0 | 1.1 (for SSDs) / 4.0 (for HDDs) | Planner's estimate of the cost of a non-sequentially fetched disk page. |
+気候同行カードは、炭素排出削減を目指すソウル市の環境政策の一環として導入された前払い式の交通パスです。30日間の定額料金で、ソウルの地下鉄・市内バス・公共自転車「タルンイ（따릉이）」が乗り放題になります。
 
-* **Shared Buffers:** Controls memory used to cache data blocks. If your active dataset fits here, disk I/O drops to near zero, speeding up reads.
-* **Work Memory (`work_mem`):** Allocated per query operation (e.g., sort, hash join). If a query exceeds `work_mem`, it spills to disk. Set carefully to avoid exhausting memory.
-* **Random Page Cost (`random_page_cost`):** Modern SSDs have negligible seek times. Reducing this to `1.1` tells the planner that random access is cheap, encouraging index scans.
+D-2（学位課程）や D-4（語学研修など）のビザを持つ留学生にとって、このカードは大きな味方です。ソウルの公共交通の通常運賃は1回1,400ウォンから。平日5日の通学に週末の外出を加えると、月の交通費は70,000ウォンを超えることも珍しくありません。気候同行カードなら交通費の上限が決まるので、安心して自由に移動できます。
 
-## Indexing Strategies for High Performance
-Indices accelerate data retrieval but introduce write overhead. Choosing the correct index type is critical.
+---
 
-### Table 2: PostgreSQL Index Types and Use Cases
-| Index Type | Standard Use Case | Example Query / Operator | Best For |
-| :--- | :--- | :--- | :--- |
-| **B-Tree** | Equality, range, sorting | `=`, `<`, `>`, `BETWEEN` | Default choice for general-purpose queries. |
-| **GIN** | Multi-value data, full-text | `@>`, `@@`, array contains | JSONB, arrays, and full-text search indexing. |
-| **GiST** | Geometric, spatial, ranges | `&&` (overlaps), distance | Geospatial mapping and range types. |
-| **BRIN** | Extremely large ordered datasets | Date/timestamp-ordered tables | Timeseries data with highly correlated columns. |
+## 2. 料金と見逃せない青年割引
 
-To maximize index efficiency:
-1. **Use Covering Indexes (`INCLUDE`):** This allows appending non-key payload columns to a B-Tree index, enabling Index-Only Scans.
-   sql
-   CREATE INDEX idx_orders_customer ON orders(customer_id) INCLUDE (order_total);
-   
-2. **Implement Partial Indexes:** If you frequently query a subset of rows, index only those rows to save space and speed up updates.
-   sql
-   CREATE INDEX idx_active_users ON users(id) WHERE status = 'active';
-   
-3. **Avoid Over-Indexing:** Monitor unused indexes using `pg_stat_user_indexes` and drop them to free disk space and improve write throughput.
+通常料金でも十分お得ですが、19〜34歳の留学生は**青年割引**を利用でき、毎月の交通費をさらに大きく抑えられます。
 
-## Query Optimization Techniques
-Writing clean SQL is as important as configuring the database server. Poorly structured queries bypass indexes and strain resources.
-* **Avoid `SELECT *`:** Only request columns your application needs. This reduces network payload, memory usage, and enables Index-Only Scans.
-* **Use CTEs Wisely:** PostgreSQL handles CTEs efficiently, but complex recursive CTEs can still degrade performance if not monitored.
-* **Optimize Joins:** Ensure foreign keys are indexed. Match data types across join conditions to avoid implicit conversion overhead.
-* **Batch Updates and Deletes:** Modifying millions of rows in one transaction locks tables and bloats logs. Break large operations into smaller batches.
+30日パスを購入・更新する際は、タルンイ（自転車）を含むプランと含まないプランの2種類から選べます。
 
-## Routine Database Maintenance
-PostgreSQL uses Multi-Version Concurrency Control (MVCC). When a row is updated or deleted, the old version remains on disk as a "dead tuple," causing bloat.
-* **Autovacuum Tuning:** Ensure settings are aggressive enough to clean dead tuples and update statistics:
-  ini
-  autovacuum_vacuum_scale_factor = 0.05
-  autovacuum_analyze_scale_factor = 0.02
-  
-* **Reindexing:** Run `REINDEX CONCURRENTLY` to rebuild fragmented indexes in the background without locking reads or writes.
+### 気候同行カードの料金
 
-## Frequently Asked Questions (FAQ)
+| パスの種類 | 通常料金（月額） | 青年割引料金（19〜34歳） |
+| :--- | :--- | :--- |
+| **地下鉄＋バス** | 62,000ウォン | 55,000ウォン |
+| **地下鉄＋バス＋タルンイ（自転車）** | 65,000ウォン | 58,000ウォン |
 
-**Q: How do I identify slow queries in PostgreSQL?**
-A: Enable the `pg_stat_statements` extension. It tracks execution statistics for all SQL statements, allowing you to find queries with high cumulative runtimes.
+青年割引を受けるには年齢の確認が必要です。韓国の学生は簡単に手続きできますが、留学生は外国人登録証（FRC、旧 ARC）を使って T-money 公式サイトに実物カードを登録する必要があります。
 
-**Q: What is the ideal value for `max_connections`?**
-A: High connection counts degrade performance due to lock contention. Keep this value reasonable and use a connection pooler like PgBouncer to manage active connections.
+---
 
-**Q: Why is my index not being used?**
-A: The planner bypasses indexes if it determines a sequential scan is faster. This happens with small tables, queries returning a large percentage of rows, or outdated statistics. Run `ANALYZE` to update statistics.
+## 3. カードの購入と利用開始の手順
 
-**Q: What is table bloat, and how can I fix it?**
-A: Table bloat occurs when deleted or updated rows leave "dead tuples" that occupy physical space. Autovacuum recovers this space. For extreme bloat, use `pg_repack` to rebuild the table without locking.
+留学生は、モバイルカードと実物カードのどちらかを選べます。
 
-**Q: How often should I run `ANALYZE` manually?**
-A: Autovacuum handles this automatically, but you should run `ANALYZE` manually after bulk data loads or major schema changes to ensure planning accuracy.
+### 方法A：モバイルカード（Android のみ）
+Android スマートフォンなら **モバイル T-money** アプリを使えます。
+* アカウントを登録し、気候同行カードを選んで銀行振込で支払います。
+* *注意：* モバイルカードへのチャージには、本人名義の韓国の銀行口座があると便利です。
+
+### 方法B：実物カード（iOS・Android 共通）
+韓国では Apple Pay や iOS の交通カード連携が限られているため、iPhone ユーザーは実物カードを使います。
+1. **カードを購入する：** ソウル地下鉄（1〜8号線）の駅構内にあるお客様センター、または地下鉄出口付近の指定コンビニ（GS25、CU、セブン-イレブン）で購入できます。カード代は**3,000ウォン**（現金のみ）です。
+2. **カードを登録する：** 韓国の T-money サイトでアカウントを作り、カード番号を登録します。青年割引を申請したい場合や、紛失時に払い戻しを受けたい場合は必須の手続きです。
+3. **駅の券売機でチャージする：** ソウルの地下鉄駅にある券売機でカードを読み取り部に置き、「気候同行カード」を選択します。利用開始日（チャージ後5日以内）を選び、現金（ウォン）で支払えば準備完了です。
+
+---
+
+## 4. 利用できる範囲：どこまで乗れる？
+
+気候同行カードはとても便利ですが、首都圏のすべての路線で使えるわけではありません。ソウルの交通網は京畿道や仁川とつながっているため、どこで降りるかに注意が必要です。
+
+### 対象・対象外の一覧
+
+| 交通手段 | 気候同行カードの対象 | 対象外（通常の T-money が必要） |
+| :--- | :--- | :--- |
+| **ソウル地下鉄** | 1〜9号線、牛耳新設線、新林線、京義・中央線、水仁・盆唐線、京春線（ソウル市内の駅） | 新盆唐線（民間運営）、西海線、ソウル市外の駅 |
+| **バス** | ソウルの青・緑・マウル（村）バス、深夜バス | 赤い広域急行バス、京畿道・仁川の路線バス |
+| **自転車** | タルンイ（58,000／65,000ウォンのプランを選んだ場合） | 民間の電動キックボードやほかのレンタル自転車 |
+
+### 利用時の大事なポイント
+* **降車時のタッチに注意：** ソウル市内で地下鉄に乗り、ソウル市外の駅（水原や仁川など）で降りると改札が開きません。駅員を呼び、差額を現金か通常の T-money カードで支払う必要があります。
+* **市境をまたぐバス：** ソウル市に登録されたバス（車体にソウル市のロゴがあるもの）であれば、京畿道に入っても対象になります。
+
+---
+
+## 5. 気候同行カードはあなたにとってお得？
+
+購入するかどうかは、1週間の移動パターンで判断しましょう。大人の基本運賃1,400ウォンを基準にした損益分岐点の目安は次のとおりです。
+
+* **青年割引パスの料金：** 55,000ウォン
+* **1回の運賃：** 1,400ウォン
+* **損益分岐点：** 月およそ40回
+
+平日5日の通学往復のように**週10回以上**公共交通を使うなら、月40回は簡単に超えます。週末の明洞・江南・漢江公園へのお出かけは、実質すべて無料になります。
+
+さらに、春や秋にタルンイを使いたいなら、自転車プランへの追加は月3,000ウォンだけ。漢江沿いの景色のよい道で通学しながら体も動かせる、安くて便利な方法です。
+
+### 気候同行カードを上手に使うためのチェックリスト
+1. **外国人登録証（ARC）を早めに受け取る：** 正式な外国人登録番号がないと、T-money サイトで青年割引を申請できません。
+2. **現金を持ち歩く：** 実物の気候同行カードのチャージは、駅の券売機で現金（ウォン紙幣）のみ受け付けています。
+3. **乗車・降車時は必ずタッチ：** バスや地下鉄を降りるときも必ずカードをタッチしましょう。2回続けて降車タッチを忘れると、カードが18時間利用停止になります。
+
+自分に合った交通パスを選べば、生活費を抑えながらソウルの魅力を存分に楽しめます。韓国での留学生活を楽しんでください！
